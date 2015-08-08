@@ -1,0 +1,3 @@
+performances: adicionar saiba+, atualizar texto
+publicações: remover saiba+ / terá pagina "sobre publicações"?
+noticias e imprensa: deveria ter texto no menu da home, e os links estarem nele, nao no botao do menu

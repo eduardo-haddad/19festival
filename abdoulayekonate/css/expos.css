@@ -1,0 +1,56 @@
+.imagem_expo {
+	text-align: center;
+}
+
+.imagem_expo img {
+	margin-top: 30px;
+	width: 100%;
+	height: 50%;
+}
+
+.imagem_expo figcaption {
+	text-align: center;
+	font-family: Arial;
+}
+
+.titulo_expo {
+	color: #bb6d46;
+}
+
+
+.programacao {
+	border-left: 1pt solid #8F6B55;
+}
+
+h1 {
+	color: #774358;
+}
+
+h2 {
+	color: #986537;
+}
+
+h1, h2 {
+	display: inline;
+	text-transform: uppercase;
+	font-size: inherit;
+}
+
+
+@media screen and (max-width: 965px) {
+	.programacao {
+		border-left: hidden;
+	}
+
+}
+
+
+@media screen and (max-width: 1200px) {
+	.sobre-expo {
+	padding:0 0 0 40px;
+	}
+}
+
+
+
+

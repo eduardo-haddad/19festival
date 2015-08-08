@@ -1,0 +1,450 @@
+
+
+body {
+    font-family: 'FedraMonoStdBook';
+    margin-top: 30px;
+    
+}
+
+#container {
+    min-height: 1200px;
+}
+
+@font-face {
+    font-family: 'Tautografica';
+    src: url('../../fonts/tautografica/Tautografica.eot');
+    src: url('../fonts/tautografica/Tautografica.eot') format('embedded-opentype'),
+         url('../fonts/tautografica/Tautografica.woff2') format('woff2'),
+         url('../fonts/tautografica/Tautografica.woff') format('woff'),
+         url('../fonts/tautografica/Tautografica.ttf') format('truetype'),
+         url('../fonts/tautografica/Tautografica.svg#Tautografica') format('svg');
+}
+
+@font-face {
+    font-family: 'FedraMonoStdBook';
+    src: url('../fonts/fedra/FedraMonoStdBook.eot');
+    src: url('../fonts/fedra/FedraMonoStdBook.eot') format('embedded-opentype'),
+         url('../fonts/fedra/FedraMonoStdBook.woff2') format('woff2'),
+         url('../fonts/fedra/FedraMonoStdBook.woff') format('woff'),
+         url('../fonts/fedra/FedraMonoStdBook.ttf') format('truetype'),
+         url('../fonts/fedra/FedraMonoStdBook.svg#FedraMonoStdBook') format('svg');
+}
+
+header {
+    position: relative;
+}
+
+
+
+#idiomas span {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    color: #7c3e31;
+    line-height: 2.1em;
+}
+
+#share {
+    display: none;
+    float: left;
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    z-index: 999;
+    text-align: left;
+    border: 3px solid #F30;
+    background-color: #FFF;
+    top: 35px;
+}
+
+#sharelink {
+    margin-top: 35px;
+    cursor: pointer;
+    position: relative;
+    z-index: 999;
+}
+
+#botaomenu {
+    position:fixed;
+    z-index: 100;
+    top:50%;
+    left:0;
+    width: 48px;
+    height: 120px;  
+    cursor: pointer;
+}
+
+#mapa {
+    position:fixed;
+    display: none;
+    z-index: 101;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 30%;
+    height: auto;  
+    color: white;
+    text-align: center;
+    background-color: #8f6b55;
+    padding: 15px 0 15px 0;
+    border: 2px solid #806263;
+}
+
+#mapa ul {
+    list-style-type:none;
+    margin-left: -39px;
+    font-size: 1em; 
+}
+
+#mapa li {
+    white-space: nowrap;
+}
+
+#fechar {
+    z-index: 102;
+    position: absolute;
+    left: 97.5%;
+    top: 49%;
+    cursor: pointer;
+}
+
+.fonteMenu {
+    font-family: 'Tautografica';
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    line-height: 2.3em;
+}
+
+.hoverMenu {
+    font-family: 'FedraMonoStdBook';
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-size: 2em;
+    line-height: 2.3em;
+}
+
+#menuprincipal {
+    margin-top: 18px;
+    position: relative;
+    z-index: 1;
+}
+
+#menuprincipal1, 
+#menuprincipal2, 
+#menuprincipal3, 
+#menuprincipal4, 
+#menuprincipal5, 
+#menuprincipal6, 
+#menuprincipal7 {
+
+    height: 65px;
+    /*width: 615px;*/
+}
+
+.breadcrumb {
+    margin-bottom: 21px;
+}
+
+.breadcrumb, .link_rodape span {
+    color: #7f4a3e;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    
+}
+
+.link_rodape {
+    margin: 45px 0 0 0;
+    padding-top: 27px;
+    padding-left: 0;
+    border-top: 1pt solid #8F6B55;
+    border-top-width: 100%;
+    text-align: left;
+}
+
+.link_rodape a {
+    text-decoration: underline;
+    color: #7f4a3e;
+}
+
+.artistasParticipantes {
+  font-family: 'Tautografica';  
+  float: left; 
+  margin: 25px 0px 22px;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  line-height: 1.2em;
+}
+
+
+.titulo {
+    text-transform: uppercase;
+    word-wrap: break-word;
+    font-size: 2em;
+    letter-spacing: 0.45em;
+    line-height: 1.2em;
+    margin-bottom: 22px;
+}
+
+.titulo-agenda-g {
+    font-size: 4em; 
+    margin: 0px 0px 12px -1px; 
+    color: #9c7b84;
+}
+
+.titulo p {
+    margin-bottom:0; 
+    text-align: left; 
+    display: inline-block;
+}
+
+.artistasParticipantes span, .encontro span {
+    float: left;
+}
+
+.encontro {
+    margin-bottom: 30px;
+}
+
+.ativo {
+    text-decoration: underline;
+}
+
+.submenu {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #5B777B;
+    margin-bottom: 21px;
+}
+
+
+#lista ol {
+    list-style-type:none;
+    margin-left: -39px;
+    font-size: 1.1em;
+}
+
+.texto-expo {
+    height: 520px;
+}
+
+.texto-submenu {
+    width: 485px;
+}
+
+.vejamais {
+    display: table;
+    text-transform: uppercase;
+    width: 485px;
+    border-bottom:1pt solid #8F6B55;
+    padding-bottom: 9px;
+    text-align: right;
+    font-size: 1.2em;
+    margin: 36px 0px 29px 0px;
+
+}
+
+.vejamais a {
+    text-decoration: none;
+    color: #A05756;
+}
+
+.servico {
+    text-transform: lowercase;
+}
+
+footer {
+    height: auto;
+    background-color: #e6e1da;
+}
+
+
+
+#altura {
+    height: 45px;
+}
+
+.bloco {
+    float: left;
+    height: 280px;
+    width: 235px;
+    margin-right: 15px;
+    margin-bottom: 38px;
+}
+
+.bloco img {
+    border: 2px solid #8f6b55;
+    height: 85.5%;
+    width: 100%;
+}
+
+.bloco div {
+    margin-top: 5px;
+    height: 31px;
+}
+
+.informacoes span, .informacoes span{
+    float: left;
+    margin: 0px 0 20px 0;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+}
+
+
+
+/* PALETA */
+.a {color: #7F4A3E;}
+.b {color: #865742;}
+.c {color: #675650;}
+.d {color: #6c543f;}
+.e {color: #684852;}
+.f {color: #604743;}
+.h {color: #774358;}
+.i {color: #926E64;}
+.j {color: #9c795a;}
+.k {color: #986537;}
+.g {color: #a05756;}
+.l {color: #75606a;}
+.m {color: #986e57;}
+.n {color: #976A66;}
+.o {color: #bb6d46;}
+.p {color: #806263;}
+.q {color: #9c7b84;}
+.r {color: #A76555;}
+.s {color: #5B777B;}
+.t {color: #AF7C57;}
+.u {color: #567491;}
+.v {color: #908c63;}
+.w {color: #a09278;}
+.x {color: #a09278;}
+.y {color: #ae573c;}
+.z {color: #8f6b55;}
+
+
+@media screen and (max-width: 768px) {
+  #botaomenu,#mapa {
+    visibility: hidden;
+    
+  }
+}
+
+@media screen and (max-width: 965px) {
+  #menuprincipal {
+    padding-top: 30px;
+  }
+}
+
+#menuprincipal1 img, 
+#menuprincipal2 img, 
+#menuprincipal3 img, 
+#menuprincipal4 img, 
+#menuprincipal5 img, 
+#menuprincipal6 img, 
+#menuprincipal7 img {
+    z-index: -1;
+}
+
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.nomargin {
+    margin: 0px;
+}
+
+
+/* FOOTER */
+    input[type="text"]{
+        margin: 0px;
+        padding: 5px 0px 5px 5px;
+        border: 1px solid #6C543F;
+        color: #6C543F;
+        height: 30px;
+        background: transparent;
+        outline: none;  
+    }
+
+
+    select[name="listaPaises"] {
+        margin: 0px;
+        width: 19%;
+        padding: 10px 0px 5px 5px;
+        border: 1px solid #6C543F;
+        color: #6C543F;
+        height: 30px;
+        outline: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0px;
+        background: transparent url("img/temp_arrows2.png") no-repeat scroll 100% center / auto;
+        top: 0px;
+        position: absolute;
+    } 
+    /*IE9-10:*/
+    @media screen and (min-width:0\0) { 
+        select[name="listaPaises"] {
+            background:none;
+            padding: 5px;
+        }
+    }
+
+
+    input::-webkit-input-placeholder {
+    color: #6C543F;
+    opacity: 1 !important;
+    padding-top: 5px;
+    line-height: 1.2em;
+    }
+    input:focus::-webkit-input-placeholder {
+        color: transparent;
+    }
+
+    /* Firefox < 19 */
+    input:-moz-placeholder {
+        color: #6C543F;
+        opacity: 1 !important;
+        padding-top: 5px;
+        line-height: 2.2em;
+    }
+    input:focus:-moz-placeholder {
+        color: transparent;
+    }
+
+    /* Firefox > 19 */
+    input::-moz-placeholder {
+        color: #6C543F;
+        opacity: 1 !important;
+        line-height: 2.2em;
+    }
+    input:focus::-moz-placeholder {
+        color: transparent;
+    }
+
+    /* Internet Explorer 10 */
+    input:-ms-input-placeholder {
+        color: #6C543F;
+        opacity: 1 !important;
+        /*line-height: 2.2em;*/
+    }
+    input:focus:-ms-input-placeholder {
+        color: transparent;
+    }
+
+    input[type=submit] {
+        background:#6C543F; 
+        border:0 none;
+        cursor:pointer;
+        -webkit-border-radius: 0px;
+        border-radius: 0px; 
+        height: 30px;
+        padding: 5px 0px 5px 0px;
+        color: #e6e1da;
+        outline: none;
+        position: absolute;
+        right: 10px;
+    }

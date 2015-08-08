@@ -1,0 +1,100 @@
+<?php 
+
+include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");  
+//$url_atual = $url.ltrim($_SERVER['REQUEST_URI'], '/');
+
+?>
+<meta charset="UTF-8">
+<script>
+
+//social share
+
+    function socialShare(){
+
+                var url_atual = "<?php echo $url.ltrim($_SERVER['REQUEST_URI'], '/') ?>";
+                var currentTitle = document.title;
+
+                $('[id=share]').fadeToggle(500, function(){
+                $('[id=fbShare]').fadeToggle(350);
+                $('[id=twitterShare]').fadeToggle(350);      
+                });  
+
+                $("[id=twitterShare]").on(  
+                    'click', function(){
+                        
+                        $.ajax({
+                            type: 'GET',
+                            url: '<?=$url?>/elements/share.php',
+                            async: false,
+                            data: 'bitly=' + url_atual,
+                            success: function(data){
+                                url_curta_temp = data;
+                            }
+                            
+                            });
+                           
+                            (function wait() {
+                                if (url_curta_temp.substring(0, 13) == "http://bit.ly") {
+                                    url_curta = url_curta_temp;
+                                } else {
+                                    setTimeout(wait, 300);
+                                }
+                            })();
+                           
+                            window.open("http://twitter.com/intent/tweet?status="+currentTitle+" "+url_curta,"","height=260,width=500,left=100,top=100,menubar=0");
+                    
+                    });
+
+
+                $("[id=fbShare]").on(
+                    'click', function(){
+                        window.open("https://www.facebook.com/sharer.php?u="+url_atual,"","height=368,width=600,left=100,top=100,menubar=0");
+                        return false;
+                    }
+                );
+
+                //$("[id=fbShare]").setAttribute("href","http://www.facebook.com/sharer.php?u="+currentURL);
+
+
+
+
+    }
+
+
+</script>
+
+<div class="row">
+        <div class="col-sm-6">
+            <div style="float:left; ">
+                <a href="<?=$url?>home.php"><img src="<?php pten($url.'img/logo_pt.png', $url.'img/logo_en.png') ?>" /></a>
+
+                
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div id="share">
+                <a id="fbShare" style="display:none">facebook</a><br /><br />
+                <a id="twitterShare" style="display:none">twitter</a>
+            </div>
+            
+            <div style="float:right; ">
+                <!-- PARCEIROS -->
+                <div style="float: right;height: 148px; width:69px; text-align: right">
+                    <img src="<?=$url?>img/sescvb4.png" />
+                    <img src="<?=$url?>img/share.png" id="sharelink" />
+                </div>
+                <!-- /PARCEIROS -->
+                <div style="float: right; height: 160px;width:150px; position: relative">
+                    <!-- IDIOMAS -->
+                    <div id="idiomas" style="position: absolute; bottom:0; margin-bottom: 8px;">
+                        <span><a href="<?=strtok($_SERVER["REQUEST_URI"],'?')?>?idioma=pt">POR</a> | <a href="<?=strtok($_SERVER["REQUEST_URI"],'?')?>?idioma=en">ENG</a></span>
+                    </div>
+                    <!-- /IDIOMAS -->
+                    <br style="clear:both" />
+
+                    <p id="url_curta" title=""></p>
+                </div>
+            </div>
+        </div>
+</div>
+
