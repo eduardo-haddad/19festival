@@ -7,7 +7,7 @@ $id_artista = '1065544';
 
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
-$pais_artista = $idioma == 'pt' ?  'Brasil' : 'Brazil';
+$pais_artista = $idioma == 'pt' ?  'Mali' : 'Mali';
 
 
 

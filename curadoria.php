@@ -51,7 +51,7 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curatorship';
             </div>
             
             <div class="row">
-                    <div class="col-sm-12 col-md-6 img-responsiva" style="text-align: center; float: left ">
+                    <div class="col-sm-12 col-md-6" style="text-align: center; float: left ">
                         <img src="img/blank.png" class="img-responsive" style="margin-left:auto; margin-bottom: 30px;"  />
                     </div>                 
                 <div class="col-sm-12 col-md-6 u" style="float: right;">                     
@@ -96,7 +96,7 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curatorship';
             <div style="margin-bottom: 11px"></div>
 
             <div class="row">
-                <div class="col-sm-12 col-md-6 img-responsiva" style="text-align: center; float: left ">
+                <div class="col-sm-12 col-md-6" style="text-align: center; float: left ">
                     <img src="img/blank.png" class="img-responsive" style="margin-left:auto; margin-bottom: 30px;"  />
                 </div>
                 <div class="col-sm-12 col-md-6 s" style="float: right;">
@@ -138,7 +138,7 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curatorship';
             <div style="margin-bottom: 11px"></div>
 
             <div class="row">
-                <div class="col-sm-12 col-md-6 img-responsiva" style="text-align: center; float: left ">
+                <div class="col-sm-12 col-md-6" style="text-align: center; float: left ">
                     <img src="img/blank.png" class="img-responsive" style="margin-left:auto; margin-bottom: 30px;" />
                 </div>
                 <div class="col-sm-12 col-md-6 e" style="float: right;">                     
