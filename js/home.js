@@ -10,12 +10,6 @@ $(document).ready(
 
 			isMobile = true;
 		}
-
-		if(isMobile) {
-			alert('mobile');
-		} else {
-			alert('desktop');
-		}
 	}
 );
 
