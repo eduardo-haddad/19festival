@@ -452,6 +452,10 @@ footer {
     display: inline-block;
   }
 
+  .retrato-artista {
+        float: left;
+    }
+
 
 
 }
@@ -461,6 +465,10 @@ footer {
     #id-imagem-bottom {
         display: none;
       }
+
+    .retrato-artista {
+        margin-left: auto;
+    }
 
 }
 

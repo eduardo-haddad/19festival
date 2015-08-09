@@ -99,7 +99,7 @@ $plataforma_en = '“In Doméstica (Maid), I was concerned with penetrating the 
             <!-- SOBRE O ARTISTA -->
             <div class="row" style="clear: both;">
                 <div class="col-xs-12 col-md-6" style="text-align: center; float: left; ">
-                    <img src="../img/artistas/<?=strtolower(str_replace(' ', '', $nome_artista));?>.jpg" class="img-responsive  retrato-artista" style="margin-bottom: 15px; margin-left: auto; max-height: 273px;" />
+                    <img src="../img/artistas/<?=strtolower(str_replace(' ', '', $nome_artista));?>.jpg" class="img-responsive  retrato-artista" style="margin-bottom: 15px; max-height: 273px;" />
                 </div>
             <div class="col-sm-12 col-md-6" style="float: right;">
                 <div><strong><?=$sobre_artista?></strong><br />

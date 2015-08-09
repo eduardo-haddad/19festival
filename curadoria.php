@@ -52,9 +52,9 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curatorship';
             
             <div class="row">
                     <div class="col-sm-12 col-md-6" style="text-align: center; float: left ">
-                        <img src="img/blank.png" class="img-responsive" style="margin-left:auto; margin-bottom: 30px;"  />
+                        <img src="img/artistas/anavaz.jpg" class="img-responsive retrato-artista" style=" margin-bottom: 25px;"  />
                     </div>                 
-                <div class="col-sm-12 col-md-6 u" style="float: right;">                     
+                <div class="col-sm-12 col-md-6 u" style="float: right; margin-bottom: 24px">                     
                     <?php
                         pten('<p style="margin-bottom: 0">
                     <span class="bold">Solange Farkas</span> (vive e trabalha em São Paulo, Brasil) É curadora e diretora da
@@ -97,9 +97,9 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curatorship';
 
             <div class="row">
                 <div class="col-sm-12 col-md-6" style="text-align: center; float: left ">
-                    <img src="img/blank.png" class="img-responsive" style="margin-left:auto; margin-bottom: 30px;"  />
+                    <img src="img/artistas/anavaz.jpg" class="img-responsive retrato-artista" style=" margin-bottom: 25px;"  />
                 </div>
-                <div class="col-sm-12 col-md-6 s" style="float: right;">
+                <div class="col-sm-12 col-md-6 s" style="float: right;margin-bottom: 24px">
 
                 <?php
                 pten('<p style="margin-bottom: 0">
@@ -139,9 +139,9 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curatorship';
 
             <div class="row">
                 <div class="col-sm-12 col-md-6" style="text-align: center; float: left ">
-                    <img src="img/blank.png" class="img-responsive" style="margin-left:auto; margin-bottom: 30px;" />
+                    <img src="img/artistas/anavaz.jpg" class="img-responsive retrato-artista" style=" margin-bottom: 25px;" />
                 </div>
-                <div class="col-sm-12 col-md-6 e" style="float: right;">                     
+                <div class="col-sm-12 col-md-6 e" style="float: right;margin-bottom: 24px">                     
                 <?php
                     pten('<p style="margin-bottom: 0">
                     <span class="bold">Bitu Cassundé</span> (vive e trabalha em Fortaleza, Brasil) Carlos Eduardo Bitu Cassundé é curador do Museu
