@@ -55,6 +55,10 @@ header {
     text-decoration: underline;
 }
 
+.upper {
+    text-transform: uppercase;
+}
+
 .none {
     text-decoration: none;
 }
@@ -204,7 +208,7 @@ header {
     text-transform: uppercase;
     word-wrap: break-word;
     font-size: 2em;
-    letter-spacing: 0.1em;
+    /*letter-spacing: 0.1em;*/
     line-height: 1.2em;
     margin-bottom: 22px;
 }
