@@ -64,71 +64,70 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         			  <tr>
         			    <td>
         			    	<div id="lista">
-                              <ol>
-        				        <li class="sm-artistas-convidados">Abdoulaye Konaté</li>
-        				        <li class="sm-artistas-obras">Ali Cherri  | Líbano/França</li>
-        				        <li class="sm-artistas-obras">Aline X e Gustavo Jardim | Brasil</li>
-        				        <li class="sm-artistas-obras">Ana Vaz | Brasil/França</li>
-        				        <li class="sm-artistas-obras">Andres Bedoya | Bolívia</li>
-        				        <li class="sm-artistas-obras">Armando Queiroz | Brasil</li>
-        				        <li class="sm-artistas-obras">Beto Shwafaty | Brasil</li>
-        				        <li class="sm-artistas-obras">Bianca Baldi | África do Sul/Alemanha</li>
-        				        <li class="sm-artistas-obras">Carlos Mélo | Brasil</li>
-        				        <li class="sm-artistas-projetos">Carlos Monroy</li>
-        				        <li class="sm-artistas-obras">Chameckilerner | Brasil</li>
-        				        <li class="sm-artistas-obras">Chulayarnnon Siriphol | Tailândia</li>
-        				        <li class="sm-artistas-obras">Clara Ianni | Brasil</li>
-        				        <li class="sm-artistas-projetos">Cristiano Lenhardt</li>
-        				        <li class="sm-artistas-obras">Daniel Frota | Brasil/Países Baixos</li>
-        				        <li class="sm-artistas-obras">Daniel Jacoby | Peru/Países Baixos</li>
-        				        <li class="sm-artistas-obras">Daniel Monroy Cuevas | México</li>
-        				        <li class="sm-artistas-obras">Débora Bolsoni | Brasil</li>
-        				        <li class="sm-artistas-obras">Distruktur | Brasil/Alemanha</li>
-        				        <li class="sm-artistas-obras">Dor Guez | Israel</li>
-        				        <li class="sm-artistas-obras">Enrique Ramírez | Chile/França</li>
-        				        <li class="sm-artistas-obras">Fancy Violence | Brasil</li>
-        				        <li class="sm-artistas-obras">Felipe Bittencourt | Brasil</li>
-        				        <li class="sm-artistas-convidados">Gabriel Abrantes</li>
-        				        <li class="sm-artistas-obras">Haroon Gunn-Salie | África do Sul</li>
-        				        <li class="sm-artistas-obras">Hui Tao | China</li>
-        				        <li class="sm-artistas-obras">Iosu Aramburu | Peru</li>
-        				        <li class="sm-artistas-obras">João Castilho | Brasil</li>
-        				        <li class="sm-artistas-obras">Karolina Bregula | Polônia</li>
-        				        <li class="sm-artistas-convidados">Kcho</li>
-        				        <li class="sm-artistas-projetos">Keli-Safia Maksud</li>
-        				        <li class="sm-artistas-obras">Köken Ergun | Turquia</li>
-        				        <li class="sm-artistas-obras">Kush Badhwar | Índia/ Austrália</li>
-        				        <li class="sm-artistas-obras">Leticia Ramos | Brasil</li>
-        				        <li class="sm-artistas-obras">Louise Botkay | Brasil</li>
-        				        <li class="sm-artistas-obras">Luciana Magno | Brasil</li>
-        				        <li class="sm-artistas-obras">Maria Kramar | Rússia</li>
-        				        <li class="sm-artistas-obras">Marinos Koutsomichalis, Maria Varela,  Afroditi Psarra | Grécia</li>
-        				        <li class="sm-artistas-obras">Maya Watanabe | Peru/Países Baixos</li>
-        				        <li class="sm-artistas-obras">Michael MacGarry | África do Sul</li>
-        				        <li class="sm-artistas-obras">Mihai Grecu | Romênia/França</li>
-        				        <li class="sm-artistas-obras">Monica Rodriguez | Porto Rico/EUA</li>
-        				        <li class="sm-artistas-obras">Pablo Lobato | Brasil</li>
-        				        <li class="sm-artistas-obras">Paulo Nazareth | Brasil</li>
-        				        <li class="sm-artistas-obras">Paulo Nimer Pjota | Brasil</li>
-        				        <li class="sm-artistas-obras">Pilar Mata Dupont | Austrália</li>
-        				        <li class="sm-artistas-obras">Rafael RG | Brasil</li>
-        				        <li class="sm-artistas-obras">Roberto Santaguida | Canadá/Sérvia</li>
-        				        <li class="sm-artistas-obras">Rodrigo Cass | Brasil</li>
-        				        <li class="sm-artistas-convidados">Rodrigo Matheus</li>
-        				        <li class="sm-artistas-obras">Roy Dib | Líbano</li>
-        				        <li class="sm-artistas-obras">Runo Lagomarsino | Suécia/Brasil</li>
-        				        <li class="sm-artistas-obras">Slinko | Ucrânia/EUA</li>
-        				        <li class="sm-artistas-obras">Solon Ribeiro | Brasil</li>
-        				        <li class="sm-artistas-convidados">Sônia Gomes</li>
-        				        <li class="sm-artistas-obras">Tatiana Fuentes Sadowski | Peru/França</li>
-        				        <li class="sm-artistas-obras">Taus Makhacheva | Rússia</li>
-        				        <li class="sm-artistas-obras">Tiécoura N'Daou | Mali</li>
-        				        <li class="sm-artistas-projetos">Ting-Ting Cheng</li>
-        				        <li class="sm-artistas-obras">Vera Chaves Barcellos | Brasil</li>
-        				        <li class="sm-artistas-obras">Viktorija Rybakova | Lituânia/México</li>
-        				        <li class="sm-artistas-obras">Waléria Américo | Brasil</li>
-        				        <li class="sm-artistas-convidados">Yto Barrada</li>
-        				       </ol>
+                                <ol>
+                                    <li class="sm-artistas-convidados">Abdoulaye Konaté | <?php pten('Mali', 'Mali'); ?></li>
+                                    <li class="sm-artistas-obras">Ali Cherri | <?php pten('Líbano/França', 'Lebanon/France'); ?></li>
+                                    <li class="sm-artistas-obras">Aline X e Gustavo Jardim | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Ana Vaz | <?php pten('Brasil/França', 'Brazil/France'); ?></li>
+                                    <li class="sm-artistas-obras">Andres Bedoya | <?php pten('Bolívia', 'Bolivia'); ?></li>
+                                    <li class="sm-artistas-obras">Armando Queiroz | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Beto Shwafaty | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Bianca Baldi | <?php pten('África do Sul/Alemanha', 'South Africa/Germany'); ?></li>
+                                    <li class="sm-artistas-obras">Carlos Mélo | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-projetos">Carlos Monroy | <?php pten('Colômbia', 'Colombia'); ?></li>
+                                    <li class="sm-artistas-obras">Chameckilerner | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Chulayarnnon Siriphol | <?php pten('Tailândia', 'Thailand'); ?></li>
+                                    <li class="sm-artistas-obras">Clara Ianni | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-projetos">Cristiano Lenhardt | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Daniel Frota | <?php pten('Brasil/Países Baixos', 'Brazil/Netherlands'); ?></li>
+                                    <li class="sm-artistas-obras">Daniel Jacoby | <?php pten('Peru/Países Baixos', 'Peru/Netherlands'); ?></li>
+                                    <li class="sm-artistas-obras">Daniel Monroy Cuevas | <?php pten('México', 'Mexico'); ?></li>
+                                    <li class="sm-artistas-obras">Débora Bolsoni | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Distruktur | <?php pten('Brasil/Alemanha', 'Brazil/Germany'); ?></li>
+                                    <li class="sm-artistas-obras">Dor Guez | <?php pten('Israel', 'Israel'); ?></li>
+                                    <li class="sm-artistas-obras">Enrique Ramírez | <?php pten('Chile/França', 'Chile/France'); ?></li>
+                                    <li class="sm-artistas-obras">Fancy Violence | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Felipe Bittencourt | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-convidados">Gabriel Abrantes | <?php pten('Portugal', 'Portugal'); ?></li>
+                                    <li class="sm-artistas-obras">Haroon Gunn-Salie | <?php pten('África do Sul', 'South Africa'); ?></li>
+                                    <li class="sm-artistas-obras">Hui Tao | <?php pten('China', 'China'); ?></li>
+                                    <li class="sm-artistas-obras">Iosu Aramburu | <?php pten('Peru', 'Peru'); ?></li>
+                                    <li class="sm-artistas-obras">João Castilho | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Karolina Bregula | <?php pten('Polônia', 'Poland'); ?></li>
+                                    <li class="sm-artistas-projetos">Keli-Safia Maksud | <?php pten('Quênia', 'Kenya'); ?></li>
+                                    <li class="sm-artistas-obras">Köken Ergun | <?php pten('Turquia', 'Turkey'); ?></li>
+                                    <li class="sm-artistas-obras">Kush Badhwar | <?php pten('Índia/Austrália', 'India/Australia'); ?></li>
+                                    <li class="sm-artistas-obras">Leticia Ramos | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Louise Botkay | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Luciana Magno | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Maria Kramar | <?php pten('Rússia', 'Russia'); ?></li>
+                                    <li class="sm-artistas-obras">Marinos Koutsomichalis, Maria Varela,  Afroditi Psarra | <?php pten('Grécia', 'Greece'); ?></li>
+                                    <li class="sm-artistas-obras">Maya Watanabe | <?php pten('Peru/Países Baixos', 'Peru/Netherlands'); ?></li>
+                                    <li class="sm-artistas-obras">Michael MacGarry | <?php pten('África do Sul', 'South Africa'); ?></li>
+                                    <li class="sm-artistas-obras">Mihai Grecu | <?php pten('Romênia/França', 'Romania/France'); ?></li>
+                                    <li class="sm-artistas-obras">Monica Rodriguez | <?php pten('Porto Rico/EUA', 'Puerto Rico/USA'); ?></li>
+                                    <li class="sm-artistas-obras">Pablo Lobato | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Paulo Nazareth | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Paulo Nimer Pjota | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Pilar Mata Dupont | <?php pten('Austrália', 'Australia'); ?></li>
+                                    <li class="sm-artistas-obras">Rafael RG | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Roberto Santaguida | <?php pten('Canadá/Sérvia', 'Canada/Serbia'); ?></li>
+                                    <li class="sm-artistas-obras">Rodrigo Cass | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-convidados">Rodrigo Matheus | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Roy Dib | <?php pten('Líbano', 'Lebanon'); ?></li>
+                                    <li class="sm-artistas-obras">Runo Lagomarsino | <?php pten('Suécia/Brasil', 'Sweden/Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Slinko | <?php pten('Ucrânia/EUA', 'Ukraine/USA'); ?></li>
+                                    <li class="sm-artistas-obras">Solon Ribeiro | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-convidados">Sônia Gomes | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Tatiana Fuentes Sadowski | <?php pten('Peru/França', 'Peru/France'); ?></li>
+                                    <li class="sm-artistas-obras">Taus Makhacheva | <?php pten('Rússia', 'Russia'); ?></li>
+                                    <li class="sm-artistas-obras">Tiécoura N'Daou | <?php pten('Mali', 'Mali'); ?></li>
+                                    <li class="sm-artistas-projetos">Ting-Ting Cheng | <?php pten('Taiwan', 'Taiwan'); ?></li>
+                                    <li class="sm-artistas-obras">Vera Chaves Barcellos | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-obras">Viktorija Rybakova | <?php pten('Lituânia/México', 'Lithuania/Mexico'); ?></li>
+                                    <li class="sm-artistas-obras">Waléria Américo | <?php pten('Brasil', 'Brazil'); ?></li>
+                                    <li class="sm-artistas-convidados">Yto Barrada | <?php pten('Marrocos/França', 'Morocco/France'); ?></li>    				        
+        				        </ol>
             				</div>
         			    </td>
         			  </tr>
@@ -191,7 +190,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         			      			
         			<div id="menuprincipal5" class="fonteMenu"><img src="img/botoes/pp_1.png"></div>
                     <div id="texto5a" class="texto" style="display:none;">
-                        <p class="submenu"><a href="">Seminário</a> | <a href="">Encontros e Conversas</a> | <a href="">Oficinas</a> | <a href="">Ações de Mediação</a></p>
+                        <p class="submenu"><a href="">Sobre</a> | <a href="">Seminário</a> | <a href="">Encontros e Conversas</a> | <a href="">Oficinas</a> | <a href="">Ações de Mediação</a></p>
 
                         <div style="display:inline">
                         <p class="nomargin texto-submenu l">Os Programas Públicos reafirmam a  ambiente de diálogo do Festival, possibilitando que as pesquisa curatorial se desdobre em ações de contato com o público. Este canal direto com seu espectador se desdobra em um Seminário, Encontros e conversas, Oficinas e Ações de mediação. Multidisciplinares, essas ações transformam os espaços expositivos em locais de pensamento e troca que extrapolam o campo da arte e dialogam transversalmente com outras áreas do conhecimento. Neles, a Zona de Reflexão disponibiliza publicações editadas em parceria pelo Videobrasil e Edições Sesc São Paulo e plataformas digitais como o Canal VB, PLATAFORMA:VB e a Videoteca.</p>

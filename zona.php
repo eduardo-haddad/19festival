@@ -39,7 +39,7 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
         	</div>
             <!-- /BREADCRUMB -->
 
-            <!-- SUBMENU -->
+            <!-- SUBMENU -->    
             <div class="row">
                 <div class="col-xs-12">
                     <p class="submenu" style="margin-bottom:21px"><a href="#videoteca"><?php pten('videoteca', 'videoteca') ?></a> | <a href="#canalvb"><?php pten('canal vb', 'vb channel') ?></a> | <a href="#plataformavb"><?php pten('plataforma:vb', 'plataform:vb') ?></a> | <a href="#publicacoes"><?php pten('publicacoes', 'publications') ?></a></p>      
