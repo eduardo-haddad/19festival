@@ -59,8 +59,8 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
             <div class="row" style="clear: both; margin-bottom: 20px">
 
                 <div class="col-sm-12 col-md-6 expo-mapa" >
-                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1063.3060561082916!2d-46.6830522342262!3d-23.52564148682573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef809b81cc479%3A0xbf35620145c1e2cc!2sSesc+Pompeia!5e0!3m2!1spt-BR!2sbr!4v1439763126183" width="450" height="280" frameborder="0" style="border:0" allowfullscreen></iframe>
-                     -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1063.3060561082916!2d-46.6830522342262!3d-23.52564148682573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef809b81cc479%3A0xbf35620145c1e2cc!2sSesc+Pompeia!5e0!3m2!1spt-BR!2sbr!4v1439763126183" width="450" height="280" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    
                 </div>
 
                 <div class="col-sm-12 col-md-6 sobre-expo h" style="float: right;">
