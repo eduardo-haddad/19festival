@@ -411,9 +411,13 @@ footer {
     margin: 0px;
 }
 
-.expo-mapa {
+
+
+#mapa1 {
+    width: 470px;
+    height: 280px;
     margin-bottom: 22px;
-  }
+}
 
 
 @media screen and (max-width: 768px) {
