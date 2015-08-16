@@ -411,11 +411,19 @@ footer {
     margin: 0px;
 }
 
+.expo-mapa {
+    margin-bottom: 22px;
+  }
+
 
 @media screen and (max-width: 768px) {
   #botaomenu,#mapa {
     visibility: hidden;
     
+  }
+
+  .expo-mapa {
+    display: none;
   }
 
 
