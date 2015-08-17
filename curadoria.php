@@ -175,8 +175,7 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curatorship';
             <div id="altura">&nbsp;</div>
     </main>
 
-    <!-- RODAPE -->     <footer><?php include "elements/footer.html";
-?></footer>     <!-- /RODAPE -->
+    <!-- RODAPE -->     <footer><?php include "elements/footer.html"; ?></footer>     <!-- /RODAPE -->
 
 </body>
 </html>
