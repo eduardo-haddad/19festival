@@ -55,6 +55,10 @@ header {
     text-decoration: underline;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .upper {
     text-transform: uppercase;
 }
