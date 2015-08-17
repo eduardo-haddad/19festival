@@ -1,8 +1,5 @@
 <?php
 
-//criar url a partir do dominio
-$url = "http://" . $_SERVER['SERVER_NAME'] . "/";
-
 //set idioma
 session_start();
 
@@ -13,6 +10,9 @@ if (isset($_GET['idioma'])) {
 }
 
 $idioma = $_SESSION['idioma'];
+
+//criar url a partir do dominio
+$url = "http://" . $_SERVER['SERVER_NAME'] . "/";
 
 //separar caracteres de string em classes
 function titulo($str){

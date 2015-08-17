@@ -1,7 +1,6 @@
-
 <?php
-include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
+include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curatorship';
 
 ?>
