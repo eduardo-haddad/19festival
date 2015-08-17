@@ -1,5 +1,4 @@
-<?php
-include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
+<?phpinclude_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 ?>
 
 <!DOCTYPE html>

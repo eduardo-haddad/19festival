@@ -38,53 +38,53 @@ $titulo = $idioma == 'pt' ? 'Residências' : 'Residencies';
         	</div>
             
             <div class="row" >
-    <div class="col-xs-12 titulo" style="float: left;">
-        <p style="margin-bottom:0"> 
-            <?php pten('arquetopia | puebla | méxico', 'arquetopia | puebla | mexico'); ?>
-        </p>
-     </div>
-</div>
+                <div class="col-xs-12 titulo" style="float: left;">
+                    <p style="margin-bottom:0"> 
+                        <?php pten('arquetopia | puebla | méxico', 'arquetopia | puebla | mexico'); ?>
+                    </p>
+                </div>
+            </div>
 
-<div class="row" style="clear: both;">     
-    <div class="col-sm-12 col-md-6" style="float: left ">
-        <img src="img/residencias/temp_air.jpg" class="img-responsive" style="margin-bottom:
-    15px" />     
-    </div>     
-    <div class="col-sm-12 col-md-6 a" style="float: right;" >         
-    <?php
-    //Sobre residencia - PT
-    pten('<p>Te porecumqui ut eaquaspic to qui odit dolorecab in re pre ercia nullandit escium re, quam
-    eum volore officim experci mporeici doloribus, aut auta qui cumquas pererspid quid quame nosti rem
-    natur, omnimpo remodis renim re volorestio tectotatus etur? Nullestibus res rerum diorunt otaqui cus
-    dolorio et unt, quis et aut porerib usaped et quae. Nem as dolores torrovit quiaspe litaque mos vel
-    magnis earcil id que cuptate ndenima sequo qui ut pore re incimol uptatus ut hilis enime quis ipiet
-    experest, cor si ut quasperuptae omnim quam laccus magnis eum fugia sendiam ut vollisimente con
-    conet dolupti idit, nes doluptiis ipsam</p>
-    <p>Te porecumqui ut eaquaspic to qui odit dolorecab in re pre ercia nullandit escium re, quam
-    eum volore officim experci mporeici doloribus, aut auta qui cumquas pererspid quid quame nosti rem
-    natur, omnimpo remodis renim re volorestio tectotatus etur? Nullestibus res rerum diorunt otaqui cus
-    dolorio et unt, quis et aut porerib usaped et quae. Nem as dolores torrovit quiaspe litaque mos vel
-    magnis earcil id que cuptate ndenima sequo qui ut pore re incimol uptatus ut hilis enime quis ipiet
-    experest, cor si ut quasperuptae omnim quam laccus magnis eum fugia sendiam ut vollisimente con
-    conet dolupti idit, nes doluptiis ipsam</p>',
+            <div class="row" style="clear: both;">     
+                <div class="col-sm-12 col-md-6" style="float: left ">
+                    <img src="img/residencias/temp_air.jpg" class="img-responsive" style="margin-bottom:
+                15px" />     
+                </div>     
+                <div class="col-sm-12 col-md-6 a" style="float: right;" >         
+                <?php
+                //Sobre residencia - PT
+                pten('<p>Te porecumqui ut eaquaspic to qui odit dolorecab in re pre ercia nullandit escium re, quam
+                eum volore officim experci mporeici doloribus, aut auta qui cumquas pererspid quid quame nosti rem
+                natur, omnimpo remodis renim re volorestio tectotatus etur? Nullestibus res rerum diorunt otaqui cus
+                dolorio et unt, quis et aut porerib usaped et quae. Nem as dolores torrovit quiaspe litaque mos vel
+                magnis earcil id que cuptate ndenima sequo qui ut pore re incimol uptatus ut hilis enime quis ipiet
+                experest, cor si ut quasperuptae omnim quam laccus magnis eum fugia sendiam ut vollisimente con
+                conet dolupti idit, nes doluptiis ipsam</p>
+                <p>Te porecumqui ut eaquaspic to qui odit dolorecab in re pre ercia nullandit escium re, quam
+                eum volore officim experci mporeici doloribus, aut auta qui cumquas pererspid quid quame nosti rem
+                natur, omnimpo remodis renim re volorestio tectotatus etur? Nullestibus res rerum diorunt otaqui cus
+                dolorio et unt, quis et aut porerib usaped et quae. Nem as dolores torrovit quiaspe litaque mos vel
+                magnis earcil id que cuptate ndenima sequo qui ut pore re incimol uptatus ut hilis enime quis ipiet
+                experest, cor si ut quasperuptae omnim quam laccus magnis eum fugia sendiam ut vollisimente con
+                conet dolupti idit, nes doluptiis ipsam</p>',
 
-    //Sobre residencia - EN
-    '<p>XXX XXXXXXXXXX to qui odit dolorecab in re pre ercia nullandit escium re, quam
-    eum volore officim experci mporeici doloribus, aut auta qui cumquas pererspid quid quame nosti rem
-    natur, omnimpo remodis renim re volorestio tectotatus etur? Nullestibus res rerum diorunt otaqui cus
-    dolorio et unt, quis et aut porerib usaped et quae. Nem as dolores torrovit quiaspe litaque mos vel
-    magnis earcil id que cuptate ndenima sequo qui ut pore re incimol uptatus ut hilis enime quis ipiet
-    experest, cor si ut quasperuptae omnim quam laccus magnis eum fugia sendiam ut vollisimente con
-    conet dolupti idit, nes doluptiis ipsam</p>
-    <p>Te porecumqui ut eaquaspic to qui odit dolorecab in re pre ercia nullandit escium re, quam
-    eum volore officim experci mporeici doloribus, aut auta qui cumquas pererspid quid quame nosti rem
-    natur, omnimpo remodis renim re volorestio tectotatus etur? Nullestibus res rerum diorunt otaqui cus
-    dolorio et unt, quis et aut porerib usaped et quae. Nem as dolores torrovit quiaspe litaque mos vel
-    magnis earcil id que cuptate ndenima sequo qui ut pore re incimol uptatus ut hilis enime quis ipiet
-    experest, cor si ut quasperuptae omnim quam laccus magnis eum fugia sendiam ut vollisimente con
-    conet dolupti idit, nes doluptiis ipsam</p>');  ?> 
-    </div> 
-</div>
+                //Sobre residencia - EN
+                '<p>XXX XXXXXXXXXX to qui odit dolorecab in re pre ercia nullandit escium re, quam
+                eum volore officim experci mporeici doloribus, aut auta qui cumquas pererspid quid quame nosti rem
+                natur, omnimpo remodis renim re volorestio tectotatus etur? Nullestibus res rerum diorunt otaqui cus
+                dolorio et unt, quis et aut porerib usaped et quae. Nem as dolores torrovit quiaspe litaque mos vel
+                magnis earcil id que cuptate ndenima sequo qui ut pore re incimol uptatus ut hilis enime quis ipiet
+                experest, cor si ut quasperuptae omnim quam laccus magnis eum fugia sendiam ut vollisimente con
+                conet dolupti idit, nes doluptiis ipsam</p>
+                <p>Te porecumqui ut eaquaspic to qui odit dolorecab in re pre ercia nullandit escium re, quam
+                eum volore officim experci mporeici doloribus, aut auta qui cumquas pererspid quid quame nosti rem
+                natur, omnimpo remodis renim re volorestio tectotatus etur? Nullestibus res rerum diorunt otaqui cus
+                dolorio et unt, quis et aut porerib usaped et quae. Nem as dolores torrovit quiaspe litaque mos vel
+                magnis earcil id que cuptate ndenima sequo qui ut pore re incimol uptatus ut hilis enime quis ipiet
+                experest, cor si ut quasperuptae omnim quam laccus magnis eum fugia sendiam ut vollisimente con
+                conet dolupti idit, nes doluptiis ipsam</p>');  ?> 
+                </div> 
+            </div>
 
             <div style="margin: 31px 0 16px 0; padding-top: 25px; padding-left: 0; border-top: 1pt solid #8F6B55; border-top-width: 100%;"></div>
            

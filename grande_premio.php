@@ -35,9 +35,10 @@ $titulo = $idioma == 'pt' ? 'Grande Prêmio' : 'Grand Prize';
             height: 280px; 
             width: 450px;
             overflow: hidden; 
-            background-color: gray;
+            background-color: #e4dbdc;
             font-size: 1.5em;
             margin-bottom: 15px;
+            left: 15px;
 
         }
 
@@ -99,7 +100,7 @@ $titulo = $idioma == 'pt' ? 'Grande Prêmio' : 'Grand Prize';
     
         <div class="col-sm-12 col-md-6" id="premio-aviso">
             <div style="display: table-cell; vertical-align: middle;">
-                <div class="titulo-aviso"><?php titulo('cOnFira a LiSTa DOS preMiaDOS apoS a ceriMonia De preMiacaO Dia 11 De OUTUbrO'); ?></div>
+                <div class="titulo-aviso"><?php titulo('confira a lista dos premiados apos a cerimonia de premiacao dia 11 de outubro'); ?></div>
             </div>
         </div>       
 

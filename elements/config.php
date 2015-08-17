@@ -44,6 +44,10 @@ function pten($pt, $en){
 	echo ($_SESSION['idioma'] == 'pt' ? $pt : $en);
 }
 
+function funcPten($pt, $en){
+	return ($_SESSION['idioma'] == 'pt' ? $pt : $en);
+}
+
 
 //variaveis para paginas de artistas
 $bc_select_obras =  $idioma == 'pt' ? 

@@ -1,18 +1,21 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
+
+$titulo = $idioma == 'pt' ? 'Fotos e Vídeos' : 'Photos and Videos';
+
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <meta charset="UTF-8">
+    <title><?= ($idioma == 'pt' ? $titulo . ' - 19º Festival de Arte Contemporânea Sesc_Videobrasil' : $titulo . ' - 19th Contemporary Art Festival Sesc_Videobrasil')  ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" type="text/css" href="css/home.css">
-    <link rel="stylesheet" type="text/css" href="css/expos.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="js/home.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/home.js"></script>
     <script src="js/galleria/galleria-1.4.2.min.js"></script>
     <script src="js/galleria/plugins/flickr/galleria.flickr.js"></script>
     <script src="js/jquery.hoverIntent.js"></script>
@@ -35,20 +38,22 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
         	<div style="height:36px; clear: both">&nbsp;</div>
 
-        	<div class="row">
-        		<div class="col-xs-12 breadcrumb">
-                    <span>zona de reflexão > </span><span style="text-decoration: underline">programas públicos</span>      
-                </div>
-        	</div>
             <div class="row">
+                <div class="col-xs-12 breadcrumb">
+                    <span><?php pten('fotos e vídeos</span>', 
+                                     'photos and vídeos');  ?></span>      
+                </div>
+            </div>
+            
+             <div class="row">
                 <div class="col-xs-12">
                     <p class="submenu" style="margin-bottom: 30px"><a id="">Galeria 1</a> | <a id="">Galeria 2</a> | <a id="">Galeria 3</a></p>      
                 </div>
-            </div>
+            </div> 
 
             <!-- GALERIA -->
             <div class="galleria"></div>
-            <script>
+             <script>
                 Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.js');
                 Galleria.run('.galleria', {
                     flickr: 'set:72157639977971153',
@@ -60,8 +65,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     }
 
                 });
-            </script>
+            </script> 
             <!-- /GALERIA -->
+
+            <span class="titulo"><?php pten('Em breve','Coming soon'); ?></span>
           
 
             

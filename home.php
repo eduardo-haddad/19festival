@@ -20,6 +20,96 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
     <meta property="og:site_name" content="<?php echo ($idioma == 'pt' ? '19º Festival de Arte Contemporânea Sesc_Videobrasil' : '19th Contemporary Art Festival Sesc_Videobrasil');?>"/>
     <meta property="og:description"
           content="O 19º Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul, que acontece de 6 de outubro a 6 de dezembro de 2015, em São Paulo, transforma o Sul no grande direcionador de seus eixos curatoriais e de toda a sua programação, tendo como referência suas múltiplas questões que dizem respeito a diásporas, identidades híbridas, trânsito migratório e viagens, narrativas pessoais, memórias, isolamento, tecido social e insularidade."/>
+    <script>
+
+        function hoverMenu($menu, $texto){
+
+            var abertura = false; //valor para menu fechado
+            var $todosMenus = $('[id^=menuprincipal]').not($menu); //todos os itens menos o atual
+            var $todosTextos = $('[id^=texto]').not($texto); //todos os textos menos o atual
+
+            function checaMenu(){
+
+                if($menu.html() == '<img src="img/botoes/pt/expos_2.png">'){ $menu.html('<img src="img/botoes/pt/expos_1.png">'); }  
+                if($menu.html() == '<img src="img/botoes/pt/progsfilmes_2.png">'){ $menu.html('<img src="img/botoes/pt/progsfilmes_1.png">'); }  
+                if($menu.html() == '<img src="img/botoes/pt/performances_2.png">'){ $menu.html('<img src="img/botoes/pt/performances_1.png">'); }  
+                if($menu.html() == '<img src="img/botoes/pt/curadoria_2.png">'){ $menu.html('<img src="img/botoes/pt/curadoria_1.png">'); }  
+                if($menu.html() == '<img src="img/botoes/pt/pp_2.png">'){ $menu.html('<img src="img/botoes/pt/pp_1.png">'); }  
+                if($menu.html() == '<img src="img/botoes/pt/premios_2.png">'){ $menu.html('<img src="img/botoes/pt/premios_1.png">'); }  
+                if($menu.html() == '<img src="img/botoes/pt/publicacoes_2.png">'){ $menu.html('<img src="img/botoes/pt/publicacoes_1.png">'); } 
+                if($menu.html() == '<img src="img/botoes/pt/agenda_2.png">'){ $menu.html('<img src="img/botoes/pt/agenda_1.png">'); } 
+                if($menu.html() == '<img src="img/botoes/pt/fotosvideos_2.png">'){ $menu.html('<img src="img/botoes/pt/fotosvideos_1.png">'); } 
+                if($menu.html() == '<img src="img/botoes/pt/sobre_2.png">'){ $menu.html('<img src="img/botoes/pt/sobre_1.png">'); } 
+                if($menu.html() == '<img src="img/botoes/pt/noticias_2.png">'){ $menu.html('<img src="img/botoes/pt/noticias_1.png">'); } 
+                if($menu.html() == '<img src="img/botoes/pt/imprensa_2.png">'){ $menu.html('<img src="img/botoes/pt/imprensa_1.png">'); }
+
+            }
+
+            function fechaMenu(){
+                $texto.slideUp('easeInOutCubic',function(){
+                    checaMenu();
+                    abertura = false; 
+                });
+            }
+
+            function abreMenu(){
+                $texto.slideDown('easeInOutCubic', function(){
+                abertura = true; 
+                });
+            }
+
+                $menu.hover(         //toggle de abertura de menu com alteração de imagem onhover
+                        function(){         // função para onmouseover
+                            if($menu.html() == '<img src="img/botoes/pt/expos_1.png">'){ $menu.html('<img src="img/botoes/pt/expos_2.png">'); }  
+                            if($menu.html() == '<img src="img/botoes/pt/progsfilmes_1.png">'){ $menu.html('<img src="img/botoes/pt/progsfilmes_2.png">'); }  
+                            if($menu.html() == '<img src="img/botoes/pt/performances_1.png">'){ $menu.html('<img src="img/botoes/pt/performances_2.png">'); }  
+                            if($menu.html() == '<img src="img/botoes/pt/curadoria_1.png">'){ $menu.html('<img src="img/botoes/pt/curadoria_2.png">'); }  
+                            if($menu.html() == '<img src="img/botoes/pt/pp_1.png">'){ $menu.html('<img src="img/botoes/pt/pp_2.png">'); }  
+                            if($menu.html() == '<img src="img/botoes/pt/premios_1.png">'){ $menu.html('<img src="img/botoes/pt/premios_2.png">'); }  
+                            if($menu.html() == '<img src="img/botoes/pt/publicacoes_1.png">'){ $menu.html('<img src="img/botoes/pt/publicacoes_2.png">'); }
+                            if($menu.html() == '<img src="img/botoes/pt/agenda_1.png">'){ $menu.html('<img src="img/botoes/pt/agenda_2.png">'); }
+                            if($menu.html() == '<img src="img/botoes/pt/fotosvideos_1.png">'){ $menu.html('<img src="img/botoes/pt/fotosvideos_2.png">'); }
+                            if($menu.html() == '<img src="img/botoes/pt/sobre_1.png">'){ $menu.html('<img src="img/botoes/pt/sobre_2.png">'); }
+                            if($menu.html() == '<img src="img/botoes/pt/noticias_1.png">'){ $menu.html('<img src="img/botoes/pt/noticias_2.png">'); }
+                            if($menu.html() == '<img src="img/botoes/pt/imprensa_1.png">'){ $menu.html('<img src="img/botoes/pt/imprensa_2.png">'); }
+
+                            
+                            $menu.on(
+                                'click', function(){
+                                    if(abertura == false){
+                                        abreMenu();
+                                        
+                                        /*$todosTextos.each( //fechar todos itens menos o atual
+                                        function(){
+                                            $(this).slideUp('easeInOutCubic');
+                                                                                
+                                        }); */
+
+                                    } else {
+                                        fechaMenu();                            
+                                        }
+                                }
+                            );
+                        }, 
+                        
+                        function(){ //mouseleave
+                            if($texto.is(':not(:visible)')){
+                                checaMenu();
+                            }  
+                        }
+                        
+                );
+        }
+
+        $(document).ready(
+            function inicioMenu(){
+                <?php 
+                    for($i=0; $i<=12; $i++) { ?>
+                        hoverMenu($('#menuprincipal<?=$i?>'), $('#texto<?=$i?>a'));<?php
+                } ?>
+            }
+        );
+    </script>
 </head>
 <body>
     <!-- MAPA DO SITE -->
@@ -136,9 +226,17 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         		<p></p>
         		<div class="col-sm-12 col-md-6" id="menuprincipal">
 
-        			<div id="menuprincipal1" class="fonteMenu"><img src="img/botoes/sobre_1.png"></div>
+                    <!-- SOBRE -->
+        			<div id="menuprincipal1" class="fonteMenu"><img src="img/botoes/pt/sobre_1.png"></div>
                     <div id="texto1a" class="texto" style="display:none;">
-                        <p class="submenu" style="margin-bottom: -3px;"><a href="apresentacao.php">Apresentação 19ª Festival</a><br /><a href="curadoria.php">Statement da curadoria</a><br /><a href="identidade.php">Identidade Visual</a><br /><a href="parceiros.php">Parceiros</a><br /><a href="">Convocatórias 19º</a><br /><a href="">Histórico do Festival</a></p>
+                        <p class="submenu" style="margin-bottom: -3px;">
+                            <a href="apresentacao.php">Apresentação 19ª Festival</a><br />
+                            <a href="curadoria.php">Statement da curadoria</a><br />
+                            <a href="identidade.php">Identidade Visual</a><br />
+                            <a href="parceiros.php">Parceiros</a><br />
+                            <a href="">Convocatórias 19º</a><br />
+                            <a href="">Histórico do Festival</a>
+                        </p>
 
                         <div style="display:inline">
                         <p class="nomargin texto-submenu"></p>
@@ -148,10 +246,18 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                         
                     </div>
+                    <!-- /SOBRE -->
 
-                    <div id="menuprincipal2" class="fonteMenu"><img src="img/botoes/expos_1.png"></div>
+
+                    <!-- EXPOSIÇOES -->
+                    <div id="menuprincipal2" class="fonteMenu"><img src="img/botoes/pt/expos_1.png"></div>
         			<div id="texto2a" class="texto" style="display:none;">
-        				<p class="submenu"><a href="">ARTISTAS CONVIDADOS</a> | <a href="">PROJETOS COMISSIONADOS</a> | <a href="">OBRAS SELECIONADAS</a> | <a href="">EXPOSICÃO PARALELA</a> | <a href="">LOCAIS</a></p>
+        				<p class="submenu">
+                            <a href="">ARTISTAS CONVIDADOS</a> | 
+                            <a href="">PROJETOS COMISSIONADOS</a> | 
+                            <a href="">OBRAS SELECIONADAS</a> | 
+                            <a href="">EXPOSICÃO PARALELA</a> | 
+                            <a href="">LOCAIS</a></p>
 
                         <div style="display:inline">
                         <p class="nomargin texto-submenu f">A produção plural do Sul Global se espalha por São Paulo durante o 19º Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul. Nesta edição, o Festival apresenta três exposições com obras de 62 artistas e grupos de 27 países no Sesc Pompeia e no Galpão_VB, nova sede da Associação Cultural Videobrasil. As obras selecionadas que exigem exibição em sala de cinema são apresentadas no Teatro do Sesc Pompeia, como parte do Programa de Filmes do 19º Festival, ao lado de um programa especial com filmes de Gabriel Abrantes, um dos artistas convidados. Uma exposição paralela, com 17 obras de 15 artistas do Acervo Videobrasil também faz parte da programação e acontece no Paço das Artes.</p>
@@ -161,10 +267,16 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                         
                     </div>
+                    <!-- /EXPOSIÇOES -->
         			
-        			<div id="menuprincipal3" class="fonteMenu"><img src="img/botoes/progsfilmes_1.png"></div>
+                    <!-- PROGRAMAS DE FILMES -->
+        			<div id="menuprincipal3" class="fonteMenu"><img src="img/botoes/pt/progsfilmes_1.png"></div>
                     <div id="texto3a" class="texto" style="display:none;">
-                        <p class="submenu"><a href="">Obras selecionadas</a> | <a href="">Gabriel Abrantes</a> | <a href="">Programação</a></p>
+                        <p class="submenu">
+                            <a href="">Obras selecionadas</a> | 
+                            <a href="">Gabriel Abrantes</a> | 
+                            <a href="">Programação</a>
+                        </p>
 
                         <div style="display:inline">
                         <p class="nomargin texto-submenu k">O Programa de Filmes do 19º Festival apresenta no Teatro do Sesc Pompeia obras selecionadas que exigem exibição em sala de cinema e uma performance, além de um programa especial, com uma reunião de trabalhos do artista convidado Gabriel Abrantes. </p>
@@ -174,8 +286,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                         
                     </div>
+                    <!-- /PROGRAMAS DE FILMES -->
         			
-        			<div id="menuprincipal4" class="fonteMenu"><img src="img/botoes/performances_1.png"></div>
+                    <!-- PERFORMANCES -->
+        			<div id="menuprincipal4" class="fonteMenu"><img src="img/botoes/pt/performances_1.png"></div>
                     <div id="texto4a" class="texto" style="display:none;">
                         <!-- <p class="submenu"><a href="">ARTISTAS CONVIDADOS</a> | <a href="">PROJETOS COMISSIONADOS</a> | <a href="">OBRAS SELECIONADAS</a> | <a href="">EXPOSICÃO PARALELA</a> | <a href="">LOCAIS</a></p> -->
 
@@ -187,10 +301,19 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                         
                     </div>
-        			      			
-        			<div id="menuprincipal5" class="fonteMenu"><img src="img/botoes/pp_1.png"></div>
+                    <!-- /PERFORMANCES -->
+
+
+        			<!-- PROGRAMAS PUBLICOS -->      			
+        			<div id="menuprincipal5" class="fonteMenu"><img src="img/botoes/pt/pp_1.png"></div>
                     <div id="texto5a" class="texto" style="display:none;">
-                        <p class="submenu"><a href="">Sobre</a> | <a href="">Seminário</a> | <a href="">Encontros e Conversas</a> | <a href="">Oficinas</a> | <a href="">Ações de Mediação</a></p>
+                        <p class="submenu">
+                            <a href="">Sobre</a> | 
+                            <a href="">Seminário</a> | 
+                            <a href="">Encontros e Conversas</a> | 
+                            <a href="">Oficinas</a> | 
+                            <a href="">Ações de Mediação</a>
+                        </p>
 
                         <div style="display:inline">
                         <p class="nomargin texto-submenu l">Os Programas Públicos reafirmam a  ambiente de diálogo do Festival, possibilitando que as pesquisa curatorial se desdobre em ações de contato com o público. Este canal direto com seu espectador se desdobra em um Seminário, Encontros e conversas, Oficinas e Ações de mediação. Multidisciplinares, essas ações transformam os espaços expositivos em locais de pensamento e troca que extrapolam o campo da arte e dialogam transversalmente com outras áreas do conhecimento. Neles, a Zona de Reflexão disponibiliza publicações editadas em parceria pelo Videobrasil e Edições Sesc São Paulo e plataformas digitais como o Canal VB, PLATAFORMA:VB e a Videoteca.</p>
@@ -200,8 +323,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                         
                     </div>
+                    <!-- /PROGRAMAS PUBLICOS --> 
 
-                    <div id="menuprincipal6" class="fonteMenu"><img src="img/botoes/zona_1.png"></div>
+
+                    <!-- ZONA DE REFLEXAO --> 
+                    <div id="menuprincipal6" class="fonteMenu"><img src="img/botoes/pt/zona_1.png"></div>
                     <div id="texto6a" class="texto" style="display:none;">
                         
                         <div style="display:inline">
@@ -212,10 +338,17 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                         
                     </div>
-        			
-        			<div id="menuprincipal7" class="fonteMenu"><img src="img/botoes/premios_1.png"></div>
+                    <!-- /ZONA DE REFLEXAO --> 
+
+
+        			<!-- PREMIOS E RESIDENCIAS --> 
+        			<div id="menuprincipal7" class="fonteMenu"><img src="img/botoes/pt/premios_1.png"></div>
                     <div id="texto7a" class="texto" style="display:none;">
-                        <p class="submenu"><a href="">Artistas Premiados</a> | <a href="">Júri</a> | <a href="">Troféu</a> | <a href="">Parceiros e Apoiadores</a></p>
+                        <p class="submenu">
+                            <a href="premios_residencia.php"><?php pten('Sobre', 'About'); ?></a>
+                            <!-- <a href="">Júri</a> | 
+                            <a href="">Troféu</a> | 
+                            <a href="">Parceiros e Apoiadores</a></p> -->
                         
                         <div style="display:inline">
                         <p class="nomargin texto-submenu r">O Festival de Arte Contemporânea Sesc_Videobrasil tem atuação pioneira na promoção de intercâmbios artísticos internacionais. A cada edição, o Festival concede aos  artistas premiados - escolhidos pelo Júri de Premiação entre os selecionados por meio do edital de obras - um Grande Prêmio em dinheiro, no valor de R$ 75.000,000 e a nove Prêmios de Residência em instituições parceiras do Programa de Residências Videobrasil ao redor do mundo. Os Prêmios de Residência do Festival integram o Programa de Residências Videobrasil, que promove conexões e intercâmbios entre artistas, instituições e comunidades no Brasil e no exterior.</p>
@@ -225,10 +358,16 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                         
                     </div>
+                    <!-- /PREMIOS E RESIDENCIAS -->
         			
-        			<div id="menuprincipal8" class="fonteMenu"><img src="img/botoes/publicacoes_1.png"></div>
+
+                    <!-- PUBLICACOES -->
+        			<div id="menuprincipal8" class="fonteMenu"><img src="img/botoes/pt/publicacoes_1.png"></div>
                     <div id="texto8a" class="texto" style="display:none;">
-                        <p class="submenu"><a href="">Livros do Festival</a> | <a href="">Outros Lançamentos</a></p>
+                        <p class="submenu">
+                            <a href="">Livros do Festival</a> | 
+                            <a href="">Outros Lançamentos</a>
+                        </p>
 
                         <div style="display:inline">
                         <p class="nomargin texto-submenu o">Cinco publicações editadas têm lançamento durante o 19ª Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul. Três delas são vinculadas aos temas dessa edição: Panoramas do Sul | Artistas Convidados, Panoramas do Sul | Obras Selecionadas e Projetos Comissionados e a antologia Panoramas do Sul | Leituras — Perspectivas para outras geografias do pensamento. O livro Videobrasil: Três décadas de vídeo, arte, encontros e transformações celebra a história do Festival, mapeando as transformações do vídeo e suas aproximações com a arte a partir dos anos 1980. Fecha o conjunto Aliança de Corpos Vulneráveis, a 11ª edição da revista anual de arte contemporânea Caderno Sesc_Videobrasil, edição do curador Miguel Ángel López.</p>
@@ -238,18 +377,30 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                         
                     </div>
+                    <!-- /PUBLICACOES -->
 
-                    <div id="menuprincipal9" class="fonteMenu"><img src="img/botoes/agenda_1.png"></div>
+
+                    <!-- AGENDA -->
+                    <div id="menuprincipal9" class="fonteMenu"><img src="img/botoes/pt/agenda_1.png"></div>
                     <div id="texto9a" class="texto" style="display:none; height: 0"></div>
+                    <!-- /AGENDA -->
 
-                    <div id="menuprincipal10" class="fonteMenu"><img src="img/botoes/fotosvideos_1.png"></div>
+
+                    <!-- FOTOS E VIDEOS -->
+                    <div id="menuprincipal10" class="fonteMenu"><img src="img/botoes/pt/fotosvideos_1.png"></div>
                     <div id="texto10a" class="texto" style="display:none;"></div>
+                    <!-- /FOTOS E VIDEOS -->
 
-                    <div id="menuprincipal11" class="fonteMenu"><img src="img/botoes/noticias_1.png"></div>
+                    <!-- NOTICIAS -->
+                    <div id="menuprincipal11" class="fonteMenu"><img src="img/botoes/pt/noticias_1.png"></div>
                     <div id="texto11a" class="texto" style="display:none;"></div>
+                    <!-- /NOTICIAS -->
 
-                    <div id="menuprincipal12" class="fonteMenu"><img src="img/botoes/imprensa_1.png"></div>
+                    <!-- IMPRENSA -->
+                    <div id="menuprincipal12" class="fonteMenu"><img src="img/botoes/pt/imprensa_1.png"></div>
                     <div id="texto12a" class="texto" style="display:none;"></div>
+                    <!-- /IMPRENSA -->
+
         		</div>
         		
         	</div>
@@ -261,18 +412,18 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 
     <div id="preload">
-    <img src="img/botoes/expos_2.png" width="1" height="1" alt="Image 01" />
-    <img src="img/botoes/progsfilmes_2.png" width="1" height="1" alt="Image 02" />
-    <img src="img/botoes/performances_2.png" width="1" height="1" alt="Image 03" />
-    <img src="img/botoes/curadoria_2.png" width="1" height="1" alt="Image 04" />
-    <img src="img/botoes/pp_2.png" width="1" height="1" alt="Image 05" />
-    <img src="img/botoes/premios_2.png" width="1" height="1" alt="Image 06" />
-    <img src="img/botoes/publicacoes_2.png" width="1" height="1" alt="Image 07" />
-    <img src="img/botoes/agenda_2.png" width="1" height="1" alt="Image 08" />
-    <img src="img/botoes/fotosvideos_2.png" width="1" height="1" alt="Image 09" />
-    <img src="img/botoes/sobre_2.png" width="1" height="1" alt="Image 10" />
-    <img src="img/botoes/noticias_2.png" width="1" height="1" alt="Image 11" />
-    <img src="img/botoes/imprensa_2.png" width="1" height="1" alt="Image 12" />
+    <img src="img/botoes/pt/expos_2.png" width="1" height="1" alt="Image 01" />
+    <img src="img/botoes/pt/progsfilmes_2.png" width="1" height="1" alt="Image 02" />
+    <img src="img/botoes/pt/performances_2.png" width="1" height="1" alt="Image 03" />
+    <img src="img/botoes/pt/curadoria_2.png" width="1" height="1" alt="Image 04" />
+    <img src="img/botoes/pt/pp_2.png" width="1" height="1" alt="Image 05" />
+    <img src="img/botoes/pt/premios_2.png" width="1" height="1" alt="Image 06" />
+    <img src="img/botoes/pt/publicacoes_2.png" width="1" height="1" alt="Image 07" />
+    <img src="img/botoes/pt/agenda_2.png" width="1" height="1" alt="Image 08" />
+    <img src="img/botoes/pt/fotosvideos_2.png" width="1" height="1" alt="Image 09" />
+    <img src="img/botoes/pt/sobre_2.png" width="1" height="1" alt="Image 10" />
+    <img src="img/botoes/pt/noticias_2.png" width="1" height="1" alt="Image 11" />
+    <img src="img/botoes/pt/imprensa_2.png" width="1" height="1" alt="Image 12" />
 
 </div>
 </body>
