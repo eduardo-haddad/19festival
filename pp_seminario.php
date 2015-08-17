@@ -63,11 +63,11 @@ $titulo = $idioma == 'pt' ? 'Seminário' : 'Seminário';
             <div class="row">
                 <div class="col-xs-12">
                     <p class="submenu" style="margin-bottom:24px">
-                        <a href="#pp1"><?php pten('SOBRE', 'ABOUT') ?></a> | 
-                        <a href="#pp2"><?php pten('REPENSAR TRADIÇÕES', 'XXXREPENSAR TRADIÇÕES') ?></a> | 
-                        <a href="#pp3"><?php pten('REPENSAR ESPAÇOS', 'XXXREPENSAR ESPAÇOS') ?></a> | 
-                        <a href="#pp4"><?php pten('REPENSAR NARRATIVAS', 'XXXREPENSAR NARRATIVAS') ?></a> |
-                        <a href="#pp5"><?php pten('REPENSAR O TEMPO', 'XXXREPENSAR O TEMPO') ?></a>
+                        <a href="#ppsobre"><?php pten('SOBRE', 'ABOUT') ?></a> | 
+                        <a href="#pp1"><?php pten('REPENSAR TRADIÇÕES', 'XXXREPENSAR TRADIÇÕES') ?></a> | 
+                        <a href="#pp2"><?php pten('REPENSAR ESPAÇOS', 'XXXREPENSAR ESPAÇOS') ?></a> | 
+                        <a href="#pp3"><?php pten('REPENSAR NARRATIVAS', 'XXXREPENSAR NARRATIVAS') ?></a> |
+                        <a href="#pp4"><?php pten('REPENSAR O TEMPO', 'XXXREPENSAR O TEMPO') ?></a>
                     </p>      
                 </div>
             </div>
@@ -78,7 +78,7 @@ $titulo = $idioma == 'pt' ? 'Seminário' : 'Seminário';
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/blank.png" class="img-responsive" style="margin-bottom: 15px" />    
+                    <a name="ppsobre"></a><img src="img/blank.png" class="img-responsive" style="margin-bottom: 15px" />    
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php

@@ -138,7 +138,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
         			<div id="menuprincipal1" class="fonteMenu"><img src="img/botoes/sobre_1.png"></div>
                     <div id="texto1a" class="texto" style="display:none;">
-                        <p class="submenu" style="margin-bottom: -3px;"><a href="">Apresentação 19ª Festival</a><br /><a href="">Statement da curadoria</a><br /><a href="">Identidade Visual</a><br /><a href="">Parceiros</a><br /><a href="">Convocatórias 19º</a><br /><a href="">Histórico do Festival</a></p>
+                        <p class="submenu" style="margin-bottom: -3px;"><a href="apresentacao.php">Apresentação 19ª Festival</a><br /><a href="curadoria.php">Statement da curadoria</a><br /><a href="identidade.php">Identidade Visual</a><br /><a href="parceiros.php">Parceiros</a><br /><a href="">Convocatórias 19º</a><br /><a href="">Histórico do Festival</a></p>
 
                         <div style="display:inline">
                         <p class="nomargin texto-submenu"></p>
