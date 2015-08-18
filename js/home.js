@@ -202,35 +202,6 @@ $(document).ready(
 	}
 );*/
 
-$(document).ready(
-        function menuZona(){
-        	$listasZona = $('a[id^=sm-encontro]');
-        	
-
-        	$listasZona.eq(0).addClass('ativo'); //ativar primeiro item do menu
-        	$('#conteudo-encontro').load('elements/zona/zona_encontro_1.html');
-
-        	$listasZona.on(
-           	 'click', function(){
-            	    $listasZona.removeClass('ativo');
-            	    $(this).addClass('ativo'); //ativar item clicado
-
-            	    if($(this).hasClass('ativo')){
-            	        $id = $(this).attr('id'); //recuperar id do item clicado
-
-             	       if($id == 'sm-encontro-observatorio'){ 
-             	           $('#conteudo-encontro').load('elements/zona/zona_encontro_1.html');
-             	       	}else if($id == 'sm-encontro-2'){ 
-             	           $('#conteudo-encontro').load('elements/zona/zona_encontro_2.html');
-             	       	} else if($id == 'sm-encontro-3'){ 
-             	           $('#conteudo-encontro').load('elements/zona/zona_encontro_3.html');
-                    	}
-                	}
-            }
-       		);
-        }
-);
-
        
 
 $(document).ready(

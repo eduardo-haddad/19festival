@@ -273,9 +273,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         			<div id="menuprincipal3" class="fonteMenu"><img src="img/botoes/pt/progsfilmes_1.png"></div>
                     <div id="texto3a" class="texto" style="display:none;">
                         <p class="submenu">
-                            <a href="">Obras selecionadas</a> | 
-                            <a href="">Gabriel Abrantes</a> | 
-                            <a href="">Programação</a>
+                            <a href="progsfilmes.php#obras">Obras selecionadas</a> | 
+                            <a href="progsfilmes.php#gabriel">Gabriel Abrantes</a> | 
+                            <a href="progsfilmes.php#programacao">Programação</a>
                         </p>
 
                         <div style="display:inline">
