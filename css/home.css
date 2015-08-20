@@ -107,23 +107,25 @@ header {
 }
 
 #mapa {
-    position:fixed;
+    /*position:absolute;*/
     display: none;
     z-index: 101;
-    margin-top: auto;
-    margin-bottom: auto;
+/*    margin-top: auto;
+    margin-bottom: auto;*/
     width: 30%;
-    height: auto;  
+/*    height: auto;*/  
     color: white;
-    text-align: center;
+    text-align: left;
     background-color: #8f6b55;
     padding: 15px 0 15px 0;
     border: 2px solid #806263;
+    font-size: 1em;
+
 }
 
 #mapa ul {
     list-style-type:none;
-    margin-left: -39px;
+    margin-left: 30px;
     font-size: 1em; 
 }
 
@@ -145,6 +147,7 @@ header {
     font-size: 2em;
     letter-spacing: 0.1em;
     line-height: 2.3em;
+    cursor: pointer;
 }
 
 .hoverMenu {
@@ -167,7 +170,8 @@ header {
 #menuprincipal4, 
 #menuprincipal5, 
 #menuprincipal6, 
-#menuprincipal7 {
+#menuprincipal7,
+#menuprincipal8 {
 
     height: 62px;
     /*width: 615px;*/
@@ -202,7 +206,7 @@ header {
   font-family: 'Tautografica';  
   float: left; 
   margin: 25px 0px 22px;
-  font-size: 2em;
+  font-size: 1.6em;
   letter-spacing: 0.1em;
   line-height: 1.2em;
 }
