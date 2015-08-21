@@ -33,7 +33,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/expos_2.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/expos_1.png">'); }  
                 if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/progsfilmes_2.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/progsfilmes_1.png">'); }  
                 if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/performances_2.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/performances_1.png">'); }  
-                if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/curadoria_2.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/curadoria_1.png">'); }  
                 if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/pp_2.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/pp_1.png">'); }  
                 if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/premios_2.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/premios_1.png">'); }  
                 if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/publicacoes_2.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/publicacoes_1.png">'); }   
@@ -57,13 +56,12 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                 $menu.hover(         //toggle de abertura de menu com alteração de imagem onhover
                         function(){         // função para onmouseover
-                            if($menu.html() == '<img src="img/botoes/pt/expos_1.png">'){ $menu.html('<img src="img/botoes/pt/expos_2.png">'); }  
-                            if($menu.html() == '<img src="img/botoes/pt/progsfilmes_1.png">'){ $menu.html('<img src="img/botoes/pt/progsfilmes_2.png">'); }  
-                            if($menu.html() == '<img src="img/botoes/pt/performances_1.png">'){ $menu.html('<img src="img/botoes/pt/performances_2.png">'); }  
-                            if($menu.html() == '<img src="img/botoes/pt/curadoria_1.png">'){ $menu.html('<img src="img/botoes/pt/curadoria_2.png">'); }  
-                            if($menu.html() == '<img src="img/botoes/pt/pp_1.png">'){ $menu.html('<img src="img/botoes/pt/pp_2.png">'); }  
-                            if($menu.html() == '<img src="img/botoes/pt/premios_1.png">'){ $menu.html('<img src="img/botoes/pt/premios_2.png">'); }  
-                            if($menu.html() == '<img src="img/botoes/pt/publicacoes_1.png">'){ $menu.html('<img src="img/botoes/pt/publicacoes_2.png">'); }
+                            if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/expos_1.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/expos_2.png">'); }  
+                            if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/progsfilmes_1.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/progsfilmes_2.png">'); }  
+                            if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/performances_1.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/performances_2.png">'); }  
+                            if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/pp_1.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/pp_2.png">'); }  
+                            if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/premios_1.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/premios_2.png">'); }  
+                            if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/publicacoes_1.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/publicacoes_2.png">'); }
                             if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/sobre_1.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/sobre_2.png">'); }
 
 
@@ -110,18 +108,18 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 
                 $menu.hover(         //toggle de abertura de menu com alteração de imagem onhover
                         function(){
-                            if($menu.html() == '<img src="img/botoes/pt/agenda_1.png">'){ $menu.html('<img src="img/botoes/pt/agenda_2.png">'); }
-                            if($menu.html() == '<img src="img/botoes/pt/fotosvideos_1.png">'){ $menu.html('<img src="img/botoes/pt/fotosvideos_2.png">'); }
-                            if($menu.html() == '<img src="img/botoes/pt/noticias_1.png">'){ $menu.html('<img src="img/botoes/pt/noticias_2.png">'); }
-                            if($menu.html() == '<img src="img/botoes/pt/imprensa_1.png">'){ $menu.html('<img src="img/botoes/pt/imprensa_2.png">'); }
-                            if($menu.html() == '<img src="img/botoes/pt/zona_1.png">'){ $menu.html('<img src="img/botoes/pt/zona_2.png">'); }
+                            if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/agenda_1.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/agenda_2.png">'); }
+                            if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/fotosvideos_1.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/fotosvideos_2.png">'); }
+                            if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/noticias_1.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/noticias_2.png">'); }
+                            if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/imprensa_1.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/imprensa_2.png">'); }
+                            if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/zona_1.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/zona_2.png">'); }
                         },
                         function(){
-                            if($menu.html() == '<img src="img/botoes/pt/agenda_2.png">'){ $menu.html('<img src="img/botoes/pt/agenda_1.png">'); }
-                            if($menu.html() == '<img src="img/botoes/pt/fotosvideos_2.png">'){ $menu.html('<img src="img/botoes/pt/fotosvideos_1.png">'); }
-                            if($menu.html() == '<img src="img/botoes/pt/noticias_2.png">'){ $menu.html('<img src="img/botoes/pt/noticias_1.png">'); }
-                            if($menu.html() == '<img src="img/botoes/pt/imprensa_2.png">'){ $menu.html('<img src="img/botoes/pt/imprensa_1.png">'); }
-                            if($menu.html() == '<img src="img/botoes/pt/zona_2.png">'){ $menu.html('<img src="img/botoes/pt/zona_1.png">'); }
+                            if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/agenda_2.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/agenda_1.png">'); }
+                            if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/fotosvideos_2.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/fotosvideos_1.png">'); }
+                            if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/noticias_2.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/noticias_1.png">'); }
+                            if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/imprensa_2.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/imprensa_1.png">'); }
+                            if($menu.html() == '<img src="img/botoes/<?php pten('pt','en');?>/zona_2.png">'){ $menu.html('<img src="img/botoes/<?php pten('pt','en');?>/zona_1.png">'); }
                         }
                 );
 
@@ -152,20 +150,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         );
 
         
-    
-    $(document).ready(
-        function(){
-            var w = $(window).width();
-    var h = $(window).height();
-    var d = document.getElementById('mapa');
-    var divW = $(d).width();
-    var divH = $(d).height();
-
-    d.style.position="absolute";
-    d.style.top = (h/2)-(divH/2)+"px";
-    d.style.left = (w/2)-(divW/2)+"px";
-        }
-        );
 
 
     </script>
@@ -207,7 +191,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         </td>
         			  </tr>
         			  <tr >
-        			    <td><div style="display: table;"><div style="display: table-cell; vertical-align: middle;"><div style="clear: both; height: 20px;" class="submenu"><a id="sm-artistas-todos">Todos</a> | <a id="sm-artistas-obras">Obras</a> | <a id="sm-artistas-projetos">Projetos</a> | <a id="sm-artistas-convidados">Convidados</a></div></div></div></td>
+        			    <td><div style="display: table;"><div style="display: table-cell; vertical-align: middle;"><div style="clear: both; height: 20px;" class="submenu">
+                        <a id="sm-artistas-todos"><?php pten('Todos','All');?></a> | 
+                        <a id="sm-artistas-obras"><?php pten('Obras','Artworks');?></a> | 
+                        <a id="sm-artistas-projetos"><?php pten('Projetos','Projects');?></a> | 
+                        <a id="sm-artistas-convidados"><?php pten('Convidados','Guests');?></a></div></div></div></td>
 
         			  </tr>
         			  <tr>
@@ -460,18 +448,18 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 
     <div id="preload">
-    <img src="img/botoes/pt/expos_2.png" width="1" height="1" alt="Image 01" />
-    <img src="img/botoes/pt/progsfilmes_2.png" width="1" height="1" alt="Image 02" />
-    <img src="img/botoes/pt/performances_2.png" width="1" height="1" alt="Image 03" />
-    <img src="img/botoes/pt/curadoria_2.png" width="1" height="1" alt="Image 04" />
-    <img src="img/botoes/pt/pp_2.png" width="1" height="1" alt="Image 05" />
-    <img src="img/botoes/pt/premios_2.png" width="1" height="1" alt="Image 06" />
-    <img src="img/botoes/pt/publicacoes_2.png" width="1" height="1" alt="Image 07" />
-    <img src="img/botoes/pt/agenda_2.png" width="1" height="1" alt="Image 08" />
-    <img src="img/botoes/pt/fotosvideos_2.png" width="1" height="1" alt="Image 09" />
-    <img src="img/botoes/pt/sobre_2.png" width="1" height="1" alt="Image 10" />
-    <img src="img/botoes/pt/noticias_2.png" width="1" height="1" alt="Image 11" />
-    <img src="img/botoes/pt/imprensa_2.png" width="1" height="1" alt="Image 12" />
+    <img src="img/botoes/<?php pten('pt','en');?>/expos_2.png" width="1" height="1" alt="Image 01" />
+    <img src="img/botoes/<?php pten('pt','en');?>/progsfilmes_2.png" width="1" height="1" alt="Image 02" />
+    <img src="img/botoes/<?php pten('pt','en');?>/performances_2.png" width="1" height="1" alt="Image 03" />
+    <img src="img/botoes/<?php pten('pt','en');?>/zona_2.png" width="1" height="1" alt="Image 04" />
+    <img src="img/botoes/<?php pten('pt','en');?>/pp_2.png" width="1" height="1" alt="Image 05" />
+    <img src="img/botoes/<?php pten('pt','en');?>/premios_2.png" width="1" height="1" alt="Image 06" />
+    <img src="img/botoes/<?php pten('pt','en');?>/publicacoes_2.png" width="1" height="1" alt="Image 07" />
+    <img src="img/botoes/<?php pten('pt','en');?>/agenda_2.png" width="1" height="1" alt="Image 08" />
+    <img src="img/botoes/<?php pten('pt','en');?>/fotosvideos_2.png" width="1" height="1" alt="Image 09" />
+    <img src="img/botoes/<?php pten('pt','en');?>/sobre_2.png" width="1" height="1" alt="Image 10" />
+    <img src="img/botoes/<?php pten('pt','en');?>/noticias_2.png" width="1" height="1" alt="Image 11" />
+    <img src="img/botoes/<?php pten('pt','en');?>/imprensa_2.png" width="1" height="1" alt="Image 12" />
 
 </div>
 </body>

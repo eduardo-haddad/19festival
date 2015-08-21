@@ -76,6 +76,11 @@ header {
     line-height: 2.1em;
 }
 
+#idiomas a:link { color: #7F4A3E; }
+#idiomas a:visited { color: #7F4A3E; }
+#idiomas a:hover { color: #7F4A3E;text-decoration: underline; }
+#idiomas a:active { color: #7F4A3E; }
+
 #share {
     display: none;
     float: left;
@@ -107,13 +112,13 @@ header {
 }
 
 #mapa {
-    /*position:absolute;*/
+    position:fixed;
     display: none;
     z-index: 101;
-/*    margin-top: auto;
-    margin-bottom: auto;*/
+    margin-top: auto;
+    margin-bottom: auto;
     width: 30%;
-/*    height: auto;*/  
+    height: auto;  
     color: white;
     text-align: left;
     background-color: #8f6b55;

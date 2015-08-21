@@ -48,11 +48,10 @@ $titulo = $idioma == 'pt' ? 'Identidade' : 'Identity';
             <div class="row" style="clear: both;">
 
                 <div class="col-sm-12 col-md-6 relative" id="id-imagem-top" >
-                    <img src="img/blank.png" id="img-id-1" class="img-responsive" />
+                    <img src="img/identidade/id1.png" id="img-id-1" class="img-responsive" />
 
-                    <img src="img/blank.png" id="img-id-2" class="img-responsive" />
+                    <img src="img/identidade/id2.png" id="img-id-2" class="img-responsive" />
 
-                    <img src="img/blank.png" id="img-id-3" class="img-responsive" />
                 </div>
 
                 <div class="col-sm-12 col-md-6 h" style="float: right;" id="id-texto">
@@ -149,12 +148,11 @@ $titulo = $idioma == 'pt' ? 'Identidade' : 'Identity';
                     
                 </div>
 
-                <div class="col-sm-12 col-md-6 relative" id="id-imagem-bottom">
-                    <img src="img/blank.png" id="img-id-1" class="img-responsive" />
+                <div class="col-sm-12 col-md-6 relative" id="id-imagem-bottom" style="margin-top: 15px">
+                    <img src="img/identidade/id1.png" id="img-id-1" class="img-responsive" />
 
-                    <img src="img/blank.png" id="img-id-2" class="img-responsive" />
+                    <img src="img/identidade/id2.png" id="img-id-2" class="img-responsive" />
 
-                    <img src="img/blank.png" id="img-id-3" class="img-responsive" />
                 </div>
 
             </div><div class="row" >

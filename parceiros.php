@@ -47,8 +47,8 @@ $titulo = $idioma == 'pt' ? 'Parceiros' : 'Supporters';
            
             <div class="row" style="clear: both;">
 
-                <div class="col-sm-12 col-md-6" >
-                    <img src="img/blank.png" id="img-id-1" class="img-responsive" style="margin-bottom: 42px;" />
+                <div class="col-sm-12" >
+                    <img src="img/parceiros/parceiros-institucional.png" id="img-id-1" class="img-responsive" style="margin-bottom: 42px; width: 100px" />
 
                 </div>
 
@@ -66,13 +66,9 @@ $titulo = $idioma == 'pt' ? 'Parceiros' : 'Supporters';
             <div class="row" style="clear: both;">
 
                 <div class="col-sm-12 col-md-6" >
-                    <img src="img/blank.png" id="img-id-1" class="img-responsive" style="margin-bottom: 42px;" />
-
+                    <img src="img/parceiros/parceiros-cultural1.png" id="img-id-1" class="img-responsive" style="margin-bottom: 15px; " /><br />
+                    <img src="img/parceiros/parceiros-cultural2.png" id="img-id-1" class="img-responsive" style="margin-bottom: 42px;" />
                 </div>
-
-               
-
-
 
             </div>
 
@@ -86,31 +82,26 @@ $titulo = $idioma == 'pt' ? 'Parceiros' : 'Supporters';
            
             <div class="row" style="clear: both;">
 
-                <div class="col-sm-12 col-md-6" >
-                    <img src="img/blank.png" id="img-id-1" class="img-responsive" style="margin-bottom: 42px;" />
-
+                <div class="col-sm-12" >
+                    <img src="img/parceiros/parceiros-colaboracao.png" id="img-id-1" class="img-responsive" style="margin-bottom: 42px;" />
                 </div>
-
-               
-
-
 
             </div>
 
-            <div class="row" >
+            <!-- <div class="row">
                 <div class="col-xs-12 titulo" style="float: left;">
                 <p style="margin-bottom:0">
                    <?php pten('Restaurantes parceiros', 'Supporting restaurants');  ?>
                 </p>
                 </div>
-            </div>
+            </div> 
            
             <div class="row" style="clear: both;">
 
                 <div class="col-sm-12 col-md-6" >
                     <img src="img/blank.png" id="img-id-1" class="img-responsive" style="margin-bottom: 42px;" />
 
-                </div>
+                </div>-->
 
                
 
@@ -118,30 +109,6 @@ $titulo = $idioma == 'pt' ? 'Parceiros' : 'Supporters';
 
             </div>
 
-            <div class="row" >
-                <div class="col-xs-12 titulo" style="float: left;">
-                <p style="margin-bottom:0">
-                   <?php pten('Apoio institucional', 'Institutional Support');  ?>
-                </p>
-                </div>
-            </div>
-           
-            <div class="row" style="clear: both;">
-
-                <div class="col-sm-12 col-md-6" >
-                    <img src="img/blank.png" id="img-id-1" class="img-responsive" style="margin-bottom: 42px;" />
-
-                </div>
-
-               
-
-
-
-            </div>
-
-
-
-            <div id="altura">&nbsp;</div>
     </main>
 
     <!-- RODAPE -->
