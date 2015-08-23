@@ -32,6 +32,8 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
                 paletaArtistas($('.pp-participantes p:nth-child(7)'));
                 paletaArtistas($('.pp-participantes p:nth-child(8)'));
                 paletaArtistas($('.pp-participantes p:nth-child(9)'));
+                paletaArtistas($('.pp-participantes p:nth-child(10)'));
+                paletaArtistas($('.pp-participantes p:nth-child(11)'));
                 paletaArtistas($('.data-pp'));
         
             }
@@ -100,8 +102,8 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
 
                     <p><span style="text-transform: uppercase"><?php pten('Participantes', 'Participants'); ?></span></p>
                     <p><span class="bold">Rodrigo Matheus </span><?php pten(
-                        '(São Paulo, Brasil, 1974) bacharel em artes pela Universidade de São Paulo (São Paulo) e mestre em escultura pelo Royal College of Art (Londres). Fez mostras individuais na Fundação Manuel Antônio da Mota (Porto, 2013), no Museu de Arte da Pampulha (Belo Horizonte, 2004) e no Cen- tro Cultural São Paulo (2004), entre outras.',
-                        '(São Paulo, Brazil, 1974) holds a degree in art from the University of São Paulo (São Paulo) and a master’s degree in sculpture from the Royal College of Art (London). He has held solo exhibitions at the Fundação Manuel Antônio da Mota (Porto, 2013), Museu de Arte da Pampulha (Belo Horizonte, 2004), and Centro Cultural São Paulo (2004), among others.'); ?></p>
+                        '(Brasil) bacharel em artes pela Universidade de São Paulo (São Paulo) e mestre em escultura pelo Royal College of Art (Londres). Fez mostras individuais na Fundação Manuel Antônio da Mota (Porto, 2013), no Museu de Arte da Pampulha (Belo Horizonte, 2004) e no Cen- tro Cultural São Paulo (2004), entre outras.',
+                        '(Brazil) holds a degree in art from the University of São Paulo (São Paulo) and a master’s degree in sculpture from the Royal College of Art (London). He has held solo exhibitions at the Fundação Manuel Antônio da Mota (Porto, 2013), Museu de Arte da Pampulha (Belo Horizonte, 2004), and Centro Cultural São Paulo (2004), among others.'); ?></p>
                     
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
@@ -185,64 +187,39 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
             <div class="row" >
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0"> 
-                        <a name="leitura"></a><?php pten(
-                            '<span class="titulo">LEITURA DE PORTFÓLIOS</span><br />
-                             <span class="upper bold data-pp" style="font-size: 1.1em">07/out (quarta) | 11hs às 13h30 | sesc pompeia | teatro</span>',
+                        <a name="visita"></a><?php pten(
+                            '<span class="titulo">Encontro com Rede de Residências</span><br />
+                             <span class="upper bold data-pp" style="font-size: 1.1em">09/out (sexta) | das 17h às 18h30 | galpão vb</span>',
 
-                             '<span class="titulo">PORTFOLIO READING</span><br />
-                             <span class="upper bold data-pp" style="font-size: 1.1em">07/out (quarta) | 11hs às 13h30 | sesc pompeia | teatro</span>'); ?>
+                             '<span class="titulo">MEETING WITH RESIDENCY NETWORK PARTNERS</span><br />
+                             <span class="upper bold data-pp" style="font-size: 1.1em">oct/09 (fri) | 17-18h30 | galpão vb</span>'); ?>
                     </p>
                 </div>
             </div>
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/blank.png" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/encontros-rede.png" class="img-responsive" style="margin-bottom: 15px" />    
 
                     <p><span style="text-transform: uppercase"><?php pten('Participantes', 'Participants'); ?></span></p>
-                    <p><span class="bold">Ana Maria Maia </span><?php pten(
-                        '(Recife, Brasil, 1984) Jornalista e mestre em historia da arte. Curadora adjunta do Panorama de Arte Brasileira do Museu de Arte Moderna de São Paulo, foi assistente de curadoria da 29a Bienal de São Paulo (2009).',
-                        '(XXXXXXX, Brasil, 1984) XXXXXX e mestre em historia da arte. Curadora adjunta do Panorama de Arte Brasileira do Museu de Arte Moderna de São Paulo, foi assistente de curadoria da 29a Bienal de São Paulo (2009).'); ?></p>
-                    <p><span class="bold">Ana Pato </span><?php pten(
-                        '(Recife, Brasil, 1984) Jornalista e mestre em historia da arte. Curadora adjunta do Panorama de Arte Brasileira do Museu de Arte Moderna de São Paulo, foi assistente de curadoria da 29a Bienal de São Paulo (2009).',
-                        '(XXXXXXX, Brasil, 1984) XXXXXX e mestre em historia da arte. Curadora adjunta do Panorama de Arte Brasileira do Museu de Arte Moderna de São Paulo, foi assistente de curadoria da 29a Bienal de São Paulo (2009).'); ?></p>
-                    <p><span class="bold">Daniela Labra </span><?php pten(
-                        '(Recife, Brasil, 1984) Jornalista e mestre em historia da arte. Curadora adjunta do Panorama de Arte Brasileira do Museu de Arte Moderna de São Paulo, foi assistente de curadoria da 29a Bienal de São Paulo (2009).',
-                        '(XXXXXXX, Brasil, 1984) XXXXXX e mestre em historia da arte. Curadora adjunta do Panorama de Arte Brasileira do Museu de Arte Moderna de São Paulo, foi assistente de curadoria da 29a Bienal de São Paulo (2009).'); ?></p> 
+                    <p><span class="bold">A-I-R Laboratory </span><?php pten('(Barbados)','(Poland)'); ?></p>
+                    <p><span class="bold">Arquetopia </span><?php pten('(México)','(Mexico)'); ?></p>
+                    <p><span class="bold">Delfina Foundation </span><?php pten('(Reino Unido)','(United Kingdom)'); ?></p>
+                    <p><span class="bold">Djerassi Resident Artists Program </span><?php pten('(EUA)','(USA)'); ?></p>
+                    <p><span class="bold">FLORA ars+natura </span><?php pten('(Colômbia)','(Colombia)'); ?></p>
+                    <p><span class="bold">Kooshk Residency </span><?php pten('(Irã)','(Iran)'); ?></p>
+                    <p><span class="bold">Kyoto Art Center </span><?php pten('(Japão)','(Japan)'); ?></p>
+                    <p><span class="bold">Red Gate Residency </span><?php pten('(China)','(China)'); ?></p>
+                    <p><span class="bold"><?php pten('Residência Vila Sul','Residence Vila Sul - Goethe-Institut'); ?> </span><?php pten('(Brasil)','(Brazil)'); ?></p>
+                    
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
                 //Evento 3 - PT
-                pten('<p>Te porecumqui ut eaquaspic to qui odit dolorecab in re pre ercia nullandit escium re, quam
-                eum volore officim experci mporeici doloribus, aut auta qui cumquas pererspid quid quame nosti rem
-                natur, omnimpo remodis renim re volorestio tectotatus etur? Nullestibus res rerum diorunt otaqui cus
-                dolorio et unt, quis et aut porerib usaped et quae. Nem as dolores torrovit quiaspe litaque mos vel
-                magnis earcil id que cuptate ndenima sequo qui ut pore re incimol uptatus ut hilis enime quis ipiet
-                experest, cor si ut quasperuptae omnim quam laccus magnis eum fugia sendiam ut vollisimente con
-                conet dolupti idit, nes doluptiis ipsam</p>
-                <p>Te porecumqui ut eaquaspic to qui odit dolorecab in re pre ercia nullandit escium re, quam
-                eum volore officim experci mporeici doloribus, aut auta qui cumquas pererspid quid quame nosti rem
-                natur, omnimpo remodis renim re volorestio tectotatus etur? Nullestibus res rerum diorunt otaqui cus
-                dolorio et unt, quis et aut porerib usaped et quae. Nem as dolores torrovit quiaspe litaque mos vel
-                magnis earcil id que cuptate ndenima sequo qui ut pore re incimol uptatus ut hilis enime quis ipiet
-                experest, cor si ut quasperuptae omnim quam laccus magnis eum fugia sendiam ut vollisimente con
-                conet dolupti idit, nes doluptiis ipsam</p>',
+                pten('<p>Representantes das instituições parceiras do 19º Festival que oferecem residências artísticas conversam com o público sobre seus programas.</p>',
 
                 //Evento 3 - EN
-                '<p>XXX XXXXXXXXXX to qui odit dolorecab in re pre ercia nullandit escium re, quam
-                eum volore officim experci mporeici doloribus, aut auta qui cumquas pererspid quid quame nosti rem
-                natur, omnimpo remodis renim re volorestio tectotatus etur? Nullestibus res rerum diorunt otaqui cus
-                dolorio et unt, quis et aut porerib usaped et quae. Nem as dolores torrovit quiaspe litaque mos vel
-                magnis earcil id que cuptate ndenima sequo qui ut pore re incimol uptatus ut hilis enime quis ipiet
-                experest, cor si ut quasperuptae omnim quam laccus magnis eum fugia sendiam ut vollisimente con
-                conet dolupti idit, nes doluptiis ipsam</p>
-                <p>Te porecumqui ut eaquaspic to qui odit dolorecab in re pre ercia nullandit escium re, quam
-                eum volore officim experci mporeici doloribus, aut auta qui cumquas pererspid quid quame nosti rem
-                natur, omnimpo remodis renim re volorestio tectotatus etur? Nullestibus res rerum diorunt otaqui cus
-                dolorio et unt, quis et aut porerib usaped et quae. Nem as dolores torrovit quiaspe litaque mos vel
-                magnis earcil id que cuptate ndenima sequo qui ut pore re incimol uptatus ut hilis enime quis ipiet
-                experest, cor si ut quasperuptae omnim quam laccus magnis eum fugia sendiam ut vollisimente con
-                conet dolupti idit, nes doluptiis ipsam</p>');  ?> 
+                '<p>Delegates from 19th Festival partner organizations offering artist residencies will discuss their programs with the public. </p>');  ?> 
                 </div> 
             </div>
 
@@ -250,6 +227,103 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
            
 
             <!-- /EVENTO 3 -->
+
+            <!-- EVENTO 4 -->
+
+            <div class="row" >
+                <div class="col-xs-12" style="float: left; margin-bottom: 28px">
+                    <p style="margin-bottom:0"> 
+                        <a name="leitura"></a><?php pten(
+                            '<span class="titulo">LEITURAS DE PORTFÓLIOS</span><br />
+                             <span class="upper bold data-pp" style="font-size: 1.1em">04/nov (quarta) e 05/nov (quinta) | das 13h às 16h | sesc pompeia | teatro</span>',
+
+                             '<span class="titulo">READING OF PORTFOLIOS</span><br />
+                             <span class="upper bold data-pp" style="font-size: 1.1em">nov/04 (wed) and nov/05 (thu) | 13h-16h | sesc pompeia | theater</span>'); ?>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row" style="clear: both;">     
+                <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
+                    <img src="img/pp/encontros-portfolios.png" class="img-responsive" style="margin-bottom: 15px" />    
+
+
+                    <p><span style="text-transform: uppercase"><?php pten('Participantes', 'Participants'); ?></span></p>
+                    <p><span class="bold">Clara Ianni </span><?php pten(
+                        '(Brasil) É artista visual, bacharel em artes visuais pela Universidade de São Paulo, 2010, e mestre em Visual and Media Anthropology pela Freie Universität, Berlim, Alemanha, 2013.',
+                        '(Brazil) Visual artist. She completed a baccalaureate degree in Visual Arts from the University of São Paulo in 2010, and a master’s degree in Visual and Media Anthropology from Freie Universität in Berlin, 2013.'); ?></p>
+                    <p><span class="bold">Débora Bolsoni </span><?php pten(
+                        '(Brasil) É artista visual, mestre em poéticas visuais pela Escola de Comunicação e Artes da Universidade de São Paulo, 2014.',
+                        '(Brazil) A visual artist, she holds a master’s degree in Visual Poetics from the School of Communication and Arts of the University of São Paulo, 2014.'); ?></p>
+                    <p><span class="bold">Felipe Bittencourt </span><?php pten(
+                        '(Brasil) É ator e artista visual, bacharel em Artes Visuais pelo Centro Universitário Belas Artes de São Paulo, 2007, com especialização em Fotografia pela Escola Panamericana de Arte e Design, 2010.',
+                        '(Brazil) An actor and visual artist, he holds a baccalaureate degree in Visual Arts from Centro Universitário Belas Artes in São Paulo, 2007, with a major in Photography from Escola Panamericana de Arte e Design, 2010.'); ?></p> 
+                    <p><span class="bold">Rodolpho Parigi </span><?php pten(
+                        '(Brasil) Artista visual, bacharel em artes plásticas pela FAAP, São Paulo. Desenvolve trabalhos com desenho, pintura, instalação e performance.',
+                        '(Brazil) Visual artist, he completed a baccalaureate in Fine Arts from FAAP, São Paulo. Produces works with drawing, painting, installation, and performance.'); ?></p>
+                </div>     
+                <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
+                <?php
+                //Evento 4 - PT
+                pten('<p>Artistas selecionados para o 19º Festival compartilham sua pesquisa e trajetória e leem os portfólios de participantes inscritos previamente.</p>
+                        <p><span class="bold">Para participar:</span> artistas interessados devem enviar portfólio (em pdf), entre os dias 6.10 e 23.10, para o e-mail portfolio@zebra5.com.br.<br /> 
+                        <span class="bold">Para assistir:</span> retirar ingresso 1h antes da atividade, na bilheteria do Teatro Sesc Pompeia.</p>
+                        <p><span class="bold">Vagas limitadas.</span></p>',
+
+                //Evento 4 - EN
+                       '<p>Artists selected for the 19th Festival will share their research and career stories, and read portfolios from previous entrants.</p>
+                        <p><span class="bold">How to participate:</span> interested artists must email a portfolio (in PDF), between October 6 and 23, to portfolio@zebra5.com.br.<br /> 
+                        <span class="bold">How to attend:</span> collect your ticket one hour before the activity from the Sesc Pompeia Theater box office.</p>
+                        <p><span class="bold">Seats are limited.</span></p>');  ?> 
+                </div> 
+            </div>
+
+            <div style="margin: 31px 0 16px 0; padding-top: 25px; padding-left: 0; border-top: 1pt solid #8F6B55; border-top-width: 100%;"></div>
+           
+
+            <!-- /EVENTO 4 -->
+
+            <!-- EVENTO 5 -->
+
+            <div class="row" >
+                <div class="col-xs-12" style="float: left; margin-bottom: 28px">
+                    <p style="margin-bottom:0"> 
+                        <a name="leitura"></a><?php pten(
+                            '<span class="titulo">visita à exposição <em>quem nasce pra aventura não toma outro rumo</em></span><br />
+                             <span class="upper bold data-pp" style="font-size: 1.1em">14/nov (sáb) e 09/jan (sáb) | 16h | paço das artes</span>',
+
+                             '<span class="titulo"><em>those born for adventure don’t stray from the path</em> exhibition tour</span><br />
+                             <span class="upper bold data-pp" style="font-size: 1.1em">nov/14 (sat) and jan/09 (sat) | 16h | paço das artes</span>'); ?>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row" style="clear: both;">     
+                <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
+                    <img src="img/pp/encontros-curadoria.png" class="img-responsive" style="margin-bottom: 15px" />    
+
+
+                    <p><span style="text-transform: uppercase"><?php pten('Participantes', 'Participants'); ?></span></p>
+                    <p><span class="bold">Diego Matos </span><?php pten(
+                        '(Brasil) é coordenador de Arquivo e Pesquisa do Videobrasil e curador da exposição <em>Quem nasce pra aventura não toma outro rumo</em>.',
+                        '(Brazil) Videobrasil\'s archive and research coordinator and curator of the parallel exhibition <em>Those born for adventure don’t stray from the path</em>'); ?></p>
+                </div>     
+                <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
+                <?php
+                //Evento 5 - PT
+                pten('<p><span class="bold">14/nov, 16h, Paço das Artes</span><br />Roteiro 1: Brasil, São Paulo – um lugar para a partida.</p>
+                      <p><span class="bold">09/jan, 16h, Paço das Artes</span><br />Roteiro 2: O vídeo na arena política da arte.</p>',
+
+                //Evento 5 - EN
+                       '<p><span class="bold">Nov/14, 16h, Paço das Artes</span><br />Itinerary 1: Brazil, São Paulo – a place for departure.</p>
+                      <p><span class="bold">Jan/09, 16h, Paço das Artes</span><br />Itinerary 2: Video in the political arena of art.</p>');  ?> 
+                </div> 
+            </div>
+
+            <div style="margin: 31px 0 16px 0; padding-top: 25px; padding-left: 0; border-top: 1pt solid #8F6B55; border-top-width: 100%;"></div>
+           
+
+            <!-- /EVENTO 5 -->
 
             <div id="altura">&nbsp;</div>
     </main>

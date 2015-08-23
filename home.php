@@ -276,7 +276,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <!-- SOBRE -->
         			<div id="menuprincipal1" class="fonteMenu"><img src="img/botoes/<?php pten('pt','en');?>/sobre_1.png"></div>
                     <div id="texto1a" class="texto" style="display:none;">
-                        <p class="submenu" style="margin-bottom: -3px;">
+                        <p class="submenu" style="margin-bottom: -6px;">
                             <a href="apresentacao.php"><?php pten('Apresentação','Introduction');?></a><br />
                             <a href="curadoria.php"><?php pten('Statement da curadoria','Curatorial statement');?></a><br />
                             <a href="identidade.php"><?php pten('Identidade Visual','Visual Identity');?></a><br />
