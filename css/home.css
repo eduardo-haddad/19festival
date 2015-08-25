@@ -2,7 +2,7 @@
 
 body {
     font-family: 'FedraMonoStdBook';
-    margin-top: 30px;
+    margin-top: 0px;
     
 }
 
@@ -45,6 +45,10 @@ div#preload { display: none; }
 
 header {
     position: relative;
+}
+
+#banner {
+    margin-top: 50px;
 }
 
 .bold {

@@ -441,6 +441,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
     </main>
 
     <div id="altura">&nbsp;</div>
+    
 
     <!-- RODAPE -->
     <footer><?php include "elements/footer.html"; ?></footer>
