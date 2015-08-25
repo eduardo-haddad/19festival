@@ -51,53 +51,11 @@ $titulo = $idioma == 'pt' ? 'Apresentação' : 'Introduction';
                     <?php pten( 
                     ////APRESENTAÇAO PT
                     '<p class="f" style="display: inline">
-                    Ao longo dos anos, os troféus criados para a mostra Panoramas do Sul também
-                    sofreram transformações. De peças simplesmente destinadas à premiação,
-                    tornaram-se verdadeiros objetos artísticos. No Galpão do Sesc, centro
-                    do eixo histórico do Festival, o público vai poder conhecer os troféus
-                    criados por artistas como Kiko Farkas, Guto Lacaz, Kimi Nii, Tunga,
-                    Carmela Gross, Luiz Zerbini, Raquel Garbelotti, Rosângela Rennó, entre
-                    outros, incluindo o troféu assinado pela artista Erika Verzutti para
-                    esta 18ª edição. Erika foi recentemente selecionada para a mostra
-                    Carnegie International, que reúne artistas de 19 países no Carnegie
-                    Museum, em Pittsburgh, EUA.</p><br />                     
-                    <p class="k" style="display: inline">
-                    18o Festival | 2013<br />
-                    Troféu: Troféu 18o de Arte Contemporânea SESC_Videobrasil (Panoramas
-                    do Sul)<br />
-                    Artista: Erika Verzutti</p><br />
-                    <p class="s">
-                    Em bronze e cera colorida, o troféu do 18º Festival é uma
-                    escultura da artista paulistana Erika Verzutti em forma de romã. “A
-                    fruta foi uma escolha natural quando procurava uma forma de meu
-                    repertório conhecido e que fosse também celebratória”, diz. “É uma
-                    forma preciosa, muito expressiva, meio fisionômica, e associada também
-                    a sorte”</p>',
+                    ???</p>',
 
                     //APRESENTAÇAO EN
                     '<p class="f" style="display: inline">
-                    XXX XXXX, os troféus criados para a mostra Panoramas do Sul também
-                    sofreram transformações. De peças simplesmente destinadas à premiação,
-                    tornaram-se verdadeiros objetos artísticos. No Galpão do Sesc, centro
-                    do eixo histórico do Festival, o público vai poder conhecer os troféus
-                    criados por artistas como Kiko Farkas, Guto Lacaz, Kimi Nii, Tunga,
-                    Carmela Gross, Luiz Zerbini, Raquel Garbelotti, Rosângela Rennó, entre
-                    outros, incluindo o troféu assinado pela artista Erika Verzutti para
-                    esta 18ª edição. Erika foi recentemente selecionada para a mostra
-                    Carnegie International, que reúne artistas de 19 países no Carnegie
-                    Museum, em Pittsburgh, EUA.</p><br />                     
-                    <p class="k" style="display: inline">
-                    18o Festival | 2013<br />
-                    Troféu: Troféu 18o de Arte Contemporânea SESC_Videobrasil (Panoramas
-                    do Sul)<br />
-                    Artista: Erika Verzutti</p><br />
-                    <p class="s">
-                    Em bronze e cera colorida, o troféu do 18º Festival é uma
-                    escultura da artista paulistana Erika Verzutti em forma de romã. “A
-                    fruta foi uma escolha natural quando procurava uma forma de meu
-                    repertório conhecido e que fosse também celebratória”, diz. “É uma
-                    forma preciosa, muito expressiva, meio fisionômica, e associada também
-                    a sorte”</p>');
+                    ???</p>');
 
                     ?>
                     
