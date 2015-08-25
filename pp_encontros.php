@@ -235,10 +235,10 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
                     <p style="margin-bottom:0"> 
                         <a name="leitura"></a><?php pten(
                             '<span class="titulo">LEITURAS DE PORTFÓLIOS</span><br />
-                             <span class="upper bold data-pp" style="font-size: 1.1em">04/nov (quarta) e 05/nov (quinta) | das 13h às 16h | sesc pompeia | teatro</span>',
+                             <span class="upper bold data-pp" style="font-size: 1.1em">04/nov (quarta) e 05/nov (quinta) | das 13h às 16h | galpão vb</span>',
 
                              '<span class="titulo">READING OF PORTFOLIOS</span><br />
-                             <span class="upper bold data-pp" style="font-size: 1.1em">nov/04 (wed) and nov/05 (thu) | 13h-16h | sesc pompeia | theater</span>'); ?>
+                             <span class="upper bold data-pp" style="font-size: 1.1em">nov/04 (wed) and nov/05 (thu) | 13h-16h | galpão vb</span>'); ?>
                     </p>
                 </div>
             </div>
@@ -250,17 +250,17 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
 
                     <p><span style="text-transform: uppercase"><?php pten('Participantes', 'Participants'); ?></span></p>
                     <p><span class="bold">Clara Ianni </span><?php pten(
-                        '(Brasil) É artista visual, bacharel em artes visuais pela Universidade de São Paulo, 2010, e mestre em Visual and Media Anthropology pela Freie Universität, Berlim, Alemanha, 2013.',
-                        '(Brazil) Visual artist. She completed a baccalaureate degree in Visual Arts from the University of São Paulo in 2010, and a master’s degree in Visual and Media Anthropology from Freie Universität in Berlin, 2013.'); ?></p>
+                        '(Brasil) é artista visual, bacharel em artes visuais pela Universidade de São Paulo, 2010, e mestre em Visual and Media Anthropology pela Freie Universität, Berlim, Alemanha, 2013.',
+                        '(Brazil) a visual artist. She completed a baccalaureate degree in Visual Arts from the University of São Paulo in 2010, and a master’s degree in Visual and Media Anthropology from Freie Universität in Berlin, 2013.'); ?></p>
                     <p><span class="bold">Débora Bolsoni </span><?php pten(
-                        '(Brasil) É artista visual, mestre em poéticas visuais pela Escola de Comunicação e Artes da Universidade de São Paulo, 2014.',
-                        '(Brazil) A visual artist, she holds a master’s degree in Visual Poetics from the School of Communication and Arts of the University of São Paulo, 2014.'); ?></p>
+                        '(Brasil) é artista visual, mestre em poéticas visuais pela Escola de Comunicação e Artes da Universidade de São Paulo, 2014.',
+                        '(Brazil) a visual artist, she holds a master’s degree in Visual Poetics from the School of Communication and Arts of the University of São Paulo, 2014.'); ?></p>
                     <p><span class="bold">Felipe Bittencourt </span><?php pten(
-                        '(Brasil) É ator e artista visual, bacharel em Artes Visuais pelo Centro Universitário Belas Artes de São Paulo, 2007, com especialização em Fotografia pela Escola Panamericana de Arte e Design, 2010.',
-                        '(Brazil) An actor and visual artist, he holds a baccalaureate degree in Visual Arts from Centro Universitário Belas Artes in São Paulo, 2007, with a major in Photography from Escola Panamericana de Arte e Design, 2010.'); ?></p> 
+                        '(Brasil) é ator e artista visual, bacharel em Artes Visuais pelo Centro Universitário Belas Artes de São Paulo, 2007, com especialização em Fotografia pela Escola Panamericana de Arte e Design, 2010.',
+                        '(Brazil) an actor and visual artist, he holds a baccalaureate degree in Visual Arts from Centro Universitário Belas Artes in São Paulo, 2007, with a major in Photography from Escola Panamericana de Arte e Design, 2010.'); ?></p> 
                     <p><span class="bold">Rodolpho Parigi </span><?php pten(
-                        '(Brasil) Artista visual, bacharel em artes plásticas pela FAAP, São Paulo. Desenvolve trabalhos com desenho, pintura, instalação e performance.',
-                        '(Brazil) Visual artist, he completed a baccalaureate in Fine Arts from FAAP, São Paulo. Produces works with drawing, painting, installation, and performance.'); ?></p>
+                        '(Brasil) é artista visual, bacharel em artes plásticas pela FAAP, São Paulo. Desenvolve trabalhos com desenho, pintura, instalação e performance.',
+                        '(Brazil) visual artist, he completed a baccalaureate in Fine Arts from FAAP, São Paulo. Produces works with drawing, painting, installation, and performance.'); ?></p>
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
