@@ -33,25 +33,33 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                     if(hash == 'obras'){ 
                                
-                               $('#progs-conteudo').load('elements/progsfilmes/obras.php');
-                               $menuFilmes.eq(0).addClass('ativo'); 
-                               $('.bc-atual').html('obras');
+                               $('#progs-conteudo').load('elements/progsfilmes/obras.php', function(){
+                                  $menuFilmes.eq(0).addClass('ativo'); 
+                                  $('.bc-atual').html('obras');
+                               });
+                               
                             }else if(hash == 'gabriel'){ 
                                
-                               $('#progs-conteudo').load('elements/progsfilmes/gabriel.php');
-                               $menuFilmes.eq(1).addClass('ativo'); 
-                               $('.bc-atual').html('gabriel abrantes');
+                               $('#progs-conteudo').load('elements/progsfilmes/gabriel.php', function(){
+                                  $menuFilmes.eq(1).addClass('ativo'); 
+                                  $('.bc-atual').html('gabriel abrantes');
+                               });
+                               
                             } else if(hash == 'programacao'){ 
                                
-                               $('#progs-conteudo').load('elements/progsfilmes/programacao.php');
-                               $menuFilmes.eq(2).addClass('ativo'); 
-                               $('.bc-atual').html('programação');
+                               $('#progs-conteudo').load('elements/progsfilmes/programacao.php', function(){
+                                  $menuFilmes.eq(2).addClass('ativo'); 
+                                  $('.bc-atual').html('programação');
+                               });
+                               
                             }
 
                 } else {
 
-                    $('#progs-conteudo').load('elements/progsfilmes/obras.php');
-                    $menuFilmes.eq(0).addClass('ativo'); //ativar primeiro item do menu
+                    $('#progs-conteudo').load('elements/progsfilmes/obras.php', function(){
+                        $menuFilmes.eq(0).addClass('ativo'); //ativar primeiro item do menu
+                    });
+                    
                 }
 
                 $menuFilmes.on(
@@ -64,16 +72,22 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                            if($id == 'prog1'){ 
                                
-                               $('#progs-conteudo').load('elements/progsfilmes/obras.php');
-                               $('.bc-atual').html('obras');
+                               $('#progs-conteudo').load('elements/progsfilmes/obras.php', function(){
+                                    $('.bc-atual').html('obras');
+                               });
+                               
                             }else if($id == 'prog2'){ 
                                
-                               $('#progs-conteudo').load('elements/progsfilmes/gabriel.php');
-                               $('.bc-atual').html('gabriel abrantes');
+                               $('#progs-conteudo').load('elements/progsfilmes/gabriel.php', function(){
+                                    $('.bc-atual').html('gabriel abrantes');
+                               });
+                               
                             } else if($id == 'prog3'){ 
                                
-                               $('#progs-conteudo').load('elements/progsfilmes/programacao.php');
-                               $('.bc-atual').html('programação');
+                               $('#progs-conteudo').load('elements/progsfilmes/programacao.php', function(){
+                                    $('.bc-atual').html('programação');
+                               });
+                               
                             }
                         }
                 }
