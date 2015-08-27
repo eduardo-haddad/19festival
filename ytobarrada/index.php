@@ -147,7 +147,7 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
             <div style="margin: 31px 0 16px 0; padding-top: 25px; padding-left: 0; border-top: 1pt solid #8F6B55; border-top-width: 100%;"></div>
 
             <!-- LISTA ARTISTAS -->
-            <div class="row" style="clear: both;" id=""><?php include('../elements/lista_selecionados.html'); ?></div>
+            <div class="row" style="clear: both;" id=""><?php include('../elements/lista_convidados.html'); ?></div>
             <!-- /LISTA ARTISTAS -->
 
             <!-- LINK RODAPE -->

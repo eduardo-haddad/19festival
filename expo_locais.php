@@ -54,6 +54,20 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
                 </div>
         	</div>
 
+            <!-- SUBMENU -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="submenu" style="margin-bottom:21px">
+                        <a href="expo_convidados.php"><?php pten('artistas convidados', 'guest artists') ?></a> | 
+                        <a href="expo_projetos.php"><?php pten('projetos comissionados', 'Comissioned projects') ?></a> | 
+                        <a href="expo_obras.php"><?php pten('obras selecionadas', 'Selected artworks') ?></a> | 
+                        <a href="expo_paralela.php"><?php pten('exposição paralela', 'Parallel exhibition') ?></a> |
+                        <a href="expo_locais.php"><span style="text-decoration: underline"><?php pten('Locais', 'Venues') ?></span></a>
+                    </p>      
+                </div>
+            </div>
+            <!-- SUBMENU -->
+
              
             <!-- EXPO 1 -->
             <div class="row" style="clear: both; margin-bottom: 20px">

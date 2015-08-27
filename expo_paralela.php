@@ -1,7 +1,7 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
-$titulo = $idioma == 'pt' ? 'Exposição Paralela' : '???Exposição Paralela';
+$titulo = $idioma == 'pt' ? 'Exposição Paralela' : 'Parallel exhibition';
 
 ?>
 
@@ -32,6 +32,14 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : '???Exposição Paralela';
             }
         );
     </script>
+    <style type="text/css">
+
+        #lista ol li a:link { text-decoration: none; color: inherit; }
+        #lista ol li a:visited { text-decoration: none; color: inherit;}
+        #lista ol li a:hover { text-decoration: none; color: inherit;}
+        #lista ol li a:active { text-decoration: none; color: inherit;}
+
+    </style>
 
 </head>
 <body>
@@ -50,24 +58,50 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : '???Exposição Paralela';
         	<div class="row">
         		<div class="col-xs-12 breadcrumb">
                     <span><?php pten('exposições > <span class="underline">exposição paralela</span>', 
-                                     'exhibitions > <span class="underline">???exposição paralela</span>');  ?></span>      
+                                     'exhibitions > <span class="underline">Parallel exhibition</span>');  ?></span>      
                 </div>
         	</div>
 
-            <p class="titulo"><?php pten('exposição paralela', 
-                                         '???exposição paralela'); ?></p> 
+            <!-- SUBMENU -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="submenu" style="margin-bottom:21px">
+                        <a href="expo_convidados.php"><?php pten('artistas convidados', 'guest artists') ?></a> | 
+                        <a href="expo_projetos.php"><?php pten('projetos comissionados', 'Comissioned projects') ?></a> | 
+                        <a href="expo_obras.php"><?php pten('obras selecionadas', 'Selected artworks') ?></a> | 
+                        <a href="expo_paralela.php"><span style="text-decoration: underline"><?php pten('exposição paralela', 'Parallel exhibition') ?></span></a> |
+                        <a href="expo_locais.php"><?php pten('Locais', 'Venues') ?></a>
+                    </p>      
+                </div>
+            </div>
+            <!-- SUBMENU -->
+
+            <p class="titulo"><?php pten('exposição paralela | Quem nasce pra aventura não toma outro rumo', 
+                                         '<span style="letter-spacing: -0.04em">Parallel exhibition | Those born for adventure don’t stray from the path</span>'); ?></p> 
            
             <div class="row" style="clear: both;">
 
                 <div class="col-sm-12 col-md-6 relative" >
-                    <img src="img/blank.png" class="img-responsive" />
+                    <img src="img/expos/expo-paralela.png" class="img-responsive" />
                     <div id="lista">
                         <ol>
                                 <li class="upper"><?php pten('Artistas Participantes', 'Participating Artists'); ?><br /><br /></li>
-                                <li>??? | <?php pten('Colômbia', 'Colombia'); ?></li>
-                                <li>??? | <?php pten('Brasil', 'Brazil'); ?></li>
-                                <li>??? | <?php pten('Quênia', 'Kenya'); ?></li>
-                                <li>??? | <?php pten('Taiwan', 'Taiwan'); ?></li>
+                                <li>Cao Guimarães | <?php pten('Brasil', 'Brazil'); ?></li>
+                                <li>Carlos Nader | <?php pten('Brasil', 'Brazil'); ?></li>
+                                <li>Claudia Aravena | <?php pten('Chile', 'Chile'); ?></li>
+                                <li>Clive van den Berg | <?php pten('Zâmbia', 'Zambia'); ?></li>
+                                <li>Cristiano Lenhardt | <?php pten('Brasil', 'Brazil'); ?></li>
+                                <li>Gabriel Acevedo Velarde | <?php pten('Peru', 'Peru'); ?></li>
+                                <li>Geraldo Anhaia Mello | <?php pten('Brasil', 'Brazil'); ?></li>
+                                <li>João Moreira Salles | <?php pten('Brasil', 'Brazil'); ?></li>
+                                <li>Karim Aïnouz | <?php pten('Brasil', 'Brazil'); ?></li>
+                                <li>Malek Bensmail | <?php pten('Argélia', 'Algeria'); ?></li>
+                                <li>Marcellvs L. | <?php pten('Brasil', 'Brazil'); ?></li>
+                                <li>Marcelo Gomes | <?php pten('Brasil', 'Brazil'); ?></li>
+                                <li>Nurit Sharett | <?php pten('Israel', 'Israel'); ?></li>
+                                <li>Rita Moreira | <?php pten('Brasil', 'Brazil'); ?></li>
+                                <li>Sandra Kogut | <?php pten('Brasil', 'Brazil'); ?></li>
+                                <li>The Otolith Group | <?php pten('Reino Unido', 'United Kingdom'); ?></li>
                         </ol>
                     </div>
                 </div>
@@ -76,46 +110,22 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : '???Exposição Paralela';
 
                     <?php pten( 
                     ////APRESENTAÇAO PT
-                    '<p style="display: inline">Ao longo dos anos, os troféus criados para a mostra Panoramas do Sul também
-                    sofreram transformações. De peças simplesmente destinadas à premiação,
-                    tornaram-se verdadeiros objetos artísticos. No Galpão do Sesc, centro
-                    do eixo histórico do Festival, o público vai poder conhecer os troféus
-                    criados por artistas como Kiko Farkas, Guto Lacaz, Kimi Nii, Tunga,
-                    Carmela Gross, Luiz Zerbini, Raquel Garbelotti, Rosângela Rennó, entre
-                    outros, incluindo o troféu assinado pela artista Erika Verzutti para
-                    esta 18ª edição. Erika foi recentemente selecionada para a mostra
-                    Carnegie International, que reúne artistas de 19 países no Carnegie
-                    Museum, em Pittsburgh, EUA.</p><br />                     
-                    
-                    <p>Em bronze e cera colorida, o troféu do 18º Festival é uma
-                    escultura da artista paulistana Erika Verzutti em forma de romã. “A
-                    fruta foi uma escolha natural quando procurava uma forma de meu
-                    repertório conhecido e que fosse também celebratória”, diz. “É uma
-                    forma preciosa, muito expressiva, meio fisionômica, e associada também
-                    a sorte”</p>',
+                    '<p style="display: inline">Releitura, à luz do contemporâneo, da produção resguardada pelo Acervo Videobrasil, reúne dezesseis
+                    obras realizadas entre 1978 e 2012 por artistas do Sul global. Os trabalhos e o contexto brasileiros inspiram os três eixos
+                    da curadoria – Afeições, tempos e estradas; Democracia, documento e ficção; e Fala, escuta e dissenso –, que dialogam com o
+                    universo das obras do Festival. O título cita frase da artista Lygia Pape, ao interpelar o crítico Mário Pedrosa em entrevista
+                    ao jornal o Pasquim em 1981.</p>',
 
                     //APRESENTAÇAO EN
-                    '<p style="display: inline">Ao longo dos anos, os troféus criados para a mostra Panoramas do Sul também
-                    sofreram transformações. De peças simplesmente destinadas à premiação,
-                    tornaram-se verdadeiros objetos artísticos. No Galpão do Sesc, centro
-                    do eixo histórico do Festival, o público vai poder conhecer os troféus
-                    criados por artistas como Kiko Farkas, Guto Lacaz, Kimi Nii, Tunga,
-                    Carmela Gross, Luiz Zerbini, Raquel Garbelotti, Rosângela Rennó, entre
-                    outros, incluindo o troféu assinado pela artista Erika Verzutti para
-                    esta 18ª edição. Erika foi recentemente selecionada para a mostra
-                    Carnegie International, que reúne artistas de 19 países no Carnegie
-                    Museum, em Pittsburgh, EUA.</p><br />                     
-                    
-                    <p>Em bronze e cera colorida, o troféu do 18º Festival é uma
-                    escultura da artista paulistana Erika Verzutti em forma de romã. “A
-                    fruta foi uma escolha natural quando procurava uma forma de meu
-                    repertório conhecido e que fosse também celebratória”, diz. “É uma
-                    forma preciosa, muito expressiva, meio fisionômica, e associada também
-                    a sorte”</p>');
+                    '<p style="display: inline">A contemporary take on productions from the Videobrasil Collection, featuring 15 pieces created between
+                    1978 and 2012 by artists from global South. The program is divided into three sections, inspired by the selected Brazilian
+                    artworks – Affections, times and roads; Democracy, document and fiction; and Speech, hearing and dissent – which converse
+                    with the universe outlined by the artworks featured in the Festival. The title is a quote from a 1981 interview by the
+                    critic Mário Pedrosa to artist Lygia Pape, for newspaper O Pasquim.</p>');
 
                     ?>
                     
-                    <p class="titulo" style="margin-top:37px"><?php pten('Statement da curadoria', 'Statement'); ?></p>
+                    <!-- <p class="titulo" style="margin-top:37px"><?php pten('Statement da curadoria', 'Statement'); ?></p>
 
                     <?php pten( 
                     ////STATEMENT PT
@@ -158,7 +168,7 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : '???Exposição Paralela';
                     forma preciosa, muito expressiva, meio fisionômica, e associada também
                     a sorte”</p>');
 
-                    ?>
+                    ?> -->
                     
                 </div>
 
@@ -172,50 +182,47 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : '???Exposição Paralela';
                     <div class="row link_rodape" style="margin-top: 0; margin-bottom: 17px">                 
                         <div class="col-md-12" style="padding-left: 0">                     
                             <?php pten(
-                            '<p><span class="upper a">sesc pompeia | convivência</span><br />
-                            Rua Clélia, 93<br />
+                            '<p><span class="upper a">Paço das Artes</span><br />
+                            Av. da Universidade, 1 <br />
                             São Paulo, SP<br />
-                            tel.: 11 3871 7700 | 0800 11 8220 www.sescp.org.br</p>
+                            Tel.: 11 3814 4832 | 3815-4895<br /><a href="http://www.pacodasartes.org.br" target="_blank">www.pacodasartes.org.br</a></p>
                             <p><br /><span class="upper a">visitação</span><br />
-                            de 6 de outubro a 6 de dezembro de 2015<br />
-                            terça a sábado das 9h ás 22h;<br />
-                            domingos e feriados das 9h às 20h</p>',
+                            de 9 de outubro de 2015 a 10 de janeiro de 2016<br />
+                            quarta a sexta das 10h às 19h;<br />
+                            sábados, domingos e feriados das 11h às 18h</p>',
 
-                            '<p><span class="upper a">sesc pompeia | convivência</span><br />
-                            Rua Clélia, 93<br />
+                            '<p><span class="upper a">Paço das Artes</span><br />
+                            Av. da Universidade, 1 <br />
                             São Paulo, SP, Brazil<br />
-                            phone: 11 3871 7700 | www.sescp.org.br</p>
+                            phone: 11 3814 4832 | 3815-4895<br /><a href="http://www.pacodasartes.org.br" target="_blank">www.pacodasartes.org.br</a></p>
                             <p><br /><span class="upper a">visiting hours</span><br />
-                            october 6 to november 6, 2015<br />
-                            tue-sat, from 9am to 10pm;<br />
-                            sun, holidays, from 9am to 8pm</p>'); ?>
-
-
-
+                            october 9, 2015, to january 10, 2016<br />
+                            wed-fri, from 10am to 7pm;<br />
+                            sat, sun, holidays, from 11am to 6pm</p>'); ?>
 
 
                         </div>
                     </div>
 
                 </div>
-               <div class="col-sm-12 col-md-6 relative">
+               <!-- <div class="col-sm-12 col-md-6 relative">
                         <img src="img/expos/preview_sesc_02-temp.jpg" />
-                </div>
+                </div> -->
             </div>
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-sm-12 col-md-6 relative">
                         <img src="img/expos/preview_sesc_01-temp.jpg" />
                 </div>
                <div class="col-sm-12 col-md-6 relative">
                         <img src="img/expos/preview_sesc_02-temp.jpg" />
                 </div>
-            </div>
+            </div> -->
 
             <div class="row link_rodape" style="clear:both">                 
                 <div class="col-md-12" style="padding-left: 0">                     
-                    <span><?php pten('clique <a href="">aqui</a> e veja a galeria completa de imagens', 
-                                     'click <a href="">here</a> to see the complete photo gallery'); ?></span>
+                    <span><?php pten('clique <a href="fotos.php">aqui</a> e veja a galeria completa de imagens', 
+                                     'click <a href="fotos.php">here</a> to see the complete photo gallery'); ?></span>
                 </div>
             </div>
 

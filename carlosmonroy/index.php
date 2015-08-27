@@ -1,26 +1,19 @@
 <?php
 
-$id_obra1 = '1805622';
-$id_obra2 = '1805628';
-$id_artista = '1065544';
-
+$id_obra = '1802204';
+$id_artista = '242284';
 
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
-$pais_artista = $idioma == 'pt' ?  'Mali' : 'Mali';
+$pais_artista = $idioma == 'pt' ?  'Colômbia' : 'Colombia';
 
 
 
 //api vb obras
-$ch  = curl_init('http://acervo.videobrasil.org.br/api/obras/obra/'.$id_obra1.'');
+$ch  = curl_init('http://acervo.videobrasil.org.br/api/obras/obra/'.$id_obra.'');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 $result = curl_exec($ch);
-$obra1 = json_decode($result, true);
-curl_close($ch);
-$ch  = curl_init('http://acervo.videobrasil.org.br/api/obras/obra/'.$id_obra2.'');
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-$result = curl_exec($ch);
-$obra2 = json_decode($result, true);
+$obra = json_decode($result, true);
 curl_close($ch);
 
 //api vb artistas
@@ -35,7 +28,7 @@ foreach ($artista['nomes'] as $nome=>$valor) {
     $nome_artista = $valor['principal'] == true ? $valor['nome'] : null;
 }
 
-// $nome_artista = 'Clara Ianni';
+//$nome_artista = 'Ali Cherri';
 
 //id do video no vzaar
 //$url_vzaar = $obra['canalvb'][0]['url'];
@@ -136,29 +129,8 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
                 </div>
                 <div class="col-sm-12 col-md-6" id="obra-texto">
                     <div style="margin-bottom: 0" >
-                        <span id="obra-titulo"><?php echo '<em>'; print_r($obra1['titulos'][0]['titulo']); echo '</em> | '; print_r($obra1['data_producao']); echo ', '; print_r ($idioma == 'pt' ? $obra1['tipo_obra'] : $obra1['tipo_obra_en']) ?><br /></span>
-                        <span id="obra-sinopse"><?php foreach($obra1["sinopse"] as $sinopse=>$valor) {echo($idioma == $valor['idioma'] ? $valor['sinopse'] : null);} ?></span>
-                            <!-- LINK PLATAFORMA -->
-                            <div class="link-plataforma">
-                                <!--<?php include('../elements/artistas_plataforma.html'); ?>-->
-                            </div>
-                            <!-- /LINK PLATAFORMA -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- /SOBRE A OBRA -->
-
-            <!-- SOBRE A OBRA -->
-            <div class="row" id="obra">
-                <div class="col-sm-12 col-md-6" style="text-align: center;" id="obra-img">
-                    <!-- <iframe allowFullScreen allowTransparency="true" class="vzaar-video-player" frameborder="0"  id="vzvd-<?=$id_vzaar?>" mozallowfullscreen name="vzvd-<?=$id_vzaar?>" src="http://view.vzaar.com/<?=$id_vzaar?>/player" title="vzaar video player" type="text/html" webkitAllowFullScreen width="485" height="273" ></iframe> -->
-                    <img src="../img/obras/obra_<?=strtolower(str_replace(' ', '', $nome_artista));?>.jpg" class="img-responsive" style="margin-bottom: 15px;" />
-                </div>
-                <div class="col-sm-12 col-md-6" id="obra-texto">
-                    <div style="margin-bottom: 0" >
-                        <span id="obra-titulo"><?php echo '<em>'; print_r($obra2['titulos'][0]['titulo']); echo '</em> | '; print_r($obra2['data_producao']); echo ', '; print_r ($idioma == 'pt' ? $obra2['tipo_obra'] : $obra2['tipo_obra_en']) ?><br /></span>
-                        <span id="obra-sinopse"><?php foreach($obra2["sinopse"] as $sinopse=>$valor) {echo($idioma == $valor['idioma'] ? $valor['sinopse'] : null);} ?></span>
+                        <span id="obra-titulo"><?php echo '<em>'; print_r($obra['titulos'][0]['titulo']); echo '</em> | '; print_r($obra['data_producao']); echo ', '; print_r ($idioma == 'pt' ? $obra['tipo_obra'] : $obra['tipo_obra_en']) ?><br /></span>
+                        <span id="obra-sinopse"><?php foreach($obra["sinopse"] as $sinopse=>$valor) {echo($idioma == $valor['idioma'] ? $valor['sinopse'] : null);} ?></span>
                             <!-- LINK PLATAFORMA -->
                             <div class="link-plataforma">
                                 <!--<?php include('../elements/artistas_plataforma.html'); ?>-->
@@ -175,7 +147,7 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
             <div style="margin: 31px 0 16px 0; padding-top: 25px; padding-left: 0; border-top: 1pt solid #8F6B55; border-top-width: 100%;"></div>
 
             <!-- LISTA ARTISTAS -->
-            <div class="row" style="clear: both;" id=""><?php include('../elements/lista_convidados.html'); ?></div>
+            <div class="row" style="clear: both;" id=""><?php include('../elements/lista_projetos.html'); ?></div>
             <!-- /LISTA ARTISTAS -->
 
             <!-- LINK RODAPE -->
