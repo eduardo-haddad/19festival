@@ -32,17 +32,20 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 if (hash) {
 
                     if(hash == 'obras'){ 
-                               $('.bc-atual').html('obras');
+                               
                                $('#progs-conteudo').load('elements/progsfilmes/obras.php');
                                $menuFilmes.eq(0).addClass('ativo'); 
+                               $('.bc-atual').html('obras');
                             }else if(hash == 'gabriel'){ 
-                               $('.bc-atual').html('gabriel abrantes');
+                               
                                $('#progs-conteudo').load('elements/progsfilmes/gabriel.php');
                                $menuFilmes.eq(1).addClass('ativo'); 
+                               $('.bc-atual').html('gabriel abrantes');
                             } else if(hash == 'programacao'){ 
-                               $('.bc-atual').html('programação');
+                               
                                $('#progs-conteudo').load('elements/progsfilmes/programacao.php');
                                $menuFilmes.eq(2).addClass('ativo'); 
+                               $('.bc-atual').html('programação');
                             }
 
                 } else {
@@ -60,14 +63,17 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                             $id = $(this).attr('id'); //recuperar id do item clicado
 
                            if($id == 'prog1'){ 
-                               $('.bc-atual').html('obras');
+                               
                                $('#progs-conteudo').load('elements/progsfilmes/obras.php');
+                               $('.bc-atual').html('obras');
                             }else if($id == 'prog2'){ 
-                               $('.bc-atual').html('gabriel abrantes');
+                               
                                $('#progs-conteudo').load('elements/progsfilmes/gabriel.php');
+                               $('.bc-atual').html('gabriel abrantes');
                             } else if($id == 'prog3'){ 
-                               $('.bc-atual').html('programação');
+                               
                                $('#progs-conteudo').load('elements/progsfilmes/programacao.php');
+                               $('.bc-atual').html('programação');
                             }
                         }
                 }
