@@ -21,6 +21,16 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
     <meta property="og:description"
           content="O 19º Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul, que acontece de 6 de outubro a 6 de dezembro de 2015, em São Paulo, transforma o Sul no grande direcionador de seus eixos curatoriais e de toda a sua programação, tendo como referência suas múltiplas questões que dizem respeito a diásporas, identidades híbridas, trânsito migratório e viagens, narrativas pessoais, memórias, isolamento, tecido social e insularidade."/>
     <script>
+
+    function criaUrlIdioma(hash){
+            $urlidiomapt = '<?php echo strtok($_SERVER["REQUEST_URI"],"?");echo "?idioma=pt" ?>';
+            $urlidiomaen = '<?php echo strtok($_SERVER["REQUEST_URI"],"?");echo "?idioma=en" ?>';
+
+            $('a.urlidiomapt').attr('href', $urlidiomapt + hash); 
+            $('a.urlidiomaen').attr('href', $urlidiomaen + hash);
+        }
+
+
         $(document).ready(
             function menuFilmes(){
 
@@ -32,21 +42,21 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 if (hash) {
 
                     if(hash == 'obras'){ 
-                               
+                               criaUrlIdioma('#obras');
                                $('#progs-conteudo').load('elements/progsfilmes/obras.php', function(){
                                   $menuFilmes.eq(0).addClass('ativo'); 
                                   $('.bc-atual').html('obras');
                                });
                                
                             }else if(hash == 'gabriel'){ 
-                               
+                               criaUrlIdioma('#gabriel');
                                $('#progs-conteudo').load('elements/progsfilmes/gabriel.php', function(){
                                   $menuFilmes.eq(1).addClass('ativo'); 
                                   $('.bc-atual').html('gabriel abrantes');
                                });
                                
                             } else if(hash == 'programacao'){ 
-                               
+                               criaUrlIdioma('#programacao');
                                $('#progs-conteudo').load('elements/progsfilmes/programacao.php', function(){
                                   $menuFilmes.eq(2).addClass('ativo'); 
                                   $('.bc-atual').html('programação');
@@ -70,20 +80,20 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         if($(this).hasClass('ativo')){
                             $id = $(this).attr('id'); //recuperar id do item clicado
 
-                           if($id == 'prog1'){ 
-                               
+                           if($id == 'prog-obras'){ 
+                               criaUrlIdioma('#obras');
                                $('#progs-conteudo').load('elements/progsfilmes/obras.php', function(){
                                     $('.bc-atual').html('obras');
                                });
                                
-                            }else if($id == 'prog2'){ 
-                               
+                            }else if($id == 'prog-gabriel'){ 
+                               criaUrlIdioma('#gabriel');
                                $('#progs-conteudo').load('elements/progsfilmes/gabriel.php', function(){
                                     $('.bc-atual').html('gabriel abrantes');
                                });
                                
-                            } else if($id == 'prog3'){ 
-                               
+                            } else if($id == 'prog-programacao'){ 
+                               criaUrlIdioma('#programacao');
                                $('#progs-conteudo').load('elements/progsfilmes/programacao.php', function(){
                                     $('.bc-atual').html('programação');
                                });
@@ -125,9 +135,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             <div class="row">
                 <div class="col-xs-12">
                     <p class="submenu" style="margin-bottom:21px">
-                    <a id="prog1" name="prog1"><?php pten('Obras selecionadas', 'Selected Artworks') ?></a> | 
-                    <a id="prog2" name="prog2"><?php pten('Gabriel Abrantes', 'Gabriel Abrantes') ?></a> | 
-                    <a id="prog3" name="prog3"><?php pten('Programação', 'Schedule') ?></a></p>      
+                    <a onclick="location.hash='obras';" id="prog-obras"><?php pten('Obras selecionadas', 'Selected Artworks') ?></a> | 
+                    <a onclick="location.hash='gabriel';" id="prog-gabriel"><?php pten('Gabriel Abrantes', 'Gabriel Abrantes') ?></a> | 
+                    <a onclick="location.hash='programacao';" id="prog-programacao"><?php pten('Programação', 'Schedule') ?></a></p>      
                 </div>
             </div>
             <!-- SUBMENU -->

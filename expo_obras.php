@@ -82,7 +82,7 @@ $titulo = $idioma == 'pt' ? 'Obras selecionadas' : 'Selected artworks';
             <div class="row" style="clear: both;">
 
                 <div class="col-sm-12 col-md-6 relative" >
-                    <img src="img/expos/expo-obras.png" class="img-responsive" />
+                    <img src="img/expos/expo-obras-<?php pten('pt','en');?>.png" class="img-responsive" />
                     <div id="lista">
                         <ol>
                                 <li class="upper"><?php pten('Artistas Participantes', 'Participating Artists'); ?><br /><br /></li>

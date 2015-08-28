@@ -58,7 +58,7 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
             <div class="row" style="clear: both;">
 
                 <div class="col-sm-12 col-md-6 relative">
-                    <img src="img/blank.png" id="img-id-1" class="img-responsive" />
+                    <img src="img/zona/videoteca.png" id="img-id-1" class="img-responsive" />
 
                 </div>
 
@@ -138,7 +138,7 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
             <div class="row" style="clear: both;">
 
                 <div class="col-sm-12 col-md-6 relative">
-                    <img src="img/blank.png" id="img-id-1" class="img-responsive" />
+                    <img src="img/zona/canalvb.png" id="img-id-1" class="img-responsive" />
 
                 </div>
 
@@ -217,7 +217,7 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
             <div class="row" style="clear: both;">
 
                 <div class="col-sm-12 col-md-6 relative">
-                    <img src="img/blank.png" id="img-id-1" class="img-responsive" />
+                    <img src="img/zona/plataforma.png" id="img-id-1" class="img-responsive" />
 
                 </div>
 
@@ -296,7 +296,7 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
             <div class="row" style="clear: both;">
 
                 <div class="col-sm-12 col-md-6 relative">
-                    <img src="img/blank.png" id="img-id-1" class="img-responsive" />
+                    <img src="img/zona/publicacoes.png" id="img-id-1" class="img-responsive" />
 
                 </div>
 

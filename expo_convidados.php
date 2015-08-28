@@ -82,7 +82,7 @@ $titulo = $idioma == 'pt' ? 'Artistas Convidados' : 'Guest Artists';
             <div class="row" style="clear: both;">
 
                 <div class="col-sm-12 col-md-6 relative" >
-                    <img src="img/expos/expo-convidados.png" class="img-responsive" />
+                    <img src="img/expos/expo-convidados-<?php pten('pt','en');?>.png" class="img-responsive" />
                     <div id="lista" style="margin-bottom: 19px">
                         <ol>
                             <li class="upper"><?php pten('Artistas Participantes', 'Participating Artists'); ?><br /><br /></li>

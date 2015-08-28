@@ -160,7 +160,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <!-- EVENTO 4 -->
 
-            <div class="row" >
+           <!--  <div class="row" >
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0" class="titulo-pp"> 
                         <a name="pp4"></a>
@@ -197,6 +197,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             </div>
 
             <div style="margin: 31px 0 16px 0; padding-top: 25px; padding-left: 0; border-top: 1pt solid #8F6B55; border-top-width: 100%;"></div>
-           
+            -->
 
             <!-- /EVENTO 4 -->
