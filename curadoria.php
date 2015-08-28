@@ -53,6 +53,21 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
         	   </div>
             </div>
 
+            <!-- SUBMENU -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="submenu" style="margin-bottom:21px">
+                            <a href="apresentacao.php"><?php pten('Apresentação','Introduction');?></a> | 
+                            <a href="curadoria.php"><span style="text-decoration: underline"><?php pten('Curadoria','Curators');?></span></a> | 
+                            <a href="identidade.php"><?php pten('Identidade Visual','Visual Identity');?></a> | 
+                            <a href="parceiros.php"><?php pten('Parceiros','Supporters');?></a> | 
+                            <a href="#" target="_blank"><?php pten('Convocatórias 19º','Open calls');?></a> | 
+                            <a href="http://site.videobrasil.org.br/festival/festivais" target="_blank"><?php pten('Histórico do Festival','History');?></a>
+                        </p>      
+                </div>
+            </div>
+            <!-- SUBMENU -->
+
             <div class="row" >
                 <div class="col-xs-12 titulo" style="float: left;">
                 <p style="margin-bottom:0">

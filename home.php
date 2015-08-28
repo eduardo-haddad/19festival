@@ -375,11 +375,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         			<div id="menuprincipal5" class="fonteMenu"><img src="img/botoes/<?php pten('pt','en');?>/pp_1.png"></div>
                     <div id="texto5a" class="texto" style="display:none;">
                         <p class="submenu">
-                            <a href="#"><?php pten('Sobre','About');?></a> | 
-                            <a href="pp_encontros.php"><?php pten('Encontros e Conversas','Talks');?></a> | 
-                            <a href="pp_seminario.php"><?php pten('Seminário','???');?></a> | 
-                            <a href="pp_oficinas.php"><?php pten('Oficinas','Workshops');?></a> | 
-                            <a href="pp_mediacao.php"><?php pten('Ações de Mediação','Mediation actions');?></a>
+                            <a href="pp.php#sobre"><?php pten('Sobre','About');?></a> | 
+                            <a href="pp.php#encontros"><?php pten('Encontros e Conversas','Meetings and conversations');?></a> | 
+                            <a href="pp.php#seminario"><?php pten('Seminário','Seminar');?></a> | 
+                            <a href="pp.php#oficinas"><?php pten('Oficinas','Workshops');?></a> | 
+                            <a href="pp.php#mediacao"><?php pten('Ações de Mediação','Activation actions');?></a>
                         </p>
 
                         <div style="display:inline">

@@ -1,24 +1,11 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
-$titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
-
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title><?= ($idioma == 'pt' ? $titulo . ' - 19º Festival de Arte Contemporânea Sesc_Videobrasil' : $titulo . ' - 19th Contemporary Art Festival Sesc_Videobrasil')  ?></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" type="text/css" href="css/home.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="js/home.js"></script>
-    <script>
-        $(document).ready(
-            function(){
+<script>
+    
+                paletaArtistas($('.titulo'));
                 paletaArtistas($('.pp-encontro p:nth-child(1)'));
                 paletaArtistas($('.pp-encontro p:nth-child(2)'));
                 paletaArtistas($('.pp-encontro p:nth-child(3)'));
@@ -35,51 +22,9 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
                 paletaArtistas($('.pp-participantes p:nth-child(10)'));
                 paletaArtistas($('.pp-participantes p:nth-child(11)'));
                 paletaArtistas($('.data-pp'));
-        
-            }
-        );
-    </script>
-</head>
-<body>
-    <!-- MAPA DO SITE -->
-    <aside id="mapadosite"><?php include "elements/mapa.html"; ?></aside>
-    <!-- /MAPA DO SITE -->
+</script>
 
-    <main class="container" id="container">
-
-        <!-- HEADER -->
-        <header><?php include "elements/header.html"; ?></header>
-        <!-- /HEADER -->
-
-        	<div style="height:36px; clear: both">&nbsp;</div>
-
-        	
-            <!-- BREADCRUMB -->
-            <div class="row">
-        		<div class="col-xs-12 breadcrumb">
-                    <?php pten('programas públicos > <span class="underline">encontros e conversas</span>', 
-                               'public programs > <span class="underline">meetings and talks</span>'); ?>   
-                </div>
-        	</div>
-            <!-- /BREADCRUMB -->
-
-            <!-- SUBMENU -->
-            <div class="row">
-                <div class="col-xs-12">
-                    <p class="submenu" style="margin-bottom:21px">
-                        <a href="#visita"><?php pten('VISITA GUIADA COM O ARTISTA', 'TOUR WITH THE ARTIST') ?></a> | 
-                        <a href="#leitura"><?php pten('LEITURA DE PORTFÓLIOS', 'PORTFOLIO READING') ?></a> | 
-                        <a href="#encontro"><?php pten('ENCONTRO COM REDE DE RESIDÊNCIAS', 'MEETING WITH RESIDENCY NETWORK') ?></a><br /> 
-                        <a href="#mesa"><?php pten('MESA DE ABERTURA', 'OPENING LECTURE') ?></a> |
-                        <a href="#curadoria"><?php pten('VISITA GUIADA COM CURADORIA', 'GUIDED TOUR WITH CURATORS') ?></a> |
-                        <a href="#tilting"><?php pten('TILTING AXIS 1.5', 'TILTING AXIS 1.5') ?></a>
-                    </p>      
-                </div>
-            </div>
-            <!-- SUBMENU -->
-            
-            
-            <!-- EVENTO 1 -->
+<!-- EVENTO 1 -->
 
             <div class="row" >
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
@@ -328,14 +273,3 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
            
 
             <!-- /EVENTO 5 -->
-
-            <div id="altura">&nbsp;</div>
-    </main>
-
-    <!-- RODAPE -->
-    <footer><?php include "elements/footer.html"; ?></footer>
-    <!-- /RODAPE -->
-
-</body>
-</html>
-

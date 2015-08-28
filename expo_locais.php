@@ -88,36 +88,34 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
                     <span class="bold upper">convivência:</span> <span class="upper">exposição panoramas do sul | obras selecionadas + performances</span><br /> 
                     <span class="bold upper">teatro:</span> <span class="upper">programas de filmes | obras selecionadas e gabriel abrantes</span><br /> <br /> 
 
-                    Rua Clélia, 93 <br /> 
-                    São Paulo, SP<br /> 
-                    Tel.: 11 3871 7700 | 0800 11 8220 <br /> 
-                    <a href="http://www.sescsp.org.br" target="_blank" style="color: inherit;">www.sescsp.org.br</a> <br /> <br /> 
-
-                    Visitação <br /> 
-                    de 6 de outubro a 6 de dezembro de 2015 <br /> 
-                    terça a sábado das 9h às 22h; <br /> 
-                    domingos e feriados das 9h às 20h<br /><br />
+                    
+                            Rua Clélia, 93<br />
+                            São Paulo, SP<br />
+                            tel.: 11 3871 7700 | 0800 11 8220<br /><a style="color:inherit" href="http://www.sescp.org.br" target="_blank">www.sescp.org.br</a><br /> 
+                            <br /><span>Visitação</span><br />
+                            de 6 de outubro a 6 de dezembro de 2015<br />
+                            terça a sábado das 10h ás 21h;<br />
+                            domingos e feriados das 10h às 19h<br /> <br /> 
 
                     <a class="upper" href="https://www.google.com.br/maps/place/Sesc+Pompeia/@-23.5256693,-46.6832229,17z/data=!4m7!1m4!3m3!1s0x94cef809b81cc479:0xbf35620145c1e2cc!2sSesc+Pompeia!3b1!3m1!1s0x94cef809b81cc479:0xbf35620145c1e2cc" target="_blank" style="color: inherit;">Como chegar</a>
                     </p>',
 
                     //EXPO 1 EN
                     '<p class="titulo">sesc pompeia</p>
-                    <p style="display: inline"><span class="bold upper">galpão:</span> <span class="upper">southern panoramas | artistas convidados</span><br /> 
-                    <span class="bold upper">convivência:</span> <span class="upper">exposição panoramas do sul | obras selecionadas + performances</span><br /> 
-                    <span class="bold upper">teatro:</span> <span class="upper">programas de filmes | obras selecionadas e gabriel abrantes</span><br /> <br /> 
+                    <p style="display: inline"><span class="bold upper">galpão:</span> <span class="upper">southern panoramas | guest artists</span><br /> 
+                    <span class="bold upper">convivência:</span> <span class="upper">southern panoramas | selected artworks + performances</span><br /> 
+                    <span class="bold upper">theater:</span> <span class="upper">film programs | selected artworks & gabriel abrantes</span><br /> <br /> 
 
-                    Rua Clélia, 93 <br /> 
-                    São Paulo, SP<br /> 
-                    Tel.: 11 3871 7700 | 0800 11 8220 <br /> 
-                    <a href="http://www.sescsp.org.br" target="_blank" style="color: inherit;">www.sescsp.org.br</a> <br /> <br /> 
+                    
+                            Rua Clélia, 93<br />
+                            São Paulo, SP, Brazil<br />
+                            phone: 11 3871 7700<br /><a style="color:inherit" href="http://www.sescp.org.br" target="_blank">www.sescp.org.br</a><br />
+                            <br /><span>Visiting hours</span><br />
+                            october 6 to december 6, 2015<br />
+                            tue-sat, from 10am to 9pm;<br />
+                            sun, holidays, from 10am to 7pm<br /> <br /> 
 
-                    Visitação <br /> 
-                    de 6 de outubro a 6 de dezembro de 2015 <br /> 
-                    terça a sábado das 9h às 22h; <br /> 
-                    domingos e feriados das 9h às 20h<br /><br />
-
-                    <a class="upper" href="https://www.google.com.br/maps/place/Sesc+Pompeia/@-23.5256693,-46.6832229,17z/data=!4m7!1m4!3m3!1s0x94cef809b81cc479:0xbf35620145c1e2cc!2sSesc+Pompeia!3b1!3m1!1s0x94cef809b81cc479:0xbf35620145c1e2cc" target="_blank" style="color: inherit;">Como chegar</a>
+                    <a class="upper" href="https://www.google.com.br/maps/place/Sesc+Pompeia/@-23.5256693,-46.6832229,17z/data=!4m7!1m4!3m3!1s0x94cef809b81cc479:0xbf35620145c1e2cc!2sSesc+Pompeia!3b1!3m1!1s0x94cef809b81cc479:0xbf35620145c1e2cc" target="_blank" style="color: inherit;">directions</a>
                     </p>');
 
                     ?>
@@ -150,27 +148,28 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
                     <a href="http://www.videobrasil.org.br" target="_blank" style="color: inherit;">www.videobrasil.org.br</a><br /> <br /> 
 
                     Visitação <br /> 
-                    de 8 de outubro a 6 de dezembro de 2015 <br /> 
-                    segundas, quartas, quintas e sextas das 13h às 19h;<br /><br />
+                    de 8 de outubro a 6 de dezembro de 2015<br />
+                    segundas, quartas, quintas e sextas das 13h às 19h;<br />terças das 14h às 21h<br /><br />
 
                     <a class="upper" href="https://www.google.com.br/maps/place/Associa%C3%A7%C3%A3o+Cultural+Videobarsil/@-23.5320694,-46.73051,17z/data=!3m1!4b1!4m7!1m4!3m3!1s0x94cef8bd1bb00695:0x9779d4bc60b1b706!2sAv.+Imperatriz+Leopoldina,+1150+-+Vila+Leopoldina,+S%C3%A3o+Paulo+-+SP!3b1!3m1!1s0x94cef8bd13c7e961:0x1924d04be6bbad85" target="_blank" style="color: inherit;">Como chegar</a>
                     </p>',
 
                     //EXPO 2 EN
                     '<p class="titulo">galpão_vb </p>
-                    <p style="display: inline"><span class="upper">southern panoramas | projetos comissionados<br /> 
-                    programas de filmes | obras selecionadas e gabriel abrantes</span><br /><br /> 
+                    <p style="display: inline"><span class="upper">southern panoramas | comissioned projects<br /> 
+                    film programs | selected artworks & gabriel abrantes</span><br /><br /> 
 
                     Av. Imperatriz Leopoldina, 1150 <br /> 
-                    São Paulo, SP<br /> 
-                    Tel.: 11 3645 0516 <br /> 
+                    São Paulo, SP, Brazil<br /> 
+                    phone: 11 3645 0516 <br /> 
                     <a href="http://www.videobrasil.org.br" target="_blank" style="color: inherit;">www.videobrasil.org.br</a><br /> <br /> 
 
-                    Visitação <br /> 
-                    de 8 de outubro a 6 de dezembro de 2015 <br /> 
-                    segundas, quartas, quintas e sextas das 13h às 19h;<br /><br />
+                    Visiting hours<br /> 
+                    october 8 to december 6, 2015<br />
+                    mon, wed, thu, fri, from 1pm to 7pm;<br />
+                    tue, from 2pm to 9pm<br /><br />
 
-                    <a class="upper" href="https://www.google.com.br/maps/place/Associa%C3%A7%C3%A3o+Cultural+Videobarsil/@-23.5320694,-46.73051,17z/data=!3m1!4b1!4m7!1m4!3m3!1s0x94cef8bd1bb00695:0x9779d4bc60b1b706!2sAv.+Imperatriz+Leopoldina,+1150+-+Vila+Leopoldina,+S%C3%A3o+Paulo+-+SP!3b1!3m1!1s0x94cef8bd13c7e961:0x1924d04be6bbad85" target="_blank" style="color: inherit;">Como chegar</a>
+                    <a class="upper" href="https://www.google.com.br/maps/place/Associa%C3%A7%C3%A3o+Cultural+Videobarsil/@-23.5320694,-46.73051,17z/data=!3m1!4b1!4m7!1m4!3m3!1s0x94cef8bd1bb00695:0x9779d4bc60b1b706!2sAv.+Imperatriz+Leopoldina,+1150+-+Vila+Leopoldina,+S%C3%A3o+Paulo+-+SP!3b1!3m1!1s0x94cef8bd13c7e961:0x1924d04be6bbad85" target="_blank" style="color: inherit;">directions</a>
                     </p>');
 
                     ?>
@@ -196,32 +195,30 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
                     '<p class="titulo">paço das artes</p>
                     <p style="display: inline"><span class="upper">exposição paralela | quem nasce pra aventura não toma outro rumo</span><br /><br /> 
 
-                    Av. Universidade, 1 <br /> 
-                    São Paulo, sp <br /> 
-                    Tel.: 11 3814 4832 | 3815-4895 <br /> 
-                    <a href="http://www.pacodasartes.org.br" target="_blank" style="color: inherit;">www.pacodasartes.org.br</a><br /><br /> 
-
-                    Visitação 
-                    de 9 de outubro de 2015 a 10 de janeiro de 2016 <br /> 
-                    quarta a sexta das 10h às 19h; <br /><br />
+                    Av. da Universidade, 1 <br />
+                            São Paulo, SP<br />
+                            Tel.: 11 3814 4832 | 3815-4895<br /><a style="color: inherit" href="http://www.pacodasartes.org.br" target="_blank">www.pacodasartes.org.br</a><br />
+                            <br /><span>Visitação</span><br />
+                            de 9 de outubro de 2015 a 10 de janeiro de 2016<br />
+                            quarta a sexta das 10h às 19h;<br />
+                            sábados, domingos e feriados das 11h às 18h<br /><br />
 
                     <a class="upper" href="https://www.google.com.br/maps/place/Pa%C3%A7o+das+Artes/@-23.5645329,-46.7155382,17z/data=!3m1!4b1!4m2!3m1!1s0x94ce564ddd8bf503:0x54e382f737fb5484" target="_blank" style="color: inherit;">Como chegar</a>
                     </p>',
 
                     //EXPO 3 EN
                     '<p class="titulo">paço das artes</p>
-                    <p style="display: inline"><span class="upper">exposição paralela | quem nasce pra aventura não toma outro rumo</span><br /><br /> 
+                    <p style="display: inline"><span class="upper">Parallel exhibition<br />Those born for adventure don’t stray from the path</span><br /><br /> 
 
-                    Av. Universidade, 1 <br /> 
-                    São Paulo, sp <br /> 
-                    Tel.: 11 3814 4832 | 3815-4895 <br /> 
-                    <a href="http://www.pacodasartes.org.br" target="_blank" style="color: inherit;">www.pacodasartes.org.br</a><br /><br /> 
+                    Av. da Universidade, 1 <br />
+                            São Paulo, SP, Brazil<br />
+                            phone: 11 3814 4832 | 3815-4895<br /><a style="color: inherit" href="http://www.pacodasartes.org.br" target="_blank">www.pacodasartes.org.br</a><br />
+                            <br /><span>Visiting hours</span><br />
+                            october 9, 2015, to january 10, 2016<br />
+                            wed-fri, from 10am to 7pm;<br />
+                            sat, sun, holidays, from 11am to 6pm<br /><br />
 
-                    Visitação 
-                    de 9 de outubro de 2015 a 10 de janeiro de 2016 <br /> 
-                    quarta a sexta das 10h às 19h; <br /><br />
-
-                    <a class="upper" href="https://www.google.com.br/maps/place/Pa%C3%A7o+das+Artes/@-23.5645329,-46.7155382,17z/data=!3m1!4b1!4m2!3m1!1s0x94ce564ddd8bf503:0x54e382f737fb5484" target="_blank" style="color: inherit;">Como chegar</a>
+                    <a class="upper" href="https://www.google.com.br/maps/place/Pa%C3%A7o+das+Artes/@-23.5645329,-46.7155382,17z/data=!3m1!4b1!4m2!3m1!1s0x94ce564ddd8bf503:0x54e382f737fb5484" target="_blank" style="color: inherit;">directions</a>
                     </p>');
 
                     ?>

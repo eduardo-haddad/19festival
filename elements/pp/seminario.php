@@ -1,24 +1,11 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
-$titulo = $idioma == 'pt' ? 'Seminário' : 'Seminário';
-
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title><?= ($idioma == 'pt' ? $titulo . ' - 19º Festival de Arte Contemporânea Sesc_Videobrasil' : $titulo . ' - 19th Contemporary Art Festival Sesc_Videobrasil')  ?></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" type="text/css" href="css/home.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="js/home.js"></script>
-    <script>
-        $(document).ready(
-            function(){
+<script>
+    
+                paletaArtistas($('.titulo'));
                 paletaArtistas($('.pp-encontro p:nth-child(1)'));
                 paletaArtistas($('.pp-encontro p:nth-child(2)'));
                 paletaArtistas($('.pp-encontro p:nth-child(3)'));
@@ -30,52 +17,15 @@ $titulo = $idioma == 'pt' ? 'Seminário' : 'Seminário';
                 paletaArtistas($('.pp-participantes p:nth-child(5)'));
                 paletaArtistas($('.pp-participantes p:nth-child(6)'));
                 paletaArtistas($('.pp-participantes p:nth-child(7)'));
+                paletaArtistas($('.pp-participantes p:nth-child(8)'));
+                paletaArtistas($('.pp-participantes p:nth-child(9)'));
+                paletaArtistas($('.pp-participantes p:nth-child(10)'));
+                paletaArtistas($('.pp-participantes p:nth-child(11)'));
                 paletaArtistas($('.data-pp'));
+</script>
 
-        
-            }
-        );
-    </script>
-</head>
-<body>
-    <!-- MAPA DO SITE -->
-    <aside id="mapadosite"><?php include "elements/mapa.html"; ?></aside>
-    <!-- /MAPA DO SITE -->
 
-    <main class="container" id="container">
-
-        <!-- HEADER -->
-        <header><?php include "elements/header.html"; ?></header>
-        <!-- /HEADER -->
-
-        	<div style="height:36px; clear: both">&nbsp;</div>
-
-        	
-            <!-- BREADCRUMB -->
-            <div class="row">
-        		<div class="col-xs-12 breadcrumb">
-                    <?php pten('programas públicos > <span class="underline">SEMINÁRIO LUGARES E SENTIDOS DA ARTE</span>', 
-                               'public programs > <span class="underline">XXXXX SEMINÁRIO LUGARES E SENTIDOS DA ARTE</span>'); ?>   
-                </div>
-        	</div>
-            <!-- /BREADCRUMB -->
-
-            <!-- SUBMENU -->
-            <div class="row">
-                <div class="col-xs-12">
-                    <p class="submenu" style="margin-bottom:24px">
-                        <a href="#ppsobre"><?php pten('SOBRE', 'ABOUT') ?></a> | 
-                        <a href="#pp1"><?php pten('REPENSAR TRADIÇÕES', 'RETHINKING TRADITIONS') ?></a> | 
-                        <a href="#pp2"><?php pten('REPENSAR ESPAÇOS', 'RETHINKING SPACES') ?></a> | 
-                        <a href="#pp3"><?php pten('REPENSAR NARRATIVAS', 'RETHINKING NARRATIVES') ?></a> |
-                        <a href="#pp4"><?php pten('REPENSAR O TEMPO', 'RETHINKING TIME') ?></a>
-                    </p>      
-                </div>
-            </div>
-            <!-- SUBMENU -->
-            
-            
-            <!-- SOBRE -->
+<!-- SOBRE -->
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
@@ -365,14 +315,3 @@ $titulo = $idioma == 'pt' ? 'Seminário' : 'Seminário';
            
 
             <!-- /EVENTO 4 -->
-
-            <div id="altura">&nbsp;</div>
-    </main>
-
-    <!-- RODAPE -->
-    <footer><?php include "elements/footer.html"; ?></footer>
-    <!-- /RODAPE -->
-
-</body>
-</html>
-
