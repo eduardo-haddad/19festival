@@ -6,7 +6,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 <html>
 <head>
 	<meta charset="UTF-8">
-    <title>19º Festival de Arte Contemporânea Sesc_Videobrasil</title>
+    <title><?= ($idioma == 'pt' ? '19º Festival de Arte Contemporânea Sesc_Videobrasil' : '19th Contemporary Art Festival Sesc_Videobrasil')  ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
@@ -177,10 +177,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
         	<div style="height:36px; clear: both">&nbsp;</div>
         	<div class="row">
-        		<div class="col-sm-12 col-md-6">
+        		<div class="col-sm-12 col-md-6 relative">
         			<table width="100%" border="0" cellspacing="0" cellpadding="0">
         			  <tr>
-        			    <td><img src="img/imagem_temp.jpg" /></td>
+        			    <td><img style="max-width: 365px" src="img/imagem_temp.jpg" /></td>
         			  </tr>
         			  <tr>
         			    <td>
@@ -291,9 +291,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                             <a href="apresentacao.php"><?php pten('Apresentação','Introduction');?></a><br />
                             <a href="curadoria.php"><?php pten('Curadoria','Curators');?></a><br />
                             <a href="identidade.php"><?php pten('Identidade Visual','Visual Identity');?></a><br />
+                            <a href="realizacao.php"><?php pten('Realização','Undertaking');?></a><br />
                             <a href="parceiros.php"><?php pten('Parceiros','Supporters');?></a><br />
-                            <a href="#" target="_blank"><?php pten('Convocatórias 19º','Open calls');?></a><br />
-                            <a href="http://site.videobrasil.org.br/festival/festivais" target="_blank"><?php pten('Histórico do Festival','History');?></a>
+                            <a href="<?php pten('http://site.videobrasil.org.br/inscricao', 'http://site.videobrasil.org.br/en/inscricao');?>" target="_blank"><?php pten('Convocatórias 19º','Open calls');?></a><br />
+                            <a href="<?php pten('http://site.videobrasil.org.br/festival/festivais', 'http://site.videobrasil.org.br/en/festival/festivais');?>" target="_blank"><?php pten('Histórico do Festival','History');?></a>
                         </p>
 
                         <div style="display:inline">
@@ -315,17 +316,15 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                             <a href="expo_projetos.php"><?php pten('Projetos comissionados','Comissioned projects');?></a> | 
                             <a href="expo_obras.php"><?php pten('Obras selecionadas','Selected artworks');?></a> | 
                             <a href="expo_paralela.php"><?php pten('Exposicão paralela','???');?></a> | 
-                            <a href="expo_locais.php"><?php pten('Locais','Venues');?></a></p>
+                            <a href="expo_locais.php"><?php pten('Locais','Venues');?></a>
+                        </p>
 
                         <div style="display:inline">
                         <p class="nomargin texto-submenu f"><?php pten(
-                            'A produção plural do Sul Global se espalha por São Paulo durante o 19o Festival de Arte Contemporânea
-                            Sesc_Videobrasil | Panoramas do Sul. Nesta edição, o Festival apresenta três exposições com obras de
-                            62 artistas e grupos de 27 países no Sesc Pompeia e no Galpão_VB, nova sede da Associação Cultural
-                            Videobrasil. As obras selecionadas que exigem exibição em sala de cinema são apresentadas no Teatro
-                            do Sesc Pompeia, como parte do Programa de Filmes do 19o Festival, ao lado de um programa especial
-                            com filmes de Gabriel Abrantes, um dos artistas convidados. Uma exposição paralela, com 17 obras
-                            de 15 artistas do Acervo Videobrasil também faz parte da programação e acontece no Paço das Artes.'
+                            'A diversificada produção artística do Sul Global se espalha por São Paulo durante o 19º Festival de
+                            Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul. Nesta edição, o Festival apresenta três exposições
+                            (na Convivência e no Galpão do Sesc Pompeia, e no Galpão_VB, nova sede da Associação Cultural Videobrasil).
+                            Uma exposição paralela, com obras do Acervo Videobrasil, também faz parte da programação e acontece no Paço das Artes.'
                             ,
                             'xxx'); ?></p>
                             
@@ -402,13 +401,17 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         			<div id="menuprincipal7" class="fonteMenu"><img src="img/botoes/<?php pten('pt','en');?>/premios_1.png"></div>
                     <div id="texto7a" class="texto" style="display:none;">
                         <p class="submenu">
-                            <a href="premios_residencia.php"><?php pten('Sobre', 'About'); ?></a>
-                            <!-- <a href="">Júri</a> | 
-                            <a href="">Troféu</a> | 
-                            <a href="">Parceiros e Apoiadores</a></p> -->
+                            <a href="grande_premio.php"><?php pten('Grande prêmio','Grand prize');?></a> | 
+                            <a href="premios_residencia.php"><?php pten('Prêmios de residência','Residency prizes');?></a> | 
+                            <!-- <a href="premio_especial.php"><?php pten('Prêmio especial','Special prize');?></a> |  -->
+                            <a href="juri.php"><?php pten('Júri','Jury');?></a> | 
+                            <a href="trofeu.php"><?php pten('Troféu','Trophy');?></a>
+                        </p>
                         
                         <div style="display:inline">
-                        <p class="nomargin texto-submenu r">O Festival de Arte Contemporânea Sesc_Videobrasil tem atuação pioneira na promoção de intercâmbios artísticos internacionais. A cada edição, o Festival concede aos  artistas premiados - escolhidos pelo Júri de Premiação entre os selecionados por meio do edital de obras - um Grande Prêmio em dinheiro, no valor de R$ 75.000,000 e a nove Prêmios de Residência em instituições parceiras do Programa de Residências Videobrasil ao redor do mundo. Os Prêmios de Residência do Festival integram o Programa de Residências Videobrasil, que promove conexões e intercâmbios entre artistas, instituições e comunidades no Brasil e no exterior.</p>
+                        <p class="nomargin texto-submenu r"><?php pten(
+                            'O 19º Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul amplia seu número de premiações. Além do Grande Prêmio em dinheiro, no valor bruto total de R$ 75 mil, e de nove prêmios de residência, o 19º Festival lança um prêmio especial: o Prêmio SP-Arte. Concorrem à premiação os 53 artistas selecionados pelo edital de obras que participam de exposição e programas de filmes no Sesc Pompeia e no Galpão_VB, em São Paulo, Brasil, de 6 de outubro a 6 de dezembro de 2015. Os artistas premiados serão anunciados no dia <span class="bold">10 de outubro</span>, em cerimônia no Teatro do Sesc Pompeia, às 18h.',
+                            'The 19th Contemporary Art Festival Sesc_Videobrasil | Southern Panoramas will award a greater number of prizes. In addition to the Grand Prize worth BRL 75,000 in cash (gross) and its nine residency prizes, the 19th Festival will see the launch of a special prize: the SP-Arte Prize. Eligible artists include the 53 artists selected via a call for artwork entries participating in an exhibition and in film programs set to run at Sesc Pompeia and Galpão_VB, in São Paulo, Brazil, from October 6 to December 6, 2015. The winners will be announced on <span class="bold">October 10</span>, in a ceremony at Sesc Pompeia’s Teatro, at 6pm.');?></p>
                             
                             <p class="vejamais">&nbsp;</p>
                         </div>

@@ -49,7 +49,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
                               criaUrlIdioma('#sobre');
                                $('#pp-conteudo').load('elements/pp/sobre.php', function(){
                                   $menuPP.eq(0).addClass('ativo'); 
-                                  $('.bc-atual').html('sobre');
+                                  $('.bc-atual').html('<?php pten('sobre', 'about');?>');
                                });
                                
                             }else if(hash == 'encontros'){ 
@@ -57,7 +57,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
                                criaUrlIdioma('#encontros');
                                $('#pp-conteudo').load('elements/pp/encontros.php', function(){
                                   $menuPP.eq(1).addClass('ativo'); 
-                                  $('.bc-atual').html('encontros e conversas');
+                                  $('.bc-atual').html('<?php pten('encontros e conversas', 'Meetings and talks');?>');
                                });
                                
                             } else if(hash == 'seminario'){ 
@@ -65,7 +65,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
                                criaUrlIdioma('#seminario');
                                $('#pp-conteudo').load('elements/pp/seminario.php', function(){
                                   $menuPP.eq(2).addClass('ativo'); 
-                                  $('.bc-atual').html('seminário');
+                                  $('.bc-atual').html('<?php pten('seminário', 'seminar');?>');
                                });
                                
                             } else if(hash == 'oficinas'){ 
@@ -73,7 +73,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
                                criaUrlIdioma('#oficinas');
                                $('#pp-conteudo').load('elements/pp/oficinas.php', function(){
                                   $menuPP.eq(3).addClass('ativo'); 
-                                  $('.bc-atual').html('oficinas');
+                                  $('.bc-atual').html('<?php pten('oficinas', 'workshops');?>');
                                });
                                
                             } else if(hash == 'mediacao'){ 
@@ -81,17 +81,24 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
                                criaUrlIdioma('#mediacao');
                                $('#pp-conteudo').load('elements/pp/mediacao.php', function(){
                                   $menuPP.eq(4).addClass('ativo'); 
-                                  $('.bc-atual').html('ações de mediação');
+                                  $('.bc-atual').html('<?php pten('ações de mediação', 'activation actions');?>');
                                });
                                
-                            } 
+                            } else {
+                              criaUrlIdioma('#sobre');
+                               $('#pp-conteudo').load('elements/pp/sobre.php', function(){
+                                  $menuPP.eq(0).addClass('ativo'); 
+                                  $('.bc-atual').html('<?php pten('sobre', 'about');?>');
+                               });
+
+                            }
 
                 } else {
 
                     
                     $('#pp-conteudo').load('elements/pp/sobre.php', function(){
                                   $menuPP.eq(0).addClass('ativo');  //ativar primeiro item do menu
-                                  $('.bc-atual').html('sobre');
+                                  $('.bc-atual').html('<?php pten('sobre', 'about');?>');
                     });
                     
                 }
@@ -106,42 +113,39 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
 
                            if($id == 'pp-sobre'){ 
                                 
-                               criaUrlIdioma('#sobre');
-                                
+                               criaUrlIdioma('#sobre');  
                                $('#pp-conteudo').load('elements/pp/sobre.php', function(){
-                                    $('.bc-atual').html('sobre');
+                                    $('.bc-atual').html('<?php pten('sobre', 'about');?>');
                                });
                                
                             }else if($id == 'pp-encontros'){ 
                                 
-                               criaUrlIdioma('#encontros');
-                               
+                               criaUrlIdioma('#encontros');       
                                $('#pp-conteudo').load('elements/pp/encontros.php', function(){
-                                    $('.bc-atual').html('encontros e conversas');
+                                    $('.bc-atual').html('<?php pten('encontros e conversas', 'Meetings and talks');?>');
                                });
                                
                             } else if($id == 'pp-seminario'){ 
                                 
-                               criaUrlIdioma('#seminario');
-                               
+                               criaUrlIdioma('#seminario'); 
                                $('#pp-conteudo').load('elements/pp/seminario.php', function(){
-                                    $('.bc-atual').html('seminário');
+                                    $('.bc-atual').html('<?php pten('seminário', 'seminar');?>');
+
+
                                });
                                
                             } else if($id == 'pp-oficinas'){ 
                                 
-                               criaUrlIdioma('#oficinas');
-                               
+                               criaUrlIdioma('#oficinas');   
                                $('#pp-conteudo').load('elements/pp/oficinas.php', function(){
-                                    $('.bc-atual').html('oficinas');
+                                    $('.bc-atual').html('<?php pten('oficinas', 'workshops');?>');
                                });
                                
                             } else if($id == 'pp-mediacao'){ 
                                 
                                criaUrlIdioma('#mediacao');
-                               
                                $('#pp-conteudo').load('elements/pp/mediacao.php', function(){
-                                    $('.bc-atual').html('ações de mediação');
+                                    $('.bc-atual').html('<?php pten('ações de mediação', 'activation actions');?>');
                                });
                                
                             }

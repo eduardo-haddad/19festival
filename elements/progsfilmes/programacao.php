@@ -37,7 +37,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <p class="f"><span class="bold"><?php pten('Programa de Filmes - A', 
                                                                'Film program - A'); ?></span><br />
                     <?php pten('16h30 - Programa #1 + Programa #2', '16h30 - Program #1 + Program #2'); ?><br />
-                    <?php pten('19h - Programa #3 + Programa Gabriel Abrantes', '19h - Program #3 + Gabriel Abrantes film program<br />'); ?>
+                    <?php pten('19h - Programa #3 + Programa Gabriel Abrantes<br />', '19h - Program #3 + Gabriel Abrantes film program<br />'); ?>
                     <?php pten('<span class="bold">Sesc Pompéia | Teatro</span>:
                     15/OUT (quinta), 29/OUT (quinta), 12/NOV (quinta), 26/NOV (quinta) e 02/DEZ (quarta)<br />
                     <span class="bold">Galpão VB</span>: 20/OUT (terça), 03/NOV (terça), 17/NOV (terça) e 01/DEZ (terça)',
@@ -45,13 +45,18 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     '<span class="bold">Sesc Pompéia | Theater</span>:
                     OCT/15 (thu), OCT/29 (thu), NOV/12 (thu), NOV/26 (thu) e DEC/02 (wed)<br />
                     <span class="bold">Galpão VB</span>: OCT/20 (tue), NOV/03 (tue), NOV/17 (tue) e DEC/01 (tue)'); ?>
-
-
-
+                    </p>
+                    <p class="f"><span class="bold"><?php pten('Programa de Filmes - B', 
+                                                               'Film program - B'); ?></span><br />
+                    <?php pten('16h30 - Programa Gabriel Abrantes + Programa #3', '16h30 - Gabriel Abrantes film program + Program #3'); ?><br /> 
+                    <?php pten('19h30 - Programa #2 + Programa #1<br />', '19h30 - Program #2 + Program #1<br />'); ?> 
+                    <?php pten('<span class="bold">Sesc Pompéia | Teatro</span>:
+                    22/OUT (quinta), 05/NOV (quinta), 19/NOV (quinta), 01/DEZ (terça) e 03/DEZ (quinta)<br />
+                    <span class="bold">Galpão VB</span>: 13/OUT (terça), 27/OUT (terça), 10/NOV (terça), 24/NOV (terça)',
                     
- 
- 
-
+                    '<span class="bold">Sesc Pompéia | Theater</span>:
+                    OCT/22 (thu), NOV/05 (thu), NOV/19 (thu), DEC/01 (tue) e DEC/03 (thu)<br />
+                    <span class="bold">Galpão VB</span>: OCT/13 (tue), OCT/27 (tue), NOV/10 (tue), NOV/24 (tue)'); ?>
                     </p>
 
                     

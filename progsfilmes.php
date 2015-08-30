@@ -45,7 +45,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                criaUrlIdioma('#obras');
                                $('#progs-conteudo').load('elements/progsfilmes/obras.php', function(){
                                   $menuFilmes.eq(0).addClass('ativo'); 
-                                  $('.bc-atual').html('obras');
+                                  $('.bc-atual').html('<?php pten('obras selecionadas', 'selected artworks');?>');
                                });
                                
                             }else if(hash == 'gabriel'){ 
@@ -59,15 +59,22 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                criaUrlIdioma('#programacao');
                                $('#progs-conteudo').load('elements/progsfilmes/programacao.php', function(){
                                   $menuFilmes.eq(2).addClass('ativo'); 
-                                  $('.bc-atual').html('programação');
+                                  $('.bc-atual').html('<?php pten('programação', 'schedule');?>');
                                });
                                
+                            } else {
+                              criaUrlIdioma('#obras');
+                               $('#progs-conteudo').load('elements/progsfilmes/obras.php', function(){
+                                  $menuFilmes.eq(0).addClass('ativo'); 
+                                  $('.bc-atual').html('<?php pten('obras selecionadas', 'selected artworks');?>');
+                               });
                             }
 
                 } else {
 
                     $('#progs-conteudo').load('elements/progsfilmes/obras.php', function(){
                         $menuFilmes.eq(0).addClass('ativo'); //ativar primeiro item do menu
+                        $('.bc-atual').html('<?php pten('obras selecionadas', 'selected artworks');?>');
                     });
                     
                 }
@@ -83,7 +90,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                            if($id == 'prog-obras'){ 
                                criaUrlIdioma('#obras');
                                $('#progs-conteudo').load('elements/progsfilmes/obras.php', function(){
-                                    $('.bc-atual').html('obras');
+                                    $('.bc-atual').html('<?php pten('obras selecionadas', 'selected artworks');?>');
                                });
                                
                             }else if($id == 'prog-gabriel'){ 
@@ -95,7 +102,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                             } else if($id == 'prog-programacao'){ 
                                criaUrlIdioma('#programacao');
                                $('#progs-conteudo').load('elements/progsfilmes/programacao.php', function(){
-                                    $('.bc-atual').html('programação');
+                                    $('.bc-atual').html('<?php pten('programação', 'schedule');?>');
                                });
                                
                             }

@@ -12,7 +12,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         </div>
 
         <div class="row" style="clear: both;"> <!--  </div> no fim do documento para unir sinopses-->
-            <div class="col-sm-12 col-md-6" style="float: left ">
+            <div class="col-sm-12 col-md-6 relative" style="float: left ">
                 <img src="img/obras/obra_gabrielabrantes.jpg" class="img-responsive center-block" style="margin-bottom: 30px" />
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">

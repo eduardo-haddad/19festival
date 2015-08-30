@@ -107,36 +107,10 @@ $titulo = $idioma == 'pt' ? 'Grande Prêmio' : 'Grand Prize';
     <div class="col-sm-12 col-md-6 premio-sobre" style="float: right;" >         
     <?php
     //Sobre - PT
-    pten('<p>Te porecumqui ut eaquaspic to qui odit dolorecab in re pre ercia nullandit escium re, quam
-    eum volore officim experci mporeici doloribus, aut auta qui cumquas pererspid quid quame nosti rem
-    natur, omnimpo remodis renim re volorestio tectotatus etur? Nullestibus res rerum diorunt otaqui cus
-    dolorio et unt, quis et aut porerib usaped et quae. Nem as dolores torrovit quiaspe litaque mos vel
-    magnis earcil id que cuptate ndenima sequo qui ut pore re incimol uptatus ut hilis enime quis ipiet
-    experest, cor si ut quasperuptae omnim quam laccus magnis eum fugia sendiam ut vollisimente con
-    conet dolupti idit, nes doluptiis ipsam</p>
-    <p>Te porecumqui ut eaquaspic to qui odit dolorecab in re pre ercia nullandit escium re, quam
-    eum volore officim experci mporeici doloribus, aut auta qui cumquas pererspid quid quame nosti rem
-    natur, omnimpo remodis renim re volorestio tectotatus etur? Nullestibus res rerum diorunt otaqui cus
-    dolorio et unt, quis et aut porerib usaped et quae. Nem as dolores torrovit quiaspe litaque mos vel
-    magnis earcil id que cuptate ndenima sequo qui ut pore re incimol uptatus ut hilis enime quis ipiet
-    experest, cor si ut quasperuptae omnim quam laccus magnis eum fugia sendiam ut vollisimente con
-    conet dolupti idit, nes doluptiis ipsam</p>',
+    pten('<p>O 19º Festival de Arte Contemporânea Sesc_Videobrasil oferece um Grande Prêmio em dinheiro, no valor bruto total de R$ 75 mil (setenta e cinco mil reais), a um dos artistas selecionados pelo edital de obras desta edição, escolhido Júri de Premiação. </p>',
 
     //Sobre - EN
-    '<p>XXX XXXXXXXXXX to qui odit dolorecab in re pre ercia nullandit escium re, quam
-    eum volore officim experci mporeici doloribus, aut auta qui cumquas pererspid quid quame nosti rem
-    natur, omnimpo remodis renim re volorestio tectotatus etur? Nullestibus res rerum diorunt otaqui cus
-    dolorio et unt, quis et aut porerib usaped et quae. Nem as dolores torrovit quiaspe litaque mos vel
-    magnis earcil id que cuptate ndenima sequo qui ut pore re incimol uptatus ut hilis enime quis ipiet
-    experest, cor si ut quasperuptae omnim quam laccus magnis eum fugia sendiam ut vollisimente con
-    conet dolupti idit, nes doluptiis ipsam</p>
-    <p>Te porecumqui ut eaquaspic to qui odit dolorecab in re pre ercia nullandit escium re, quam
-    eum volore officim experci mporeici doloribus, aut auta qui cumquas pererspid quid quame nosti rem
-    natur, omnimpo remodis renim re volorestio tectotatus etur? Nullestibus res rerum diorunt otaqui cus
-    dolorio et unt, quis et aut porerib usaped et quae. Nem as dolores torrovit quiaspe litaque mos vel
-    magnis earcil id que cuptate ndenima sequo qui ut pore re incimol uptatus ut hilis enime quis ipiet
-    experest, cor si ut quasperuptae omnim quam laccus magnis eum fugia sendiam ut vollisimente con
-    conet dolupti idit, nes doluptiis ipsam</p>');  ?> 
+    '<p>The 19th Contemporary Art Festival Sesc_Videobrasil offers a Grand Prize in cash in the gross amount of BRL 75,000 (seventy-five thousand reais) to one of the artists selected from this edition’s artworks call for entries, chosen by the Award Jury.</p>');  ?> 
     </div> 
 </div>
 

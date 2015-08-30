@@ -12,7 +12,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         </div>
 
         <div class="row" style="clear: both;">
-            <div class="col-sm-12 col-md-6" style="float: left ">
+            <div class="col-sm-12 col-md-6 relative" style="float: left ">
                 <img src="img/obras/obra_robertosantaguida.jpg" class="img-responsive center-block" style="margin-bottom: 30px" />
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
@@ -25,7 +25,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         </div>
 
         <div class="row">
-            <div class="col-sm-12 col-md-6" style="float: left ">
+            <div class="col-sm-12 col-md-6 relative" style="float: left ">
                 <img src="img/obras/obra_slinko.jpg" class="img-responsive center-block" style="margin-bottom: 30px" />
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
@@ -37,7 +37,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         </div>
 
         <div class="row">
-            <div class="col-sm-12 col-md-6" style="float: left ">
+            <div class="col-sm-12 col-md-6 relative" style="float: left ">
                 <img src="img/obras/obra_karolinabregula.jpg" class="img-responsive center-block" style="margin-bottom: 45px" />
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
@@ -61,7 +61,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         </div>
 
         <div class="row" style="clear: both;">
-            <div class="col-sm-12 col-md-6" style="float: left ">
+            <div class="col-sm-12 col-md-6 relative" style="float: left ">
                 <img src="img/obras/obra_tatianafuentessadowski.jpg" class="img-responsive center-block" style="margin-bottom: 30px" />
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
@@ -73,7 +73,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         </div>
 
         <div class="row">
-            <div class="col-sm-12 col-md-6" style="float: left ">
+            <div class="col-sm-12 col-md-6 relative" style="float: left ">
                 <img src="img/obras/obra_alicherri.jpg" class="img-responsive center-block" style="margin-bottom: 30px" />
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
@@ -85,7 +85,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         </div>
 
         <div class="row">
-            <div class="col-sm-12 col-md-6" style="float: left ">
+            <div class="col-sm-12 col-md-6 relative" style="float: left ">
                 <img src="img/obras/obra_kushbadhwar.jpg" class="img-responsive center-block" style="margin-bottom: 45px" />
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
@@ -108,7 +108,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         </div>
 
         <div class="row" style="clear: both;">
-            <div class="col-sm-12 col-md-6" style="float: left ">
+            <div class="col-sm-12 col-md-6 relative" style="float: left ">
                 <img src="img/obras/obra_viktorijarybakova.jpg" class="img-responsive center-block" style="margin-bottom: 30px" />
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
@@ -120,7 +120,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         </div>
 
         <div class="row">
-            <div class="col-sm-12 col-md-6" style="float: left ">
+            <div class="col-sm-12 col-md-6 relative" style="float: left ">
                 <img src="img/obras/obra_anavaz.jpg" class="img-responsive center-block" style="margin-bottom: 30px" />
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
@@ -132,7 +132,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         </div>
 
         <div class="row">
-            <div class="col-sm-12 col-md-6" style="float: left ">
+            <div class="col-sm-12 col-md-6 relative" style="float: left ">
                 <img src="img/obras/obra_chulayarnnonsiriphol.jpg" class="img-responsive center-block" style="margin-bottom: 30px" />
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
@@ -144,7 +144,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         </div>
 
         <div class="row">
-            <div class="col-sm-12 col-md-6" style="float: left ">
+            <div class="col-sm-12 col-md-6 relative" style="float: left ">
                 <img src="img/obras/obra_distruktur.jpg" class="img-responsive center-block" style="margin-bottom: 30px" />
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
@@ -156,7 +156,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         </div>
 
         <div class="row">
-            <div class="col-sm-12 col-md-6" style="float: left ">
+            <div class="col-sm-12 col-md-6 relative" style="float: left ">
                 <img src="img/obras/obra_leticiaramos.jpg" class="img-responsive center-block" style="margin-bottom: 30px" />
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
