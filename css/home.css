@@ -121,9 +121,8 @@ header {
     position:fixed;
     display: none;
     z-index: 101;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 30%;
+    top: 0; left: 0;
+    width: 400px;
     height: auto;  
     color: white;
     text-align: left;

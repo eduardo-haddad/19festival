@@ -401,11 +401,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         			<div id="menuprincipal7" class="fonteMenu"><img src="img/botoes/<?php pten('pt','en');?>/premios_1.png"></div>
                     <div id="texto7a" class="texto" style="display:none;">
                         <p class="submenu">
-                            <a href="grande_premio.php"><?php pten('Grande prêmio','Grand prize');?></a> | 
-                            <a href="premios_residencia.php"><?php pten('Prêmios de residência','Residency prizes');?></a> | 
+                            <a href="premios_e_residencias.php#grandepremio"><?php pten('Grande prêmio','Grand prize');?></a> | 
+                            <a href="premios_e_residencias.php#premios"><?php pten('Prêmios de residência','Residency prizes');?></a> | 
                             <!-- <a href="premio_especial.php"><?php pten('Prêmio especial','Special prize');?></a> |  -->
-                            <a href="juri.php"><?php pten('Júri','Jury');?></a> | 
-                            <a href="trofeu.php"><?php pten('Troféu','Trophy');?></a>
+                            <a href="premios_e_residencias.php#juri"><?php pten('Júri','Jury');?></a><!-- | 
+                            <a href="premios_e_residencias.php#trofeu"><?php pten('Troféu','Trophy');?></a> -->
                         </p>
                         
                         <div style="display:inline">
