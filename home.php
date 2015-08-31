@@ -169,7 +169,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
     <aside id="mapadosite"><?php include "elements/mapa.html"; ?></aside>
     <!-- /MAPA DO SITE -->
 
-    <main class="container" id="container">
+    <main class="container" id="container" style="min-height: 1200px">
 
         <!-- HEADER -->
         <header><?php include "elements/header.html"; ?></header>
@@ -425,8 +425,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         			<div id="menuprincipal8" class="fonteMenu"><img src="img/botoes/<?php pten('pt','en');?>/publicacoes_1.png"></div>
                     <div id="texto8a" class="texto" style="display:none;">
                         <p class="submenu">
-                            <a href="publicacoes_festival.php"><?php pten('Livros do Festival', '19th festival books'); ?></a> | 
-                            <a href="publicacoes_outros.php"><?php pten('Outros Lançamentos', 'Other releases'); ?></a>
+                            <a href="publicacoes.php#festival"><?php pten('Livros do Festival', '19th festival books'); ?></a> | 
+                            <a href="publicacoes.php#outros"><?php pten('Outros Lançamentos', 'Other releases'); ?></a>
                         </p>
 
                         <div style="display:inline">

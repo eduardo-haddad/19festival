@@ -4,16 +4,14 @@
 	
 $(document).ready(
 	function(){
-		$urlrodape = $('.links-rodape span a');
-		
+		$urlrodape = $('.links-rodape span a');		
 		$urlrodape.each(
 			function(){
-				url = $(this).html();
 				link = $(this);
+				url = link.html();
 				link.attr('href', 'http://' + url);
 				link.attr('target', '_blank');
 				link.css('color', 'inherit');
-
 			}
 		);
 	}
@@ -40,7 +38,8 @@ $(document).ready(
 <div id="cor2" style="width: 100%; background-color: #E6E1DA">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12" style="margin-top: 42px; margin-bottom: 9px"><span class="g" style="text-transform: uppercase;font-size: 1.1em;"><?php pten('receba notícias sobre o 19º festival','receive news from the 19th festival');?></span></div>
+			<div class="col-xs-12" style="margin-top: 42px; margin-bottom: 9px"><span class="g" style="text-transform: uppercase;font-size: 1.1em;"><?php pten('receba notícias sobre o 19º festival de arte contemporânea sesc_videobrasil | panoramas do sul',
+			'receive news from the 19th contemporary art festival sesc_videobrasil | southern panoramas');?></span></div>
 
 
 		</div>   
@@ -298,7 +297,7 @@ $(document).ready(
 						<option value="Zimbábue">Zimbabué</option>
 					</select><span style="display: inline-block;width: 1%"></span><input type="submit" value="<?php pten('enviar','submit');?>" style="width: 7.5%; font-size: 0.85em"><div style="margin-bottom: 15px"></div>
 
-					<input type="checkbox"><span class="d" style="font-size: 1.1em"> <?php pten('quero receber notícias sobre o videobrasil','send me news about videobrasil');?></span>
+					
 				
 				</form>
 				</div>
@@ -337,9 +336,9 @@ $(document).ready(
 				<div style="float: left" class="links-rodape">
 					<span><a>videobrasil.org.br</a></span><br /><br />
 					<span><a>facebook.com/ACVideobrasil</a></span><br />
-					<span><a>twitter.com/Videobrasil</a></span><br />
-					<span><a>instagram.com/videobrasil/</a></span><br />
-					<span><a>flickr.com/photos/videobrasil/albums</a></span><br />
+					<span><a>twitter.com/videobrasil</a></span><br />
+					<span><a>instagram.com/videobrasil</a></span><br />
+					<span><a>flickr.com/videobrasil</a></span><br />
 					<span><a>vimeo.com/videobrasil</a></span>
 				</div>
 			</div>
@@ -347,5 +346,3 @@ $(document).ready(
 	<div id="altura"></div>
 </div>
 <!-- /SESC VB -->
-
-

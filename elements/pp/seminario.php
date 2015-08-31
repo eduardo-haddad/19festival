@@ -29,7 +29,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <a name="ppsobre"></a><img src="img/pp/seminario-sobre.png" class="img-responsive" style="margin-bottom: 15px" />    
+                    <a name="ppsobre"></a><img src="img/pp/seminario-sobre2.png" class="img-responsive" style="margin-bottom: 15px" />    
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php

@@ -65,7 +65,8 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
                                criaUrlIdioma('#seminario');
                                $('#pp-conteudo').load('elements/pp/seminario.php', function(){
                                   $menuPP.eq(2).addClass('ativo'); 
-                                  $('.bc-atual').html('<?php pten('seminário', 'seminar');?>');
+                                  $('.bc-atual').html('<?php pten('seminário - lugares e sentidos na arte: debates a partir do Sul', 
+                                                                  'seminar - Places and meanings in art: debates from the South');?>');
                                });
                                
                             } else if(hash == 'oficinas'){ 

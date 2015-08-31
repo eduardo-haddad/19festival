@@ -48,7 +48,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/blank.png" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/oficinas-memoria-<?php pten('pt.png', 'en.jpg'); ?>" class="img-responsive" style="margin-bottom: 15px" />    
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
@@ -62,7 +62,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 '<p>The Malian artist Abdoulaye Konaté will lead a workshop on monotypes. Employing a collective studio practice, Konaté will introduce the public to his poetics and to traditional art languages from Mali, his native country.
                 </p>
 
-                <p><span class="bold">How to participate</span> participants must be 13 or older. Registration is free and will be available onsite from Oct 3. <span class="bold">Seats are limited</span>.</p>
+                <p><span class="bold">How to participate</span> participants must be 12 or older. Registration is free and will be available onsite from Oct 3. <span class="bold">Seats are limited</span>.</p>
                 ');  ?> 
                 </div> 
             </div>
@@ -91,7 +91,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/blank.png" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/oficinas-vocabularios-<?php pten('pt.png', 'en.jpg'); ?>" class="img-responsive" style="margin-bottom: 15px" />    
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
@@ -105,7 +105,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 '<p>Through the work of the artist Ting-Ting Cheng, who will present a library of non-existent places in the Southern Panoramas | Commissioned projects exhibition, the public will explore books, stories, and images to build together a conceptual, imagistic repertoire about the place of the South.
                 </p>
 
-                <p><span class="bold">How to participate</span> participants must be 17 or older; advanced English skills required. Registration is free and begins on Oct 3 at Sesc Pompeia’s Convivência area, with the exhibition’s mediators. <span class="bold">Seats are limited</span>.</p>
+                <p><span class="bold">How to participate</span> participants must be 16 or older; advanced English skills required. Registration is free and begins on Oct 3 at Sesc Pompeia’s Convivência area, with the exhibition’s mediators. <span class="bold">Seats are limited</span>.</p>
                 ');  ?> 
                 </div> 
             </div>
@@ -134,7 +134,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/blank.png" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/oficinas-lambada-<?php pten('pt.png', 'en.jpg'); ?>" class="img-responsive" style="margin-bottom: 15px" />    
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
@@ -148,7 +148,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 '<p>The artist Carlos Monroy proposes an experience that evokes elements of memory and family construction centered on the body. The workshop elicits reflections about origin, cultural miscegenation, and the building of folklore, and ends with a dance practice. 
                 </p>
 
-                <p><span class="bold">How to participate</span> participants must be 17 or older. Registration is free and will be available from Nov 3, onsite or at Sesc Pompeia’s Convivência area, with the exhibition’s mediators. <span class="bold">Seats are limited</span>.</p>
+                <p><span class="bold">How to participate</span> participants must be 16 or older. Registration is free and will be available from Nov 3, onsite or at Sesc Pompeia’s Convivência area, with the exhibition’s mediators. <span class="bold">Seats are limited</span>.</p>
                 ');  ?> 
                 </div> 
             </div>
@@ -160,7 +160,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <!-- EVENTO 4 -->
 
-           <!--  <div class="row" >
+           <div class="row" >
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0" class="titulo-pp"> 
                         <a name="pp4"></a>
@@ -177,7 +177,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/blank.png" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/oficinas-educadores-<?php pten('pt.png', 'en.jpg'); ?>" class="img-responsive" style="margin-bottom: 15px" />    
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
@@ -197,6 +197,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             </div>
 
             <div style="margin: 31px 0 16px 0; padding-top: 25px; padding-left: 0; border-top: 1pt solid #8F6B55; border-top-width: 100%;"></div>
-            -->
+            
 
             <!-- /EVENTO 4 -->

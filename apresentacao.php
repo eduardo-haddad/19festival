@@ -139,7 +139,7 @@ $titulo = $idioma == 'pt' ? 'Apresentação' : 'Introduction';
             <div class="row" style="clear: both; margin-top: 13px">
 
                 <div class="col-sm-12 col-md-6 " >
-                    <img src="img/sobre/solange.png" class="img-responsive retrato-artista" style="max-width: 485px; margin-bottom: 15px;" />
+                    <!-- <img src="img/sobre/solange.png" class="img-responsive retrato-artista" style="max-width: 485px; margin-bottom: 15px;" /> -->
                 </div>
 
                 <div class="col-sm-12 col-md-6 h" style="float: right;">
@@ -214,7 +214,7 @@ $titulo = $idioma == 'pt' ? 'Apresentação' : 'Introduction';
                 <div class="row" style="clear: both;margin-top: 13px">
 
                 <div class="col-sm-12 col-md-6" >
-                    <img src="img/sobre/solange.png" class="img-responsive retrato-artista" style="max-width: 485px; margin-bottom: 15px;" />
+                    <!-- <img src="img/sobre/solange.png" class="img-responsive retrato-artista" style="max-width: 485px; margin-bottom: 15px;" /> -->
                 </div>
 
                 <div class="col-sm-12 col-md-6 h" style="float: right;">

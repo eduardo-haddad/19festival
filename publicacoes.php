@@ -17,28 +17,17 @@ $titulo = $idioma == 'pt' ? 'Publicações' : 'Publications';
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="js/home.js"></script>
     <script>
-        $(document).ready(
-            function(){
-                paletaArtistas($('.publicacao p:nth-child(1)'));
-                paletaArtistas($('.publicacao p:nth-child(2)'));
-                paletaArtistas($('.publicacao p:nth-child(3)'));
-                paletaArtistas($('.publicacao p:nth-child(4)'));
-                paletaArtistas($('.publicacao p:nth-child(5)'));
-                paletaArtistas($('.publicacao p:nth-child(6)'));
-                paletaArtistas($('.publicacao p:nth-child(7)'));
-                paletaArtistas($('.publicacao p:nth-child(8)'));
-                paletaArtistas($('.pp-participantes p:nth-child(1)'));
-                paletaArtistas($('.pp-participantes p:nth-child(2)'));
-                paletaArtistas($('.pp-participantes p:nth-child(3)'));
-                paletaArtistas($('.pp-participantes p:nth-child(4)'));
-                paletaArtistas($('.pp-participantes p:nth-child(5)'));
-                paletaArtistas($('.pp-participantes p:nth-child(6)'));
-                paletaArtistas($('.data-pp'));
-        
-            }
-        );
-    </script>
-    <script>
+
+
+        function criaUrlIdioma(hash){
+        $urlidiomapt = '<?php echo strtok($_SERVER["REQUEST_URI"],"?");echo "?idioma=pt" ?>';
+        $urlidiomaen = '<?php echo strtok($_SERVER["REQUEST_URI"],"?");echo "?idioma=en" ?>';
+
+        $('a.urlidiomapt').attr('href', $urlidiomapt + hash); 
+        $('a.urlidiomaen').attr('href', $urlidiomaen + hash);
+    }
+
+
         $(document).ready(
             function menuPublicacoes(){
 
@@ -50,17 +39,19 @@ $titulo = $idioma == 'pt' ? 'Publicações' : 'Publications';
                 if (hash) {
 
                     if(hash == 'festival'){ 
+                               criaUrlIdioma('#festival');
                                $('.bc-atual').html('livros do festival');
                                $('#publicacoes-conteudo').load('elements/publicacoes/festival.php');
                                $menuPublicacoes.eq(0).addClass('ativo'); 
                             }else if(hash == 'outros'){ 
+                               criaUrlIdioma('#outros'); 
                                $('.bc-atual').html('outros lançamentos');
                                $('#publicacoes-conteudo').load('elements/publicacoes/outros.php');
                                $menuPublicacoes.eq(1).addClass('ativo'); 
                             } 
 
                 } else {
-
+                    criaUrlIdioma('#festival');
                     $('.bc-atual').html('livros do festival');
                     $('#publicacoes-conteudo').load('elements/publicacoes/festival.php'); 
                     $menuPublicacoes.eq(0).addClass('ativo'); 
@@ -75,9 +66,11 @@ $titulo = $idioma == 'pt' ? 'Publicações' : 'Publications';
                             $id = $(this).attr('id'); //recuperar id do item clicado
 
                            if($id == 'publicacoes-festival'){ 
+                               criaUrlIdioma('#festival');
                                $('.bc-atual').html('livros do festival');
                                $('#publicacoes-conteudo').load('elements/publicacoes/festival.php');
                             }else if($id == 'publicacoes-outros'){ 
+                               criaUrlIdioma('#outros');
                                $('.bc-atual').html('outros lançamentos');
                                $('#publicacoes-conteudo').load('elements/publicacoes/outros.php');
                             } 
@@ -134,8 +127,8 @@ $titulo = $idioma == 'pt' ? 'Publicações' : 'Publications';
             <div class="row">
                 <div class="col-xs-12">
                     <p class="submenu" style="margin-bottom:21px">
-                        <a id="publicacoes-festival"><?php pten('Livros do Festival', 'Livros do Festival') ?></a> | 
-                        <a id="publicacoes-outros"><?php pten('Outros lançamentos', 'Outros lançamentos') ?></a>
+                        <a id="publicacoes-festival" href="#festival"><?php pten('Livros do Festival', 'Livros do Festival') ?></a> | 
+                        <a id="publicacoes-outros" href="#outros"><?php pten('Outros lançamentos', 'Outros lançamentos') ?></a>
                     </p>      
                 </div>
             </div>
@@ -148,8 +141,8 @@ $titulo = $idioma == 'pt' ? 'Publicações' : 'Publications';
 
             <div class="row link_rodape">
                 <div class="col-md-12" style="padding-left: 0">
-                    <span><?php pten('clique <a href="">aqui</a> e conheça as demais publicações lançadas pelas edições sesc e associação cultural videobrasil', 
-                                     'click <a href="">here</a> to learn more about the publications released by edições sesc and associação cultural videobrasil'); ?></span>
+                    <span><?php pten('clique <a href="http://site.videobrasil.org.br/publicacoes" target="_blank">aqui</a> e conheça as demais publicações lançadas pelas edições sesc e associação cultural videobrasil', 
+                                     'click <a href="http://site.videobrasil.org.br/en/publicacoes" target="_blank">here</a> to learn more about the publications released by edições sesc and associação cultural videobrasil'); ?></span>
                 </div>
             </div>
 

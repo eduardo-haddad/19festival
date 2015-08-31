@@ -50,7 +50,7 @@ $titulo = $idioma == 'pt' ? 'Performances' : 'Performances';
             <!-- EVENTO 1 -->
 
             <div class="row" style="clear: both; margin-bottom: 31px">     
-                <div class="col-sm-12 col-md-6 performance-servico" style="float: left ">
+                <div class="col-sm-12 col-md-6 performance-servico relative" style="float: left ">
                     <img src="img/obras/obra_fancyviolence.jpg" class="img-responsive" style="margin-bottom: 15px" />    
 
                     <?php 
@@ -89,7 +89,7 @@ $titulo = $idioma == 'pt' ? 'Performances' : 'Performances';
             <!-- EVENTO 2 -->
 
             <div class="row" style="clear: both; margin-bottom: 31px">     
-                <div class="col-sm-12 col-md-6 performance-servico" style="float: left ">
+                <div class="col-sm-12 col-md-6 performance-servico relative" style="float: left ">
                     <img src="img/obras/obra_alinexegustavojardim.jpg" class="img-responsive" style="margin-bottom: 15px" />    
 
                     <?php 
@@ -127,7 +127,7 @@ $titulo = $idioma == 'pt' ? 'Performances' : 'Performances';
 
             <div class="row" style="clear: both; margin-bottom: 31px">     
                 <div class="col-sm-12 col-md-6 performance-servico" style="float: left ">
-                    <img src="img/blank.png" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/obras/obra_leticiaramos.jpg" class="img-responsive" style="margin-bottom: 15px" />    
 
                     <?php 
                     pten('<p><span class="bold upper">07/out</span> | quarta<br />

@@ -73,7 +73,7 @@ $titulo = $idioma == 'pt' ? 'Identidade' : 'Identity';
                 <div class="col-sm-12 col-md-6 h" style="float: right;" id="id-texto">
 
                     <?php pten(                      ////APRESENTAÇAO PT                     
-                        '<p>Os artistas brasileiros radicados na França, Angela Detanico e Rafael Lain
+                        '<p>Os artistas brasileiros radicados na França, <span class="bold">Angela Detanico</span> e <span class="bold">Rafael Lain</span>
                         trabalham juntos desde meados da década de 90, período de tempo quase tão antigo e profícuo quanto o da parceria que
                         estabeleceram com o Festival de Arte Contemporânea Sesc_Videobrasil. A dupla, que já apresentou trabalhos na Bienal de
                         Veneza (2007), na Bienal de São Paulo (2004, 2006 e 2008) e na Bienal de Havana (2009), foi responsável pela identidade
@@ -113,8 +113,7 @@ $titulo = $idioma == 'pt' ? 'Identidade' : 'Identity';
 
                     //APRESENTAÇAO EN                     
                     
-                    '<p>The Brazilian-born, French-based artists Angela Detanico
-                    and Rafael Lain have worked together since the mid-90s, a period almost as long and prolific as their partnership with
+                    '<p>The Brazilian-born, French-based artists <span class="bold">Angela Detanico</span> and <span class="bold">Rafael Lain</span> have worked together since the mid-90s, a period almost as long and prolific as their partnership with
                     the Contemporary Art Festival Sesc_Videobrasil. The duo, whose works have been shown at the Venice Biennale (2007), São
                     Paulo Art Biennial (2004, 2006 and 2008) and Havana Biennial (2009), took care of visual identity in five different
                     Festival editions, from the 13th through the 17th (from 2001 to 2011). Now, they will art direct again for the 19th
@@ -161,26 +160,26 @@ $titulo = $idioma == 'pt' ? 'Identidade' : 'Identity';
                 </div>
 
                 <div class="col-sm-12 col-md-6 relative" id="id-imagem-bottom" style="margin-top: 15px">
-                    <img src="img/identidade/id1.png" id="img-id-1" class="img-responsive" />
+                    <img src="img/identidade/id1.png" id="img-id-1" class="img-responsive" style="max-width: 485px" />
 
-                    <img src="img/identidade/id2.png" id="img-id-2" class="img-responsive" />
+                    <img src="img/identidade/id2.png" id="img-id-2" class="img-responsive" style="max-width: 485px" />
 
                 </div>
 
             </div>
 
            
-            <div class="row" style="clear: both;">
+            <div class="row" style="clear: both;margin-top: 30px">
 
                 <div class="col-sm-12 col-md-6" >
-                    <!-- <img src="img/artistas/anavaz.jpg" id="img-id-1" class="img-responsive retrato-artista" style="margin-bottom: 15px; margin-left:auto;" /> -->
+                    <img src="img/identidade/detanicolain.png" id="img-id-1" class="img-responsive retrato-artista" style="margin-bottom: 15px; margin-left:auto;" />
 
                 </div>
 
                 <div class="col-sm-12 col-md-6 h" style="float: right;" id="id-texto">
 
                 <div class="row" >
-                <div class="col-xs-12 titulo" style="float: left; margin-top: 30px">
+                <div class="col-xs-12 titulo" style="float: left;">
                 <p style="margin-bottom:0">
                    <?php pten('Sobre os artistas', 'About the artists');  ?>
                 </p>
@@ -188,7 +187,7 @@ $titulo = $idioma == 'pt' ? 'Identidade' : 'Identity';
             </div>
 
                     <?php pten(                      ////SOBRE OS ARTISTAS -  PT                     
-                        '<p>Angela Detanico e Rafael Lain são, respectivamente, linguista e tipógrafo
+                        '<p><span class="bold">Angela Detanico</span> e <span class="bold">Rafael Lain</span> são, respectivamente, linguista e tipógrafo
                         de formação. Trabalhando em colaboração desde 1996, os dois começaram a desenvolver ideias de escrita, leitura e
                         tradução, seja de um meio para outro, seja de um código para outro, interessados nos limites da representação do tempo e
                         do espaço. A dupla desenvolve trabalhos que cruzam poesia, som e imagem, atuando tanto em design, quanto no cenário da
@@ -222,8 +221,7 @@ $titulo = $idioma == 'pt' ? 'Identidade' : 'Identity';
                     ',
 
                     //SOBRE OS ARTISTAS - EN                     
-                    '<p>Angela Detanico and Rafael
-                    Lain are respectively a linguist and a typographer by trade. Working in collaboration since 1996, they started out by
+                    '<p><span class="bold">Angela Detanico</span> and <span class="bold">Rafael Lain</span> are respectively a linguist and a typographer by trade. Working in collaboration since 1996, they started out by
                     developing ideas on writing, reading and translation, either from one medium to another or from one code to another, in
                     an attempt to explore the boundaries of representation in time and space. The duo combines poetry, sound and image to
                     create both design and contemporary art pieces. Typography, graphic design, video, architecture, internet and CD-ROM are
