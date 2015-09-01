@@ -30,7 +30,7 @@ $titulo = $idioma == 'pt' ? 'Fotos e Vídeos' : 'Photos and Videos';
     <aside id="mapadosite"><?php include "elements/mapa.html"; ?></aside>
     <!-- /MAPA DO SITE -->
 
-    <main class="container" id="container">
+    <main class="container" id="container" style="min-height: 500px">
 
         <!-- HEADER -->
         <header><?php include "elements/header.html"; ?></header>
@@ -45,14 +45,16 @@ $titulo = $idioma == 'pt' ? 'Fotos e Vídeos' : 'Photos and Videos';
                 </div>
             </div>
             
-             <div class="row">
+            <!-- SUBMENU -->
+             <!-- <div class="row">
                 <div class="col-xs-12">
                     <p class="submenu" style="margin-bottom: 30px"><a id="">Galeria 1</a> | <a id="">Galeria 2</a> | <a id="">Galeria 3</a></p>      
                 </div>
-            </div> 
+            </div>  -->
+            <!-- /SUBMENU -->
 
             <!-- GALERIA -->
-            <div class="galleria"></div>
+            <!-- <div class="galleria"></div>
              <script>
                 Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.js');
                 Galleria.run('.galleria', {
@@ -65,7 +67,7 @@ $titulo = $idioma == 'pt' ? 'Fotos e Vídeos' : 'Photos and Videos';
                     }
 
                 });
-            </script> 
+            </script>  -->
             <!-- /GALERIA -->
 
             <span class="titulo"><?php pten('Em breve','Coming soon'); ?></span>

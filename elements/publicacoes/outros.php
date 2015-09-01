@@ -6,6 +6,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 <script>
         $(document).ready(
             function(){
+
+                $('input').hide();
+                
                 paletaArtistas($('.titulo'));
                 paletaArtistas($('.publicacao p:nth-child(1)'));
                 paletaArtistas($('.publicacao p:nth-child(2)'));

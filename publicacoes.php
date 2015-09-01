@@ -31,8 +31,7 @@ $titulo = $idioma == 'pt' ? 'Publicações' : 'Publications';
         $(document).ready(
             function menuPublicacoes(){
 
-                var hash = window.location.hash.split('#')[1],
-                    
+                var hash = window.location.hash.split('#')[1];                   
                     
                 $menuPublicacoes = $('a[id^=publicacoes]');
 

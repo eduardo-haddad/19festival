@@ -38,11 +38,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                                                'Film program - A'); ?></span><br />
                     <?php pten('16h30 - Programa #1 + Programa #2', '16h30 - Program #1 + Program #2'); ?><br />
                     <?php pten('19h - Programa #3 + Programa Gabriel Abrantes<br />', '19h - Program #3 + Gabriel Abrantes film program<br />'); ?>
-                    <?php pten('<span class="bold">Sesc Pompéia | Teatro</span>:
+                    <?php pten('<span class="bold">Sesc Pompeia | Teatro</span>:
                     15/OUT (quinta), 29/OUT (quinta), 12/NOV (quinta), 26/NOV (quinta) e 02/DEZ (quarta)<br />
                     <span class="bold">Galpão VB</span>: 20/OUT (terça), 03/NOV (terça), 17/NOV (terça) e 01/DEZ (terça)',
                     
-                    '<span class="bold">Sesc Pompéia | Theater</span>:
+                    '<span class="bold">Sesc Pompeia | Theater</span>:
                     OCT/15 (thu), OCT/29 (thu), NOV/12 (thu), NOV/26 (thu) e DEC/02 (wed)<br />
                     <span class="bold">Galpão VB</span>: OCT/20 (tue), NOV/03 (tue), NOV/17 (tue) e DEC/01 (tue)'); ?>
                     </p>
@@ -50,11 +50,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                                                'Film program - B'); ?></span><br />
                     <?php pten('16h30 - Programa Gabriel Abrantes + Programa #3', '16h30 - Gabriel Abrantes film program + Program #3'); ?><br /> 
                     <?php pten('19h30 - Programa #2 + Programa #1<br />', '19h30 - Program #2 + Program #1<br />'); ?> 
-                    <?php pten('<span class="bold">Sesc Pompéia | Teatro</span>:
+                    <?php pten('<span class="bold">Sesc Pompeia | Teatro</span>:
                     22/OUT (quinta), 05/NOV (quinta), 19/NOV (quinta), 01/DEZ (terça) e 03/DEZ (quinta)<br />
                     <span class="bold">Galpão VB</span>: 13/OUT (terça), 27/OUT (terça), 10/NOV (terça), 24/NOV (terça)',
                     
-                    '<span class="bold">Sesc Pompéia | Theater</span>:
+                    '<span class="bold">Sesc Pompeia | Theater</span>:
                     OCT/22 (thu), NOV/05 (thu), NOV/19 (thu), DEC/01 (tue) e DEC/03 (thu)<br />
                     <span class="bold">Galpão VB</span>: OCT/13 (tue), OCT/27 (tue), NOV/10 (tue), NOV/24 (tue)'); ?>
                     </p>
@@ -73,56 +73,61 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     Rua Clélia, 93<br>
                     São Paulo, SP<br>
                     Tel.: 11 3871 7700 | 0800 11 8220 <br>
-                    www.sescp.org.br</p>
+                    <a href="http://www.sescsp.org.br" target="_blank" style="color:inherit; text-decoration:none">www.sescsp.org.br</a></p>
 
                     <p class="g">VISITACÃO<br>
                     de 6 de outubro a 6 de dezembro de 2015<br>
-                    terça a sábado das 9h às 22h;<br>
-                    domingos e feriados das 9h às 20h</p>',
+                    terça a sábado das 10h ás 21h;<br />
+                    domingos e feriados das 10h às 19h</p>',
 
                     '<p class="g bold">SESC POMPEIA</p>
                     <p style="clear: both" class="g">
                     Rua Clélia, 93<br>
                     São Paulo, SP, BRAZIL<br>
                     Tel.: 11 3871 7700 | 0800 11 8220 <br>
-                    www.sescp.org.br</p>
+                    <a href="http://www.sescsp.org.br" target="_blank" style="color:inherit; text-decoration:none">www.sescsp.org.br</a></p>
 
-                    <p class="g">VISITATION<br>
+                    <p class="g">VISITING HOURS<br>
                     october 6 to december 6, 2015<br>
-                    terça a sábado das 9h às 22h;<br>
-                    domingos e feriados das 9h às 20h</p>');
+                    tue-sat, from 10am to 9pm;<br />
+                    sun, holidays, from 10am to 7pm</p>');
 
 
                     ?>
+
+  
 
 
 
                 </div>
                 <div class="col-md-6 informacoes" style="left: -15px;">
                     <?php
-                    pten('<p class="l bold">Galpão VB</p>
+                    pten('<p class="l bold">GALPÃO VB</p>
                     <p class="l">Av. Imperatriz Leopoldina, 1150<br>
                     São Paulo, SP<br>
                     Tel.: 11 3645 0516<br>
-                    www.videobrasil.org.br</p>
+                    <a href="http://www.videobrasil.org.br" target="_blank" style="color:inherit; text-decoration:none">www.videobrasil.org.br</a></p>
 
-                    <p class="l">visitação<br>
+                    <p class="l">VISITAÇÃO<br>
                     de 8 de outubro a 6 de dezembro de 2015<br>
                     segundas, quartas, quintas e sextas das 13h às 19h; <br>
                     terças das 14h às 21h</p>',
 
                     '<p class="l bold">Galpão VB</p>
-                    <p>Av. Imperatriz Leopoldina, 1150<br>
+                    <p class="l">Av. Imperatriz Leopoldina, 1150<br>
                     São Paulo, SP, Brazil<br>
                     Tel.: +55 11 3645 0516<br>
-                    www.videobrasil.org.br</p>
+                    <a href="http://www.videobrasil.org.br" target="_blank" style="color:inherit; text-decoration:none">www.videobrasil.org.br</a></p>
 
-                    <p>visitation<br>
-                    xxxx<br>
-                    segundas, quartas, quintas e sextas das 13h às 19h; <br>
-                    terças das 14h às 21h</p>');
+                    <p class="l">VISITING HOURS<br />
+                    october 8 to december 6, 2015<br />
+                    mon, wed, thu, fri, from 1pm to 7pm;<br />
+                    tue, from 2pm to 9pm</p>');
                     ?>
 
                 </div>
 
             </div>
+
+
+          

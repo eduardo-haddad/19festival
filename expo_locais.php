@@ -91,7 +91,7 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
                     
                             Rua Clélia, 93<br />
                             São Paulo, SP<br />
-                            tel.: 11 3871 7700 | 0800 11 8220<br /><a style="color:inherit" href="http://www.sescp.org.br" target="_blank">www.sescp.org.br</a><br /> 
+                            tel.: 11 3871 7700 | 0800 11 8220<br /><a style="color:inherit" href="http://www.sescsp.org.br" target="_blank">www.sescsp.org.br</a><br /> 
                             <br /><span>Visitação</span><br />
                             de 6 de outubro a 6 de dezembro de 2015<br />
                             terça a sábado das 10h ás 21h;<br />
@@ -109,7 +109,7 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
                     
                             Rua Clélia, 93<br />
                             São Paulo, SP, Brazil<br />
-                            phone: 11 3871 7700<br /><a style="color:inherit" href="http://www.sescp.org.br" target="_blank">www.sescp.org.br</a><br />
+                            phone: 11 3871 7700<br /><a style="color:inherit" href="http://www.sescsp.org.br" target="_blank">www.sescsp.org.br</a><br />
                             <br /><span>Visiting hours</span><br />
                             october 6 to december 6, 2015<br />
                             tue-sat, from 10am to 9pm;<br />

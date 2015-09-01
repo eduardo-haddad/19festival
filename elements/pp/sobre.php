@@ -20,7 +20,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             <div class="row" style="clear: both;">
 
                 <div class="col-sm-12 col-md-6 relative" id="id-imagem-top" >
-                    <img src="img/blank.png" id="img-id-1" class="img-responsive" />
+                    <img src="img/pp/sobre-<?php pten('pt', 'en');?>.png" id="img-id-1" class="img-responsive" />
 
                 </div>
 

@@ -164,6 +164,41 @@ $(document).ready(
 	}
 );
 
+/*$(document).ready(
+	function filtroAgenda(){
+
+		$listas = $('a[id^=agenda-]');
+		$nomes = $('span[class^=agenda-]');
+
+		$listas.eq(0).addClass('ativo'); //ativar primeiro item do menu
+
+		$listas.on(
+			'click', function(){
+				$listas.removeClass('ativo');
+				$(this).addClass('ativo'); //ativar item clicado
+
+				if($(this).hasClass('ativo')){
+					$id = $(this).attr('id'); //recuperar id do item clicado
+
+					if($id == 'agenda-todos'){ //mostrar todos nomes da lista
+						for(var i=0; i < $nomes.length; i++){
+							$nomes.eq(i).show();
+						}
+					}else{
+
+						for (var j=0; j < $nomes.length; j++){
+							if($id != $nomes.eq(j).attr('class')){ //se id do item != class de um nome
+								$nomes.eq(j).css('display', 'none'); //esconda nome
+							} else $nomes.eq(j).css('display', 'block'); //senão mostre nome
+						}
+
+					}
+				}
+			}
+		);
+	}
+);*/
+
 
 
 

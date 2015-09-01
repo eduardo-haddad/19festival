@@ -146,7 +146,9 @@ $titulo = $idioma == 'pt' ? 'Performances' : 'Performances';
                       <p>Uma orquestra executa, ao vivo, a trilha sonora de uma missão envolvendo um submarino que navega pelas profundezas de um lago outrora congelado da Antártica. A performance compõe o projeto <em>VOSTOK</em>, em que a artista trama elementos ficcionais como o vídeo <em>VOSTOK_Screening</em>, que também integra a exposição.</p>',
 
                 //Evento 3 - EN
-                '<p>A live orchestra plays the soundtrack to a mission involving a submarine that navigates the depths of a once-frozen lake in the Antarctic. The performance is part of the <em>VOSTOK</em> project, in which the artist interweaves fictional elements, such as the video <em>VOSTOK_Screening</em>, which also features in the exhibition. </p>');  ?> 
+                '<p><span class="italic bold">VOSTOK cineperformance from the series VOSTOK</span><br />performance by Leticia ramos</p>
+
+                <p>A live orchestra plays the soundtrack to a mission involving a submarine that navigates the depths of a once-frozen lake in the Antarctic. The performance is part of the <em>VOSTOK</em> project, in which the artist interweaves fictional elements, such as the video <em>VOSTOK_Screening</em>, which also features in the exhibition. </p>');  ?> 
                 </div> 
             </div>
 
@@ -160,7 +162,7 @@ $titulo = $idioma == 'pt' ? 'Performances' : 'Performances';
                     Rua Clélia, 93<br>
                     São Paulo, SP<br>
                     Tel.: 11 3871 7700 | 0800 11 8220 <br>
-                    www.sescp.org.br</p>
+                    www.sescsp.org.br</p>
 
                     <p class="g">VISITACÃO<br>
                     de 6 de outubro a 6 de dezembro de 2015<br>
@@ -171,7 +173,7 @@ $titulo = $idioma == 'pt' ? 'Performances' : 'Performances';
                     Rua Clélia, 93<br>
                     São Paulo, SP, BRAZIL<br>
                     Tel.: 11 3871 7700 | 0800 11 8220 <br>
-                    www.sescp.org.br</p>
+                    www.sescsp.org.br</p>
 
                     <p class="g">VISITATION<br>
                     october 6 to december 6, 2015<br>
