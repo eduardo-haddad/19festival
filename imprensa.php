@@ -27,26 +27,59 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
         	<div style="height:36px; clear: both">&nbsp;</div>
 
-        	<div class="row">
-        		<div class="col-xs-12 breadcrumb">
-                    <span>saiba mais > imprensa</span>      
+        	<!-- BREADCRUMB -->
+            <div class="row">
+                <div class="col-xs-12 breadcrumb">
+                    <span><?php pten('<span class="underline">imprensa</span>', 
+                                     '<span class="underline">press</span>');  ?></span>      
                 </div>
-        	</div>
+            </div>
+            <!-- /BREADCRUMB -->
+
+
 
             <div class="row" >
-                <div class="col-md-6 informacoes" style="margin-top: 0">
-                    <p>
-                        <?php titulo('contato');?>
-                    </p>
+                <div class="col-md-6" style="margin-top: 0">
+                    <div class="col-xs-12 titulo" style="float: left;margin-left: -16px;">
+                        <p style="margin-bottom:0">
+                           <?php pten('CONTATO', 'CONTACT');  ?>
+                        </p>
+                    </div>
                     <p style="clear: both" class="h nomargin">
-                        comunicacao@videobrasil.org.br<br /><br />
-                        Coordenação de comunicação<br /> 
+                        <?php pten(
+                        '<p><span class="bold">Assessoria de Imprensa | Sesc Pompeia</span><br />
+                         Coordenação: Roberta Della Noce <br />
+                         (11) 3871-7740<br />
+                         Assessores: Igor Cruz e Fernanda Porta Nova<br />
+                         (11) 3871-7776 e 7720<br />
+                         imprensa@pompeia.sescsp.org.br</p>
+                         
+                         
+                         <p><span class="bold">Comunicação | Associação Cultural Videobrasil</span><br />
+                         Coordenação: Ana Paula Vargas | paula@videobrasil.org.br<br />
+                         Redação: Deborah Moreira | deborah@videobrasil.org.br<br />
+                         Desenvolvimento web: Eduardo Haddad | eduardo@videobrasil.org.br<br />
+                         Mídias Sociais: Kátia Kônig | katia@videobrasil.org.br 
+                         comunicacao@videobrasil.org.br<br />
+                         Tel: +55 11 3465 0516</p>
+                         
+                         
+                         <p><span class="bold">A4 Comunicação | Assessoria de Imprensa</span><br />
+                         Direção: Neila Carvalho | neilacarvalho@a4com.com.br<br />
+                         Coordenação: Danilo Thomaz | danilothomaz@a4com.com.br<br /> 
+                         Tel: +55 11 3897-4122</p>
+', 
+
+                        'comunicacao@videobrasil.org.br<br /><br />
+                        Communications coordinator<br /> 
                         Ana Paula Vargas<br /><br />
-                        Equipe de comunicação<br /> 
+                        Communications team<br /> 
                         Deborah Moreira<br />
                         Eduardo Haddad<br />
                         Kátia König<br /><br />
-                        Tel: 55 11 3645 0516
+                        Tel: 55 11 3645 0516'); 
+
+                        ?>
                     </p>
                 </div>
                 <div class="col-md-6 informacoes" style="margin-top: 0px; border-left: 1pt solid #8F6B55; min-height: 240px">

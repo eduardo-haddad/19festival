@@ -62,6 +62,7 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
                             <a href="identidade.php"><?php pten('Identidade Visual','Visual Identity');?></a> | 
                             <a href="realizacao.php"><?php pten('Realização','Undertaking');?></a> | 
                             <a href="parceiros.php"><?php pten('Parceiros','Supporters');?></a> | 
+                            <a href="fichatecnica.php"><?php pten('Ficha Técnica','Staff');?></a> | 
                             <a href="<?php pten('http://site.videobrasil.org.br/inscricao', 'http://site.videobrasil.org.br/en/inscricao');?>" target="_blank"><?php pten('Convocatórias 19º','Open calls');?></a> | 
                             <a href="<?php pten('http://site.videobrasil.org.br/festival/festivais', 'http://site.videobrasil.org.br/en/festival/festivais');?>" target="_blank"><?php pten('Histórico do Festival','History');?></a>
                     </p>       
@@ -79,7 +80,7 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
             
             <div class="row">
                     <div class="col-sm-12 col-md-6" style="text-align: center; float: left ">
-                        <img src="img/artistas/anavaz.jpg" class="img-responsive retrato-artista" style=" margin-bottom: 25px;"  />
+                        <img src="img/sobre/solange.jpg" class="img-responsive retrato-artista" style=" margin-bottom: 25px;"  />
                     </div>                 
                 <div class="col-sm-12 col-md-6 u curador1" style="float: right; margin-bottom: 24px">                     
                     <?php // SOLANGE PT
@@ -124,7 +125,7 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
 
             <div class="row">
                 <div class="col-sm-12 col-md-6" style="text-align: center; float: left ">
-                    <img src="img/artistas/anavaz.jpg" class="img-responsive retrato-artista" style=" margin-bottom: 25px;"  />
+                    <img src="img/sobre/bernardo.jpg" class="img-responsive retrato-artista" style=" margin-bottom: 25px;"  />
                 </div>
                 <div class="col-sm-12 col-md-6 s curador2" style="float: right;margin-bottom: 24px">
 
@@ -166,7 +167,7 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
 
             <div class="row">
                 <div class="col-sm-12 col-md-6" style="text-align: center; float: left ">
-                    <img src="img/artistas/anavaz.jpg" class="img-responsive retrato-artista" style=" margin-bottom: 25px;" />
+                    <img src="img/sobre/bitu.jpg" class="img-responsive retrato-artista" style=" margin-bottom: 25px;" />
                 </div>                 
                 <div class="col-sm-12 col-md-6 e curador3" style="float: right;margin-bottom: 24px">
                 <?php // BITU PT                    
@@ -213,7 +214,7 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
 
                 <div class="row">
                 <div class="col-sm-12 col-md-6" style="text-align: center; float: left ">
-                    <img src="img/artistas/anavaz.jpg" class="img-responsive retrato-artista" style=" margin-bottom: 25px;" />
+                    <img src="img/sobre/joao.jpg" class="img-responsive retrato-artista" style=" margin-bottom: 25px;" />
                 </div>                 
                 <div class="col-sm-12 col-md-6 e curador4" style="float: right;margin-bottom: 24px">
                 <?php   // JOAO LAIA PT                  
@@ -241,7 +242,7 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
 
                 <div class="row">
                 <div class="col-sm-12 col-md-6" style="text-align: center; float: left ">
-                    <img src="img/artistas/anavaz.jpg" class="img-responsive retrato-artista" style=" margin-bottom: 25px;" />
+                    <img src="img/sobre/julia.jpg" class="img-responsive retrato-artista" style=" margin-bottom: 25px;" />
                 </div>                 
                 <div class="col-sm-12 col-md-6 e curador5" style="float: right;margin-bottom: 24px">
                 <?php   // JULIA PT                  

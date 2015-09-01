@@ -46,6 +46,7 @@ $titulo = $idioma == 'pt' ? 'Parceiros' : 'Supporters';
                             <a href="identidade.php"><?php pten('Identidade Visual','Visual Identity');?></a> | 
                             <a href="realizacao.php"><?php pten('Realização','Undertaking');?></a> | 
                             <a href="parceiros.php"><span style="text-decoration: underline"><?php pten('Parceiros','Supporters');?></span></a> | 
+                            <a href="fichatecnica.php"><?php pten('Ficha Técnica','Staff');?></a> | 
                             <a href="<?php pten('http://site.videobrasil.org.br/inscricao', 'http://site.videobrasil.org.br/en/inscricao');?>" target="_blank"><?php pten('Convocatórias 19º','Open calls');?></a> | 
                             <a href="<?php pten('http://site.videobrasil.org.br/festival/festivais', 'http://site.videobrasil.org.br/en/festival/festivais');?>" target="_blank"><?php pten('Histórico do Festival','History');?></a>
                     </p>       

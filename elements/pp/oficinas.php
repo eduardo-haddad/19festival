@@ -48,7 +48,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/pp/oficinas-memoria-<?php pten('pt.png', 'en.jpg'); ?>" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/oficinas-memoria-<?php pten('pt.png', 'en.png'); ?>" class="img-responsive" style="margin-bottom: 15px" />    
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
@@ -91,7 +91,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/pp/oficinas-vocabularios-<?php pten('pt.png', 'en.jpg'); ?>" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/oficinas-vocabularios-<?php pten('pt.png', 'en.png'); ?>" class="img-responsive" style="margin-bottom: 15px" />    
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
@@ -134,7 +134,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/pp/oficinas-lambada-<?php pten('pt.png', 'en.jpg'); ?>" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/oficinas-lambada-<?php pten('pt.png', 'en.png'); ?>" class="img-responsive" style="margin-bottom: 15px" />    
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
@@ -177,7 +177,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/pp/oficinas-educadores-<?php pten('pt.png', 'en.jpg'); ?>" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/oficinas-educadores-<?php pten('pt.png', 'en.png'); ?>" class="img-responsive" style="margin-bottom: 15px" />    
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php

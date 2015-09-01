@@ -43,7 +43,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/pp/encontros-rodrigo.png" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/encontros-rodrigo<?php pten('-pt.png','-en.jpg');?>" class="img-responsive" style="margin-bottom: 15px" />    
 
                     <p><span style="text-transform: uppercase"><?php pten('Participantes', 'Participants'); ?></span></p>
                     <p><span class="bold">Rodrigo Matheus </span><?php pten(
@@ -86,7 +86,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/pp/encontros-tilting.png" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/encontros-tilting<?php pten('-pt.png','-en.jpg');?>" class="img-responsive" style="margin-bottom: 15px" />    
 
                     <p><span style="text-transform: uppercase"><?php pten('Participantes', 'Participants'); ?></span></p>
                     <p><span class="bold">Annalee Davis </span><?php pten(
@@ -144,7 +144,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/pp/encontros-rede.png" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/encontros-rede<?php pten('-pt.png','-en.jpg');?>" class="img-responsive" style="margin-bottom: 15px" />    
 
                     <p><span style="text-transform: uppercase"><?php pten('Participantes', 'Participants'); ?></span></p>
                     <p><span class="bold">A-I-R Laboratory </span><?php pten('(Barbados)','(Poland)'); ?></p>
@@ -190,13 +190,13 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/pp/encontros-portfolios.png" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/encontros-portfolios<?php pten('-pt.png','-en.jpg');?>" class="img-responsive" style="margin-bottom: 15px" />    
 
 
                     <p><span style="text-transform: uppercase"><?php pten('Participantes', 'Participants'); ?></span></p>
                     <p><span class="bold">Clara Ianni </span><?php pten(
                         '(Brasil) é artista visual, bacharel em artes visuais pela Universidade de São Paulo, 2010, e mestre em Visual and Media Anthropology pela Freie Universität, Berlim, Alemanha, 2013.',
-                        '(Brazil) a visual artist. She completed a baccalaureate degree in Visual Arts from the University of São Paulo in 2010, and a master’s degree in Visual and Media Anthropology from Freie Universität in Berlin, 2013.'); ?></p>
+                        '(Brazil) is a visual artist. She completed a baccalaureate degree in Visual Arts from the University of São Paulo in 2010, and a master’s degree in Visual and Media Anthropology from Freie Universität in Berlin, 2013.'); ?></p>
                     <p><span class="bold">Débora Bolsoni </span><?php pten(
                         '(Brasil) é artista visual, mestre em poéticas visuais pela Escola de Comunicação e Artes da Universidade de São Paulo, 2014.',
                         '(Brazil) a visual artist, she holds a master’s degree in Visual Poetics from the School of Communication and Arts of the University of São Paulo, 2014.'); ?></p>
@@ -245,13 +245,13 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/pp/encontros-curadoria.png" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/encontros-curadoria<?php pten('-pt.png','-en.jpg');?>" class="img-responsive" style="margin-bottom: 15px" />    
 
 
                     <p><span style="text-transform: uppercase"><?php pten('Participantes', 'Participants'); ?></span></p>
                     <p><span class="bold">Diego Matos </span><?php pten(
                         '(Brasil) é coordenador de Arquivo e Pesquisa do Videobrasil e curador da exposição <em>Quem nasce pra aventura não toma outro rumo</em>.',
-                        '(Brazil) Videobrasil\'s archive and research coordinator and curator of the parallel exhibition <em>Those born for adventure don’t stray from the path</em>'); ?></p>
+                        '(Brazil) is Videobrasil\'s archive and research coordinator and curator of the parallel exhibition <em>Those born for adventure don’t stray from the path</em>'); ?></p>
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
@@ -273,3 +273,49 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
            
 
             <!-- /EVENTO 5 -->
+
+            <!-- EVENTO 6 -->
+
+            <div class="row" >
+                <div class="col-xs-12" style="float: left; margin-bottom: 28px">
+                    <p style="margin-bottom:0"> 
+                        <a name="leitura"></a><?php pten(
+                            '<span class="titulo">Mesa de lançamento do <em>Caderno SESC_VIDEOBRASIL 11: Aliança de corpos vulneráveis</em></span><br />
+                             <span class="upper bold data-pp" style="font-size: 1.1em">25/nov (quarta) | 20h | sesc pompeia | teatro</span><br />
+                             <span class="upper data-pp" style="font-size: 1.1em">[tradução simultânea]</span>',
+
+                             '<span class="titulo">Launch of <em>Caderno SESC_VIDEOBRASIL 11: an alliance of vulnerable bodies</em></span><br />
+                             <span class="upper bold data-pp" style="font-size: 1.1em">nov/25 (wed) | 20h | sesc pompeia | theater</span><br />
+                             <span class="upper data-pp" style="font-size: 1.1em">[Simultaneous translation]</span>'); ?>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row" style="clear: both;">     
+                <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
+                    <img src="img/pp/encontros-caderno11<?php pten('-pt.png','-en.png');?>" class="img-responsive" style="margin-bottom: 15px" />    
+
+
+                    <p><span style="text-transform: uppercase"><?php pten('Participantes', 'Participants'); ?></span></p>
+                    <p><span class="bold">Miguel Angel Lopez  </span><?php pten(
+                    '(Peru) é curador e diretor artístico do Teor/éti- ca, espaço de arte contemporânea em San José, Costa Rica.',
+                    '(Peru) is the curator and art director of Teor/ética, a contemporary art facility in San José, Costa Rica.'); ?></p>
+                    <p><span class="bold">Julia Bryan-Wilson   </span><?php pten(
+                    '(EUA) é professora associada de Arte Moderna e Contemporânea na Universidade da Califórnia (Berkeley). Crítica de arte, publicou amplamente sobre feminismo e questões queer.',
+                    '(USA) is associate professor of modern and contemporary art at the University of California (Berkeley). She has published widely on feminist and queer issues.'); ?></p>
+                    <p><span class="bold">Teté Martinho   </span><?php pten(
+                    '(Brasil) é jornalista e coordenadora de publicações da Associação Cultural Videobrasil.',
+                    '(Brazil) is a journalist and the publications coordinator for Associação Cultural Videobrasil.'); ?></p>
+                    
+                </div>     
+                <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
+                <?php
+                //Evento 6 - PT
+                pten('<p>Com edição do curador peruano Miguel Angel Lopez, o novo número da revista anual de arte contemporânea Caderno Sesc_Videobrasil observa como o feminismo e o ativismo queer, entre outras formas de contestação crítica fundadas no corpo, estão transformando os discursos tradicionais da história da arte. Na mesa de lançamento, o editor e a pesquisadora norte-americana Julia Bryan-Wilson discutem a relação entre arte e teoria do feminismo. </p>',
+
+                //Evento 6 - EN
+                       '<p>Edited by the Peruvian curator Miguel Angel López, the new edition of the annual contemporary art magazine Caderno Sesc_Videobrasil will look into how feminism and queer activism, among other forms of body-orient- ed critical contestation, are transforming traditional art history discourses. During the launch panel, the editor and the American researcher Julia Bry- an-Wilson will discuss the relationship between art and feminist theory. </p>');  ?> 
+                </div> 
+            </div>           
+
+            <!-- /EVENTO 6 -->

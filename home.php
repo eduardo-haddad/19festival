@@ -293,6 +293,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                             <a href="identidade.php"><?php pten('Identidade Visual','Visual Identity');?></a><br />
                             <a href="realizacao.php"><?php pten('Realização','Undertaking');?></a><br />
                             <a href="parceiros.php"><?php pten('Parceiros','Supporters');?></a><br />
+                            <a href="fichatecnica.php"><?php pten('Ficha técnica','Staff');?></a><br />
                             <a href="<?php pten('http://site.videobrasil.org.br/inscricao', 'http://site.videobrasil.org.br/en/inscricao');?>" target="_blank"><?php pten('Convocatórias 19º','Open calls');?></a><br />
                             <a href="<?php pten('http://site.videobrasil.org.br/festival/festivais', 'http://site.videobrasil.org.br/en/festival/festivais');?>" target="_blank"><?php pten('Histórico do Festival','History');?></a>
                         </p>
