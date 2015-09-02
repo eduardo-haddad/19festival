@@ -86,7 +86,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 </div>
             </div>
 
-            <div style="display: table;"><div style="display: table-cell; vertical-align: middle;"><div style="clear: both; height: 20px;" class="submenu">
+            <!-- <div style="display: table;"><div style="display: table-cell; vertical-align: middle;"><div style="clear: both; height: 20px;" class="submenu">
                         <a id="agenda-todos"><?php pten('todos','All');?></a> | 
                         <a id="agenda-abertura"><?php pten('abertura','All');?></a> | 
                         <a id="agenda-performance"><?php pten('performance','Artworks');?></a> | 
@@ -98,7 +98,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 
 
-                        </div></div></div> 
+                        </div></div></div>  -->
             
             <div class="row" style="clear: both;">
                 <div class="col-xs-12" id="agenda">
