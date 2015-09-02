@@ -219,7 +219,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <li class="agenda-seminario">14h | Sesc Pompeia, Teatro | Programas Públicos | Seminário Lugares e Sentidos na Arte: Debates a Partir do Sul | Mesa 4: Repensar o tempo: arte,  silêncios e histórias</li>
                     <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #1 + Programa #2</li>
                     <li class="agenda-filme">19h | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #3 + Programa de Filmes | Gabriel Abrantes</li>
-                    
+                    </ol>
                     <ol>
                     <li>31 de outubro, sábado</li>
                     <li class="agenda-oficina">15h | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
