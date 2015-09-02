@@ -103,7 +103,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             <div class="row" style="clear: both;">
                 <div class="col-xs-12" id="agenda">
 
-                    <p class="bold" id="legenda"><span>LEGENDAS:</span><br />
+                    <p class="bold" id="legenda"><span>LEGENDA:</span><br />
                     <span class="agenda-abertura">ABERTURAS DE EXPOSIÇÕES</span><br />
                     <span class="agenda-performance">PERFORMANCES</span><br />
                     <span class="agenda-filme">PROGRAMAS DE FILMES</span><br />
