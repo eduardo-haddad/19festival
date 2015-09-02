@@ -31,25 +31,25 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     function(){
 
                         if($(this).hasClass('agenda-abertura')){
-                            $(this).css('color', 'red');
+                            $(this).addClass('e');
                         } 
                         else if($(this).hasClass('agenda-performance')){
-                            $(this).css('color', 'blue');
+                            $(this).addClass('o');
                         } 
                         else if($(this).hasClass('agenda-filme')){
-                            $(this).css('color', 'green');
+                            $(this).addClass('p');
                         } 
                         else if($(this).hasClass('agenda-publicacao')){
-                            $(this).css('color', 'orange');
+                            $(this).addClass('s');
                         } 
                         else if($(this).hasClass('agenda-encontro')){
-                            $(this).css('color', 'purple');
+                            $(this).addClass('y');
                         } 
                         else if($(this).hasClass('agenda-seminario')){
-                            $(this).css('color', 'navy');
+                            $(this).addClass('w');
                         } 
                         else if($(this).hasClass('agenda-oficina')){
-                            $(this).css('color', 'gray');
+                            $(this).addClass('u');
                         }
                     }
                 );
@@ -225,7 +225,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <li class="agenda-oficina">15h | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
                     </ol>
 
-                    <div class="titulo titulo-agenda-g"><span>novembro</span></div>
+                    <div class="titulo titulo-agenda-g" style="margin-top: 30px"><span>novembro</span></div>
 
                     <ol>
                     <li>1 de novembro, domingo</li>
@@ -324,7 +324,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <li>29 de novembro, domingo</li>
                     <li class="agenda-oficina">15h | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
                     </ol>
-                    <div class="titulo titulo-agenda-g"><span>dezembro</span></div>
+                    <div class="titulo titulo-agenda-g" style="margin-top: 30px"><span>dezembro</span></div>
                     <ol>
                     <li>1 de dezembro, terça-feira</li>
                     <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | Gabriel Abrantes + Programa de Filmes | Obras Selecionadas | Programa #3</li>
@@ -352,7 +352,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <li class="agenda-oficina">15h | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
                     </ol>
 
-                    <div class="titulo titulo-agenda-g"><span>janeiro</span></div>
+                    <div class="titulo titulo-agenda-g" style="margin-top: 30px"><span>janeiro</span></div>
                     <ol>
                     <li>9 de janeiro, sábado</li>
                     <li class="agenda-encontro">16h | Paço das Artes | Programas Públicos | Encontros e Conversas | Visita mediada à exposição paralela Quem Nasce Pra Aventura Não Toma Outro Rumo | Roteiro 2: O vídeo na arena política da arte</li>

@@ -212,8 +212,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 //Evento 4 - PT
                 pten('<p>Alguns dos artistas selecionados para o Festival recebem artistas previamente inscritos para compartilhar sua própria pesquisa e trajetória. Em grupo, os convidados refletem sobre o processo, linguagem e pesquisas dos artistas inscritos.</p>
                         <p><span class="bold">Para participar:</span> artistas interessados devem enviar portfólio (em pdf), entre os dias 6.10 e 23.10, para o e-mail portfolio@zebra5.com.br.<br /> 
-                        <span class="bold">Para assistir:</span> Retirada de senha 1h antes no próprio local.</p>
-                        <p><span class="bold">Vagas limitadas.</span></p>',
+                        <span class="bold">Para assistir:</span> Retirada de senha 1h antes no próprio local.<span class="bold"> Vagas limitadas.</span></p>',
 
                 //Evento 4 - EN
                        '<p>Artists selected for the 19th Festival will share their research and career stories, and read portfolios from previous entrants.</p>
@@ -258,14 +257,12 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 //Evento 5 - PT
                 pten('<p><span class="bold">14/nov, 16h, Paço das Artes</span><br />Roteiro 1: Brasil, São Paulo – um lugar para a partida.</p>
                       <p><span class="bold">09/jan, 16h, Paço das Artes</span><br />Roteiro 2: O vídeo na arena política da arte.</p>
-                      <p><span class="bold">Para participar:</span> Inscrições pelo email educativo@pacodasartes.org.br ou pelo telefone 11 3814-4832</p>
-                        <p><span class="bold">Vagas limitadas.</span></p>',
+                      <p><span class="bold">Para participar:</span> Inscrições pelo email educativo@pacodasartes.org.br ou pelo telefone 11 3814-4832<span class="bold"> Vagas limitadas.</span></p>',
 
                 //Evento 5 - EN
                        '<p><span class="bold">Nov/14, 16h, Paço das Artes</span><br />Itinerary 1: Brazil, São Paulo – a place for departure.</p>
                       <p><span class="bold">Jan/09, 16h, Paço das Artes</span><br />Itinerary 2: Video in the political arena of art.</p>
-                      <p><span class="bold">How to participate:</span> send an email to educativo@pacodasartes.org.br or call 11 3814-4832</p>
-                        <p><span class="bold">Vagas limitadas.</span></p>');  ?> 
+                      <p><span class="bold">How to participate:</span> send an email to educativo@pacodasartes.org.br or call 11 3814-4832<span class="bold"> Vagas limitadas.</span></p>');  ?> 
                 </div> 
             </div>
 
