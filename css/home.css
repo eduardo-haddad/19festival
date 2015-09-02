@@ -290,7 +290,7 @@ header {
 }
 
 
-#lista ol {
+#lista ol, #agenda ol {
     list-style-type:none;
     margin-left: -39px;
     font-size: 1.1em;

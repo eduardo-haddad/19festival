@@ -66,7 +66,7 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
 
 
 
-                <div class="col-sm-12 col-md-6 f">
+                <div class="col-xs-12 col-md-6 f">
                     <?php pten(                                         
                     //ESQUERDA
                     '<p><span class="bold upper">DIREÇÃO E CURADORIA GERAL</span><br />
@@ -230,7 +230,7 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
 
                 </div>
 
-                <div class="col-sm-12 col-md-6 f" style="float: right;" id="id-texto">
+                <div class="col-xs-12 col-md-6 f" style="float: right;" id="id-texto">
 
                     <?php pten(  
                     //DIREITA                                         

@@ -19,7 +19,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
     <aside id="mapadosite"><?php include "elements/mapa.html"; ?></aside>
     <!-- /MAPA DO SITE -->
 
-    <main class="container" id="container">
+    <main class="container" id="container" style="min-height: auto">
 
         <!-- HEADER -->
         <header><?php include "elements/header.html"; ?></header>
@@ -45,9 +45,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                            <?php pten('CONTATO', 'CONTACT');  ?>
                         </p>
                     </div>
-                    <p style="clear: both" class="h nomargin">
+                    
                         <?php pten(
-                        '<p><span class="bold">Assessoria de Imprensa | Sesc Pompeia</span><br />
+                        '<p class="f"><span class="bold">Assessoria de Imprensa | Sesc Pompeia</span><br />
                          Coordenação: Roberta Della Noce <br />
                          (11) 3871-7740<br />
                          Assessores: Igor Cruz e Fernanda Porta Nova<br />
@@ -55,7 +55,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                          imprensa@pompeia.sescsp.org.br</p>
                          
                          
-                         <p><span class="bold">Comunicação | Associação Cultural Videobrasil</span><br />
+                         <p class="f"><span class="bold">Comunicação | Associação Cultural Videobrasil</span><br />
                          Coordenação: Ana Paula Vargas | paula@videobrasil.org.br<br />
                          Redação: Deborah Moreira | deborah@videobrasil.org.br<br />
                          Desenvolvimento web: Eduardo Haddad | eduardo@videobrasil.org.br<br />
@@ -64,29 +64,41 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                          Tel: +55 11 3465 0516</p>
                          
                          
-                         <p><span class="bold">A4 Comunicação | Assessoria de Imprensa</span><br />
+                         <p style="margin-bottom: 30px" class="f"><span class="bold">A4 Comunicação | Assessoria de Imprensa</span><br />
                          Direção: Neila Carvalho | neilacarvalho@a4com.com.br<br />
                          Coordenação: Danilo Thomaz | danilothomaz@a4com.com.br<br /> 
-                         Tel: +55 11 3897-4122</p>
-', 
+                         Tel: +55 11 3897-4122</p>', 
 
-                        'comunicacao@videobrasil.org.br<br /><br />
-                        Communications coordinator<br /> 
-                        Ana Paula Vargas<br /><br />
-                        Communications team<br /> 
-                        Deborah Moreira<br />
-                        Eduardo Haddad<br />
-                        Kátia König<br /><br />
-                        Tel: 55 11 3645 0516'); 
+                        '<p class="f"><span class="bold">Assessoria de Imprensa | Sesc Pompeia</span><br />
+                         Coordenação: Roberta Della Noce <br />
+                         (11) 3871-7740<br />
+                         Assessores: Igor Cruz e Fernanda Porta Nova<br />
+                         (11) 3871-7776 e 7720<br />
+                         imprensa@pompeia.sescsp.org.br</p>
+                         
+                         
+                         <p class="f"><span class="bold">Comunicação | Associação Cultural Videobrasil</span><br />
+                         Coordenação: Ana Paula Vargas | paula@videobrasil.org.br<br />
+                         Redação: Deborah Moreira | deborah@videobrasil.org.br<br />
+                         Desenvolvimento web: Eduardo Haddad | eduardo@videobrasil.org.br<br />
+                         Mídias Sociais: Kátia Kônig | katia@videobrasil.org.br 
+                         comunicacao@videobrasil.org.br<br />
+                         Tel: +55 11 3465 0516</p>
+                         
+                         
+                         <p style="margin-bottom: 30px" class="f"><span class="bold">A4 Comunicação | Assessoria de Imprensa</span><br />
+                         Direção: Neila Carvalho | neilacarvalho@a4com.com.br<br />
+                         Coordenação: Danilo Thomaz | danilothomaz@a4com.com.br<br /> 
+                         Tel: +55 11 3897-4122</p>'); 
 
                         ?>
-                    </p>
+                    
                 </div>
-                <div class="col-md-6 informacoes" style="margin-top: 0px; border-left: 1pt solid #8F6B55; min-height: 240px">
-                    <p>
-                        <?php titulo('downloads');?>
+                <div class="col-md-6 " style="margin-top: 0px; border-left: 1pt solid #8F6B55; min-height: 240px">
+                    <p class="titulo">
+                        Downloads
                     </p>
-                <p style="clear: both" class="h nomargin">
+                <p style="clear: both" class="f nomargin">
                     Press Kit (português, english)<br /><br />
                     Imagens (download, flickr)    
                 </p>
@@ -96,22 +108,15 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             </div>
             
-            <div class="row" >
+            <!-- <div class="row" >
                 <div class="col-xs-12 titulo" style="float: left; margin-top: 37px" >
-                       <p><!--
-                    --><?php titulo('destaques');?><!-- 
-                    --><span>&nbsp;</span>
-                       </p><!-- 
-                    --><p><!-- 
-                    --><?php titulo('do');?><!-- 
-                    --><span>&nbsp;</span><!--  
-                    --></p><!-- 
-                    --><p><!-- 
-                    --><?php titulo('clipping');?></p>
+                       <p>
+                       <?php pten('Destaques do clipping', 'Clipping highlights');  ?>
+                       </p>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="row" style="clear:both">
+            <!-- <div class="row" style="clear:both">
                 <div class="col-xs-12">
 
                     <div class="bloco">
@@ -158,7 +163,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                    
                 </div>
 
-            </div>
+            </div> -->
 
             <div id="altura">&nbsp;</div>
     </main>

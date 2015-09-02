@@ -167,10 +167,19 @@ $(document).ready(
 /*$(document).ready(
 	function filtroAgenda(){
 
+
+
 		$listas = $('a[id^=agenda-]');
-		$nomes = $('span[class^=agenda-]');
+		$nomes = $('li[class^=agenda-]');
+
+		$ol = $("#agenda ol");
 
 		$listas.eq(0).addClass('ativo'); //ativar primeiro item do menu
+
+
+
+		
+                
 
 		$listas.on(
 			'click', function(){
@@ -188,9 +197,26 @@ $(document).ready(
 
 						for (var j=0; j < $nomes.length; j++){
 							if($id != $nomes.eq(j).attr('class')){ //se id do item != class de um nome
-								$nomes.eq(j).css('display', 'none'); //esconda nome
-							} else $nomes.eq(j).css('display', 'block'); //senão mostre nome
+								$nomes.eq(j).hide(
+									function(){
+										$ol.each(
+                    						function(){
+                    						    if ($(this).find('li:visible').length == 2){
+                    						        $(this).find('li:visible').eq(0).css('display', 'none');
+                    						    };
+                    						}
+                    );
+									}
+								); //esconda nome
+
+							
+
+
+
+							} else $nomes.eq(j).show(); //senão mostre nome
 						}
+
+					
 
 					}
 				}
@@ -198,9 +224,6 @@ $(document).ready(
 		);
 	}
 );*/
-
-
-
 
 
 /*$(document).ready(
