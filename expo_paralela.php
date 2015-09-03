@@ -76,8 +76,8 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : 'Parallel exhibition';
             </div>
             <!-- SUBMENU -->
 
-            <p class="titulo"><?php pten('exposição paralela | Quem nasce pra aventura não toma outro rumo', 
-                                         '<span style="letter-spacing: -0.04em">Parallel exhibition | Those born for adventure don’t stray from the path</span>'); ?></p> 
+            <p class="titulo"><?php pten('<span style="letter-spacing: -0.04em">Quem nasce pra aventura não toma outro rumo - obras do acervo videobrasil</span>', 
+                                         '<span style="letter-spacing: 0em">Those born for adventure don’t stray from the path - works from videobrasil collection</span>'); ?></p> 
            
             <div class="row" style="clear: both;">
 
@@ -110,18 +110,22 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : 'Parallel exhibition';
 
                     <?php pten( 
                     ////APRESENTAÇAO PT
-                    '<p style="display: inline">Releitura, à luz do contemporâneo, da produção resguardada pelo Acervo Videobrasil, reúne dezesseis
+                    '<p>Releitura, à luz do contemporâneo, da produção resguardada pelo Acervo Videobrasil, reúne dezesseis
                     obras realizadas entre 1978 e 2012 por artistas do Sul global. Os trabalhos e o contexto brasileiros inspiram os três eixos
                     da curadoria – Afeições, tempos e estradas; Democracia, documento e ficção; e Fala, escuta e dissenso –, que dialogam com o
                     universo das obras do Festival. O título cita frase da artista Lygia Pape, ao interpelar o crítico Mário Pedrosa em entrevista
-                    ao jornal o Pasquim em 1981.</p>',
+                    ao jornal o Pasquim em 1981.</p>
+
+                    <p><br />Clique <a style="text-decoration: underline; color: inherit" href="http://site.videobrasil.org.br/acervo/sobre" target="_blank">aqui</a> para saber mais sobre o Acervo Videobrasil.</p>',
 
                     //APRESENTAÇAO EN
                     '<p style="display: inline">A contemporary take on productions from the Videobrasil Collection, featuring 15 pieces created between
                     1978 and 2012 by artists from global South. The program is divided into three sections, inspired by the selected Brazilian
                     artworks – Affections, times and roads; Democracy, document and fiction; and Speech, hearing and dissent – which converse
                     with the universe outlined by the artworks featured in the Festival. The title is a quote from a 1981 interview by the
-                    critic Mário Pedrosa to artist Lygia Pape, for newspaper O Pasquim.</p>');
+                    critic Mário Pedrosa to artist Lygia Pape, for newspaper O Pasquim.</p>
+
+                    <p><br />Click <a style="text-decoration: underline; color: inherit" href="http://site.videobrasil.org.br/acervo/sobre" target="_blank">here</a> to learn more about Videobrasil Collection.</p>');
 
                     ?>
                     

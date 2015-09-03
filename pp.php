@@ -50,6 +50,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
                                $('#pp-conteudo').load('elements/pp/sobre.php', function(){
                                   $menuPP.eq(0).addClass('ativo'); 
                                   $('.bc-atual').html('<?php pten('sobre', 'about');?>');
+                                  $('#container').css('min-height', 'auto');
                                });
                                
                             }else if(hash == 'encontros'){ 
@@ -90,6 +91,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
                                $('#pp-conteudo').load('elements/pp/sobre.php', function(){
                                   $menuPP.eq(0).addClass('ativo'); 
                                   $('.bc-atual').html('<?php pten('sobre', 'about');?>');
+                                  $('#container').css('min-height', 'auto');
                                });
 
                             }
@@ -117,6 +119,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
                                criaUrlIdioma('#sobre');  
                                $('#pp-conteudo').load('elements/pp/sobre.php', function(){
                                     $('.bc-atual').html('<?php pten('sobre', 'about');?>');
+                                    $('#container').css('min-height', 'auto');
                                });
                                
                             }else if($id == 'pp-encontros'){ 
@@ -163,7 +166,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
     <aside id="mapadosite"><?php include "elements/mapa.html"; ?></aside>
     <!-- /MAPA DO SITE -->
 
-    <main class="container" id="container">
+    <main class="container" id="container" >
 
         <!-- HEADER -->
         <header><?php include "elements/header.html"; ?></header>

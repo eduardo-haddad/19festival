@@ -48,7 +48,7 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
                 </div>
             </div>
            
-            <div class="row" style="clear: both;">
+            <div class="row" style="clear: both; margin-bottom: 13px">
 
                 <div class="col-sm-12 col-md-6 relative">
                     <img src="img/zona/videoteca.png" id="img-id-1" class="img-responsive" style="max-width: 485px" />
@@ -82,7 +82,7 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
                 </div>
             </div>
            
-            <div class="row" style="clear: both;">
+            <div class="row" style="clear: both;margin-bottom: 13px">
 
                 <div class="col-sm-12 col-md-6 relative">
                     <img src="img/zona/canalvb.png" id="img-id-1" class="img-responsive" style="max-width: 485px" />
@@ -115,7 +115,7 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
                 </div>
             </div>
            
-            <div class="row" style="clear: both;">
+            <div class="row" style="clear: both;margin-bottom: 13px">
 
                 <div class="col-sm-12 col-md-6 relative">
                     <img src="img/zona/plataforma.png" id="img-id-1" class="img-responsive" style="max-width: 485px" />

@@ -65,7 +65,7 @@ $titulo = $idioma == 'pt' ? 'Realização' : 'Undertaking';
             <div class="row" style="clear: both;">
 
                 <div class="col-sm-12 col-md-6" >
-                    <img src="img/realizacao_sesc2.png" id="img-id-1" class="img-responsive retrato-artista" style="margin-bottom: 30px; margin-left:auto;" />
+                    <a href="http://sescsp.org.br" target="_blank"><img src="img/realizacao_sesc2.png" id="img-id-1" class="img-responsive retrato-artista" style="margin-bottom: 30px; margin-left:auto;" />
 
                 </div>
 
@@ -83,7 +83,10 @@ $titulo = $idioma == 'pt' ? 'Realização' : 'Undertaking';
                     educação como pressuposto para a transformação social. A concretização desse propósito se deu por uma intensa atuação no
                     campo da cultura e suas diferentes manifestações, destinadas a todos os públicos, em diversas faixas etárias e estratos
                     sociais. Isso não significa apenas oferecer uma grande diversidade de eventos, mas efetivamente contribuir para
-                    experiências mais duradouras e significativas.</p>
+                    experiências mais duradouras e significativas.No Estado de São Paulo, o Sesc conta com uma rede de 36 unidades, em
+                    sua maioria centros culturais e desportivos. Além disso, a instituição conta com o Portal SescSP, o SescTV, as
+                    Edições Sesc e o Selo Sesc, e diversas revistas - Em Cartaz, Mais 60, Problemas Brasileiros e Revista E - para
+                    registrar e divulgar suas ações, ampliando assim o acesso de suas programações e aos bens culturais que produz.</p>
                     
                     <p class="f">É o principal parceiro do Videobrasil há mais de 20 anos, realizando, além do festival bianual de arte contemporânea que
                     leva sua assinatura, exposições anuais de artistas consagrados ou do eixo Sul geopolítico, foco da Associação;
@@ -102,7 +105,9 @@ $titulo = $idioma == 'pt' ? 'Realização' : 'Undertaking';
                     highlighted, in the decade of 1980, education as a project for social transformation. Accomplishing this purpose has
                     come to fruition by an intense action on the field of culture and its different demonstrations, destined to all
                     audiences, of diverse age groups and social strata. This does not mean only offering a great diversity of events, but
-                    effectively contributing for more lasting and meaningful experiences.</p>
+                    effectively contributing for more lasting and meaningful experiences. In the State of São Paulo, SESC has thirty six
+                    cultural centers, most of them being also sports centers, a TV station (SESCTV), a web portal (SESCSP), a publishing
+                    house (Edições SESCSP), a record label that produces DVDs and CDs (Selo Sesc) and a Research and Training Center.</p>
                     
                     <p class="f">Sesc is the main partner of Videobrasil for over 20 years, undertaking the biennial contemporary art festival which
                     bears its signature; annual exhibitions of established artists or from the geopolitical south, focus of the Association;
@@ -120,7 +125,7 @@ $titulo = $idioma == 'pt' ? 'Realização' : 'Undertaking';
             <div class="row" style="clear: both;margin-top: 30px">
 
                 <div class="col-sm-12 col-md-6" >
-                    <img src="img/realizacao_vb2.png" id="img-id-1" class="img-responsive retrato-artista" style="margin-bottom: 30px;" />
+                    <a href="http://site.videobrasil.org.br" target="_blank"><img src="img/realizacao_vb2.png" id="img-id-1" class="img-responsive retrato-artista" style="margin-bottom: 30px;" /></a>
 
                 </div>
 
@@ -143,12 +148,12 @@ $titulo = $idioma == 'pt' ? 'Realização' : 'Undertaking';
                     seminários, e oficinas, ações de mediação e programas de residência artística. </p>
 
                     <p class="f">Em 2015, o Videobrasil abre sua nova sede
-                    em São Paulo: o Galpão_VB, voltado à ativação permanente das obras do Acervo Videobrasil e ao desenvolvimento de
-                    processos criativos e de reflexão. O Galpão_VB promove exposições, programas de filmes, seminários, oficinas e
+                    em São Paulo: o Galpão VB, voltado à ativação permanente das obras do Acervo Videobrasil e ao desenvolvimento de
+                    processos criativos e de reflexão. O Galpão VB promove exposições, programas de filmes, seminários, oficinas e
                     encontros, residências artísticas e laboratórios de criação. No espaço, o público terá acesso também à Videoteca (que
                     disponibiliza mais de 1.300 obras do Acervo Videobrasil, além de depoimentos de artistas e curadores e demais produções
                     audiovisuais da Associação) e a uma sala de leitura especializada em publicações de artes visuais e media art,
-                    atualmente com mais de 3.200 títulos. Com 800m2, o Galpão_VB será  o primeiro espaço dedicado à programação cultural na
+                    atualmente com mais de 3.200 títulos. Com 800m2, o Galpão VB será  o primeiro espaço dedicado à programação cultural na
                     região da Vila Leopoldina, contando ainda com espaço de serviços, com café e loja abertos ao público.</p>',
 
                     //VB EN                     
@@ -163,7 +168,7 @@ $titulo = $idioma == 'pt' ? 'Realização' : 'Undertaking';
 
                     <p class="f">In addition to a biennial international festival founded in 1983 and, since 1992, promoted in partnership with Sesc São Paulo, Videobrasil also holds international exhibitions and touring shows, issues publications on contemporary art and culture (such as exhibition books, artist books, an annual magazine on contemporary art), and audiovisual products like the programs from the series Videobrasil on TV and the films and documentaries from Videobrasil Authors Collection, hosts public program activities such as meetings and conversations, seminars, workshops, mediation actions and sponsors artist residency programs.</p>
 
-                    <p class="f">In 2015, Videobrasil opens its new headquarters in São Paulo: Galpão_VB, designed to house permanent Videobrasil Collection activation actions and to developing new creative and reflective processes. Galpão_VB houses exhibitions, film programs, seminars, workshops and meetings, artist residencies and creative labs. The audience will also gain access to the Video Library (of nearly 1,300 Videobrasil Collection pieces, including statements from artists and curators and other audiovisual productions by the Associação) and to a reading room specializing in visual arts and media art, currently spanning 3,200 publications. With 800m2, Galpão_VB will be the first space dedicated to cultural programming in the Vila Leopoldina district, also comprising services such as a café and a shop open to the public. </p>');
+                    <p class="f">In 2015, Videobrasil opens its new headquarters in São Paulo: Galpão VB, designed to house permanent Videobrasil Collection activation actions and to developing new creative and reflective processes. Galpão VB houses exhibitions, film programs, seminars, workshops and meetings, artist residencies and creative labs. The audience will also gain access to the Video Library (of nearly 1,300 Videobrasil Collection pieces, including statements from artists and curators and other audiovisual productions by the Associação) and to a reading room specializing in visual arts and media art, currently spanning 3,200 publications. With 800m2, Galpão VB will be the first space dedicated to cultural programming in the Vila Leopoldina district, also comprising services such as a café and a shop open to the public. </p>');
 
                     ?>
                     

@@ -164,7 +164,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0" class="titulo-pp"> 
                         <a name="pp4"></a>
-                        <?php pten('<span class="titulo">Oficinas Com OS Educadores das Exposições</span><br />
+                        <?php pten('<span class="titulo">construção compartilhada de vocabulário</span><br />
                                     <span class="upper bold data-pp" style="font-size: 1.1em">de 10/out a 06/dez (sábados, domingos e feriados) | 15h | Sesc Pompeia | Convivência</span>',
 
                                    '<span class="titulo">WORKSHOPS WITH THE EXHIBITIONS’ EDUCATORS</span><br />
@@ -177,12 +177,12 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/pp/oficinas-educadores-<?php pten('pt.png', 'en.png'); ?>" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/oficinas-construcao-<?php pten('pt.png', 'en.png'); ?>" class="img-responsive" style="margin-bottom: 15px" />    
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
                 //Evento 4 - PT
-                pten('<p>Os mediadores das exposições coordenam oficinas para público infantil e adulto, trabalhando dinâmicas que aprofundam os assuntos tratados no 19º Festival.
+                pten('<p>A partir de dinâmica lúdica, é feito um levantamento de alguns conceitos estruturais para o conjunto de obras da exposição e os participantes criam definições sobre estes. Os encontros buscam recolher, a partir da fala da amostra de público, ideias, definições e perguntas a respeito dos eixos centrais do festival, que servirão de matéria prima para a construção de um repertório de vocabulário que parta de e proponha reflexões a partir do encontro com as obras. 
                     </p>
                     <p><span class="bold">Para participar</span> inscrições gratuitas no local, às 14h30, com os educadores da exposição. <span class="bold">Vagas limitadas.</span>
                     </p>',
@@ -200,3 +200,46 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             
 
             <!-- /EVENTO 4 -->
+
+            <!-- EVENTO 5 -->
+
+           <div class="row" >
+                <div class="col-xs-12" style="float: left; margin-bottom: 28px">
+                    <p style="margin-bottom:0" class="titulo-pp"> 
+                        <a name="pp4"></a>
+                        <?php pten('<span class="titulo">Oficinas Com OS Educadores das Exposições</span><br />
+                                    <span class="upper bold data-pp" style="font-size: 1.1em">de 10/out a 06/dez (sábados, domingos e feriados) | 15h | Sesc Pompeia | Convivência</span>',
+
+                                   '<span class="titulo">WORKSHOPS WITH THE EXHIBITIONS’ EDUCATORS</span><br />
+                                    <span class="upper bold data-pp" style="font-size: 1.1em">from Oct/10 to Dec/06 (Saturdays, Sundays and holidays) | 15h | Sesc Pompeia | Convivência</span><br />');?>
+
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="row" style="clear: both;">     
+                <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
+                    <img src="img/pp/oficinas-educadores-<?php pten('pt.png', 'en.png'); ?>" class="img-responsive" style="margin-bottom: 15px" />    
+                </div>     
+                <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
+                <?php
+                //Evento 5 - PT
+                pten('<p>Os mediadores das exposições coordenam oficinas para público infantil e adulto, trabalhando dinâmicas que aprofundam os assuntos tratados no 19º Festival.
+                    </p>
+                    <p><span class="bold">Para participar</span> inscrições gratuitas no local, às 14h30, com os educadores da exposição. <span class="bold">Vagas limitadas.</span>
+                    </p>',
+
+                //Evento 5 - EN
+                '<p>The exhibitions’ mediators will coordinate workshops for children and adults, introducing dynamics that will explore the issues brought up by the 19th Festival. 
+                </p>
+
+                <p><span class="bold">How to participate</span> registration is free and will be available onsite at 2:30pm with the exhibition’s educators. <span class="bold">Seats are limited</span>.</p>
+                ');  ?> 
+                </div> 
+            </div>
+
+            <div style="margin: 31px 0 16px 0; padding-top: 25px; padding-left: 0; border-top: 1pt solid #8F6B55; border-top-width: 100%;"></div>
+            
+
+            <!-- /EVENTO 5 -->

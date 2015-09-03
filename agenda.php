@@ -139,17 +139,17 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <li class="agenda-filme">14h | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #1</li>
                     <li class="agenda-filme">15h | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #2</li>
                     <li class="agenda-filme">16h15 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #3</li>
-                    <li class="agenda-abertura">19h | Galpão_VB | Abertura da exposição Panoramas do Sul | Projetos Comissionados</li>
-                    <li class="agenda-publicacao">19h | Galpão_VB | Lançamento do livro Videobrasil: três décadas de vídeo, arte, encontros e transformações</li>
-                    <li class="agenda-filme">19h | Galpão_VB | Abertura do Programa de Filmes | Gabriel Abrantes | Ὄρνιθες (Ornithes – Birds)</li>
+                    <li class="agenda-abertura">19h | Galpão VB | Abertura da exposição Panoramas do Sul | Projetos Comissionados</li>
+                    <li class="agenda-publicacao">19h | Galpão VB | Lançamento do livro Videobrasil: três décadas de vídeo, arte, encontros e transformações</li>
+                    <li class="agenda-filme">19h | Galpão VB | Abertura do Programa de Filmes | Gabriel Abrantes | Ὄρνιθες (Ornithes – Birds)</li>
                     </ol>
                     <ol>
                     <li>9 de outubro, sexta-feira</li>
-                    <li class="agenda-oficina">11h | Galpão_VB | Programas Públicos | Oficinas | Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes com Ting-Ting Cheng</li>
+                    <li class="agenda-oficina">11h | Galpão VB | Programas Públicos | Oficinas | Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes com Ting-Ting Cheng</li>
                     <li class="agenda-filme">14h | Sesc Pompeia, Teatro | Programa de Filmes | Gabriel Abrantes</li>
                     <li class="agenda-filme">15h40| Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #3</li>
                     <li class="agenda-filme">16h55 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #2</li>
-                    <li class="agenda-encontro">17h | Galpão_VB | Programas Públicos | Encontros e Conversas | Encontro com Rede de Residências</li>
+                    <li class="agenda-encontro">17h | Galpão VB | Programas Públicos | Encontros e Conversas | Encontro com Rede de Residências</li>
                     <li class="agenda-filme">18h10 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #1</li>
                     <li class="agenda-abertura">19h | Paço das Artes | Abertura da exposição paralela Quem Nasce Pra Aventura Não Toma Outro Rumo</li>
                     </ol>
@@ -174,8 +174,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     </ol>
                     <ol>
                     <li>13 de outubro, terça-feira</li>
-                    <li class="agenda-filme">16h30 | Galpão_VB | Programa de Filmes | Gabriel Abrantes + Programa de Filmes | Obras Selecionadas | Programa #3</li>
-                    <li class="agenda-filme">19h30 | Galpão_VB | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
+                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | Gabriel Abrantes + Programa de Filmes | Obras Selecionadas | Programa #3</li>
+                    <li class="agenda-filme">19h30 | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
                     </ol>
                     <ol>
                     <li>15 de outubro, quinta-feira</li>
@@ -192,8 +192,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     </ol>
                     <ol>
                     <li>20 de outubro, terça-feira</li>
-                    <li class="agenda-filme">16h30 | Galpão_VB | Programa de Filmes | Obras Selecionadas | Programa #1 + Programa #2</li>
-                    <li class="agenda-filme">19h | Galpão_VB | Programa de Filmes | Obras Selecionadas | Programa #3 + Programa de Filmes | Gabriel Abrantes</li>
+                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #1 + Programa #2</li>
+                    <li class="agenda-filme">19h | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #3 + Programa de Filmes | Gabriel Abrantes</li>
                     </ol>
                     <ol>
                     <li>22 de outubro, quinta-feira</li>
@@ -211,8 +211,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     </ol>
                     <ol>
                     <li>27 de outubro, terça-feira</li>
-                    <li class="agenda-filme">16h30 | Galpão_VB | Programa de Filmes | Gabriel Abrantes + Programa de Filmes | Obras Selecionadas | Programa #3</li>
-                    <li class="agenda-filme">19h30 | Galpão_VB | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
+                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | Gabriel Abrantes + Programa de Filmes | Obras Selecionadas | Programa #3</li>
+                    <li class="agenda-filme">19h30 | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
                     </ol>
                     <ol>
                     <li>29 de outubro, quinta-feira</li>
@@ -237,16 +237,16 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     </ol>
                     <ol>
                     <li>3 de novembro, terça-feira</li>
-                    <li class="agenda-filme">16h30 | Galpão_VB | Programa de Filmes | Obras Selecionadas | Programa #1 + Programa #2</li>
-                    <li class="agenda-filme">19h | Galpão_VB | Programa de Filmes | Obras Selecionadas | Programa #3 + Programa de Filmes | Gabriel Abrantes</li>
+                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #1 + Programa #2</li>
+                    <li class="agenda-filme">19h | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #3 + Programa de Filmes | Gabriel Abrantes</li>
                     </ol>
                     <ol>
                     <li>4 de novembro, quarta-feira</li>
-                    <li class="agenda-encontro">13h | Galpão_VB | Programas Públicos | Encontros e Conversas | Leituras de Portfólios</li>
+                    <li class="agenda-encontro">13h | Galpão VB | Programas Públicos | Encontros e Conversas | Leituras de Portfólios</li>
                     </ol>
                     <ol>
                     <li>5 de novembro, quinta-feira</li>
-                    <li class="agenda-encontro">13h | Galpão_VB | Programas Públicos | Encontros e Conversas | Leituras de Portfólios</li>
+                    <li class="agenda-encontro">13h | Galpão VB | Programas Públicos | Encontros e Conversas | Leituras de Portfólios</li>
                     <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | Gabriel Abrantes + Programa de Filmes | Obras Selecionadas | Programa #3</li>
                     <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
                     </ol>
@@ -260,8 +260,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     </ol>
                     <ol>
                     <li>10 de novembro, terça-feira</li>
-                    <li class="agenda-filme">16h30 | Galpão_VB | Programa de Filmes | Gabriel Abrantes + Programa de Filmes | Obras Selecionadas | Programa #3</li>
-                    <li class="agenda-filme">19h30 | Galpão_VB | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
+                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | Gabriel Abrantes + Programa de Filmes | Obras Selecionadas | Programa #3</li>
+                    <li class="agenda-filme">19h30 | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
                     </ol>
                     <ol>
                     <li>12 de novembro, quinta-feira</li>
@@ -279,8 +279,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     </ol>
                     <ol>
                     <li>17 de novembro, terça-feira</li>
-                    <li class="agenda-filme">16h30 | Galpão_VB | Programa de Filmes | Obras Selecionadas | Programa #1 + Programa #2</li>
-                    <li class="agenda-filme">19h | Galpão_VB | Programa de Filmes | Obras Selecionadas | Programa #3 + Programa de Filmes | Gabriel Abrantes</li>
+                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #1 + Programa #2</li>
+                    <li class="agenda-filme">19h | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #3 + Programa de Filmes | Gabriel Abrantes</li>
                     </ol>
                     <ol>
                     <li>19 de novembro, quinta-feira</li>
@@ -301,8 +301,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     </ol>
                     <ol>
                     <li>24 de novembro, terça-feira</li>
-                    <li class="agenda-filme">16h30 | Galpão_VB | Programa de Filmes | Gabriel Abrantes + Programa de Filmes | Obras Selecionadas | Programa #3</li>
-                    <li class="agenda-filme">19h30 | Galpão_VB | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
+                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | Gabriel Abrantes + Programa de Filmes | Obras Selecionadas | Programa #3</li>
+                    <li class="agenda-filme">19h30 | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
                     </ol>
                     <ol>
                     <li>25 de novembro, quarta-feira</li>
@@ -328,8 +328,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <ol>
                     <li>1 de dezembro, terça-feira</li>
                     <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | Gabriel Abrantes + Programa de Filmes | Obras Selecionadas | Programa #3</li>
-                    <li class="agenda-filme">16h30 | Galpão_VB | Programa de Filmes | Obras Selecionadas | Programa #1 + Programa #2</li>
-                    <li class="agenda-filme">19h | Galpão_VB | Programa de Filmes | Obras Selecionadas | Programa #3 + Programa de Filmes | Gabriel Abrantes</li>
+                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #1 + Programa #2</li>
+                    <li class="agenda-filme">19h | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #3 + Programa de Filmes | Gabriel Abrantes</li>
                     <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
                     </ol>
                     <ol>
@@ -344,7 +344,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     </ol>
                     <ol>
                     <li>5 de dezembro, sábado</li>
-                    <li class="agenda-oficina">10h30 | Galpão_VB | Programas Públicos | Oficinas | Lambada e o Corpo Social: o corpo da memória e vivência com dança com Carlos Monroy</li>
+                    <li class="agenda-oficina">10h30 | Galpão VB | Programas Públicos | Oficinas | Lambada e o Corpo Social: o corpo da memória e vivência com dança com Carlos Monroy</li>
                     <li class="agenda-oficina">15h | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
                     </ol>
                     <ol>

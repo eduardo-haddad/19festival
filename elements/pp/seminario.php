@@ -53,12 +53,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <p style="margin-bottom:0" class="titulo-pp"> 
                         <a name="pp1"></a>
                         <?php pten('<span class="titulo">mesa 1 | repensar tradições: arte, gesto e contemporaneidade</span><br />
-                                    <span class="upper bold data-pp" style="font-size: 1.1em">07/out (quarta) | das 11h às 13h30 | sesc pompeia | teatro</span><br />
-                                    <span class="upper data-pp" style="font-size: 1.1em">[tradução simultânea]</span>',
+                                    <span class="upper bold data-pp" style="font-size: 1.1em">07/out (quarta) | das 11h às 13h30 | sesc pompeia | teatro</span>',
 
                                    '<span class="titulo">panel 1 | RETHINKING TRADITIONS: ART, GESTURE AND CONTEMPORANEITY</span><br />
-                                    <span class="upper bold data-pp" style="font-size: 1.1em">oct/07 (wed) | 11-13h30 | sesc pompeia | theater</span><br />
-                                    <span class="upper data-pp" style="font-size: 1.1em">[simultaneous translation]</span>');?>
+                                    <span class="upper bold data-pp" style="font-size: 1.1em">oct/07 (wed) | 11-13h30 | sesc pompeia | theater</span>');?>
 
                     </p>
                 </div>
@@ -121,12 +119,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         <a name="pp2"></a>
                         <?php pten('<span class="titulo">mesa 2 | Repensar espaços: Arte, usos e cotidiano</span><br />
                                     <span class="upper data-pp bold" style="font-size: 1.1em">10/out (sábado) | das 14h às 16h30 | sesc pompeia | teatro</span><br />
-                                    <span class="upper data-pp" style="font-size: 1.1em">[tradução simultânea]</span><br />
                                     <span class="upper data-pp" style="font-size: 1.1em">*com lançamento do livro <em>Panoramas do Sul | Leituras | Perspectivas para outras geografias do pensamento</em></span>',
 
                                    '<span class="titulo">panel 2 | RETHINKING SPACES: ART, USES AND DAILY LIFE</span><br />
                                     <span class="upper data-pp bold" style="font-size: 1.1em">oct/10 (sat) | 14-16h30 | sesc pompeia | theater</span><br />
-                                    <span class="upper data-pp" style="font-size: 1.1em">[simultaneous translation]</span><br />
                                     <span class="upper data-pp" style="font-size: 1.1em">*followed by the launch of the book <em>Southern Panoramas | Readings | Perspectives for other geographies of thought</em>.</span>');?>
 
                     </p>
@@ -187,12 +183,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <p style="margin-bottom:0" class="titulo-pp"> 
                         <a name="pp2"></a>
                         <?php pten('<span class="titulo">mesa 3 | Repensar Narrativas: Arte, Memória e Ficção</span><br />
-                                    <span class="upper data-pp bold" style="font-size: 1.1em">22/out (quinta) | das 14h às 16h | sesc pompeia | teatro</span><br />
-                                    <span class="upper data-pp" style="font-size: 1.1em">[tradução simultânea]</span>',
+                                    <span class="upper data-pp bold" style="font-size: 1.1em">22/out (quinta) | das 14h às 16h | sesc pompeia | teatro</span>',
 
                                    '<span class="titulo">panel 3 | RETHINKING NARRATIVES: ART, MEMORY AND FICTION</span><br />
-                                    <span class="upper data-pp bold" style="font-size: 1.1em">oct/22 (thu) | 14-16h | sesc pompeia | theater</span><br />
-                                    <span class="upper data-pp" style="font-size: 1.1em">[simultaneous translation]</span>');?>
+                                    <span class="upper data-pp bold" style="font-size: 1.1em">oct/22 (thu) | 14-16h | sesc pompeia | theater</span>');?>
 
                     </p>
                 </div>
@@ -255,12 +249,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <p style="margin-bottom:0" class="titulo-pp"> 
                         <a name="pp2"></a>
                         <?php pten('<span class="titulo">mesa 4 | Repensar O Tempo: Arte, Silêncios E Histórias</span><br />
-                                    <span class="upper data-pp bold" style="font-size: 1.1em">29/out (quinta) | das 14h às 16h | sesc pompeia | teatro</span><br />
-                                    <span class="upper data-pp" style="font-size: 1.1em">[tradução simultânea]</span>',
+                                    <span class="upper data-pp bold" style="font-size: 1.1em">29/out (quinta) | das 14h às 16h | sesc pompeia | teatro</span>',
 
                                    '<span class="titulo">panel 4 | RETHINKING TIME: ART, SILENCES AND HISTORIES</span><br />
-                                    <span class="upper data-pp bold" style="font-size: 1.1em">oct/29 (thu) | 14-16h | sesc pompeia | theater</span><br />
-                                    <span class="upper data-pp" style="font-size: 1.1em">[simultaneous translation]</span>');?>
+                                    <span class="upper data-pp bold" style="font-size: 1.1em">oct/29 (thu) | 14-16h | sesc pompeia | theater</span>');?>
 
                     </p>
                 </div>

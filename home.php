@@ -32,16 +32,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         
             $('#random img').attr('src', 'img/home/random/obra' + random + '.jpg');
 
-
-
-
-            
-
-
             switch(random){
                 case 1: $('#random a').attr('href', '/abdoulayekonate'); break;
                 case 2: $('#random a').attr('href', '/gabrielabrantes'); break;
-                case 3: $('#random a').attr('href', '/'); break;
+                case 3: $('#random a').attr('href', '/soniagomes'); break;
                 case 4: $('#random a').attr('href', '/ytobarrada'); break;
                 case 5: $('#random a').attr('href', '/robertosantaguida'); break;
                 case 6: $('#random a').attr('href', '/slinko'); break;
@@ -54,11 +48,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 case 13: $('#random a').attr('href', '/chulayarnnonsiriphol'); break;
                 case 14: $('#random a').attr('href', '/distruktur'); break;
                 case 15: $('#random a').attr('href', '/leticiaramos'); break;
-                case 16: $('#random a').attr('href', '/'); break;
-                case 17: $('#random a').attr('href', '/'); break;
-                case 18: $('#random a').attr('href', '/'); break;
-                case 19: $('#random a').attr('href', '/'); break;
-                case 20: $('#random a').attr('href', '/'); break;
+                case 16: $('#random a').attr('href', '/gabrielabrantes'); break;
+                case 17: $('#random a').attr('href', '/gabrielabrantes'); break;
+                case 18: $('#random a').attr('href', '/gabrielabrantes'); break;
+                case 19: $('#random a').attr('href', '/gabrielabrantes'); break;
+                case 20: $('#random a').attr('href', '/gabrielabrantes'); break;
                 case 21: $('#random a').attr('href', '/alinexegustavojardim'); break;
                 case 22: $('#random a').attr('href', '/andresbedoya'); break;
                 case 23: $('#random a').attr('href', '/armandoqueiroz'); break;
@@ -90,7 +84,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 case 49: $('#random a').attr('href', '/mihaigrecu'); break;
                 case 50: $('#random a').attr('href', '/monicarodriguez'); break;
                 case 51: $('#random a').attr('href', '/pablolobato'); break;
-                case 52: $('#random a').attr('href', '/'); break;
+                case 52: $('#random a').attr('href', '/paulonazareth'); break;
                 case 53: $('#random a').attr('href', '/paulonimerpjota'); break;
                 case 54: $('#random a').attr('href', '/paulonimerpjota'); break;
                 case 55: $('#random a').attr('href', '/pilarmatadupont'); break;
@@ -161,11 +155,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                     if(abertura == false){
                                         abreMenu();
                                         
-                                        /*$todosTextos.each( //fechar todos itens menos o atual
+                                        $todosTextos.each( //fechar todos itens menos o atual
                                         function(){
                                             $(this).slideUp('easeInOutCubic');
                                                                                 
-                                        }); */
+                                        }); 
 
                                     } else {
                                         fechaMenu();                            
@@ -196,6 +190,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             function hoverSimples($menu){
 
+                
                 
                 $menu.hover(         //toggle de abertura de menu com alteração de imagem onhover
                         function(){
@@ -236,8 +231,26 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 hoverSimples($('#simples-noticias'));
                 hoverSimples($('#simples-zona'));
                 hoverSimples($('#simples-imprensa'));
+
             }
 
+        );
+
+         $(document).ready(
+            function(){
+
+
+                $('#participantes').hover(
+                    function(){
+                        if($('#participantes').attr('src') == 'img/home/participantes_<?php pten('pt', 'en');?>_1.png'){ $('#participantes').attr('src', 'img/home/participantes_<?php pten('pt', 'en');?>_2.png'); }
+                    },
+
+                    function(){
+                        if($('#participantes').attr('src') == 'img/home/participantes_<?php pten('pt', 'en');?>_2.png'){ $('#participantes').attr('src', 'img/home/participantes_<?php pten('pt', 'en');?>_1.png'); }
+                    }
+                    );
+
+            }
         );
 
         
@@ -268,26 +281,15 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
         	<div style="height:36px; clear: both">&nbsp;</div>
         	<div class="row">
-        		<div class="col-sm-12 col-md-6 relative">
+        		<div class="col-sm-12 col-md-6">
         			<table width="100%" border="0" cellspacing="0" cellpadding="0">
         			  <tr>
         			    <td id="random"><a><img style="max-width: 365px" src="" /></a></td>
         			  </tr>
         			  <tr>
         			    <td>
-                            <div class="artistasParticipantes">
-                                <p>
-                                    <?php
-                                    if($idioma == 'pt'){
-                                        titulo('artistas');
-                                        echo'<br />';
-                                        titulo('participantes');
-                                    } else {
-                                        titulo('participating'); 
-                                        echo'<br />';
-                                        titulo('artists');
-                                    }?>
-                                </p>
+                            <div>
+                                <img id="participantes" src="img/home/participantes_<?php pten('pt', 'en');?>_1.png" style="margin: 25px 0 22px 0">
                             </div>
                         </td>
         			  </tr>
@@ -407,7 +409,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                             <a href="expo_convidados.php"><?php pten('Artistas convidados','Guest artists');?></a> | 
                             <a href="expo_projetos.php"><?php pten('Projetos comissionados','Comissioned projects');?></a> | 
                             <a href="expo_obras.php"><?php pten('Obras selecionadas','Selected artworks');?></a> | 
-                            <a href="expo_paralela.php"><?php pten('Exposicão paralela','???');?></a> | 
+                            <a href="expo_paralela.php"><?php pten('Exposicão paralela','Parallel exhibition');?></a> | 
                             <a href="expo_locais.php"><?php pten('Locais','Venues');?></a>
                         </p>
 
@@ -415,10 +417,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         <p class="nomargin texto-submenu f"><?php pten(
                             'A diversificada produção artística do Sul Global se espalha por São Paulo durante o 19º Festival de
                             Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul. Nesta edição, o Festival apresenta três exposições
-                            (na Convivência e no Galpão do Sesc Pompeia, e no Galpão_VB, nova sede da Associação Cultural Videobrasil).
+                            (na Convivência e no Galpão do Sesc Pompeia, e no Galpão VB, nova sede da Associação Cultural Videobrasil).
                             Uma exposição paralela, com obras do Acervo Videobrasil, também faz parte da programação e acontece no Paço das Artes.'
                             ,
-                            'xxx'); ?></p>
+                            'A diversificada produção artística do Sul Global se espalha por São Paulo durante o 19º Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul. Nesta edição, o Festival apresenta três exposições (na Convivência e no Galpão do Sesc Pompeia, e no Galpão VB, nova sede da Associação Cultural Videobrasil). Uma exposição paralela, com obras do Acervo Videobrasil, também faz parte da programação e acontece no Paço das Artes.'); ?></p>
                             
                             <p class="vejamais">&nbsp;</p>
                         </div>
@@ -437,7 +439,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         </p>
 
                         <div style="display:inline">
-                        <p class="nomargin texto-submenu k">O Programa de Filmes do 19º Festival apresenta no Teatro do Sesc Pompeia obras selecionadas que exigem exibição em sala de cinema e uma performance, além de um programa especial, com uma reunião de trabalhos do artista convidado Gabriel Abrantes. </p>
+                        <p class="nomargin texto-submenu k">O Programa de Filmes do 19º Festival apresenta no Teatro do Sesc Pompeia e no Galpão VB obras selecionadas que exigem exibição em sala de cinema e uma performance, além de um programa especial, com uma reunião de trabalhos do artista convidado Gabriel Abrantes. </p>
                             
                             <p class="vejamais">&nbsp;</p>
                         </div>
@@ -474,7 +476,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         </p>
 
                         <div style="display:inline">
-                        <p class="nomargin texto-submenu l">Os Programas Públicos reafirmam a  ambiente de diálogo do Festival, possibilitando que as pesquisa curatorial se desdobre em ações de contato com o público. Este canal direto com seu espectador se desdobra em um Seminário, Encontros e conversas, Oficinas e Ações de mediação. Multidisciplinares, essas ações transformam os espaços expositivos em locais de pensamento e troca que extrapolam o campo da arte e dialogam transversalmente com outras áreas do conhecimento. Neles, a Zona de Reflexão disponibiliza publicações editadas em parceria pelo Videobrasil e Edições Sesc São Paulo e plataformas digitais como o Canal VB, PLATAFORMA:VB e a Videoteca.</p>
+                        <p class="nomargin texto-submenu l">Os Programas Públicos reafirmam o ambiente de diálogo do Festival, possibilitando que as pesquisas curatoriais se desdobrem em ações de contato com o público. Este canal direto com seu espectador se desdobra em um Seminário, Encontros e conversas, Oficinas e Ações de mediação. Multidisciplinares, essas ações transformam os espaços expositivos em locais de pensamento e troca que extrapolam o campo da arte e dialogam transversalmente com outras áreas do conhecimento.</p>
                             
                             <p class="vejamais">&nbsp;</p>
                         </div>
@@ -496,14 +498,14 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                             <a href="premios_e_residencias.php#grandepremio"><?php pten('Grande prêmio','Grand prize');?></a> | 
                             <a href="premios_e_residencias.php#premios"><?php pten('Prêmios de residência','Residency prizes');?></a> | 
                             <!-- <a href="premio_especial.php"><?php pten('Prêmio especial','Special prize');?></a> |  -->
-                            <a href="premios_e_residencias.php#juri"><?php pten('Júri','Jury');?></a><!-- | 
-                            <a href="premios_e_residencias.php#trofeu"><?php pten('Troféu','Trophy');?></a> -->
+                            <a href="premios_e_residencias.php#juri"><?php pten('Júri','Jury');?></a> | 
+                            <a href="premios_e_residencias.php#trofeu"><?php pten('Troféu','Trophy');?></a> 
                         </p>
                         
                         <div style="display:inline">
                         <p class="nomargin texto-submenu r"><?php pten(
-                            'O 19º Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul amplia seu número de premiações. Além do Grande Prêmio em dinheiro, no valor bruto total de R$ 75 mil, e de nove prêmios de residência, o 19º Festival lança um prêmio especial: o Prêmio SP-Arte. Concorrem à premiação os 53 artistas selecionados pelo edital de obras que participam de exposição e programas de filmes no Sesc Pompeia e no Galpão_VB, em São Paulo, Brasil, de 6 de outubro a 6 de dezembro de 2015. Os artistas premiados serão anunciados no dia <span class="bold">10 de outubro</span>, em cerimônia no Teatro do Sesc Pompeia, às 18h.',
-                            'The 19th Contemporary Art Festival Sesc_Videobrasil | Southern Panoramas will award a greater number of prizes. In addition to the Grand Prize worth BRL 75,000 in cash (gross) and its nine residency prizes, the 19th Festival will see the launch of a special prize: the SP-Arte Prize. Eligible artists include the 53 artists selected via a call for artwork entries participating in an exhibition and in film programs set to run at Sesc Pompeia and Galpão_VB, in São Paulo, Brazil, from October 6 to December 6, 2015. The winners will be announced on <span class="bold">October 10</span>, in a ceremony at Sesc Pompeia’s Teatro, at 6pm.');?></p>
+                            'O 19º Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul amplia seu número de premiações. Além do Grande Prêmio em dinheiro, no valor bruto total de R$ 75 mil, e de nove prêmios de residência, o 19º Festival lança um prêmio especial: o Prêmio SP-Arte. Concorrem à premiação os 53 artistas selecionados pelo edital de obras que participam de exposição e programas de filmes no Sesc Pompeia e no Galpão VB, em São Paulo, Brasil, de 6 de outubro a 6 de dezembro de 2015. Os artistas premiados serão anunciados no dia <span class="bold">10 de outubro</span>, em cerimônia no Teatro do Sesc Pompeia, às 18h.',
+                            'The 19th Contemporary Art Festival Sesc_Videobrasil | Southern Panoramas will award a greater number of prizes. In addition to the Grand Prize worth BRL 75,000 in cash (gross) and its nine residency prizes, the 19th Festival will see the launch of a special prize: the SP-Arte Prize. Eligible artists include the 53 artists selected via a call for artwork entries participating in an exhibition and in film programs set to run at Sesc Pompeia and Galpão VB, in São Paulo, Brazil, from October 6 to December 6, 2015. The winners will be announced on <span class="bold">October 10</span>, in a ceremony at Sesc Pompeia’s Teatro, at 6pm.');?></p>
                             
                             <p class="vejamais">&nbsp;</p>
                         </div>

@@ -138,7 +138,7 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
 
                     <?php pten( 
                     ////EXPO 2 PT
-                    '<p class="titulo">galpão_vb </p>
+                    '<p class="titulo">Galpão VB </p>
                     <p style="display: inline"><span class="upper">exposição panoramas do sul | projetos comissionados<br /> 
                     programas de filmes | obras selecionadas e gabriel abrantes</span><br /><br /> 
 
@@ -155,7 +155,7 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
                     </p>',
 
                     //EXPO 2 EN
-                    '<p class="titulo">galpão_vb </p>
+                    '<p class="titulo">Galpão VB </p>
                     <p style="display: inline"><span class="upper">southern panoramas | comissioned projects<br /> 
                     film programs | selected artworks & gabriel abrantes</span><br /><br /> 
 

@@ -173,7 +173,7 @@ $titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'Comissioned Projects';
                     <div class="row link_rodape" style="margin-top: 0; margin-bottom: 17px">                 
                         <div class="col-md-12" style="padding-left: 0">                     
                             <?php pten(
-                            '<p><span class="upper a">Galpão_VB</span><br />
+                            '<p><span class="upper a">Galpão VB</span><br />
                             Av. Imperatriz Leopoldina, 1150<br />
                             São Paulo, SP<br />
                             tel.: 11 3645 0516 | <a href="http://www.videobrasil.org.br" target="_blank">www.videobrasil.org.br</a></p>
@@ -181,7 +181,7 @@ $titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'Comissioned Projects';
                             de 8 de outubro a 6 de dezembro de 2015<br />
                             segundas, quartas, quintas e sextas das 13h às 19h; terças das 14h às 21h</p>',
 
-                            '<p><span class="upper a">Galpão_VB</span><br />
+                            '<p><span class="upper a">Galpão VB</span><br />
                             Av. Imperatriz Leopoldina, 1150<br />
                             São Paulo, SP, Brazil<br />
                             phone: 11 3645 0516 | <a href="http://www.videobrasil.org.br" target="_blank">www.videobrasil.org.br</a></p>

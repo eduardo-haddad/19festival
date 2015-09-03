@@ -61,7 +61,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                     <p><input type="button" value="<?php pten('comprar', 'purchase'); ?>" /></p>
 
-                    <!-- <p><?php pten('Disponível também nas lojas das unidades do Sesc São Paulo, Galpão_VB e livrarias', 
+                    <!-- <p><?php pten('Disponível também nas lojas das unidades do Sesc São Paulo, Galpão VB e livrarias', 
                                   'Also available in Sesc stores and ...'); ?></p> -->
 
 
@@ -122,7 +122,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                     <p><input type="button" value="<?php pten('comprar', 'purchase'); ?>" /></p>
 
-                    <!-- <p><?php pten('Disponível também nas lojas das unidades do Sesc São Paulo, Galpão_VB e livrarias', 
+                    <!-- <p><?php pten('Disponível também nas lojas das unidades do Sesc São Paulo, Galpão VB e livrarias', 
                                   'Also available in Sesc stores and ...'); ?></p> -->
 
 

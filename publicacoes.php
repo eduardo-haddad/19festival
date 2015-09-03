@@ -140,8 +140,8 @@ $titulo = $idioma == 'pt' ? 'Publicações' : 'Publications';
 
             <div class="row link_rodape">
                 <div class="col-md-12" style="padding-left: 0">
-                    <span><?php pten('clique <a href="http://site.videobrasil.org.br/publicacoes" target="_blank">aqui</a> e conheça as demais publicações lançadas pelas edições sesc e associação cultural videobrasil', 
-                                     'click <a href="http://site.videobrasil.org.br/en/publicacoes" target="_blank">here</a> to learn more about the publications released by edições sesc and associação cultural videobrasil'); ?></span>
+                    <span><?php pten('clique <a href="http://site.videobrasil.org.br/publicacoes" target="_blank">aqui</a> e conheça as demais publicações lançadas em parceria entre edições sesc são paulo e associação cultural videobrasil', 
+                                     'click <a href="http://site.videobrasil.org.br/en/publicacoes" target="_blank">here</a> to learn more about the publications released in partnership between edições sesc and associação cultural videobrasil'); ?></span>
                 </div>
             </div>
 

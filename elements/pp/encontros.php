@@ -31,12 +31,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <p style="margin-bottom:0"> 
                         <a name="visita"></a><?php pten(
                             '<span class="titulo">VISITA COM RODRIGO MATHEUS</span><br />
-                             <span class="upper bold data-pp" style="font-size: 1.1em">07/out (quarta) | 13h45 | sesc pompeia | galpão</span><br />
-                             <span class="upper data-pp" style="font-size: 1.1em">[tradução consecutiva]</span>',
+                             <span class="upper bold data-pp" style="font-size: 1.1em">07/out (quarta) | 13h45 | sesc pompeia | galpão</span>',
 
                              '<span class="titulo">TOUR WITH RODRIGO MATHEUS</span><br />
-                             <span class="upper bold data-pp" style="font-size: 1.1em">oct/07 (wed) | 13h45 | sesc pompeia | galpão</span><br />
-                             <span class="upper data-pp" style="font-size: 1.1em">[Consecutive translation]</span>'); ?>
+                             <span class="upper bold data-pp" style="font-size: 1.1em">oct/07 (wed) | 13h45 | sesc pompeia | galpão</span>'); ?>
                     </p>
                 </div>
             </div>
@@ -74,12 +72,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <p style="margin-bottom:0"> 
                         <a name="visita"></a><?php pten(
                             '<span class="titulo">Tilting Axis 1.5</span><br />
-                             <span class="upper bold data-pp" style="font-size: 1.1em">08/out (quinta) | das 11h às 12h30 | sesc pompeia | teatro</span><br />
-                             <span class="upper data-pp" style="font-size: 1.1em">[tradução simultânea]</span>',
+                             <span class="upper bold data-pp" style="font-size: 1.1em">08/out (quinta) | das 11h às 12h30 | sesc pompeia | teatro</span>',
 
                              '<span class="titulo">Tilting Axis 1.5</span><br />
-                             <span class="upper bold data-pp" style="font-size: 1.1em">oct/08 (thu) | 11-12h30 | sesc pompeia | theater</span><br />
-                             <span class="upper data-pp" style="font-size: 1.1em">[Simultaneous translation]</span>'); ?>
+                             <span class="upper bold data-pp" style="font-size: 1.1em">oct/08 (thu) | 11-12h30 | sesc pompeia | theater</span>'); ?>
                     </p>
                 </div>
             </div>
@@ -233,10 +229,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0"> 
                         <a name="leitura"></a><?php pten(
-                            '<span class="titulo">visita à exposição <em>quem nasce pra aventura não toma outro rumo</em></span><br />
+                            '<span class="titulo">visitas à exposição <em>quem nasce pra aventura não toma outro rumo</em></span><br />
                              <span class="upper bold data-pp" style="font-size: 1.1em">14/nov (sáb) e 09/jan (sáb) | 16h | paço das artes</span>',
 
-                             '<span class="titulo"><em>those born for adventure don’t stray from the path</em> exhibition tour</span><br />
+                             '<span class="titulo"><em>those born for adventure don’t stray from the path</em> exhibition tours</span><br />
                              <span class="upper bold data-pp" style="font-size: 1.1em">nov/14 (sat) and jan/09 (sat) | 16h | paço das artes</span>'); ?>
                     </p>
                 </div>
@@ -255,13 +251,13 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
                 //Evento 5 - PT
-                pten('<p><span class="bold">14/nov, 16h, Paço das Artes</span><br />Roteiro 1: Brasil, São Paulo – um lugar para a partida.</p>
-                      <p><span class="bold">09/jan, 16h, Paço das Artes</span><br />Roteiro 2: O vídeo na arena política da arte.</p>
+                pten('<p><span class="bold">Roteiro 1: Brasil, São Paulo – um lugar para a partida</span><br><span>14/nov, 16h, Paço das Artes</span><br /></p>
+                      <p><span class="bold">Roteiro 2: O vídeo na arena política da arte</span><br />09/jan, 16h, Paço das Artes</p>
                       <p><span class="bold">Para participar:</span> Inscrições pelo email educativo@pacodasartes.org.br ou pelo telefone 11 3814-4832<span class="bold"> Vagas limitadas.</span></p>',
 
                 //Evento 5 - EN
-                       '<p><span class="bold">Nov/14, 16h, Paço das Artes</span><br />Itinerary 1: Brazil, São Paulo – a place for departure.</p>
-                      <p><span class="bold">Jan/09, 16h, Paço das Artes</span><br />Itinerary 2: Video in the political arena of art.</p>
+                      '<p><span class="bold">Itinerary 1: Brazil, São Paulo – a place for departure.</span><br />Nov/14, 16h, Paço das Artes</p>
+                      <p><span class="bold">Itinerary 2: Video in the political arena of art</span><br />Jan/09, 16h, Paço das Artes</p>
                       <p><span class="bold">How to participate:</span> send an email to educativo@pacodasartes.org.br or call 11 3814-4832<span class="bold"> Vagas limitadas.</span></p>');  ?> 
                 </div> 
             </div>
@@ -278,12 +274,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <p style="margin-bottom:0"> 
                         <a name="leitura"></a><?php pten(
                             '<span class="titulo">Mesa de lançamento do <em>Caderno SESC_VIDEOBRASIL 11: Aliança de corpos vulneráveis</em></span><br />
-                             <span class="upper bold data-pp" style="font-size: 1.1em">25/nov (quarta) | 20h | sesc pompeia | teatro</span><br />
-                             <span class="upper data-pp" style="font-size: 1.1em">[tradução simultânea]</span>',
+                             <span class="upper bold data-pp" style="font-size: 1.1em">25/nov (quarta) | 20h | sesc pompeia | teatro</span>',
 
                              '<span class="titulo">Launch of <em>Caderno SESC_VIDEOBRASIL 11: an alliance of vulnerable bodies</em></span><br />
-                             <span class="upper bold data-pp" style="font-size: 1.1em">nov/25 (wed) | 20h | sesc pompeia | theater</span><br />
-                             <span class="upper data-pp" style="font-size: 1.1em">[Simultaneous translation]</span>'); ?>
+                             <span class="upper bold data-pp" style="font-size: 1.1em">nov/25 (wed) | 20h | sesc pompeia | theater</span>'); ?>
                     </p>
                 </div>
             </div>

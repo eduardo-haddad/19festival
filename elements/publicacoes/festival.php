@@ -60,7 +60,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                     <p><input type="button" value="<?php pten('comprar', 'purchase'); ?>" /></p>
 
-                    <!-- <p><?php pten('Disponível também nas lojas das unidades do Sesc São Paulo, Galpão_VB e livrarias', 
+                    <!-- <p><?php pten('Disponível também nas lojas das unidades do Sesc São Paulo, Galpão VB e livrarias', 
                                   'Also available in Sesc stores and ...'); ?></p> -->
 
 
@@ -75,7 +75,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <p style="display: inline"><span class="upper">PROJETO GRÁFICO</span> Ângela Detânico e Rafael Lain</p><br />
                 <p style="display: inline"><span class="upper">DESIGN</span> Carla Castilho, Lia Assumpção | Janela Estúdio</p><br />
                 <!-- <p style="text-align: right; font-size: 1.1em" class="bold upper">Saiba+</p><br /> -->
-                <br /><p><span class="bold upper">lançamento</span> | 10/OUT (sábado) | das 14h às 16h30 | Sesc <br>Pompeia | Teatro<br />
+                <br /><p><span class="bold upper">lançamento</span> | 10/OUT (sábado) | 16h30 | Sesc <br>Pompeia | Teatro<br />
                 *em ocasião da 2ª mesa do seminário <em>LUGARES E SENTIDOS DA ARTE: Tradições, Espaços, Tempos e Narrativas ao Sul</em></p>',
 
                 //Publicação 1 - EN
@@ -86,7 +86,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <p style="display: inline"><span class="upper">GRAPHIC CONCEPT</span> Ângela Detânico & Rafael Lain</p><br />
                 <p style="display: inline"><span class="upper">DESIGN</span> Carla Castilho, Lia Assumpção | Janela Estúdio</p><br />
                 <!-- <p style="text-align: right; font-size: 1.1em" class="bold upper">Learn more</p><br /> -->
-                <br /><p><span class="bold upper">Launch</span> | OCT/10 (sat) | 14h-16h30 | Sesc Pompeia | Theater<br />
+                <br /><p><span class="bold upper">Launch</span> | OCT/10 (sat) | 16h30 | Sesc Pompeia | Theater<br />
                 *on occasion of the 2nd panel of the seminar <em>PLACES AND MEANINGS IN ART: Debates from the South</em></p>');  ?> 
                 </div> 
             </div>
@@ -126,7 +126,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                     <p><input type="button" value="<?php pten('comprar', 'purchase'); ?>" /></p>
 
-                    <!-- <p><?php pten('Disponível também nas lojas das unidades do Sesc São Paulo, Galpão_VB e livrarias', 
+                    <!-- <p><?php pten('Disponível também nas lojas das unidades do Sesc São Paulo, Galpão VB e livrarias', 
                                   'Also available in Sesc stores and ...'); ?></p> -->
 
 
@@ -190,7 +190,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                     <p><input type="button" value="<?php pten('comprar', 'purchase'); ?>" /></p>
 
-                    <!-- <p><?php pten('Disponível também nas lojas das unidades do Sesc São Paulo, Galpão_VB e livrarias', 
+                    <!-- <p><?php pten('Disponível também nas lojas das unidades do Sesc São Paulo, Galpão VB e livrarias', 
                                   'Also available in Sesc stores and ...'); ?></p> -->
 
 

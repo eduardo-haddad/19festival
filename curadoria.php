@@ -21,6 +21,7 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
             function(){
                 paletaArtistas($('.curador1 p'));
                 paletaArtistas($('.curador2 p'));
+                paletaArtistas($('.curador2'));
                 paletaArtistas($('.curador3 p'));
                 paletaArtistas($('.curador4 p'));
                 paletaArtistas($('.curador5 p'));
@@ -78,50 +79,95 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
                 </div>
             </div>
             
-            <div class="row">
-                    <div class="col-sm-12 col-md-6" style="text-align: center; float: left ">
-                        <img src="img/sobre/solange.jpg" class="img-responsive retrato-artista" style=" margin-bottom: 25px;"  />
-                    </div>                 
-                <div class="col-sm-12 col-md-6 u curador1" style="float: right; margin-bottom: 24px">                     
-                    <?php // SOLANGE PT
-                        pten('<p style="margin-bottom: 0">
-                    <span class="bold">Solange Farkas</span> (vive e trabalha em São Paulo, Brasil)<br />É curadora e diretora da
-                    Associação Cultural Videobrasil. Criou o Festival Internacional de Arte Contemporânea SESC_Videobrasil, evento de que é
-                    curadora-geral e que trouxe ao Brasil grandes nomes da arte contemporânea internacional. Foi responsável pelas
-                    exposições Sophie Calle – Cuide de Você (2009) e Joseph Beuys – A Revolução Somos Nós (2010). Em sua carreira como
-                    curadora, destacam-se a Mostra Africana de Arte Contemporânea (São Paulo, 2000); Mostra Pan-Africana de Arte
-                    Contemporânea (Salvador, 2005); La Mirada Discreta: Marcel Odenbach & Robert Cahen (Buenos Aires, 2006); Eder Santos –
-                    Roteiro Amarrado (Rio de Janeiro, 2010), Isaac Julien: Geopoéticas (São Paulo, 2012) e Alfabeto Infinito | Angela
-                    Detanico e Rafael Lain (Porto Alegre, 2013) e Videobrasil 30 anos (2013/2014), que teve itinerâncias em Varsóvia,
-                    Polônia; Atlanta, EUA; Joanesburgo e Cidade do Cabo, África do Sul e Beijing, China. Foi curadora convidada pelo 5º
-                    Videozone: International Video Art Biennial (Israel, 2010), pela 16ª Bienal de Cerveira (Portugal, 2011), pela 10ª
-                    Bienal de Charjah (Emirados Árabes Unidos, 2011), pelo 3º Festival de Videoarte de Macau (China, 2012) e pelo Screen
-                    from Barcelona Festival (Espanha, 2012). Foi diretora e curadora-chefe do Museu de Arte Moderna da Bahia (Salvador, 2007
-                    a 2010). Participou de programação em homenagem ao Videobrasil no Festival de la Imagen (Manizales, Colômbia, 2013). No
-                    mesmo ano, o 6th Jakarta International Video Festival teve mostra com curadoria de Solange Farkas, bem como a FUSO,
-                    anual de videoarte em Lisboa que repetiu a parceria com a curadora e com a Associação Cultural Videobrasil em 2014.</p>',
-                    // SOLANGE EN
-                    '<p style="margin-bottom: 0"><span class="bold">Solange Farkas</span> (lives and works out of São Paulo, Brazil)<br />
-                    Curator and director of Associação Cultural Videobrasil. She was the founder and is
-                    the general curator of the International Contemporary Art Festival Sesc_Videobrasil, an event which has brought leading
-                    international contemporary artists to Brazil. She was responsible for the exhibitions Sophie Calle – Take care of
-                    yourself (2009) and Joseph Beuys – We Are the Revolution (2010). The highlights of her curating career include the
-                    African Contemporary Art Exhibition (São Paulo, 2000); Pan African Contemporary Art Exhibition (Salvador, 2005); La
-                    Mirada Discreta: Marcel Odenbach & Robert Cahen (Buenos Aires, 2006); Eder Santos – Roteiro Amarrado (Rio de Janeiro,
-                    2010), Isaac Julien: Geopoetics (São Paulo, 2012), Alfabeto Infinito | Angela Detanico e Rafael Lain (Porto Alegre,
-                    2013) and Videobrasil 30 years (2013/2014), which spun off touring shows in Warsaw, Poland; Atlanta, USA; Johannesburg
-                    and Cape Town, South Africa, and Beijing, China. She served as a guest curator at the 5th Videozone: International Video
-                    Art Biennial (Israel, 2010), the 16th Cerveira Biennial (Portugal, 2011), the 10th Sharjah Biennial (United Arab
-                    Emirates, 2011), the 3rd Macao Video Art Festival (China, 2012) and Screen from Barcelona Festival (Spain, 2012). She is
-                    a former director and chief curator of the Bahia Modern Art Museum (Salvador, 2007 to 2010). She participated in a
-                    program in honor of Videobrasil at the Festival de la Imagen (Manizales, Colombia, 2013). In that same year, the 6th
-                    Jakarta International Video Festival featured a program curated by Solange Farkas, as did FUSO, the annual video art
-                    exhibit in Lisbon, which partnered up with the curator and Associação Cultural Videobrasil again in 2014.</p>');
-                    ?>                 
-                </div>             
+            <div class="row" style="clear: both;margin-top: 13px">
+
+                <div class="col-sm-12 col-md-6" >
+                    <img src="img/sobre/solange.jpg" class="img-responsive retrato-artista" style="max-width: 485px; margin-bottom: 15px;" />
                 </div>
 
+                <div class="col-sm-12 col-md-6 h" style="float: right;">
+
+                    <p>
+                    <?php pten('<span class="titulo o">Sutil sintonia</span><br />
+                                <span class="submenu">por Solange O. Farkas<br />
+                                Curadora-geral</span>', 
+                               '<span class="titulo o">Subtly in tune</span><br />
+                               <span class="submenu">by Solange O. Farkas<br />
+                               Chief curator</span>'); ?></p>
+
+                    <?php pten(////SOLANGE PT                                              
+                        '<p class="f">O viés
+                        geopolítico que aproxima regiões de passado colonial em um heterogêneo conjunto de sotaques afins é uma ideia que guia o
+                        Festival de Arte Contemporânea Sesc_Videobrasil desde os anos 1990. O 19o Festival dedica-se inteiramente a colocar em
+                        diálogo vertentes diversas da produção recente desta região simbólica. Os Panoramas do Sul se estendem, assim, a três
+                        exposições, que reúnem obras selecionadas a partir de convocatória aberta, projetos que o Festival escolheu para
+                        comissionar e trabalhos de cinco artistas convidados: o malinês Abdoulaye Konaté, os brasileiros Sônia Gomes e Rodrigo
+                        Matheus, o português Gabriel Abrantes e a marroquina Yto Barrada.</p>
+
+                        <p class="f">A fina complementaridade deste conjunto de conteúdos resulta do trabalho dos curadores convidados Bernardo José de
+                        Souza, Bitu Cassundé, João Laia e Júlia Rebouças, pela primeira vez responsáveis pelos três segmentos expositivos do
+                        Festival. O edital para comissionamento de projetos, que amplia o espectro de ação do Videobrasil e dá novo sentido a
+                        sua pesquisa curatorial, e o lançamento do primeiro livro da série Panoramas do Sul | Leituras, com ensaios dedicados à
+                        ideia do Sul geopolítico na arte, são outras mudanças importantes na estrutura desta edição do Festival. O 19o
+                        Videobrasil marca, ainda, a abertura do Galpão VB, espaço que passa a abrigar uma série de atividades permanentes de
+                        pesquisa e ativação do Acervo Videobrasil. As exposições e programas de filme do Festival se dividem entre o Sesc
+                        Pompeia e o Galpão VB, assim como as atividades, encontros e ferramentas que ativam e exploram suas exposições,
+                        incluindo oficinas, conversas, visitas, programações on-line e o seminário Lugares e sentidos da arte: debates a partir
+                        do Sul. A mostra paralela Quem nasce pra aventura não toma outro rumo, que ocupa o Paço das Artes no período do
+                        Festival, reúne uma seleção de obras do Acervo Videobrasil que, de alguma forma, reverberam os temas dos Panoramas do
+                        Sul. A curadoria de Diego Matos reafirma a política de reforçar o diálogo entre a coleção e a produção contemporânea.</p>
+
+                        <p class="f">Para além de um conjunto coeso, o que resulta da experiência de dedicar o 19o Festival à produção do Sul é um panorama
+                        instigante das estratégias, contranarrativas e indagações que, muitas vezes em sutil sintonia, artistas de trajetórias
+                        mais e menos consolidadas mobilizam para confrontar a realidade contemporânea. </p>',
+
+                    //SOLANGE EN                     
+                            '<p class="f" style="display: inline">Indifference and conformism tend to conceal a certain uneasiness caused by the multiple demands of contemporary life. One way to shake up
+                            the status quo is to promote moments of suspension and uncanniness capable of cultivating other possible forms of being
+                            in the world. These moments of suspension can be achieved in many ways, especially through the arts.</p>       
+
+                            <p class="f">In this context, freedom of expression becomes all the more relevant insofar as it jeopardizes an entire civilizing model that
+                            is fraught with frequent crises. This idea carries, in its core, templates for an overcoming through the pursuit of new
+                            fields and opportunities, through creativity, experimentation, criticism, and reflection. On this non-polarized terrain,
+                            where nothing is predefined, what prevail are chosen and emotional bonds associated with human interaction, with the
+                            notion of transitoriness, and with a certain tendency towards improvisation and tolerance regarding error.</p> 
+
+                            <p class="f">In dealing with subjectivities, symbolic creations coax us to draft in other interfaces and connections, harbor elements of doubt,
+                            and open a space for new questions and lines of investigation. This allows unlikely combinations to throw open doors
+                            onto horizontal dialogues and enable other network-based actions.</p>
+
+                            <p class="f">Since 1992, Sesc’s partnership with Associação Cultural Videobrasil has worked to promote and spread this singularity of
+                            expressions, and in so doing it has been able to count on curators, artists and researchers from different territories
+                            and cultures identified with the global South. It is an initiative that also aims to engage various publics in debates,
+                            knowledge sharing, and cultural fruition as preconditions for triggering a reflexive process in deliberate opposition to
+                            the conformism and indifference that can numb movements for social transformation.</p> 
+
+                            <p class="f">In this context, the Contemporary Art Festival Sesc_Videobrasil │ Southern Panoramas, now in its nineteenth edition, reaffirms and broadens its commitment to
+                            autonomous thought, expanding its scope to include guest artists, preexisting works, and projects from across a
+                            triangulation that spans Africa, the Caribbean, and South America. This edition strengthens its educational and
+                            instructional actions around the critical issues that enable it to parallel aesthetic approximations to dissonances
+                            between such different realities. </p>');
+
+                    ?>
+                    
+                </div>
+
+            </div>
+
             <div style="margin-bottom: 11px"></div>
+
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6 titulo" style="float: left ">
+
+                    <p style="margin-bottom:0">
+                            <?php pten('curadores convidados', 'guest curators'); ?>
+                    </p>
+
+                </div>
+                
+            </div>
+
 
             <div class="row">
                 <div class="col-sm-12 col-md-6" style="text-align: center; float: left ">

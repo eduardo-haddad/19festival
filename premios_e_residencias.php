@@ -188,8 +188,8 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
                             <a id="pr-grandepremio" href="#grandepremio"><?php pten('Grande prêmio','Grand prize');?></a> | 
                             <a id="pr-premios" href="#premios"><?php pten('Prêmios de residência','Residency prizes');?></a> | 
                             <!-- <a id="pr-especial" href="#premioespecial"><?php pten('Prêmio especial','Special prize');?></a> |  -->
-                            <a id="pr-juri" href="#juri"><?php pten('Júri','Jury');?></a> <!--| 
-                            <a id="pr-trofeu" href="#trofeu"><?php pten('Troféu','Trophy');?></a> -->
+                            <a id="pr-juri" href="#juri"><?php pten('Júri','Jury');?></a> | 
+                            <a id="pr-trofeu" href="#trofeu"><?php pten('Troféu','Trophy');?></a> 
                         </p>      
                 </div>
             </div>
