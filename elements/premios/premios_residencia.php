@@ -62,7 +62,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                             <div class="titulo-aviso">  
                                 <?php
                                 ob_start(); titulo('confira a lista dos premiados apos a cerimonia de premiacao dia 11 de outubro'); $titulo_pt = ob_get_clean();
-                                ob_start(); titulo('XXX a lista dos premiados apos a cerimonia de premiacao dia 11 de outubro'); $titulo_en = ob_get_clean();
+                                ob_start(); titulo('check the list of awarded artists after october 11'); $titulo_en = ob_get_clean();
                                 pten($titulo_pt, $titulo_en); 
                                 ?>
                             </div>
