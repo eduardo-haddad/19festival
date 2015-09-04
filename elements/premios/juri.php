@@ -43,7 +43,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             </div>
             <!-- /JURI 1 -->
 
-            <div style="margin-bottom: 11px"></div>
+            <div style="margin-bottom: 0px"></div>
 
            
             <!-- JURI 2 -->
@@ -64,7 +64,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             </div>
             <!-- /JURI 2 -->
 
-            <div style="margin-bottom: 11px"></div>
+            <div style="margin-bottom: 0px"></div>
 
             <!-- JURI 3 -->
             <div class="row">
