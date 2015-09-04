@@ -262,14 +262,3 @@ $(document).ready(
 
        
 
-$(document).ready(
-	function(){
-		$("[id=sharelink]").on(
-            'click', function(){
-            socialShare();
-        	}
-        );
-	}
-	);
-
-

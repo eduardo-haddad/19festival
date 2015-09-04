@@ -74,54 +74,53 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
     }
 
+    $(document).ready(
+        function(){
+            $("[id=sharelink]").on(
+                'click', function(){
+                socialShare();
+                }
+            );
+        }
+    );
+
 
 </script>
 
 <!-- <script src="http://www.sescsp.org.br/sesc/barraportal/barra.js.cfm" language="javascript"></script> -->
 
 <div class="row" id="banner">
-        <div class="col-sm-6">
-            <div style="float:left;" class="relative">
-                <a href="<?=$url?>home.php"><img style="margin-bottom: 0px;" src="<?php pten($url.'img/header/banner_pt.png', $url.'img/header/banner_en.png') ?>" /></a>
+
+        <div id="share">
+                <a id="fbShare" style="display:none">f</a><div style="display: inline-block; height: 1; width: 36px"></div><a id="twitterShare" style="display:none">t</a>
+        </div>
+
+        <div class="col-xs-12" style="max-height: 158px; white-space: nowrap;">
+
+            
+                <div style="max-width: 350px;" class="relative" ><a href="<?=$url?>home.php"><img class="img-responsive" style="margin-bottom: 0px; float: left" src="<?php pten($url.'img/header/banner_pt_novo.png', $url.'img/header/banner_en_novo.png') ?>" /></a></div>
 
                 
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div id="share">
-                <a id="fbShare" style="display:none">facebook</a><br /><br />
-                <a id="twitterShare" style="display:none">twitter</a>
-            </div>
             
-            <div style="float:right; ">
-                <!-- PARCEIROS -->
-                <!-- <div style="float: right;height: 148px; width:69px; text-align: right">
-                    <img src="<?=$url?>img/header/sescvb.png" usemap="#mapa" border="0" />
-                    <map name="mapa" id="mapa">
-                        <area shape="rect" coords="2,65,72,148" href="http://site.videobrasil.org.br" target="_blank" />
-                        <area shape="rect" coords="2,1,70,33" href="http://www.sescsp.org.br/" target="_blank" />
-                    </map>
 
-                    
-                </div> -->
-                <!-- /PARCEIROS -->
-                <div style="float: right; height: 160px;width:150px; position: relative">
+            
+            
+            
+
+                <!-- <div style="float: right; height: 160px;width:150px; position: relative"> -->
+                    <!-- <div style="float: right; height: 160px;width:150px;position: relative"> -->
                     <!-- IDIOMAS -->
                     <!-- <div id="idiomas" style="position: absolute; bottom:0; margin-bottom: 8px;"> -->
-                    <div id="idiomas" style="text-align: right">
+                        <div id="idiomas" style="text-align: right; float: right; width:auto;">
+                            
+                            <br /><br /><br /><br /><span class="a"><a class="urlidiomapt" href="<?=strtok($_SERVER["REQUEST_URI"],'?')?>?idioma=pt"    >POR</a> | <a class="urlidiomaen" href="<?=strtok($_SERVER["REQUEST_URI"],'?')?>?idioma=en">ENG</a></span><br />
+                            
+                            <img src="<?=$url?>img/share.png" id="sharelink" />
+                        </div>
+                        <!-- /IDIOMAS -->
                         
-                        <br /><br /><br /><br /><span class="a"><a class="urlidiomapt" href="<?=strtok($_SERVER["REQUEST_URI"],'?')?>?idioma=pt">POR</a> | <a class="urlidiomaen" href="<?=strtok($_SERVER["REQUEST_URI"],'?')?>?idioma=en">ENG</a></span><br />
-                        
-                        <img src="<?=$url?>img/share.png" id="sharelink" />
-                    </div>
-                    <!-- /IDIOMAS -->
-                    <br style="clear:both" />
-
-                    
-
-                    <p id="url_curta" title=""></p>
-                </div>
-            </div>
+                <!-- </div> -->
+            
         </div>
 </div>
 

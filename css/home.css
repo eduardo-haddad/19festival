@@ -89,14 +89,18 @@ header {
     display: none;
     float: left;
     position: absolute;
-    width: 300px;
-    height: 90px;
+    width: 150px;
+    height: auto;
     z-index: 999;
     text-align: left;
-    border: 3px solid #F30;
-    background-color: #FFF;
-    top: 35px;
+    background-color: transparent;
+    top: 146px;
+    right: 87px;
+    text-align: right;
 }
+
+#twitterShare,
+#fbShare {}
 
 #sharelink {
     /*margin-top: 35px;*/
