@@ -125,7 +125,7 @@ $titulo = $idioma == 'pt' ? 'Realização' : 'Undertaking';
             <div class="row" style="clear: both;margin-top: 30px">
 
                 <div class="col-sm-12 col-md-6" >
-                    <a href="http://site.videobrasil.org.br" target="_blank"><img src="img/realizacao_vb2.png" id="img-id-1" class="img-responsive retrato-artista" style="margin-bottom: 30px;" /></a>
+                    <a href="http://site.videobrasil.org.br" target="_blank"><img src="img/realizacao_vb2.png" id="img-id-1" class="img-responsive retrato-artista" style="margin-bottom: 30px;width: 180px; height: auto" /></a>
 
                 </div>
 

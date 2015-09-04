@@ -1,6 +1,6 @@
 <?php
 
-$id_obra = '';
+$id_obra = '1809682';
 $id_artista = '847409';
 
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");

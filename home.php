@@ -94,7 +94,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 case 59: $('#random a').attr('href', '/roydib'); break;
                 case 60: $('#random a').attr('href', '/runolagomarsino'); break;
                 case 61: $('#random a').attr('href', '/solonribeiro'); break;
-                case 62: $('#random a').attr('href', '/taus'); break;
+                case 62: $('#random a').attr('href', '/tausmakhacheva'); break;
                 case 63: $('#random a').attr('href', '/tiecourandaou'); break;
                 case 64: $('#random a').attr('href', '/verachavesbarcellos'); break;
                 case 65: $('#random a').attr('href', '/waleriaamerico'); break;

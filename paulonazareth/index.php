@@ -125,11 +125,15 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
             <div class="row" id="obra">
                 <div class="col-sm-12 col-md-6" style="text-align: center;" id="obra-img">
                     <!-- <iframe allowFullScreen allowTransparency="true" class="vzaar-video-player" frameborder="0"  id="vzvd-<?=$id_vzaar?>" mozallowfullscreen name="vzvd-<?=$id_vzaar?>" src="http://view.vzaar.com/<?=$id_vzaar?>/player" title="vzaar video player" type="text/html" webkitAllowFullScreen width="485" height="273" ></iframe> -->
-                    <img src="../img/obras/obra_<?=strtolower(str_replace(' ', '', $nome_artista));?>.jpg" class="img-responsive" style="margin-bottom: 15px;" />
+                    <img src="../img/obras/obra_<?=strtolower(str_replace(' ', '', $nome_artista));?>.jpg" class="img-responsive" style="margin-bottom: 15px;" /><br />
+                    <img src="../img/obras/obra_<?=strtolower(str_replace(' ', '', $nome_artista));?>2.jpg" class="img-responsive" style="margin-bottom: 15px;" />
                 </div>
                 <div class="col-sm-12 col-md-6" id="obra-texto">
                     <div style="margin-bottom: 0" >
-                        <span id="obra-titulo"><?php echo '<em>'; print_r($obra['titulos'][0]['titulo']); echo '</em> | '; print_r($obra['data_producao']); echo ', '; print_r ($idioma == 'pt' ? $obra['tipo_obra'] : $obra['tipo_obra_en']) ?><br /></span>
+                        <span id="obra-titulo"><em>L’Arbre D’Oublier</em> | 2013, vídeo</span><br />
+                        <span id="obra-titulo"><em>Cine África</em> | 2012-2013, vídeo</span><br />
+                        <span id="obra-titulo"><em>Cine Brasil</em> | 2012-2013, vídeo</span><br />
+                        <span id="obra-titulo"><em>Ipê Amarelo</em> | 2012-2013, vídeo</span><br />
                         <span id="obra-sinopse"><?php foreach($obra["sinopse"] as $sinopse=>$valor) {echo($idioma == $valor['idioma'] ? $valor['sinopse'] : null);} ?></span>
                             <!-- LINK PLATAFORMA -->
                             <div class="link-plataforma">

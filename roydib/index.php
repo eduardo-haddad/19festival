@@ -132,11 +132,13 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
             <div class="row" id="obra">
                 <div class="col-sm-12 col-md-6" style="text-align: center;" id="obra-img">
                     <!-- <iframe allowFullScreen allowTransparency="true" class="vzaar-video-player" frameborder="0"  id="vzvd-<?=$id_vzaar?>" mozallowfullscreen name="vzvd-<?=$id_vzaar?>" src="http://view.vzaar.com/<?=$id_vzaar?>/player" title="vzaar video player" type="text/html" webkitAllowFullScreen width="485" height="273" ></iframe> -->
-                    <img src="../img/obras/obra_<?=strtolower(str_replace(' ', '', $nome_artista));?>.jpg" class="img-responsive" style="margin-bottom: 15px;" />
+                    <img src="../img/obras/obra_<?=strtolower(str_replace(' ', '', $nome_artista));?>.jpg" class="img-responsive" style="margin-bottom: 0px;" /><br />
+                    <img src="../img/obras/obra_<?=strtolower(str_replace(' ', '', $nome_artista));?>2.jpg" class="img-responsive" style="margin-bottom: 15px;" />
                 </div>
                 <div class="col-sm-12 col-md-6" id="obra-texto">
                     <div style="margin-bottom: 0" >
                         <span id="obra-titulo"><?php echo '<em>'; print_r($obra1['titulos'][0]['titulo']); echo '</em> | '; print_r($obra1['data_producao']); echo ', '; print_r ($idioma == 'pt' ? $obra1['tipo_obra'] : $obra1['tipo_obra_en']) ?><br /></span>
+                        <span id="obra-titulo"><?php echo '<em>'; print_r($obra2['titulos'][0]['titulo']); echo '</em> | '; print_r($obra2['data_producao']); echo ', '; print_r ($idioma == 'pt' ? $obra2['tipo_obra'] : $obra2['tipo_obra_en']) ?><br /></span>
                         <span id="obra-sinopse"><?php foreach($obra1["sinopse"] as $sinopse=>$valor) {echo($idioma == $valor['idioma'] ? $valor['sinopse'] : null);} ?></span>
                             <!-- LINK PLATAFORMA -->
                             <div class="link-plataforma">
@@ -150,24 +152,24 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
             <!-- /SOBRE A OBRA -->
 
             <!-- SOBRE A OBRA -->
-            <div class="row" id="obra">
+            <!-- <div class="row" id="obra">
                 <div class="col-sm-12 col-md-6" style="text-align: center;" id="obra-img">
-                    <!-- <iframe allowFullScreen allowTransparency="true" class="vzaar-video-player" frameborder="0"  id="vzvd-<?=$id_vzaar?>" mozallowfullscreen name="vzvd-<?=$id_vzaar?>" src="http://view.vzaar.com/<?=$id_vzaar?>/player" title="vzaar video player" type="text/html" webkitAllowFullScreen width="485" height="273" ></iframe> -->
-                    <img src="../img/obras/obra_<?=strtolower(str_replace(' ', '', $nome_artista));?>.jpg" class="img-responsive" style="margin-bottom: 15px;" />
+                     <img src="../img/obras/obra_<?=strtolower(str_replace(' ', '', $nome_artista));?>2.jpg" class="img-responsive" style="margin-bottom: 15px;" />
                 </div>
                 <div class="col-sm-12 col-md-6" id="obra-texto">
                     <div style="margin-bottom: 0" >
                         <span id="obra-titulo"><?php echo '<em>'; print_r($obra2['titulos'][0]['titulo']); echo '</em> | '; print_r($obra2['data_producao']); echo ', '; print_r ($idioma == 'pt' ? $obra2['tipo_obra'] : $obra2['tipo_obra_en']) ?><br /></span>
-                        <span id="obra-sinopse"><?php foreach($obra2["sinopse"] as $sinopse=>$valor) {echo($idioma == $valor['idioma'] ? $valor['sinopse'] : null);} ?></span>
+                        <span id="obra-sinopse"><?php pten('Em Mondial 2010, um casal gay sai do Líbano em direção à Palestina, dirigindo duzentos quilômetros por territórios cujas fronteiras não permitem o livre trânsito.', 
+                                                           'In Mondial 2010, a gay couple leaves Lebanon for Palestine, driving 200 km through territories whose borders do not allow free transit.'); ?></span> -->
                             <!-- LINK PLATAFORMA -->
-                            <div class="link-plataforma">
+                            <!-- <div class="link-plataforma"> -->
                                 <!--<?php include('../elements/artistas_plataforma.html'); ?>-->
-                            </div>
+                            <!-- </div> -->
                             <!-- /LINK PLATAFORMA -->
-                        </div>
+           <!--              </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- /SOBRE A OBRA -->
 
             <div style="margin-bottom: 30px" style="clear: both"></div>
