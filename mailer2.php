@@ -2,9 +2,7 @@
 
 $email_message = '
 <html>
-        <head>
-                <title>Supersonic Music - Contact Form</title>
-        </head>
+        <head></head>
         <body>
                 <h3>Nome: <span style="font-weight: normal;">' . $_POST['nome'] . '</span></h3>
                 <h3>Email: <span style="font-weight: normal;">' . $_POST['email'] . '</span></h3>
@@ -50,7 +48,7 @@ $mail->AltBody = strip_tags($email_message);
 
 
 
-if (!empty($_POST['name']) && !empty($_POST['email'])) {
+if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['listaPaises'])) {
         if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
             $mail->send() or die('<span class="text-danger">Erro no envio / Error sending mail</span>');
             echo '<span class="text-success send-true">Email enviado! / Email was sent!</span>';
