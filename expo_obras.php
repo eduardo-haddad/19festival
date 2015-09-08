@@ -1,7 +1,7 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
-$titulo = $idioma == 'pt' ? 'Obras selecionadas' : 'Selected artworks';
+$titulo = $idioma == 'pt' ? 'Obras selecionadas' : 'Selected works';
 
 ?>
 
@@ -58,7 +58,7 @@ $titulo = $idioma == 'pt' ? 'Obras selecionadas' : 'Selected artworks';
         	<div class="row">
         		<div class="col-xs-12 breadcrumb">
                     <span><?php pten('exposições > <span class="underline">obras selecionadas</span>', 
-                                     'exhibitions > <span class="underline">selected artworks</span>');  ?></span>      
+                                     'exhibitions > <span class="underline">selected works</span>');  ?></span>      
                 </div>
         	</div>
 
@@ -68,7 +68,7 @@ $titulo = $idioma == 'pt' ? 'Obras selecionadas' : 'Selected artworks';
                     <p class="submenu" style="margin-bottom:21px">
                         <a href="expo_convidados.php"><?php pten('artistas convidados', 'guest artists') ?></a> | 
                         <a href="expo_projetos.php"><?php pten('projetos comissionados', 'Comissioned projects') ?></a> | 
-                        <a href="expo_obras.php"><span style="text-decoration: underline"><?php pten('obras selecionadas', 'Selected artworks') ?></span></a> | 
+                        <a href="expo_obras.php"><span style="text-decoration: underline"><?php pten('obras selecionadas', 'Selected works') ?></span></a> | 
                         <a href="expo_paralela.php"><?php pten('exposição paralela', 'Parallel exhibition') ?></a> |
                         <a href="expo_locais.php"><?php pten('Locais', 'Venues') ?></a>
                     </p>      
@@ -77,7 +77,7 @@ $titulo = $idioma == 'pt' ? 'Obras selecionadas' : 'Selected artworks';
             <!-- SUBMENU -->
 
             <p class="titulo"><?php pten('panoramas do sul | obras selecionadas', 
-                                         'southern panoramas | selected artworks'); ?></p> 
+                                         'southern panoramas | selected works'); ?></p> 
            
             <div class="row" style="clear: both;">
 
@@ -104,7 +104,6 @@ $titulo = $idioma == 'pt' ? 'Obras selecionadas' : 'Selected artworks';
                                 <li><a href="/distruktur">Distruktur | <?php pten('Brasil/Alemanha', 'Brazil/Germany'); ?></a></li>
                                 <li><a href="/dorguez">Dor Guez | <?php pten('Israel', 'Israel'); ?></a></li>
                                 <li><a href="/enriqueramirez">Enrique Ramírez | <?php pten('Chile/França', 'Chile/France'); ?></a></li>
-                                <li><a href="/fancyviolence">Fancy Violence | <?php pten('Brasil', 'Brazil'); ?></a></li>
                                 <li><a href="/felipebittencourt">Felipe Bittencourt | <?php pten('Brasil', 'Brazil'); ?></a></li>
                                 <li><a href="/haroongunn-salie">Haroon Gunn-Salie | <?php pten('África do Sul', 'South Africa'); ?></a></li>
                                 <li><a href="/huitao">Hui Tao | <?php pten('China', 'China'); ?></a></li>
@@ -128,6 +127,7 @@ $titulo = $idioma == 'pt' ? 'Obras selecionadas' : 'Selected artworks';
                                 <li><a href="/pilarmatadupont">Pilar Mata Dupont | <?php pten('Austrália', 'Australia'); ?></a></li>
                                 <li><a href="/rafaelrg">Rafael RG | <?php pten('Brasil', 'Brazil'); ?></a></li>
                                 <li><a href="/robertosantaguida">Roberto Santaguida | <?php pten('Canadá/Sérvia', 'Canada/Serbia'); ?></a></li>
+                                <li><a href="/rodolphoparigi">Rodolpho Parigi | <?php pten('Brasil', 'Brazil'); ?></a></li>
                                 <li><a href="/rodrigocass">Rodrigo Cass | <?php pten('Brasil', 'Brazil'); ?></a></li>
                                 <li><a href="/roydib">Roy Dib | <?php pten('Líbano', 'Lebanon'); ?></a></li>
                                 <li><a href="/runolagomarsino">Runo Lagomarsino | <?php pten('Suécia/Brasil', 'Sweden/Brazil'); ?></a></li>
@@ -192,7 +192,7 @@ $titulo = $idioma == 'pt' ? 'Obras selecionadas' : 'Selected artworks';
                     
                     <p>Within the contemporary art context, countries in this symbolic axis are habitually absent from the encompassing narratives that are considered to underlie current art practices. The circulation of the counter-narratives they produce is met with historical resistance.</p> 
                     
-                    <p>The selection featured here points to questions that animate and fuel art production in the South today. The selected artworks outline three broad scenarios. The first one could be defined through the growing idea of crisis. Addressing political and social issues—predominantly manifested in the subject’s condition and his or her relationship with the other—becomes a pressing need.</p>
+                    <p>The selection featured here points to questions that animate and fuel art production in the South today. The selected works outline three broad scenarios. The first one could be defined through the growing idea of crisis. Addressing political and social issues—predominantly manifested in the subject’s condition and his or her relationship with the other—becomes a pressing need.</p>
                     
                     <p>Other pieces explore a post-utopian environment that lies beyond human presence. The subject is absent or objectified, the landscapes are bleak, and the relationship with time is ambiguous. Historical narratives juxtapose into oft-indistinct layers.</p> 
                     

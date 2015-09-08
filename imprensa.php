@@ -96,11 +96,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 </div>
                 <div class="col-md-6 " style="margin-top: 0px; border-left: 1pt solid #8F6B55; min-height: 240px">
                     <p class="titulo">
-                        Downloads
+                        <!-- Downloads -->
                     </p>
                 <p style="clear: both" class="f nomargin">
-                    Press Kit (português, english)<br /><br />
-                    Imagens (download, flickr)    
+                    <!-- Press Kit (português, english)<br /><br />
+                    Imagens (download, flickr)     -->
                 </p>
                     
 

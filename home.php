@@ -131,7 +131,7 @@ $(document).ready(
                 case 33: $('#random a').attr('href', '/deborabolsoni'); break;
                 case 34: $('#random a').attr('href', '/dorguez'); break;
                 case 35: $('#random a').attr('href', '/enriqueramirez'); break;
-                case 36: $('#random a').attr('href', '/fancyviolence'); break;
+                case 36: $('#random a').attr('href', '/rodolphoparigi'); break;
                 case 37: $('#random a').attr('href', '/felipebittencourt'); break;
                 case 38: $('#random a').attr('href', '/haroongunn-salie'); break;
                 case 39: $('#random a').attr('href', '/huitao'); break;
@@ -387,7 +387,6 @@ $(document).ready(
                                 <li class="sm-artistas-obras"><a href="/dorguez">Dor Guez | <?php pten('Israel', 'Israel'); ?></a></li>
                                 <li class="sm-artistas-obras"><a href="/enriqueramirez">Enrique Ramírez | <?php pten('Chile/França', 'Chile/France'); ?></a></li>
                                 <li class="sm-artistas-convidados"><a href="/gabrielabrantes">Gabriel Abrantes | <?php pten('Portugal', 'Portugal'); ?></a></li>
-                                <li class="sm-artistas-obras"><a href="/fancyviolence">Fancy Violence | <?php pten('Brasil', 'Brazil'); ?></a></li>
                                 <li class="sm-artistas-obras"><a href="/felipebittencourt">Felipe Bittencourt | <?php pten('Brasil', 'Brazil'); ?></a></li>
                                 <li class="sm-artistas-obras"><a href="/haroongunn-salie">Haroon Gunn-Salie | <?php pten('África do Sul', 'South Africa'); ?></a></li>
                                 <li class="sm-artistas-obras"><a href="/huitao">Hui Tao | <?php pten('China', 'China'); ?></a></li>
@@ -412,6 +411,7 @@ $(document).ready(
                                 <li class="sm-artistas-obras"><a href="/pilarmatadupont">Pilar Mata Dupont | <?php pten('Austrália', 'Australia'); ?></a></li>
                                 <li class="sm-artistas-obras"><a href="/rafaelrg">Rafael RG | <?php pten('Brasil', 'Brazil'); ?></a></li>
                                 <li class="sm-artistas-obras"><a href="/robertosantaguida">Roberto Santaguida | <?php pten('Canadá/Sérvia', 'Canada/Serbia'); ?></a></li>
+                                <li class="sm-artistas-obras"><a href="/rodolphoparigi">Rodolpho Parigi | <?php pten('Brasil', 'Brazil'); ?></a></li>
                                 <li class="sm-artistas-obras"><a href="/rodrigocass">Rodrigo Cass | <?php pten('Brasil', 'Brazil'); ?></a></li>
                                 <li class="sm-artistas-convidados"><a href="/rodrigomatheus">Rodrigo Matheus | <?php pten('Brasil', 'Brazil'); ?></a></li>
                                 <li class="sm-artistas-obras"><a href="/roydib">Roy Dib | <?php pten('Líbano', 'Lebanon'); ?></a></li>
@@ -468,7 +468,7 @@ $(document).ready(
         				<p class="submenu">
                             <a href="expo_convidados.php"><?php pten('Artistas convidados','Guest artists');?></a> | 
                             <a href="expo_projetos.php"><?php pten('Projetos comissionados','Comissioned projects');?></a> | 
-                            <a href="expo_obras.php"><?php pten('Obras selecionadas','Selected artworks');?></a> | 
+                            <a href="expo_obras.php"><?php pten('Obras selecionadas','Selected works');?></a> | 
                             <a href="expo_paralela.php"><?php pten('Exposicão paralela','Parallel exhibition');?></a> | 
                             <a href="expo_locais.php"><?php pten('Locais','Venues');?></a>
                         </p>
@@ -480,7 +480,7 @@ $(document).ready(
                             (na Convivência e no Galpão do Sesc Pompeia, e no Galpão VB, nova sede da Associação Cultural Videobrasil).
                             Uma exposição paralela, com obras do Acervo Videobrasil, também faz parte da programação e acontece no Paço das Artes.'
                             ,
-                            'A diversificada produção artística do Sul Global se espalha por São Paulo durante o 19º Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul. Nesta edição, o Festival apresenta três exposições (na Convivência e no Galpão do Sesc Pompeia, e no Galpão VB, nova sede da Associação Cultural Videobrasil). Uma exposição paralela, com obras do Acervo Videobrasil, também faz parte da programação e acontece no Paço das Artes.'); ?></p>
+                            'The plural production of the Global South takes São Paulo by storm during the 19th Contemporary Art Festival Sesc_Videobrasil | Southern Panoramas. This edition of the Festival has three exhibits (at Sesc Pompeia’s Convivência and Galpão venues and at Galpão VB, the new headquarters of Associação Cultural Videobrasil). The program also includes a parallel show featuring Videobrasil Collection artworks at Paço das Artes.'); ?></p>
                             
                             <p class="vejamais">&nbsp;</p>
                         </div>
@@ -493,13 +493,14 @@ $(document).ready(
         			<div id="menuprincipal3" class="fonteMenu"><img src="img/botoes/<?php pten('pt','en');?>/progsfilmes_1.png"></div>
                     <div id="texto3a" class="texto" style="display:none;">
                         <p class="submenu">
-                            <a href="progsfilmes.php#obras"><?php pten('Obras selecionadas','Selected artworks');?></a> | 
+                            <a href="progsfilmes.php#obras"><?php pten('Obras selecionadas','Selected works');?></a> | 
                             <a href="progsfilmes.php#gabriel">Gabriel Abrantes</a> | 
                             <a href="progsfilmes.php#programacao"><?php pten('Programação','Program');?></a>
                         </p>
 
                         <div style="display:inline">
-                        <p class="nomargin texto-submenu k">O Programa de Filmes do 19º Festival apresenta no Teatro do Sesc Pompeia e no Galpão VB obras selecionadas que exigem exibição em sala de cinema e uma performance, além de um programa especial, com uma reunião de trabalhos do artista convidado Gabriel Abrantes. </p>
+                        <p class="nomargin texto-submenu k"><?php pten('O Programa de Filmes do 19º Festival apresenta no Teatro do Sesc Pompeia e no Galpão VB obras selecionadas que exigem exibição em sala de cinema e uma performance, além de um programa especial, com uma reunião de trabalhos do artista convidado Gabriel Abrantes.', 
+                                                                       '19th Festival’s Film Program presents at Sesc Pompeia’s Theater and Galpão VB screening sessions and a performance, as well as a Special Program featuring artwork from guest artist Gabriel Abrantes.');?> </p>
                             
                             <p class="vejamais">&nbsp;</p>
                         </div>
@@ -514,8 +515,8 @@ $(document).ready(
                         <!-- <p class="submenu"><a href="">ARTISTAS CONVIDADOS</a> | <a href="">PROJETOS COMISSIONADOS</a> | <a href="">OBRAS SELECIONADAS</a> | <a href="">EXPOSICÃO PARALELA</a> | <a href="">LOCAIS</a></p> -->
 
                         <div style="display:inline">
-                        <p class="nomargin texto-submenu k">Além dos vídeos, videoinstalações, fotografias, gravuras, pinturas e instalações que compõem a exposição Panoramas do Sul | Obras Selecionadas, O 19º Festival apresenta três performances de artistas e grupos selecionadas pelo edital de obras. Duas delas,  são apresentadas na Convivência do Sesc Pompeia, ao lado dos vídeos, videoinstalações, fotografias, gravuras, pinturas, performances e instalações que compõem a exposição “Panoramas do Sul | Obras Selecionadas”. A terceira exposição será apresentada no Teatro do Sesc Pompeia, onde também acontece a exibição dos Programas de Filmes do 19º Festival.</p>
-                            
+                        <p class="nomargin texto-submenu k"><?php pten('Além dos vídeos, videoinstalações, fotografias, gravuras, pinturas e instalações que compõem a exposição <em>Panoramas do Sul | Obras Selecionadas</em>, O 19º Festival apresenta três performances de artistas e grupos selecionadas pelo edital de obras. Duas delas serão apresentadas na Convivência do Sesc Pompeia, e a terceira será apresentada no Teatro, onde também acontece a exibição dos Programas de Filmes do 19º Festival.', 
+                                                                       'Besides videos, video installations, photographs, prints, paintings, and installations which comprise the <em>Southern Panoramas | Selected Works</em> exhibition, the 19th Festival presents three performances by artists and groups selected through the artworks call for entries. Two of them will be presented in Sesc Pompeia’s Convivência area, and a third will be staged in the Theater, where the 19th Festival’s Film Program takes place.');?></p>
                             <p class="vejamais"><a href="performances.php"><?php pten('Saiba+','Learn more');?></a></p>
                         </div>
 
@@ -536,7 +537,7 @@ $(document).ready(
                         </p>
 
                         <div style="display:inline">
-                        <p class="nomargin texto-submenu l">Os Programas Públicos reafirmam o ambiente de diálogo do Festival, possibilitando que as pesquisas curatoriais se desdobrem em ações de contato com o público. Este canal direto com seu espectador se desdobra em um Seminário, Encontros e conversas, Oficinas e Ações de mediação. Multidisciplinares, essas ações transformam os espaços expositivos em locais de pensamento e troca que extrapolam o campo da arte e dialogam transversalmente com outras áreas do conhecimento.</p>
+                        <p class="nomargin texto-submenu l"><?php pten('Os Programas Públicos reafirmam o ambiente de diálogo do Festival, possibilitando que as pesquisas curatoriais se desdobrem em ações de contato com o público. Este canal direto com seu espectador se desdobra em um Seminário, Encontros e conversas, Oficinas e Ações de mediação. Multidisciplinares, essas ações transformam os espaços expositivos em locais de pensamento e troca que extrapolam o campo da arte e dialogam transversalmente com outras áreas do conhecimento.','');?></p>
                             
                             <p class="vejamais">&nbsp;</p>
                         </div>
@@ -584,8 +585,8 @@ $(document).ready(
                         </p>
 
                         <div style="display:inline">
-                        <p class="nomargin texto-submenu o">Cinco publicações editadas têm lançamento durante o 19ª Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul. Três delas são vinculadas aos temas dessa edição: Panoramas do Sul | Artistas Convidados, Panoramas do Sul | Obras Selecionadas e Projetos Comissionados e a antologia Panoramas do Sul | Leituras — Perspectivas para outras geografias do pensamento. O livro Videobrasil: Três décadas de vídeo, arte, encontros e transformações celebra a história do Festival, mapeando as transformações do vídeo e suas aproximações com a arte a partir dos anos 1980. Fecha o conjunto Aliança de Corpos Vulneráveis, a 11ª edição da revista anual de arte contemporânea Caderno Sesc_Videobrasil, edição do curador Miguel Ángel López.</p>
-                            
+                        <p class="nomargin texto-submenu o"><?php pten('Cinco publicações editadas têm lançamento durante o 19ª Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul. Três delas são vinculadas aos temas dessa edição: Panoramas do Sul | Artistas Convidados, Panoramas do Sul | Obras Selecionadas e Projetos Comissionados e a antologia Panoramas do Sul | Leituras — Perspectivas para outras geografias do pensamento. O livro <em>Videobrasil: Três décadas de vídeo, arte, encontros e transformações</em> celebra a história do Festival, mapeando as transformações do vídeo e suas aproximações com a arte a partir dos anos 1980. Fecha o conjunto <em>Aliança de Corpos Vulneráveis</em>, a 11ª edição da revista anual de arte contemporânea Caderno Sesc_Videobrasil, com edição do curador Miguel Ángel López.',
+                                                                       'Five publications will be launched during the 19th Contemporary Art Festival Sesc_Videobrasil | Southern Panoramas. Three of them are linked to the Festival’s themes, acting as printed platforms for this edition’s exhibitions and debates, and as additional environments for the development of its curatorial issues. A fourth publication celebrates the three decades of Videobrasil’s history, mapping the transformations undergone by video and its convergence with art from the 1980s on. The final publication is <em>An Alliance of Vulnerable Bodies</em>, the 11th edition of the annual contemporary art magazine Caderno Sesc_Videobrasil, edited by curator Miguel Angel López and focusing on how feminism, gender issues, post-pornography, queer activism and sexual dissidence are transforming traditional subjects and discourses within art history.');?></p>
                             <p class="vejamais">&nbsp;</p>
                         </div>
 

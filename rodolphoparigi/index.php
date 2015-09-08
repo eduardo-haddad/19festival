@@ -62,9 +62,9 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
     <meta property="og:url" content="<?=$url.ltrim($_SERVER['REQUEST_URI'], '/');?>"/>
     <meta property="og:image" content="<?=$url?>img/logo_fb.png"/>
     <meta property="og:site_name" content="19º Festival de Arte Contemporânea Sesc_Videobrasil"/>
-    <meta property="og:description"
+    <!-- <meta property="og:description" 
           content="<?php foreach($artista["biografia"] as $bio=>$valor) {echo($idioma == $valor['idioma'] ? $valor['biografia'] : null);}?>"/>
-    <script>
+    --><script>
         
         $(document).ready(
             function(){

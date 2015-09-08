@@ -68,7 +68,7 @@ $titulo = $idioma == 'pt' ? 'Artistas Convidados' : 'Guest Artists';
                     <p class="submenu" style="margin-bottom:21px">
                         <a href="expo_convidados.php"><span style="text-decoration: underline"><?php pten('artistas convidados', 'guest artists') ?></span></a> | 
                         <a href="expo_projetos.php"><?php pten('projetos comissionados', 'Comissioned projects') ?></a> | 
-                        <a href="expo_obras.php"><?php pten('obras selecionadas', 'Selected artworks') ?></a> | 
+                        <a href="expo_obras.php"><?php pten('obras selecionadas', 'Selected works') ?></a> | 
                         <a href="expo_paralela.php"><?php pten('exposição paralela', 'Parallel exhibition') ?></a> |
                         <a href="expo_locais.php"><?php pten('Locais', 'Venues') ?></a>
                     </p>      
@@ -135,7 +135,7 @@ $titulo = $idioma == 'pt' ? 'Artistas Convidados' : 'Guest Artists';
 
                     <p>Sharing Konaté’s choice of textiles as an expressive domain is the Brazilian Sônia Gomes, born in Caetanópolis, Minas Gerais State, home to one of the country’s oldest textile companies. As a child, in a flash of revolt, she decided to run away from home; she gathered snippets of textiles into a truss. That truss would return to her years later in seminal form as an artistic procedure. Here, she experiments with a scale that challenges the intimacy of the body. Each bend or cavity, each fabric or skin seems to speak of a subject in its singularity or a collective with a shared history and culture.</p>    
                     
-                    <p>Contrasting with this organicity, Rodrigo Matheus requires the support of heavy engineering to hang drums and create structures out of scales, weights, and counterweights that lure the public into a zone of instability that echoes the provisional nature of contemporary economic and social relations. The work stems from the artist’s observation of the venue’s history and attempts to restore, physically, some of the legacy of “ruin” the city has endured over the last hundred years.</p>  
+                    <p>Contrasting with this organicity, Rodrigo Matheus requires the support of heavy engineering to hang barrels and create structures out of scales, weights, and counterweights that lure the public into a zone of instability that echoes the provisional nature of contemporary economic and social relations. The work stems from the artist’s observation of the venue’s history and attempts to restore, physically, some of the legacy of “ruin” the city has endured over the last hundred years.</p>  
                     
                     <p>The dynamics of representation and the impact the circulation of images has on identity building are the themes of choice of Yto Barrada, a French artist of Moroccan descent. Her Wallpaper is paradigmatic. Daily contact with this sort of representation—wallpaper featuring far-off views is common in Moroccan stores and coffee shops—underlines the friction between real life and the desire to belong to another reality, between the reality and fiction of a comfortable life waiting to cross over to the other side.</p> 
                     

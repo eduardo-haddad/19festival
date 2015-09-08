@@ -41,7 +41,7 @@ $titulo = $idioma == 'pt' ? 'Fotos e Vídeos' : 'Photos and Videos';
             <div class="row">
                 <div class="col-xs-12 breadcrumb">
                     <span><?php pten('fotos e vídeos</span>', 
-                                     'photos and vídeos');  ?></span>      
+                                     'photos and videos');  ?></span>      
                 </div>
             </div>
             

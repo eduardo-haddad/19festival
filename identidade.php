@@ -149,11 +149,7 @@ $titulo = $idioma == 'pt' ? 'Identidade' : 'Identity';
                     19th Festival guest artists, the visual identity put together by the Detanico Lain duo will unfold into signs at the
                     exhibition spaces, publications, printed materials and the 19th Festival website, applied by designers Carla Castilho
                     and Lia Assumpção (Janela Estúdio) and Lila Botter (Videobrasil) and by the artist Deco Farkas.<p>
-                    
-                    <p>Featuring an extensive program comprising four exhibitions, performances, film screenings, public programs, educational
-                    actions, and publication launches, the 19th Contemporary Art Festival Sesc_Videobrasil | Southern Panoramas will take
-                    place at Sesc Pompeia and other venues across São Paulo, from October 6 to December 6, 2015. Click here to stay up to
-                    date with the latest news about the Festival.</p> ');
+                    ');
 
                     ?>
                     
@@ -205,8 +201,7 @@ $titulo = $idioma == 'pt' ? 'Identidade' : 'Identity';
                         com a identidade do Festival, como Kiko Farkas, Bill Martinez, Daniel Trench e Celso Longo, a dupla
                         abordou, no encontro “Design, Conceito e Espaço”, o perfil diferenciado do Festival em relação à
                         criação de suas propostas gráficas, fruto da aproximação entre os designers e a curadoria – a
-                        identidade visual do Festival reflete e reforça as questões que surgem a cada edição (assista ao
-                        encontro no Canal VB).</p>
+                        identidade visual do Festival reflete e reforça as questões que surgem a cada edição.</p>
     
                         <p>A dupla vencedora do Nam June Paik Award de 2004 – uma das mais importantes premiações de arte
                         eletrônica do mundo – já apresentou trabalhos na 52ª Bienal de Veneza (Itália, 2007), em três
@@ -237,7 +232,7 @@ $titulo = $idioma == 'pt' ? 'Identidade' : 'Identity';
                     to the Festival’s identity, including Kiko Farkas, Bill Martinez, Daniel Trench and Celso Longo, the duo participated in
                     the “Design, Concept and Space” meeting, where they discussed the unique character of the Festival’s graphic concepts,
                     spawned by a collaboration between designers and curators. The visual identity of the Festival reflects and highlights
-                    the issues brought up by each new edition (watch the meeting on Channel VB).</p>
+                    the issues brought up by each new edition.</p>
                     
                     <p>Detanico Lain won the 2004 Nam June Paik Award – one of the world’s foremost electronic art prizes – and have shown
                     their work at the 52nd Venice Biennale (Italy, 2007), in three São Paulo Art Biennial editions (2004, 2006 and 2008) and
