@@ -50,7 +50,7 @@ $mail->AltBody = strip_tags($email_message);
 
 
 
-if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['listaPaises'])) {
+if (!empty($_POST['name']) && !empty($_POST['email'])) {
         if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
             $mail->send() or die('<span class="text-danger">Erro no envio / Error sending mail</span>');
             echo '<span class="text-success send-true">Email enviado! / Email was sent!</span>';
