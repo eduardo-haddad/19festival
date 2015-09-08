@@ -63,7 +63,7 @@ $mail->AltBody = strip_tags($email_message);
     <aside id="mapadosite"><?php include "elements/mapa.html"; ?></aside>
     <!-- /MAPA DO SITE -->
 
-    <main class="container" id="container" style="min-height:auto">
+    <main class="container" id="container" style="min-height:500px">
 
         <!-- HEADER -->
         <header><?php include "elements/header.html"; ?></header>
