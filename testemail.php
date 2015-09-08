@@ -5,7 +5,7 @@
         <ul>
         <li>
         <label for="name">Your Name:</label>
-        <input type="text" name="name" id="name"class="large" required="required" placeholder="Enter your name"/></li><!--Basically gave a name here-->
+        <input type="text" name="nome" id="nome"class="large" required="required" placeholder="Enter your name"/></li><!--Basically gave a name here-->
 
         <li>
         <label for="idlabel">Your Email:</label>

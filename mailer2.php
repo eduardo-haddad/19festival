@@ -6,7 +6,7 @@ $email_message = '
                 <title>Supersonic Music - Contact Form</title>
         </head>
         <body>
-                <h3>Nome: <span style="font-weight: normal;">' . $_POST['name'] . '</span></h3>
+                <h3>Nome: <span style="font-weight: normal;">' . $_POST['nome'] . '</span></h3>
                 <h3>Email: <span style="font-weight: normal;">' . $_POST['email'] . '</span></h3>
                 <h3>País: <span style="font-weight: normal;">' . $_POST['pais'] . '</span></h3>
 
@@ -17,7 +17,7 @@ $email_message = '
                         <th style="border: 1px solid; background-color: #5B777B; color: white">pais</th>
                 </tr>
                 <tr>
-                        <td style="border: 0px solid">'.$_POST['name'].'</td>
+                        <td style="border: 0px solid">'.$_POST['nome'].'</td>
                         <td style="border: 0px solid">'.$_POST['email'].'</td>
                         <td style="border: 0px solid">'.$_POST['pais'].'</td>
                 </tr>
