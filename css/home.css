@@ -103,8 +103,8 @@ header {
     z-index: 999;
     text-align: left;
     background-color: transparent;
-    top: 144px;
-    right: 87px;
+    top: 140px;
+    right: 66px;
     text-align: right;
 }
 
@@ -455,6 +455,16 @@ footer {
     width: 470px;
     height: 280px;
     margin-bottom: 22px;
+}
+
+@media screen and (max-width: 480px) {
+  #sharelink {
+    display: none;
+    
+  }
+
+
+
 }
 
 
