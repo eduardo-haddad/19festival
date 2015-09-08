@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         $(document).ready(
             function(){
 
-                $('input').hide();
+                $('input[type="button"]').hide();
                 
                 paletaArtistas($('.titulo'));
                 paletaArtistas($('.publicacao p:nth-child(1)'));
