@@ -8,7 +8,7 @@ $email_message = '
         <body>
                 <h3>Nome: <span style="font-weight: normal;">' . $_POST['nome'] . '</span></h3>
                 <h3>Email: <span style="font-weight: normal;">' . $_POST['email'] . '</span></h3>
-                <h3>País: <span style="font-weight: normal;">' . $_POST['pais'] . '</span></h3>
+                <h3>País: <span style="font-weight: normal;">' . $_POST['listaPaises'] . '</span></h3>
 
                 <table style="border: 1px solid; width: 800px; font-family: Helvetica">
                 <tr>
@@ -19,7 +19,7 @@ $email_message = '
                 <tr>
                         <td style="border: 0px solid">'.$_POST['nome'].'</td>
                         <td style="border: 0px solid">'.$_POST['email'].'</td>
-                        <td style="border: 0px solid">'.$_POST['pais'].'</td>
+                        <td style="border: 0px solid">'.$_POST['listaPaises'].'</td>
                 </tr>
         </table>
                 
@@ -50,7 +50,7 @@ $mail->AltBody = strip_tags($email_message);
 
 
 
-if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['pais'])) {
+if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['listaPaises'])) {
         if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
             $mail->send() or die('<span class="text-danger">Erro no envio / Error sending mail</span>');
             echo '<span class="text-success send-true">Email enviado! / Email was sent!</span>';
