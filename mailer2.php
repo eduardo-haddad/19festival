@@ -8,7 +8,20 @@ $email_message = '
         <body>
                 <h3>Nome: <span style="font-weight: normal;">' . $_POST['name'] . '</span></h3>
                 <h3>Email: <span style="font-weight: normal;">' . $_POST['email'] . '</span></h3>
-                <h3>Email: <span style="font-weight: normal;">' . $_POST['pais'] . '</span></h3>
+                <h3>País: <span style="font-weight: normal;">' . $_POST['pais'] . '</span></h3>
+
+                <table style="border: 1px solid; width: 800px; font-family: Helvetica">
+                <tr>
+                        <th style="border: 1px solid; width: 50%; background-color: #5B777B; color: white">nome</th>
+                        <th style="border: 1px solid; width: 30%; background-color: #5B777B; color: white">email</th>
+                        <th style="border: 1px solid; background-color: #5B777B; color: white">pais</th>
+                </tr>
+                <tr>
+                        <td style="border: 0px solid">'.$_POST['name'].'</td>
+                        <td style="border: 0px solid">'.$_POST['email'].'</td>
+                        <td style="border: 0px solid">'.$_POST['pais'].'</td>
+                </tr>
+        </table>
                 
         </body>
 </html>';
@@ -26,7 +39,7 @@ $mail = new PHPMailer;
 $mail->CharSet = 'UTF-8';
 
 $mail->From = '19festival.com';
-$mail->FromName = '19 Festival';
+$mail->FromName = '19º Festival';
 $mail->addAddress('eduardo.torquemada@gmail.com');     // Add a recipient
 
 $mail->Subject = 'Inscrição newsletter';
