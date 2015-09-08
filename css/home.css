@@ -528,7 +528,7 @@ footer {
 
 
 /* FOOTER */
-    input[type="text"]{
+    input[type="text"], input[type="email"]{
         margin: 0px;
         padding: 5px 0px 5px 5px;
         border: 1px solid #6C543F;

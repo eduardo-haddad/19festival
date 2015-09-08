@@ -4,10 +4,6 @@ $email_message = '
 <html>
         <head></head>
         <body>
-                <h3>Nome: <span style="font-weight: normal;">' . $_POST['nome'] . '</span></h3>
-                <h3>Email: <span style="font-weight: normal;">' . $_POST['email'] . '</span></h3>
-                <h3>País: <span style="font-weight: normal;">' . $_POST['listaPaises'] . '</span></h3>
-
                 <table style="border: 1px solid; width: 800px; font-family: Helvetica">
                 <tr>
                         <th style="border: 1px solid; width: 50%; background-color: #5B777B; color: white">nome</th>
@@ -26,6 +22,7 @@ $email_message = '
 
 
 require_once('phpmailer/class.phpmailer.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 $mail = new PHPMailer;
 
@@ -51,11 +48,16 @@ $mail->AltBody = strip_tags($email_message);
 if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['listaPaises'])) {
         if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
             $mail->send() or die('<span class="text-danger">Erro no envio / Error sending mail</span>');
-            echo '<span class="text-success send-true">Email enviado! / Email was sent!</span>';
+            echo '<span class="text-success send-true">'; pten(
+                'Inscrição efetuada com sucesso!',
+                'You have been successfully subscribed'); echo '</span>';
         }
 } else {
-        echo '<span class="text-danger">Todos os campos devem ser preenchidos / All fields must be filled</span>';
+        echo '<span class="text-danger">'; pten(
+                'Erro:<br>Todos os campos devem ser preenchidos',
+                'Error<br>All fields must be filled'); echo '</span>';
 }
+
 
 
 ?>
