@@ -45,7 +45,7 @@ $(document).ready(
 		</div>   
 			<div class="row">
 				<div class="col-xs-12">
-				<form method="post" action="../mailer2.php"><input type="text" name="nome" placeholder="<?php pten('nome completo','full name');?>" style="width: 35%"></input><span style="display: inline-block;width: 1%"></span><input type="email" name="email" placeholder="e-mail" style="width: 35%"></input><span style="display: inline-block;width: 1%"></span><select name="listaPaises">
+				<form method="post" action="<?php echo $url.'newsletter.php';?>"><input type="text" name="nome" placeholder="<?php pten('nome completo','full name');?>" style="width: 35%"></input><span style="display: inline-block;width: 1%"></span><input type="email" name="email" placeholder="e-mail" style="width: 35%"></input><span style="display: inline-block;width: 1%"></span><select name="listaPaises">
 						<option disabled selected style="display:none"><?php pten('país','country');?></option>
 						<option value="Afeganistão">Afeganistão</option>
 						<option value="África do Sul">África do Sul</option>
@@ -54,7 +54,7 @@ $(document).ready(
 						<option value="Andorra">Andorra</option>
 						<option value="Angola">Angola</option>
 						<option value="Anguilla">Anguilla</option>
-						<option value="Antártida">Antárctida</option>
+						<option value="Antártida">Antártida</option>
 						<option value="Antígua e Barbuda">Antígua e Barbuda</option>
 						<option value="Antilhas Holandesas">Antilhas Holandesas</option>
 						<option value="Arábia Saudita">Arábia Saudita</option>
