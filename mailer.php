@@ -1,7 +1,7 @@
 <?php
 include_once('phpmailer/class.phpmailer.php');
 
-if(isset($_POST['submit'])){
+
 
     $mail             = new PHPMailer(); // defaults to using php "mail()"
 
@@ -26,4 +26,4 @@ if(isset($_POST['submit'])){
       echo "Message sent!";
     }
 
-}
+
