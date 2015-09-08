@@ -77,7 +77,7 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : 'Parallel exhibition';
             <!-- SUBMENU -->
 
             <p class="titulo"><?php pten('<span style="letter-spacing: -0.04em">Quem nasce pra aventura não toma outro rumo - obras do acervo videobrasil</span>', 
-                                         '<span style="letter-spacing: 0em">Those born for adventure don’t stray from the path - works from videobrasil collection</span>'); ?></p> 
+                                         '<span style="letter-spacing: 0em">Those Born For Adventure Don’t Stray From The Path – Artworks from Videobrasil Collection</span>'); ?></p> 
            
             <div class="row" style="clear: both;">
 

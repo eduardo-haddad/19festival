@@ -85,6 +85,15 @@ header {
 #idiomas a:hover { color: #7F4A3E;text-decoration: underline; }
 #idiomas a:active { color: #7F4A3E; }
 
+#lista ol li a:link { text-decoration: none; color: inherit; }
+#lista ol li a:visited { text-decoration: none; color: inherit;}
+#lista ol li a:hover { text-decoration: none; color: inherit;}
+#lista ol li a:active { text-decoration: none; color: inherit;}
+
+.linhafina {
+    margin-bottom: 15px;
+}
+
 #share {
     display: none;
     float: left;
@@ -94,7 +103,7 @@ header {
     z-index: 999;
     text-align: left;
     background-color: transparent;
-    top: 146px;
+    top: 144px;
     right: 87px;
     text-align: right;
 }

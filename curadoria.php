@@ -121,32 +121,40 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
                         instigante das estratégias, contranarrativas e indagações que, muitas vezes em sutil sintonia, artistas de trajetórias
                         mais e menos consolidadas mobilizam para confrontar a realidade contemporânea. </p>',
 
-                    //SOLANGE EN                     
-                            '<p class="f" style="display: inline">Indifference and conformism tend to conceal a certain uneasiness caused by the multiple demands of contemporary life. One way to shake up
-                            the status quo is to promote moments of suspension and uncanniness capable of cultivating other possible forms of being
-                            in the world. These moments of suspension can be achieved in many ways, especially through the arts.</p>       
+                    //SOLANGE EN                                                  
+                        '<p class="f">
+                         The geopolitical commonalities that unite regions with a colonial past into a heterogeneous set with shared accents is
+                         an idea that has driven the Contemporary Art Festival Sesc_Videobrasil since the 1990s. The 19th Festival is entirely
+                         devoted to establish dialogue among diverse subsets of recent productions from the South. To this end, Southern
+                         Panoramas branches out into three exhibitions featuring artworks selected through an open call for entries, projects the
+                         Festival chose to commission, and pieces created by five guest artists: Abdoulaye Konaté from Mali, Sônia Gomes and
+                         Rodrigo Matheus from Brazil, Gabriel Abrantes from Portugal, and Yto Barrada from Morocco.
+                         <p class="f">
+                         The exquisite complementarity between this bevy of contents stems from the work of guest
+                         curators Bernardo José de Souza, Bitu Cassundé, João Laia and Júlia Rebouças, who were
+                         entrusted with all three Festival exhibitions for first time. The commissioning of art
+                         projects, which broadens Videobrasil’s scope of action and endows its curatorial research with
+                         new meaning, as well as the launch of the first book of the Southern Panoramas | Readings
+                         series, featuring essays on the notion of art in the geopolitical South, are also relevant
+                         modifications in the structure of this Festival edition.</p>
+                         <p class="f">
+                         Additionally, the 19th Videobrasil will mark the launch of Galpão VB, a venue that will house
+                         several permanent Videobrasil Collection research and activation activities. The Festival’s
+                         exhibitions and film programs will take place at Sesc Pompeia and Galpão VB, as will
+                         activities, meetings and tools designed to activate and explore said exhibitions, including
+                         workshops, conversations, tours, online programming, and the seminar Places and meanings in
+                         art: debates from the South. The parallel show Those born for adventure don’t stray from the
+                         path, which is set to take place at Paço das Artes during the Festival, will feature a
+                         selection of Videobrasil Collection artworks that somehow reverberate the subjects at play in
+                         Southern Panoramas. The curating by Diego Matos reaffirms our policy of fostering dialogue
+                         between the collection and contemporary production.</p>
+                         <p class="f">
+                         In addition to a cohesive set of artworks, the outcome of the experiment of devoting the 19th
+                         Festival entirely to Southern production is an exciting overview of the strategies, counter-
+                         narratives and questions employed by artists – some with established careers and others less so
+                         –, often in subtle synchronism, to confront contemporary reality.
 
-                            <p class="f">In this context, freedom of expression becomes all the more relevant insofar as it jeopardizes an entire civilizing model that
-                            is fraught with frequent crises. This idea carries, in its core, templates for an overcoming through the pursuit of new
-                            fields and opportunities, through creativity, experimentation, criticism, and reflection. On this non-polarized terrain,
-                            where nothing is predefined, what prevail are chosen and emotional bonds associated with human interaction, with the
-                            notion of transitoriness, and with a certain tendency towards improvisation and tolerance regarding error.</p> 
-
-                            <p class="f">In dealing with subjectivities, symbolic creations coax us to draft in other interfaces and connections, harbor elements of doubt,
-                            and open a space for new questions and lines of investigation. This allows unlikely combinations to throw open doors
-                            onto horizontal dialogues and enable other network-based actions.</p>
-
-                            <p class="f">Since 1992, Sesc’s partnership with Associação Cultural Videobrasil has worked to promote and spread this singularity of
-                            expressions, and in so doing it has been able to count on curators, artists and researchers from different territories
-                            and cultures identified with the global South. It is an initiative that also aims to engage various publics in debates,
-                            knowledge sharing, and cultural fruition as preconditions for triggering a reflexive process in deliberate opposition to
-                            the conformism and indifference that can numb movements for social transformation.</p> 
-
-                            <p class="f">In this context, the Contemporary Art Festival Sesc_Videobrasil │ Southern Panoramas, now in its nineteenth edition, reaffirms and broadens its commitment to
-                            autonomous thought, expanding its scope to include guest artists, preexisting works, and projects from across a
-                            triangulation that spans Africa, the Caribbean, and South America. This edition strengthens its educational and
-                            instructional actions around the critical issues that enable it to parallel aesthetic approximations to dissonances
-                            between such different realities. </p>');
+                            </p>');
 
                     ?>
                     

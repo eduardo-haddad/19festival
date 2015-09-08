@@ -208,7 +208,7 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
 
                     //EXPO 3 EN
                     '<p class="titulo">paço das artes</p>
-                    <p style="display: inline"><span class="upper">Parallel exhibition<br />Those born for adventure don’t stray from the path</span><br /><br /> 
+                    <p style="display: inline"><span class="upper">Parallel exhibition<br />Those Born For Adventure Don’t Stray From The Path – Artworks from Videobrasil Collection</span><br /><br /> 
 
                     Av. da Universidade, 1 <br />
                             São Paulo, SP, Brazil<br />

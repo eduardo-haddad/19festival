@@ -128,41 +128,7 @@ $(document).ready(
 
 
 
-//filtro de lista de nomes
-$(document).ready(
-	function filtroLista(){
 
-		$listas = $('a[id^=sm-artistas]');
-		$nomes = $('li[class^=sm-artistas]');
-
-		$listas.eq(0).addClass('ativo'); //ativar primeiro item do menu
-
-		$listas.on(
-			'click', function(){
-				$listas.removeClass('ativo');
-				$(this).addClass('ativo'); //ativar item clicado
-
-				if($(this).hasClass('ativo')){
-					$id = $(this).attr('id'); //recuperar id do item clicado
-
-					if($id == 'sm-artistas-todos'){ //mostrar todos nomes da lista
-						for(var i=0; i < $nomes.length; i++){
-							$nomes.eq(i).show();
-						}
-					}else{
-
-						for (var j=0; j < $nomes.length; j++){
-							if($id != $nomes.eq(j).attr('class')){ //se id do item != class de um nome
-								$nomes.eq(j).hide(); //esconda nome
-							} else $nomes.eq(j).show(); //senão mostre nome
-						}
-
-					}
-				}
-			}
-		);
-	}
-);
 
 /*$(document).ready(
 	function filtroAgenda(){

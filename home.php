@@ -23,6 +23,69 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
     <script>
 
 
+    //filtro de lista de nomes
+$(document).ready(
+    function filtroLista(){
+
+        $listas = $('a[id^=sm-artistas]');
+        $nomes = $('li[class^=sm-artistas]');
+
+        $listas.eq(0).addClass('ativo'); //ativar primeiro item do menu
+
+        $listas.on(
+            'click', function(){
+                $listas.removeClass('ativo');
+                $(this).addClass('ativo'); //ativar item clicado
+
+                if($(this).hasClass('ativo')){
+                    $id = $(this).attr('id'); //recuperar id do item clicado
+
+                    if($id == 'sm-artistas-todos'){ //mostrar todos nomes da lista
+                        $nomes.each(    
+                            function(){
+                                $('.linhafina').hide();
+                                $(this).show();
+                            }
+                        );
+                    }else{
+
+                        
+                        $nomes.each(
+                            function(){
+                                if($id != $(this).attr('class')){ //se id do item != class de um nome
+                                    $(this).hide(); //esconda nome
+                                } else {
+                                    $(this).show();
+
+
+                                } 
+                            }
+                        );
+
+                        switch($id) {
+
+                            case 'sm-artistas-obras':
+                                $('.linhafina').hide();
+                                $('#lista ol').prepend('<li class="linhafina s"><?php pten('Artistas selecionados pelo edital de obras','Artists selected from the artworks<br>call for entries');?></li>'); break;
+                            case 'sm-artistas-projetos':
+                                $('.linhafina').hide();
+                                $('#lista ol').prepend('<li class="linhafina s"><?php pten('Artistas selecionados pelo edital de<br>projetos comissionados','Artists selected from the comissioned<br>projects call for entries');?></li>'); break;
+                            case 'sm-artistas-convidados':
+                                $('.linhafina').hide();
+                                $('#lista ol').prepend('<li class="linhafina s"><?php pten('Artistas convidados','Guest artists');?></li>'); break;
+                            // case 'sm-artistas-todos':
+                                // $('.linhafina').hide(); break;
+                                
+                        }
+
+                    }
+                }
+            }
+        );
+    }
+);
+
+
     $(document).ready(
         function random(){
 
@@ -260,10 +323,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
     <style type="text/css">
 
-        #lista ol li a:link { text-decoration: none; color: inherit; }
-        #lista ol li a:visited { text-decoration: none; color: inherit;}
-        #lista ol li a:hover { text-decoration: none; color: inherit;}
-        #lista ol li a:active { text-decoration: none; color: inherit;}
+        
 
     </style>
 
@@ -296,7 +356,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         			  <tr >
         			    <td><div style="display: table;"><div style="display: table-cell; vertical-align: middle;"><div style="clear: both; height: 20px;" class="submenu">
                         <a id="sm-artistas-todos"><?php pten('Todos','All');?></a> | 
-                        <a id="sm-artistas-obras"><?php pten('Obras','Artworks');?></a> | 
+                        <a id="sm-artistas-obras"><?php pten('Obras','Works');?></a> | 
                         <a id="sm-artistas-projetos"><?php pten('Projetos','Projects');?></a> | 
                         <a id="sm-artistas-convidados"><?php pten('Convidados','Guests');?></a></div></div></div></td>
 

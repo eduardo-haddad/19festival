@@ -246,7 +246,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <p><span style="text-transform: uppercase"><?php pten('Participantes', 'Participants'); ?></span></p>
                     <p><span class="bold">Diego Matos </span><?php pten(
                         '(Brasil) é coordenador de Arquivo e Pesquisa do Videobrasil e curador da exposição <em>Quem nasce pra aventura não toma outro rumo</em>.',
-                        '(Brazil) is Videobrasil\'s archive and research coordinator and curator of the parallel exhibition <em>Those born for adventure don’t stray from the path</em>'); ?></p>
+                        '(Brazil) is Videobrasil\'s archive and research coordinator and curator of the parallel exhibition <em>Those Born For Adventure Don’t Stray From The Path – Artworks from Videobrasil Collection</em>'); ?></p>
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php

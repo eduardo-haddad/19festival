@@ -81,7 +81,7 @@ $titulo = $idioma == 'pt' ? 'Apresentação' : 'Introduction';
                             <p class="f">Nesse contexto, o Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul, atualmente em sua décima nona edição, fortalece uma abordagem educativa em torno de questões centrais do mundo contemporâneo, valorizando as perspectivas da arte como elementos fundamentais para a construção de um pensamento crítico.</p>',
 
                     //DANILO EN                     
-                            '<p class="f" style="display: inline">Indifference and conformism tend to conceal a certain uneasiness caused by the multiple demands of contemporary life. One way to shake up the status quo is to promote moments of suspension and uncanniness capable of cultivating other possible forms of being in the world. These moments of suspension can be achieved in many ways, especially through the arts. </p>       
+                            '<p class="f">Indifference and conformism tend to conceal a certain uneasiness caused by the multiple demands of contemporary life. One way to shake up the status quo is to promote moments of suspension and uncanniness capable of cultivating other possible forms of being in the world. These moments of suspension can be achieved in many ways, especially through the arts. </p>       
 
                             <p class="f">In this context, freedom of expression becomes all the more relevant insofar as it jeopardizes an entire civilizing model that is fraught with frequent crises. This idea carries, in its core, templates for an overcoming through the pursuit of new fields and opportunities, through creativity, experimentation, criticism, and reflection. On this non-polarized terrain, where nothing is predefined, what prevail are chosen and emotional bonds associated with human interaction, with the notion of transitoriness, and with a certain tendency towards improvisation and tolerance regarding error.</p>
 
@@ -163,7 +163,7 @@ $titulo = $idioma == 'pt' ? 'Apresentação' : 'Introduction';
                         <p class="f">The curators Bernardo José de Souza (Rio Grande do Sul, Brazil/ lives and works in Rio de Janeiro), Bitu Cassundé
                         (Ceará, Brazil/lives and works in Fortaleza), João Laia (Lisbon, Portugal/ lives and works in London) and Júlia Rebouças
                         (Sergipe, Brazil/ lives and works in Belo Horizonte) work in this edition under the guidance of Solange Farkas (Bahia,
-                        Brazil/ lives and works in Sao Paulo), general curator of the Festival and director of Associação Cultural Videobrasil,
+                        Brazil/ lives and works in São Paulo), general curator of the Festival and director of Associação Cultural Videobrasil,
                         which co-produces the event alongside Sesc São Paulo.</p>
                         
                         <p class="f">A total of 62 artists and groups from 27 countries are featured in the <span class="bold">three exhibitions of the 19th Contemporary Art
@@ -174,7 +174,7 @@ $titulo = $idioma == 'pt' ? 'Apresentação' : 'Introduction';
                         Festival will include film programs, performances, awards ceremony, public programs activities (such as meetings and
                         conversations, a seminar, workshops and mediated actions) and publication launches.</p>
                         
-                        <p class="f">During the same period, the <span class="bold">parallel show <em>Those Born For Adventure Don’t Stray From The Path</em></span>, curated by Videobrasil’s
+                        <p class="f">During the same period, the <span class="bold">parallel show <em>Those Born For Adventure Don’t Stray From The Path – Artworks from Videobrasil Collection</em></span>, curated by Videobrasil’s
                         archive and research coordinator Diego Matos, will open. It features a selection of artworks from Videobrasil Collection
                         that echoes the reflections the 19th Festival elicits.  </p>');
 
