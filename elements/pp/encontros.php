@@ -52,10 +52,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
                 //Evento 1 - PT
-                pten('<p>Rodrigo Matheus, um dos artistas convidados do 19º Festival, apresenta seu trabalho Mauser & Cia, única obra site-specific realizada para o evento.</p>',
+                pten('<p>Rodrigo Matheus, um dos artistas convidados do 19º Festival, apresenta seu trabalho <em>Mauser & Cia</em>, única obra <em>site-specific</em> realizada para o evento.</p>',
 
                 //Evento 1 - EN
-                '<p>Rodrigo Matheus, one of the 19th Festival guest artists, presents his work Mauser & Cia, the only site-specific piece created for the event.</p>');  ?> 
+                '<p>Rodrigo Matheus, one of the 19th Festival guest artists, presents his work <em>Mauser & Cia</em>, the only site-specific piece created for the event.</p>');  ?> 
                 </div> 
             </div>
 
@@ -111,10 +111,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <?php
                 //Evento 2 - PT
                 pten('<p>
-                O 19o Videobrasil recebe a plataforma de discussão Tilting Axis, voltada a promover maior proximidade e articulação entre profissionais que trabalham em iniciativas e instituições geridas por artistas na região caribenha, além de construir e redefinir relações históricas com o Norte e estabelecer diálogo com redes fortes que emergem no Sul global. Recém-fundada, em Barbados, a plataforma apresenta suas propostas e metodologia.</p>',
+                O 19º Videobrasil recebe a plataforma de discussão Tilting Axis, voltada a promover maior proximidade e articulação entre profissionais que trabalham em iniciativas e instituições geridas por artistas na região caribenha, além de construir e redefinir relações históricas com o Norte e estabelecer diálogo com redes fortes que emergem no Sul global. Recém-fundada, em Barbados, a plataforma apresenta suas propostas e metodologia.</p>',
 
                 //Evento 2 - EN
-                '<p>The 19th Videobrasil will feature Tilting Axis, a discussion platform for professionals from artist-managed initiatives and institutions in the Caribbean to promote contact and network, as well as build and redefine their historical ties with the North, and converse with strong up-and-coming networks from the global South. The proposals and methodology of the platform, which was recently established in Barbados, will be outlined.</p>');  ?> 
+                '<p>The 19th Festival will feature Tilting Axis, a discussion platform for professionals from artist-managed initiatives and institutions in the Caribbean to promote contact and network, as well as build and redefine their historical ties with the North, and converse with strong up-and-coming networks from the global South. The proposals and methodology of the platform, which was recently established in Barbados, will be outlined.</p>');  ?> 
                 </div> 
             </div>
 
@@ -147,11 +147,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <p><span class="bold">Arquetopia </span><?php pten('(México)','(Mexico)'); ?></p>
                     <p><span class="bold">Delfina Foundation </span><?php pten('(Reino Unido)','(United Kingdom)'); ?></p>
                     <p><span class="bold">Djerassi Resident Artists Program </span><?php pten('(EUA)','(USA)'); ?></p>
-                    <p><span class="bold">FLORA ars+natura </span><?php pten('(Colômbia)','(Colombia)'); ?></p>
                     <p><span class="bold">Kooshk Residency </span><?php pten('(Irã)','(Iran)'); ?></p>
                     <p><span class="bold">Kyoto Art Center </span><?php pten('(Japão)','(Japan)'); ?></p>
                     <p><span class="bold">Red Gate Residency </span><?php pten('(China)','(China)'); ?></p>
                     <p><span class="bold"><?php pten('Residência Vila Sul','Residence Vila Sul - Goethe-Institut'); ?> </span><?php pten('(Brasil)','(Brazil)'); ?></p>
+                    <p><span class="bold">Wexner Center for the Arts </span><?php pten('(EUA)','(USA)'); ?></p>
                     
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
@@ -229,7 +229,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0"> 
                         <a name="leitura"></a><?php pten(
-                            '<span class="titulo">visitas à exposição <em>quem nasce pra aventura não toma outro rumo</em></span><br />
+                            '<span class="titulo">visitas à exposição <em>quem nasce pra aventura não toma outro rumo – obras do acervo videobrasil</em></span><br />
                              <span class="upper bold data-pp" style="font-size: 1.1em">14/nov (sáb) e 09/jan (sáb) | 16h | paço das artes</span>',
 
                              '<span class="titulo"><em>those born for adventure don’t stray from the path</em> exhibition tours</span><br />
@@ -245,7 +245,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                     <p><span style="text-transform: uppercase"><?php pten('Participantes', 'Participants'); ?></span></p>
                     <p><span class="bold">Diego Matos </span><?php pten(
-                        '(Brasil) é coordenador de Arquivo e Pesquisa do Videobrasil e curador da exposição <em>Quem nasce pra aventura não toma outro rumo</em>.',
+                        '(Brasil) é coordenador de Arquivo e Pesquisa do Videobrasil e curador da exposição <em>Quem Nasce Pra Aventura Não Toma Outro Rumo – Obras Do Acervo Videobrasil</em>.',
                         '(Brazil) is Videobrasil\'s archive and research coordinator and curator of the parallel exhibition <em>Those Born For Adventure Don’t Stray From The Path – Artworks from Videobrasil Collection</em>'); ?></p>
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         

@@ -34,10 +34,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
                 //SOBRE - PT
-                pten('<p>Em quatro encontros ao longo de outubro, o seminário discute a arte como campo produtor de conhecimento, a partir de questões trazidas pelas exposições do Festival. Pensadores, escritores e artistas repensam tradições, espaços de circulação, narrativas e histórias.</p>',
+                pten('<p>Em quatro encontros ao longo de outubro, o seminário com curadoria de Sabrina Moura discute a arte como campo produtor de conhecimento, a partir de questões trazidas pelas exposições do Festival. Pensadores, escritores e artistas repensam tradições, espaços de circulação, narrativas e histórias.</p>',
 
                 //SOBRE - EN
-                '<p>In four meetings in October, the seminar will discuss art as a knowledge production field, based on issues raised by the Festival’s exhibitions. Scholars, writers, and artists will rethink traditions, sharing spaces, narratives, and stories.</p>');  ?> 
+                '<p>In four meetings in October, the seminar curated by Sabrina Moura will discuss art as a knowledge production field, based on issues raised by the Festival’s exhibitions. Scholars, writers, and artists will rethink traditions, sharing spaces, narratives, and stories.</p>');  ?> 
                 </div> 
             </div>
 
@@ -77,9 +77,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <p><span class="bold">N’Goné Fall </span><?php pten(
                         '(Senegal) é curadora e crítica. Foi curadora-convidada da Bienal de Dacar de 2002.',
                         '(Senegal) is a curator and a critic. She served as guest curator for the 2002 Dakar Biennale.'); ?></p> 
-                    <p><span class="bold">Yto Barrada </span><?php pten(
-                        '(França) estudou história e ciências políticas na Sorbonne (Paris) e fotografia no International Center of Photography (Nova York). Sua produção já foi exibida na Tate Modern (Londres), no MoMA (Nova York) e em duas edições da Bienal de Veneza.',
-                        '(France) studied history and political science at the Sorbonne (Paris) and photography at the International Center of Photography (New York). She has exhibited at the Tate Modern (London), MoMA (New York),  and at two editions of the Venice Biennale.'); ?></p>
+                    
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
@@ -145,9 +143,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <p><span class="bold">Keli Safia-Maksud </span><?php pten(
                         '(Quênia) é artista. Agencia objetos e emblemas comuns ao imaginário criado a partir das conturbadas relações históricas entre Europa e África, desvelando clichês subjacentes à concepção de africanidade.',
                         '(Kenya) is an artist. She agencies objects and emblems common to the imagery spawned by the tumultuous historical ties between Europe and Africa, unveiling clichés that underlie the conception of Africanity.'); ?></p> 
-                        <p><span class="bold">Sam Bardaouil </span><?php pten(
-                        '(Líbano) é curador. Junto a Till Fellrath (Suíça) fundou a plataforma curatorial multidisciplinar Art Reoriented.',
-                        '(Lebanon) is a curator. Alongside Till Fellrath (Switzerland) established the Art Reoriented multidisciplinary curatorial platform.'); ?></p>
+                        <p><span class="bold">Till Fellrath </span><?php pten(
+                        '(Suíça) é curador e cofundador, com Sam Bardaouil (Líbano), da plataforma curatorial multidisciplinar Art Reoriented.',
+                        '(Switzerland) is a curator and has established, along with fellow curator Sam Bardaouil (Lebanon), the Art Reoriented multidisciplinar curatorial platform.'); ?></p>
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
@@ -279,7 +277,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         '(Israel) a visual artist, he is the director of the Photography Department at the Bezalel Academy of Arts and Design, Jerusalem, Israel, and an associate professor and researcher at the Faculty of the Arts of Tel Aviv University, in the same country.'); ?></p>
                     <p><span class="bold">Cristiano Lenhardt </span><?php pten(
                         '(Brasil) é artista. Seus trabalhos questionam os limites da realidade comumente aceitos, confrontando-os criticamente com outras possibilidades de existência.',
-                        '(Portugal) artist. His work questions the commonly accepted boundaries of reality, critically confronting them with other possibilities of existence.'); ?></p>
+                        '(Brazil) is an artist. His work questions the commonly accepted boundaries of reality, critically confronting them with other possibilities of existence.'); ?></p>
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php

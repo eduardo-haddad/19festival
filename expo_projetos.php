@@ -176,7 +176,7 @@ $titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'Comissioned Projects';
                             '<p><span class="upper a">Galpão VB</span><br />
                             Av. Imperatriz Leopoldina, 1150<br />
                             São Paulo, SP<br />
-                            tel.: 11 3645 0516 | <a href="http://www.videobrasil.org.br" target="_blank">www.videobrasil.org.br</a></p>
+                            tel.: +55 11 3645 0516 | <a href="http://www.videobrasil.org.br" target="_blank">www.videobrasil.org.br</a></p>
                             <p><br /><span class="upper a">visitação</span><br />
                             de 8 de outubro a 6 de dezembro de 2015<br />
                             segundas, quartas, quintas e sextas das 13h às 19h; terças das 14h às 21h</p>',
@@ -184,7 +184,7 @@ $titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'Comissioned Projects';
                             '<p><span class="upper a">Galpão VB</span><br />
                             Av. Imperatriz Leopoldina, 1150<br />
                             São Paulo, SP, Brazil<br />
-                            phone: 11 3645 0516 | <a href="http://www.videobrasil.org.br" target="_blank">www.videobrasil.org.br</a></p>
+                            phone: +55 11 3645 0516 | <a href="http://www.videobrasil.org.br" target="_blank">www.videobrasil.org.br</a></p>
                             <p><br /><span class="upper a">visiting hours</span><br />
                             october 8 to december 6, 2015<br />
                             mon, wed, thu, fri, from 1pm to 7pm;<br />

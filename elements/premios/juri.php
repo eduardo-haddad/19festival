@@ -35,9 +35,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <?php
                         pten('<p style="margin-bottom: 0">
                     
-                    <span class="bold">Hoor Al-Qasimi</span> (Emirados Árabes Unidos), curadora e presidente da Sharjah Art Foundation, responsável pela Bienal de Sharjah.</p>',
+                    <span class="bold">Hoor Al-Qasimi</span> (EAU), é artista e presidente da Sharjah Art Foundation, responsável pela Bienal de Charjah.</p>',
 
-                    '<p style="margin-bottom: 0"><span class="bold">Hoor Al-Qasimi</span> (United Arab Emirates), curator and president of the Sharjah Art Foundation, which holds the Sharjah Biennial</p>');
+                    '<p style="margin-bottom: 0"><span class="bold">Hoor Al-Qasimi</span> (UAE), is an artist and chair of Sharjah Art Foundation, which is responsible for the Sharjah Biennial.</p>');
                     ?>
                 </div>
             </div>
@@ -55,10 +55,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                 <?php
                 pten('<p style="margin-bottom: 0;">
-                    <span class="bold">N’Goné Fall</span> (Senegal), curadora de fotografia da Bienal de Bamako (2001) e da Bienal de Dakar (2002), crítica e ex-diretora editorial da Revue Noir.</p>', 
+                    <span class="bold">N’Goné Fall</span> (Senegal), é curadora e crítica. Foi curadora-convidada da Bienal de Dacar de 2002.</p>', 
 
                     '<p style="margin-bottom: 0">
-                    <span class="bold">N’Goné Fall</span> (Senegal), the photography curator for the Bamako Biennale (2001) and the Dakar Biennale (2002), art critic, and former Revue Noir editorial director.</p>');
+                    <span class="bold">N’Goné Fall</span> (Senegal), is a curator and a critic. She served as guest curator for the 2002 Dakar Biennale.</p>');
                     ?>
                 </div>             
             </div>
@@ -91,10 +91,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-sm-12 col-md-6 juri4" style="float: left; margin-bottom: 24px">                   
                 <?php
                     pten('<p style="margin-bottom: 0">
-                    <span class="bold">Till Fellrath</span> (Alemanha), curador e fundador ao lado de Sam Bardaouil (do Líbano) da plataforma curatorial multidisciplinar Art Reoriented.</p>',
+                    <span class="bold">Till Fellrath</span> (Suíça), é curador e cofundador, com Sam Bardaouil (Líbano), da plataforma curatorial multidisciplinar Art Reoriented.</p>',
 
                     '<p style="margin-bottom: 0">
-                    <span class="bold">Till Fellrath</span> (Germany), curator, founding partners alongside with Sam Bardaouil (Lebanon), of the Art Reoriented multidisciplinary curatorial platform.</p>');
+                    <span class="bold">Till Fellrath</span> (Switzerland), is a curator and has established, along with fellow curator Sam Bardaouil (Lebanon), the Art Reoriented multidisciplinar curatorial platform.</p>');
                     ?>                
                 </div>
             </div>

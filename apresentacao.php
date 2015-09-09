@@ -43,6 +43,7 @@ $titulo = $idioma == 'pt' ? 'Apresentação' : 'Introduction';
                 <div class="col-xs-12">
                     <p class="submenu" style="margin-bottom:21px">
                             <a href="apresentacao.php"><span style="text-decoration: underline"><?php pten('Apresentação','Introduction');?></span></a> | 
+                            <a href="palavrasesc.php"><?php pten('Palavra do Sesc','Word from Sesc');?></a> | 
                             <a href="curadoria.php"><?php pten('Curadoria','Curators');?></a> | 
                             <a href="identidade.php"><?php pten('Identidade Visual','Visual Identity');?></a> | 
                             <a href="realizacao.php"><?php pten('Realização','Undertaking');?></a> | 
@@ -60,38 +61,8 @@ $titulo = $idioma == 'pt' ? 'Apresentação' : 'Introduction';
               
 
                 <div class="col-sm-12 col-md-6 h relative" style="float: left;">
-                     <img src="img/sobre/apresentacao.png" class="img-responsive" style="max-width: 485px" /><br /><br />
-                    <p>
-                    <?php pten('<span class="titulo o">Arte que instiga e exaspera</span><br />
-                                <span class="submenu">por Danilo Santos de Miranda<br />
-                                Diretor Regional do Sesc São Paulo</span>', 
-                               '<span class="titulo o">ART THAT INSTIGATES AND EXASPERATES</span><br />
-                               <span class="submenu">by Danilo Santos de Miranda<br />
-                               Regional Director, Sesc São Paulo'); ?></p>
-
-                    <?php pten(////DANILO PT                     
-                        '<p class="f">Indiferença e conformismo tendem a ocultar certo mal-estar provocado pelas múltiplas demandas da vida contemporânea. Uma forma de chacoalhar esse estado de coisas é promover momentos de suspensão e estranhamento, capazes de cultivar outras possibilidades de ser e estar no mundo. Esses momentos de suspensão podem ser alcançados de diversas maneiras, em especial pelas artes.</p>
-
-                            <p class="f">Nesse cenário, a liberdade de expressão adquire contornos relevantes ao colocar em xeque um modelo civilizacional afetado por frequentes crises. Essa ideia traz em seu bojo matrizes de superação pela busca de novos campos e oportunidades, por meio da criatividade, da experimentação, da crítica e da reflexão. Nesse terreno não polarizado, indefinido a priori, sobressaem ligações eletivas e afetivas associadas à convivência humana, à noção de transitoriedade e certa tendência para improvisação e tolerância ao erro.</p>
-
-                            <p class="f">As criações simbólicas nos instigam a convocar outras interfaces e conexões, ao lidar com as subjetividades, abrigar elementos de dúvida e agregar um lugar para novas perguntas e investigações. Desse modo, combinações improváveis podem sugerir aberturas para diálogos horizontais e possibilitar outras ações em rede.</p>
-
-                            <p class="f">Desde 1992, a parceria do Sesc com a Associação Cultural Videobrasil atua na promoção e difusão dessa singularidade de expressões, e conta com o engajamento de curadores, artistas e pesquisadores de diferentes territórios e culturas identificados com um Sul global. Tal iniciativa visa, ainda, fomentar o encontro de diferentes públicos para debates, trocas de saberes e a fruição cultural como pressupostos para desencadear um processo reflexivo, em deliberada oposição ao conformismo e à indiferença que podem anestesiar os movimentos de transformação social. </p>
-
-                            <p class="f">Nesse contexto, o Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul, atualmente em sua décima nona edição, fortalece uma abordagem educativa em torno de questões centrais do mundo contemporâneo, valorizando as perspectivas da arte como elementos fundamentais para a construção de um pensamento crítico.</p>',
-
-                    //DANILO EN                     
-                            '<p class="f">Indifference and conformism tend to conceal a certain uneasiness caused by the multiple demands of contemporary life. One way to shake up the status quo is to promote moments of suspension and uncanniness capable of cultivating other possible forms of being in the world. These moments of suspension can be achieved in many ways, especially through the arts. </p>       
-
-                            <p class="f">In this context, freedom of expression becomes all the more relevant insofar as it jeopardizes an entire civilizing model that is fraught with frequent crises. This idea carries, in its core, templates for an overcoming through the pursuit of new fields and opportunities, through creativity, experimentation, criticism, and reflection. On this non-polarized terrain, where nothing is predefined, what prevail are chosen and emotional bonds associated with human interaction, with the notion of transitoriness, and with a certain tendency towards improvisation and tolerance regarding error.</p>
-
-                            <p class="f">In dealing with subjectivities, symbolic creations coax us to draft in other interfaces and connections, harbor elements of doubt, and open a space for new questions and lines of investigation. This allows unlikely combinations to throw open doors onto horizontal dialogues and enable other network-based actions.</p>
-
-                            <p class="f">Since 1992, Sesc’s partnership with Associação Cultural Videobrasil has worked to promote and spread this singularity of expressions, and in so doing it has been able to count on curators, artists and researchers from different territories and cultures identified with the global South. It is an initiative that also aims to engage various publics in debates, knowledge sharing, and cultural fruition as preconditions for triggering a reflexive process in deliberate opposition to the conformism and indifference that can numb movements for social transformation.</p>
-
-                            <p class="f">In this context, the Contemporary Art Festival Sesc_Videobrasil | Southern Panoramas, now in its nineteenth edition, strengthens its educational take on issues that are central to the contemporary world, valuing the perspectives of art as key elements in building critical thinking.</p>');
-
-                    ?>
+                     <img src="img/sobre/apresentacao.png" class="img-responsive" style="max-width: 485px" />
+                    
                     </div>
 
                 <div class="col-sm-12 col-md-6 h" style="float: right;">
@@ -135,7 +106,7 @@ $titulo = $idioma == 'pt' ? 'Apresentação' : 'Introduction';
                         performances, cerimônia de premiação, atividades dos programas públicos (encontros e conversas, seminários e oficinas),
                         ações educativas e lançamento de publicações.</p>
                         
-                        <p class="f">No mesmo período, é inaugurada a <span class="bold">exposição paralela <em>Quem Nasce Pra Aventura Não Toma Outro Rumo</em></span>, com curadoria de Diego
+                        <p class="f">No mesmo período, é inaugurada a <span class="bold">exposição paralela <em>Quem Nasce Pra Aventura Não Toma Outro Rumo – Obras do Acervo Videobrasil</em></span>, com curadoria de Diego
                         Matos, coordenador de arquivo e pesquisa do Videobrasil, reunindo uma seleção de obras do Acervo Videobrasil que ecoa
                         reflexões levantadas pelo 19º Festival.</p>',
 

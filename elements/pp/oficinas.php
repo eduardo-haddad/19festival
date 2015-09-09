@@ -167,7 +167,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         <?php pten('<span class="titulo">construção compartilhada de vocabulário</span><br />
                                     <span class="upper bold data-pp" style="font-size: 1.1em">de 10/out a 06/dez (sábados, domingos e feriados) | 15h | Sesc Pompeia | Convivência</span>',
 
-                                   '<span class="titulo">WORKSHOPS WITH THE EXHIBITIONS’ EDUCATORS</span><br />
+                                   '<span class="titulo">construção compartilhada de vocabulário</span><br />
                                     <span class="upper bold data-pp" style="font-size: 1.1em">from Oct/10 to Dec/06 (Saturdays, Sundays and holidays) | 15h | Sesc Pompeia | Convivência</span><br />');?>
 
                     </p>
@@ -188,11 +188,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     </p>',
 
                 //Evento 4 - EN
-                '<p>The exhibitions’ mediators will coordinate workshops for children and adults, introducing dynamics that will explore the issues brought up by the 19th Festival. 
-                </p>
-
-                <p><span class="bold">How to participate</span> registration is free and will be available onsite at 2:30pm with the exhibition’s educators. <span class="bold">Seats are limited</span>.</p>
-                ');  ?> 
+                '<p>A partir de dinâmica lúdica, é feito um levantamento de alguns conceitos estruturais para o conjunto de obras da exposição e os participantes criam definições sobre estes. Os encontros buscam recolher, a partir da fala da amostra de público, ideias, definições e perguntas a respeito dos eixos centrais do festival, que servirão de matéria prima para a construção de um repertório de vocabulário que parta de e proponha reflexões a partir do encontro com as obras. 
+                    </p>
+                    <p><span class="bold">Para participar</span> inscrições gratuitas no local, às 14h30, com os educadores da exposição. <span class="bold">Vagas limitadas.</span>
+                    </p>');  ?> 
                 </div> 
             </div>
 

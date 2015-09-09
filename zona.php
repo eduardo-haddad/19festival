@@ -94,11 +94,11 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
                     <?php pten( 
                     ////Canal VB PT
                     '<p class="f" style="display: inline">
-                    Alimentado ao longo do 19o Festival, o canal de programação on demand reúne documentações audiovisuais sobre o evento, testemunhos de artistas, jurados e curadores participantes, registros das performances que integram a programação e íntegras das mesas do seminário Lugares e sentidos da arte: debates a partir do Sul.</p>',
+                    Alimentado ao longo do 19º Festival, o canal de programação <em>on demand</em> reúne documentações audiovisuais sobre o evento, testemunhos de artistas, jurados e curadores participantes, registros das performances que integram a programação e íntegras das mesas do seminário <em>Lugares e sentidos da arte: debates a partir do Sul</em>.</p>',
 
                     //Canal VB EN
                     '<p class="f" style="display: inline">
-                    Fed throughout the 19th Festival, the channel features on-demand programming including audiovisual documentations of the event, statements from participating artists, jurors and curators, footage of featured performances and full footage of the panels from the seminar Places and meanings of art: debates from the South.</p>');
+                    Fed throughout the 19th Festival, the channel features on-demand programming including audiovisual documentations of the event, statements from participating artists, jurors and curators, footage of featured performances and full footage of the panels from the seminar <em>Places and meanings of art: debates from the South</em>.</p>');
 
                     ?>
                     
@@ -127,7 +127,7 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
                     <?php pten( 
                     ////Plataforma:VB PT
                     '<p class="f" style="display: inline">
-                    A ferramenta on-line de pesquisa coletiva desenvolvida pela Associação Cultural Videobrasil oferece um cardápio de depoimentos, imagens, links, ensaios e outros conteúdos referenciais sobre os artistas e obras do 19o Festival.</p>',
+                    A ferramenta on-line de pesquisa coletiva desenvolvida pela Associação Cultural Videobrasil oferece um cardápio de depoimentos, imagens, links, ensaios e outros conteúdos referenciais sobre os artistas e obras do 19º Festival.</p>',
 
                     //Plataforma:VB EN
                     '<p class="f" style="display: inline">
@@ -160,11 +160,11 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
                     <?php pten( 
                     ////Publicações PT
                     '<p class="f" style="display: inline">
-                    Além das publicações que serão lançadas ao longo do 19o Festival (ver p. 61), o público poderá conhecer exemplos de toda a produção editorial da parceria Sesc_Videobrasil, incluindo os catálogos das edições anteriores do Festival, livros de exposições como Joseph Beuys: a revolução somos nós e Isaac Julien – Geopoéticas, e a coleção da revista Caderno Sesc_Videobrasil.</p>',
+                    Além das publicações que serão lançadas ao longo do 19º Festival, o público poderá conhecer exemplos de toda a produção editorial da parceria Sesc_Videobrasil, incluindo os catálogos das edições anteriores do Festival, livros de exposições como <em>Joseph Beuys: a revolução somos nós</em> e <em>Isaac Julien – Geopoéticas</em>, e a coleção da revista Caderno Sesc_Videobrasil.</p>',
 
                     //Publicações EN
                     '<p class="f" style="display: inline">
-                    Besides the three publications that are part of the 19th Festival’s project (see p. xx), samples of the Sesc_Videobrasil partnership’s entire editorial production will be available to the public, including catalogs from past Festival editions, exhibition books such as Joseph Beuys: we are the revolution and Isaac Julien – Geopoetics, and the Caderno Sesc_Videobrasil magazine collection.</p>');
+                    Besides the three publications that are part of the 19th Festival’s project, samples of the Sesc_Videobrasil partnership’s entire editorial production will be available to the public, including catalogs from past Festival editions, exhibition books such as <em>Joseph Beuys: we are the revolution</em> and <em>Isaac Julien – Geopoetics</em>, and the Caderno Sesc_Videobrasil magazine collection.</p>');
 
                     ?>
                     

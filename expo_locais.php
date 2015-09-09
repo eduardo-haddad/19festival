@@ -86,7 +86,7 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
                     '<p class="titulo">sesc pompeia</p>
                     <p style="display: inline"><span class="bold upper">galpão:</span> <span class="upper">exposição panoramas do sul | artistas convidados</span><br /> 
                     <span class="bold upper">convivência:</span> <span class="upper">exposição panoramas do sul | obras selecionadas + performances</span><br /> 
-                    <span class="bold upper">teatro:</span> <span class="upper">programas de filmes | obras selecionadas e gabriel abrantes</span><br /> <br /> 
+                    <span class="bold upper">teatro:</span> <span class="upper">programas de filmes | GABRIEL ABRANTES E OBRAS SELECIONADAS + PERFORMANCE</span><br /> <br /> 
 
                     
                             Rua Clélia, 93<br />
@@ -103,8 +103,8 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
                     //EXPO 1 EN
                     '<p class="titulo">sesc pompeia</p>
                     <p style="display: inline"><span class="bold upper">galpão:</span> <span class="upper">southern panoramas | guest artists</span><br /> 
-                    <span class="bold upper">convivência:</span> <span class="upper">southern panoramas | selected artworks + performances</span><br /> 
-                    <span class="bold upper">theater:</span> <span class="upper">film programs | selected artworks & gabriel abrantes</span><br /> <br /> 
+                    <span class="bold upper">convivência:</span> <span class="upper">SOUTHERN PANORAMAS | SELECTED WORKS + PERFORMANCES</span><br /> 
+                    <span class="bold upper">theater:</span> <span class="upper">FILM PROGRAMS | GABRIEL ABRANTES & SELECTED WORKS + PERFORMANCE</span><br /> <br /> 
 
                     
                             Rua Clélia, 93<br />
@@ -157,7 +157,7 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
                     //EXPO 2 EN
                     '<p class="titulo">Galpão VB </p>
                     <p style="display: inline"><span class="upper">southern panoramas | comissioned projects<br /> 
-                    film programs | selected artworks & gabriel abrantes</span><br /><br /> 
+                    film programs | selected works & gabriel abrantes</span><br /><br /> 
 
                     Av. Imperatriz Leopoldina, 1150 <br /> 
                     São Paulo, SP, Brazil<br /> 

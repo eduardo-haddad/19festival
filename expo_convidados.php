@@ -162,16 +162,16 @@ $titulo = $idioma == 'pt' ? 'Artistas Convidados' : 'Guest Artists';
                             '<p><span class="upper a">sesc pompeia | galpão</span><br />
                             Rua Clélia, 93<br />
                             São Paulo, SP<br />
-                            tel.: 11 3871 7700 | 0800 11 8220<br /><a href="http://www.sescsp.org.br" target="_blank">www.sescsp.org.br</a></p>
+                            tel.: +55 11 3871 7700 | 0800 11 8220<br /><a href="http://www.sescsp.org.br" target="_blank">www.sescsp.org.br</a></p>
                             <p><br /><span class="upper a">visitação</span><br />
                             de 6 de outubro a 6 de dezembro de 2015<br />
-                            terça a sábado das 10h ás 21h;<br />
+                            terça a sábado das 10h às 21h;<br />
                             domingos e feriados das 10h às 19h</p>',
 
                             '<p><span class="upper a">sesc pompeia | galpão</span><br />
                             Rua Clélia, 93<br />
                             São Paulo, SP, Brazil<br />
-                            phone: 11 3871 7700<br /><a href="http://www.sescsp.org.br" target="_blank">www.sescsp.org.br</a></p>
+                            phone: +55 11 3871 7700<br /><a href="http://www.sescsp.org.br" target="_blank">www.sescsp.org.br</a></p>
                             <p><br /><span class="upper a">visiting hours</span><br />
                             october 6 to december 6, 2015<br />
                             tue-sat, from 10am to 9pm;<br />

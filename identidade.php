@@ -42,6 +42,7 @@ $titulo = $idioma == 'pt' ? 'Identidade' : 'Identity';
                 <div class="col-xs-12">
                     <p class="submenu" style="margin-bottom:21px">
                             <a href="apresentacao.php"><?php pten('Apresentação','Introduction');?></a> | 
+                            <a href="palavrasesc.php"><?php pten('Palavra do Sesc','Word from Sesc');?></a> | 
                             <a href="curadoria.php"><?php pten('Curadoria','Curators');?></a> | 
                             <a href="identidade.php"><span style="text-decoration: underline"><?php pten('Identidade Visual','Visual Identity');?></span></a> | 
                             <a href="realizacao.php"><?php pten('Realização','Undertaking');?></a> | 

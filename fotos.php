@@ -1,7 +1,7 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
-$titulo = $idioma == 'pt' ? 'Fotos e Vídeos' : 'Photos and Videos';
+$titulo = $idioma == 'pt' ? 'Fotos e Vídeos' : 'Footage and Pictures';
 
 ?>
 

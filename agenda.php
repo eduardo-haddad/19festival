@@ -141,7 +141,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <li class="agenda-filme">16h15 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #3</li>
                     <li class="agenda-abertura">19h | Galpão VB | Abertura da exposição Panoramas do Sul | Projetos Comissionados</li>
                     <li class="agenda-publicacao">19h | Galpão VB | Lançamento do livro Videobrasil: três décadas de vídeo, arte, encontros e transformações</li>
-                    <li class="agenda-filme">19h | Galpão VB | Abertura do Programa de Filmes | Gabriel Abrantes | Ὄρνιθες (Ornithes – Birds)</li>
+                    <li class="agenda-filme">19h | Galpão VB | Abertura do Programa de Filmes | Gabriel Abrantes | Olympia I & II</li>
                     </ol>
                     <ol>
                     <li>9 de outubro, sexta-feira</li>

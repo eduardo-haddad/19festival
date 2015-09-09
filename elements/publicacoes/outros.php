@@ -47,13 +47,13 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <img src="img/publicacoes/vb30.png" class="img-responsive" style="margin-bottom: 15px" />
 
                     <p style="margin-top: 25px; margin-bottom: 25px;"><?php pten(
-                    'Edições Sesc-SP e Associação Cultural Videobrasil<br />
+                    'Edições Sesc São Paulo e Associação Cultural Videobrasil<br />
                     2014-15, 352 páginas<br />
                     português/inglês<br />
                     ISBN 978-85-7995-180-0<br />
                     largura: 18,5cm, altura: 23,5cm, lombada: 23cm x 2,5cm</p>',
 
-                    'Edições Sesc-SP and Associação Cultural Videobrasil<br />
+                    'Edições Sesc São Paulo and Associação Cultural Videobrasil<br />
                     2014-15, 352 pages<br />
                     Portuguese/English<br />
                     ISBN 978-85-7995-180-0<br />
@@ -110,12 +110,12 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <img src="img/publicacoes/caderno11.png" class="img-responsive" style="margin-bottom: 15px" />    
 
                     <p style="margin-top: 25px; margin-bottom: 25px;"><?php pten(
-                    'Edições Sesc-SP e Associação Cultural Videobrasil<br />
+                    'Edições Sesc São Paulo e Associação Cultural Videobrasil<br />
                     2015, 144 páginas<br />
                     português/inglês<br />
                     </p>',
 
-                    'Edições Sesc-SP and Associação Cultural Videobrasil<br />
+                    'Edições Sesc São Paulo and Associação Cultural Videobrasil<br />
                     2015, 144 pages<br />
                     Portuguese/English<br />
                     </p>'); ?>
@@ -130,14 +130,14 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-sm-12 col-md-6 publicacao g" style="float: right;">         
                 <?php
                 //Publicação 2 - PT
-                pten('<p>Com curadoria do escritor e curador peruano Miguel Angel López, o 11ª Caderno Sesc_Videobrasil se propõe observar como o feminismo, o ativismo gay, a pós-pornografia e outras formas de resposta crítica a partir do corpo estão transformando os discursos da história da arte e a gramática da arte em si. A publicação mescla ensaios teóricos e propostas visuais que revisitam iniciativas queer na arte ou propõem novas visões da história da arte à luz dessas respostas críticas. Apresentado por Angel Lopez na 31a Bienal de São Paulo, o Museo Travesti del Perú, de Giuseppe Campuzano, ganha formato impresso na publicação.</p>
+                pten('<p>Com curadoria do escritor e curador peruano Miguel Angel López, o 11ª Caderno Sesc_Videobrasil se propõe observar como o feminismo, o ativismo gay, a pós-pornografia e outras formas de resposta crítica a partir do corpo estão transformando os discursos da história da arte e a gramática da arte em si. A publicação mescla ensaios teóricos e propostas visuais que revisitam iniciativas queer na arte ou propõem novas visões da história da arte à luz dessas respostas críticas. Apresentado por Angel Lopez na 31ª Bienal de São Paulo, o Museo Travesti del Perú, de Giuseppe Campuzano, ganha formato impresso na publicação.</p>
                 
                 <br /><p style="display: inline"><span class="upper">Curador</span> Miguel A. López</p><br />
                 <p style="display: inline"><span class="upper">COLABORADORES</span> Fernanda Nogueira, Catherine Lord, Paul Preciado, Aimar Arriola, Las Serigrafistas Queer, CUDS, Julia Bryan-Wilson, Ming Wong</p><br />
                 <p style="display: inline"><span class="upper">PROJETO GRÁFICO E DESIGN</span> Luciana Facchini</p><br />
                 <!-- <p style="text-align: right; font-size: 1.1em" class="bold upper">Saiba+</p><br /> -->
                 <br /><p><span class="bold upper">lançamento</span> | 25/NOV (quarta) | 20h | Sesc Pompeia | Teatro<br />
-                *evento de lançamento inclui a performance <em>Fancy em Pyetà segundo ato</em>, de Fancy Violence (Rodolpho Parigi) e mesa de abertura com Miguel Lopez (curador da publicação), Julia Bryan-Wilson (colaboradora) e Teté Martinho (coordenadora editorial do Videobrasil)</p>',
+                *evento de lançamento inclui a performance <em>Fancy em Pyetà segundo ato</em>, de Rodolpho Parigi e mesa de abertura com Miguel Lopez (curador da publicação), Julia Bryan-Wilson (colaboradora) e Teté Martinho (coordenadora editorial do Videobrasil)</p>',
 
                 //Publicação 2 - EN
                 '<p>Curated by the Peruvian writer and curator Miguel Angel López, the 11th Caderno Sesc_Videobrasil looks at how feminism, gay activism, post-pornography and other body-based critical reactions are transforming the discourses of art history and the grammar of art itself. The publication features theoretical essays and visual propositions that revisit queer art initiatives or put forth new views of art history in the light of these critical responses. Presented by Angel Lopez during the 31st São Paulo Art Biennial, Giuseppe Campuzano’s Museo Travesti del Perú is featured in printed format on this volume.</p>
@@ -146,7 +146,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <p style="display: inline"><span class="upper">COLLABORATORS</span> Fernanda Nogueira, Catherine Lord, Paul Preciado, Aimar Arriola, Las Serigrafistas Queer, CUDS, Julia Bryan-Wilson, Ming Wong</p><br />
                 <p style="display: inline"><span class="upper">GRAPHIC CONCEPT AND DESIGN</span> Luciana Facchini</p><br />
                 <!-- <p style="text-align: right; font-size: 1.1em" class="bold upper">Learn more</p><br /> -->
-                <br /><p><span class="bold upper">Launch</span> | NOV/25 (wed) | 20h | Sesc Pompeia | Theater<br />*the event includes the performance <em>Fancy em Pyetà segundo ato</em>, by Fancy Violence (Rodolpho Parigi), and a talk with Miguel Lopez (the publication\'s curator), Julia Bryan-Wilson (collaborator), and Teté Martinho (Videobrasil\'s editorial coordinator)</p>');  ?> 
+                <br /><p><span class="bold upper">Launch</span> | NOV/25 (wed) | 20h | Sesc Pompeia | Theater<br />*the event includes the performance <em>Fancy em Pyetà segundo ato</em>, by Rodolpho Parigi, and a talk with Miguel Lopez (the publication\'s curator), Julia Bryan-Wilson (collaborator), and Teté Martinho (Videobrasil\'s editorial coordinator)</p>');  ?> 
                 </div> 
             </div>
 

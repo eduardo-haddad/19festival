@@ -61,7 +61,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         <div style="display: table-cell; vertical-align: middle;">
                             <div class="titulo-aviso">  
                                 <?php
-                                ob_start(); titulo('confira a lista dos premiados apos a cerimonia de premiacao dia 11 de outubro'); $titulo_pt = ob_get_clean();
+                                ob_start(); titulo('confira a lista de artistas premiados depois de 11 de outubro'); $titulo_pt = ob_get_clean();
                                 ob_start(); titulo('check the list of awarded artists after october 11'); $titulo_en = ob_get_clean();
                                 pten($titulo_pt, $titulo_en); 
                                 ?>
@@ -175,7 +175,14 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <!-- APOIADOR -->
                 <div class="row" style="clear: both; margin-bottom: 25px;"> 
                             <div class="col-sm-12 col-md-6" style="float: left; "><img class="img-responsive retrato-artista" src="img/residencias/china.png" style="margin-bottom: 0px" /></div>
-                            <div class="col-sm-12 col-md-6" style="float: right; text-align: left"><span class="bold">China Art Foundation</span><br /></div>
+                            <div class="col-sm-12 col-md-6" style="float: right; text-align: left">
+                            <p><span class="bold">China Art Foundation</span><br />
+                            <?php pten(
+                                'A China Art Foundation tem como objetivos ajudar a garantir que o intenso interesse global na arte contemporânea e na cultura da China tenham um futuro sustentável, e ajudar a aumentar o conhecimento e a compreensão, nos campos da arte e da cultura, entre a China e o resto do mundo. O impulso por trás da criação da fundação foi o reconhecimento comum de que a transformação sem precedentes pela qual a China está passando levanta questões culturais para o país e para o resto do mundo.',
+                                'China Art Foundation’s aims are to help ensure that the intense global interest in contemporary Chinese art and culture has a sustainable future, and to help increase two–way knowledge and understanding between China and the rest of the world, in the arena of art and culture. The impulse behind the setting up of the Foundation was the common recognition that the unprecedented transformation through which China is passing raises cultural issues for said country and for the rest of the world.');
+                                ?>
+                            </p>
+                            </div>
                 </div>
                 <!-- APOIADOR -->
 
@@ -221,10 +228,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <p style="margin-bottom:0"> 
                         <?php pten( //Titulo prêmio - PT
                                     '<span class="titulo premio-nome">Prêmio de Residência Vila Sul – Goethe-Institut</span><br />
-                                    <span class="premio-local" style="text-transform: uppercase;font-size: 1.1em;">na Residência Vila Sul (Salvador, Brasil)</span>', 
+                                    <span class="premio-local" style="text-transform: uppercase;font-size: 1.1em;">na Residence Vila Sul (Salvador, Brasil)</span>', 
                                     //Titulo prêmio - EN
                                     '<span class="titulo premio-nome">Goethe-Institut Residency Prize</span><br />
-                                    <span class="premio-local" style="text-transform: uppercase;font-size: 1.1em;">at Residência Vila Sul (Salvador, Brazil)</span>'); 
+                                    <span class="premio-local" style="text-transform: uppercase;font-size: 1.1em;">at Residence Vila Sul (Salvador, Brazil)</span>'); 
                         ?>
                     </p>
                 </div>

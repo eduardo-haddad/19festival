@@ -40,56 +40,52 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" >
                 <div class="col-md-6" style="margin-top: 0">
-                    <div class="col-xs-12 titulo" style="float: left;margin-left: -16px;">
-                        <p style="margin-bottom:0">
+                    
+                        <p class="titulo">
                            <?php pten('CONTATO', 'CONTACT');  ?>
                         </p>
-                    </div>
+                    
                     
                         <?php pten(
-                        '<p class="f"><span class="bold">Assessoria de Imprensa | Sesc Pompeia</span><br />
-                         Coordenação: Roberta Della Noce <br />
-                         (11) 3871-7740<br />
-                         Assessores: Igor Cruz e Fernanda Porta Nova<br />
-                         (11) 3871-7776 e 7720<br />
-                         imprensa@pompeia.sescsp.org.br</p>
-                         
+                        '<p class="f"><span class="bold">A4 Comunicação | Assessoria de Imprensa</span><br />
+                         Direção: Neila Carvalho | neilacarvalho@a4com.com.br<br />
+                         Coordenação: Danilo Thomaz | danilothomaz@a4com.com.br<br /> 
+                         Tel: +55 11 3897-4122</p>
                          
                          <p class="f"><span class="bold">Comunicação | Associação Cultural Videobrasil</span><br />
                          Coordenação: Ana Paula Vargas | paula@videobrasil.org.br<br />
                          Redação: Deborah Moreira | deborah@videobrasil.org.br<br />
                          Desenvolvimento web: Eduardo Haddad | eduardo@videobrasil.org.br<br />
-                         Mídias Sociais: Kátia Kônig | katia@videobrasil.org.br 
-                         comunicacao@videobrasil.org.br<br />
-                         Tel: +55 11 3465 0516</p>
-                         
-                         
-                         <p style="margin-bottom: 30px" class="f"><span class="bold">A4 Comunicação | Assessoria de Imprensa</span><br />
-                         Direção: Neila Carvalho | neilacarvalho@a4com.com.br<br />
-                         Coordenação: Danilo Thomaz | danilothomaz@a4com.com.br<br /> 
-                         Tel: +55 11 3897-4122</p>', 
+                         Mídias Sociais: Kátia Kônig | katia@videobrasil.org.br <br />
+                         Tel: +55 11 3465 0516<br />
+                         comunicacao@videobrasil.org.br</p>
 
-                        '<p class="f"><span class="bold">Assessoria de Imprensa | Sesc Pompeia</span><br />
+                         <p class="f"><span class="bold">Assessoria de Imprensa | Sesc Pompeia</span><br />
                          Coordenação: Roberta Della Noce <br />
                          (11) 3871-7740<br />
                          Assessores: Igor Cruz e Fernanda Porta Nova<br />
                          (11) 3871-7776 e 7720<br />
-                         imprensa@pompeia.sescsp.org.br</p>
+                         imprensa@pompeia.sescsp.org.br</p>', 
+
+                        '<p class="f"><span class="bold">Press relations | A4 Comunicação</span><br />
+                         Director: Neila Carvalho | neilacarvalho@a4com.com.br<br />
+                         Coordinator: Danilo Thomaz | danilothomaz@a4com.com.br<br /> 
+                         phone: +55 11 3897-4122</p>
                          
-                         
-                         <p class="f"><span class="bold">Comunicação | Associação Cultural Videobrasil</span><br />
-                         Coordenação: Ana Paula Vargas | paula@videobrasil.org.br<br />
-                         Redação: Deborah Moreira | deborah@videobrasil.org.br<br />
-                         Desenvolvimento web: Eduardo Haddad | eduardo@videobrasil.org.br<br />
-                         Mídias Sociais: Kátia Kônig | katia@videobrasil.org.br 
-                         comunicacao@videobrasil.org.br<br />
-                         Tel: +55 11 3465 0516</p>
-                         
-                         
-                         <p style="margin-bottom: 30px" class="f"><span class="bold">A4 Comunicação | Assessoria de Imprensa</span><br />
-                         Direção: Neila Carvalho | neilacarvalho@a4com.com.br<br />
-                         Coordenação: Danilo Thomaz | danilothomaz@a4com.com.br<br /> 
-                         Tel: +55 11 3897-4122</p>'); 
+                         <p class="f"><span class="bold">Communications | Associação Cultural Videobrasil</span><br />
+                         Coordinator: Ana Paula Vargas | paula@videobrasil.org.br<br />
+                         Staff writer: Deborah Moreira | deborah@videobrasil.org.br<br />
+                         Web development: Eduardo Haddad | eduardo@videobrasil.org.br<br />
+                         Social media: Kátia Kônig | katia@videobrasil.org.br <br />
+                         phone: +55 11 3465 0516<br />
+                         comunicacao@videobrasil.org.br</p>
+
+                         <p class="f"><span class="bold">Communications | Sesc Pompeia</span><br />
+                         Coordinator: Roberta Della Noce <br />
+                         phone: +55 11 3871 7740<br />
+                         Press relations: Igor Cruz, Fernanda Porta Nova<br />
+                         phone: +55 11 3871 7776 / 55 11 3871 7720<br />
+                         imprensa@pompeia.sescsp.org.br</p>'); 
 
                         ?>
                     

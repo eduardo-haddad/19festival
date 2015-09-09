@@ -55,7 +55,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         <div style="display: table-cell; vertical-align: middle;">
                             <div class="titulo-aviso">  
                                 <?php
-                                ob_start(); titulo('confira a lista dos premiados apos a cerimonia de premiacao dia 11 de outubro'); $titulo_pt = ob_get_clean();
+                                ob_start(); titulo('confira a lista de artistas premiados depois de 11 de outubro'); $titulo_pt = ob_get_clean();
                                 ob_start(); titulo('check the list of awarded artists after october 11'); $titulo_en = ob_get_clean();
                                 pten($titulo_pt, $titulo_en); 
                                 ?>

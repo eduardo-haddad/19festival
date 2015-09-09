@@ -48,12 +48,12 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <img src="img/publicacoes/leituras.png" class="img-responsive" style="margin-bottom: 15px" />    
 
                     <p style="margin-top: 25px; margin-bottom: 25px;"><?php pten(
-                    'Edições Sesc-SP e Associação Cultural Videobrasil<br />
+                    'Edições Sesc São Paulo e Associação Cultural Videobrasil<br />
                     2015, 288 páginas<br />
                     português/inglês<br />
                     largura: 15,5cm, altura: 21cm</p>',
 
-                    'Edições Sesc-SP and Associação Cultural Videobrasil<br />
+                    'Edições Sesc São Paulo and Associação Cultural Videobrasil<br />
                     2015, 288 pages<br />
                     Portuguese/English<br />
                     width: 15.5cm, height: 21cm</p>'); ?>
@@ -114,12 +114,12 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <img src="img/publicacoes/convidados.png" class="img-responsive" style="margin-bottom: 15px" />    
 
                     <p style="margin-top: 25px; margin-bottom: 25px;"><?php pten(
-                    'Edições Sesc-SP e Associação Cultural Videobrasil<br />
+                    'Edições Sesc São Paulo e Associação Cultural Videobrasil<br />
                     2015, 144 páginas<br />
                     português/inglês<br />
                     largura: 24cm, altura: 33cm</p>',
 
-                    'Edições Sesc-SP and Associação Cultural Videobrasil<br />
+                    'Edições Sesc São Paulo and Associação Cultural Videobrasil<br />
                     2015, 144 pages<br />
                     Portuguese/English<br />
                     width: 24cm, height: 33cm</p>'); ?>
@@ -178,12 +178,12 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <img src="img/publicacoes/obras_projetos.png" class="img-responsive" style="margin-bottom: 15px" />    
 
                     <p style="margin-top: 25px; margin-bottom: 25px;"><?php pten(
-                    'Edições Sesc-SP e Associação Cultural Videobrasil<br />
+                    'Edições Sesc São Paulo e Associação Cultural Videobrasil<br />
                     2015, 320 páginas<br />
                     português/inglês<br />
                     largura: 18cm, altura: 23cm</p>',
 
-                    'Edições Sesc-SP and Associação Cultural Videobrasil<br />
+                    'Edições Sesc São Paulo and Associação Cultural Videobrasil<br />
                     2015, 320 pages<br />
                     Portuguese/English<br />
                     width: 18cm, height: 23cm</p>'); ?>

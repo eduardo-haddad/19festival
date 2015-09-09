@@ -59,6 +59,7 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
                 <div class="col-xs-12">
                     <p class="submenu" style="margin-bottom:21px">
                             <a href="apresentacao.php"><?php pten('Apresentação','Introduction');?></a> | 
+                            <a href="palavrasesc.php"><?php pten('Palavra do Sesc','Word from Sesc');?></a> | 
                             <a href="curadoria.php"><span style="text-decoration: underline"><?php pten('Curadoria','Curators');?></span></a> | 
                             <a href="identidade.php"><?php pten('Identidade Visual','Visual Identity');?></a> | 
                             <a href="realizacao.php"><?php pten('Realização','Undertaking');?></a> | 
@@ -82,7 +83,7 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
             <div class="row" style="clear: both;margin-top: 13px">
 
                 <div class="col-sm-12 col-md-6" >
-                    <img src="img/sobre/solange.jpg" class="img-responsive retrato-artista" style="max-width: 485px; margin-bottom: 15px;" />
+                    <!-- <img src="img/sobre/solange.jpg" class="img-responsive retrato-artista" style="max-width: 485px; margin-bottom: 15px;" /> -->
                 </div>
 
                 <div class="col-sm-12 col-md-6 h" style="float: right;">
@@ -98,7 +99,7 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
                     <?php pten(////SOLANGE PT                                              
                         '<p class="f">O viés
                         geopolítico que aproxima regiões de passado colonial em um heterogêneo conjunto de sotaques afins é uma ideia que guia o
-                        Festival de Arte Contemporânea Sesc_Videobrasil desde os anos 1990. O 19o Festival dedica-se inteiramente a colocar em
+                        Festival de Arte Contemporânea Sesc_Videobrasil desde os anos 1990. O 19º Festival dedica-se inteiramente a colocar em
                         diálogo vertentes diversas da produção recente desta região simbólica. Os Panoramas do Sul se estendem, assim, a três
                         exposições, que reúnem obras selecionadas a partir de convocatória aberta, projetos que o Festival escolheu para
                         comissionar e trabalhos de cinco artistas convidados: o malinês Abdoulaye Konaté, os brasileiros Sônia Gomes e Rodrigo
@@ -108,7 +109,7 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
                         Souza, Bitu Cassundé, João Laia e Júlia Rebouças, pela primeira vez responsáveis pelos três segmentos expositivos do
                         Festival. O edital para comissionamento de projetos, que amplia o espectro de ação do Videobrasil e dá novo sentido a
                         sua pesquisa curatorial, e o lançamento do primeiro livro da série Panoramas do Sul | Leituras, com ensaios dedicados à
-                        ideia do Sul geopolítico na arte, são outras mudanças importantes na estrutura desta edição do Festival. O 19o
+                        ideia do Sul geopolítico na arte, são outras mudanças importantes na estrutura desta edição do Festival. O 19º
                         Videobrasil marca, ainda, a abertura do Galpão VB, espaço que passa a abrigar uma série de atividades permanentes de
                         pesquisa e ativação do Acervo Videobrasil. As exposições e programas de filme do Festival se dividem entre o Sesc
                         Pompeia e o Galpão VB, assim como as atividades, encontros e ferramentas que ativam e exploram suas exposições,
@@ -117,7 +118,7 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
                         Festival, reúne uma seleção de obras do Acervo Videobrasil que, de alguma forma, reverberam os temas dos Panoramas do
                         Sul. A curadoria de Diego Matos reafirma a política de reforçar o diálogo entre a coleção e a produção contemporânea.</p>
 
-                        <p class="f">Para além de um conjunto coeso, o que resulta da experiência de dedicar o 19o Festival à produção do Sul é um panorama
+                        <p class="f">Para além de um conjunto coeso, o que resulta da experiência de dedicar o 19º Festival à produção do Sul é um panorama
                         instigante das estratégias, contranarrativas e indagações que, muitas vezes em sutil sintonia, artistas de trajetórias
                         mais e menos consolidadas mobilizam para confrontar a realidade contemporânea. </p>',
 
@@ -169,12 +170,32 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
                 <div class="col-sm-12 col-md-6 titulo" style="float: left ">
 
                     <p style="margin-bottom:0">
-                            <?php pten('curadores convidados', 'guest curators'); ?>
+                            <?php pten('sobre os curadores', 'about the curators'); ?>
                     </p>
 
                 </div>
                 
             </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6" style="text-align: center; float: left ">
+                    <img src="img/sobre/solange.jpg" class="img-responsive retrato-artista" style=" margin-bottom: 25px;"  />
+                </div>
+                <div class="col-sm-12 col-md-6 s curador2" style="float: right;margin-bottom: 24px">
+
+                <?php // SOLANGE PT 
+                pten('<p style="margin-bottom: 0">
+                    <span class="bold">Solange Farkas</span> (vive e trabalha em São Paulo, Brasil)<br />
+                    É curadora e diretora da Associação Cultural Videobrasil. Criou o Festival Internacional de Arte Contemporânea SESC_Videobrasil, evento de que é curadora-geral e que trouxe ao Brasil grandes nomes da arte contemporânea internacional. Foi responsável pelas exposições Sophie Calle – Cuide de Você (2009) e Joseph Beuys – A Revolução Somos Nós (2010). Em sua carreira como curadora, destacam-se a Mostra Africana de Arte Contemporânea (São Paulo, 2000); Mostra Pan-Africana de Arte Contemporânea (Salvador, 2005); La Mirada Discreta: Marcel Odenbach & Robert Cahen (Buenos Aires, 2006); Eder Santos – Roteiro Amarrado (Rio de Janeiro, 2010), Isaac Julien: Geopoéticas (São Paulo, 2012) e Alfabeto Infinito | Angela Detanico e Rafael Lain (Porto Alegre, 2013) e Videobrasil 30 anos (2013/2014), que teve itinerâncias em Varsóvia, Polônia; Atlanta, EUA; Joanesburgo e Cidade do Cabo, África do Sul e Beijing, China. Foi curadora convidada pelo 5º Videozone: International Video Art Biennial (Israel, 2010), pela 16ª Bienal de Cerveira (Portugal, 2011), pela 10ª Bienal de Charjah (Emirados Árabes Unidos, 2011), pelo 3º Festival de Videoarte de Macau (China, 2012) e pelo Screen from Barcelona Festival (Espanha, 2012). Foi diretora e curadora-chefe do Museu de Arte Moderna da Bahia (Salvador, 2007 a 2010). Participou de programação em homenagem ao Videobrasil no Festival de la Imagen (Manizales, Colômbia, 2013). No mesmo ano, o 6th Jakarta International Video Festival teve mostra com curadoria de Solange Farkas, bem como a FUSO, anual de videoarte em Lisboa que repetiu a parceria com a curadora e com a Associação Cultural Videobrasil em 2014.
+                    </p>', 
+                    // SOLANGE EN
+                    '<p style="margin-bottom: 0"><span class="bold">Solange Farkas</span><br />(lives and works out of São Paulo, Brazil)<br />
+                    Curator and director of Associação Cultural Videobrasil. She was the founder and is the general curator of the International Contemporary Art Festival Sesc_Videobrasil, an event which has brought leading international contemporary artists to Brazil. She was responsible for the exhibitions Sophie Calle – Take care of yourself (2009) and Joseph Beuys – We Are the Revolution (2010). The highlights of her curating career include the African Contemporary Art Exhibition (São Paulo, 2000); Pan African Contemporary Art Exhibition (Salvador, 2005); La Mirada Discreta: Marcel Odenbach & Robert Cahen (Buenos Aires, 2006); Eder Santos – Roteiro Amarrado (Rio de Janeiro, 2010), Isaac Julien: Geopoetics (São Paulo, 2012), Alfabeto Infinito | Angela Detanico e Rafael Lain (Porto Alegre, 2013) and Videobrasil 30 years (2013/2014), which spun off touring shows in Warsaw, Poland; Atlanta, USA; Johannesburg and Cape Town, South Africa, and Beijing, China. She served as a guest curator at the 5th Videozone: International Video Art Biennial (Israel, 2010), the 16th Cerveira Biennial (Portugal, 2011), the 10th Sharjah Biennial (United Arab Emirates, 2011), the 3rd Macao Video Art Festival (China, 2012) and Screen from Barcelona Festival (Spain, 2012). She is a former director and chief curator of the Bahia Modern Art Museum (Salvador, 2007 to 2010). She participated in a program in honor of Videobrasil at the Festival de la Imagen (Manizales, Colombia, 2013). In that same year, the 6th Jakarta International Video Festival featured a program curated by Solange Farkas, as did FUSO, the annual video art exhibit in Lisbon, which partnered up with the curator and Associação Cultural Videobrasil again in 2014.</p>');                     
+                    ?>                 
+                    </div>
+            </div>
+
+            <div style="margin-bottom: 11px"></div>
 
 
             <div class="row">
@@ -186,33 +207,11 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
                 <?php // BERNARDO PT 
                 pten('<p style="margin-bottom: 0">
                     <span class="bold">Bernardo José de Souza</span> (vive e trabalha no Rio de Janeiro, Brasil)<br />
-                    É curador
-                    independente, professor universitário e colaborador de publicações sobre cultura visual. Foi curador do Espaço na 9ª
-                    Bienal do Mercosul (Porto Alegre, 2013), coordenador de Cinema, Vídeo e Fotografia da Secretaria de Cultura da
-                    Prefeitura de Porto Alegre (2005 a 2009) e colaborador da revista Vogue e do jornal Folha de S.Paulo. Bacharel em
-                    Comunicação Social pela Pontifícia Universidade Católica do Rio Grande do Sul e especialista em Fotografia e Moda pelo
-                    London College of Fashion, é membro do conselho curador do Museu de Arte Contemporânea do Rio Grande do Sul. Nos últimos
-                    dez anos, vem desenvolvendo uma série de projetos em parceria com instituições como o KW Institute for Contemporary Art
-                    (Berlim, Alemanha), o Instituto Goethe (Porto Alegre, Brasil) e o Instituto Inhotim (Brumadinho, Brasil). Foi curador de
-                    cinco edições do projeto Videoarte nos Jardins do DMAE. Como curador independente, realizou as exposições Ponto de Fuga
-                    na Galeria de Arte da Fundação Ecarta (Porto Alegre, 2011), Guy Bourdin (2011) e Mutatis Mutandis (2013), ambas no Largo
-                    das Artes (Rio de Janeiro), entre outras. Organizou o seminário RODA – Rodadas de Debates Sobre Arte (Porto Alegre,
-                    2012).
+                    É curador de arte, professor universitário e escreve para publicações sobre cultura visual. Bacharel em Comunicação Social pela Pontifícia Universidade Católica do Rio Grande do Sul (PUC-RS) e especialista em Fotografia e Moda pela London College of Fashion - University of the Arts, Reino Unido. É membro dos conselhos curadores do Museu de Arte Contemporânea do Rio Grande do Sul (MACRS), Porto Alegre, Brasil;  e da Fundação Vera Chaves Barcellos (FVCB), na mesma cidade.  Sua atividade no campo das artes visuais inclui a organização de exposições, festivais de cinema, seminários, publicações e programas educativos. Foi curador da 9ª Bienal do Mercosul, 2013, Porto Alegre, e coordenador de Cinema, Vídeo e Fotografia da Secretaria de Cultura da Prefeitura da capital gaúcha. Escreve para publicações sobre cultura visual, colaborando para revistas como Vogue, URBE, VOX e para o jornal Folha de São Paulo. É professor da Escola Superior de Propaganda e Marketing (ESPM), tendo lecionado na Pontifícia Universidade Católica do Rio Grande do Sul (PUC-RS), na Universidade do Vale do Rio dos Sinos (Unisinos), e no SENAC - São Paulo.  Vive e trabalha no Rio de Janeiro.
                     </p>', 
                     // BERNARDO EN
                     '<p style="margin-bottom: 0"><span class="bold">Bernardo José de Souza</span><br />(lives and works out of Rio de Janeiro, Brazil)<br />
-                    Independent curator, university professor and collaborator with publications on visual culture. He
-                    curated Espaço at the 9th Mercosur Biennial (Porto Alegre, 2013), served as coordinator of Film, Video and Photography
-                    at the Secretariat for Culture of the Porto Alegre City Hall (2005 to 2009) and collaborated for Vogue magazine and
-                    newspaper Folha de S.Paulo. The holder of a baccalaureate in Social Communication from the Pontifical Catholic
-                    University of Rio Grande do Sul and a specialization in Photography and Fashion from the London College of Fashion, and
-                    is a member of the board of curators of the Contemporary Art Museum of Rio Grande do Sul. For the past ten years, he has
-                    been working on several projects in partnership with organizations like the KW Institute for Contemporary Art (Berlin,
-                    Germany), Goethe Institut (Porto Alegre, Brazil) and the Inhotim Institute (Brumadinho, Brazil). He curated five
-                    editions of the Videoarte nos Jardins do DMAE (Video Art on the DMAE Gardens) project. As independent curator, he
-                    curated the shows Ponto de Fuga at Fundação Ecarta’s Art Gallery (Porto Alegre, 2011), Guy Bourdin (2011) and Mutatis
-                    Mutandis (2013), both at Largo das Artes (Rio de Janeiro), among others. He organized the art seminar RODA – Rodadas de
-                    Debates Sobre Arte (Porto Alegre, 2012).</p>');                     
+                    Art curator, university professor and writer for publications on visual culture. Holds a baccalaureate degree in Social Communication from the Pontifical Catholic University in Rio Grande do Sul (PUC-RS) and a specialization in Photography and Fashion from the London College of Fashion - University of the Arts, United Kingdom. Member of the boards of curators of the Museum of Contemporary Art of Grande do Sul (MACRS), Porto Alegre, Brazil; and of Fundação Vera Chaves Barcellos (FVCB), in the same city.  His work in the visual arts field includes organizing exhibitions, film festivals, seminars, publications and educational programs. Served as curator for the 9th Mercosul Biennial, 2013, Porto Alegre, and as coordinator for Cinema, Video and Photography at the Secretariat for Culture of the Porto Alegre City Hall. Writes for visual culture publications, collaborating with magazines like Vogue, URBE, VOX and the Folha de São Paulo newspaper. He is a professor at Escola Superior de Propaganda e Marketing (ESPM), and was formerly a professor at the Pontifical Catholic University of Rio Grande do Sul (PUC-RS), Universidade do Vale do Rio dos Sinos (Unisinos), and SENAC - São Paulo.  He lives and works in Rio de Janeiro.</p>');                     
                     ?>                 
                     </div>
                     </div>
@@ -227,41 +226,11 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
                 <?php // BITU PT                    
                 pten('<p style="margin-bottom: 0">                     
                     <span class="bold">Bitu Cassundé</span> (vive e trabalha em Fortaleza, Brasil)<br />
-                    Carlos Eduardo Bitu Cassundé é curador do Museu de Arte Contemporânea do Ceará
-                    (Fortaleza, Brasil) e coordenador do Laboratório de Artes Visuais do Porto Iracema das Artes (Fortaleza, Brasil). Mestre
-                    pela Escola de Belas Artes da Universidade Federal de Minas Gerais, foi curador assistente e coordenador de pesquisa no
-                    Museu de Arte Contemporânea do Ceará (Fortaleza, 1998 a 2007), integrou a equipe curatorial do Programa Rumos Artes
-                    Visuais do Itaú Cultural (São Paulo, 2008 a 2009) e dirigiu o Museu Murillo La Greca (Recife, 2009 a 2011). Seus últimos
-                    projetos curatoriais foram: Leonilson – Sob o peso dos meus amores no Itaú Cultural (São Paulo, 2011) e na Fundação
-                    Iberê Camargo (Porto Alegre, 2012), Metrô de Superfície no Paço das Artes (São Paulo, 2012), Metrô de Superfície II no
-                    Centro Cultural São Paulo (São Paulo, 2013), Rotas: desvios e outros ciclos e Leonilson Inflamável, ambas no Museu de
-                    Arte Contemporânea do Ceará (Fortaleza, 2013). Integrou diversos júris pelo país, dentre eles o de premiação CNI SESI
-                    Marcantonio Vilaça (2011/2012). Com Clarissa Diniz formou a coleção contemporânea do Centro Cultural Banco do Nordeste,
-                    vinculado ao projeto Metrô de Superfície. Atualmente participa da equipe curatorial da 5º edição do Prêmio CNI SESI
-                    SENAI Marcantonio Vilaça.</p>',
+                    É curador e pesquisador. Concluiu mestrado pela Escola de Belas Artes da Universidade Federal de Minas Gerais (UFMG), Belo Horizonte, Brasil. É curador do Museu de Arte Contemporânea do Ceará - Centro Cultural Dragão do Mar (MAC-CE), Fortaleza, Brasil, onde foi curador assistente e coordenador de pesquisa entre 1998 e 2007. Coordena o Laboratório de Artes Visuais do Porto Iracema das Artes, na mesma cidade. Integrou a equipe curatorial do Programa Rumos Artes Visuais, em São Paulo, entre 2008 e 2009. Entre 2009 e 2011, dirigiu o Museu Murillo La Greca, em Recife. Integrou diversos júris, entre os quais o da 4ª edição do prêmio Marcantonio Vilaça. Junto com Clarissa Diniz, formou a coleção contemporânea do Centro Cultural Banco do Nordeste, vinculado ao projeto Metrô de Superfície. Vive e trabalha em Fortaleza.</p>',
 
                     //BITU EN
                     '<p style="margin-bottom: 0"><span class="bold">Bitu Cassundé</span> (lives and works out of Fortaleza, Brazil)<br />
-                    Carlos Eduardo Bitu Cassundé is the curator
-                    of the Contemporary Art Museum of Ceará (Fortaleza, Brazil) and coordinator of
-                    Porto Iracema das Artes’ Visual Arts Laboratory (Fortaleza, Brazil). The
-                    holder of a master’s degree from the School of Fine Arts of the Federal
-                    University of Minas Gerais, he served as assistant curator and research
-                    assistant at the Contemporary Art Museum of Ceará (Fortaleza, 1998 to 2007),
-                    was a member of the curating team for Itaú Cultural’s visual arts program
-                    Programa Rumos Artes Visuais (São Paulo, 2008 to 2009) and the director of
-                    Museu Murillo La Greca (Recife, 2009 to 2011). Recent curating projects
-                    include: Leonilson – Sob o peso dos meus amores at Itaú Cultural (São Paulo,
-                    2011) and at the Iberê Camargo Foundation (Porto Alegre, 2012), Metrô de
-                    Superfície at Paço das Artes (São Paulo, 2012), Metrô de Superfície II at the
-                    São Paulo Cultural Center (São Paulo, 2013), Rotas: desvios e outros ciclos
-                    and Leonilson Inflamável, both at the Contemporary Art Museum of Ceará
-                    (Fortaleza, 2013). He was a member of the juries for several festivals across
-                    the country, including the CNI SESI Marcantonio Vilaça award jury (2011/2012).
-                    Alongside Clarissa Diniz, he formed the contemporary art collection of
-                    Cultural Center Banco do Nordeste, under the project Metrô de Superfície. He
-                    is currently a member of the curating team for the 5th edition of the CNI SESI
-                    SENAI Marcantonio Vilaça Prize.</p>');                     
+                    Curator and researcher. Completed a master’s degree at the School of Fine Arts of the Federal University of Minas Gerais (UFMG), Belo Horizonte, Brazil. He is a curator at the Contemporary Art Museum of Ceará - Centro Cultural Dragão do Mar (MAC-CE), Fortaleza, Brazil, where he served as assistant curator and research coordinator from 1998 to 2007. Coordinates the Visual Arts Laboratory at the Porto Iracema das Artes school, in the same city. He was a member of the team of curators for the Programa Rumos Artes Visuais visual arts program, in São Paulo, in 2008 and 2009. Between 2009 and 2011, he was the director of Museu Murillo La Greca, in Recife. He also served as a juror on several occasions, including the 4th edition of the Marcantonio Vilaça prize. Alongside Clarissa Diniz, he started the contemporary art collection of Centro Cultural Banco do Nordeste, in connection with the Metrô de Superfície light rail project. Cassundé lives and works in Fortaleza.</p>');                     
                     ?>
                     </div>             
                 </div>
@@ -274,22 +243,10 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
                 <?php   // JOAO LAIA PT                  
                 pten('<p style="margin-bottom: 0">                      
                     <span class="bold">João Laia</span> (vive e trabalha em Londres, Reino Unido)<br />
-                    Escritor e curador com interesse nas áreas de ciências sociais, teoria cinematográfica e arte contemporânea. Publica 
-                    regularmente nas revistas Frieze e MOUSSE e no jornal Público. É curador da seção de imagem em movimento do Festival 
-                    IndieLisboa (Lisboa, Portugal). Colaborou com a galeria BES Arte e Finança (Lisbo, Portugal), o Centre de Cultura 
-                    Contemporània de Barcelona (Barcelona, Espanha), o Waterpieces Festival (Riga, Letônia), o Moderna Museet (Estocolmo, Suécia),
-                    e The Mews Project Space, Cell Project Space e Whitechapel Gallery, todos em Londres, Reino Unido. Em 2014 foi residente na
-                    Fundazione Sandretto Re Rebaudengo (Turim, Itália). É cofundador do The Green Parrot, espaço sem fins lucrativos dedicado
-                    a práticas contemporâneas em Barcelona.</p>',
+                    É escritor e curador. Concluiu dois mestrados, em Curadoria e Cinema. Em 2014, foi residente na Fondazione Sandretto Re Rebaudengo, em Turim, Itália, instituição dedicada à promoção da arte contemporânea. Organizou as mostras de imagem em movimento no Festival IndieLisboa. Realizou curadorias no Centre de Cultura Contemporània de Barcelona (CCCB), Espanha; no Museu de Arte Contemporânea do Chiado, Lisboa; e na Whitechapel Gallery, Londres. Colabora para as revistas Frieze e Mousse, e para o jornal Público. É cofundador do The Green Parrot, espaço sem fins lucrativos para projetos de arte em Barcelona, Espanha. Vive e trabalha em Londres.</p>',
                     // JOAO LAIA EN  
                     '<p style="margin-bottom: 0"><span class="bold">João Laia</span> (lives and works out of London, United Kingdom)<br />
-                    Writer and curator interested in the social sciences, film theory and contemporary art. He is a regular contributor for 
-                    magazines Frieze and MOUSSE and newspaper Público. He is the curator of the image in motion section of the IndieLisboa 
-                    Festival (Lisbon, Portugal). Former collaborator with the BES Art and Finance gallery (Lisbon, Portugal), Centre de Cultura 
-                    Contemporània de Barcelona (Barcelona, Spain), Waterpieces Festival (Riga, Latvia), Moderna Museet (Stockholm, Sweden), 
-                    and The Mews Project Space, Cell Project Space and Whitechapel Gallery, in London, United Kingdom. In 2014 he undertook 
-                    a residency at the Fundazione Sandretto Re Rebaudengo (Turin, Italy). He was a co-founder of the The Green Parrot, a 
-                    non-profit facility dedicated to contemporary practices in Barcelona.</p>');                     
+                    Writer and curator. Completed two master’s degrees, in Curating and Film. In 2014, he undertook a residency at Fondazione Sandretto Re Rebaudengo, in Turin, Italy, an organization devoted to sponsoring contemporary art. He organized the image in motion sections of Festival IndieLisboa. He has curated shows at Centre de Cultura Contemporània de Barcelona (CCCB), Spain; Museu de Arte Contemporânea do Chiado, Lisbon; and the Whitechapel Gallery, London. Collaborator for Frieze and Mousse magazines and the Público newspaper. Co-founder of The Green Parrot, a non-profit art projects facility in Barcelona, Spain. He lives and works in London.</p>');                     
                     ?>
                     </div>             
                 </div>
@@ -302,21 +259,10 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
                 <?php   // JULIA PT                  
                 pten('<p style="margin-bottom: 0">                      
                     <span class="bold">Júlia Rebouças</span><br />(vive e trabalha entre Belo Horizonte e Brumadinho, Brasil) <br />
-                    É curadora, crítica e pesquisadora de arte. Cocuradora da 32ª Bienal de São Paulo e colaboradora na curadoria do
-                    Instituto Inhotim (Brumadinho, Brasil) desde 2007. É mestre e doutoranda pelo Programa de Pós-Graduação em Artes
-                    Visuais da Universidade Federal de Minas Gerais. Foi curadora adjunta da 9ª Bienal do Mercosul (Porto Alegre, 2013)
-                    e integrou a Comissão Curadora do 18º Festival Internacional de Arte Contemporânea Sesc_Videobrasil (São Paulo, 2013).
-                    Seus projetos curatoriais independentes incluem Zona de Instabilidade – Lais Myrrha na Caixa Cultural Sé (São Paulo, 2013)
-                    e A céu aberto, com Suely Rolnik, que concorreu à 30ª Bienal de São Paulo (São Paulo, 2011).</p>',
+                    É curadora, crítica de arte e pesquisadora. Integra a equipe de curadores do Instituto Inhotim, em Brumadinho, Minas Gerais. É mestre e doutoranda pelo Programa de Pós-Graduação em Artes Visuais da Universidade Federal de Minas Gerais (UFMG). Foi curadora adjunta da 9ª Bienal do Mercosul, Porto Alegre (2013), e integrou a comissão curatorial do 18º Festival Internacional de Arte Contemporânea SESC_Videobrasil. Seus projetos curatoriais independentes incluem Zona de Instabilidade — Lais Myrrha, Caixa Cultural Sé, São Paulo, 2013; e A céu aberto, com Suely Rolnik, que concorreu à 30ª Bienal de São Paulo, 2011. No mesmo ano, foi indicada ao Prêmio Lorenzo Bonaldi per l’Arte, Bérgamo, Itália. Vive e trabalha entre Brumadinho e Belo Horizonte, Brasil.</p>',
                     // JULIA EN  
                     '<p style="margin-bottom: 0"><span class="bold">Júlia Rebouças</span><br />(lives and works between Belo Horizonte and Brumadinho, Brazil)<br />
-                    Curator, art critic and researcher. She is the co-curator of the 32nd São Paulo Biennial and a collaborator as curator at the
-                    Inhotim Institute (Brumadinho, Brazil) since 2007. Holds a master’s degree and is pursuing a doctorate under the Postgraduate
-                    Visual Arts Program of the Federal University of Minas Gerais. She served as joint curator for the 9th Mercosur Biennial
-                    (Porto Alegre, 2013) and was a member of the Curatorial Committee for the 18th International Contemporary Art Festival
-                    Sesc_Videobrasil (São Paulo, 2013). Independent curating projects include Zona de Instabilidade – Lais Myrrha at Caixa
-                    Cultural Sé (São Paulo, 2013) and A céu aberto, with Suely Rolnik, which competed in the 30th São Paulo Biennial
-                    (São Paulo, 2011).</p>');                     
+                    Curator, art critic and researcher. Member of the team of curators at the Inhotim Institute, in Brumadinho, Minas Gerais. Holds a master’s and a doctorate from the Postgraduate Program in Visual Arts of the Federal University of Minas Gerais (UFMG). She was joint curator for the 9th Mercosul Biennial, in Porto Alegre (2013), and a member of the curatorial committee for the 18th International Contemporary Art Festival SESC_Videobrasil. Independent curating projects include Zona de Instabilidade — Lais Myrrha, Caixa Cultural Sé, São Paulo, 2013; and A céu aberto, with Suely Rolnik, which competed in the 30th São Paulo Art Biennial, 2011. In that same year, she was nominated for the Lorenzo Bonaldi per l’Arte Prize, in Bergamo, Italy. She lives and works between Brumadinho and Belo Horizonte, Brazil.</p>');                     
                     ?>
                     </div>             
                 </div>
