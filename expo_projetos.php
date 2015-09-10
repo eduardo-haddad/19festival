@@ -97,7 +97,7 @@ $titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'Comissioned Projects';
                      
                      <p>O texto curatorial de Panoramas do Sul | Projetos Comissionados será disponibilizado em breve.</p>
                      
-                     <p><span class="bold">Sobre os projetos selecionados</span><br />
+                     <p><br /><span class="bold">Sobre os projetos selecionados</span><br />
                      Carlos Monroy participa com Llorando se foi. O museu da lambada. In memoriam de Francisco "Chico" Oliveira, que relaciona dois fenômenos dos anos 1980 no Brasil: a consagração da lambada e sua incidência na construção da identidade nacional, e o início e exponencial crescimento da imigração boliviana em São Paulo. Superquadra-Sací, filme de Cristiano Lenhardt, cria um encontro entre as origens indígenas nacionais e a “cidade-paisagem”, o cenário urbano, com remissões ao modernismo brasileiro. Mitumba, de Keli-Safia Maksud, pesquisa a relação entre a história do sabão na Inglaterra e a dos tecidos africanos nos Países Baixos na era vitoriana. A artista discute a imagem de higiene racial e a identidade africana a partir dos tecidos percebidos mundialmente como autêntica expressão da África. O projeto The Atlas of Places do not exist , de Ting-Ting Cheng, trata-se de uma biblioteca contendo centenas de livros sobre lugares que não existem, questionando as fronteiras e as definições de realidade.
                      </p>',
 
@@ -108,7 +108,7 @@ $titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'Comissioned Projects';
                      
                      <p>The curatorial statement for Southern Panoramas | Commissioned Projects will soon be available.</p>
                      
-                     <p><span class="bold">About the selected projects</span><br />
+                     <p><br /><span class="bold">About the selected projects</span><br />
                      Carlos Monroy will participate with Llorando se foi. O museu da lambada. In memoriam de Francisco "Chico" Oliveira, which connects two phenomena from 1980s Brazil:  the rise of the lambada dance and music style, as well as its effects upon the building of national identity, and the advent and exponential growth of Bolivian immigration to São Paulo. In Superquadra-Sací, a film by the Cristiano Lenhardt, national Indigenous roots converge with the “cityscape,” the urban scenery, with throwbacks to Brazilian modernism. Mitumba, by Keli-Safia Maksud, explores the ties between the history of soap in the United Kingdom and African fabrics in Victorian-era Netherlands. The artist discusses the image of racial hygiene and African identity through textiles viewed globally as an authentic expression of Africa. The Atlas of Places do not exist, a project by Ting-Ting Cheng, is about a library containing hundreds of books on non-existent places, a questioning of borders and definitions of reality.
                      </p>');
 
