@@ -23,7 +23,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             
             <div class="row" style="clear: both;">
                 <div class="col-sm-12 col-md-6">
-                    <!-- <img src="img/residencias/efrain_temp.jpg" class="img-responsive center-block" style="margin-bottom:15px" /> -->
+                    <img src="img/residencias/sparte.jpg" class="img-responsive retrato-artista" style="margin-bottom:15px" />
                 </div>
             <div class="col-sm-12 col-md-6 h" style="float: right;">
                 <?php pten(

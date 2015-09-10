@@ -8,6 +8,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 paletaArtistas($('.titulo'));
                 paletaArtistas($('.premio-local'));
                 paletaArtistas($('.premio-nome'));
+                paletaArtistas($('.premio-sobre'));
 
                 $('#residencias a').attr('target', '_blank');
                 $('#residencias a').css({
@@ -69,7 +70,24 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         </div>
                     </div>       
 
-                <div class="col-sm-12 col-md-6 premio-sobre" style="float: right;" >&nbsp;</div> 
+                <div class="col-sm-12 col-md-6 premio-sobre" style="float: right;" >
+                <p class="premio-sobre">
+                    <?php 
+                        pten('Os Prêmios de Residência, instituídos desde 1990, contribuem para o desenvolvimento de uma nova cartografia artística e cultural. Os artistas premiados realizam residências de dois meses em instituições parceiras do Programa de Residências Videobrasil ao redor do mundo. Graças à inserção do Videobrasil em uma extensa rede de colaborações, a atuação do programa já se estendeu pelos cinco continentes e, no 19º Festival, desenvolve-se pela América Latina, América do Norte, Europa, Oriente Médio e Ásia, aproximando os eixos Sul-Sul e Sul-Norte.',
+
+                             'The Residency Prizes, first awarded in 1990, help usher in a new artistic and cultural cartography. The selected artists undertake two-month residencies at Videobrasil Residency Program partner organizations around the world. Thanks to Videobrasil’s becoming a part of a vast network of collaborators, the program already spanned all five continents, and for the 19th Festival it will cover Latin America, North America, Europe, the Middle East and Asia, bringing together the South-South and South-North axes.');
+
+
+                    ?>
+
+
+
+                </p>
+
+
+
+
+                </div> 
 </div>
 
 

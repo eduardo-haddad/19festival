@@ -9,7 +9,7 @@ body {
 div#preload { display: none; }
 
 #container {
-    min-height: auto;
+    min-height: 665px;
 }
 
 @font-face {

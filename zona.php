@@ -39,12 +39,37 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
         	</div>
             <!-- /BREADCRUMB -->
 
+            <div class="row">
+                <div class="col-xs-12 titulo" style="float: left;">
+                <p style="margin-bottom:0">
+                   <?php pten('Sobre', 'About');  ?>
+                </p>
+                </div>
+            </div>
+
+            <div class="row" style="margin-bottom: 45px">
+                <div class="col-sm-12 col-md-6 relative">
+
+
+                </div>
+                <div class="col-sm-12 col-md-6 relative">
+                    
+                     <p><?php pten('Em todas as exposições do Festival, espaços dedicados oferecem ao público conteúdos e informações adicionais sobre os trabalhos, a programação do evento e o Acervo Videobrasil. Acessíveis ao longo de todo o horário de visitação, plataformas de pesquisa, canais de programação
+                                  e publicações permitem explorar referências relacionadas às obras, depoimentos dos artistas e registros das atividades reflexivas.',
+                                  
+                                  'All of the Festival’s exhibitions feature areas designed to provide additional contents and information about the artworks, the event’s program, and the Videobrasil Collection to the public. Research platforms, programming channels, and publications available during all opening hours allow viewers to explore references relating to the artworks, artists’ statements, and records of reflective activities.');
+                        ?>
+                    </p>
+
+
+                </div>
+            </div>
+
 
             <div class="row" >
-                <a name="videoteca"></a><div class="col-xs-12 titulo" style="float: left;">
-                <p style="margin-bottom:0">
-                   <?php pten('Videoteca', 'Video Library');  ?>
-                </p>
+                <a name="videoteca"></a>
+                <div class="col-xs-12 titulo" style="float: left;">
+                    
                 </div>
             </div>
            
@@ -56,7 +81,11 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
                 </div>
 
                 <div class="col-sm-12 col-md-6 h" style="float: right;">
-
+                    
+                    <p style="margin-bottom:13px" class="titulo">
+                       <?php pten('Videoteca', 'Video Library');  ?>
+                    </p>
+                    
                     <?php pten( 
                     ////Videoteca PT
                     '<p class="f" style="display: inline">
@@ -76,9 +105,7 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
 
             <div class="row" >
                 <a name="canalvb"></a><div class="col-xs-12 titulo" style="float: left;" name="canalvb">
-                <p style="margin-bottom:0">
-                   <?php pten('Canal VB', 'VB Channel');  ?>
-                </p>
+               
                 </div>
             </div>
            
@@ -90,7 +117,9 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
                 </div>
 
                 <div class="col-sm-12 col-md-6 h" style="float: right;">
-
+                    <p style="margin-bottom:13px" class="titulo">
+                       <?php pten('Canal VB', 'Channel VB');  ?>
+                    </p>
                     <?php pten( 
                     ////Canal VB PT
                     '<p class="f" style="display: inline">
@@ -109,9 +138,7 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
 
             <div class="row" >
                 <a name="plataformavb"></a><div class="col-xs-12 titulo" style="float: left;">
-                <p style="margin-bottom:0">
-                   <?php pten('Plataforma:VB', 'Platform:VB');  ?>
-                </p>
+                
                 </div>
             </div>
            
@@ -123,7 +150,9 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
                 </div>
 
                 <div class="col-sm-12 col-md-6 h" style="float: right;">
-
+                    <p style="margin-bottom:13px" class="titulo">
+                       <?php pten('Plataforma:VB', 'Platform:VB');  ?>
+                    </p>
                     <?php pten( 
                     ////Plataforma:VB PT
                     '<p class="f" style="display: inline">
@@ -142,9 +171,7 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
 
             <div class="row" >
                 <a name="publicacoes"></a><div class="col-xs-12 titulo" style="float: left;">
-                <p style="margin-bottom:0">
-                   <?php pten('Publicações', 'Publications');  ?>
-                </p>
+                
                 </div>
             </div>
            
@@ -156,7 +183,9 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
                 </div>
 
                 <div class="col-sm-12 col-md-6 h" style="float: right;">
-
+                    <p style="margin-bottom:13px" class="titulo">
+                       <?php pten('Publicações', 'Publications');  ?>
+                    </p>
                     <?php pten( 
                     ////Publicações PT
                     '<p class="f" style="display: inline">

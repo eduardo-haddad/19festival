@@ -53,8 +53,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                     setTimeout(wait, 300);
                                 }
                             })();
+
+                            var hashtags = "#19festival #19sescvideobrasil";
                            
-                            window.open("http://twitter.com/intent/tweet?status="+currentTitle+" "+url_curta,"","height=260,width=500,left=100,top=100,menubar=0");
+                            window.open("http://twitter.com/intent/tweet?status="+hashtags+" "+url_curta,"","height=260,width=500,left=100,top=100,menubar=0");
                             return false;
                     
                     });

@@ -15,7 +15,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
         <div class="row" style="clear: both;"> <!--  </div> no fim do documento para unir sinopses-->
             <div class="col-sm-12 col-md-6 relative" style="float: left ">
-                <img src="img/progsfilmes/gabriel-visionary_iraq.jpg" class="img-responsive center-block" style="margin-bottom: 30px" />
+                <img src="img/progsfilmes/gabriel-olympia.jpg" class="img-responsive center-block" style="margin-bottom: 30px" />
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
                 <p><span class="bold">
@@ -25,12 +25,12 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                            'The film is a diptych featuring two reconstitutions of Édouard Manet’s famous painting <em>Olympia</em>. The first tableau shows Katie as Olympia while the second shows Abrantes as a male version of the same figure. Shot on 16 mm film, which underscores its pictorial qualities, <em>Olympia</em> de-constructs the mythical aura of Manet’s painting while rendering its legacy more complex.'); ?></p>
             </div>
         
-        <!-- </div> aqui caso voltar imagens de cada filme -->
+        </div> 
 
         <div class="row">
-            <!-- <div class="col-sm-12 col-md-6" style="float: left ">
-                <img src="img/obras/obra_robertosantaguida.jpg" class="img-responsive center-block" style="margin-bottom: 30px" />
-            </div> -->
+             <div class="col-sm-12 col-md-6" style="float: left ">
+                <img src="img/progsfilmes/gabriel-visionary_iraq.jpg" class="img-responsive center-block" style="margin-bottom: 30px" />
+            </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
                 <p><span class="bold"><?php pten('<a href="/gabrielabrantes" id="linkartista">Gabriel Abrantes</a> e Benjamin Crotty', '<a href="/gabrielabrantes" id="linkartista">Gabriel Abrantes</a> & Benjamin Crotty'); ?><br />
                    Visionary Iraq [Iraque Visionário], 2008, 18’17” </span><br />
@@ -40,9 +40,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         </div>
 
         <div class="row">
-            <!-- <div class="col-sm-12 col-md-6" style="float: left ">
-                <img src="img/obras/obra_robertosantaguida.jpg" class="img-responsive center-block" style="margin-bottom: 45px" />
-            </div> -->
+            <div class="col-sm-12 col-md-6" style="float: left ">
+                <img src="img/progsfilmes/gabriel-taprobana.jpg" class="img-responsive center-block" style="margin-bottom: 45px" />
+            </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
                 <p><span class="bold"><?php pten('<a href="/gabrielabrantes" id="linkartista">Gabriel Abrantes</a>', '<a href="/gabrielabrantes" id="linkartista">Gabriel Abrantes</a>'); ?><br />
                    Taprobana, 2014, 32’</span><br />
@@ -52,9 +52,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         </div>
 
         <div class="row">
-            <!-- <div class="col-sm-12 col-md-6" style="float: left ">
-                <img src="img/obras/obra_robertosantaguida.jpg" class="img-responsive center-block" style="margin-bottom: 45px" />
-            </div> -->
+            <div class="col-sm-12 col-md-6" style="float: left ">
+                <img src="img/progsfilmes/gabriel-ornithes.jpg" class="img-responsive center-block" style="margin-bottom: 45px" />
+            </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
                 <p><span class="bold"><?php pten('<a href="/gabrielabrantes" id="linkartista">Gabriel Abrantes</a>', '<a href="/gabrielabrantes" id="linkartista">Gabriel Abrantes</a>'); ?><br />
                    <span style="font-family:Arial; font-weight:bold">Ὀρνιθες</span> [Ornithes – Aves | Birds], 2012, 17’</span><br />
@@ -64,9 +64,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         </div>
 
         <div class="row">
-            <!-- <div class="col-sm-12 col-md-6" style="float: left ">
-                <img src="img/obras/obra_robertosantaguida.jpg" class="img-responsive center-block" style="margin-bottom: 45px" />
-            </div> -->
+            <div class="col-sm-12 col-md-6" style="float: left ">
+                <img src="img/progsfilmes/gabriel-history.jpg" class="img-responsive center-block" style="margin-bottom: 45px" />
+            </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
                 <p><span class="bold"><?php pten('<a href="/gabrielabrantes" id="linkartista">Gabriel Abrantes</a> e Daniel Schmidt', '<a href="/gabrielabrantes" id="linkartista">Gabriel Abrantes</a> & Daniel Schmidt'); ?><br />
                    A History of Mutual Respect [Uma História de Respeito Mútuo],<br />2010, 24’</span><br />
@@ -75,4 +75,4 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             </div>
         </div>
         <!-- /PROGRAMA 1 -->
-</div><!-- retirar se usar imagens de cada filme -->
+</div>
