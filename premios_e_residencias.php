@@ -182,8 +182,8 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
             <!-- BREADCRUMB -->
         	<div class="row">
         		<div class="col-xs-12 breadcrumb">
-                    <?php pten('prêmios e residências > <span class="underline bc-atual">Prêmios de Residência</span>', 
-                               'prizes and residencies > <span class="underline bc-atual">Residency Prizes</span>'); ?>   
+                    <?php pten('prêmios e residências > <span class="underline bc-atual">grande prêmio</span>', 
+                               'prizes and residencies > <span class="underline bc-atual">grand prize</span>'); ?>   
                 </div>
         	</div>
             <!-- BREADCRUMB -->
