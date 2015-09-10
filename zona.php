@@ -113,7 +113,7 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
 
                 <div class="col-sm-12 col-md-6 relative">
                     <!-- <img src="img/zona/canalvb.jpg" id="img-id-1" class="img-responsive" style="max-width: 485px" /> -->
-                    <iframe allowFullScreen allowTransparency="true" class="vzaar-video-player" frameborder="0" height="268" id="vzvd-1282382" mozallowfullscreen name="vzvd-1282382" src="//view.vzaar.com/1282382/player?autoplay=true&amp;disableControls=true&amp;hideControls=true&amp;looping=true" title="vzaar video player" type="text/html" webkitAllowFullScreen width="485"></iframe>
+                    <iframe allowFullScreen allowTransparency="true" class="vzaar-video-player" frameborder="0" height="268" id="vzvd-1282382" mozallowfullscreen name="vzvd-1282382" src="//view.vzaar.com/1282382/player?looping=true&amp;autoplay=true&amp;disableControls=true&amp;hideControls=true" title="vzaar video player" type="text/html" webkitAllowFullScreen width="485"></iframe>
 
                 </div>
 
