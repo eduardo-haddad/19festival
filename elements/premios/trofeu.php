@@ -47,7 +47,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row">
                 <div class="col-sm-12 col-md-6" style="text-align: center; float: left ">
-                    <img src="img/residencias/efrain_temp.jpg" height="273" width="485" />
+                    <img src="img/residencias/efrain_temp.jpg"  />
                 </div>
             <div class="col-sm-12 col-md-6 sobre-expo j" style="float: right;">
                 <p style="font-weight: bold"><?php pten('Sobre o artista', 'About the artist');?></p>
