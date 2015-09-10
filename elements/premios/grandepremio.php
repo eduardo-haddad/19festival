@@ -16,6 +16,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                  'click', function(){
                         
                         window.location.href = "http://19festival.com/premios_e_residencias.php#juri";
+                        window.location.reload(true);
                                
                                
                             } 
