@@ -112,7 +112,7 @@ $titulo = $idioma == 'pt' ? 'Palavra do Sesc' : 'Word from Sesc';
                 
                 
 
-            <br style="margin-bottom: 13px" />
+            <br style="margin-bottom: 28px" />
 
             <!-- <div class="row">
                 <div class="col-sm-12 col-md-6 relative">
@@ -123,7 +123,7 @@ $titulo = $idioma == 'pt' ? 'Palavra do Sesc' : 'Word from Sesc';
                 </div>
             </div> -->
 
-            <div id="altura">&nbsp;</div><div id="altura">&nbsp;</div>
+            
     </main>
 
     <!-- RODAPE -->
