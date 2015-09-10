@@ -107,7 +107,7 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
             <div class="row" >
                 <div class="col-xs-12 titulo" style="float: left;">
                 <p style="margin-bottom:0" id="nome-artista">
-                    <?php echo $nome_artista.' | '.$pais_artista ?>
+                    <?php echo $nome_artista.' | ';pten('líbano','lebanon'); ?>
                 </p>
                 </div>
             </div>
