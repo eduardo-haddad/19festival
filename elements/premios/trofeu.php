@@ -22,7 +22,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             
             <div class="row" style="clear: both;">
                 <div class="col-sm-12 col-md-6">
-                    <img src="img/residencias/efrain_temp.jpg" class="img-responsive center-block" style="margin-bottom:15px" />
+                    <img src="img/residencias/trofeu.jpg" class="img-responsive center-block" style="margin-bottom:15px" />
                 </div>
             <div class="col-sm-12 col-md-6 h" style="float: right;">
                 <?php pten(
@@ -47,7 +47,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row">
                 <div class="col-sm-12 col-md-6" style="text-align: center; float: left ">
-                    <!-- <img src="" height="273" width="485" /> -->
+                    <img src="img/residencias/efrain_temp.jpg" height="273" width="485" />
                 </div>
             <div class="col-sm-12 col-md-6 sobre-expo j" style="float: right;">
                 <p style="font-weight: bold"><?php pten('Sobre o artista', 'About the artist');?></p>
