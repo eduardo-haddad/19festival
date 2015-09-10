@@ -549,11 +549,6 @@ $(document).ready(
                     <!-- /PROGRAMAS PUBLICOS --> 
 
 
-                    <!-- ZONA DE REFLEXAO --> 
-                    <div id="simples-zona" class="fonteMenu" style="height: 62px;"><img src="img/botoes/<?php pten('pt','en');?>/zona_1.png"></div>
-                    <!-- /ZONA DE REFLEXAO --> 
-
-
         			<!-- PREMIOS E RESIDENCIAS --> 
         			<div id="menuprincipal7" class="fonteMenu"><img src="img/botoes/<?php pten('pt','en');?>/premios_1.png"></div>
                     <div id="texto7a" class="texto" style="display:none;">
@@ -595,6 +590,10 @@ $(document).ready(
                         
                     </div>
                     <!-- /PUBLICACOES -->
+
+                    <!-- ZONA DE REFLEXAO --> 
+                    <div id="simples-zona" class="fonteMenu" style="height: 62px;"><img src="img/botoes/<?php pten('pt','en');?>/zona_1.png"></div>
+                    <!-- /ZONA DE REFLEXAO --> 
 
 
                     <!-- AGENDA -->

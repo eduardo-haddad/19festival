@@ -112,7 +112,7 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
             <div class="row" style="clear: both;margin-bottom: 13px">
 
                 <div class="col-sm-12 col-md-6 relative">
-                    <img src="img/zona/canalvb.png" id="img-id-1" class="img-responsive" style="max-width: 485px" />
+                    <img src="img/zona/canalvb.jpg" id="img-id-1" class="img-responsive" style="max-width: 485px" />
 
                 </div>
 
