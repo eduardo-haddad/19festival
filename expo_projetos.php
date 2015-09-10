@@ -19,15 +19,8 @@ $titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'Comissioned Projects';
     <script>
         $(document).ready(
             function(){
-                paletaArtistas($('.sobre-expo p:nth-child(1)'));
-                paletaArtistas($('.sobre-expo p:nth-child(2)'));
-                paletaArtistas($('.sobre-expo p:nth-child(3)'));
-                paletaArtistas($('.sobre-expo p:nth-child(4)'));
-                paletaArtistas($('.sobre-expo p:nth-child(5)'));
-                paletaArtistas($('.sobre-expo p:nth-child(6)'));
-                paletaArtistas($('.sobre-expo p:nth-child(7)'));
-                paletaArtistas($('.sobre-expo p:nth-child(8)'));
-                paletaArtistas($('.sobre-expo p:nth-child(9)'));
+                paletaArtistas($('.sobre-expo p'));
+
         
             }
         );
@@ -86,10 +79,10 @@ $titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'Comissioned Projects';
                     <div id="lista">
                         <ol>
                                 <li class="upper"><?php pten('Artistas Participantes', 'Participating Artists'); ?><br /><br /></li>
-                                <li>Carlos Monroy | <?php pten('Colômbia', 'Colombia'); ?></li>
-                                <li>Cristiano Lenhardt | <?php pten('Brasil', 'Brazil'); ?></li>
-                                <li>Keli-Safia Maksud | <?php pten('Quênia', 'Kenya'); ?></li>
-                                <li>Ting-Ting Cheng | <?php pten('Taiwan', 'Taiwan'); ?></li>
+                                <li><a href="/carlosmonroy">Carlos Monroy | <?php pten('Colômbia', 'Colombia'); ?></a></li>
+                                <li><a href="/cristianolenhardt">Cristiano Lenhardt | <?php pten('Brasil', 'Brazil'); ?></a></li>
+                                <li><a href="/keli-safiamaksud">Keli-Safia Maksud | <?php pten('Quênia', 'Kenya'); ?></a></li>
+                                <li><a href="/ting-tingcheng">Ting-Ting Cheng | <?php pten('Taiwan', 'Taiwan'); ?></a></li>
                         </ol>
                     </div>
                 </div>
@@ -98,21 +91,26 @@ $titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'Comissioned Projects';
 
                     <?php pten( 
                     ////APRESENTAÇAO PT
-                    '<p style="display: inline">As obras que compõem a exposição são fruto de um edital para comissionamento de 
-                    projetos de artistas do Sul lançado em 2014 pelo Videobrasil. O novo mecanismo reafirma a vocação do Festival
-                    para descobrir e apostar em proposições artísticas relevantes nessas regiões. Realizadas com acompanhamento
-                    dos curadores do Festival, as obras de Ting-Ting Cheng (Taiwan), Carlos Monroy (Colômbia), Keli-Safia Maksud
-                    (Quênia) e Cristiano Lenhardt (Brasil) inauguram o Galpão VB, espaço
-                    de exposições, pesquisa e outras atividades de ativação do Acervo Videobrasil.
-                    </p>',
+                    '<p>Consolidando seu perfil de experimentação e inovação, o Festival de Arte Contemporânea Sesc_Videobrasil abriu, pela primeira vez, uma convocatória pública para inscrição de projetos a serem comissionados para apresentação em sua 19ª edição. Foram selecionados os seguintes artistas entre as 446 inscrições de projetos feitas por artistas de 71 países: Carlos Monroy (Colômbia), Cristiano Lenhardt (Brasil), Keli-Safia Maksud (Quênia) e Ting-Ting Cheng (Taiwan).</p>
+
+                     <p>O desenvolvimento dos projetos dos artistas selecionados foi acompanhado pela comissão responsável pela seleção, formada pelos curadores Bernardo José de Souza (Rio Grande do Sul, Brasil/vive e trabalha no Rio de Janeiro), Bitu Cassundé (Ceará, Brasil/vive e trabalha em Fortaleza), João Laia (Lisboa, Portugal/vive e trabalha em Londres) e Júlia Rebouças (Sergipe, Brasil/vive e trabalha em Belo Horizonte), que trabalham sob a curadoria geral de Solange Farkas. Esta iniciativa efetiva o envolvimento dos curadores para além da seleção, promovendo um diálogo direto e contínuo com os artistas no decorrer de seus processos criativos, em uma relação de tempo estendida.</p>
+                     
+                     <p>O texto curatorial de Panoramas do Sul | Projetos Comissionados será disponibilizado em breve.</p>
+                     
+                     <p><span class="bold">Sobre os projetos selecionados</span><br />
+                     Carlos Monroy participa com Llorando se foi. O museu da lambada. In memoriam de Francisco "Chico" Oliveira, que relaciona dois fenômenos dos anos 1980 no Brasil: a consagração da lambada e sua incidência na construção da identidade nacional, e o início e exponencial crescimento da imigração boliviana em São Paulo. Superquadra-Sací, filme de Cristiano Lenhardt, cria um encontro entre as origens indígenas nacionais e a “cidade-paisagem”, o cenário urbano, com remissões ao modernismo brasileiro. Mitumba, de Keli-Safia Maksud, pesquisa a relação entre a história do sabão na Inglaterra e a dos tecidos africanos nos Países Baixos na era vitoriana. A artista discute a imagem de higiene racial e a identidade africana a partir dos tecidos percebidos mundialmente como autêntica expressão da África. O projeto The Atlas of Places do not exist , de Ting-Ting Cheng, trata-se de uma biblioteca contendo centenas de livros sobre lugares que não existem, questionando as fronteiras e as definições de realidade.
+                     </p>',
 
                     //APRESENTAÇAO EN
-                    '<p style="display: inline">The artworks in the exhibit are the results of an open call Videobrasil released
-                    in 2014 for artists from the South to enter projects for commissioning. Through this new initiative, the Festival
-                    reaffirms its vocation for finding and betting on relevant artistic proposals in these regions. Created with
-                    curatorial oversight from the Festival, the artworks by Ting-Ting Cheng (Taiwan), Carlos Monroy (Colombia),
-                    Keli-Safia Maksud (Kenya) and Cristiano Lenhardt (Brazil) will inaugurate Galpão VB, a venue for exhibitions,
-                    research, and other activities designed to activate the Videobrasil Collection.</p>');
+                    '<p>In keeping with its experimental, innovation-oriented profile, for the first time ever the Contemporary Art Festival Sesc_Videobrasil has issued an open call for projects to be commissioned and featured in its 19th edition. The following artists were selected from among 446 project entries by artists from 71 countries: Carlos Monroy (Colombia), Cristiano Lenhardt (Brazil), Keli-Safia Maksud (Kenya) and Ting-Ting Cheng (Taiwan).</p>
+
+                     <p>The selected artists work on their projects with oversight from the committee, which is comprised of the curators Bernardo de Souza (Rio Grande do Sul, Brazil/lives and works in Rio de Janeiro), Bitu Cassundé (Ceará, Brazil/lives and works in Fortaleza), João Laia (Lisbon, Portugal/lives and works in London) and Júlia Rebouças (Sergipe, Brazil/lives and works in Belo Horizonte) – working under the guidance of the Festival’s general curator Solange Farkas. This initiative extends the curators’ involvement beyond the actual selection, engaging them in direct, continuous dialogue with the artists in developing their creative processes, in an extended time relationship.</p>
+                     
+                     <p>The curatorial statement for Southern Panoramas | Commissioned Projects will soon be available.</p>
+                     
+                     <p><span class="bold">About the selected projects</span><br />
+                     Carlos Monroy will participate with Llorando se foi. O museu da lambada. In memoriam de Francisco "Chico" Oliveira, which connects two phenomena from 1980s Brazil:  the rise of the lambada dance and music style, as well as its effects upon the building of national identity, and the advent and exponential growth of Bolivian immigration to São Paulo. In Superquadra-Sací, a film by the Cristiano Lenhardt, national Indigenous roots converge with the “cityscape,” the urban scenery, with throwbacks to Brazilian modernism. Mitumba, by Keli-Safia Maksud, explores the ties between the history of soap in the United Kingdom and African fabrics in Victorian-era Netherlands. The artist discusses the image of racial hygiene and African identity through textiles viewed globally as an authentic expression of Africa. The Atlas of Places do not exist, a project by Ting-Ting Cheng, is about a library containing hundreds of books on non-existent places, a questioning of borders and definitions of reality.
+                     </p>');
 
                     ?>
                     
