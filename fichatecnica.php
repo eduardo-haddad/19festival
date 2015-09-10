@@ -106,7 +106,7 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
                      Wexner Center for the Arts , Prêmio de Residência Wexner Center for the Arts</p>
                      
                      <p><span class="bold upper">PRÊMIO ESPECIAL</span><br />
-                     SP-Arte | Prêmio SP-Arte</p>
+                     Prêmio SP-Arte/Videobrasil</p>
                      
                      <p><span class="bold upper">TROFÉU</span><br />
                      Efrain Almeida</p>
@@ -186,7 +186,7 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
                      </p>
                      
                      <p><span class="bold upper">SPECIAL PRIZE</span><br />
-                     SP-Arte | SP-Arte Prize</p>
+                     SP-Arte/Videobrasil Prize</p>
                      
                      <p><span class="bold upper">TROPHY</span><br />
                      Efrain Almeida</p>
