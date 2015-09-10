@@ -27,32 +27,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-sm-12 col-md-6 h" style="float: right;">
 
                     <?php pten(                      ////SOBRE PT
-                    '<p>Os Programas Públicos configuram o ambiente de diálogo do 19º Festival,
-                    possibilitando que a pesquisa curatorial se desenvolva por meio de ações de
-                    contato com o público. Esse canal direto com o espectador se desdobra em
-                    encontros e conversas com artistas, curadores e convidados, seminário, e
-                    oficinas e ações de mediação. Multidisciplinares, essas ações reconfiguram os
-                    espaços expositivos em ambientes de pensamento e troca que extrapolam o campo
-                    da arte e dialogam transversalmente com outras áreas do conhecimento. Sob
-                    coordenação de Thereza Farkas, diretora de programação do Videobrasil, os
-                    Programas Públicos desta edição do Festival se organizam em Encontros e
-                    Conversas, Seminário e Oficinas. </p>',
+                    '<p>Quatro conjuntos de atividades exploram o conteúdo das exposições do Festival: o Seminário Lugares e sentidos da arte: debates a partir do Sul, que reflete sobre as possibilidades de alargamento das categorias da arte na contemporaneidade, as Oficinas, sessões práticas de exercício de linguagens; os Encontros e conversas, oportunidades informais de troca; e as Ações de Mediação conduzidas pelos educadores do Festival. A programação envolve artistas participantes das exposições e convidados, entre curadores, pesquisadores, e representantes de instituições parceiras, além dos educadores.</p>',
 
                     //SOBRE EN                     
                     
-                    '<p>The Public Programs provide an environment for debate
-                    within the 19th Festival, allowing curatorial inquiries
-                    to develop through audience interaction. This direct
-                    channel with viewers will branch out into meetings and
-                    conversations with artists, curators and guests, a
-                    seminar, workshops, and mediated actions. These
-                    multidisciplinary actions will rearrange the exhibition
-                    spaces as places for reflection and exchange that go
-                    beyond the art field to converse transversally with
-                    other fields of knowledge. Coordinated by Thereza
-                    Farkas, Videobrasil’s programming director, the Public
-                    Programs are divided into Meetings and Conversations, a
-                    Seminar and Workshops. </p>');
+                    '<p>Four different sets of activities will explore the contents of the Festival’s exhibitions: the Seminar Places and meanings of art: debates from the South, which reflects about the possibilities of broadening the artistic categories in contemporaneity; the Workshops, practical sessions for exercise on language; Meetings and conversations, informal opportunities for exchange; and Mediated Actions hosted by the Festival’s educators. The program involves artists featured in the exhibitions, as well as guest curators, researchers, and delegates from partner organizations, as well as educators. </p>');
 
                     ?>
                     

@@ -48,7 +48,7 @@ $titulo = $idioma == 'pt' ? 'Realização' : 'Undertaking';
                             <a href="realizacao.php"><span style="text-decoration: underline"><?php pten('Realização','Undertaking');?></span></a> | 
                             <a href="parceiros.php"><?php pten('Parceiros','Supporters');?></a> | 
                             <a href="fichatecnica.php"><?php pten('Ficha Técnica','Staff');?></a> | 
-                            <a href="<?php pten('http://site.videobrasil.org.br/inscricao', 'http://site.videobrasil.org.br/en/inscricao');?>" target="_blank"><?php pten('Convocatórias 19º','Open calls');?></a> | 
+                            <a href="convocatorias.php"><?php pten('Convocatórias 19º','Open calls');?></a> | 
                             <a href="<?php pten('http://site.videobrasil.org.br/festival/festivais', 'http://site.videobrasil.org.br/en/festival/festivais');?>" target="_blank"><?php pten('Histórico do Festival','History');?></a>
                     </p>       
                 </div>
@@ -107,43 +107,18 @@ $titulo = $idioma == 'pt' ? 'Realização' : 'Undertaking';
                 <div class="col-sm-12 col-md-6 h" style="float: right;" id="id-texto">
 
                     <?php pten(                      ////VB PT                     
-                    '<p class="f"><span class="bold" style="text-transform: uppercase">associação cultural videobrasil</span><br>
-                    A Associação Cultural Videobrasil dedica-se ao fomento, difusão e mapeamento da arte contemporânea, bem como à formação
-                    de público e ao intercâmbio entre artistas, curadores e pesquisadores. Independente e comprometida com o papel
-                    questionador da arte, tem se voltado, com crescente ênfase, para ações públicas e de ativação de seu Acervo - uma
-                    representativa coleção de vídeo e performance do Sul geopolítico global. Neste sentido, destina especial atenção à
-                    produção de América Latina, Caribe, África, Oriente Médio, Oceania e alguns países da Europa e Ásia, promovendo e
-                    articulando uma rede de cooperação internacional.  </p>
+                    '<p class="f"><span class="bold" style="text-transform: uppercase">associação cultural videobrasil</span><br />Fundada por Solange Farkas em 1991, a Associação Cultural Videobrasil é fruto do desejo de acolher institucionalmente um acervo crescente de obras e publicações, que vem sendo reunido desde a primeira edição do Festival Videobrasil, em 1983. Desde então, a Associação trabalha sistematicamente no sentido de ativar essa coleção, que reúne obras do Sul geopolítico do mundo – América Latina, África, Leste Europeu, Ásia e Oriente Médio –, clássicos da videoarte, produções próprias e uma vasta coleção de publicações sobre arte.</p>
 
-                    <p class="f">Além do festival internacional de periodicidade bienal fundado em
-                    1983 e, desde 1992, realizado em parceria com o Sesc São Paulo, o Videobrasil realiza ainda exposições internacionais,
-                    mostras itinerantes, publicações sobre arte contemporânea e cultura (como livros de exposições, monografias de artistas,
-                    uma revista anual sobre arte contemporânea), produtos audiovisuais como os programas da série Videobrasil na TV e os
-                    filmes e documentários da Videobrasil Coleção de Autores, atividades de programas públicos como encontros e conversas,
-                    seminários, e oficinas, ações de mediação e programas de residência artística. </p>
+                    <p class="f">Além do Festival de Arte Contemporânea Sesc_Videobrasil, que ocorre a cada dois anos, a Associação também realiza uma série de ações de pesquisa, difusão e mapeamento de sua coleção: exposições internacionais; mostras itinerantes; publicações sobre arte e cultura contemporânea; programas de TV e os documentários da Videobrasil Coleção de Autores; seminários, oficinas e encontros com artistas e pesquisadores, em diálogo constante com diversas áreas do conhecimento; e programas de residência artística, em conexão com uma ampla rede de colaboração internacional.</p>
 
-                    <p class="f">Em 2015, o Videobrasil abre sua nova sede
-                    em São Paulo: o Galpão VB, voltado à ativação permanente das obras do Acervo Videobrasil e ao desenvolvimento de
-                    processos criativos e de reflexão. O Galpão VB promove exposições, programas de filmes, seminários, oficinas e
-                    encontros, residências artísticas e laboratórios de criação. No espaço, o público terá acesso também à Videoteca (que
-                    disponibiliza mais de 1.300 obras do Acervo Videobrasil, além de depoimentos de artistas e curadores e demais produções
-                    audiovisuais da Associação) e a uma sala de leitura especializada em publicações de artes visuais e media art,
-                    atualmente com mais de 3.200 títulos. Com 800m2, o Galpão VB será  o primeiro espaço dedicado à programação cultural na
-                    região da Vila Leopoldina, contando ainda com espaço de serviços, com café e loja abertos ao público.</p>',
+                    <p class="f">Em 2015, o Videobrasil abre sua nova sede em São Paulo: o Galpão VB, voltado à ativação permanente das obras do acervo. Servindo de casa para as ações da Associação, o Galpão VB terá exposições, programas de filmes, seminários, oficinas, residências artísticas e laboratórios de criação e reflexão. Assim, vem tornar mais constante a relação de encontro e troca com a comunidade de artistas, curadores e pesquisadores, tão valorizada pelo Festival, além de colocar o acervo em contato permanente com o público, que terá acesso à Videoteca, com mais de 1.300 itens, e a uma sala de leitura, onde estão disponíveis mais de 3.200 títulos. Com 800m2, o Galpão VB será o primeiro espaço dedicado à programação de artes visuais na região da Vila Leopoldina, contando ainda com espaço de serviços, café e loja abertos ao público. </p>',
 
                     //VB EN                     
-                    '<p class="f"><span class="bold" style="text-transform: uppercase">associação cultural videobrasil</span><br>
-                    Associação Cultural Videobrasil is dedicated to the fostering,
-                    dissemination and mapping of contemporary art as well as the public cultural promotion and the exchange between artists,
-                    curators and researchers. Independent and committed to the questioning role of art, it has increasing emphasis on public
-                    activities and the activation of its collection, which puts together an important estate of video and performance art
-                    pieces from the geopolitical South. In this sense, it devotes special attention to the production from Latin America,
-                    the Caribbean, Africa, the Middle East, Oceania, and some countries in Europe and Asia, promoting and articulating an
-                    active network of international cooperation.</p>
+                    '<p class="f"><span class="bold" style="text-transform: uppercase">associação cultural videobrasil</span><br />Established by Solange Farkas in 1991, Associação Cultural Videobrasil was born of the desire for an institution to house a growing body of artworks and publications amassed since the first edition of Festival Videobrasil, in 1983. Ever since, Associação has been working systematically to activate this collection, comprising artworks from the world’s Geopolitical South – Latin America, Africa, Eastern Europe, Asia and the Middle East –, video art classics, own productions, and a vast collection of art publications. </p>
 
-                    <p class="f">In addition to a biennial international festival founded in 1983 and, since 1992, promoted in partnership with Sesc São Paulo, Videobrasil also holds international exhibitions and touring shows, issues publications on contemporary art and culture (such as exhibition books, artist books, an annual magazine on contemporary art), and audiovisual products like the programs from the series Videobrasil on TV and the films and documentaries from Videobrasil Authors Collection, hosts public program activities such as meetings and conversations, seminars, workshops, mediation actions and sponsors artist residency programs.</p>
+                     <p class="f">Apart from the Contemporary Art Festival Sesc_Videobrasil, held every two years, Associação carries out several actions geared at researching, publicizing and mapping out its collection: international art shows; travelling exhibitions; publications about contemporary art and culture; TV shows and the Videobrasil Authors Collection documentaries; seminars, workshops and meetings with artists and researchers, in constant interaction with various fields of knowledge; and artist residency programs, in connection with a wide-ranging network of international collaborators.</p>
 
-                    <p class="f">In 2015, Videobrasil opens its new headquarters in São Paulo: Galpão VB, designed to house permanent Videobrasil Collection activation actions and to developing new creative and reflective processes. Galpão VB houses exhibitions, film programs, seminars, workshops and meetings, artist residencies and creative labs. The audience will also gain access to the Video Library (of nearly 1,300 Videobrasil Collection pieces, including statements from artists and curators and other audiovisual productions by the Associação) and to a reading room specializing in visual arts and media art, currently spanning 3,200 publications. With 800m2, Galpão VB will be the first space dedicated to cultural programming in the Vila Leopoldina district, also comprising services such as a café and a shop open to the public. </p>');
+                     <p class="f">2015 will see the launch of Videobrasil’s new headquarters in São Paulo: Galpão VB, a facility designed to permanently activate the collection’s artworks. A new home for the actions of Associação, Galpão VB will house exhibitions, film programs, seminars, workshops, artist residencies, and laboratories for creation and reflection. It will enable more consistent meeting and sharing with the community of artists, curators and researchers that the Festival values so much, as well as allow the public constant contact with the collection, through access to the Video Library, featuring 1,300-plus items, and a reading room with over 3,200 titles. Covering an 800m2 area, Galpão VB will be the first space devoted to the visual arts in São Paulo’s Vila Leopoldina district, including a services area, a café and a store, all open to the public. </p>');
 
                     ?>
                     

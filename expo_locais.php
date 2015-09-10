@@ -91,7 +91,7 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
                     
                             Rua Clélia, 93<br />
                             São Paulo, SP<br />
-                            tel.: 11 3871 7700 | 0800 11 8220<br /><a style="color:inherit" href="http://www.sescsp.org.br" target="_blank">www.sescsp.org.br</a><br /> 
+                            tel.: +55 11 3871 7700 | 0800 11 8220<br /><a style="color:inherit" href="http://www.sescsp.org.br" target="_blank">www.sescsp.org.br</a><br /> 
                             <br /><span>Visitação</span><br />
                             de 6 de outubro a 6 de dezembro de 2015<br />
                             terça a sábado das 10h ás 21h;<br />
@@ -109,7 +109,7 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
                     
                             Rua Clélia, 93<br />
                             São Paulo, SP, Brazil<br />
-                            phone: 11 3871 7700<br /><a style="color:inherit" href="http://www.sescsp.org.br" target="_blank">www.sescsp.org.br</a><br />
+                            phone: +55 11 3871 7700<br /><a style="color:inherit" href="http://www.sescsp.org.br" target="_blank">www.sescsp.org.br</a><br />
                             <br /><span>Visiting hours</span><br />
                             october 6 to december 6, 2015<br />
                             tue-sat, from 10am to 9pm;<br />
@@ -144,7 +144,7 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
 
                     Av. Imperatriz Leopoldina, 1150 <br /> 
                     São Paulo, SP<br /> 
-                    Tel.: 11 3645 0516 <br /> 
+                    Tel.: +55 11 3645 0516 <br /> 
                     <a href="http://www.videobrasil.org.br" target="_blank" style="color: inherit;">www.videobrasil.org.br</a><br /> <br /> 
 
                     Visitação <br /> 
@@ -161,7 +161,7 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
 
                     Av. Imperatriz Leopoldina, 1150 <br /> 
                     São Paulo, SP, Brazil<br /> 
-                    phone: 11 3645 0516 <br /> 
+                    phone: +55 11 3645 0516 <br /> 
                     <a href="http://www.videobrasil.org.br" target="_blank" style="color: inherit;">www.videobrasil.org.br</a><br /> <br /> 
 
                     Visiting hours<br /> 
@@ -197,7 +197,7 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
 
                     Av. da Universidade, 1 <br />
                             São Paulo, SP<br />
-                            Tel.: 11 3814 4832 | 3815-4895<br /><a style="color: inherit" href="http://www.pacodasartes.org.br" target="_blank">www.pacodasartes.org.br</a><br />
+                            Tel.: +55 11 3814 4832 | 3815-4895<br /><a style="color: inherit" href="http://www.pacodasartes.org.br" target="_blank">www.pacodasartes.org.br</a><br />
                             <br /><span>Visitação</span><br />
                             de 9 de outubro de 2015 a 10 de janeiro de 2016<br />
                             quarta a sexta das 10h às 19h;<br />
@@ -212,7 +212,7 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
 
                     Av. da Universidade, 1 <br />
                             São Paulo, SP, Brazil<br />
-                            phone: 11 3814 4832 | 3815-4895<br /><a style="color: inherit" href="http://www.pacodasartes.org.br" target="_blank">www.pacodasartes.org.br</a><br />
+                            phone: +55 11 3814 4832 | 3815-4895<br /><a style="color: inherit" href="http://www.pacodasartes.org.br" target="_blank">www.pacodasartes.org.br</a><br />
                             <br /><span>Visiting hours</span><br />
                             october 9, 2015, to january 10, 2016<br />
                             wed-fri, from 10am to 7pm;<br />

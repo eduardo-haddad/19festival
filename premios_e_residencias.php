@@ -91,6 +91,14 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
                                   $('.bc-atual').html('<?php pten('Troféu','Trophy');?>');
                                });
                                
+                            } else if(hash == 'especial'){ 
+
+                               criaUrlIdioma('#especial');
+                               $('#pr-conteudo').load('elements/premios/premio_especial.php', function(){
+                                  // $menuPR.eq(4).addClass('ativo'); 
+                                  $('.bc-atual').html('<?php pten('Prêmio especial','Special prize');?>');
+                               });
+                               
                             } 
 
                 } else {
@@ -149,6 +157,13 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
                                     $('.bc-atual').html('<?php pten('Troféu','Trophy');?>');
                                });
                                
+                            } else if($id == 'pr-especial'){ 
+                                
+                               criaUrlIdioma('#especial');
+                               $('#pr-conteudo').load('elements/premios/premio_especial.php', function(){
+                                    $('.bc-atual').html('<?php pten('Prêmio especial','Special prize');?>');
+                               });
+                               
                             }
                         }
                 }
@@ -187,7 +202,7 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
                     <p class="submenu">
                             <a id="pr-grandepremio" href="#grandepremio"><?php pten('Grande prêmio','Grand prize');?></a> | 
                             <a id="pr-premios" href="#premios"><?php pten('Prêmios de residência','Residency prizes');?></a> | 
-                            <!-- <a id="pr-especial" href="#premioespecial"><?php pten('Prêmio especial','Special prize');?></a> |  -->
+                            <a id="pr-especial" href="#especial"><?php pten('Prêmio especial','Special prize');?></a> |  
                             <a id="pr-juri" href="#juri"><?php pten('Júri','Jury');?></a> | 
                             <a id="pr-trofeu" href="#trofeu"><?php pten('Troféu','Trophy');?></a> 
                         </p>      

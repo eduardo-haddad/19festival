@@ -9,7 +9,7 @@ body {
 div#preload { display: none; }
 
 #container {
-    min-height: 1200px;
+    min-height: auto;
 }
 
 @font-face {
@@ -70,6 +70,18 @@ header {
 .none {
     text-decoration: none;
 }
+
+ a#linkartista, a.link {
+    color: inherit;
+    text-decoration: underline;
+    
+  }
+
+  a#linkartista:hover, a.link:hover {
+    color: inherit;
+    
+  }
+
 
 
 

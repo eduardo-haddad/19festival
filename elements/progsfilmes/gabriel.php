@@ -2,20 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 ?>
 
-<style type="text/css">
-  
-  a#linkartista {
-    color: inherit;
-    text-decoration: underline;
-    
-  }
 
-  a#linkartista:hover {
-    color: inherit;
-    
-  }
-
-</style>
 
 <!-- PROGRAMA 1 -->
         <a name="prog1"></a><div class="row" >
@@ -28,7 +15,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
         <div class="row" style="clear: both;"> <!--  </div> no fim do documento para unir sinopses-->
             <div class="col-sm-12 col-md-6 relative" style="float: left ">
-                <img src="img/obras/obra_gabrielabrantes.jpg" class="img-responsive center-block" style="margin-bottom: 30px" />
+                <img src="img/progsfilmes/gabriel-visionary_iraq.jpg" class="img-responsive center-block" style="margin-bottom: 30px" />
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
                 <p><span class="bold">

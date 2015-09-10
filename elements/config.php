@@ -52,8 +52,16 @@ function funcPten($pt, $en){
 
 //variaveis para paginas de artistas
 $bc_select_obras =  $idioma == 'pt' ? 
-'artistas participantes > selecionados com obras' : 
-'participating artists > selected with artworks';
+'artistas participantes > <span style="text-decoration: underline">selecionados com obras</span>' : 
+'participating artists > <span style="text-decoration: underline">selected with artworks</span>';
+
+$bc_select_projetos =  $idioma == 'pt' ? 
+'artistas participantes > <span style="text-decoration: underline">selecionados com projetos</span>' : 
+'participating artists > <span style="text-decoration: underline">selected with projects</span>';
+
+$bc_convidados =  $idioma == 'pt' ? 
+'artistas participantes > <span style="text-decoration: underline">artistas convidados</span>' : 
+'participating artists > <span style="text-decoration: underline">guest artists</span>';
 
 $sobre_artista = $idioma == 'pt' ? 
 'Sobre o artista' : 

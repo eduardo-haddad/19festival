@@ -106,73 +106,57 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : 'Parallel exhibition';
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-6 sobre-expo h" style="float: right;">
+                <div class="col-sm-12 col-md-6  h" style="float: right;">
 
                     <?php pten( 
                     ////APRESENTAÇAO PT
-                    '<p>Releitura, à luz do contemporâneo, da produção resguardada pelo Acervo Videobrasil, reúne dezesseis
-                    obras realizadas entre 1978 e 2012 por artistas do Sul global. Os trabalhos e o contexto brasileiros inspiram os três eixos
-                    da curadoria – Afeições, tempos e estradas; Democracia, documento e ficção; e Fala, escuta e dissenso –, que dialogam com o
-                    universo das obras do Festival. O título cita frase da artista Lygia Pape, ao interpelar o crítico Mário Pedrosa em entrevista
-                    ao jornal o Pasquim em 1981.</p>
+                    '<p>A exposição paralela ao <span class="bold">19º Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul</span> reúne quinze obras do Acervo Videobrasil selecionadas pelo curador Diego Matos, coordenador de arquivo e pesquisa da Associação Cultural Videobrasil. Trabalhos de artistas-chave do vídeo nacional, como Cao Guimarães, Carlos Nader, Cristiano Lenhardt (que participa do 19º Festival com um projeto comissionado), João Moreira Salles, Karim Aïnouz e Marcelo Gomes, criam relações com as obras do peruano Gabriel Acevedo, da israelense Nurit Sharett (que integrou a mais recente edição da Bienal de São Paulo) e do argelino Malek Bensmaïl, entre outros. A exposição segue em cartaz até 10 de janeiro de 2016.</p>
 
-                    <p><br />Clique <a style="text-decoration: underline; color: inherit" href="http://site.videobrasil.org.br/acervo/sobre" target="_blank">aqui</a> para saber mais sobre o Acervo Videobrasil.</p>',
+                     <p><span class="bold"><em>Quem Nasce Pra Aventura Não Toma Outro Rumo – Obras do Acervo Videobrasil</em></span> aprofunda indiretamente as reflexões da 19ª edição do Festival, que coloca o Sul global e suas múltiplas questões no centro de toda a sua programação. Para Solange Farkas, diretora do Videobrasil e curadora geral do Festival, exposições como essa “promovem a constante atualização das obras do Acervo Videobrasil, colocando-as em contato com o público e à disposição de novos recortes críticos. Essas novas perspectivas ajudam a confirmar a relevância dessas produções dentro do cenário artístico atual”. Hoje com mais de 1.300 obras catalogadas, o Acervo Videobrasil tem nos projetos expositivos a partir da imersão de curadores uma de suas principais estratégias de ativação e recontextualização.</p>
+                     
+                     <p>A mostra é fruto de uma parceria iniciada em 2001, no 13º Festival, quando obras do Acervo Videobrasil foram exibidas pela primeira vez no Paço das Artes. “O novo encontro entre as instituições amplia as discussões dos últimos catorze anos de parceria ao tocar em pontos fundamentais para o Paço das Artes: as referências geopolíticas a partir da arte e a questão do acervo e da memória da arte contemporânea. Destacar a produção artística de países do Sul global também tem sido um de nossos pilares de atuação”, declara Priscila Arantes, diretora artística e curadora do Paço das Artes.</p>
+                     
+                     <p>Diego Matos explica que o título da exposição é emprestado da fala da artista Lygia Pape, proferida quando entrevistava o intelectual e crítico de arte Mário Pedrosa para O Pasquim em 1981. “Em um momento de crise, de um trauma já consolidado na sociedade brasileira e o fim das esperanças frustradas pelo regime militar, Pedrosa renovava a crença no papel do artista e do intelectual público, bem como na relação inerente entre arte e política”, revela o curador da mostra. No mesmo período, o vídeo se popularizava e se tornava crescentemente acessível no país. “A arte naquele momento histórico e no ambiente brasileiro parecia também resgatar o seu caráter de resistência de maneira mais imediata – e o vídeo teria então esse papel fundamental”, completa.</p>
+                     
+                     <p>Ao tomar a produção nacional como ponto de partida e levá-la ao encontro de obras vindas de seis países, datadas de 1978 a 2012, a curadoria torna evidentes as “histórias que se entrecruzam e refletem o campo irrestrito da arte”. A exposição tem três conjuntos agregadores, definidos pelas aproximações entre as obras participantes: Afeições, tempos e estradas; Democracia, documento e ficção; e Fala, escuta e dissenso.</p>
+                     
+                     <p>No primeiro dos conjuntos, o epicentro da exposição, vídeos dos brasileiros Karim Aïnouz e Marcelo Gomes, Marcellvs L., e Cao Guimarães e da israelense Nurit Sharett apresentam suas percepções pessoais de tempos e espaços afetivos. O segundo núcleo possibilita um mergulho no passado político-econômico de países como Brasil (na obra de Geraldo Anhaia Mello), Chile (sob a ótica de Cláudia Aravena) e Argélia (segundo o artista Malek Bensmaïl), bem como no futuro tenebroso imaginado pelo Otolith Group (Reino Unido). Já o terceiro se apoia no assombro que é resultado das divergências — a falha na comunicação ou a impossibilidade do consenso. São levantados assuntos tratados de forma mais ou menos velada, como o racismo (por Carlos Nader) e a homofobia (nas obras de Rita Moreira e do zambiano Clive van der Berg). O espaço de fala restituída é oferecido a anônimos no trabalho de Sandra Kogut.</p>
+                     
+                     <p>Quatro obras integram espacialmente esses conjuntos: são os trabalhos de Cristiano Lenhardt, João Moreira Salles, e Gabriel Acevedo as pontuações que propõem relações sobrepostas entre os núcleos e obras que compõem a exposição. A expografia, assinada pela arquiteta Claudia Afonso, prioriza a movimentação contínua, circular e integrada do público. O trânsito continuado pelo espaço expositivo leva em consideração também a peculiaridade arquitetônica do Paço das Artes.</p>
+                     
+                     <p>Conheça as atividades de <a class="link" href="/pp.php#encontros">Programas Públicos</a> do 19º Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul que compõem a programação da exposição Quem Nasce Pra Aventura Não Toma Outro Rumo – Obras do Acervo Videobrasil. </p>
+
+
+
+
+
+
+
+
+
+                    </p>',
 
                     //APRESENTAÇAO EN
-                    '<p style="display: inline">A contemporary take on productions from the Videobrasil Collection, featuring 15 pieces created between
-                    1978 and 2012 by artists from global South. The program is divided into three sections, inspired by the selected Brazilian
-                    artworks – Affections, times and roads; Democracy, document and fiction; and Speech, hearing and dissent – which converse
-                    with the universe outlined by the artworks featured in the Festival. The title is a quote from a 1981 interview by the
-                    critic Mário Pedrosa to artist Lygia Pape, for newspaper O Pasquim.</p>
+                    '<p>The exhibition running parallel to the <span class="bold">19th Contemporary Art Festival Sesc_Videobrasil | Southern Panoramas</span> features fifteen works culled from the Videobrasil Collection by curator Diego Matos, Associação Cultural Videobrasil’s archive and research coordinator. Works by key national video artists of the likes of Cao Guimarães, Carlos Nader, Cristiano Lenhardt (featured in the 19th Festival with a commissioned project), João Moreira Salles, Karim Aïnouz & Marcelo Gomes connect with pieces by Peru’s Gabriel Acevedo, Israel’s Nurit Sharett (featured in the latest edition of the São Paulo Art Biennial), and Algeria’s Malek Bensmaïl, among others. The exhibit will continue until January 10, 2016.</p>
 
-                    <p><br />Click <a style="text-decoration: underline; color: inherit" href="http://site.videobrasil.org.br/acervo/sobre" target="_blank">here</a> to learn more about Videobrasil Collection.</p>');
+                     <p><span class="bold"><em>Those Born For Adventure Don’t Stray From the Path – Artworks from the Videobrasil Collection</em></span> is an indirect exploration of the reflections elicited by the 19th edition of the Festival, whose entire program revolves around the global South and its myriad issues. For Solange Farkas, Videobrasil’s director and the Festival’s chief curator, shows like this one “enable a constant updating of Videobrasil Collection artworks, putting them in touch with the public and at the avail of new curatorial approaches. These new perspectives help confirm the relevance of these productions to today’s art scene." The Videobrasil Collection currently comprises over 1,300 catalogued works, and exhibition projects built through the immersion of curators are one of its key activation and re-contextualization strategies.</p>
+                     
+                     <p>The show is the outcome of a partnership that began in 2001, during the 13th Festival, when Videobrasil Collection pieces were shown for the first time at Paço das Artes. “This new encounter between our institutions broadens the discussions from the past fourteen years of partnership by touching on fundamental issues for Paço das Artes: geopolitical references in art and the issue of contemporary art collection and memory. Highlighting art from countries in the global South has also been one of the pillars of our work,” says Priscila Arantes, the art director and curator for Paço das Artes.</p>
+                     
+                     <p>Diego Matos explains that the exhibition title was borrowed from the artist Lygia Pape, who uttered the sentence as she interviewed the scholar and art critic Mário Pedrosa for Brazil’s now-defunct O Pasquim weekly, back in 1981. “At a time of crisis, when Brazilian society had already assimilated the trauma and all hope had been killed by the military regime, Pedrosa refreshed belief in the role of the artist and of the public intellectual, as well as in the inherent art-politics relationship,”  the show’s curator reveals. During that same period, video was gaining popularity and becoming increasingly widespread in the country. “At that historical scenario and in the Brazilian setting, art also seemed to be reclaiming its character of resistance in a more immediate way – and video would play this fundamental role,” he adds.</p>
+                     
+                     <p>By taking national production as a starting point and connecting it to artworks from six other countries, dating from 1978 to 2012, the curating evinces the “stories that intertwine and reflect the unrestricted field of art.” The exhibition features three broader sections, defined by the commonalities shared by the featured artworks: Affections, Times and Roads, Democracy, Document and Fiction, and Speech, Hearing and Dissent.</p>
+                     
+                     <p>In the first section, the show’s epicenter, videos by the Brazilians Karim Aïnouz & Marcelo Gomes, Marcellvs L., and Cao Guimarães and by the Israeli Nurit Sharett present their personal perceptions of times and affective spaces. The second set dives into the political-economic past of countries such as Brazil (in the piece by Geraldo Anhaia Mello), Chile (from the perspective of Cláudia Aravena) and Algeria (according to the artist Malek Bensmaïl), and into the gloomy future imagined by the Otolith Group (United Kingdom). The third one focuses on the bedazzlement that originates from divergences –flawed communication or the impossibility to reach consensus. Subjects that are dealt with in a more or less veiled way are raised here, like racism (by Carlos Nader) and homophobia (in the work of Rita Moreira and of Zambia’s Clive van der Berg). The space of reclaimed speech is offered to anonymous persons in the work of Sandra Kogut.</p>
+                     
+                     <p>Four pieces bridge these sections together spatially: they are the work of Cristiano Lenhardt, João Moreira Salles, and Gabriel Acevedo, which propose superimposed connections between the groupings and artworks that comprise the exhibition. The architect Claudia Afonso’s priority in designing the show was to allow the public to move around the venue in a continuous, circular, integrated way. The continued transit throughout the exhibition space also takes into consideration the architectural peculiarity of Paço das Artes.</p>
+                     
+                     <p>Learn more about the <a class="link" href="/pp.php#encontros">Public Programs</a> activities of the 19th Contemporary Art Festival Sesc_Videobrasil | Southern Panoramas integrated into the program of the show Those Born For Adventure Don’t Stray From the Path – Artworks from the Videobrasil Collection. </p>');
 
                     ?>
                     
-                    <!-- <p class="titulo" style="margin-top:37px"><?php pten('Statement da curadoria', 'Statement'); ?></p>
-
-                    <?php pten( 
-                    ////STATEMENT PT
-                    '<p style="display: inline">
-                    Ao longo dos anos, os troféus criados para a mostra Panoramas do Sul também
-                    sofreram transformações. De peças simplesmente destinadas à premiação,
-                    tornaram-se verdadeiros objetos artísticos. No Galpão do Sesc, centro
-                    do eixo histórico do Festival, o público vai poder conhecer os troféus
-                    criados por artistas como Kiko Farkas, Guto Lacaz, Kimi Nii, Tunga,
-                    Carmela Gross, Luiz Zerbini, Raquel Garbelotti, Rosângela Rennó, entre
-                    outros, incluindo o troféu assinado pela artista Erika Verzutti para
-                    esta 18ª edição. Erika foi recentemente selecionada para a mostra
-                    Carnegie International, que reúne artistas de 19 países no Carnegie
-                    Museum, em Pittsburgh, EUA.</p><br />                     
                     
-                    <p>Em bronze e cera colorida, o troféu do 18º Festival é uma
-                    escultura da artista paulistana Erika Verzutti em forma de romã. “A
-                    fruta foi uma escolha natural quando procurava uma forma de meu
-                    repertório conhecido e que fosse também celebratória”, diz. “É uma
-                    forma preciosa, muito expressiva, meio fisionômica, e associada também
-                    a sorte”</p>',
 
-                    //STATEMENT EN
-                    '<p style="display: inline">
-                    Ao longo dos anos, os troféus criados para a mostra Panoramas do Sul também
-                    sofreram transformações. De peças simplesmente destinadas à premiação,
-                    tornaram-se verdadeiros objetos artísticos. No Galpão do Sesc, centro
-                    do eixo histórico do Festival, o público vai poder conhecer os troféus
-                    criados por artistas como Kiko Farkas, Guto Lacaz, Kimi Nii, Tunga,
-                    Carmela Gross, Luiz Zerbini, Raquel Garbelotti, Rosângela Rennó, entre
-                    outros, incluindo o troféu assinado pela artista Erika Verzutti para
-                    esta 18ª edição. Erika foi recentemente selecionada para a mostra
-                    Carnegie International, que reúne artistas de 19 países no Carnegie
-                    Museum, em Pittsburgh, EUA.</p><br />                     
-                    
-                    <p>Em bronze e cera colorida, o troféu do 18º Festival é uma
-                    escultura da artista paulistana Erika Verzutti em forma de romã. “A
-                    fruta foi uma escolha natural quando procurava uma forma de meu
-                    repertório conhecido e que fosse também celebratória”, diz. “É uma
-                    forma preciosa, muito expressiva, meio fisionômica, e associada também
-                    a sorte”</p>');
-
-                    ?> -->
                     
                 </div>
 

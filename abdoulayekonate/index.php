@@ -2,6 +2,7 @@
 
 $id_obra1 = '1805622';
 $id_obra2 = '1805628';
+$id_obra3 = '1805634';
 $id_artista = '1065544';
 
 
@@ -21,6 +22,11 @@ $ch  = curl_init('http://acervo.videobrasil.org.br/api/obras/obra/'.$id_obra2.''
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 $result = curl_exec($ch);
 $obra2 = json_decode($result, true);
+curl_close($ch);
+$ch  = curl_init('http://acervo.videobrasil.org.br/api/obras/obra/'.$id_obra3.'');
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+$result = curl_exec($ch);
+$obra3 = json_decode($result, true);
 curl_close($ch);
 
 //api vb artistas
@@ -107,7 +113,7 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
             <div class="row" >
                 <div class="col-xs-12 titulo" style="float: left;">
                 <p style="margin-bottom:0" id="nome-artista">
-                    <?php echo $nome_artista.' | '.$pais_artista ?>
+                    <?php echo 'Abdoulaye Konaté | '.$pais_artista ?>
                 </p>
                 </div>
             </div>
@@ -138,6 +144,7 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
                     <div style="margin-bottom: 0" >
                         <span id="obra-titulo"><?php echo '<em>'; print_r($obra1['titulos'][0]['titulo']); echo '</em> | '; print_r($obra1['data_producao']); echo ', '; print_r ($idioma == 'pt' ? $obra1['tipo_obra'] : $obra1['tipo_obra_en']) ?><br /></span>
                         <span id="obra-titulo"><?php echo '<em>'; print_r($obra2['titulos'][0]['titulo']); echo '</em> | '; print_r($obra2['data_producao']); echo ', '; print_r ($idioma == 'pt' ? $obra2['tipo_obra'] : $obra2['tipo_obra_en']) ?><br /></span>
+                        <span id="obra-titulo"><?php echo '<em>'; print_r($obra3['titulos'][0]['titulo']); echo '</em> | '; print_r($obra3['data_producao']); echo ', '; print_r ($idioma == 'pt' ? $obra3['tipo_obra'] : $obra3['tipo_obra_en']) ?><br /></span>
                         <span id="obra-sinopse"><?php foreach($obra1["sinopse"] as $sinopse=>$valor) {echo($idioma == $valor['idioma'] ? $valor['sinopse'] : null);} ?></span>
                             <!-- LINK PLATAFORMA -->
                             <div class="link-plataforma">

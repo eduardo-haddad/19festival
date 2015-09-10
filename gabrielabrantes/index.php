@@ -93,7 +93,7 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
 
             <div class="row">
                 <div class="col-xs-12 breadcrumb">
-                    <span><?=$bc_select_obras?></span>
+                    <span><?=$bc_convidados?></span>
                 </div>
             </div>
 
@@ -131,6 +131,8 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
                     <div style="margin-bottom: 0" >
                         <span id="obra-titulo"><?php echo '<em>'; print_r($obra['titulos'][0]['titulo']); echo '</em> | '; print_r($obra['data_producao']); echo ', '; print_r ($idioma == 'pt' ? $obra['tipo_obra'] : $obra['tipo_obra_en']) ?><br /></span>
                         <span id="obra-sinopse"><?php foreach($obra["sinopse"] as $sinopse=>$valor) {echo($idioma == $valor['idioma'] ? $valor['sinopse'] : null);} ?></span>
+                        <p id="obra-sinopse"><br /><?php pten('Gabriel Abrantes também participa dos Programas de Filmes do 19º Festival. <a href="/progsfilmes.php#gabriel" class="link">Saiba mais</a>.',
+                          'Gabriel Abrantes also participates in the 19th Festival’s Film Programs. <a href="/progsfilmes.php#gabriel" class="link">Find out more</a>.');?></p>
                             <!-- LINK PLATAFORMA -->
                             <div class="link-plataforma">
                                 <!--<?php include('../elements/artistas_plataforma.html'); ?>-->
@@ -141,6 +143,8 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
                 </div>
             </div>
             <!-- /SOBRE A OBRA -->
+
+            
 
             <div style="margin-bottom: 30px" style="clear: both"></div>
 

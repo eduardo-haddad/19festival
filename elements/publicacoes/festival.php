@@ -68,10 +68,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-sm-12 col-md-6 publicacao g" style="float: right;">         
                 <?php
                 //Publicação 1 - PT
-                pten('<p>Reúne ensaios e manifestos artísticos que apresentam, defendem ou questionam o conceito de Sul geopolítico, que aproxima regiões marcadas por backgrounds históricos, sociais e culturais assemelhados. Por meio do aporte de teóricos e de exemplos de práticas artísticas e culturais contemporâneas, põe em pauta as ideias que questionam representações e narrativas eurocêntricas. </p>
+                pten('<p>Reúne ensaios e manifestos artísticos que apresentam, defendem ou questionam o conceito de Sul geopolítico, que aproxima regiões marcadas por contextos históricos, sociais e culturais assemelhados. Por meio do aporte de teóricos e de exemplos de práticas artísticas e culturais contemporâneas, põe em pauta as ideias que questionam representações e narrativas eurocêntricas. </p>
                 
                 <br /><p style="display: inline"><span class="upper">ORGANIZAÇÃO</span> Sabrina Moura</p><br />
-                <p style="display: inline"><span class="upper">COLABORADORES</span> Milton Santos, José Rabasa, Arjun Appadurai, Jean e John Comaroff, Joaquim Torres Garcia, Organization of African Unity, Artur Barrio, Cildo Meireles, Rasheed Araeen, Rede Conceitualismos do Sul, Moacir dos Anjos, Anthony Gardner, Charles Green, Geeta Kapur, Nestor Garcia Canclini, Achile Mbembe, Sasha Huber, Petri Saariko, Maria Helena Machado, Ana Longoni </p><br />
+                <p style="display: inline"><span class="upper">COLABORADORES</span> Milton Santos, José Rabasa, Arjun Appadurai, Jean e John Comaroff, Joaquín Torres García, Organization of African Unity, Artur Barrio, Cildo Meireles, Rasheed Araeen, Rede Conceitualismos do Sul, Moacir dos Anjos, Anthony Gardner, Charles Green, Geeta Kapur, Néstor García Canclini, Achille Mbembe, Sasha Huber, Petri Saarikko e Maria Helena Machado, Ana Longoni</p><br />
                 <p style="display: inline"><span class="upper">PROJETO GRÁFICO</span> Ângela Detânico e Rafael Lain</p><br />
                 <p style="display: inline"><span class="upper">DESIGN</span> Carla Castilho, Lia Assumpção | Janela Estúdio</p><br />
                 <!-- <p style="text-align: right; font-size: 1.1em" class="bold upper">Saiba+</p><br /> -->
@@ -82,7 +82,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 '<p>This volume features essays and art manifestos that introduce, champion or challenge the notion of a geopolitical South, comprising regions with shared historical, social, and cultural backgrounds. With input from theoreticians and examples of contemporary artistic and cultural practices, it discusses ideas that question Eurocentric representations and narratives. </p>
                 
                 <br /><p style="display: inline"><span class="upper">ORGANIZED BY</span> Sabrina Moura</p><br />
-                <p style="display: inline"><span class="upper">COLLABORATORS</span> Milton Santos, José Rabasa, Arjun Appadurai, Jean and John Comaroff, Joaquim Torres Garcia, Organization of African Unity, Artur Barrio, Cildo Meireles, Rasheed Araeen, Rede Conceitualismos do Sul (Southern Conceptualisms Network), Moacir dos Anjos, Anthony Gardner, Charles Green, Geeta Kapur, Nestor Garcia Canclini, Achile Mbembe, Sasha Huber, Petri Saariko, Maria Helena Machado, Ana Longoni </p><br />
+                <p style="display: inline"><span class="upper">COLLABORATORS</span> Milton Santos, José Rabasa, Arjun Appadurai, Jean and John Comaroff, Joaquín Torres García, Organization of African Unity, Artur Barrio, Cildo Meireles, Rasheed Araeen, Rede Conceitualismos do Sul, Moacir dos Anjos, Anthony Gardner, Charles Green, Geeta Kapur, Néstor García Canclini, Achille Mbembe, Sasha Huber, Petri Saariko and Maria Helena Machado, Ana Longoni</p><br />
                 <p style="display: inline"><span class="upper">GRAPHIC CONCEPT</span> Ângela Detânico & Rafael Lain</p><br />
                 <p style="display: inline"><span class="upper">DESIGN</span> Carla Castilho, Lia Assumpção | Janela Estúdio</p><br />
                 <!-- <p style="text-align: right; font-size: 1.1em" class="bold upper">Learn more</p><br /> -->
@@ -134,7 +134,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-sm-12 col-md-6 publicacao g" style="float: right;">         
                 <?php
                 //Publicação 2 - PT
-                pten('<p>Reúne referências sobre a obra e o pensamento de Abdoulaye Konaté (Mali), Gabriel Abrantes (EUA), Rodrigo Matheus (Brasil), Sonia Gomes (Brasil) e Yto Barrada (França), os artistas reunidos pela mostra Panoramas do Sul | Artistas Convidados, que integra a programação do 19ª Festival de Arte Contemporânea Sesc_Videobrasil. Por meio de conversas entre os artistas e os curadores da exposição, apresenta a pesquisa de cada participante, as ideias por trás delas, a relação de cada um com o conceito de Sul geopolítico e os temas curatoriais que perpassam a exposição. Imagens de trabalhos significativos e informações biográficas iluminam a trajetória e o universo de cada um dos artistas convidados.</p>
+                pten('<p>Reúne referências sobre a obra e o pensamento de Abdoulaye Konaté (Mali), Gabriel Abrantes (Portugal), Rodrigo Matheus (Brasil), Sônia Gomes (Brasil) e Yto Barrada (Marrocos/França), os artistas reunidos pela mostra <span class="bold">Panoramas do Sul | Artistas Convidados</span>, que integra a programação do 19ª Festival de Arte Contemporânea Sesc_Videobrasil. Por meio de conversas entre os artistas e os curadores da exposição, apresenta a pesquisa de cada participante, as ideias por trás delas, a relação de cada um com o conceito de Sul geopolítico e os temas curatoriais que perpassam a exposição. Imagens de trabalhos significativos e informações biográficas iluminam a trajetória e o universo de cada um dos artistas convidados.</p>
                 
                 <br /><!-- <p style="display: inline"><span class="upper">ORGANIZAÇÃO</span> Sabrina Moura</p><br /> -->
                 <p style="display: inline"><span class="upper">COLABORADORES</span> Solange O. Farkas, Bernardo de Souza, Bitu Cassundé, Julia Rebouças, João Laia</p><br />
@@ -144,7 +144,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <br /><p><span class="bold upper">lançamento</span> | 10/OUT (sábado) | 16h30 | Sesc Pompeia | Foyer do Teatro</p>',
 
                 //Publicação 2 - EN
-                '<p>This publication contains references about the work and thoughts of Abdoulaye Konaté (Mali), Gabriel Abrantes (USA), Rodrigo Matheus (Brazil), Sonia Gomes (Brazil) and Yto Barrada (France), the artists featured in the Southern Panoramas | Guest Artists exhibition, a part of the program of the 19th Contemporary Art Festival Sesc_Videobrasil. Conversations with the exhibition’s artists and curators outline the lines of inquiry of each of the participants, their underlying ideas, how each relates to the concept of a geopolitical South, and the curatorial themes at play in the show. Pictures from relevant artworks and biographical information shed light on the careers and universes of each of the guest artists. </p>
+                '<p>This publication contains references about the work and thoughts of Abdoulaye Konaté (Mali), Gabriel Abrantes (Portugal), Rodrigo Matheus (Brazil), Sônia Gomes (Brazil) and Yto Barrada (Morocco/France), the artists featured in the Southern Panoramas | Guest Artists exhibition, a part of the program of the 19th Contemporary Art Festival Sesc_Videobrasil. Conversations with the exhibition’s artists and curators outline the lines of inquiry of each of the participants, their underlying ideas, how each relates to the concept of a geopolitical South, and the curatorial themes at play in the show. Pictures from relevant artworks and biographical information shed light on the careers and universes of each of the guest artists. </p>
                 
                 <br /><!-- <p style="display: inline"><span class="upper">ORGANIZED BY</span> Sabrina Moura</p><br />-->
                 <p style="display: inline"><span class="upper">COLLABORATORS</span> Solange O. Farkas, Bernardo de Souza, Bitu Cassundé, Julia Rebouças, João Laia</p><br />
@@ -198,14 +198,14 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-sm-12 col-md-6 publicacao g" style="float: right;">         
                 <?php
                 //Publicação 3 - PT
-                pten('<p>A publicação cataloga as 60 obras e projetos que integram as exposições Panoramas do Sul | Obras Selecionadas e Panoramas do Sul | Projetos Selecionados, ambas parte do 19º Festival de Arte Contemporânea Sesc_Videobrasil. Os trabalhos foram escolhidos a partir de um conjunto de cerca de duas mil inscrições. Os curadores das exposições assinam resenhas-sinopses de cada obra e breves ensaios sobre os projetos, representadas também por imagens e croquis. Um caderno especial reúne vistas das duas exposições instaladas no Sesc Pompeia e no Galpão VB.</p>
+                pten('<p>A publicação cataloga as 60 obras e projetos que integram as exposições <span class="bold">Panoramas do Sul | Obras Selecionadas</span> e <span class="bold">Panoramas do Sul | Projetos Comissionados</span>, ambas parte do 19º Festival de Arte Contemporânea Sesc_Videobrasil. Os trabalhos foram escolhidos a partir de um conjunto de cerca de duas mil inscrições. Os curadores das exposições assinam resenhas-sinopses de cada obra e breves ensaios sobre os projetos, representadas também por imagens e croquis. Um caderno especial reúne vistas das duas exposições instaladas no Sesc Pompeia e no Galpão VB.</p>
                 
                 <br /><!-- <p style="display: inline"><span class="upper">ORGANIZAÇÃO</span> Sabrina Moura</p><br /> -->
                 <p style="display: inline"><span class="upper">COLABORADORES</span> Solange O. Farkas, Bernardo de Souza, Bitu Cassundé, Julia Rebouças, João Laia</p><br />
                 <p style="display: inline"><span class="upper">PROJETO GRÁFICO</span> Ângela Detânico e Rafael Lain</p><br />
                 <p style="display: inline"><span class="upper">DESIGN</span> Carla Castilho, Lia Assumpção | Janela Estúdio</p><br />
                 <!-- <p style="text-align: right; font-size: 1.1em" class="bold upper">Saiba+</p><br /> -->
-                <br /><p><span class="bold upper">lançamento</span> | 25/NOV (quarta) | 20h | Sesc Pompeia | Teatro<br />*evento de lançamento inclui a performance <em>Fancy em Pyetà segundo ato</em>, de Fancy Violence (Rodolpho Parigi)</p>',
+                <br /><p><span class="bold upper">lançamento</span> | 25/NOV (quarta) | 20h | Sesc Pompeia | Teatro<br />*evento de lançamento inclui a performance <em>Fancy em Pyetà segundo ato</em>, de Rodolpho Parigi</p>',
                 //Publicação 3 - EN
                 '<p>This publication catalogs the 60 artworks and art projects featured in the Southern Panoramas | Selected Works and Southern Panoramas | Selected Projects exhibitions of the 19th Contemporary Art Festival Sesc_Videobrasil. The items were selected from a pool of roughly 2,000 entries. The show’s curators contribute reviews-summaries of each of the pieces, as well as short essays on the projects, interspersed with pictures and sketches. Includes a special insert containing views of the exhibitions at Sesc Pompeia and Galpão VB.</p>
                 
@@ -214,7 +214,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <p style="display: inline"><span class="upper">GRAPHIC CONCEPT</span> Ângela Detânico e Rafael Lain</p><br />
                 <p style="display: inline"><span class="upper">DESIGN</span> Carla Castilho, Lia Assumpção | Janela Estúdio</p><br />
                 <!-- <p style="text-align: right; font-size: 1.1em" class="bold upper">Learn more</p><br /> -->
-                <br /><p><span class="bold upper">Launch</span> | NOV/25 (wed) | 20h | Sesc Pompeia | Theater<br />*the event includes the performance <em>Fancy em Pyetà segundo ato</em>, by Fancy Violence (Rodolpho Parigi)</p>');  ?> 
+                <br /><p><span class="bold upper">Launch</span> | NOV/25 (wed) | 20h | Sesc Pompeia | Theater<br />*the event includes the performance <em>Fancy em Pyetà segundo ato</em>, by Rodolpho Parigi</p>');  ?> 
                 </div> 
             </div>
 

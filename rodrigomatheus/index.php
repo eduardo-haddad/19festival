@@ -93,7 +93,7 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
 
             <div class="row">
                 <div class="col-xs-12 breadcrumb">
-                    <span><?=$bc_select_obras?></span>
+                    <span><?=$bc_convidados?></span>
                 </div>
             </div>
 

@@ -2,20 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 ?>
 
-<style type="text/css">
-  
-  a#linkartista {
-    color: inherit;
-    text-decoration: underline;
-    
-  }
 
-  a#linkartista:hover {
-    color: inherit;
-    
-  }
-
-</style>
 
 <!-- PROGRAMA 1 -->
         <a name="prog1"></a><div class="row" >

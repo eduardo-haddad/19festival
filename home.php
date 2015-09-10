@@ -400,7 +400,7 @@ $(document).ready(
                                 <li class="sm-artistas-obras"><a href="/louisebotkay">Louise Botkay | <?php pten('Brasil', 'Brazil'); ?></a></li>
                                 <li class="sm-artistas-obras"><a href="/lucianamagno">Luciana Magno | <?php pten('Brasil', 'Brazil'); ?></a></li>
                                 <li class="sm-artistas-obras"><a href="/mariakramar">Maria Kramar | <?php pten('Rússia', 'Russia'); ?></a></li>
-                                <li class="sm-artistas-obras"><a href="/koutsomichalis-varela-psarra">Koutsomichalis, Varela, Psarra | <?php pten('Grécia', 'Greece'); ?></a></li>
+                                <li class="sm-artistas-obras"><a href="/koutsomichalis-varela-psarra">Marinos Koutsomichalis, Maria Varela,<br>Afroditi Psarra | <?php pten('Grécia', 'Greece'); ?></a></li>
                                 <li class="sm-artistas-obras"><a href="/mayawatanabe">Maya Watanabe | <?php pten('Peru/Países Baixos', 'Peru/Netherlands'); ?></a></li>
                                 <li class="sm-artistas-obras"><a href="/michaelmacgarry">Michael MacGarry | <?php pten('África do Sul', 'South Africa'); ?></a></li>
                                 <li class="sm-artistas-obras"><a href="/mihaigrecu">Mihai Grecu | <?php pten('Romênia/França', 'Romania/France'); ?></a></li>
@@ -442,12 +442,13 @@ $(document).ready(
                     <div id="texto1a" class="texto" style="display:none;">
                         <p class="submenu" style="margin-bottom: -6px;">
                             <a href="apresentacao.php"><?php pten('Apresentação','Introduction');?></a><br />
+                            <a href="palavrasesc.php"><?php pten('Palavra do Sesc','Word from Sesc');?></a><br />
                             <a href="curadoria.php"><?php pten('Curadoria','Curators');?></a><br />
                             <a href="identidade.php"><?php pten('Identidade Visual','Visual Identity');?></a><br />
                             <a href="realizacao.php"><?php pten('Realização','Undertaking');?></a><br />
                             <a href="parceiros.php"><?php pten('Parceiros','Supporters');?></a><br />
                             <a href="fichatecnica.php"><?php pten('Ficha técnica','Staff');?></a><br />
-                            <a href="<?php pten('http://site.videobrasil.org.br/inscricao', 'http://site.videobrasil.org.br/en/inscricao');?>" target="_blank"><?php pten('Convocatórias 19º','Open calls');?></a><br />
+                            <a href="convocatorias.php"><?php pten('Convocatórias 19º','Open calls');?></a><br />
                             <a href="<?php pten('http://site.videobrasil.org.br/festival/festivais', 'http://site.videobrasil.org.br/en/festival/festivais');?>" target="_blank"><?php pten('Histórico do Festival','History');?></a>
                         </p>
 
@@ -475,12 +476,12 @@ $(document).ready(
 
                         <div style="display:inline">
                         <p class="nomargin texto-submenu f"><?php pten(
-                            'A diversificada produção artística do Sul Global se espalha por São Paulo durante o <span class="bold">19º Festival de
+                            'A diversificada produção artística do Sul global se espalha por São Paulo durante o <span class="bold">19º Festival de
                             Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul</span>. Nesta edição, o Festival apresenta três exposições
                             (na Convivência e no Galpão do Sesc Pompeia, e no Galpão VB, nova sede da Associação Cultural Videobrasil).
                             Uma exposição paralela, com obras do Acervo Videobrasil, também faz parte da programação e acontece no Paço das Artes.'
                             ,
-                            'The plural production of the Global South takes São Paulo by storm during the <span class="bold">19th Contemporary Art Festival Sesc_Videobrasil | Southern Panoramas</span>. This edition of the Festival has three exhibits (at Sesc Pompeia’s Convivência and Galpão venues and at Galpão VB, the new headquarters of Associação Cultural Videobrasil). The program also includes a parallel show featuring Videobrasil Collection artworks at Paço das Artes.'); ?></p>
+                            'The plural production of the global South takes São Paulo by storm during the <span class="bold">19th Contemporary Art Festival Sesc_Videobrasil | Southern Panoramas</span>. This edition of the Festival has three exhibits (at Sesc Pompeia’s Convivência and Galpão venues and at Galpão VB, the new headquarters of Associação Cultural Videobrasil). The program also includes a parallel show featuring Videobrasil Collection artworks at Paço das Artes.'); ?></p>
                             
                             <p class="vejamais">&nbsp;</p>
                         </div>
@@ -532,13 +533,13 @@ $(document).ready(
                             <a href="pp.php#sobre"><?php pten('Sobre','About');?></a> | 
                             <a href="pp.php#encontros"><?php pten('Encontros e Conversas','Meetings and conversations');?></a> | 
                             <a href="pp.php#seminario"><?php pten('Seminário','Seminar');?></a> | 
-                            <a href="pp.php#oficinas"><?php pten('Oficinas','Workshops');?></a> <!-- | 
-                            <a href="pp.php#mediacao"><?php pten('Ações de Mediação','Activation actions');?></a> -->
+                            <a href="pp.php#oficinas"><?php pten('Oficinas','Workshops');?></a><br>
+                            <a href="pp.php#mediacao"><?php pten('Ações de Mediação','Activation actions');?></a> 
                         </p>
 
                         <div style="display:inline">
-                        <p class="nomargin texto-submenu l"><?php pten('Os Programas Públicos reafirmam o ambiente de diálogo do Festival, possibilitando que as pesquisas curatoriais se desdobrem em ações de contato com o público. Este canal direto com seu espectador se desdobra em um Seminário, Encontros e conversas, Oficinas e Ações de mediação. Multidisciplinares, essas ações transformam os espaços expositivos em locais de pensamento e troca que extrapolam o campo da arte e dialogam transversalmente com outras áreas do conhecimento.',
-                                                                       'The Public Programs provide an environment for debate within the 19th Festival, allowing curatorial inquiries to develop through audience interaction. This direct channel with viewers will branch out into a Seminar, Meetings and Conversations, Workshops, and Mediation Actions. These multidisciplinary actions will rearrange the exhibition spaces as places for reflection and exchange that go beyond the art field to converse transversally with other fields of knowledge.');?></p>
+                        <p class="nomargin texto-submenu l"><?php pten('Quatro conjuntos de atividades exploram o conteúdo das exposições do Festival: o Seminário Lugares e sentidos da arte: debates a partir do Sul, que reflete sobre as possibilidades de alargamento das categorias da arte na contemporaneidade, as Oficinas, sessões práticas de exercício de linguagens; os Encontros e conversas, oportunidades informais de troca; e as Ações de Mediação conduzidas pelos educadores do Festival. A programação envolve artistas participantes das exposições e convidados, entre curadores, pesquisadores, e representantes de instituições parceiras, além dos educadores.',
+                                                                       'Four different sets of activities will explore the contents of the Festival’s exhibitions: the Seminar Places and meanings of art: debates from the South, which reflects about the possibilities of broadening the artistic categories in contemporaneity; the Workshops, practical sessions for exercise on language; Meetings and conversations, informal opportunities for exchange; and Mediated Actions hosted by the Festival’s educators. The program involves artists featured in the exhibitions, as well as guest curators, researchers, and delegates from partner organizations, as well as educators. ');?></p>
                             
                             <p class="vejamais">&nbsp;</p>
                         </div>
@@ -559,7 +560,7 @@ $(document).ready(
                         <p class="submenu">
                             <a href="premios_e_residencias.php#grandepremio"><?php pten('Grande prêmio','Grand prize');?></a> | 
                             <a href="premios_e_residencias.php#premios"><?php pten('Prêmios de residência','Residency prizes');?></a> | 
-                            <!-- <a href="premio_especial.php"><?php pten('Prêmio especial','Special prize');?></a> |  -->
+                            <a href="premios_e_residencias.php#especial"><?php pten('Prêmio especial','Special prize');?></a><br />
                             <a href="premios_e_residencias.php#juri"><?php pten('Júri','Jury');?></a> | 
                             <a href="premios_e_residencias.php#trofeu"><?php pten('Troféu','Trophy');?></a> 
                         </p>
@@ -586,7 +587,7 @@ $(document).ready(
                         </p>
 
                         <div style="display:inline">
-                        <p class="nomargin texto-submenu o"><?php pten('Cinco publicações têm lançamento durante o <span class="bold">19ª Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul</span>. Três delas são vinculadas aos temas dessa edição: <em>Panoramas do Sul | Artistas Convidados</em>, <em>Panoramas do Sul | Obras Selecionadas</em> e <em>Projetos Comissionados</em> e a antologia <em>Panoramas do Sul | Leituras | Perspectivas para outras geografias do pensamento</em>. O livro <em>Videobrasil: Três décadas de vídeo, arte, encontros e transformações<em> celebra a história do Festival, mapeando as transformações do vídeo e suas aproximações com a arte a partir dos anos 1980. Fecha o conjunto <em>Aliança de Corpos Vulneráveis</em>, a 11ª edição da revista anual de arte contemporânea Caderno Sesc_Videobrasil, editada pelo curador Miguel Ángel López.',
+                        <p class="nomargin texto-submenu o"><?php pten('Cinco publicações têm lançamento durante o <span class="bold">19ª Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul</span>. Três delas são vinculadas aos temas dessa edição: <em>Panoramas do Sul | Artistas Convidados</em>, <em>Panoramas do Sul | Obras Selecionadas</em> e <em>Projetos Comissionados</em> e a antologia <em>Panoramas do Sul | Leituras | Perspectivas para outras geografias do pensamento</em>. O livro <em>Videobrasil: Três décadas de vídeo, arte, encontros e transformações</em> celebra a história do Festival, mapeando as transformações do vídeo e suas aproximações com a arte a partir dos anos 1980. Fecha o conjunto <em>Aliança de Corpos Vulneráveis</em>, a 11ª edição da revista anual de arte contemporânea Caderno Sesc_Videobrasil, editada pelo curador Miguel Ángel López.',
                                                                        'Five publications will be launched during the <span class="bold">19th Contemporary Art Festival Sesc_Videobrasil | Southern Panoramas</span>, slated for October 6 to December 6, 2015 in São Paulo. Three of them are linked to the Festival’s themes: <em>Southern Panoramas | Guest Artists</em>, <em>Southern Panoramas | Selected Works and Commissioned Projects</em>  and the anthology <em>Southern Panoramas | Readings | Perspectives for other geographies of thought</em>. The book <em>Videobrasil: Three decades of video, art, encounters and transformations</em> celebrates the history of the Festival, mapping the transformations undergone by video and its convergence with art from the 1980s on. The final publication is <em>An Alliance of Vulnerable Bodies</em>, the 11th edition of the annual contemporary art magazine Caderno Sesc_Videobrasil, edited by curator Miguel Angel López.');?></p>
                             <p class="vejamais">&nbsp;</p>
                         </div>

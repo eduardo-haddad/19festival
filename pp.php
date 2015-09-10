@@ -191,8 +191,8 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
                             <a onclick="location.hash='sobre';" id="pp-sobre"><?php pten('Sobre','About');?></a> | 
                             <a onclick="location.hash='encontros';" id="pp-encontros"><?php pten('Encontros e Conversas','Meetings and conversations');?></a> | 
                             <a onclick="location.hash='seminario';" id="pp-seminario"><?php pten('Seminário','Seminar');?></a> | 
-                            <a onclick="location.hash='oficinas';" id="pp-oficinas"><?php pten('Oficinas','Workshops');?></a> <!-- | 
-                            <a onclick="location.hash='mediacao';" id="pp-mediacao"><?php pten('Ações de Mediação','Activation actions');?></a> -->
+                            <a onclick="location.hash='oficinas';" id="pp-oficinas"><?php pten('Oficinas','Workshops');?></a> | 
+                            <a onclick="location.hash='mediacao';" id="pp-mediacao"><?php pten('Ações de Mediação','Activation actions');?></a>
                     </p>     
                 </div>
             </div>
