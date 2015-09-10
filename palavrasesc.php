@@ -123,7 +123,7 @@ $titulo = $idioma == 'pt' ? 'Palavra do Sesc' : 'Word from Sesc';
                 </div>
             </div> -->
 
-            <div id="altura">&nbsp;</div>
+            <div id="altura">&nbsp;</div><div id="altura">&nbsp;</div>
     </main>
 
     <!-- RODAPE -->
