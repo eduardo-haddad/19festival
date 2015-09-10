@@ -86,22 +86,22 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : 'Parallel exhibition';
                     <div id="lista">
                         <ol>
                                 <li class="upper"><?php pten('Artistas Participantes', 'Participating Artists'); ?><br /><br /></li>
-                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/39686">Cao Guimarães</a> | <?php pten('Brasil', 'Brazil'); ?></li>
-                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/21102">Carlos Nader</a> | <?php pten('Brasil', 'Brazil'); ?></li>
-                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/39115">Claudia Aravena</a> | <?php pten('Chile', 'Chile'); ?></li>
-                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/39124">Clive van den Berg</a> | <?php pten('Zâmbia', 'Zambia'); ?></li>
-                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/238258">Cristiano Lenhardt</a> | <?php pten('Brasil', 'Brazil'); ?></li>
-                                <li><a href="#">Gabriel Acevedo Velarde</a> | <?php pten('Peru', 'Peru'); ?></li>
-                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/21243">Geraldo Anhaia Mello</a> | <?php pten('Brasil', 'Brazil'); ?></li>
-                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/56880">João Moreira Salles</a> | <?php pten('Brasil', 'Brazil'); ?></li>
-                                <li><a href="#">Karim Aïnouz</a> | <?php pten('Brasil', 'Brazil'); ?></li>
-                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/39394">Malek Bensmail</a> | <?php pten('Argélia', 'Algeria'); ?></li>
-                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/75819">Marcellvs L.</a> | <?php pten('Brasil', 'Brazil'); ?></li>
-                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/240526">Marcelo Gomes</a> | <?php pten('Brasil', 'Brazil'); ?></li>
-                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/394092">Nurit Sharett</a> | <?php pten('Israel', 'Israel'); ?></li>
-                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/21430">Rita Moreira</a> | <?php pten('Brasil', 'Brazil'); ?></li>
-                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/21444">Sandra Kogut</a> | <?php pten('Brasil', 'Brazil'); ?></li>
-                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/242653">The Otolith Group</a> | <?php pten('Reino Unido', 'United Kingdom'); ?></li>
+                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/39686">Cao Guimarães | <?php pten('Brasil', 'Brazil'); ?></a></li>
+                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/21102">Carlos Nader | <?php pten('Brasil', 'Brazil'); ?></a></li>
+                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/39115">Claudia Aravena | <?php pten('Chile', 'Chile'); ?></a></li>
+                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/39124">Clive van den Berg | <?php pten('Zâmbia', 'Zambia'); ?></a></li>
+                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/238258">Cristiano Lenhardt | <?php pten('Brasil', 'Brazil'); ?></a></li>
+                                <li><a href="#">Gabriel Acevedo Velarde | <?php pten('Peru', 'Peru'); ?></a></li>
+                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/21243">Geraldo Anhaia Mello | <?php pten('Brasil', 'Brazil'); ?></a></li>
+                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/56880">João Moreira Salles | <?php pten('Brasil', 'Brazil'); ?></a></li>
+                                <li><a href="#">Karim Aïnouz | <?php pten('Brasil', 'Brazil'); ?></a></li>
+                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/39394">Malek Bensmail | <?php pten('Argélia', 'Algeria'); ?></a></li>
+                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/75819">Marcellvs L. | <?php pten('Brasil', 'Brazil'); ?></a></li>
+                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/240526">Marcelo Gomes | <?php pten('Brasil', 'Brazil'); ?></a></li>
+                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/394092">Nurit Sharett | <?php pten('Israel', 'Israel'); ?></a></li>
+                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/21430">Rita Moreira | <?php pten('Brasil', 'Brazil'); ?></a></li>
+                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/21444">Sandra Kogut | <?php pten('Brasil', 'Brazil'); ?></a></li>
+                                <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/242653">The Otolith Group | <?php pten('Reino Unido', 'United Kingdom'); ?></a></li>
                         </ol>
                     </div>
                 </div>
