@@ -64,7 +64,7 @@ $titulo = $idioma == 'pt' ? 'Palavra do Sesc' : 'Word from Sesc';
                 </div>
             </div>
            
-            <div class="row" style="clear: both;">
+            <div class="row" style="clear: both; margin-bottom: 15px">
 
               
 
