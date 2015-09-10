@@ -46,8 +46,7 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
                 var hash = window.location.hash.split('#')[1];
                     
 
-
-                $menuPR = $('a[id^=pr], a[class=link]');
+                $menuPR = $('a[id^=pr]');
 
                 if (hash) {
 

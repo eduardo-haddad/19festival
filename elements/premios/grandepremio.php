@@ -16,8 +16,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                  'click', function(){
                         
 
-                               criaUrlIdioma('#juri');   
                                $('#pr-conteudo').load('elements/premios/juri.php', function(){
+                                    $('a[id^=pr]').eq(3).addClass('ativo');  
                                     $('.bc-atual').html('<?php pten('Júri','Jury');?>');
                                });
                                
