@@ -219,7 +219,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
                 //Evento 3 - PT
-                pten('<p>Aberta a múltiplas interpretações e percepções, a ficção permite extrapolar a linearidade narrativa em direção a outras lógicas. A dimensão ficcional da literatura libera o narrador para outras maneiras de contar histórias. A mesa discute a criação que, destituída de prova ou documento, busca cruzamentos de palavras e imagens que permitam escapar de um mundo reduzido ao visível.
+                pten('<p>Aberta a múltiplas interpretações e percepções, a ficção permite extrapolar a linearidade narrativa em direção a outras lógicas sensoriais. A dimensão ficcional da literatura libera o narrador para outras maneiras de contar histórias e elaborar trajetórias pessoais ou coletivas. A mesa discute a criação que, destituída de prova ou documento, busca cruzamentos de palavras e imagens que permitam escapar de um mundo reduzido ao visível e entrar no campo da imaginação.
                     </p>
                     <p><span class="bold">Para participar</span> envie nome, e-mail e ocupação para o e-mail seminario@19festival.org.br até o dia 19.10. <span class="bold">Vagas limitadas</span>.</p>
                 <!--<p><span class="bold">Saiba mais</span><br />
