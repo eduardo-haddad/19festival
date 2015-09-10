@@ -218,11 +218,11 @@ $(document).ready(
                                     if(abertura == false){
                                         abreMenu();
                                         
-                                        $todosTextos.each( //fechar todos itens menos o atual
+                                       /*$todosTextos.each( //fechar todos itens menos o atual
                                         function(){
                                             $(this).slideUp('easeInOutCubic');
                                                                                 
-                                        }); 
+                                        });*/
 
                                     } else {
                                         fechaMenu();                            
@@ -496,7 +496,7 @@ $(document).ready(
                         <p class="submenu">
                             <a href="progsfilmes.php#obras"><?php pten('Obras selecionadas','Selected works');?></a> | 
                             <a href="progsfilmes.php#gabriel">Gabriel Abrantes</a> | 
-                            <a href="progsfilmes.php#programacao"><?php pten('Programação','Program');?></a>
+                            <a href="progsfilmes.php#programacao"><?php pten('Programação','Schedule');?></a>
                         </p>
 
                         <div style="display:inline">
