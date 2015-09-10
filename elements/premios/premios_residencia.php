@@ -178,8 +178,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                             <div class="col-sm-12 col-md-6" style="float: right; text-align: left">
                             <p><span class="bold">China Art Foundation</span><br />
                             <?php pten(
-                                'A China Art Foundation tem como objetivos ajudar a garantir que o intenso interesse global na arte contemporânea e na cultura da China tenham um futuro sustentável, e ajudar a aumentar o conhecimento e a compreensão, nos campos da arte e da cultura, entre a China e o resto do mundo. O impulso por trás da criação da fundação foi o reconhecimento comum de que a transformação sem precedentes pela qual a China está passando levanta questões culturais para o país e para o resto do mundo.',
-                                'China Art Foundation’s aims are to help ensure that the intense global interest in contemporary Chinese art and culture has a sustainable future, and to help increase two–way knowledge and understanding between China and the rest of the world, in the arena of art and culture. The impulse behind the setting up of the Foundation was the common recognition that the unprecedented transformation through which China is passing raises cultural issues for said country and for the rest of the world.');
+                                'A <a href="http://www.thechinaartfoundation.com/en/home/" target="_blank">China Art Foundation</a> tem como objetivos ajudar a garantir que o intenso interesse global na arte contemporânea e na cultura da China tenham um futuro sustentável, e ajudar a aumentar o conhecimento e a compreensão, nos campos da arte e da cultura, entre a China e o resto do mundo. O impulso por trás da criação da fundação foi o reconhecimento comum de que a transformação sem precedentes pela qual a China está passando levanta questões culturais para o país e para o resto do mundo.',
+                                '<a href="http://www.thechinaartfoundation.com/en/home/" target="_blank">China Art Foundation</a>’s aims are to help ensure that the intense global interest in contemporary Chinese art and culture has a sustainable future, and to help increase two–way knowledge and understanding between China and the rest of the world, in the arena of art and culture. The impulse behind the setting up of the Foundation was the common recognition that the unprecedented transformation through which China is passing raises cultural issues for said country and for the rest of the world.');
                                 ?>
                             </p>
                             </div>
@@ -422,7 +422,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6" style="float: left ">
-                    <img src="img/residencias/wexner.jpg" class="img-responsive" style="margin-bottom:
+                    <img src="img/residencias/wexner2.jpg" class="img-responsive" style="margin-bottom:
                 15px" />     
                 </div>     
                 <div class="col-sm-12 col-md-6 a" style="float: right;" >         

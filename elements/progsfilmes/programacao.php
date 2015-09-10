@@ -6,7 +6,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12">
                     <div class="titulo n"><span><?php pten('SEMANA DE ABERTURA | 8 A 10 DE OUTUBRO', 'OPENING WEEK | OCTOBER 8-10'); ?></span></div>
                     
-                    <p class="bold f"><?php pten('PROGRAMA DE FILMES OBRAS SELECIONADAS', 'FILM PROGRAM - SELECTED WORKS'); ?></p>
                     
                     <p class="f"><span class="bold"><?php pten('08/OUT (QUINTA) | 14H00 ÀS 17H30 | SESC POMPEIA | TEATRO', 
                                                                '08/OUT (THU) | 14H00-17H30 | SESC POMPEIA | THEATER'); ?></span><br />
@@ -32,7 +31,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12">
                     <div class="titulo n"><span><?php pten('após a semana de abertura | 13 DE OUTUBRO A 3 DE DEZEMBRO', 'AFTER THE OPENING WEEK | OCTOBER 13 - DECEMBER 3'); ?></span></div>
                     
-                    <p class="bold f"><?php pten('PROGRAMA DE FILMES OBRAS SELECIONADAS', 'FILM PROGRAM - SELECTED WORKS'); ?></p>
                     
                     <p class="f"><span class="bold"><?php pten('Programa de Filmes - A', 
                                                                'Film program - A'); ?></span><br />
