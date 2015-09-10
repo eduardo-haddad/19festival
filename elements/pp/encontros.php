@@ -111,7 +111,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <?php
                 //Evento 2 - PT
                 pten('<p>
-                O 19º Videobrasil recebe a plataforma de discussão Tilting Axis, voltada a promover maior proximidade e articulação entre profissionais que trabalham em iniciativas e instituições geridas por artistas na região caribenha, além de construir e redefinir relações históricas com o Norte e estabelecer diálogo com redes fortes que emergem no Sul global. Recém-fundada, em Barbados, a plataforma apresenta suas propostas e metodologia.</p>',
+                O 19º Festival recebe a plataforma de discussão Tilting Axis, voltada a promover maior proximidade e articulação entre profissionais que trabalham em iniciativas e instituições geridas por artistas na região caribenha, além de construir e redefinir relações históricas com o Norte e estabelecer diálogo com redes fortes que emergem no Sul global. Recém-fundada, em Barbados, a plataforma apresenta suas propostas e metodologia.</p>',
 
                 //Evento 2 - EN
                 '<p>The 19th Festival will feature Tilting Axis, a discussion platform for professionals from artist-managed initiatives and institutions in the Caribbean to promote contact and network, as well as build and redefine their historical ties with the North, and converse with strong up-and-coming networks from the global South. The proposals and methodology of the platform, which was recently established in Barbados, will be outlined.</p>');  ?> 
@@ -143,7 +143,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <img src="img/pp/encontros-rede<?php pten('-pt.png','-en.jpg');?>" class="img-responsive" style="margin-bottom: 15px" />    
 
                     <p><span style="text-transform: uppercase"><?php pten('Participantes', 'Participants'); ?></span></p>
-                    <p><span class="bold">A-I-R Laboratory </span><?php pten('(Barbados)','(Poland)'); ?></p>
+                    <p><span class="bold">A-I-R Laboratory </span><?php pten('(Polônia)','(Poland)'); ?></p>
                     <p><span class="bold">Arquetopia </span><?php pten('(México)','(Mexico)'); ?></p>
                     <p><span class="bold">Delfina Foundation </span><?php pten('(Reino Unido)','(United Kingdom)'); ?></p>
                     <p><span class="bold">Djerassi Resident Artists Program </span><?php pten('(EUA)','(USA)'); ?></p>
@@ -157,10 +157,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
                 //Evento 3 - PT
-                pten('<p>Representantes das instituições parceiras do 19º Festival que oferecem residências artísticas conversam com o público sobre seus programas.</p>',
+                pten('<p>Representantes das residências artísticas parceiras do 19º Festival se colocam à disposição para conversar com o público sobre seus programas.</p>',
 
                 //Evento 3 - EN
-                '<p>Delegates from 19th Festival partner organizations offering artist residencies will discuss their programs with the public. </p>');  ?> 
+                '<p>Delegates from partner artist residencies of the 19th Festival will be available to talk to the public about their programs.</p>');  ?> 
                 </div> 
             </div>
 

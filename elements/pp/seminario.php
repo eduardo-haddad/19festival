@@ -34,7 +34,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
                 //SOBRE - PT
-                pten('<p>Em quatro encontros ao longo de outubro, o seminário com curadoria de Sabrina Moura discute a arte como campo produtor de conhecimento, a partir de questões trazidas pelas exposições do Festival. Pensadores, escritores e artistas repensam tradições, espaços de circulação, narrativas e histórias.</p>',
+                pten('<p>O Seminário <em>Lugares e sentidos na arte: debates a partir do Sul</em> busca expandir questões centrais trazidas pelas exposições que compõem o 19º Festival de Arte Contemporânea Sesc_Videobrasil. Em diálogo com o programa de estudos Observatório do Sul, iniciado em maio de 2015 em parceria com o Goethe-Institut, o seminário discutirá a expansão da arte como campo produtor de conhecimento. Com a proposta de repensar suas tradições,  espaços de circulação, narrativas e histórias, dialogaremos com pensadores, escritores e artistas em quatro encontros ao longo do mês de outubro.</p>',
 
                 //SOBRE - EN
                 '<p>In four meetings in October, the seminar curated by Sabrina Moura will discuss art as a knowledge production field, based on issues raised by the Festival’s exhibitions. Scholars, writers, and artists will rethink traditions, sharing spaces, narratives, and stories.</p>');  ?> 
@@ -76,7 +76,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         '(Brasil) is a member of the 19th Festival curatorial committee.'); ?></p>
                     <p><span class="bold">N’Goné Fall </span><?php pten(
                         '(Senegal) é curadora e crítica. Foi curadora-convidada da Bienal de Dacar de 2002.',
-                        '(Senegal) is a curator and a critic. She served as guest curator for the 2002 Dakar Biennale.'); ?></p> 
+                        '(Senegal) is a curator and a critic. She served as guest curator for the 2002 Dakar Biennale.'); ?></p>
+                    <p><span class="bold">Roy Dib </span><?php pten(
+                        '(Líbano) É artista visual e crítico de arte. Concluiu mestrado em estudos teatrais e performance pela Lebanese University, Beirute, Líbano, em 2004. Atua com filme, vídeo e videoinstalação.',
+                        '(Lebanon) Visual artist and art critic. He completed a master’s degree in Theater and Performance Studies from the Lebanese University in Beirut, Lebanon, 2004. Dib works with film, video and video installation.'); ?></p>  
                     
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
