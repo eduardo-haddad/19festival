@@ -47,7 +47,7 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
                     
 
 
-                $menuPR = $('a[id^=pr]');
+                $menuPR = $('a[id^=pr], a[class=link]');
 
                 if (hash) {
 
