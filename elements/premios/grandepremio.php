@@ -12,7 +12,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 paletaArtistas($('.premio-sobre p:nth-child(4)'));
 
 
-                $('.link').on(
+                $('a.link').on(
                  'click', function(){
                         
 
@@ -22,9 +22,12 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                });
                                
                             } 
-                           
-            }
-        );
+                    
+            );
+
+            });
+
+
     </script>
     <style>
          #premio-aviso {
