@@ -76,7 +76,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <p style="display: inline"><span class="upper">DESIGN</span> Carla Castilho, Lia Assumpção | Janela Estúdio</p><br />
                 <!-- <p style="text-align: right; font-size: 1.1em" class="bold upper">Saiba+</p><br /> -->
                 <br /><p><span class="bold upper">lançamento</span> | 10/OUT (sábado) | 16h30 | Sesc <br>Pompeia | Teatro<br />
-                *em ocasião da 2ª mesa do seminário <em>LUGARES E SENTIDOS DA ARTE: Tradições, Espaços, Tempos e Narrativas ao Sul</em></p>',
+                *em ocasião da 2ª mesa do seminário <em><a href="/pp.php#seminario" class="link">LUGARES E SENTIDOS DA ARTE: Tradições, Espaços, Tempos e Narrativas ao Sul</a></em></p>',
 
                 //Publicação 1 - EN
                 '<p>This volume features essays and art manifestos that introduce, champion or challenge the notion of a geopolitical South, comprising regions with shared historical, social, and cultural backgrounds. With input from theoreticians and examples of contemporary artistic and cultural practices, it discusses ideas that question Eurocentric representations and narratives. </p>
@@ -87,7 +87,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <p style="display: inline"><span class="upper">DESIGN</span> Carla Castilho, Lia Assumpção | Janela Estúdio</p><br />
                 <!-- <p style="text-align: right; font-size: 1.1em" class="bold upper">Learn more</p><br /> -->
                 <br /><p><span class="bold upper">Launch</span> | OCT/10 (sat) | 16h30 | Sesc Pompeia | Theater<br />
-                *on occasion of the 2nd panel of the seminar <em>PLACES AND MEANINGS IN ART: Debates from the South</em></p>');  ?> 
+                *on occasion of the 2nd panel of the seminar <em><a href="/pp.php#seminario" class="link">PLACES AND MEANINGS IN ART: Debates from the South</a></em></p>');  ?> 
                 </div> 
             </div>
 

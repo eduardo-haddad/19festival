@@ -74,7 +74,7 @@ $titulo = $idioma == 'pt' ? 'Performances' : 'Performances';
                     <span class="bold upper">25/nov</span> | quarta<br />
                     21h30<br />
                     Sesc Pompeia | Convivência<br />
-                    *Com lançamento das publicações <em>Caderno Sesc_Videobrasil 11 | Aliança de corpos vulneráveis</em> e <em>Panoramas do Sul | Artistas selecionados – Obras e projetos</em></p>',
+                    *Em ocasião do lançamento das publicações <em>Caderno Sesc_Videobrasil 11 | Aliança de corpos vulneráveis</em> e <em>Panoramas do Sul | Artistas selecionados – Obras e projetos</em></p>',
 
                     '<p><span class="bold upper">oct/06</span> | Tuesday<br />
                     21h<br />

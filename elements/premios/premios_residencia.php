@@ -437,15 +437,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                 <!-- APOIADOR -->
                 <div class="row" style="clear: both; margin-bottom: 25px;"> 
-                            <div class="col-sm-12 col-md-6" style="float: left; "><img class="img-responsive retrato-artista" src="img/residencias/resartis.png" style="margin-bottom: 0px" /></div>
+                            <div class="col-sm-12 col-md-6" style="float: left; "></div>
                             <div class="col-sm-12 col-md-6" style="float: right; text-align: left">
-                                <?php
-                                    pten('<span class="bold">Res Artis</span><br />
-                                          A <a href="http://www.resartis.org/">Res Artis</a> é uma associação composta por mais de 500 instituições, organizações e pessoas em mais de 70 países. Cada um dos seus membros se dedicada a oferecer a artistas, curadores e toda sorte de pessoas criativas o tempo necessário e o lugar distante das pressões e hábitos do dia a dia, uma experiência inserida dentro de um contexto geográfico e cultural único. Através da Res Artis, as organizações passam a fazer parte de uma comunidade global e se envolver em um diálogo que se realiza por meio de encontros presenciais ou virtuais.', 
-                                         '<span class="bold">Res Artis</span><br />
-                                          <a href="http://www.resartis.org/">Res Artis</a> is an association of over 500 centers, organisations, and individuals in over 70 countries. Each of its members is dedicated to offering artists, curators, and all manner of creative people the essential time and place away from the pressures and habits of every-day life, an experience framed within a unique geographic and cultural context. Through Res Artis, organisations will become part of a global community of colleagues engaged in dialogue through face-to-face meetings and virtually through online presence.'
-                                         );
-                                ?>
+                                
 
                             </div>
                 </div>

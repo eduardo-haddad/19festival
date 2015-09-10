@@ -66,9 +66,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
     <div class="col-sm-12 col-md-6 premio-sobre" style="float: right;" >         
     <?php
     //Sobre - PT
-    pten('<p>O 19º Festival de Arte Contemporânea Sesc_Videobrasil oferece um Grande Prêmio em dinheiro, no valor bruto total de R$ 75 mil (setenta e cinco mil reais), a um dos artistas selecionados pelo edital de obras desta edição, escolhido Júri de Premiação. </p>',
+    pten('<p>O 19º Festival de Arte Contemporânea Sesc_Videobrasil oferece um Grande Prêmio em dinheiro a um dos artistas selecionados pelo edital de obras desta edição, escolhido pelo Júri de Premiação. </p>',
 
     //Sobre - EN
-    '<p>The 19th Contemporary Art Festival Sesc_Videobrasil offers a Grand Prize in cash in the gross amount of BRL 75,000 (seventy-five thousand reais) to one of the artists selected from this edition’s artworks call for entries, chosen by the Award Jury.</p>');  ?> 
+    '<p>The 19th Contemporary Art Festival Sesc_Videobrasil offers a Grand Prize in cash to one of the artists selected from this edition’s artworks call for entries, chosen by the Award Jury.</p>');  ?> 
     </div> 
 </div>         

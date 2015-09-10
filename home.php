@@ -500,8 +500,8 @@ $(document).ready(
                         </p>
 
                         <div style="display:inline">
-                        <p class="nomargin texto-submenu k"><?php pten('O Programa de Filmes do 19º Festival apresenta no Teatro do Sesc Pompeia e no Galpão VB obras selecionadas que exigem exibição em sala de cinema e uma performance, além de um programa especial, com uma reunião de trabalhos do artista convidado Gabriel Abrantes.', 
-                                                                       'Sesc Pompeia’s Teatro and Galpão VB will host the 19th Festival\'s Film Program, featuring a series of selected works created for the big screen, one performance, and a selection of pieces by guest artist Gabriel Abrantes.');?> </p>
+                        <p class="nomargin texto-submenu k"><?php pten('O Programa de Filmes do 19º Festival apresenta no Teatro do Sesc Pompeia e no Galpão VB obras selecionadas que exigem exibição em sala de cinema, além de um programa especial, com uma reunião de trabalhos do artista convidado Gabriel Abrantes.', 
+                                                                       'Sesc Pompeia’s Teatro and Galpão VB will host the 19th Festival\'s Film Program, featuring a series of selected works created for the big screen and a selection of pieces by guest artist Gabriel Abrantes.');?> </p>
                             
                             <p class="vejamais">&nbsp;</p>
                         </div>
