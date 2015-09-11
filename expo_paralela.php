@@ -69,8 +69,7 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : 'Parallel exhibition';
                         <a href="expo_convidados.php"><?php pten('artistas convidados', 'guest artists') ?></a> | 
                         <a href="expo_projetos.php"><?php pten('projetos comissionados', 'Comissioned projects') ?></a> | 
                         <a href="expo_obras.php"><?php pten('obras selecionadas', 'Selected works') ?></a> | 
-                        <a href="expo_paralela.php"><span style="text-decoration: underline"><?php pten('exposição paralela', 'Parallel exhibition') ?></span></a> |
-                        <a href="expo_locais.php"><?php pten('Locais', 'Venues') ?></a>
+                        <a href="expo_paralela.php"><span style="text-decoration: underline"><?php pten('exposição paralela', 'Parallel exhibition') ?></span></a> 
                     </p>      
                 </div>
             </div>

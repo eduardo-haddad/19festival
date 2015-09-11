@@ -64,7 +64,8 @@ $titulo = $idioma == 'pt' ? 'Convocatórias' : 'Open Calls';
                             <a href="parceiros.php"><?php pten('Parceiros','Supporters');?></a> | 
                             <a href="fichatecnica.php"><?php pten('Ficha Técnica','Staff');?></a> | 
                             <a href="convocatorias.php"><span style="text-decoration: underline"><?php pten('Convocatórias 19º','Open calls');?></span></a> | 
-                            <a href="<?php pten('http://site.videobrasil.org.br/festival/festivais', 'http://site.videobrasil.org.br/en/festival/festivais');?>" target="_blank"><?php pten('Histórico do Festival','History');?></a>
+                            <a href="<?php pten('http://site.videobrasil.org.br/festival/festivais', 'http://site.videobrasil.org.br/en/festival/festivais');?>" target="_blank"><?php pten('Histórico do Festival','History');?></a> | 
+                            <a href="visite.php"><?php pten('Visite','Visit');?></a>
                     </p>      
                 </div>
             </div>

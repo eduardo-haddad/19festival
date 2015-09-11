@@ -323,7 +323,12 @@ $(document).ready(
 
     <style type="text/css">
 
-        
+        a#visite {
+            color: #bb6d46;
+        }
+        a#visite:hover {
+            color: #bb6d46;
+        }
 
     </style>
 
@@ -449,7 +454,8 @@ $(document).ready(
                             <a href="parceiros.php"><?php pten('Parceiros','Supporters');?></a><br />
                             <a href="fichatecnica.php"><?php pten('Ficha técnica','Staff');?></a><br />
                             <a href="convocatorias.php"><?php pten('Convocatórias 19º','Open calls');?></a><br />
-                            <a href="<?php pten('http://site.videobrasil.org.br/festival/festivais', 'http://site.videobrasil.org.br/en/festival/festivais');?>" target="_blank"><?php pten('Histórico do Festival','History');?></a>
+                            <a href="<?php pten('http://site.videobrasil.org.br/festival/festivais', 'http://site.videobrasil.org.br/en/festival/festivais');?>" target="_blank"><?php pten('Histórico do Festival','History');?></a><br />
+                            <a id="visite" href="visite.php"><?php pten('Visite','Visit');?></a><br />
                         </p>
 
                         <div style="display:inline">
@@ -470,8 +476,8 @@ $(document).ready(
                             <a href="expo_convidados.php"><?php pten('Artistas convidados','Guest artists');?></a> | 
                             <a href="expo_projetos.php"><?php pten('Projetos comissionados','Comissioned projects');?></a> | 
                             <a href="expo_obras.php"><?php pten('Obras selecionadas','Selected works');?></a> | 
-                            <a href="expo_paralela.php"><?php pten('Exposicão paralela','Parallel exhibition');?></a> | 
-                            <a href="expo_locais.php"><?php pten('Locais','Venues');?></a>
+                            <a href="expo_paralela.php"><?php pten('Exposicão paralela','Parallel exhibition');?></a>
+                            
                         </p>
 
                         <div style="display:inline">
@@ -641,7 +647,17 @@ $(document).ready(
     <img src="img/botoes/<?php pten('pt','en');?>/noticias_2.png" width="1" height="1" alt="Image 11" />
     <img src="img/botoes/<?php pten('pt','en');?>/imprensa_2.png" width="1" height="1" alt="Image 12" />
 
-</div>
+    </div>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-33383260-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
 </body>
 </html>
 

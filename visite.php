@@ -1,7 +1,7 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
-$titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
+$titulo = $idioma == 'pt' ? 'Visite' : 'Visit';
 
 ?>
 
@@ -49,8 +49,8 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
 
         	<div class="row">
         		<div class="col-xs-12 breadcrumb">
-                    <span><?php pten('exposições > <span class="underline">locais</span>', 
-                                     'exhibitions > <span class="underline">venues</span>');  ?></span>      
+                    <span><?php pten('sobre > <span class="underline">visite</span>', 
+                                     'about > <span class="underline">visit</span>');  ?></span>      
                 </div>
         	</div>
 
@@ -58,11 +58,16 @@ $titulo = $idioma == 'pt' ? 'Locais' : 'Venues';
             <div class="row">
                 <div class="col-xs-12">
                     <p class="submenu" style="margin-bottom:21px">
-                        <a href="expo_convidados.php"><?php pten('artistas convidados', 'guest artists') ?></a> | 
-                        <a href="expo_projetos.php"><?php pten('projetos comissionados', 'Comissioned projects') ?></a> | 
-                        <a href="expo_obras.php"><?php pten('obras selecionadas', 'Selected works') ?></a> | 
-                        <a href="expo_paralela.php"><?php pten('exposição paralela', 'Parallel exhibition') ?></a> |
-                        <a href="expo_locais.php"><span style="text-decoration: underline"><?php pten('Locais', 'Venues') ?></span></a>
+                            <a href="apresentacao.php"><?php pten('Apresentação','Introduction');?></a> | 
+                            <a href="palavrasesc.php"><?php pten('Palavra do Sesc','Word from Sesc');?></a> | 
+                            <a href="curadoria.php"><?php pten('Curadoria','Curators');?></a> | 
+                            <a href="identidade.php"><?php pten('Identidade Visual','Visual Identity');?></a> | 
+                            <a href="realizacao.php"><?php pten('Realização','Undertaking');?></a> | 
+                            <a href="parceiros.php"><?php pten('Parceiros','Supporters');?></a> | 
+                            <a href="fichatecnica.php"><?php pten('Ficha Técnica','Staff');?></a> | 
+                            <a href="convocatorias.php"><?php pten('Convocatórias 19º','Open calls');?></a> | 
+                            <a href="<?php pten('http://site.videobrasil.org.br/festival/festivais', 'http://site.videobrasil.org.br/en/festival/festivais');?>" target="_blank"><?php pten('Histórico do Festival','History');?></a> | 
+                            <a href="visite.php"><span style="text-decoration: underline"><?php pten('Visite','Visit');?></span></a>
                     </p>      
                 </div>
             </div>
