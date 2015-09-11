@@ -73,6 +73,14 @@ $titulo = $idioma == 'pt' ? 'Visite' : 'Visit';
             </div>
             <!-- SUBMENU -->
 
+            <div class="row" >
+                <div class="col-xs-12 titulo" style="float: left;">
+                <p style="margin-bottom:0">
+                    <?= $titulo ?>
+                </p>
+                </div>
+            </div>
+
              
             <!-- EXPO 1 -->
             <div class="row" style="clear: both; margin-bottom: 20px">
