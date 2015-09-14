@@ -207,7 +207,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <?php
                 //Evento 4 - PT
                 pten('<p>Alguns dos artistas selecionados para o Festival recebem artistas previamente inscritos para compartilhar sua própria pesquisa e trajetória. Em grupo, os convidados refletem sobre o processo, linguagem e pesquisas dos artistas inscritos.</p>
-                        <p><span class="bold">Para participar:</span> artistas interessados devem enviar portfólio (em pdf), entre os dias 6.10 e 23.10, para o e-mail portfolio@zebra5.com.br.<br /> 
+                        <p><span class="bold">Para participar:</span> artistas interessados devem enviar portfólio (em pdf), entre os dias 6/OUT e 23/OUT, para o e-mail portfolio@zebra5.com.br.<br /> 
                         <span class="bold">Para assistir:</span> Retirada de senha 1h antes no próprio local.<span class="bold"> Vagas limitadas.</span></p>',
 
                 //Evento 4 - EN
