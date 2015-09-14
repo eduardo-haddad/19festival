@@ -108,7 +108,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/publicacoes/caderno11.png" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/publicacoes/caderno11.jpg" class="img-responsive" style="margin-bottom: 15px" />    
 
                     <p style="margin-top: 25px; margin-bottom: 25px;"><?php pten(
                     'Edições Sesc São Paulo e Associação Cultural Videobrasil<br />
