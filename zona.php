@@ -1,7 +1,7 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
-$titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
+$titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Reflection Zone';
 
 ?>
 
@@ -42,7 +42,7 @@ $titulo = $idioma == 'pt' ? 'Zona de Reflexão' : 'Knowledge Zone';
             <div class="row">
                 <div class="col-xs-12 titulo" style="float: left;">
                 <p style="margin-bottom:0">
-                   <?php pten('Sobre', 'About');  ?>
+                   <?=$titulo ?>
                 </p>
                 </div>
             </div>
