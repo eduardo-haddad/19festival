@@ -90,7 +90,7 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : 'Parallel exhibition';
                                 <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/39115">Claudia Aravena | <?php pten('Chile', 'Chile'); ?></a></li>
                                 <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/39124">Clive van den Berg | <?php pten('Zâmbia', 'Zambia'); ?></a></li>
                                 <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/238258">Cristiano Lenhardt | <?php pten('Brasil', 'Brazil'); ?></a></li>
-                                <li><a href="#">Gabriel Acevedo Velarde | <?php pten('Peru', 'Peru'); ?></a></li>
+                                <li><a href="#">Gabriel Acevedo | <?php pten('Peru', 'Peru'); ?></a></li>
                                 <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/21243">Geraldo Anhaia Mello | <?php pten('Brasil', 'Brazil'); ?></a></li>
                                 <li><a href="http://site.videobrasil.org.br/acervo/artistas/artista/56880">João Moreira Salles | <?php pten('Brasil', 'Brazil'); ?></a></li>
                                 <li><a href="#">Karim Aïnouz | <?php pten('Brasil', 'Brazil'); ?></a></li>
