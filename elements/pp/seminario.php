@@ -37,7 +37,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 pten('<p>O Seminário <em>Lugares e sentidos na arte: debates a partir do Sul</em>, com curadoria e mediação de Sabrina Moura, busca expandir questões centrais trazidas pelas exposições que compõem o 19º Festival de Arte Contemporânea Sesc_Videobrasil. Em diálogo com o programa de estudos Observatório do Sul, iniciado em maio de 2015 em parceria com o Goethe-Institut, o seminário discutirá a expansão da arte como campo produtor de conhecimento. Com a proposta de repensar suas tradições,  espaços de circulação, narrativas e histórias, dialogaremos com pensadores, escritores e artistas em quatro encontros ao longo do mês de outubro.</p>',
 
                 //SOBRE - EN
-                '<p>In four meetings in October, the seminar curated by Sabrina Moura will discuss art as a knowledge production field, based on issues raised by the Festival’s exhibitions. Scholars, writers, and artists will rethink traditions, sharing spaces, narratives, and stories.</p>');  ?> 
+                '<p>The Seminar <em>Places and meanings in art: debates from the South</em>, with curation and mediation from Sabrina Moura, looks to expand on key issues raised by the shows that make up the 19th Contemporary Art Festival Sesc_Videobrasil. In connection with the Southern Observatory study program, initiated in May 2015 in partnership with the Goethe-Institut, the seminar will discuss the expansion of art as a knowledge production field. Over the course of four meetings in October, we will engage in dialogue with thinkers, writers and artists to rethink their traditions, spaces of circulation, narratives, and histories.</p>');  ?> 
                 </div> 
             </div>
 
@@ -228,7 +228,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                  - fotos</p>-->',
 
                 //Evento 3 - EN
-                '<p>Being open to multiple interpretations and perceptions, fiction allows the extrapolation of narrative linearity to other logics. The fictional dimension of literature allows the narrator to explore other forms of storytelling. The panel will discuss creations which, devoid of proof or document, seek to cross-reference words and images that allow an escape from a world reduced only to what’s visible.
+                '<p>Being open to multiple interpretations and perceptions, fiction enables narrative linearity to be replaced with other sensory logics. The fictional dimension of literature liberates the narrator for other forms of storytelling and to elaborate personal or collective trajectories. The panel discusses creative works which, devoid of any proof or documentation, look for word and image junctures that allow an escape from a world reduced to what is visible and into the realm of imagination.
                     </p>
                     <p><span class="bold">How to participate</span> send your name, email address and occupation to seminario@19festival.org.br by Oct 19. <span class="bold">Seats are limited</span>.</p>
                 <!--<p><span class="bold">Learn more</span><br />
