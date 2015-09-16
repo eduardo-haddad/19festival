@@ -84,7 +84,8 @@ $titulo = $idioma == 'pt' ? 'Obras selecionadas' : 'Selected works';
                     <img src="img/expos/expo-obras-<?php pten('pt','en');?>.png" class="img-responsive" style="max-width: 485px" />
                     <div id="lista">
                         <ol>
-                                <li class="upper"><?php pten('Artistas Participantes', 'Participating Artists'); ?><br /><br /></li>
+                                <li class="upper"><?php pten('Artistas selecionados pelo edital de obras',
+                                                             'Artists selected from the<br />artworks call for entries'); ?><br /><br /></li>
                                 <li><a href="/alicherri">Ali Cherri | <?php pten('Líbano/França', 'Lebanon/France'); ?></a></li>
                                 <li><a href="/alinexegustavojardim">Aline X e Gustavo Jardim | <?php pten('Brasil', 'Brazil'); ?></a></li>
                                 <li><a href="/anavaz">Ana Vaz | <?php pten('Brasil/França', 'Brazil/France'); ?></a></li>

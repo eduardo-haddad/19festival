@@ -150,7 +150,7 @@ $nome_artista2 = 'Gustavo Jardim';
                 </div>
                 <div class="col-sm-12 col-md-6" id="obra-texto">
                     <div style="margin-bottom: 0" >
-                        <span id="obra-titulo"><?php echo '<em>'; print_r($obra['titulos'][0]['titulo']); echo '</em> | '; print_r($obra['data_producao']); echo ', '; print_r ($idioma == 'pt' ? $obra['tipo_obra'] : $obra['tipo_obra_en']) ?><br /></span>
+                        <span id="obra-titulo"><?php echo '<em>'; print_r($obra['titulos'][1]['titulo']); echo '</em> | '; print_r($obra['data_producao']); echo ', '; print_r ($idioma == 'pt' ? $obra['tipo_obra'] : $obra['tipo_obra_en']) ?><br /></span>
                         <span id="obra-sinopse"><?php foreach($obra["sinopse"] as $sinopse=>$valor) {echo($idioma == $valor['idioma'] ? $valor['sinopse'] : null);} ?></span>
                             <!-- LINK PLATAFORMA -->
                             <div class="link-plataforma">

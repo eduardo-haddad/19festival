@@ -524,7 +524,7 @@ $(document).ready(
                         <div style="display:inline">
                         <p class="nomargin texto-submenu k"><?php pten('Além dos vídeos, videoinstalações, fotografias, gravuras, pinturas e instalações que compõem a exposição <span class="bold">Panoramas do Sul | Obras Selecionadas</span>, o 19º Festival apresenta três performances de artistas e grupos selecionadas pelo edital de obras. Duas delas são apresentadas no espaço expositivo na área de Convivência do Sesc Pompeia. A terceira performance acontece no Teatro do Sesc Pompeia, onde também são exibidos os Programas de Filmes do 19º Festival.', 
                                                                        'Besides the videos, video installations, photographs, prints, paintings, and installations in the <span class="bold">Southern Panoramas | Selected Works</span> exhibit, the 19th Festival will feature three performances by artists and groups selected through the open call for artwork entries. Two of them will be enacted at Sesc Pompeia’s Convivência area. The third performance will be presented at Sesc Pompeia’s Teatro, where the 19th Festival’s Film Programs will also be on show.');?></p>
-                            <p class="vejamais"><a href="performances.php"><?php pten('Saiba+','Learn more');?></a></p>
+                            <p class="vejamais" style="margin: 21px 0px 26px 0px;"><a href="performances.php"><?php pten('Saiba+','Learn more');?></a></p>
                         </div>
 
                         

@@ -61,8 +61,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                     <p><input type="button" value="<?php pten('comprar', 'purchase'); ?>" /></p>
 
-                    <p><?php pten('Em breve disponível em livrarias, nas unidades do Sesc SP, na Associação Cultural Videobrasil e pela internet em <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.', 
-                                  'Soon available in bookstores, at Sesc SP units, at Associação Cultural Videobrasil and online at <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.'); ?>
+                    <p><?php pten('Em breve disponível em livrarias, nas unidades do Sesc SP, no Galpão VB | Associação Cultural Videobrasil e pela internet em <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.', 
+                                  'Soon available in bookstores, at Sesc SP units, at Galpão VB | Associação Cultural Videobrasil and online at <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.'); ?>
                     </p>
 
 
@@ -123,8 +123,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                     <p><input type="button" value="<?php pten('comprar', 'purchase'); ?>" /></p>
 
-                    <p><?php pten('Em breve disponível em livrarias, nas unidades do Sesc SP, na Associação Cultural Videobrasil e pela internet em <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.', 
-                                  'Soon available in bookstores, at Sesc SP units, at Associação Cultural Videobrasil and online at <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.'); ?>
+                    <p><?php pten('Em breve disponível em livrarias, nas unidades do Sesc SP, no Galpão VB | Associação Cultural Videobrasil e pela internet em <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.', 
+                                  'Soon available in bookstores, at Sesc SP units, at Galpão VB | Associação Cultural Videobrasil and online at <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.'); ?>
                     </p>
 
 

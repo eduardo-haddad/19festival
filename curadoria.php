@@ -91,11 +91,9 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
 
                     <p>
                     <?php pten('<span class="titulo o">Sutil sintonia</span><br />
-                                <span class="submenu">por Solange O. Farkas<br />
-                                Curadora-geral</span>', 
+                                <span class="submenu">por Solange O. Farkas</span>', 
                                '<span class="titulo o">Subtly in tune</span><br />
-                               <span class="submenu">by Solange O. Farkas<br />
-                               Chief curator</span>'); ?></p>
+                               <span class="submenu">by Solange O. Farkas'); ?></p>
 
                     <?php pten(////SOLANGE PT                                              
                         '<p class="f">O viés
@@ -186,11 +184,12 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
 
                 <?php // SOLANGE PT 
                 pten('<p style="margin-bottom: 0">
-                    <span class="bold">Solange Farkas</span> (vive e trabalha em São Paulo, Brasil)<br />
+                    <span class="bold">Curadora geral<br />Solange Farkas</span> (vive e trabalha em São Paulo, Brasil)<br />
                     É curadora e diretora da Associação Cultural Videobrasil. Criou o Festival Internacional de Arte Contemporânea SESC_Videobrasil, evento de que é curadora-geral e que trouxe ao Brasil grandes nomes da arte contemporânea internacional. Foi responsável pelas exposições Sophie Calle – Cuide de Você (2009) e Joseph Beuys – A Revolução Somos Nós (2010). Em sua carreira como curadora, destacam-se a Mostra Africana de Arte Contemporânea (São Paulo, 2000); Mostra Pan-Africana de Arte Contemporânea (Salvador, 2005); La Mirada Discreta: Marcel Odenbach & Robert Cahen (Buenos Aires, 2006); Eder Santos – Roteiro Amarrado (Rio de Janeiro, 2010), Isaac Julien: Geopoéticas (São Paulo, 2012) e Alfabeto Infinito | Angela Detanico e Rafael Lain (Porto Alegre, 2013) e Videobrasil 30 anos (2013/2014), que teve itinerâncias em Varsóvia, Polônia; Atlanta, EUA; Joanesburgo e Cidade do Cabo, África do Sul e Beijing, China. Foi curadora convidada pelo 5º Videozone: International Video Art Biennial (Israel, 2010), pela 16ª Bienal de Cerveira (Portugal, 2011), pela 10ª Bienal de Charjah (Emirados Árabes Unidos, 2011), pelo 3º Festival de Videoarte de Macau (China, 2012) e pelo Screen from Barcelona Festival (Espanha, 2012). Foi diretora e curadora-chefe do Museu de Arte Moderna da Bahia (Salvador, 2007 a 2010). Participou de programação em homenagem ao Videobrasil no Festival de la Imagen (Manizales, Colômbia, 2013). No mesmo ano, o 6th Jakarta International Video Festival teve mostra com curadoria de Solange Farkas, bem como a FUSO, anual de videoarte em Lisboa que repetiu a parceria com a curadora e com a Associação Cultural Videobrasil em 2014.
                     </p>', 
                     // SOLANGE EN
-                    '<p style="margin-bottom: 0"><span class="bold">Solange Farkas</span><br />(lives and works out of São Paulo, Brazil)<br />
+                    '<p style="margin-bottom: 0">
+                    <span class="bold">Chief curator<br />Solange Farkas</span><br />(lives and works out of São Paulo, Brazil)<br />
                     Curator and director of Associação Cultural Videobrasil. She was the founder and is the general curator of the International Contemporary Art Festival Sesc_Videobrasil, an event which has brought leading international contemporary artists to Brazil. She was responsible for the exhibitions Sophie Calle – Take care of yourself (2009) and Joseph Beuys – We Are the Revolution (2010). The highlights of her curating career include the African Contemporary Art Exhibition (São Paulo, 2000); Pan African Contemporary Art Exhibition (Salvador, 2005); La Mirada Discreta: Marcel Odenbach & Robert Cahen (Buenos Aires, 2006); Eder Santos – Roteiro Amarrado (Rio de Janeiro, 2010), Isaac Julien: Geopoetics (São Paulo, 2012), Alfabeto Infinito | Angela Detanico e Rafael Lain (Porto Alegre, 2013) and Videobrasil 30 years (2013/2014), which spun off touring shows in Warsaw, Poland; Atlanta, USA; Johannesburg and Cape Town, South Africa, and Beijing, China. She served as a guest curator at the 5th Videozone: International Video Art Biennial (Israel, 2010), the 16th Cerveira Biennial (Portugal, 2011), the 10th Sharjah Biennial (United Arab Emirates, 2011), the 3rd Macao Video Art Festival (China, 2012) and Screen from Barcelona Festival (Spain, 2012). She is a former director and chief curator of the Bahia Modern Art Museum (Salvador, 2007 to 2010). She participated in a program in honor of Videobrasil at the Festival de la Imagen (Manizales, Colombia, 2013). In that same year, the 6th Jakarta International Video Festival featured a program curated by Solange Farkas, as did FUSO, the annual video art exhibit in Lisbon, which partnered up with the curator and Associação Cultural Videobrasil again in 2014.</p>');                     
                     ?>                 
                     </div>
@@ -207,11 +206,12 @@ $titulo = $idioma == 'pt' ? 'Curadoria' : 'Curators';
 
                 <?php // BERNARDO PT 
                 pten('<p style="margin-bottom: 0">
-                    <span class="bold">Bernardo José de Souza</span> (vive e trabalha no Rio de Janeiro, Brasil)<br />
+                    <span class="bold">Curadores convidados<br />Bernardo José de Souza</span> (vive e trabalha no Rio de Janeiro, Brasil)<br />
                     É curador de arte, professor universitário e escreve para publicações sobre cultura visual. Bacharel em Comunicação Social pela Pontifícia Universidade Católica do Rio Grande do Sul (PUC-RS) e especialista em Fotografia e Moda pela London College of Fashion - University of the Arts, Reino Unido. É membro dos conselhos curadores do Museu de Arte Contemporânea do Rio Grande do Sul (MACRS), Porto Alegre, Brasil;  e da Fundação Vera Chaves Barcellos (FVCB), na mesma cidade.  Sua atividade no campo das artes visuais inclui a organização de exposições, festivais de cinema, seminários, publicações e programas educativos. Foi curador da 9ª Bienal do Mercosul, 2013, Porto Alegre, e coordenador de Cinema, Vídeo e Fotografia da Secretaria de Cultura da Prefeitura da capital gaúcha. Escreve para publicações sobre cultura visual, colaborando para revistas como Vogue, URBE, VOX e para o jornal Folha de São Paulo. É professor da Escola Superior de Propaganda e Marketing (ESPM), tendo lecionado na Pontifícia Universidade Católica do Rio Grande do Sul (PUC-RS), na Universidade do Vale do Rio dos Sinos (Unisinos), e no SENAC - São Paulo.  Vive e trabalha no Rio de Janeiro.
                     </p>', 
                     // BERNARDO EN
-                    '<p style="margin-bottom: 0"><span class="bold">Bernardo José de Souza</span><br />(lives and works out of Rio de Janeiro, Brazil)<br />
+                    '<p style="margin-bottom: 0">
+                    <span class="bold">Guest curators<br />Bernardo José de Souza</span><br />(lives and works out of Rio de Janeiro, Brazil)<br />
                     Art curator, university professor and writer for publications on visual culture. Holds a baccalaureate degree in Social Communication from the Pontifical Catholic University in Rio Grande do Sul (PUC-RS) and a specialization in Photography and Fashion from the London College of Fashion - University of the Arts, United Kingdom. Member of the boards of curators of the Museum of Contemporary Art of Grande do Sul (MACRS), Porto Alegre, Brazil; and of Fundação Vera Chaves Barcellos (FVCB), in the same city.  His work in the visual arts field includes organizing exhibitions, film festivals, seminars, publications and educational programs. Served as curator for the 9th Mercosul Biennial, 2013, Porto Alegre, and as coordinator for Cinema, Video and Photography at the Secretariat for Culture of the Porto Alegre City Hall. Writes for visual culture publications, collaborating with magazines like Vogue, URBE, VOX and the Folha de São Paulo newspaper. He is a professor at Escola Superior de Propaganda e Marketing (ESPM), and was formerly a professor at the Pontifical Catholic University of Rio Grande do Sul (PUC-RS), Universidade do Vale do Rio dos Sinos (Unisinos), and SENAC - São Paulo.  He lives and works in Rio de Janeiro.</p>');                     
                     ?>                 
                     </div>

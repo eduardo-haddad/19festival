@@ -84,7 +84,7 @@ $titulo = $idioma == 'pt' ? 'Artistas Convidados' : 'Guest Artists';
                     <img src="img/expos/expo-convidados-<?php pten('pt','en');?>.png" class="img-responsive" style="max-width: 485px" />
                     <div id="lista" style="margin-bottom: 19px">
                         <ol>
-                            <li class="upper"><?php pten('Artistas Participantes', 'Participating Artists'); ?><br /><br /></li>
+                            <li class="upper"><?php pten('Artistas convidados', 'Guest artists'); ?><br /><br /></li>
                             <li><a href="/abdoulayekonate">Abdoulaye Konaté | <?php pten('Mali', 'Mali'); ?></a></li>
                             <li><a href="/gabrielabrantes">Gabriel Abrantes | <?php pten('Portugal', 'Portugal'); ?></a></li>
                             <li><a href="/rodrigomatheus">Rodrigo Matheus | <?php pten('Brasil', 'Brazil'); ?></a></li>

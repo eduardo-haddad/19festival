@@ -69,8 +69,8 @@ $titulo = $idioma == 'pt' ? 'Palavra do Sesc' : 'Word from Sesc';
 
               
 
-                <div class="col-sm-12 col-md-6 h relative" style="float: left;">
-                     <!-- <img src="img/sobre/apresentacao.png" class="img-responsive" style="max-width: 485px" /> -->
+                <div class="col-sm-12 col-md-6 h " style="float: left;">
+                     <img src="img/sobre/danilo.jpg" class="img-responsive retrato-artista" />
                  
                 </div>
 

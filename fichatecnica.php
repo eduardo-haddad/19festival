@@ -128,7 +128,7 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
                      <p><span class="bold upper">ASSISTENTES DE PRODUÇÃO</span><br />
                      Elton de Almeida, Paulo Menezes</p>
                      
-                     <p>LOGÍSTICA</span><br />
+                     <p><span class="bold upper">LOGÍSTICA</span><br />
                      Sylvia Monasterios</p>
                      
                      <p><span class="bold upper">IDENTIDADE VISUAL E PROJETO GRÁFICO</span><br />

@@ -1,7 +1,7 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
-$titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
+$titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and conversations';
 
 
 ?>
@@ -58,7 +58,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
                                criaUrlIdioma('#encontros');
                                $('#pp-conteudo').load('elements/pp/encontros.php', function(){
                                   $menuPP.eq(1).addClass('ativo'); 
-                                  $('.bc-atual').html('<?php pten('encontros e conversas', 'Meetings and talks');?>');
+                                  $('.bc-atual').html('<?php pten('encontros e conversas', 'Meetings and conversations');?>');
                                });
                                
                             } else if(hash == 'seminario'){ 
@@ -126,7 +126,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
                                 
                                criaUrlIdioma('#encontros');       
                                $('#pp-conteudo').load('elements/pp/encontros.php', function(){
-                                    $('.bc-atual').html('<?php pten('encontros e conversas', 'Meetings and talks');?>');
+                                    $('.bc-atual').html('<?php pten('encontros e conversas', 'Meetings and conversations');?>');
                                });
                                
                             } else if($id == 'pp-seminario'){ 
@@ -179,7 +179,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and talks';
             <div class="row">
         		<div class="col-xs-12 breadcrumb">
                     <?php pten('programas públicos > <span class="underline bc-atual">encontros e conversas</span>', 
-                               'public programs > <span class="underline bc-atual">meetings and talks</span>'); ?>   
+                               'public programs > <span class="underline bc-atual">meetings and conversations</span>'); ?>   
                 </div>
         	</div>
             <!-- /BREADCRUMB -->
