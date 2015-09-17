@@ -318,9 +318,12 @@ header {
 #lista ol, #agenda ol {
     list-style-type:none;
     margin-left: -39px;
-    margin-top: 16px;
     font-size: 1.1em;
-    line-height: 1.8em
+}
+
+#agenda ol {
+    line-height: 1.75em;
+    margin-top: 17px;
 }
 
 .texto-expo {
