@@ -318,7 +318,9 @@ header {
 #lista ol, #agenda ol {
     list-style-type:none;
     margin-left: -39px;
+    margin-top: 16px;
     font-size: 1.1em;
+    line-height: 1.8em
 }
 
 .texto-expo {
