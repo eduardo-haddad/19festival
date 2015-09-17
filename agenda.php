@@ -1,18 +1,21 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
+
+$titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
+
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <meta charset="UTF-8">
+    <title><?= ($idioma == 'pt' ? $titulo . ' - 19º Festival de Arte Contemporânea Sesc_Videobrasil' : $titulo . ' - 19th Contemporary Art Festival Sesc_Videobrasil')  ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" type="text/css" href="css/home.css">
-    <link rel="stylesheet" type="text/css" href="css/expos.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="js/home.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/home.js"></script>
     <script>
         $(document).ready(
             function(){
@@ -103,7 +106,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             <div class="row" style="clear: both;">
                 <div class="col-xs-12" id="agenda">
 
-                    <p class="bold" id="legenda"><span>LEGENDA:</span><br />
+                <?php pten(
+                    //AGENDA PT
+                    '<p class="bold" id="legenda"><span>LEGENDA:</span><br />
                     <span class="agenda-abertura">ABERTURAS DE EXPOSIÇÕES</span><br />
                     <span class="agenda-performance">PERFORMANCES</span><br />
                     <span class="agenda-filme">PROGRAMAS DE FILMES</span><br />
@@ -117,284 +122,497 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                     <ol id="ol1">
                     <li>6 de outubro, terça-feira</li>
-                    <li class="agenda-abertura">20h00 | Sesc Pompeia, Galpão | Abertura da exposição Panoramas do Sul | Artistas Convidados  </li>
-                    <li class="agenda-abertura">20h00 | Sesc Pompeia, Convivência | Abertura da exposição Panoramas do Sul | Obras Selecionadas</li>
-                    <li class="agenda-performance">20h00 | Sesc Pompeia, Convivência | Performance | Oiko-nomic Threads, de Marinos Koutsomichalis, Maria Varela, Afroditi Psarra</li>
-                    <li class="agenda-performance">21h00 | Sesc Pompeia, Convivência | Performance | Fancy em Pyetà segundo ato, de Rodolpho Parigi</li>
+                    <li class="agenda-abertura">20h00 | Sesc Pompeia, Galpão | <a href="expo_convidados.php" target="_blank" class="link">Abertura da exposição Panoramas do Sul | Artistas Convidados</a></li>
+                    <li class="agenda-abertura">20h00 | Sesc Pompeia, Convivência | <a href="expo_obras.php" target="_blank" class="link">Abertura da exposição Panoramas do Sul | Obras Selecionadas</a></li>
+                    <li class="agenda-performance">20h00 | Sesc Pompeia, Convivência | Performance | <a href="performances.php" target="_blank" class="link">Oiko-nomic Threads, de Marinos Koutsomichalis, Maria Varela, Afroditi Psarra</a></li>
+                    <li class="agenda-performance">21h00 | Sesc Pompeia, Convivência | Performance | <a href="performances.php" target="_blank" class="link">Fancy em Pyetà segundo ato, de Rodolpho Parigi</a></li>
                     </ol>
                     <ol>
                     <li>7 de outubro, quarta-feira</li>
-                    <li class="agenda-seminario">11h00 | Sesc Pompeia, Teatro | Programas Públicos | Seminário Lugares e Sentidos na Arte: Debates a Partir do Sul | Mesa 1: Repensar tradições: arte, gesto e contemporaneidade</li>
-                    <li class="agenda-encontro">13h45 | Sesc Pompeia, Galpão | Programas Públicos | Encontros e Conversas | Visita com o artista convidado Rodrigo Matheus</li>
-                    <li class="agenda-filme">18h00 | Sesc Pompeia, Teatro | Abertura do Programa de Filmes | Obras Selecionadas </li>
-                    <li class="agenda-filme">18h00 | Sesc Pompeia, Teatro | Abertura do Programa de Filmes | Obras Selecionadas | Programa #1</li>
-                    <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #2</li>
-                    <li class="agenda-performance">21h00 | Sesc Pompeia, Teatro | Performance | VOSTOK cineperformance</li>
-                    <li class="agenda-filme">21h30 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #3</li>
+                    <li class="agenda-seminario">11h00 | Sesc Pompeia, Teatro | Programas Públicos | <a href="pp.php#seminario" target="_blank" class="link">Seminário Lugares e Sentidos na Arte: Debates a Partir do Sul | Mesa 1: Repensar tradições: arte, gesto e contemporaneidade</a></li>
+                    <li class="agenda-encontro">13h45 | Sesc Pompeia, Galpão | Programas Públicos | <a href="pp.php#encontros" target="_blank" class="link">Encontros e Conversas | Visita com o artista convidado Rodrigo Matheus</a></li>
+                    <li class="agenda-filme">18h00 | Sesc Pompeia, Teatro | <a href="progsfilmes.php#obras" target="_blank" class="link">Abertura do Programa de Filmes | Obras Selecionadas </a></li>
+                    <li class="agenda-filme">18h00 | Sesc Pompeia, Teatro | <a href="progsfilmes.php#obras" target="_blank" class="link">Abertura do Programa de Filmes | Obras Selecionadas | Programa #1</a></li>
+                    <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #2</a></li>
+                    <li class="agenda-performance">21h00 | Sesc Pompeia, Teatro | Performance | <a href="performances.php" target="_blank" class="link">VOSTOK cineperformance</a></li>
+                    <li class="agenda-filme">21h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #3</a></li>
                     </ol>
                     <ol>
                     <li>8 de outubro, quinta-feira</li>
-                    <li class="agenda-oficina">10h30 | Sesc Pompeia, Oficinas de Criatividade | Programas Públicos | Oficinas | Memória tecida: monotipia vista do Mali com Abdoulaye Konaté</li>
-                    <li class="agenda-encontro">11h00 | Sesc Pompeia, Teatro | Programas Públicos | Encontros e Conversas | Tilting Axis 1.5</li>
-                    <li class="agenda-filme">14h00 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #1</li>
-                    <li class="agenda-filme">15h00 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #2</li>
-                    <li class="agenda-filme">16h15 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #3</li>
-                    <li class="agenda-abertura">19h00 | Galpão VB | Abertura da exposição Panoramas do Sul | Projetos Comissionados</li>
-                    <li class="agenda-publicacao">19h30 | Galpão VB | Lançamento do livro Videobrasil: três décadas de vídeo, arte, encontros e transformações</li>
-                    <li class="agenda-filme">19h00 | Galpão VB | Abertura do Programa de Filmes | Gabriel Abrantes | Olympia I & II</li>
+                    <li class="agenda-oficina">10h30 | Sesc Pompeia, Oficinas de Criatividade | Programas Públicos | Oficinas | <a href="pp.php#oficinas" target="_blank" class="link">Memória tecida: monotipia vista do Mali com Abdoulaye Konaté</a></li>
+                    <li class="agenda-encontro">11h00 | Sesc Pompeia, Teatro | Programas Públicos | Encontros e Conversas | <a href="pp.php#encontros" target="_blank" class="link">Tilting Axis 1.5</a></li>
+                    <li class="agenda-filme">14h00 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #1</a></li>
+                    <li class="agenda-filme">15h00 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #2</a></li>
+                    <li class="agenda-filme">16h15 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #3</a></li>
+                    <li class="agenda-abertura">19h00 | Galpão VB | <a href="expo_projetos.php" target="_blank" class="link">Abertura da exposição Panoramas do Sul | Projetos Comissionados</a></li>
+                    <li class="agenda-publicacao">19h30 | Galpão VB | <a href="publicacoes.php#outros" target="_blank" class="link">Lançamento do livro Videobrasil: três décadas de vídeo, arte, encontros e transformações</a></li>
+                    <li class="agenda-filme">19h00 | Galpão VB | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Abertura do Programa de Filmes | Gabriel Abrantes | Olympia I & II</a></li>
                     </ol>
                     <ol>
                     <li>9 de outubro, sexta-feira</li>
-                    <li class="agenda-oficina">11h00 | Galpão VB | Programas Públicos | Oficinas | Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes com Ting-Ting Cheng</li>
-                    <li class="agenda-filme">14h00 | Sesc Pompeia, Teatro | Programa de Filmes | Gabriel Abrantes</li>
-                    <li class="agenda-filme">15h40| Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #3</li>
-                    <li class="agenda-filme">16h55 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #2</li>
-                    <li class="agenda-encontro">17h00 | Galpão VB | Programas Públicos | Encontros e Conversas | Encontro com Rede de Residências</li>
-                    <li class="agenda-filme">18h10 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #1</li>
-                    <li class="agenda-abertura">19h00 | Paço das Artes | Abertura da exposição paralela Quem Nasce Pra Aventura Não Toma Outro Rumo</li>
+                    <li class="agenda-oficina">11h00 | Galpão VB | Programas Públicos | Oficinas | <a href="pp.php#oficinas" target="_blank" class="link">Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes com Ting-Ting Cheng</a></li>
+                    <li class="agenda-filme">14h00 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    <li class="agenda-filme">15h40| Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #3</a></li>
+                    <li class="agenda-filme">16h55 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #2</a></li>
+                    <li class="agenda-encontro">17h00 | Galpão VB | Programas Públicos | Encontros e Conversas | <a href="pp.php#encontros" target="_blank" class="link">Encontro com Rede de Residências</a></li>
+                    <li class="agenda-filme">18h10 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #1</a></li>
+                    <li class="agenda-abertura">19h00 | Paço das Artes | <a href="expo_paralela.php" target="_blank" class="link">Abertura da exposição paralela Quem Nasce Pra Aventura Não Toma Outro Rumo</a></li>
                     </ol>
                     <ol>
                     <li>10 de outubro, sábado</li>
-                    <li class="agenda-oficina">10h30 | Sesc Pompeia, Oficinas de Criatividade | Programas Públicos | Oficinas | Memória tecida: monotipia vista do Mali com Abdoulaye Konaté</li>
-                    <li class="agenda-filme">11h00 | Sesc Pompeia, Teatro | Programa de Filmes | Gabriel Abrantes</li>
-                    <li class="agenda-seminario">14h00 | Sesc Pompeia, Teatro | Programas Públicos | Seminário Lugares e Sentidos na Arte: Debates a Partir do Sul | Mesa 2: Repensar espaços: arte, usos e cotidiano</li>
-                    <li class="agenda-publicacao">14h00 | Sesc Pompeia, Teatro | Lançamento do livro Panoramas do Sul | Leituras _ Perspectivas para outras geografias do pensamento</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
-                    <li class="agenda-publicacao">16h30 | Sesc Pompeia, Foyer do Teatro | Lançamento do livro Panoramas do Sul | Artistas Convidados</li>
-                    <li class="agenda-performance">17h00 | Sesc Pompeia, Convivência | Performance | Oiko-nomic Threads</li>
-                    <li class="agenda-abertura">18h00 | Sesc Pompeia, Teatro | Cerimônia de Premiação</li>
-                    </ol>
-                    <ol>
-                    <li>11 de outubro, domingo</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">10h30 | Sesc Pompeia, Oficinas de Criatividade | Programas Públicos | Oficinas | <a href="pp.php#oficinas" target="_blank" class="link">Memória tecida: monotipia vista do Mali com Abdoulaye Konaté</a></li>
+                    <li class="agenda-filme">11h00 | Sesc Pompeia, Teatro | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Programa de Filmes | Gabriel Abrantes</a></li>
+                    <li class="agenda-seminario">14h00 | Sesc Pompeia, Teatro | Programas Públicos | <a href="pp.php#seminario" target="_blank" class="link">Seminário Lugares e Sentidos na Arte: Debates a Partir do Sul | Mesa 2: Repensar espaços: arte, usos e cotidiano</a></li>
+                    <li class="agenda-publicacao">14h00 | Sesc Pompeia, Teatro | <a href="publicacoes.php#festival" target="_blank" class="link">Lançamento do livro Panoramas do Sul | Leituras _ Perspectivas para outras geografias do pensamento</a></li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#oficinas" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
+                    <li class="agenda-publicacao">16h30 | Sesc Pompeia, Foyer do Teatro | <a href="publicacoes.php#festival" target="_blank" class="link">Lançamento do livro Panoramas do Sul | Artistas Convidados</a></li>
+                    <li class="agenda-performance">17h00 | Sesc Pompeia, Convivência | Performance | <a href="performances.php" target="_blank" class="link">Oiko-nomic Threads</a></li>
+                    <li class="agenda-abertura">18h00 | Sesc Pompeia, Teatro | <a href="premios_e_residencias.php#premios" target="_blank" class="link">Cerimônia de Premiação</a></li>
                     </ol>
                     <ol>
                     <li>12 de outubro, segunda-feira</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
                     <li>13 de outubro, terça-feira</li>
-                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | Gabriel Abrantes + Programa de Filmes | Obras Selecionadas | Programa #3</li>
-                    <li class="agenda-filme">19h30 | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
+                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras" target="_blank" class="link">Programa de Filmes | Obras Selecionadas | Programa #3</a></li>
+                    <li class="agenda-filme">19h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
                     </ol>
                     <ol>
                     <li>15 de outubro, quinta-feira</li>
-                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #1 + Programa #2</li>
-                    <li class="agenda-filme">19h00 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #3 + Programa de Filmes | Gabriel Abrantes</li>
+                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #1 + Programa #2</a></li>
+                    <li class="agenda-filme">19h00 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Programa de Filmes | Gabriel Abrantes</a></li>
                     </ol>
                     <ol>
                     <li>17 de outubro, sábado</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
                     <li>18 de outubro, domingo</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
                     <li>20 de outubro, terça-feira</li>
-                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #1 + Programa #2</li>
-                    <li class="agenda-filme">19h00 | Galpão VB | Programa de Filmes | Obras Selecionadas | Obras Selecionadas Programa #3 + Gabriel Abrantes</li>
+                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #1 + Programa #2</a></li>
+                    <li class="agenda-filme">19h00 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Obras Selecionadas Programa #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
                     </ol>
                     <ol>
                     <li>22 de outubro, quinta-feira</li>
-                    <li class="agenda-seminario">14h00 | Sesc Pompeia, Teatro | Programas Públicos | Seminário Lugares e Sentidos na Arte: Debates a Partir do Sul | Mesa 3: Repensar narrativas: arte, memória e ficção</li>
-                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | Gabriel Abrantes + Obras Selecionadas Programa #3</li>
-                    <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
+                    <li class="agenda-seminario">14h00 | Sesc Pompeia, Teatro | Programas Públicos | <a href="pp.php#seminario" target="_blank" class="link">Seminário Lugares e Sentidos na Arte: Debates a Partir do Sul | Mesa 3: Repensar narrativas: arte, memória e ficção</a></li>
+                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas Programa #3</a></li>
+                    <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
                     </ol>
                     <ol>
                     <li>24 de outubro, sábado</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
                     <li>25 de outubro, domingo</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
                     <li>27 de outubro, terça-feira</li>
-                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | Gabriel Abrantes + Obras Selecionadas Programa #3</li>
-                    <li class="agenda-filme">19h30 | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
+                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas Programa #3</a></li>
+                    <li class="agenda-filme">19h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
                     </ol>
                     <ol>
                     <li>29 de outubro, quinta-feira</li>
-                    <li class="agenda-seminario">14h00 | Sesc Pompeia, Teatro | Programas Públicos | Seminário Lugares e Sentidos na Arte: Debates a Partir do Sul | Mesa 4: Repensar o tempo: arte,  silêncios e histórias</li>
-                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #1 + Programa #2</li>
-                    <li class="agenda-filme">19h00 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Obras Selecionadas Programa #3 + Gabriel Abrantes</li>
+                    <li class="agenda-seminario">14h00 | Sesc Pompeia, Teatro | Programas Públicos | <a href="pp.php#seminario" target="_blank" class="link">Seminário Lugares e Sentidos na Arte: Debates a Partir do Sul | Mesa 4: Repensar o tempo: arte,  silêncios e histórias</a></li>
+                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #1 + Programa #2</a></li>
+                    <li class="agenda-filme">19h00 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Obras Selecionadas Programa #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
                     </ol>
                     <ol>
                     <li>31 de outubro, sábado</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
 
                     <div class="titulo titulo-agenda-g" style="margin-top: 30px"><span>novembro</span></div>
 
                     <ol>
                     <li>1 de novembro, domingo</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
                     <li>2 de novembro, segunda-feira</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
                     <li>3 de novembro, terça-feira</li>
-                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #1 + Programa #2</li>
-                    <li class="agenda-filme">19h00 | Galpão VB | Programa de Filmes | Obras Selecionadas | Obras Selecionadas Programa #3 + Gabriel Abrantes</li>
+                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #1 + Programa #2</a></li>
+                    <li class="agenda-filme">19h00 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Obras Selecionadas Programa #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
                     </ol>
                     <ol>
                     <li>4 de novembro, quarta-feira</li>
-                    <li class="agenda-encontro">13h00 | Galpão VB | Programas Públicos | Encontros e Conversas | Leituras de Portfólios</li>
+                    <li class="agenda-encontro">13h00 | Galpão VB | Programas Públicos | Encontros e Conversas | <a href="pp.php#encontros" target="_blank" class="link">Leituras de Portfólios</a></li>
                     </ol>
                     <ol>
                     <li>5 de novembro, quinta-feira</li>
-                    <li class="agenda-encontro">13h00 | Galpão VB | Programas Públicos | Encontros e Conversas | Leituras de Portfólios</li>
-                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | Gabriel Abrantes + Obras Selecionadas Programa #3</li>
-                    <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
+                    <li class="agenda-encontro">13h00 | Galpão VB | Programas Públicos | Encontros e Conversas | <a href="pp.php#encontros" target="_blank" class="link">Leituras de Portfólios</a></li>
+                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas Programa #3</a></li>
+                    <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
                     </ol>
                     <ol>
                     <li>7 de novembro, sábado</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
                     <li>8 de novembro, domingo</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
                     <li>10 de novembro, terça-feira</li>
-                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | Gabriel Abrantes + Obras Selecionadas Programa #3</li>
-                    <li class="agenda-filme">19h30 | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
+                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas Programa #3</a></li>
+                    <li class="agenda-filme">19h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
                     </ol>
                     <ol>
                     <li>12 de novembro, quinta-feira</li>
-                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #1 + Programa #2</li>
-                    <li class="agenda-filme">19h00 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Obras Selecionadas Programa #3 + Gabriel Abrantes</li>
+                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #1 + Programa #2</a></li>
+                    <li class="agenda-filme">19h00 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Obras Selecionadas Programa #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
                     </ol>
                     <ol>
                     <li>14 de novembro, sábado</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
-                    <li class="agenda-encontro">16h00 | Paço das Artes | Programas Públicos | Encontros e Conversas | Visita mediada à exposição paralela Quem Nasce Pra Aventura Não Toma Outro Rumo | Roteiro 1: Brasil, São Paulo – um lugar para a partida</li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
+                    <li class="agenda-encontro">16h00 | Paço das Artes | Programas Públicos | Encontros e Conversas | <a href="pp.php#encontros" target="_blank" class="link">Visita mediada à exposição paralela Quem Nasce Pra Aventura Não Toma Outro Rumo | Roteiro 1: Brasil, São Paulo – um lugar para a partida</a></li>
                     </ol>
                     <ol>
                     <li>15 de novembro, domingo</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
                     <li>17 de novembro, terça-feira</li>
-                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #1 + Programa #2</li>
-                    <li class="agenda-filme">19h00 | Galpão VB | Programa de Filmes | Obras Selecionadas | Obras Selecionadas Programa #3 + Gabriel Abrantes</li>
+                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #1 + Programa #2</a></li>
+                    <li class="agenda-filme">19h00 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Obras Selecionadas Programa #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
                     </ol>
                     <ol>
                     <li>19 de novembro, quinta-feira</li>
-                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | Gabriel Abrantes + Obras Selecionadas Programa #3</li>
-                    <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
+                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas Programa #3</a></li>
+                    <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
                     </ol>
                     <ol>
                     <li>20 de novembro, sexta-feira</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
                     <li>21 de novembro, sábado</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
                     <li>22 de novembro, domingo</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
                     <li>24 de novembro, terça-feira</li>
-                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | Gabriel Abrantes + Obras Selecionadas Programa #3</li>
-                    <li class="agenda-filme">19h30 | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
+                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas Programa #3</a></li>
+                    <li class="agenda-filme">19h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
                     </ol>
                     <ol>
                     <li>25 de novembro, quarta-feira</li>
-                    <li class="agenda-publicacao">20h00 | Sesc Pompeia, Teatro | Lançamento do Caderno SESC_VIDEOBRASIL 11_Aliança de corpos vulneráveis </li>
-                    <li class="agenda-publicacao">20h00 | Sesc Pompeia, Teatro | Mesa de lançamento do Caderno SESC_VIDEOBRASIL 11_Aliança de corpos vulneráveis </li>
-                    <li class="agenda-publicacao">20h00 | Sesc Pompeia, Teatro | Lançamento do livro Panoramas do Sul | Obras Selecionadas e Projetos Comissionados</li>
-                    <li class="agenda-performance">21h30 | Sesc Pompeia, Convivência | Performance | Fancy em Pyetà segundo ato</li>
+                    <li class="agenda-publicacao">20h00 | Sesc Pompeia, Teatro | <a href="publicacoes.php#outros" target="_blank" class="link">Lançamento do Caderno SESC_VIDEOBRASIL 11_Aliança de corpos vulneráveis </a></li>
+                    <li class="agenda-publicacao">20h00 | Sesc Pompeia, Teatro | <a href="publicacoes.php#outros" target="_blank" class="link">Mesa de lançamento do Caderno SESC_VIDEOBRASIL 11_Aliança de corpos vulneráveis </a></li>
+                    <li class="agenda-publicacao">20h00 | Sesc Pompeia, Teatro | <a href="publicacoes.php#festival" target="_blank" class="link">Lançamento do livro Panoramas do Sul | Obras Selecionadas e Projetos Comissionados</a></li>
+                    <li class="agenda-performance">21h30 | Sesc Pompeia, Convivência | Performance | <a href="performances.php" target="_blank" class="link">Fancy em Pyetà segundo ato</a></li>
                     </ol>
                     <ol>
                     <li>26 de novembro, quinta-feira</li>
-                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #1 + Programa #2</li>
-                    <li class="agenda-filme">19h00 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Obras Selecionadas Programa #3 + Gabriel Abrantes </li>
+                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #1 + Programa #2</a></li>
+                    <li class="agenda-filme">19h00 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Obras Selecionadas Programa #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
                     </ol>
                     <ol>
                     <li>28 de novembro, sábado</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
                     <li>29 de novembro, domingo</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <div class="titulo titulo-agenda-g" style="margin-top: 30px"><span>dezembro</span></div>
                     <ol>
                     <li>1 de dezembro, terça-feira</li>
-                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | Gabriel Abrantes + Obras Selecionadas Programa #3</li>
-                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | Obras Selecionadas | Programa #1 + Programa #2</li>
-                    <li class="agenda-filme">19h00 | Galpão VB | Programa de Filmes | Obras Selecionadas | Obras Selecionadas Programa #3 + Gabriel Abrantes</li>
-                    <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
+                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas Programa #3</a></li>
+                    <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #1 + Programa #2</a></li>
+                    <li class="agenda-filme">19h00 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Obras Selecionadas Programa #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
                     </ol>
                     <ol>
                     <li>2 de dezembro, quarta-feira</li>
-                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #1 + Programa #2</li>
-                    <li class="agenda-filme">19h00 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Obras Selecionadas Programa #3 + Gabriel Abrantes</li>
+                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #1 + Programa #2</a></li>
+                    <li class="agenda-filme">19h00 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Obras Selecionadas Programa #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
                     </ol>
                     <ol>
                     <li>3 de dezembro, quinta-feira</li>
-                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | Gabriel Abrantes + Obras Selecionadas Programa #3</li>
-                    <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | Obras Selecionadas | Programa #2 + Programa #1</li>
+                    <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas Programa #3</a></li>
+                    <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
                     </ol>
                     <ol>
                     <li>5 de dezembro, sábado</li>
-                    <li class="agenda-oficina">10h30 | Galpão VB | Programas Públicos | Oficinas | Lambada e o Corpo Social: o corpo da memória e vivência com dança com Carlos Monroy</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">10h30 | Galpão VB | Programas Públicos | Oficinas | <a href="pp.php#oficinas" target="_blank" class="link">Lambada e o Corpo Social: o corpo da memória e vivência com dança com Carlos Monroy</a></li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
                     <li>6 de dezembro, domingo</li>
-                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | Oficinas com os educadores das exposições</li>
+                    <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
 
                     <div class="titulo titulo-agenda-g" style="margin-top: 30px"><span>janeiro</span></div>
                     <ol>
                     <li>9 de janeiro, sábado</li>
-                    <li class="agenda-encontro">16h00 | Paço das Artes | Programas Públicos | Encontros e Conversas | Visita mediada à exposição paralela Quem Nasce Pra Aventura Não Toma Outro Rumo | Roteiro 2: O vídeo na arena política da arte</li>
-                    </ol>
+                    <li class="agenda-encontro">16h00 | Paço das Artes | Programas Públicos | Encontros e Conversas | <a href="pp.php#mediacao" target="_blank" class="link">Visita mediada à exposição paralela Quem Nasce Pra Aventura Não Toma Outro Rumo | Roteiro 2: O vídeo na arena política da arte</a></li>
+                    </ol>',
 
-
-
-                    <!-- <p class="titulo nomargin a">6 nov, quarta</p>
-                    <span class="g">11h00 | Sesc Pompeia, Galpão | Curadores apresentam exposições e ações / Programas Públicos</span><br />
-                    <span class="o">15h00 | Sesc Pompeia, Galpão | Pelo mundo: processos e sentidos da internacionalização na arte / Programas Públicos</span><br />
-                    <span class="s">19h30 | CineSesc | Programa 1 / Panoramas do Sul / Programas de vídeo</span><br />
-                    <span class="q">20h45 | CineSesc | Deserto azul, Eder Santos / Sessão especial</span>
+                    //AGENDA EN
+                    '<p class="bold" id="legenda"><span>CAPTIONS:</span><br />
+                    <span class="agenda-abertura">EXHIBITION OPENINGS</span><br />
+                    <span class="agenda-performance">PERFORMANCES</span><br />
+                    <span class="agenda-filme">FILM PROGRAMS</span><br />
+                    <span class="agenda-publicacao">PUBLICATION LAUNCHES</span><br />
+                    <span class="agenda-encontro">PUBLIC PROGRAMS – MEETINGS AND CONVERSATIONS</span><br />
+                    <span class="agenda-seminario">PUBLIC PROGRAMS – SEMINAR</span><br />
+                    <span class="agenda-oficina">PUBLIC PROGRAMS – WORKSHOPS</span></p>
                     
-                    <p class="titulo nomargin a" style="margin-top: 22px">7 nov, quinta</p>
-                    <span class="g">14h00 | CineSesc | Programas 2 e 3 / Panoramas do Sul / Programas de vídeo</span><br />
-                    <span class="h">16h00 | CineSesc | Programas 4 e 5 / Panoramas do Sul / Programas de vídeo</span><br />
-                    <span class="l">20h00 | Sesc Pompeia, Choperia | Sem título, Cão / Panoramas do Sul / Performance</span>
-
-                    <p class="titulo nomargin k" style="margin-top: 22px">8 nov, sexta</p>
-                    <span class="a">11h00 | Sesc Pompeia, Galpão | Territórios do Sul: experiências, cidades e fronteiras / Programas Públicos</span><br />
-                    <span class="m">15h00 | Sesc Pompeia, Galpão | Natureza mágica / Programas Públicos</span><br />
-                    <span class="o">16h00 | CineSesc | Deserto azul, Eder Santos / Sessão especial</span><br />
-                    <span class="p">20h30 | Sesc Pompeia, Galpão | O samba do crioulo doido, Luiz de Abreu (classificação: 16 anos) / Panoramas do Sul / Performance</span>
-
-                    <p class="titulo nomargin n" style="margin-top: 22px">9 nov, sábado</p>
-                    <span class="z">11h00 | Sesc Pompeia, Galpão | Territórios do Sul: experiências, cidades e fronteiras / Programas Públicos</span><br />
-                    <span class="y">15h00 | Sesc Pompeia, Galpão | Natureza mágica / Programas Públicos</span>
-                  
-                    <p class="titulo nomargin w" style="margin-top: 22px">10 nov, domingo</p>
-                    <span class="v">11h00 | Sesc Pompeia, Galpão | Territórios do Sul: experiências, cidades e fronteiras / Programas Públicos</span><br />
-                
-                    <p class="titulo nomargin n" style="margin-top: 22px">11 nov, segunda</p>
-                    <span class="u">11h00 | Sesc Pompeia, Galpão | Territórios do Sul: experiências, cidades e fronteiras / Programas Públicos</span><br />
-                    <span class="q">15h00 | Sesc Pompeia, Galpão | Natureza mágica / Programas Públicos</span>
-                 
-                    <p class="titulo nomargin o" style="margin-top: 22px">12 nov, terça</p>
-                    <span class="m">11h00 | Sesc Pompeia, Galpão | Territórios do Sul: experiências, cidades e fronteiras / Programas Públicos</span>
-
-                     -->
-
-
-
+                    <div class="titulo titulo-agenda-g"><span>october</span></div>
+                    
+                    <ol id="ol1">
+                    <li>October 6, Tuesday</li>
+                    <li class="agenda-abertura">08:00pm | Sesc Pompeia, Galpão | Exhibition opening | <a href="expo_convidados.php" target="_blank" class="link">Southern Panoramas | Guest Artists</a></li>
+                    <li class="agenda-abertura">08:00pm | Sesc Pompeia, Convivência | Exhibition opening | <a href="expo_obras.php" target="_blank" class="link">Southern Panoramas | Selected  Works</a></li>
+                    <li class="agenda-performance">08:00pm | Sesc Pompeia, Convivência | Performance | <a href="performances.php" target="_blank" class="link">Oiko-nomic Threads by de Marinos Koutsomichalis, Maria Varela, Afroditi Psarra</a></li>
+                    <li class="agenda-performance">09:00pm | Sesc Pompeia, Convivência | Performance | <a href="performances.php" target="_blank" class="link">Fancy em Pyetà segundo ato by Rodolpho Parigi</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 7, Wednesday</li>
+                    <li class="agenda-seminario">11:00am | Sesc Pompeia, Teatro | Public Programs | <a href="pp.php#seminario" target="_blank" class="link">Seminar Places and meanings of art: debates from the South | Panel 1: Rethinking traditions: art, gesture and contemporaneity</a></li>
+                    <li class="agenda-encontro">01:45pm | Sesc Pompeia, Galpão | Public Programs | <a href="pp.php#encontros" target="_blank" class="link">Meetings and Conversations | Southern Panoramas exhibition tour with Rodrigo Matheus</a></li>
+                    <li class="agenda-filme">06:00pm | Sesc Pompeia, Teatro | Opening |  Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works </a></li>
+                    <li class="agenda-filme">06:00pm | Sesc Pompeia, Teatro | Opening |  Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #1</a></li>
+                    <li class="agenda-filme">07:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #2</a></li>
+                    <li class="agenda-performance">09:00pm | Sesc Pompeia, Teatro | Performance | <a href="performances.php" target="_blank" class="link">VOSTOK cineperformance by Leticia Ramos</a></li>
+                    <li class="agenda-filme">09:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #3</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 8, Thursday</li>
+                    <li class="agenda-oficina">10:30am | Sesc Pompeia, Oficinas de Criatividade | Public Programs | Workshops | <a href="pp.php#oficinas" target="_blank" class="link">Woven memory: monotype seen from Mali with Abdoulaye Konaté</a></li>
+                    <li class="agenda-encontro">11:00am | Sesc Pompeia, Teatro | Public Programs | Meetings and Conversations | <a href="pp.php#encontros" target="_blank" class="link">Tilting Axis 1.5</a></li>
+                    <li class="agenda-filme">02:00pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #1</a></li>
+                    <li class="agenda-filme">03:00pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #2</a></li>
+                    <li class="agenda-filme">04:15pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #3</a></li>
+                    <li class="agenda-abertura">07:00pm | Galpão VB | Exhibition opening | <a href="expo_projetos.php" target="_blank" class="link">Southern Panoramas | Commissioned Projects</a></li>
+                    <li class="agenda-publicacao">07:00pm | Galpão VB | Book launch | <a href="publicacoes.php#outros" target="_blank" class="link">Videobrasil: three decades of video, art, encounters and transformations</a></li>
+                    <li class="agenda-filme">07:00pm | Galpão VB | Opening |  Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes | Olympia I & II</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 9, Friday</li>
+                    <li class="agenda-oficina">11:00am | Galpão VB | Public Programs | Workshops | <a href="pp.php#oficinas" target="_blank" class="link">Vocabulary of an existing South: the invention of a world from inexistent places with Ting-Ting Cheng</a></li>
+                    <li class="agenda-filme">02:00pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    <li class="agenda-filme">03:40pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #3</a></li>
+                    <li class="agenda-filme">04:55pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #2</a></li>
+                    <li class="agenda-encontro">05:00pm | Galpão VB | Public Programs | <a href="pp.php#encontros" target="_blank" class="link">Meetings and Conversations | Meeting the Residency Network</a></li>
+                     <li class="agenda-filme">06:10pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #1</a></li>
+                    <li class="agenda-abertura">07:00pm | Paço das Artes | Parallel exhibition opening | <a href="expo_paralela.php" target="_blank" class="link">Those Born For Adventure Don’t Stray From the Path</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 10, Saturday</li>
+                    <li class="agenda-oficina">10:30am | Sesc Pompeia, Oficinas de Criatividade | Public Programs | Workshops | <a href="pp.php#oficinas" target="_blank" class="link">Woven memory: monotype seen from Mali with Abdoulaye Konaté</a></li>
+                    <li class="agenda-filme">11:00am | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    <li class="agenda-seminario">02:00pm | Sesc Pompeia, Teatro | Public Programs | <a href="pp.php#seminario" target="_blank" class="link">Seminar Places and meanings of art: debates from the South | Panel 2: Rethinking spaces: art, uses and daily life</a></li>
+                    <li class="agenda-publicacao">02:00pm | Sesc Pompeia, Teatro | Book launch | <a href="publicacoes.php#festival" target="_blank" class="link">Southern Panoramas | Readings | Perspectives for other geographies of thought</a></li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#oficinas" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    <li class="agenda-publicacao">04:30pm | Sesc Pompeia, Teatro | Book launch | <a href="publicacoes.php#festival" target="_blank" class="link">Southern Panoramas | Guest Artists</a></li>
+                    <li class="agenda-performance">05:00pm | Sesc Pompeia, Convivência | Performance | <a href="performances.php" target="_blank" class="link">Oiko-nomic Threads</a></li>
+                    <li class="agenda-abertura">06:00pm | Sesc Pompeia, Teatro | <a href="premios_e_residencias.php#premios" target="_blank" class="link">Award Ceremony</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 12, Monday</li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 13, Tuesday</li>
+                    <li class="agenda-filme">04:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #3</a></li>
+                    <li class="agenda-filme">07:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 15, Thursday</li>
+                    <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #1 + Program #2</a></li>
+                    <li class="agenda-filme">07:00pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #3</a> + Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 17, Saturday</li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 18, Sunday</li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 20, Tuesday</li>
+                    <li class="agenda-filme">4:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #1 + Program #2</a></li>
+                    <li class="agenda-filme">7:00pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #3 + Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 22, Thursday</li>
+                    <li class="agenda-seminario">02:00pm | Sesc Pompeia, Teatro | Public Programs | <a href="pp.php#seminario" target="_blank" class="link">Seminar Places and meanings of art: debates from the South | Panel 3: Rethinking narratives: art, memory and fiction</a></li>
+                    <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #3</a></li>
+                    <li class="agenda-filme">07:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 24, Saturday</li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 25, Sunday</li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 27, Tuesday</li>
+                    <li class="agenda-filme">04:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #3</a></li>
+                    <li class="agenda-filme">07:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 29, Thursday</li>
+                    <li class="agenda-seminario">02:00pm | Sesc Pompeia, Teatro | Public Programs | <a href="pp.php#seminario" target="_blank" class="link">Seminar Places and meanings of art: debates from the South | Panel 4: Rethinking time: art, silences and histories</a></li>
+                    <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #1 + Program #2</a></li>
+                    <li class="agenda-filme">07:00pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #3</a> + Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 31, Saturday</li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    
+                    <div class="titulo titulo-agenda-g" style="margin-top: 30px"><span>november</span></div>
+                    
+                    <ol>
+                    <li>November 1, Sunday</li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 2, Monday</li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 3 de novembro, Tuesday</li>
+                    <li class="agenda-filme">04:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #1 + Program #2</a></li>
+                    <li class="agenda-filme">07:00pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works Program #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 4, Wednesday</li>
+                    <li class="agenda-encontro">01:00pm | Galpão VB | Public Programs | Meetings and Conversations | <a href="pp.php#encontros" target="_blank" class="link">Reading of Portfolios</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 5, Thursday</li>
+                    <li class="agenda-encontro">01:00pm | Galpão VB | Public Programs | Meetings and Conversations | <a href="pp.php#encontros" target="_blank" class="link">Reading of Portfolios</a></li>
+                    <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works Program #3</a></li>
+                    <li class="agenda-filme">07:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 7, Saturday</li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 8, Sunday</li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 10, Tuesday</li>
+                    <li class="agenda-filme">4:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works Program #3</a></li>
+                    <li class="agenda-filme">7:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 12, Thursday</li>
+                    <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #1 + Program #2</a></li>
+                    <li class="agenda-filme">07:00pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #3</a> + Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 14, Saturday</li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    <li class="agenda-encontro">04:00pm | Paço das Artes | Public Programs | Meetings and Conversations | <a href="pp.php#encontros" target="_blank" class="link">Those Born For Adventure Don’t Stray From the Path exhibition tour| Itinerary 1: Brazil, São Paulo – a place for departure</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 15, Sunday</li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 17, Tuesday</li>
+                    <li class="agenda-filme">04:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #1 + Program #2</a></li>
+                    <li class="agenda-filme">07:00pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works Program #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 19, Thursday</li>
+                    <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works Program #3</a></li>
+                    <li class="agenda-filme">07:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 20, Friday</li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 21, Saturday</li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 22, Sunday</li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 24, Tuesday</li>
+                    <li class="agenda-filme">04:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works Program #3</a></li>
+                    <li class="agenda-filme">07:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 25, Wednesday</li>
+                    <li class="agenda-publicacao">08:00pm | Sesc Pompeia, Teatro | <a href="publicacoes.php#outros" target="_blank" class="link">Launch of Caderno Sesc_Videobrasil 11_ An alliance of vulnerable bodies</a></li>
+                    <li class="agenda-publicacao">08:00pm | Sesc Pompeia, Teatro | <a href="publicacoes.php#outros" target="_blank" class="link">Panel of Caderno Sesc_Videobrasil 11_ An alliance of vulnerable bodies</a></li>
+                    <li class="agenda-publicacao">08:00pm | Sesc Pompeia, Teatro | Book launch |  <a href="publicacoes.php#festival" target="_blank" class="link">Southern Panoramas | Selected Artworks and Commissioned Projects</a></li>
+                    <li class="agenda-performance">09:30pm | Sesc Pompeia, Convivência | Performance | <a href="performances.php" target="_blank" class="link">Fancy em Pyetà segundo ato</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 26, Thursday</li>
+                    <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #1 + Program #2</a></li>
+                    <li class="agenda-filme">07:00pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works Program #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 28, Saturday</li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 29, Sunday</li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    
+                    <div class="titulo titulo-agenda-g" style="margin-top: 30px"><span>december</span></div>
+                    
+                    <ol>
+                    <li>December 1, Tuesday</li>
+                    <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works Program #3</a></li>
+                    <li class="agenda-filme">04:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #1 + Program #2</a></li>
+                    <li class="agenda-filme">07:00pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #3</a> + Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    <li class="agenda-filme">07:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
+                    </ol>
+                    <ol>
+                    <li>December 2, Wednesday</li>
+                    <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #1 + Program #2</a></li>
+                    <li class="agenda-filme">07:00pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works Program #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    </ol>
+                    <ol>
+                    <li>December 3, Thursday</li>
+                    <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works Program #3</a></li>
+                    <li class="agenda-filme">07:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
+                    </ol>
+                    <ol>
+                    <li>December 5, Saturday</li>
+                    <li class="agenda-oficina">010:30am | Galpão VB | Public Programs | Workshops | <a href="pp.php#oficinas" target="_blank" class="link">Lambada and the Social Body: the body of memory and dance experience with Carlos Monroy</a></li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    <ol>
+                    <li>December 6, Sunday</li>
+                    <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    
+                    <div class="titulo titulo-agenda-g" style="margin-top: 30px"><span>january</span></div>
+                    
+                    <ol>
+                    <li>January 9, Saturday</li>
+                    <li class="agenda-encontro">04:00pm | Paço das Artes | Public Programs | Meetings and Conversations | <a href="pp.php#mediacao" target="_blank" class="link">Those Born For Adventure Don’t Stray From the Path exhibition tour| Itinerary 2: Video in the political arena of art</a></li>
+                    </ol>');
+                    ?>
 
                  </div>
             </div>
