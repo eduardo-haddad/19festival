@@ -16,6 +16,22 @@ $titulo = $idioma == 'pt' ? 'Identidade' : 'Identity';
 	<link rel="stylesheet" type="text/css" href="css/home.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="js/home.js"></script>
+    <script>
+    $(document).ready(
+        function(){
+            $('.img-id-1').hover(
+                function(){
+                    $(this).attr('src', 'img/identidade/id1_b.jpg');
+                },
+
+                function(){
+                    $(this).attr('src', 'img/identidade/id1_a.png');
+                }
+            );
+        }
+    );
+
+    </script>
 </head>
 <body>
     <!-- MAPA DO SITE -->
@@ -67,9 +83,9 @@ $titulo = $idioma == 'pt' ? 'Identidade' : 'Identity';
             <div class="row" style="clear: both;">
 
                 <div class="col-sm-12 col-md-6 relative" id="id-imagem-top" >
-                    <img src="img/identidade/id1.png" id="img-id-1" class="img-responsive" />
+                    <img src="img/identidade/id1_a.png" class="img-id-1" class="img-responsive" />
 
-                    <img src="img/identidade/id2.png" id="img-id-2" class="img-responsive" />
+                    <img src="img/identidade/id2.png" class="img-id-2" class="img-responsive" />
 
                 </div>
 
@@ -159,9 +175,9 @@ $titulo = $idioma == 'pt' ? 'Identidade' : 'Identity';
                 </div>
 
                 <div class="col-sm-12 col-md-6 relative" id="id-imagem-bottom" style="margin-top: 15px">
-                    <img src="img/identidade/id1.png" id="img-id-1" class="img-responsive" style="max-width: 485px" />
+                    <img src="img/identidade/id1_a.png" class="img-id-1" class="img-responsive" style="max-width: 485px" />
 
-                    <img src="img/identidade/id2.png" id="img-id-2" class="img-responsive" style="max-width: 485px" />
+                    <img src="img/identidade/id2.png" class="img-id-2" class="img-responsive" style="max-width: 485px" />
 
                 </div>
 
@@ -171,7 +187,7 @@ $titulo = $idioma == 'pt' ? 'Identidade' : 'Identity';
             <div class="row" style="clear: both;margin-top: 30px">
 
                 <div class="col-sm-12 col-md-6" >
-                    <img src="img/identidade/detanicolain.png" id="img-id-1" class="img-responsive retrato-artista" style="margin-bottom: 15px; margin-left:auto;" />
+                    <img src="img/identidade/detanicolain.png" class="img-responsive retrato-artista" style="margin-bottom: 15px; margin-left:auto;" />
 
                 </div>
 

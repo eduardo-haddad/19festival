@@ -22,6 +22,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 paletaArtistas($('.pp-participantes p:nth-child(10)'));
                 paletaArtistas($('.pp-participantes p:nth-child(11)'));
                 paletaArtistas($('.data-pp'));
+
+            
 </script>
 
 <!-- EVENTO 1 -->
@@ -67,7 +69,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <!-- EVENTO 2 -->
 
-            <div class="row" >
+            <div class="row"><a id="tilting"></a>
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0"> 
                         <a name="visita"></a><?php pten(

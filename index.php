@@ -304,13 +304,9 @@ $(document).ready(
 
 
                 $('#participantes').hover(
-                    function(){
-                        if($('#participantes').attr('src') == 'img/home/participantes_<?php pten('pt', 'en');?>_1.png'){ $('#participantes').attr('src', 'img/home/participantes_<?php pten('pt', 'en');?>_2.png'); }
-                    },
+                    function(){$('#participantes').attr('src', 'img/home/participantes_<?php pten('pt', 'en');?>_2.png');},
 
-                    function(){
-                        if($('#participantes').attr('src') == 'img/home/participantes_<?php pten('pt', 'en');?>_2.png'){ $('#participantes').attr('src', 'img/home/participantes_<?php pten('pt', 'en');?>_1.png'); }
-                    }
+                    function(){$('#participantes').attr('src', 'img/home/participantes_<?php pten('pt', 'en');?>_1.png');}
                     );
 
             }
