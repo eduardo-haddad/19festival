@@ -107,8 +107,20 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : 'Parallel exhibition';
 
                 <div class="col-sm-12 col-md-6  h" style="float: right;">
 
+
+                     <?php pten(                      ////APRESENTAÇAO PT                     
+                    '<p style="display:inline">Releitura, à luz do contemporâneo, da produção resguardada pelo Acervo Videobrasil, reúne dezesseis obras realizadas entre 1978 e 2012 por artistas do Sul global. Os trabalhos e o contexto brasileiros inspiram os três eixos da curadoria - Afeições, tempos e estradas; Democracia, documento e ficção; e Fala, escuta e dissenso –, que dialogam com o universo das obras do Festival. O título cita frase da artista Lygia Pape, ao interpelar o crítico Mário Pedrosa em entrevista ao jornal O Pasquim em 1981. A exposição paralela do 19º Festival tem curadoria de Diego Matos, coordenador de Arquivo e Pesquisa da Associação Cultural Videobrasil.</p>',
+
+                    //APRESENTAÇAO EN                     
+                    '<p style="display: inline">
+                    A contemporary take on productions from the Videobrasil Collection, featuring 16 pieces created between 1978 and 2012 by artists from the global South. The program is divided into three sections, inspired by the selected Brazilian artworks—Affections, Times and Roads; Democracy, Document and Fiction; and Speech, Hearing and Dissent—which converse with the universe outlined by the artworks featured in the Festival. The title is a quote from a 1981 interview by the critic Mário pedrosa to artist Lygia pape, for the newspaper O Pasquim. The parallel show of the 19th Festival is curated by Diego Matos, Associação Cultural Videobrasil, Archive and Research coordinator. </p>');
+
+                    ?>
+                    
+                     <p class="titulo" style="margin-top:37px"><?php pten('Statement da curadoria', 'Statement'); ?></p>
+
                     <?php pten( 
-                    ////APRESENTAÇAO PT
+                    ////STATEMENT PT
                     '<p>Em 1981, em entrevista concedida ao Pasquim por intermédio de uma série de intelectuais, artistas ou formadores de opinião, Mário Pedrosa ouviria a sentença: “Quem nasce pra aventura não toma outro rumo”, proferida pela Pape, que o interpolara logo no início da entrevista. Na virada para os anos 1980, em um momento de crise com o fim das esperanças, frustradas pelo regime militar, e escancaramento, portanto, de um trauma na sociedade brasileira, que até hoje reverbera, o intelectual — provocador, professor e crítico — renovava a crença no papel do artista e do intelectual público, bem como na relação inerente entre arte e política. Com essa perspectiva, a arte, naquele momento histórico e naquele ambiente brasileiro, parecia também resgatar o seu caráter de resistência de maneira mais imediata — e o vídeo, em toda a sua natureza proteiforme, teria, então, esse papel fundamental. </p>
 
                      <p>É essa aventura e seu lugar de partida, o Brasil e toda a sua ambivalência, que a mostra busca apresentar. Trata-se de um olhar que se impõe do sul ao norte por meio de razões poéticas, de outras histórias e ficções, dos dissensos  frente ao campo social normativo, como também de outros lugares — mapeados geograficamente, mas excluídos da cultura hegemônica. São histórias que se entrecruzam e refletem o campo irrestrito da arte e de sua atualidade. O dispositivo para esse exercício de tradução, por ora, é a exposição que torna visível um lugar de fala; ela é, por si só, uma aventura com lastro histórico. </p>
@@ -121,7 +133,7 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : 'Parallel exhibition';
                      
                      <p>Ao final desta jornada, tomamos permissão para usar as palavras atemporais de Mário Pedrosa ao descrever, no princípio dos anos 1980, os seus objetivos enquanto realizador de exposições e pensador. Como lição, evocamos, então, duas condicionantes fundamentais para os percursos expositivos fundados na memória crítica de um acervo: “mostrar que a arte não é uma coisa artificial, que ela vem do homem, qualquer que seja a tecnologia em que viva. A tecnologia prepara, mas não cria nada, nem ontem nem hoje”.</p>',
 
-                    //APRESENTAÇAO EN
+                    //STATEMENT EN
                     '<p>In 1981, while granting an interview for the Pasquim daily, speaking to several intellectuals, artists and opinion-makers, Mário Pedrosa would hear the sentence: “Those born for adventure don’t stray from the path,” uttered by Lygia Pape, who had questioned him right at the outset. As the 1980s began, it was a time of crisis; all hope had been killed by the military regime; a trauma that reverberates until this day was made clear in Brazilian society; and the intellectual – a provocateur, professor and critic – rekindled belief in the role of the artist and public intellectual, and in the inherent connection between art and politics. From this perspective, at that historical juncture and environment in Brazil, art also seemed to revive its character of resistance in a more immediate way — and video, in all of its protean nature, was poised to play that fundamental role. </p>
 
                      <p>This adventure and its starting point, Brazil, in all its ambivalence, is what this show sets out to portray. It is about a gaze that imposes itself from south to north through poetical reasons, through other stories and fictions, through dissent from the normative social field, and through other places — geographically mapped, but excluded from hegemonic culture. These are stories that intertwine and reflect the boundless field of art and its currency. The device for this exercise in translation, for the time being, is the exhibition that renders visible a place of speech; it is, in itself, an adventure with historical bearings. </p>
