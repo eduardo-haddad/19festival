@@ -17,6 +17,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and conversation
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="js/home.js"></script>
+    <!-- <script src="js/jquery.scrollTo.min.js"></script> -->
 
 
     
@@ -37,6 +38,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and conversation
               
 
                 var hash = window.location.hash.split('#')[1];
+
                     
 
 
@@ -44,7 +46,19 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and conversation
 
                 if (hash) {
 
-                    if(hash == 'sobre'){ 
+
+                    /*var slash = hash.split('/')[1];
+                    
+                    if(slash == 'tilting') {
+
+                      $(window).scrollTo('a[id=tilting]', 500); alert('aa');
+                      
+                    }*/
+
+
+
+
+                    if(hash.substring(0, 5) == "sobre"){ 
 
                               criaUrlIdioma('#sobre');
                                $('#pp-conteudo').load('elements/pp/sobre.php', function(){
@@ -53,7 +67,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and conversation
                                   $('#container').css('min-height', 'auto');
                                });
                                
-                            }else if(hash == 'encontros'){ 
+                            }else if(hash.substring(0, 9) == 'encontros'){ 
 
                                criaUrlIdioma('#encontros');
                                $('#pp-conteudo').load('elements/pp/encontros.php', function(){
@@ -61,7 +75,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and conversation
                                   $('.bc-atual').html('<?php pten('encontros e conversas', 'Meetings and conversations');?>');
                                });
                                
-                            } else if(hash == 'seminario'){ 
+                            } else if(hash.substring(0, 9) == 'seminario'){ 
 
                                criaUrlIdioma('#seminario');
                                $('#pp-conteudo').load('elements/pp/seminario.php', function(){
@@ -70,7 +84,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and conversation
                                                                   'seminar - Places and meanings in art: debates from the South');?>');
                                });
                                
-                            } else if(hash == 'oficinas'){ 
+                            } else if(hash.substring(0, 8) == 'oficinas'){ 
 
                                criaUrlIdioma('#oficinas');
                                $('#pp-conteudo').load('elements/pp/oficinas.php', function(){
@@ -78,7 +92,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and conversation
                                   $('.bc-atual').html('<?php pten('oficinas', 'workshops');?>');
                                });
                                
-                            } else if(hash == 'mediacao'){ 
+                            } else if(hash.substring(0, 8) == 'mediacao'){ 
 
                                criaUrlIdioma('#mediacao');
                                $('#pp-conteudo').load('elements/pp/mediacao.php', function(){

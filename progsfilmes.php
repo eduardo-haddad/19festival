@@ -13,6 +13,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="js/home.js"></script>
+    <!-- <script src="js/jquery.scrollTo.min.js"></script> -->
     <meta property="og:title" content="<?php echo ($idioma == 'pt' ? '19º Festival de Arte Contemporânea Sesc_Videobrasil' : '19th Contemporary Art Festival Sesc_Videobrasil');?>"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="<?=$url.ltrim($_SERVER['REQUEST_URI'], '/');?>"/>
@@ -41,21 +42,21 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                 if (hash) {
 
-                    if(hash == 'obras'){ 
+                    if(hash.substring(0,5) == 'obras'){ 
                                criaUrlIdioma('#obras');
                                $('#progs-conteudo').load('elements/progsfilmes/obras.php', function(){
                                   $menuFilmes.eq(0).addClass('ativo'); 
                                   $('.bc-atual').html('<?php pten('obras selecionadas', 'selected artworks');?>');
                                });
                                
-                            }else if(hash == 'gabriel'){ 
+                            }else if(hash.substring(0, 7) == 'gabriel'){ 
                                criaUrlIdioma('#gabriel');
                                $('#progs-conteudo').load('elements/progsfilmes/gabriel.php', function(){
                                   $menuFilmes.eq(1).addClass('ativo'); 
                                   $('.bc-atual').html('gabriel abrantes');
                                });
                                
-                            } else if(hash == 'programacao'){ 
+                            } else if(hash.substring(0, 11) == 'programacao'){ 
                                criaUrlIdioma('#programacao');
                                $('#progs-conteudo').load('elements/progsfilmes/programacao.php', function(){
                                   $menuFilmes.eq(2).addClass('ativo'); 

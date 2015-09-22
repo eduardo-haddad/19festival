@@ -2,7 +2,42 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 ?>
+<script src="../js/jquery.scrollTo.min.js"></script>
+<script>
+    $(document).ready(
+        function(){
 
+
+              var readyStateCheckInterval = setInterval(function() {
+              if (document.readyState === "complete") {
+                clearInterval(readyStateCheckInterval);
+                
+
+                    var hash = window.location.hash.split('#')[1];
+                    var slash = hash.split('/')[1];
+
+                    if(hash) {
+
+                        switch(slash) {
+
+                            case 'leituras': $(window).scrollTo('#leituras', 500); break;
+                            case 'convidados': $(window).scrollTo('#convidados', 500); break;
+                            case 'selecionados': $(window).scrollTo('#selecionados', 500); break;
+
+                        }
+                    }
+
+
+
+
+                    }
+              }, 10); 
+                    
+                    
+        }
+    );
+
+    </script>
 <script>
         $(document).ready(
             function(){
@@ -32,7 +67,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <!-- PUBLICAÇÃO 1 -->
 
-            <div class="row" >
+            <div class="row" ><a id="leituras"></a>
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0"> 
                         <a name="visita"></a><?php pten(
@@ -99,7 +134,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <!-- PUBLICAÇÃO 2 -->
 
-            <div class="row" >
+            <div class="row" ><a id="convidados"></a>
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0"> 
                         <a name="visita"></a><?php pten(
@@ -164,7 +199,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <!-- PUBLICAÇÃO 3 -->
 
-            <div class="row" >
+            <div class="row" ><a id="selecionados"></a>
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0"> 
                         <a name="visita"></a><?php pten(

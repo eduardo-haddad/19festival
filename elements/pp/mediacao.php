@@ -2,7 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 ?>
-
+<script src="../js/jquery.scrollTo.min.js"></script>
 <script>
     
                 paletaArtistas($('.titulo'));

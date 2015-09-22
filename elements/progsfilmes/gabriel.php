@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 
 <!-- PROGRAMA 1 -->
-        <a name="prog1"></a><div class="row" >
+        <div class="row" >
              <div class="col-xs-12 titulo n" style="float: left;">
                 <p style="margin-bottom:0">
                     <span><?php pten('programa de filmes | Gabriel Abrantes | 100’', 'film program | <a href="/gabrielabrantes" id="linkartista">Gabriel Abrantes</a> | 100’'); ?></span>

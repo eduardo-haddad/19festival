@@ -1,11 +1,44 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 ?>
+<script src="../js/jquery.scrollTo.min.js"></script>
+<script>
+    $(document).ready(
+        function(){
+
+          var readyStateCheckInterval = setInterval(function() {
+          if (document.readyState === "complete") {
+            clearInterval(readyStateCheckInterval);
+            
+
+              var hash = window.location.hash.split('#')[1];
+              var slash = hash.split('/')[1];
+
+              if(hash) {
+
+                  switch(slash) {
+
+                      case 'prog1': $(window).scrollTo('#prog1', 500); break;
+                      case 'prog2': $(window).scrollTo('#prog2', 500); break;
+                      case 'prog3': $(window).scrollTo('#prog3', 500); break;
+
+                  }
+              }
 
 
+
+
+            }
+          }, 10); 
+                    
+                    
+        }
+    );
+
+    </script>
 
 <!-- PROGRAMA 1 -->
-        <a name="prog1"></a><div class="row" >
+        <div class="row" ><a id="prog1"></a>
              <div class="col-xs-12 titulo n" style="float: left;">
                 <p style="margin-bottom:0">
                     <span><?php pten('PROGRAMA #1 | PAISAGENS E TERRITÓRIOS | 62’27”', 'PROGRAM #1 | Landscapes and territories  | 62’27”'); ?></span>
@@ -54,7 +87,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 
         <!-- PROGRAMA 2 -->
-        <a name="prog2"></a><div class="row" >
+        <div class="row" ><a id="prog2"></a>
              <div class="col-xs-12 titulo n" style="float: left;">
                 <p style="margin-bottom:0">
                     <span><?php pten('Programa #2 | Desdobramentos do Real | 73’22”', 'Program #2 | Unfolding the real | 73’22”'); ?></span>
@@ -101,7 +134,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         <!-- /PROGRAMA 2 -->
 
         <!-- PROGRAMA 3 -->
-        <a name="prog3"></a><div class="row" >
+        </a><div class="row" ><a id="prog3"></a>
              <div class="col-xs-12 titulo n" style="float: left;">
                 <p style="margin-bottom:0">
                     <span><?php pten('Programa #3 | Fricções | 75’30”', 'Program #3 | Frictions | 75’30”'); ?></span>

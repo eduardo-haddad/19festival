@@ -2,11 +2,44 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 ?>
-
-
+<script src="../js/jquery.scrollTo.min.js"></script>
     <script>
-        $(document).ready(
-            function(){
+    $(document).ready(
+        function(){
+
+
+              var readyStateCheckInterval = setInterval(function() {
+              if (document.readyState === "complete") {
+                clearInterval(readyStateCheckInterval);
+                
+
+                    var hash = window.location.hash.split('#')[1];
+                    var slash = hash.split('/')[1];
+
+                    if(hash) {
+
+                        switch(slash) {
+
+                            case 'memoria': $(window).scrollTo('#memoria', 500); break;
+                            case 'vocabulario': $(window).scrollTo('#vocabulario', 500); break;
+                            case 'lambada': $(window).scrollTo('#lambada', 500); break;
+
+                        }
+                    }
+
+
+
+
+                    }
+              }, 10); 
+                    
+                    
+        }
+    );
+
+    </script>
+    <script>
+
                 paletaArtistas($('.titulo'));
                 paletaArtistas($('.pp-encontro p:nth-child(1)'));
                 paletaArtistas($('.pp-encontro p:nth-child(2)'));
@@ -22,8 +55,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 paletaArtistas($('.data-pp'));
 
         
-            }
-        );
     </script>
 
 
@@ -31,7 +62,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 <!-- EVENTO 1 -->
 
-            <div class="row" >
+            <div class="row" ><a id="memoria"></a>
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0" class="titulo-pp"> 
                         <a name="pp1"></a>
@@ -74,7 +105,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <!-- EVENTO 2 -->
 
-            <div class="row" >
+            <div class="row" ><a id="vocabulario"></a>
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0" class="titulo-pp"> 
                         <a name="pp2"></a>
@@ -117,7 +148,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <!-- EVENTO 3 -->
 
-            <div class="row" >
+            <div class="row" ><a id="lambada"></a>
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0" class="titulo-pp"> 
                         <a name="pp3"></a>

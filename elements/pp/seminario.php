@@ -2,7 +2,44 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 ?>
+<script src="../js/jquery.scrollTo.min.js"></script>
+<script>
+    $(document).ready(
+        function(){
 
+              var readyStateCheckInterval = setInterval(function() {
+              if (document.readyState === "complete") {
+                clearInterval(readyStateCheckInterval);
+                
+
+                    var hash = window.location.hash.split('#')[1];
+                    var slash = hash.split('/')[1];
+
+                    if(hash) {
+
+                        switch(slash) {
+
+                            case 'mesa1': $(window).scrollTo('#mesa1', 500); break;
+                            case 'mesa2': $(window).scrollTo('#mesa2', 500); break;
+                            case 'mesa3': $(window).scrollTo('#mesa3', 500); break;
+                            case 'mesa4': $(window).scrollTo('#mesa4', 500); break;
+
+
+                        }
+                    }
+
+
+
+
+                }
+              }, 10); 
+
+                    
+                    
+        }
+    );
+
+</script>
 <script>
     
                 paletaArtistas($('.titulo'));
@@ -48,7 +85,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <!-- EVENTO 1 -->
 
-            <div class="row" >
+            <div class="row" ><a id="mesa1"></a>
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0" class="titulo-pp"> 
                         <a name="pp1"></a>
@@ -114,7 +151,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <!-- EVENTO 2 -->
 
-            <div class="row" >
+            <div class="row" ><a id="mesa2"></a>
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0" class="titulo-pp"> 
                         <a name="pp2"></a>
@@ -179,7 +216,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <!-- EVENTO 3 -->
 
-            <div class="row" >
+            <div class="row" ><a id="mesa3"></a>
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0" class="titulo-pp"> 
                         <a name="pp2"></a>
@@ -245,7 +282,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <!-- EVENTO 4 -->
 
-            <div class="row" >
+            <div class="row" ><a id="mesa4"></a>
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0" class="titulo-pp"> 
                         <a name="pp2"></a>

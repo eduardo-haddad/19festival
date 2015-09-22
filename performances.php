@@ -63,7 +63,7 @@ $titulo = $idioma == 'pt' ? 'Performances' : 'Performances';
             
             <!-- EVENTO 1 -->
 
-            <div class="row" style="clear: both; margin-bottom: 31px">     
+            <div class="row" style="clear: both; margin-bottom: 31px"><a name="fancy"></a>     
                 <div class="col-sm-12 col-md-6 performance-servico relative" style="float: left ">
                     <a id="linkartista" style="color:inherit" href="/rodolphoparigi"><img src="img/obras/obra_rodolphoparigi.jpg" class="img-responsive" style="margin-bottom: 15px" /></a>    
 
@@ -102,7 +102,7 @@ $titulo = $idioma == 'pt' ? 'Performances' : 'Performances';
 
             <!-- EVENTO 2 -->
 
-            <div class="row" style="clear: both; margin-bottom: 31px">     
+            <div class="row" style="clear: both; margin-bottom: 31px">  <a name="oiko"></a>   
                 <div class="col-sm-12 col-md-6 performance-servico relative" style="float: left ">
                     <a href="/koutsomichalis-varela-psarra" id="linkartista"><img src="img/obras/obra_koutsomichalis-varela-psarra.jpg" class="img-responsive" style="margin-bottom: 15px" /></a>    
 
@@ -139,7 +139,7 @@ $titulo = $idioma == 'pt' ? 'Performances' : 'Performances';
 
             <!-- EVENTO 3 -->
 
-            <div class="row" style="clear: both; margin-bottom: 31px">     
+            <div class="row" style="clear: both; margin-bottom: 31px">  <a name="vostok"></a>   
                 <div class="col-sm-12 col-md-6 performance-servico" style="float: left ">
                     <a href="/leticiaramos" id="linkartista"><img src="img/obras/obra_leticiaramos.jpg" class="img-responsive" style="margin-bottom: 15px" /></a>    
 
