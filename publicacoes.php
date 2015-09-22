@@ -37,12 +37,12 @@ $titulo = $idioma == 'pt' ? 'Publicações' : 'Publications';
 
                 if (hash) {
 
-                    if(hash == 'festival'){ 
+                    if(hash.substring(0,8) == 'festival'){ 
                                criaUrlIdioma('#festival');
                                $('.bc-atual').html('livros do festival');
                                $('#publicacoes-conteudo').load('elements/publicacoes/festival.php');
                                $menuPublicacoes.eq(0).addClass('ativo'); 
-                            }else if(hash == 'outros'){ 
+                            }else if(hash.substring(0,6) == 'outros'){ 
                                criaUrlIdioma('#outros'); 
                                $('.bc-atual').html('outros lançamentos');
                                $('#publicacoes-conteudo').load('elements/publicacoes/outros.php');
