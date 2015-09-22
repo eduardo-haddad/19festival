@@ -1565,7 +1565,7 @@ Galleria = function() {
                         });
                         tooltip.open = true;
 
-                    }, tooltip.open ? 0 : 200);
+                    }, tooltip.open ? 0 : 500);
 
                 }, mouseout).click(mouseout);
             };
@@ -5743,7 +5743,7 @@ Galleria.addTheme = function( theme ) {
                         if (retryCount++ > 5) {
                             Galleria.raise('No theme CSS loaded');
                         } else {
-                            window.setTimeout(tryLoadCss, 200);
+                            window.setTimeout(tryLoadCss, 500);
                         }
                     }
                 };

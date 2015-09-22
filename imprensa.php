@@ -92,11 +92,15 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 </div>
                 <div class="col-md-6 " style="margin-top: 0px; border-left: 1pt solid #8F6B55; min-height: 240px">
                     <p class="titulo">
-                        <!-- Downloads -->
+                        Downloads
                     </p>
                 <p style="clear: both" class="f nomargin">
-                    <!-- Press Kit (português, english)<br /><br />
-                    Imagens (download, flickr)     -->
+                    <?php pten('Press Kit (<a class="link" href="arquivos/19festival_presskit_pt.docx">português</a>, <a class="link" href="arquivos/19festival_presskit_en.docx">inglês</a>)<!-- <br /><br />
+                                Imagens (download, flickr)-->',
+                               'Press Kit (<a class="link" href="arquivos/19festival_presskit_pt.docx">Portuguese</a>, <a class="link" href="arquivos/19festival_presskit_en.docx">English</a>)<!-- <br /><br />
+                                Images (download, flickr)-->'); ?>
+
+                          
                 </p>
                     
 

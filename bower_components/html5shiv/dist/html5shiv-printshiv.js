@@ -501,7 +501,7 @@
       // remove wrappers, leaving the original elements, and remove the shived style sheet
       removeWrappers(wrappers);
       clearTimeout(data._removeSheetTimer);
-      data._removeSheetTimer = setTimeout(removeSheet, 200);
+      data._removeSheetTimer = setTimeout(removeSheet, 500);
     });
 
     ownerDocument.printShived = true;
