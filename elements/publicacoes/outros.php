@@ -20,8 +20,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                         switch(slash) {
 
-                            case 'vb': $(window).scrollTo('#vb', 500); break;
-                            case 'cad11': $(window).scrollTo('#cad11', 500); break;
+                            case 'vb': $(window).scrollTo('#vb', 200); break;
+                            case 'cad11': $(window).scrollTo('#cad11', 200); break;
 
                         }
                     }

@@ -19,10 +19,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                         switch(slash) {
 
-                            case 'mesa1': $(window).scrollTo('#mesa1', 500); break;
-                            case 'mesa2': $(window).scrollTo('#mesa2', 500); break;
-                            case 'mesa3': $(window).scrollTo('#mesa3', 500); break;
-                            case 'mesa4': $(window).scrollTo('#mesa4', 500); break;
+                            case 'mesa1': $(window).scrollTo('#mesa1', 200); break;
+                            case 'mesa2': $(window).scrollTo('#mesa2', 200); break;
+                            case 'mesa3': $(window).scrollTo('#mesa3', 200); break;
+                            case 'mesa4': $(window).scrollTo('#mesa4', 200); break;
 
 
                         }

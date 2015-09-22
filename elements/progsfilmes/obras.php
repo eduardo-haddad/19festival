@@ -18,9 +18,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                   switch(slash) {
 
-                      case 'prog1': $(window).scrollTo('#prog1', 500); break;
-                      case 'prog2': $(window).scrollTo('#prog2', 500); break;
-                      case 'prog3': $(window).scrollTo('#prog3', 500); break;
+                      case 'prog1': $(window).scrollTo('#prog1', 200); break;
+                      case 'prog2': $(window).scrollTo('#prog2', 200); break;
+                      case 'prog3': $(window).scrollTo('#prog3', 200); break;
 
                   }
               }

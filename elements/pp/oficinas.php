@@ -20,9 +20,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                         switch(slash) {
 
-                            case 'memoria': $(window).scrollTo('#memoria', 500); break;
-                            case 'vocabulario': $(window).scrollTo('#vocabulario', 500); break;
-                            case 'lambada': $(window).scrollTo('#lambada', 500); break;
+                            case 'memoria': $(window).scrollTo('#memoria', 200); break;
+                            case 'vocabulario': $(window).scrollTo('#vocabulario', 200); break;
+                            case 'lambada': $(window).scrollTo('#lambada', 200); break;
 
                         }
                     }

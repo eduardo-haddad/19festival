@@ -20,9 +20,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                         switch(slash) {
 
-                            case 'leituras': $(window).scrollTo('#leituras', 500); break;
-                            case 'convidados': $(window).scrollTo('#convidados', 500); break;
-                            case 'selecionados': $(window).scrollTo('#selecionados', 500); break;
+                            case 'leituras': $(window).scrollTo('#leituras', 200); break;
+                            case 'convidados': $(window).scrollTo('#convidados', 200); break;
+                            case 'selecionados': $(window).scrollTo('#selecionados', 200); break;
 
                         }
                     }

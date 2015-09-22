@@ -51,7 +51,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and conversation
                     
                     if(slash == 'tilting') {
 
-                      $(window).scrollTo('a[id=tilting]', 500); alert('aa');
+                      $(window).scrollTo('a[id=tilting]', 200); alert('aa');
                       
                     }*/
 
