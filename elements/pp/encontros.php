@@ -20,12 +20,12 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                     switch(slash) {
 
-                        case 'rodrigo': $(window).scrollTo('#rodrigo', 500); break;
-                        case 'tilting': $(window).scrollTo('#tilting', 500); break;
-                        case 'rede': $(window).scrollTo('#rede', 500); break;
-                        case 'portfolios': $(window).scrollTo('#portfolios', 500); break;
-                        case 'paralela': $(window).scrollTo('#paralela', 500); break;
-                        case 'cad11': $(window).scrollTo('#cad11', 500); break;
+                        case 'rodrigo': $(window).scrollTo('#rodrigo', 200); break;
+                        case 'tilting': $(window).scrollTo('#tilting', 200); break;
+                        case 'rede': $(window).scrollTo('#rede', 200); break;
+                        case 'portfolios': $(window).scrollTo('#portfolios', 200); break;
+                        case 'paralela': $(window).scrollTo('#paralela', 200); break;
+                        case 'cad11': $(window).scrollTo('#cad11', 200); break;
 
                     }
                 }
