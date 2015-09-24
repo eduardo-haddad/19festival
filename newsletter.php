@@ -55,7 +55,7 @@ $mail->AltBody = strip_tags($email_message);
     <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" type="text/css" href="css/home.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="js/home.js"></script>
+	<script src="js/19festival.js"></script>
 
 </head>
 <body>

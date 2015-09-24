@@ -15,7 +15,7 @@ $titulo = $idioma == 'pt' ? 'Fotos e Vídeos' : 'Footage and Pictures';
     <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="js/home.js"></script>
+    <script src="js/19festival.js"></script>
     <script src="js/galleria/galleria-1.4.2.min.js"></script>
     <script src="js/galleria/plugins/flickr/galleria.flickr.js"></script>
     <script src="js/jquery.hoverIntent.js"></script>
@@ -40,7 +40,7 @@ $titulo = $idioma == 'pt' ? 'Fotos e Vídeos' : 'Footage and Pictures';
 
             <div class="row">
                 <div class="col-xs-12 breadcrumb">
-                    <span><?php pten('fotos e vídeos</span>', 
+                    <span class="underline"><?php pten('fotos e vídeos', 
                                      'photos and videos');  ?></span>      
                 </div>
             </div>

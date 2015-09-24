@@ -12,7 +12,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
     <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="js/home.js"></script>
+    <script src="js/19festival.js"></script>
     <!-- <script src="js/jquery.scrollTo.min.js"></script> -->
     <meta property="og:title" content="<?php echo ($idioma == 'pt' ? '19º Festival de Arte Contemporânea Sesc_Videobrasil' : '19th Contemporary Art Festival Sesc_Videobrasil');?>"/>
     <meta property="og:type" content="website"/>
@@ -133,8 +133,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         	<div class="row">
         		<div class="col-xs-12 breadcrumb">
                     <span> </span> 
-                    <span><?php pten('programas de filmes > <span class="underline bc-atual">obras selecionadas</span>', 
-                                     'film programs > <span class="underline bc-atual">knowledge zone</span>');  ?></span>       
+                    <span><?php pten('<a href="index.php#progsfilmes" class="link">programas de filmes</a> > <span class="underline bc-atual">obras selecionadas</span>', 
+                                     '<a href="index.php#progsfilmes" class="link">film programs</a> > <span class="underline bc-atual">knowledge zone</span>');  ?></span>       
                 </div>
         	</div>
             <!-- /BREADCRUMB -->

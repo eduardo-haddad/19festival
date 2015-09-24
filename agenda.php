@@ -15,7 +15,7 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
     <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="js/home.js"></script>
+    <script src="js/19festival.js"></script>
     <script>
         $(document).ready(
             function(){
@@ -131,7 +131,6 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li>7 de outubro, quarta-feira</li>
                     <li class="agenda-seminario">11h00 | Sesc Pompeia, Teatro | Programas Públicos | <a href="pp.php#seminario/mesa1" target="_blank" class="link">Seminário Lugares e Sentidos na Arte: Debates a Partir do Sul | Mesa 1: Repensar tradições: arte, gesto e contemporaneidade</a></li>
                     <li class="agenda-encontro">13h45 | Sesc Pompeia, Galpão | Programas Públicos | <a href="pp.php#encontros/rodrigo" target="_blank" class="link">Encontros e Conversas | Visita com o artista convidado Rodrigo Matheus</a></li>
-                    <li class="agenda-filme">18h00 | Sesc Pompeia, Teatro | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Abertura do Programa de Filmes | Obras Selecionadas </a></li>
                     <li class="agenda-filme">18h00 | Sesc Pompeia, Teatro | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Abertura do Programa de Filmes | Obras Selecionadas | Programa #1</a></li>
                     <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog2" target="_blank" class="link">Obras Selecionadas | Programa #2</a></li>
                     <li class="agenda-performance">21h00 | Sesc Pompeia, Teatro | Performance | <a href="performances.php#vostok" target="_blank" class="link">VOSTOK cineperformance</a></li>
@@ -382,7 +381,6 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li>October 7, Wednesday</li>
                     <li class="agenda-seminario">11:00am | Sesc Pompeia, Teatro | Public Programs | <a href="pp.php#seminario/mesa1" target="_blank" class="link">Seminar Places and meanings of art: debates from the South | Panel 1: Rethinking traditions: art, gesture and contemporaneity</a></li>
                     <li class="agenda-encontro">01:45pm | Sesc Pompeia, Galpão | Public Programs | <a href="pp.php#encontros/rodrigo" target="_blank" class="link">Meetings and Conversations | Southern Panoramas exhibition tour with Rodrigo Matheus</a></li>
-                    <li class="agenda-filme">06:00pm | Sesc Pompeia, Teatro | Opening |  Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works </a></li>
                     <li class="agenda-filme">06:00pm | Sesc Pompeia, Teatro | Opening |  Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #1</a></li>
                     <li class="agenda-filme">07:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras/prog2" target="_blank" class="link">Selected Works | Program #2</a></li>
                     <li class="agenda-performance">09:00pm | Sesc Pompeia, Teatro | Performance | <a href="performances.php#vostok" target="_blank" class="link">VOSTOK cineperformance by Leticia Ramos</a></li>

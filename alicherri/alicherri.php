@@ -55,7 +55,7 @@ $plataforma_en = '“In Doméstica (Maid), I was concerned with penetrating the 
 	<link rel="stylesheet" type="text/css" href="../css/home.css">
     <link rel="stylesheet" type="text/css" href="../css/expos.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="../js/home.js"></script>
+	<script src="../js/19festival.js"></script>
     <meta property="og:title" content="<?php echo $nome_artista.' - ';?><?php echo ($idioma == 'pt' ? '19º Festival de Arte Contemporânea Sesc_Videobrasil' : '19th Contemporary Art Festival Sesc_Videobrasil');?>"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="<?=$url.ltrim($_SERVER['REQUEST_URI'], '/');?>"/>

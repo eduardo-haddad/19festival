@@ -15,7 +15,7 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
     <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="js/home.js"></script>
+    <script src="js/19festival.js"></script>
     <script>
         $(document).ready(
             function(){
@@ -181,8 +181,8 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
             <!-- BREADCRUMB -->
         	<div class="row">
         		<div class="col-xs-12 breadcrumb">
-                    <?php pten('prêmios e residências > <span class="underline bc-atual">grande prêmio</span>', 
-                               'prizes and residencies > <span class="underline bc-atual">grand prize</span>'); ?>   
+                    <?php pten('<a href="index.php#premios" class="link">prêmios e residências</a> > <span class="underline bc-atual">grande prêmio</span>', 
+                               '<a href="index.php#premios" class="link">prizes and residencies</a> > <span class="underline bc-atual">grand prize</span>'); ?>   
                 </div>
         	</div>
             <!-- BREADCRUMB -->

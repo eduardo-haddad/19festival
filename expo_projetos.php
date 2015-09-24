@@ -15,7 +15,7 @@ $titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'Comissioned Projects';
     <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" type="text/css" href="css/home.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="js/home.js"></script>
+	<script src="js/19festival.js"></script>
     <script>
         $(document).ready(
             function(){
@@ -50,8 +50,8 @@ $titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'Comissioned Projects';
 
         	<div class="row">
         		<div class="col-xs-12 breadcrumb">
-                    <span><?php pten('exposições > <span class="underline">projetos comissionados</span>', 
-                                     'exhibitions > <span class="underline">comissioned projects</span>');  ?></span>      
+                    <span><?php pten('<a href="index.php#exposicoes" class="link">exposições</a> > <span class="underline">projetos comissionados</span>', 
+                                     '<a href="index.php#exposicoes" class="link">exhibitions</a> > <span class="underline">comissioned projects</span>');  ?></span>      
                 </div>
         	</div>
 

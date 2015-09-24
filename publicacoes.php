@@ -15,7 +15,7 @@ $titulo = $idioma == 'pt' ? 'Publicações' : 'Publications';
     <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="js/home.js"></script>
+    <script src="js/19festival.js"></script>
     <script>
 
 
@@ -116,8 +116,8 @@ $titulo = $idioma == 'pt' ? 'Publicações' : 'Publications';
             <!-- BREADCRUMB -->
             <div class="row">
         		<div class="col-xs-12 breadcrumb">
-                    <?php pten('publicações > <span class="underline bc-atual">livros do festival</span>', 
-                               'publications > <span class="underline bc-atual">festival publications</span>'); ?>   
+                    <?php pten('<a href="index.php#publicacoes" class="link">publicações</a> > <span class="underline bc-atual">livros do festival</span>', 
+                               '<a href="index.php#publicacoes" class="link">publications</a> > <span class="underline bc-atual">festival publications</span>'); ?>   
                 </div>
         	</div>
             <!-- /BREADCRUMB -->

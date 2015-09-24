@@ -12,7 +12,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
     <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" type="text/css" href="css/home.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
- 	<script src="js/home.js"></script>
+ 	<script src="js/19festival.js"></script>
+    <script src="js/home.js"></script>
     <meta property="og:title" content="<?php echo ($idioma == 'pt' ? '19º Festival de Arte Contemporânea Sesc_Videobrasil' : '19th Contemporary Art Festival Sesc_Videobrasil');?>"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="<?=$url.ltrim($_SERVER['REQUEST_URI'], '/');?>"/>
@@ -22,6 +23,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
           content="O 19º Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul, que acontece de 6 de outubro a 6 de dezembro de 2015, em São Paulo, transforma o Sul no grande direcionador de seus eixos curatoriais e de toda a sua programação, tendo como referência suas múltiplas questões que dizem respeito a diásporas, identidades híbridas, trânsito migratório e viagens, narrativas pessoais, memórias, isolamento, tecido social e insularidade."/>
     <script>
 
+    var abertura = false; //valor para menu fechado
 
     //filtro de lista de nomes
 $(document).ready(
@@ -86,93 +88,14 @@ $(document).ready(
 );
 
 
-    $(document).ready(
-        function random(){
-
-            var random;
-            
-            random = (Math.floor(Math.random() * (65)) + 1);
-        
-            $('#random img').attr('src', 'img/home/random/obra' + random + '.jpg');
-
-            switch(random){
-                case 1: $('#random a').attr('href', '/abdoulayekonate'); break;
-                case 2: $('#random a').attr('href', '/gabrielabrantes'); break;
-                case 3: $('#random a').attr('href', '/soniagomes'); break;
-                case 4: $('#random a').attr('href', '/ytobarrada'); break;
-                case 5: $('#random a').attr('href', '/robertosantaguida'); break;
-                case 6: $('#random a').attr('href', '/slinko'); break;
-                case 7: $('#random a').attr('href', '/karolinabregula'); break;
-                case 8: $('#random a').attr('href', '/tatianafuentessadowski'); break;
-                case 9: $('#random a').attr('href', '/alicherri'); break;
-                case 10: $('#random a').attr('href', '/kushbadhwar'); break;
-                case 11: $('#random a').attr('href', '/viktorijarybakova'); break;
-                case 12: $('#random a').attr('href', '/anavaz'); break;
-                case 13: $('#random a').attr('href', '/chulayarnnonsiriphol'); break;
-                case 14: $('#random a').attr('href', '/distruktur'); break;
-                case 15: $('#random a').attr('href', '/leticiaramos'); break;
-                case 16: $('#random a').attr('href', '/gabrielabrantes'); break;
-                case 17: $('#random a').attr('href', '/gabrielabrantes'); break;
-                case 18: $('#random a').attr('href', '/gabrielabrantes'); break;
-                case 19: $('#random a').attr('href', '/gabrielabrantes'); break;
-                case 20: $('#random a').attr('href', '/gabrielabrantes'); break;
-                case 21: $('#random a').attr('href', '/alinexegustavojardim'); break;
-                case 22: $('#random a').attr('href', '/andresbedoya'); break;
-                case 23: $('#random a').attr('href', '/armandoqueiroz'); break;
-                case 24: $('#random a').attr('href', '/betoshwafaty'); break;
-                case 25: $('#random a').attr('href', '/biancabaldi'); break;
-                case 26: $('#random a').attr('href', '/carlosmelo'); break;
-                case 27: $('#random a').attr('href', '/chameckilerner'); break;
-                case 28: $('#random a').attr('href', '/claraianni'); break;
-                case 29: $('#random a').attr('href', '/claraianni'); break;
-                case 30: $('#random a').attr('href', '/danielfrota'); break;
-                case 31: $('#random a').attr('href', '/danieljacoby'); break;
-                case 32: $('#random a').attr('href', '/danielmonroycuevas'); break;
-                case 33: $('#random a').attr('href', '/deborabolsoni'); break;
-                case 34: $('#random a').attr('href', '/dorguez'); break;
-                case 35: $('#random a').attr('href', '/enriqueramirez'); break;
-                case 36: $('#random a').attr('href', '/rodolphoparigi'); break;
-                case 37: $('#random a').attr('href', '/felipebittencourt'); break;
-                case 38: $('#random a').attr('href', '/haroongunn-salie'); break;
-                case 39: $('#random a').attr('href', '/huitao'); break;
-                case 40: $('#random a').attr('href', '/iosuaramburu'); break;
-                case 41: $('#random a').attr('href', '/joaocastilho'); break;
-                case 42: $('#random a').attr('href', '/kokenergun'); break;
-                case 43: $('#random a').attr('href', '/louisebotkay'); break;
-                case 44: $('#random a').attr('href', '/lucianamagno'); break;
-                case 45: $('#random a').attr('href', '/mariakramar'); break;
-                case 46: $('#random a').attr('href', '/koutsomichalis-varela-psarra'); break;
-                case 47: $('#random a').attr('href', '/mayawatanabe'); break;
-                case 48: $('#random a').attr('href', '/michaelmacgarry'); break;
-                case 49: $('#random a').attr('href', '/mihaigrecu'); break;
-                case 50: $('#random a').attr('href', '/monicarodriguez'); break;
-                case 51: $('#random a').attr('href', '/pablolobato'); break;
-                case 52: $('#random a').attr('href', '/paulonazareth'); break;
-                case 53: $('#random a').attr('href', '/paulonimerpjota'); break;
-                case 54: $('#random a').attr('href', '/paulonimerpjota'); break;
-                case 55: $('#random a').attr('href', '/pilarmatadupont'); break;
-                case 56: $('#random a').attr('href', '/rafaelrg'); break;
-                case 57: $('#random a').attr('href', '/rodrigocass'); break;
-                case 58: $('#random a').attr('href', '/roydib'); break;
-                case 59: $('#random a').attr('href', '/roydib'); break;
-                case 60: $('#random a').attr('href', '/runolagomarsino'); break;
-                case 61: $('#random a').attr('href', '/solonribeiro'); break;
-                case 62: $('#random a').attr('href', '/tausmakhacheva'); break;
-                case 63: $('#random a').attr('href', '/tiecourandaou'); break;
-                case 64: $('#random a').attr('href', '/verachavesbarcellos'); break;
-                case 65: $('#random a').attr('href', '/waleriaamerico'); break;
-
-            }
-
-        }
-    );
+    
 
 
 
 
         function hoverMenu($menu, $texto){
 
-            var abertura = false; //valor para menu fechado
+            
             var $todosMenus = $('[id^=menuprincipal]').not($menu); //todos os itens menos o atual
             var $todosTextos = $('[id^=texto]').not($texto); //todos os textos menos o atual
 
@@ -215,7 +138,9 @@ $(document).ready(
 
                             $menu.on(
                                 'click', function(){
+
                                     if(abertura == false){
+
                                         abreMenu();
                                         
                                        /*$todosTextos.each( //fechar todos itens menos o atual
@@ -439,7 +364,7 @@ $(document).ready(
         		<div class="col-sm-12 col-md-6" id="menuprincipal">
 
                     <!-- SOBRE -->
-        			<div id="menuprincipal1" class="fonteMenu"><img src="img/botoes/<?php pten('pt','en');?>/sobre_1.png"></div>
+        			<div id="menuprincipal1" class="fonteMenu" name="sobre"><img src="img/botoes/<?php pten('pt','en');?>/sobre_1.png"></div>
                     <div id="texto1a" class="texto" style="display:none;">
                         <p class="submenu" style="margin-bottom: -6px;">
                             <a href="apresentacao.php"><?php pten('Apresentação','Introduction');?></a><br />

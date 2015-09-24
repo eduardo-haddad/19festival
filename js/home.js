@@ -1,217 +1,109 @@
-
-
-
-//mapa do site
-/*$(document).ready(
-    function slideMapa(){
-        $('#botaomenu').on(
-            'click', function(event){
-                $('#mapa').animate({width: 'toggle'});
-                            }
-            );
-        $('#fechar').on(
-            'click', function(event){
-                $('#mapa').animate({width: 'toggle'});
-            }
-        );
-    }
-);*/
-
-
-//CORES RANDOMICAS PARA TITULOS 
 $(document).ready(
-    function(){
-        paletaArtistas($('.titulo'));
+        function random(){
+
+            var random;
+            
+            random = (Math.floor(Math.random() * (65)) + 1);
         
-    }
-);
+            $('#random img').attr('src', 'img/home/random/obra' + random + '.jpg');
 
+            switch(random){
+                case 1: $('#random a').attr('href', '/abdoulayekonate'); break;
+                case 2: $('#random a').attr('href', '/gabrielabrantes'); break;
+                case 3: $('#random a').attr('href', '/soniagomes'); break;
+                case 4: $('#random a').attr('href', '/ytobarrada'); break;
+                case 5: $('#random a').attr('href', '/robertosantaguida'); break;
+                case 6: $('#random a').attr('href', '/slinko'); break;
+                case 7: $('#random a').attr('href', '/karolinabregula'); break;
+                case 8: $('#random a').attr('href', '/tatianafuentessadowski'); break;
+                case 9: $('#random a').attr('href', '/alicherri'); break;
+                case 10: $('#random a').attr('href', '/kushbadhwar'); break;
+                case 11: $('#random a').attr('href', '/viktorijarybakova'); break;
+                case 12: $('#random a').attr('href', '/anavaz'); break;
+                case 13: $('#random a').attr('href', '/chulayarnnonsiriphol'); break;
+                case 14: $('#random a').attr('href', '/distruktur'); break;
+                case 15: $('#random a').attr('href', '/leticiaramos'); break;
+                case 16: $('#random a').attr('href', '/gabrielabrantes'); break;
+                case 17: $('#random a').attr('href', '/gabrielabrantes'); break;
+                case 18: $('#random a').attr('href', '/gabrielabrantes'); break;
+                case 19: $('#random a').attr('href', '/gabrielabrantes'); break;
+                case 20: $('#random a').attr('href', '/gabrielabrantes'); break;
+                case 21: $('#random a').attr('href', '/alinexegustavojardim'); break;
+                case 22: $('#random a').attr('href', '/andresbedoya'); break;
+                case 23: $('#random a').attr('href', '/armandoqueiroz'); break;
+                case 24: $('#random a').attr('href', '/betoshwafaty'); break;
+                case 25: $('#random a').attr('href', '/biancabaldi'); break;
+                case 26: $('#random a').attr('href', '/carlosmelo'); break;
+                case 27: $('#random a').attr('href', '/chameckilerner'); break;
+                case 28: $('#random a').attr('href', '/claraianni'); break;
+                case 29: $('#random a').attr('href', '/claraianni'); break;
+                case 30: $('#random a').attr('href', '/danielfrota'); break;
+                case 31: $('#random a').attr('href', '/danieljacoby'); break;
+                case 32: $('#random a').attr('href', '/danielmonroycuevas'); break;
+                case 33: $('#random a').attr('href', '/deborabolsoni'); break;
+                case 34: $('#random a').attr('href', '/dorguez'); break;
+                case 35: $('#random a').attr('href', '/enriqueramirez'); break;
+                case 36: $('#random a').attr('href', '/rodolphoparigi'); break;
+                case 37: $('#random a').attr('href', '/felipebittencourt'); break;
+                case 38: $('#random a').attr('href', '/haroongunn-salie'); break;
+                case 39: $('#random a').attr('href', '/huitao'); break;
+                case 40: $('#random a').attr('href', '/iosuaramburu'); break;
+                case 41: $('#random a').attr('href', '/joaocastilho'); break;
+                case 42: $('#random a').attr('href', '/kokenergun'); break;
+                case 43: $('#random a').attr('href', '/louisebotkay'); break;
+                case 44: $('#random a').attr('href', '/lucianamagno'); break;
+                case 45: $('#random a').attr('href', '/mariakramar'); break;
+                case 46: $('#random a').attr('href', '/koutsomichalis-varela-psarra'); break;
+                case 47: $('#random a').attr('href', '/mayawatanabe'); break;
+                case 48: $('#random a').attr('href', '/michaelmacgarry'); break;
+                case 49: $('#random a').attr('href', '/mihaigrecu'); break;
+                case 50: $('#random a').attr('href', '/monicarodriguez'); break;
+                case 51: $('#random a').attr('href', '/pablolobato'); break;
+                case 52: $('#random a').attr('href', '/paulonazareth'); break;
+                case 53: $('#random a').attr('href', '/paulonimerpjota'); break;
+                case 54: $('#random a').attr('href', '/paulonimerpjota'); break;
+                case 55: $('#random a').attr('href', '/pilarmatadupont'); break;
+                case 56: $('#random a').attr('href', '/rafaelrg'); break;
+                case 57: $('#random a').attr('href', '/rodrigocass'); break;
+                case 58: $('#random a').attr('href', '/roydib'); break;
+                case 59: $('#random a').attr('href', '/roydib'); break;
+                case 60: $('#random a').attr('href', '/runolagomarsino'); break;
+                case 61: $('#random a').attr('href', '/solonribeiro'); break;
+                case 62: $('#random a').attr('href', '/tausmakhacheva'); break;
+                case 63: $('#random a').attr('href', '/tiecourandaou'); break;
+                case 64: $('#random a').attr('href', '/verachavesbarcellos'); break;
+                case 65: $('#random a').attr('href', '/waleriaamerico'); break;
 
+            }
 
-//itens da lista de nomes coloridos aleatoriamente a partir de paleta de cores pré-definida
-$(document).ready(
-	function paletaHome(){
+        }
+    );
 
-		var paleta = ['#613438', 
-					  '#4B201B', 
-					  '#7F4A3E', 
-					  '#BB6D46', 
-					  '#5B777B', 
-					  '#75606A', 
-					  '#AF7C57', 
-					  '#908C63', 
-					  '#AE573C', 
-					  '#A09278', 
-					  '#567491', 
-					  '#774358']; 
-		
-		var $li = $('#lista li');
-		var vetor = [];
+        $(document).ready(
+            function abreHash(){
 
-		//preenche vetor com valores aleatórios a partir dos elementos de 'paleta'
-		for(var i=0; i < $li.length; i++){
-			vetor[i] = paleta[Math.floor(Math.random() * paleta.length)];
-		}
-		
-		//atribui valores de 'vetor' aos elementos da lista de nomes
-		for(var j=0; j < $li.length; j++){
-					$li.eq(j).css('color', vetor[j]);
-		}
-	}
-);
+                var hash = window.location.hash.split('#')[1];
+                                   
 
+                if(hash != undefined){
 
-	function paletaArtistas(id){
+                    switch(hash){
+                        case 'sobre': abre('#texto1a'); break;
+                        case 'exposicoes': abre('#texto2a'); break;
+                        case 'progsfilmes': abre('#texto3a'); break;
+                        case 'performances': abre('#texto4a'); break;
+                        case 'pp': abre('#texto5a'); break;
+                        case 'premios': abre('#texto7a'); break;
+                        case 'publicacoes': abre('#texto8a'); break;
+                       
 
-		var paleta = [/*'#7F4A3E',
-				      '#865742',
-				      '#675650',
-				      '#6c543f',
-				      '#684852',
-				      '#604743',
-				      '#774358',
-				      '#926E64',
-				      '#9c795a',
-				      '#986537',
-				      '#a05756',
-				      '#75606a',
-				      '#986e57',
-				      '#976A66',
-				      '#bb6d46',
-				      '#806263',
-				      '#9c7b84',
-				      '#A76555',
-				      '#5B777B',
-				      '#AF7C57',
-				      '#567491',*/
-				      '#908c63',
-				      '#a09278',
-				      '#a09278',
-				      '#ae573c',
-				      '#8f6b55',
-				      
-					   '#684852',
-					   '#604743',
-					   '#774358',
-					   '#926E64',
-					   '#a05756',
-					   '#75606a',
-					   '#986e57',
-					   '#bb6d46',
-					   '#5B777B',
-					   '#567491']; 
-		
-		var $sinopse = id;
+                    }
 
-		for(var i=0; i < 1; i++){
-			var cor = paleta[Math.floor(Math.random() * paleta.length)];
-		}
-		
-		$sinopse.css('color', cor);
+                }
 
-		
-	}
-
-
-
-
-
-
-/*$(document).ready(
-	function filtroAgenda(){
-
-
-
-		$listas = $('a[id^=agenda-]');
-		$nomes = $('li[class^=agenda-]');
-
-		$ol = $("#agenda ol");
-
-		$listas.eq(0).addClass('ativo'); //ativar primeiro item do menu
-
-
-
-		
+                function abre(texto){
+                    $(texto).slideDown('easeInOutCubic', function(){abertura = true;});
+                }
                 
-
-		$listas.on(
-			'click', function(){
-				$listas.removeClass('ativo');
-				$(this).addClass('ativo'); //ativar item clicado
-
-				if($(this).hasClass('ativo')){
-					$id = $(this).attr('id'); //recuperar id do item clicado
-
-					if($id == 'agenda-todos'){ //mostrar todos nomes da lista
-						for(var i=0; i < $nomes.length; i++){
-							$nomes.eq(i).show();
-						}
-					}else{
-
-						for (var j=0; j < $nomes.length; j++){
-							if($id != $nomes.eq(j).attr('class')){ //se id do item != class de um nome
-								$nomes.eq(j).hide(
-									function(){
-										$ol.each(
-                    						function(){
-                    						    if ($(this).find('li:visible').length == 2){
-                    						        $(this).find('li:visible').eq(0).css('display', 'none');
-                    						    };
-                    						}
-                    );
-									}
-								); //esconda nome
-
-							
-
-
-
-							} else $nomes.eq(j).show(); //senão mostre nome
-						}
-
-					
-
-					}
-				}
-			}
-		);
-	}
-);*/
-
-
-/*$(document).ready(
-	function submenu(){
-
-		$itens = $('a[id^=sm-expo]'); //itens do submenu
-		$textos = $('div[id^=sm-expo]'); //textos de apresentação
-		
-
-		$itens.eq(0).addClass('ativo'); //ativar primeiro item do menu
-
-		$itens.on(
-			'click', function(){
-				$itens.removeClass('ativo');
-				$(this).addClass('ativo'); //ativar item clicado
-
-				if($(this).hasClass('ativo')){
-					$id = $(this).attr('id'); //recuperar id do item clicado
-					
-
-						for (var j=0; j < $textos.length; j++){
-							if($id != $textos.eq(j).attr('id')){ //se id do item != class de um nome
-								$textos.eq(j).hide(); //esconda nome
-							} else {
-								$textos.eq(j).css('display', 'inline');
-								$textos.eq(j).show(); //senão mostre nome
-							} 
-						}
-
-					
-				}
-			}
-		);
-	}
-);*/
-
-       
-
+        }
+        );

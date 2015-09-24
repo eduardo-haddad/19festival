@@ -16,7 +16,7 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and conversation
     <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="js/home.js"></script>
+    <script src="js/19festival.js"></script>
     <!-- <script src="js/jquery.scrollTo.min.js"></script> -->
 
 
@@ -45,18 +45,6 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and conversation
                 $menuPP = $('a[id^=pp]');
 
                 if (hash) {
-
-
-                    /*var slash = hash.split('/')[1];
-                    
-                    if(slash == 'tilting') {
-
-                      $(window).scrollTo('a[id=tilting]', 200); alert('aa');
-                      
-                    }*/
-
-
-
 
                     if(hash.substring(0, 5) == "sobre"){ 
 
@@ -192,8 +180,8 @@ $titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and conversation
             <!-- BREADCRUMB -->
             <div class="row">
         		<div class="col-xs-12 breadcrumb">
-                    <?php pten('programas públicos > <span class="underline bc-atual">encontros e conversas</span>', 
-                               'public programs > <span class="underline bc-atual">meetings and conversations</span>'); ?>   
+                    <?php pten('<a href="index.php#pp" class="link">programas públicos</a> > <span class="underline bc-atual">encontros e conversas</span>', 
+                               '<a href="index.php#pp" class="link">public programs</a> > <span class="underline bc-atual">meetings and conversations</span>'); ?>   
                 </div>
         	</div>
             <!-- /BREADCRUMB -->

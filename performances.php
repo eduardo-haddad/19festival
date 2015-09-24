@@ -15,7 +15,7 @@ $titulo = $idioma == 'pt' ? 'Performances' : 'Performances';
     <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="js/home.js"></script>
+    <script src="js/19festival.js"></script>
     <script>
         $(document).ready(
             function(){
@@ -56,6 +56,14 @@ $titulo = $idioma == 'pt' ? 'Performances' : 'Performances';
         <!-- /HEADER -->
 
         	<div style="height:36px; clear: both">&nbsp;</div>
+
+            <!-- BREADCRUMB -->
+            <div class="row">
+                <div class="col-xs-12 breadcrumb">
+                    <span><a href="index.php#performances" class="link">performances</a></span>      
+                </div>
+            </div>
+            <!-- /BREADCRUMB -->
 
             <p class="titulo"><?php pten('performances', 
                                          'performances'); ?></p> 

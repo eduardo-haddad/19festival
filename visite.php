@@ -15,7 +15,7 @@ $titulo = $idioma == 'pt' ? 'Visite' : 'Visit';
     <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" type="text/css" href="css/home.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="js/home.js"></script>
+	<script src="js/19festival.js"></script>
     <script>
         $(document).ready(
             function(){
@@ -49,8 +49,8 @@ $titulo = $idioma == 'pt' ? 'Visite' : 'Visit';
 
         	<div class="row">
         		<div class="col-xs-12 breadcrumb">
-                    <span><?php pten('sobre > <span class="underline">visite</span>', 
-                                     'about > <span class="underline">visit</span>');  ?></span>      
+                    <span><?php pten('<a href="index.php#sobre" class="link">sobre o festival</a> > <span class="underline">visite</span>', 
+                                     '<a href="index.php#sobre" class="link">about the festival</a> > <span class="underline">visit</span>');  ?></span>      
                 </div>
         	</div>
 

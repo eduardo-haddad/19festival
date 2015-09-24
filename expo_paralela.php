@@ -15,7 +15,7 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : 'Parallel exhibition';
     <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" type="text/css" href="css/home.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="js/home.js"></script>
+	<script src="js/19festival.js"></script>
     <script>
         $(document).ready(
             function(){
@@ -57,8 +57,8 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : 'Parallel exhibition';
 
         	<div class="row">
         		<div class="col-xs-12 breadcrumb">
-                    <span><?php pten('exposições > <span class="underline">exposição paralela</span>', 
-                                     'exhibitions > <span class="underline">Parallel exhibition</span>');  ?></span>      
+                    <span><?php pten('<a href="index.php#exposicoes" class="link">exposições</a> > <span class="underline">exposição paralela</span>', 
+                                     '<a href="index.php#exposicoes" class="link">exhibitions</a> > <span class="underline">Parallel exhibition</span>');  ?></span>      
                 </div>
         	</div>
 
@@ -153,6 +153,34 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : 'Parallel exhibition';
                     
                 </div>
 
+            </div>
+
+            <div class="row" style="margin-top: 30px">
+                 <div class="col-sm-12 col-md-6" style="text-align: center; float: left "></div>
+                 <div class="col-sm-12 col-md-6" style="float: right;">
+                     <p class="titulo"><?php pten('sobre o curador', 'about the curator'); ?></p>                     
+                 </div>
+            </div>
+
+            <div class="row" >
+                <div class="col-sm-12 col-md-6" style="text-align: center; float: left ">
+                    <img src="img/expos/diegomatos.jpg" class="img-responsive retrato-artista" style=" margin-bottom: 25px;"  />
+                </div>
+                <div class="col-sm-12 col-md-6 s curador2" style="float: right;margin-bottom: 24px">
+
+                
+                <?php // DIEGO PT 
+                pten('<p style="margin-bottom: 0">
+                    <span class="bold">Diego Matos</span> (vive e trabalha em São Paulo, Brasil)<br />
+                    É pesquisador, professor e curador. Graduou-se em Arquitetura e Urbanismo pela Universidade Federal do Ceará (UFC). Concluiu mestrado (em 2009) e doutorado (em 2014) pela Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo (FAU-USP).  Entre 2005 e 2006, foi professor substituto do Curso de Arquitetura e Urbanismo da Universidade Federal do Ceará. Foi assistente de curadoria da 29ª Bienal de São Paulo, 2010, e editor de conteúdo do website do evento. Trabalhou no Núcleo de Pesquisa e Curadoria do Instituto Tomie Ohtake, São Paulo, entre 2011 e 2013.  Foi curador da mostra coletiva Da Próxima Vez Eu Fazia Tudo Diferente, Espaço Pivô, 2012. Atuou como professor em cursos livres no Instituto Tomie Ohtake, no SESC São Paulo e no Centro de Cultura Judaica (CCJ), na mesma cidade. Em 2014 lecionou na Escola São Paulo. É coordenador do Núcleo de Arquivo e Pesquisa da Associação Cultural Videobrasil. Vive e trabalha em São Paulo.
+                    </p>', 
+                    // DIEGO EN
+                    '<p style="margin-bottom: 0">
+                    <span class="bold">Diego Matos</span> (lives and works out of São Paulo, Brazil)<br />
+                    Researcher, professor and curator. Graduated in Architecture and Urbanism from the Federal University of Ceará (UFC). Completed a master’s degree (in 2009) and a doctorate (in 2014) from the School of Architecture and Urbanism of the University of São Paulo (FAU-USP).  In 2005 and 2006, he served as substitute professor for the Course in Architecture and Urbanism of the Federal University of Ceará. He also served as assistant curator for the 29th São Paulo Art Biennial, in 2010, and a content editor for the event’s website. Worked at the Research and Curating Department of São Paulo’s Tomie Ohtake Institute from 2011 to 2013.  Curated the group show Da Próxima Vez Eu Fazia Tudo Diferente, Espaço Pivô, 2012. He was a professor in free courses at the Tomie Ohtake Institute, at SESC São Paulo and at Jewish culture center Centro de Cultura Judaica (CCJ), in the same city. Since 2014, he has taught at Escola São Paulo and coordinated the Archive and Research Department at Associação Cultural Videobrasil. He lives and works in São Paulo.
+                    </p>');                     
+                    ?>                 
+                    </div>
             </div>
 
             <br style="margin-bottom: 13px" />

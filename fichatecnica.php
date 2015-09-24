@@ -15,7 +15,7 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
     <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="js/home.js"></script>
+    <script src="js/19festival.js"></script>
 </head>
 <body>
     <!-- MAPA DO SITE -->
@@ -32,8 +32,8 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
 
             <div class="row">
                 <div class="col-xs-12 breadcrumb">
-                    <span><?php pten('sobre o festival > <span class="underline">ficha técnica</span>', 
-                                     'about the festival > <span class="underline">staff</span>');  ?></span>      
+                    <span><?php pten('<a href="index.php#sobre" class="link">sobre o festival</a> > <span class="underline">ficha técnica</span>', 
+                                     '<a href="index.php#sobre" class="link">about the festival</a> > <span class="underline">staff</span>');  ?></span>      
                 </div>
             </div>
 
