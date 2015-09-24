@@ -5,7 +5,7 @@ $(document).ready(
             
             random = (Math.floor(Math.random() * (65)) + 1);
         
-            $('#random img').attr('src', 'img/home/random/obra' + random + '.jpg');
+            $('#random img').attr('src', '../img/home/random/obra' + random + '.jpg');
 
             switch(random){
                 case 1: $('#random a').attr('href', '/abdoulayekonate'); break;
