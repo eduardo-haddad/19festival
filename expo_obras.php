@@ -218,8 +218,12 @@ $titulo = $idioma == 'pt' ? 'Obras selecionadas' : 'Selected works';
                             Rua Clélia, 93<br />
                             São Paulo, SP<br />
                             tel.: +55 11 3871 7700 | 0800 11 8220<br /><a href="http://www.sescsp.org.br" target="_blank">www.sescsp.org.br</a></p>
-                            <p><br /><span class="upper a">visitação</span><br />
-                            de 6 de outubro a 6 de dezembro de 2015<br />
+                            
+                            <p><br /><span class="upper a">abertura</span><br />
+                            6 de outubro de 2015, às 20h</p>
+
+                            <p><span class="upper a">visitação</span><br />
+                            de 7 de outubro a 6 de dezembro de 2015<br />
                             terça a sábado das 10h às 21h;<br />
                             domingos e feriados das 10h às 19h</p>',
 
@@ -227,8 +231,12 @@ $titulo = $idioma == 'pt' ? 'Obras selecionadas' : 'Selected works';
                             Rua Clélia, 93<br />
                             São Paulo, SP, Brazil<br />
                             phone: +55 11 3871 7700<br /><a href="http://www.sescsp.org.br" target="_blank">www.sescsp.org.br</a></p>
-                            <p><br /><span class="upper a">visiting hours</span><br />
-                            october 6 to december 6, 2015<br />
+                            
+                            <p><br /><span class="upper a">opening</span><br />
+                            October 6, 2015<br>8pm</p>
+
+                            <p><span class="upper a">visiting hours</span><br />
+                            October 7 to December 6, 2015<br />
                             tue-sat, from 10am to 9pm;<br />
                             sun, holidays, from 10am to 7pm</p>'); ?>
 

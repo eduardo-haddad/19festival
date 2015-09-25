@@ -195,8 +195,12 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : 'Parallel exhibition';
                             Av. da Universidade, 1 <br />
                             São Paulo, SP<br />
                             Tel.: +55 11 3814 4832 | 3815-4895<br /><a href="http://www.pacodasartes.org.br" target="_blank">www.pacodasartes.org.br</a></p>
-                            <p><br /><span class="upper a">visitação</span><br />
-                            de 9 de outubro de 2015 a 10 de janeiro de 2016<br />
+                            
+                            <p><br /><span class="upper a">abertura</span><br />
+                            9 de outubro de 2015, às 19h</p>
+
+                            <p><span class="upper a">visitação</span><br />
+                            de 10 de outubro de 2015 a 10 de janeiro de 2016<br />
                             quarta a sexta das 10h às 19h;<br />
                             sábados, domingos e feriados das 11h às 18h</p>',
 
@@ -204,8 +208,12 @@ $titulo = $idioma == 'pt' ? 'Exposição Paralela' : 'Parallel exhibition';
                             Av. da Universidade, 1 <br />
                             São Paulo, SP, Brazil<br />
                             phone: +55 11 3814 4832 | 3815-4895<br /><a href="http://www.pacodasartes.org.br" target="_blank">www.pacodasartes.org.br</a></p>
-                            <p><br /><span class="upper a">visiting hours</span><br />
-                            october 9, 2015, to january 10, 2016<br />
+                            
+                            <p><br /><span class="upper a">opening</span><br />
+                            October 9, 2015<br>7pm</p>
+
+                            <p><span class="upper a">visiting hours</span><br />
+                            October 10, 2015, to January 10, 2016<br />
                             wed-fri, from 10am to 7pm;<br />
                             sat, sun, holidays, from 11am to 6pm</p>'); ?>
 
