@@ -124,7 +124,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 //Evento 1 - PT
                 pten('<p>A noção de arte contemporânea responde a um sistema específico, respaldado por práticas, atores e instituições determinados. Ao longo do século 20, com a “desmaterialização” da obra de arte, novas linguagens passam a coexistir com objetos artísticos de naturezas diversas, muitos associados a tradições do passado. Em meio às múltiplas temporalidades partilhadas pelo presente, qual o sentido de uma suposta ideia de superação? Se o contemporâneo abrange, sobretudo, o agora, como repensar e alargar as categorias da arte?
                     </p>
-                    <p><span class="bold">Para participar</span> envie nome, e-mail e ocupação para o e-mail seminario@19festival.org.br até o dia 4.10. <span class="bold">Vagas limitadas.</span></p>
+                    <p>Retirada de ingressos 1h antes no próprio local. <span class="bold">Vagas limitadas.</span></p>
                 
                 <!--<span class="bold">Saiba mais</span><br />
                  - relatos<br />
@@ -135,7 +135,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 '<p>The notion of contemporary art responds to a specific system, underpinned by certain practices, players, and institutions. As the 20th century progressed, with the “dematerialization” of the artwork, new languages began to coexist with art objects of various natures, many of them associated with past traditions. Amid the multiple temporalities shared by the present, what is the meaning of a supposed idea of transcendence? If the contemporary primarily encompasses the present moment, how does one rethink and broaden the categories of art?
                 </p>
 
-                <p><span class="bold">How to participate</span> send your name, email address and occupation to seminario@19festival.org.br by Oct 4. <span class="bold">Seats are limited</span>.</p>
+                <p>Collect your ticket 1h before the activity at Sesc Pompeia.<br /><span class="bold">Seats are limited</span>.</p>
                 
                 <!--<span class="bold">Learn more</span><br />
                  - statements<br />
@@ -192,7 +192,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 //Evento 2 - PT
                 pten('<p>Fora dos espaços institucionais, a arte adentra o cotidiano e interfere na forma de perceber o mundo. Para além de práticas educativas formatadas, a criação artística converte-se em um poderoso instrumento de produção de sentidos, conhecimento e pensamento crítico. Quais lugares a arte ocupa hoje? Quais usos a obra de arte nos sugere? Após o encontro, será lançado o livro <em>Panoramas do Sul | Leituras | Perspectivas para outras geografias do pensamento</em>.
                     </p>
-                    <p><span class="bold">Para participar</span> envie nome, e-mail e ocupação para o e-mail seminario@19festival.org.br até o dia 6.10. <span class="bold">Vagas limitadas</span>.</p>
+                    <p>Retirada de ingressos 1h antes no próprio local. <span class="bold">Vagas limitadas</span>.</p>
                 <!--<p><span class="bold">Saiba mais</span><br />
                  - relatos<br />
                  - notícias<br />
@@ -201,7 +201,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 //Evento 2 - EN
                 '<p>Outside institutional spaces, art seeps into daily life and interferes with how people perceive the world. Artistic creation transcends formatted educational practices to become a powerful tool for production of meaning, knowledge, and critical thinking. What places does art occupy today? What uses does the artwork suggest to us? The meeting will be followed by the launch of the book <em>Southern Panoramas | Readings | Perspectives for other geographies of thought</em>.
                     </p>
-                    <p><span class="bold">How to participate</span> send your name, email address and occupation to seminario@19festival.org.br by Oct 6. <span class="bold">Seats are limited</span>.</p>
+                    <p>Collect your ticket 1h before the activity at Sesc Pompeia.<br /><span class="bold">Seats are limited</span>.</p>
                 <!--<p><span class="bold">Learn more</span><br />
                  - statements<br />
                  - news<br />
@@ -258,7 +258,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 //Evento 3 - PT
                 pten('<p>Aberta a múltiplas interpretações e percepções, a ficção permite extrapolar a linearidade narrativa em direção a outras lógicas sensoriais. A dimensão ficcional da literatura libera o narrador para outras maneiras de contar histórias e elaborar trajetórias pessoais ou coletivas. A mesa discute a criação que, destituída de prova ou documento, busca cruzamentos de palavras e imagens que permitam escapar de um mundo reduzido ao visível e entrar no campo da imaginação.
                     </p>
-                    <p><span class="bold">Para participar</span> envie nome, e-mail e ocupação para o e-mail seminario@19festival.org.br até o dia 19.10. <span class="bold">Vagas limitadas</span>.</p>
+                    <p>Retirada de ingressos 1h antes no próprio local. <span class="bold">Vagas limitadas</span>.</p>
                 <!--<p><span class="bold">Saiba mais</span><br />
                  - relatos<br />
                  - notícias<br />
@@ -267,7 +267,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 //Evento 3 - EN
                 '<p>Being open to multiple interpretations and perceptions, fiction enables narrative linearity to be replaced with other sensory logics. The fictional dimension of literature liberates the narrator for other forms of storytelling and to elaborate personal or collective trajectories. The panel discusses creative works which, devoid of any proof or documentation, look for word and image junctures that allow an escape from a world reduced to what is visible and into the realm of imagination.
                     </p>
-                    <p><span class="bold">How to participate</span> send your name, email address and occupation to seminario@19festival.org.br by Oct 19. <span class="bold">Seats are limited</span>.</p>
+                    <p>Collect your ticket 1h before the activity at Sesc Pompeia.<br /><span class="bold">Seats are limited</span>.</p>
                 <!--<p><span class="bold">Learn more</span><br />
                  - statements<br />
                  - news<br />
@@ -324,7 +324,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 //Evento 4 - PT
                 pten('<p>Imersa em contexturas marcadas pelos dilemas da história, a esfera da arte exprime inevitavelmente as relações que formam o tecido social. Seus discursos, silêncios ou denúncias revelam as tensões entre aquilo que desejamos lembrar ou esquecer. O encontro debate práticas de pensadores e artistas que buscam desestabilizar (ou reiterar) as forças políticas limitadoras dos campos da história e da memória.
                     </p>
-                    <p><span class="bold">Para participar</span> envie nome, e-mail e ocupação para o e-mail seminario@19festival.org.br até o dia 26.10. <span class="bold">Vagas limitadas</span>.</p>
+                    <p>Retirada de ingressos 1h antes no próprio local. <span class="bold">Vagas limitadas</span>.</p>
                 <!--<p><span class="bold">Saiba mais</span><br />
                  - relatos<br />
                  - notícias<br />
@@ -333,7 +333,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 //Evento 4 - EN
                 '<p>Immersed in contexts marked by history’s dilemmas, the art sphere inevitably expresses the relationships that inform the social fabric. Its discourses, silences, or denouncements reveal the tensions between what we wish to remember or to forget. The meeting will discuss the practices of thinkers and artists who look to destabilize (or reiterate) the limiting political forces of history and memory.
                     </p>
-                    <p><span class="bold">How to participate</span> send your name, email address and occupation to seminario@19festival.org.br by Oct 26. <span class="bold">Seats are limited</span>.</p>
+                    <p>Collect your ticket 1h before the activity at Sesc Pompeia.<br /><span class="bold">Seats are limited</span>.</p>
                 <!--<p><span class="bold">Learn more</span><br />
                  - statements<br />
                  - news<br />

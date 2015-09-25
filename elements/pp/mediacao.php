@@ -65,10 +65,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0" class="titulo-pp"> 
                         <a name="pp4"></a>
-                        <?php pten('<span class="titulo">construção compartilhada de vocabulário</span><br />
+                        <?php pten('<span class="titulo">construção compartilhada de vocabulário</span>&nbsp;<span class="highlight upper bold">&nbsp;ação&nbsp;educativa&nbsp;</span><br />
                                     <span class="upper bold data-pp" style="font-size: 1.1em">de 10/out a 06/dez (sábados, domingos e feriados) | 15h | Sesc Pompeia | Convivência</span>',
 
-                                   '<span class="titulo">SHARED VOCABULARY BUILDING</span><br />
+                                   '<span class="titulo">SHARED VOCABULARY BUILDING</span>&nbsp;<span class="highlight upper bold">&nbsp;educational&nbsp;action&nbsp;</span><br />
                                     <span class="upper bold data-pp" style="font-size: 1.1em">from Oct/10 to Dec/06 (Saturdays, Sundays and holidays) | 15h | Sesc Pompeia | Convivência</span><br />');?>
 
                     </p>
@@ -106,10 +106,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0" class="titulo-pp"> 
                         <a name="pp4"></a>
-                        <?php pten('<span class="titulo">Oficinas Com OS Educadores das Exposições</span><br />
+                        <?php pten('<span class="titulo">Oficinas Com OS Educadores das Exposições</span>&nbsp;<span class="highlight upper bold">&nbsp;ação&nbsp;educativa&nbsp;</span><br />
                                     <span class="upper bold data-pp" style="font-size: 1.1em">de 10/out a 06/dez (sábados, domingos e feriados) | 15h | Sesc Pompeia | Convivência</span>',
 
-                                   '<span class="titulo">WORKSHOPS WITH THE EXHIBITIONS’ EDUCATORS</span><br />
+                                   '<span class="titulo">WORKSHOPS WITH THE EXHIBITIONS’ EDUCATORS</span>&nbsp;<span class="highlight upper bold">&nbsp;educational&nbsp;action&nbsp;</span><br />
                                     <span class="upper bold data-pp" style="font-size: 1.1em">from Oct/10 to Dec/06 (Saturdays, Sundays and holidays) | 15h | Sesc Pompeia | Convivência</span><br />');?>
 
                     </p>

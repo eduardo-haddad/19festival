@@ -66,10 +66,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0" class="titulo-pp"> 
                         <a name="pp1"></a>
-                        <?php pten('<span class="titulo">Memória Tecida: Monotipia Vista do Mali</span><br />
+                        <?php pten('<span class="titulo">Memória Tecida: Monotipia Vista do Mali</span>&nbsp;<span class="highlight upper bold">&nbsp;ação&nbsp;educativa&nbsp;</span><br />
                                     <span class="upper bold data-pp" style="font-size: 1.1em">08/out (quinta) e 10/out (sábado) | das 10h30 às 13h | sesc pompeia | Oficinas de Criatividade</span>',
 
-                                   '<span class="titulo">WOVEN MEMORY: MONOTYPE SEEN FROM MALI</span><br />
+                                   '<span class="titulo">WOVEN MEMORY: MONOTYPE SEEN FROM MALI</span>&nbsp;<span class="highlight upper bold">&nbsp;educational&nbsp;action&nbsp;</span><br />
                                     <span class="upper bold data-pp" style="font-size: 1.1em">oct/08 (thu) and oct/10 (sat)| 10h30-13h | sesc pompeia | Oficinas de Criatividade</span><br />');?>
 
                     </p>
@@ -109,10 +109,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0" class="titulo-pp"> 
                         <a name="pp2"></a>
-                        <?php pten('<span class="titulo">Vocabulário De Um Sul Existente: Invenção De Um Mundo A Partir De Lugares Inexistentes</span><br />
+                        <?php pten('<span class="titulo">Vocabulário De Um Sul Existente: Invenção De Um Mundo A Partir De Lugares Inexistentes</span>&nbsp;<span class="highlight upper bold">&nbsp;ação&nbsp;educativa&nbsp;</span><br />
                                     <span class="upper bold data-pp" style="font-size: 1.1em">09/out (sexta) | das 11h às 13h30 | Galpão VB</span>',
 
-                                   '<span class="titulo">VOCABULARY OF AN EXISTING SOUTH: THE INVENTION OF A WORLD FROM INEXISTENT PLACES</span><br />
+                                   '<span class="titulo">VOCABULARY OF AN EXISTING SOUTH: THE INVENTION OF A WORLD FROM INEXISTENT PLACES</span>&nbsp;<span class="highlight upper bold">&nbsp;educational&nbsp;action&nbsp;</span><br />
                                     <span class="upper bold data-pp" style="font-size: 1.1em">oct/09 (fri) | 11-13h30 | Galpão VB</span><br />');?>
 
                     </p>
@@ -152,10 +152,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0" class="titulo-pp"> 
                         <a name="pp3"></a>
-                        <?php pten('<span class="titulo">Lambada E O Corpo Social: O Corpo DA Memória E Vivência Com Dança</span><br />
+                        <?php pten('<span class="titulo">Lambada E O Corpo Social: O Corpo DA Memória E Vivência Com Dança</span>&nbsp;<span class="highlight upper bold">&nbsp;ação&nbsp;educativa&nbsp;</span><br />
                                     <span class="upper bold data-pp" style="font-size: 1.1em">05/dez (sábado) | das 10h30 às 13h30 | Galpão VB</span>',
 
-                                   '<span class="titulo">LAMBADA AND THE SOCIAL BODY: THE BODY OF MEMORY AND DANCE EXPERIENCE</span><br />
+                                   '<span class="titulo">LAMBADA AND THE SOCIAL BODY: THE BODY OF MEMORY AND DANCE EXPERIENCE</span>&nbsp;<span class="highlight upper bold">&nbsp;educational&nbsp;action&nbsp;</span><br />
                                     <span class="upper bold data-pp" style="font-size: 1.1em">dec/05 (sat) | 10h30-13h30 | Galpão VB</span><br />');?>
 
                     </p>

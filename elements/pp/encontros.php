@@ -74,10 +74,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0"> 
                         <a name="visita"></a><?php pten(
-                            '<span class="titulo">VISITA COM RODRIGO MATHEUS</span><br />
+                            '<span class="titulo">VISITA COM RODRIGO MATHEUS</span>&nbsp;<span class="highlight upper bold">&nbsp;ação&nbsp;educativa&nbsp;</span><br />
                              <span class="upper bold data-pp" style="font-size: 1.1em">07/out (quarta) | 13h45 | sesc pompeia | galpão</span>',
 
-                             '<span class="titulo">TOUR WITH RODRIGO MATHEUS</span><br />
+                             '<span class="titulo">TOUR WITH RODRIGO MATHEUS</span>&nbsp;<span class="highlight upper bold">&nbsp;educational&nbsp;action&nbsp;</span><br />
                              <span class="upper bold data-pp" style="font-size: 1.1em">oct/07 (wed) | 13h45 | sesc pompeia | galpão</span>'); ?>
                     </p>
                 </div>
@@ -219,10 +219,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0"> 
                         <a name="leitura"></a><?php pten(
-                            '<span class="titulo">LEITURAS DE PORTFÓLIOS</span><br />
+                            '<span class="titulo">LEITURAS DE PORTFÓLIOS</span>&nbsp;<span class="highlight upper bold">&nbsp;ação&nbsp;educativa&nbsp;</span><br />
                              <span class="upper bold data-pp" style="font-size: 1.1em">04/nov (quarta) e 05/nov (quinta) | das 13h às 16h | galpão vb</span>',
 
-                             '<span class="titulo">READING OF PORTFOLIOS</span><br />
+                             '<span class="titulo">READING OF PORTFOLIOS</span>&nbsp;<span class="highlight upper bold">&nbsp;educational&nbsp;action&nbsp;</span><br />
                              <span class="upper bold data-pp" style="font-size: 1.1em">nov/04 (wed) and nov/05 (thu) | 13h-16h | galpão vb</span>'); ?>
                     </p>
                 </div>

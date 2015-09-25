@@ -427,6 +427,13 @@ footer {
 .y {color: #ae573c;}
 .z {color: #8f6b55;}
 
+.highlight {
+    background-color: #bb6d46;
+    font-size: 1.1em;
+    /*color: #684852;*/
+    /*top: 5px;position: absolute;*/
+}
+
 #lista-artistas-dir {
     float: right;
   }
@@ -478,6 +485,10 @@ footer {
   #sharelink {
     display: none;
     
+  }
+
+  .highlight {
+    display: none;
   }
 
 
