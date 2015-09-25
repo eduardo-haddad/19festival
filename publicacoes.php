@@ -126,8 +126,8 @@ $titulo = $idioma == 'pt' ? 'Publicações' : 'Publications';
             <div class="row">
                 <div class="col-xs-12">
                     <p class="submenu" style="margin-bottom:21px">
-                        <a id="publicacoes-festival" href="#festival"><?php pten('Livros do Festival', 'Livros do Festival') ?></a> | 
-                        <a id="publicacoes-outros" href="#outros"><?php pten('Outros lançamentos', 'Outros lançamentos') ?></a>
+                        <a id="publicacoes-festival" href="#festival"><?php pten('Livros do Festival', '19th festival books') ?></a> | 
+                        <a id="publicacoes-outros" href="#outros"><?php pten('Outros lançamentos', 'Other releases') ?></a>
                     </p>      
                 </div>
             </div>
