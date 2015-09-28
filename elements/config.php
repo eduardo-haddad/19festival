@@ -52,16 +52,16 @@ function funcPten($pt, $en){
 
 //variaveis para paginas de artistas
 $bc_select_obras =  $idioma == 'pt' ? 
-'<a href="index.php" class="link">artistas participantes</a> > <span style="text-decoration: underline">selecionados com obras</span>' : 
-'<a href="index.php" class="link">participating artists</a> > <span style="text-decoration: underline">selected with artworks</span>';
+'<a href="../index.php" class="link">artistas participantes</a> > <span style="text-decoration: underline">selecionados com obras</span>' : 
+'<a href="../index.php" class="link">participating artists</a> > <span style="text-decoration: underline">selected with artworks</span>';
 
 $bc_select_projetos =  $idioma == 'pt' ? 
-'<a href="index.php" class="link">artistas participantes</a> > <span style="text-decoration: underline">selecionados com projetos</span>' : 
-'<a href="index.php" class="link">participating artists</a> > <span style="text-decoration: underline">selected with projects</span>';
+'<a href="../index.php" class="link">artistas participantes</a> > <span style="text-decoration: underline">selecionados com projetos</span>' : 
+'<a href="../index.php" class="link">participating artists</a> > <span style="text-decoration: underline">selected with projects</span>';
 
 $bc_convidados =  $idioma == 'pt' ? 
-'<a href="index.php" class="link">artistas participantes</a> > <span style="text-decoration: underline">artistas convidados</span>' : 
-'<a href="index.php" class="link">participating artists</a> > <span style="text-decoration: underline">guest artists</span>';
+'<a href="../index.php" class="link">artistas participantes</a> > <span style="text-decoration: underline">artistas convidados</span>' : 
+'<a href="../index.php" class="link">participating artists</a> > <span style="text-decoration: underline">guest artists</span>';
 
 $sobre_artista = $idioma == 'pt' ? 
 'Sobre o artista' : 
