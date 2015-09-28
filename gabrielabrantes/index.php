@@ -135,7 +135,7 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
                           'Gabriel Abrantes also participates in the 19th Festival’s Film Programs. <a href="/progsfilmes.php#gabriel" class="link">Find out more</a>.');?></p>
                             <!-- LINK PLATAFORMA -->
                             <div class="link-plataforma">
-                                <!--<?php include('../elements/artistas_plataforma.html'); ?>-->
+                                <?php include('../elements/artistas_plataforma.html'); ?>
                             </div>
                             <!-- /LINK PLATAFORMA -->
                         </div>

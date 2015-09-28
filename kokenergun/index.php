@@ -131,7 +131,7 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
                         <span id="obra-sinopse"><?php foreach($obra["sinopse"] as $sinopse=>$valor) {echo($idioma == $valor['idioma'] ? $valor['sinopse'] : null);} ?></span>
                             <!-- LINK PLATAFORMA -->
                             <div class="link-plataforma">
-                                <!--<?php include('../elements/artistas_plataforma.html'); ?>-->
+                                <?php include('../elements/artistas_plataforma.html'); ?>
                             </div>
                             <!-- /LINK PLATAFORMA -->
                         </div>
