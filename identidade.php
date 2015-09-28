@@ -86,7 +86,9 @@ $titulo = $idioma == 'pt' ? 'Identidade' : 'Identity';
 
                     <iframe src="https://player.vimeo.com/video/<?php pten('140719562','140719798');?>?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" 
                     width="485" height="273" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    <br /><br /><br /><br /><br />
+                    <br />
+                    <p class="h"><?php pten('animação por', 'animation by');?> Deco Farkas</p>
+                    <br /><br /><br /><br />
                     <img src="img/identidade/id1_a.png" class="img-id-1" class="img-responsive" />
                     <br /><br /><br />
                     <img src="img/identidade/id2.png" class="img-id-2" class="img-responsive" />
