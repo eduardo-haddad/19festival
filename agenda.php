@@ -144,14 +144,15 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-filme">15h00 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog2" target="_blank" class="link">Obras Selecionadas | Programa #2</a></li>
                     <li class="agenda-filme">16h15 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Obras Selecionadas | Programa #3</a></li>
                     <li class="agenda-abertura">19h00 | Galpão VB | <a href="expo_projetos.php" target="_blank" class="link">Abertura da exposição Panoramas do Sul | Projetos Comissionados</a></li>
-                    <li class="agenda-publicacao">19h30 | Galpão VB | <a href="publicacoes.php#outros/vb" target="_blank" class="link">Lançamento do livro Videobrasil: três décadas de vídeo, arte, encontros e transformações</a></li>
                     <li class="agenda-filme">19h00 | Galpão VB | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Abertura do Programa de Filmes | Gabriel Abrantes | Olympia I & II</a></li>
+                    <li class="agenda-publicacao">19h30 | Galpão VB | <a href="publicacoes.php#outros/vb" target="_blank" class="link">Lançamento do livro Videobrasil: três décadas de vídeo, arte, encontros e transformações</a></li>
+                    
                     </ol>
                     <ol>
                     <li>9 de outubro, sexta-feira</li>
                     <li class="agenda-oficina">11h00 | Galpão VB | Programas Públicos | Oficinas | <a href="pp.php#oficinas/vocabulario" target="_blank" class="link">Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes com Ting-Ting Cheng</a></li>
                     <li class="agenda-filme">14h00 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
-                    <li class="agenda-filme">15h40| Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Obras Selecionadas | Programa #3</a></li>
+                    <li class="agenda-filme">15h40 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Obras Selecionadas | Programa #3</a></li>
                     <li class="agenda-filme">16h55 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog2" target="_blank" class="link">Obras Selecionadas | Programa #2</a></li>
                     <li class="agenda-encontro">17h00 | Galpão VB | Programas Públicos | Encontros e Conversas | <a href="pp.php#encontros/rede" target="_blank" class="link">Encontro com Rede de Residências</a></li>
                     <li class="agenda-filme">18h10 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #1</a></li>
@@ -394,8 +395,8 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-filme">03:00pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras/prog2" target="_blank" class="link">Selected Works | Program #2</a></li>
                     <li class="agenda-filme">04:15pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Selected Works | Program #3</a></li>
                     <li class="agenda-abertura">07:00pm | Galpão VB | Exhibition opening | <a href="expo_projetos.php" target="_blank" class="link">Southern Panoramas | Commissioned Projects</a></li>
-                    <li class="agenda-publicacao">07:00pm | Galpão VB | Book launch | <a href="publicacoes.php#outros/vb" target="_blank" class="link">Videobrasil: three decades of video, art, encounters and transformations</a></li>
                     <li class="agenda-filme">07:00pm | Galpão VB | Opening |  Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes | Olympia I & II</a></li>
+                    <li class="agenda-publicacao">07:30pm | Galpão VB | Book launch | <a href="publicacoes.php#outros/vb" target="_blank" class="link">Videobrasil: three decades of video, art, encounters and transformations</a></li>
                     </ol>
                     <ol>
                     <li>October 9, Friday</li>
