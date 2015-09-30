@@ -70,8 +70,7 @@ $(document).ready(
                                 $('#lista ol').prepend('<li class="linhafina s"><?php pten('Artistas selecionados pelo edital de obras','Artists selected from the artworks<br>call for entries');?></li>'); break;
                             case 'sm-artistas-projetos':
                                 $('.linhafina').hide();
-                                $('#lista ol').prepend('<li class="linhafina s"><?php pten('Artistas selecionados pelo edital de<br>projetos comissionados','Artists selected from the c
-ommissioned<br>projects call for entries');?></li>'); break;
+                                $('#lista ol').prepend('<li class="linhafina s"><?php pten('Artistas selecionados pelo edital de<br>projetos comissionados','Artists selected from the commissioned<br>projects call for entries');?></li>'); break;
                             case 'sm-artistas-convidados':
                                 $('.linhafina').hide();
                                 $('#lista ol').prepend('<li class="linhafina s"><?php pten('Artistas convidados','Guest artists');?></li>'); break;
