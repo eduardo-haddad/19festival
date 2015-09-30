@@ -46,8 +46,9 @@ $(document).ready(
 			<div class="row">
 				<div class="col-xs-12">
 				<form method="post" action="<?php echo $url.'newsletter.php';?>"><input type="text" name="nome" placeholder="<?php pten('nome completo','full name');?>" style="width: 35%"></input><span style="display: inline-block;width: 1%"></span><input type="email" name="email" placeholder="e-mail" style="width: 35%"></input><span style="display: inline-block;width: 1%"></span><select name="listaPaises">
-				<?php pten('
+				
 						<option disabled selected style="display:none"><?php pten('país','country');?></option>
+						<?php pten('
 						<option value="Afeganistão">Afeganistão</option>
 						<option value="África do Sul">África do Sul</option>
 						<option value="Albânia">Albânia</option>
