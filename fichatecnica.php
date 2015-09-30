@@ -91,6 +91,37 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
                      
                      <p><span class="bold upper">CURADORIA DO SEMINÁRIO </span><br />
                      Sabrina Moura</p>
+
+                     <p><span class="bold upper">AÇÃO EDUCATIVA</span><br />
+                     Zebra 5</p>
+
+                     <p><span class="bold upper">Coordenação e Curadoria Educativa</span><br />
+                     Stella Ramos</p>
+
+                     <p><span class="bold upper">Coordenação</span><br />
+                     Patricia Marchesoni</p>
+
+                     <p><span class="bold upper">Produção Educativa</span><br />
+                     Christiane Coutinho</p>
+
+                     <p><span class="bold upper">Assistente de Produção</span><br />
+                     Sarah Shimizu</p>
+
+                     <p><span class="bold upper">Supervisores</span><br />
+                     Cristiane Alves, Flávio Aquistapace, Verônica Gelesson</p>
+
+                     <p><span class="bold upper">Mediadores</span><br />
+                     Allan de Freitas, Ricardo Ferri, Andreia Santos, Rinah Souto, 
+                     Juliana Pons, Mainá Santana dos Santos, Vanise Carneiro, Yuri Ferro, 
+                     Isabela Rossi, Sabrina Denise Ribeiro, Emerson Lázaro Prata, 
+                     Tatiane Pereira, Jucelia Bernardo da Silva, Juliana Rosa, Maira Vaz Valente</p>
+
+                     <p><span class="bold upper">Estagiários</span><br />
+                     Bianca Mafra Elia, Bruno Augusto Faria, Cleyton Vieira do Nascimento, 
+                     Eloisa Maria de Azevedo Arruda, Fernanda Oliveira, Guilherme Yazaki, 
+                     Hemanuella Giani dos Reis Serra, Joao Francisco de Jesus Bruno, 
+                     Khadyg Leite Fares Cavalheiro, Lucas Cirillo, Nina Ingrid Caputo Paschoal, 
+                     Tainá Lacroix, Thais do Amaral Adorno, Vinicius Radaelli Debs, William Victor de Araujo Torrico</p>
                      
                      <p><span class="bold upper">JÚRI DE PREMIAÇÃO</span><br />
                      Hoor-Qasimi, N’Goné Fall, Priscila Arantes, Sofia Hernandez Chong Cuy, Till Fellrath/Sam Bardaouil</p>
@@ -133,20 +164,8 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
                      
                      <p><span class="bold upper">IDENTIDADE VISUAL E PROJETO GRÁFICO</span><br />
                      Angela Detanico, Rafael Lain</p>
-                     
-                     <p><span class="bold upper">DIREÇÃO DE ARTE E DIAGRAMAÇÃO</span><br />
-                     Carla Castilho, Lia Assumpção | Janela Estúdio<br />
-                     Maria Mello (Arte)<br />
-                     Lívia Giuliane da Silva (Assistente)</p>
-                     
-                     <p><span class="bold upper">COORDENAÇÃO EDITORIAL</span><br />
-                     Teté Martinho</p>
-                     
-                     <p><span class="bold upper">EDITOR-ASSISTENTE</span><br />
-                     Gabriel Bogossian</p>
-                     
-                     <p><span class="bold upper">REVISÃO</span><br />
-                     Regina Stocklen</p>',
+                            
+                     ',
 
 
                      /////////////////////             
@@ -170,6 +189,37 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
                      
                      <p><span class="bold upper">SEMINAR CURATOR</span><br />
                      Sabrina Moura</p>
+
+                     <p><span class="bold upper">EDUCATIONAL ACTIONS</span><br />
+                     Zebra 5</p>
+
+                     <p><span class="bold upper">Educational Coordination and Curation</span><br />
+                     Stella Ramos</p>
+
+                     <p><span class="bold upper">Coordination</span><br />
+                     Patricia Marchesoni</p>
+
+                     <p><span class="bold upper">Educational Production</span><br />
+                     Christiane Coutinho</p>
+
+                     <p><span class="bold upper">Production Assistant</span><br />
+                     Sarah Shimizu</p>
+
+                     <p><span class="bold upper">Supervisors</span><br />
+                     Cristiane Alves, Flávio Aquistapace, Verônica Gelesson</p>
+
+                     <p><span class="bold upper">Mediators</span><br />
+                     Allan de Freitas, Ricardo Ferri, Andreia Santos, Rinah Souto, 
+                     Juliana Pons, Mainá Santana dos Santos, Vanise Carneiro, Yuri Ferro, 
+                     Isabela Rossi, Sabrina Denise Ribeiro, Emerson Lázaro Prata, 
+                     Tatiane Pereira, Jucelia Bernardo da Silva, Juliana Rosa, Maira Vaz Valente</p>
+
+                     <p><span class="bold upper">Interns</span><br />
+                     Bianca Mafra Elia, Bruno Augusto Faria, Cleyton Vieira do Nascimento, 
+                     Eloisa Maria de Azevedo Arruda, Fernanda Oliveira, Guilherme Yazaki, 
+                     Hemanuella Giani dos Reis Serra, Joao Francisco de Jesus Bruno, 
+                     Khadyg Leite Fares Cavalheiro, Lucas Cirillo, Nina Ingrid Caputo Paschoal, 
+                     Tainá Lacroix, Thais do Amaral Adorno, Vinicius Radaelli Debs, William Victor de Araujo Torrico</p>
                      
                      <p><span class="bold upper">AWARD JURY</span><br />
                      Hoor-Qasimi, N’Goné Fall, Priscila Arantes, Sofia Hernandez Chong Cuy, Till Fellrath/Sam Bardaouil</p>
@@ -214,20 +264,7 @@ ommissioned projects),<br />
                      
                      <p><span class="bold upper">VISUAL IDENTITY AND GRAPHIC DESIGN</span><br />
                      Angela Detanico, Rafael Lain</p>
-                     
-                     <p><span class="bold upper">ART DIRECTION AND DESIGN</span><br />
-                     Carla Castilho, Lia Assumpção | Janela Estúdio<br />
-                     Maria Mello (Design)<br />
-                     Lívia Giuliane da Silva (Assistant)</p>
-                     
-                     <p><span class="bold upper">EDITORIAL COORDINATOR</span><br />
-                     Teté Martinho</p>
-                     
-                     <p><span class="bold upper">ASSISTANT EDITOR</span><br />
-                     Gabriel Bogossian</p>
-                     
-                     <p><span class="bold upper">COPY PROOFREADING</span><br />
-                     Regina Stocklen</p>');
+                     ');
 
                     ?>
 
@@ -237,7 +274,23 @@ ommissioned projects),<br />
 
                     <?php pten(  
                     //DIREITA                                         
-                    '<p><span class="bold upper">PRODUÇÃO EDITORIAL</span><br />
+                    '
+
+                    <p><span class="bold upper">DIREÇÃO DE ARTE E DIAGRAMAÇÃO</span><br />
+                     Carla Castilho, Lia Assumpção | Janela Estúdio<br />
+                     Maria Mello (Arte)<br />
+                     Lívia Giuliane da Silva (Assistente)</p>
+
+                    <p><span class="bold upper">COORDENAÇÃO EDITORIAL</span><br />
+                     Teté Martinho</p>
+
+                    <p><span class="bold upper">EDITOR-ASSISTENTE</span><br />
+                     Gabriel Bogossian</p>
+                     
+                     <p><span class="bold upper">REVISÃO</span><br />
+                     Regina Stocklen</p>
+
+                    <p><span class="bold upper">PRODUÇÃO EDITORIAL</span><br />
                      Maria Teresa Tavares</p>
                      
                      <p><span class="bold upper">ASSISTENTE EDITORIAL</span><br />
@@ -309,21 +362,36 @@ ommissioned projects),<br />
                      <p><span class="bold upper">PESQUISA PLATAFORMA:VB</span><br />
                      Isabella Lenzi, Régis Alves, Ruy Luduvice</p>
                      
-                     <p><span class="bold upper">AÇÃO EDUCATIVA</span><br />
-                     Zebra 5</p>
-                     
                      <p><span class="bold upper">COORDENAÇÃO ADMINISTRATIVA</span><br />
                      Jô Lacerda</p>
                      
                      <p><span class="bold upper">ASSISTENTE ADMINISTRATIVA</span><br />
                      Divy Cristina, Marcella G. Mello</p>
+
+                     <p><span class="bold upper">MONITORIA GALPÃO VB</span><br />
+                     Luca Kaufman, Thais Sabbadini</p>
                      
                      <p><span class="bold upper">ASSESSORIA JURÍDICA</span><br />
                      Olivieri Associados</p>
                      ',
 
                     /////////////////////                
-                    '<p><span class="bold upper">EDITORIAL PRODUCER</span><br />
+                    '
+                    <p><span class="bold upper">ART DIRECTION AND DESIGN</span><br />
+                     Carla Castilho, Lia Assumpção | Janela Estúdio<br />
+                     Maria Mello (Design)<br />
+                     Lívia Giuliane da Silva (Assistant)</p>
+                     
+                     <p><span class="bold upper">EDITORIAL COORDINATOR</span><br />
+                     Teté Martinho</p>
+                     
+                     <p><span class="bold upper">ASSISTANT EDITOR</span><br />
+                     Gabriel Bogossian</p>
+                     
+                     <p><span class="bold upper">COPY PROOFREADING</span><br />
+                     Regina Stocklen</p>
+                    
+                    <p><span class="bold upper">EDITORIAL PRODUCER</span><br />
                      Maria Teresa Tavares</p>
                      
                      <p><span class="bold upper">EDITORIAL ASSISTANT</span><br />
@@ -395,14 +463,14 @@ ommissioned projects),<br />
                      <p><span class="bold upper">PLATAFORMA:VB RESEARCHERS</span><br />
                      Isabella Lenzi, Régis Alves, Ruy Luduvice</p>
                      
-                     <p><span class="bold upper">EDUCATIONAL ACTIONS</span><br />
-                     Zebra 5</p>
-                     
                      <p><span class="bold upper">MANAGEMENT COORDINATOR</span><br />
                      Jô Lacerda</p>
                      
                      <p><span class="bold upper">MANAGEMENT ASSISTANTS</span><br />
                      Divy Cristina, Marcella G. Mello</p>
+
+                     <p><span class="bold upper">GALPÃO VB Attendants</span><br />
+                     Luca Kaufman, Thais Sabbadini</p>
                      
                      <p><span class="bold upper">LEGAL ADVISOR</span><br />
                      Olivieri Associados</p>
