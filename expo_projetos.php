@@ -1,7 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
-$titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'Comissioned Projects';
+$titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'C
+ommissioned Projects';
 
 ?>
 
@@ -51,7 +52,8 @@ $titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'Comissioned Projects';
         	<div class="row">
         		<div class="col-xs-12 breadcrumb">
                     <span><?php pten('<a href="index.php#exposicoes" class="link">exposições</a> > <span class="underline">projetos comissionados</span>', 
-                                     '<a href="index.php#exposicoes" class="link">exhibitions</a> > <span class="underline">comissioned projects</span>');  ?></span>      
+                                     '<a href="index.php#exposicoes" class="link">exhibitions</a> > <span class="underline">c
+ommissioned projects</span>');  ?></span>      
                 </div>
         	</div>
 
@@ -60,7 +62,8 @@ $titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'Comissioned Projects';
                 <div class="col-xs-12">
                     <p class="submenu" style="margin-bottom:21px">
                         <a href="expo_convidados.php"><?php pten('artistas convidados', 'guest artists') ?></a> | 
-                        <a href="expo_projetos.php"><span style="text-decoration: underline"><?php pten('projetos comissionados', 'Comissioned projects') ?></span></a> | 
+                        <a href="expo_projetos.php"><span style="text-decoration: underline"><?php pten('projetos comissionados', 'C
+ommissioned projects') ?></span></a> | 
                         <a href="expo_obras.php"><?php pten('obras selecionadas', 'Selected works') ?></a> | 
                         <a href="expo_paralela.php"><?php pten('exposição paralela', 'Parallel exhibition') ?></a>
                     </p>      
@@ -69,7 +72,8 @@ $titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'Comissioned Projects';
             <!-- SUBMENU -->
 
             <p class="titulo"><?php pten('panoramas do sul | projetos comissionados', 
-                                         'southern panoramas | comissioned projects'); ?></p> 
+                                         'southern panoramas | c
+ommissioned projects'); ?></p> 
            
             <div class="row" style="clear: both;">
 
@@ -78,7 +82,8 @@ $titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'Comissioned Projects';
                     <div id="lista">
                         <ol>
                                 <li class="upper"><?php pten('Artistas selecionados pelo<br />edital de projetos comissionados', 
-                                                             'Artists selected from the<br />comissioned projects call for entries'); ?><br /><br /></li>
+                                                             'Artists selected from the<br />c
+ommissioned projects call for entries'); ?><br /><br /></li>
                                 <li><a href="/carlosmonroy">Carlos Monroy | <?php pten('Colômbia', 'Colombia'); ?></a></li>
                                 <li><a href="/cristianolenhardt">Cristiano Lenhardt | <?php pten('Brasil', 'Brazil'); ?></a></li>
                                 <li><a href="/keli-safiamaksud">Keli-Safia Maksud | <?php pten('Quênia', 'Kenya'); ?></a></li>

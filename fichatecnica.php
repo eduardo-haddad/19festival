@@ -202,7 +202,8 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
                      Cassia Rossini</p>
                      
                      <p><span class="bold upper">PRODUCERS</span><br />
-                     Carolina Câmara (archive), Márcia Vaz (comissioned projects),<br />
+                     Carolina Câmara (archive), Márcia Vaz (c
+ommissioned projects),<br />
                      Maria Chiaretti (guest artists)</p>
                      
                      <p><span class="bold upper">ASSISTANT PRODUCERS</span><br />

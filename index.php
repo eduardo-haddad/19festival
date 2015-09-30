@@ -70,7 +70,8 @@ $(document).ready(
                                 $('#lista ol').prepend('<li class="linhafina s"><?php pten('Artistas selecionados pelo edital de obras','Artists selected from the artworks<br>call for entries');?></li>'); break;
                             case 'sm-artistas-projetos':
                                 $('.linhafina').hide();
-                                $('#lista ol').prepend('<li class="linhafina s"><?php pten('Artistas selecionados pelo edital de<br>projetos comissionados','Artists selected from the comissioned<br>projects call for entries');?></li>'); break;
+                                $('#lista ol').prepend('<li class="linhafina s"><?php pten('Artistas selecionados pelo edital de<br>projetos comissionados','Artists selected from the c
+ommissioned<br>projects call for entries');?></li>'); break;
                             case 'sm-artistas-convidados':
                                 $('.linhafina').hide();
                                 $('#lista ol').prepend('<li class="linhafina s"><?php pten('Artistas convidados','Guest artists');?></li>'); break;
@@ -500,7 +501,8 @@ $(document).ready(
         			<div id="texto2a" class="texto" style="display:none;">
         				<p class="submenu">
                             <a href="expo_convidados.php"><?php pten('Artistas convidados','Guest artists');?></a> | 
-                            <a href="expo_projetos.php"><?php pten('Projetos comissionados','Comissioned projects');?></a> | 
+                            <a href="expo_projetos.php"><?php pten('Projetos comissionados','C
+ommissioned projects');?></a> | 
                             <a href="expo_obras.php"><?php pten('Obras selecionadas','Selected works');?></a> | 
                             <a href="expo_paralela.php"><?php pten('Exposicão paralela','Parallel exhibition');?></a>
                             

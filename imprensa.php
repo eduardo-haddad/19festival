@@ -122,7 +122,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                 <span class="bold">Southern Panoramas | Selected works</span><br />
                                 - <a href="https://www.flickr.com/photos/videobrasil/albums/72157658378379360" class="link" target="_blank">all works</a> (flickr - high resolution)<br />
                                 - <a href="http://www.videobrasil.org.br/press/19festival/19festival_artworks_selectedartworks.zip" class="link">highlights</a> (zip file)<br /><br />
-                                <span class="bold">Southern Panoramas | Comissioned projects</span><br />
+                                <span class="bold">Southern Panoramas | C
+ommissioned projects</span><br />
                                 - <a href="http://www.videobrasil.org.br/press/19festival/19festival_projects_sketches.zip" class="link">sketches</a> (zip file)<br /><br />
                                 <span class="bold">Those born for adventure don’t stray from<br />the path – artworks from Videobrasil Collection</span><br />
                                 - <a href="https://www.flickr.com/photos/videobrasil/albums/72157659096547555" class="link" target="_blank">highlights</a> (flickr - high resolution)'); ?>

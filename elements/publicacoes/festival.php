@@ -205,7 +205,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         <a name="visita"></a><?php pten(
                             '<span class="titulo">PANORAMAS DO SUL | ARTISTAS SELECIONADOS – OBRAS E PROJETOS comissionados</span>',
 
-                            '<span class="titulo">SOUTHERN PANORAMAS | SELECTED ARTISTS – ARTWORKS AND comissioned PROJECTS</span>'); ?>
+                            '<span class="titulo">SOUTHERN PANORAMAS | SELECTED ARTISTS – ARTWORKS AND c
+ommissioned PROJECTS</span>'); ?>
                     </p>
                 </div>
             </div>

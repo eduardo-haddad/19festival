@@ -168,7 +168,8 @@ $titulo = $idioma == 'pt' ? 'Visite' : 'Visit';
 
                     //EXPO 2 EN
                     '<p class="titulo">Galpão VB </p>
-                    <p style="display: inline"><span class="upper">southern panoramas | comissioned projects<br /> 
+                    <p style="display: inline"><span class="upper">southern panoramas | c
+ommissioned projects<br /> 
                     film programs | selected works & gabriel abrantes</span><br /><br /> 
 
                     Av. Imperatriz Leopoldina, 1150 <br /> 
