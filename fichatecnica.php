@@ -293,6 +293,7 @@ ommissioned projects),<br />
                      Maria Mello (Arte)<br />
                      Lívia Giuliane da Silva (Assistente)</p>
 
+                     <br /><br />
                     <p><span class="bold upper">COORDENAÇÃO EDITORIAL</span><br />
                      Teté Martinho</p>
 
@@ -398,6 +399,7 @@ ommissioned projects),<br />
                      Maria Mello (Design)<br />
                      Lívia Giuliane da Silva (Assistant)</p>
                      
+                     <br /><br />
                      <p><span class="bold upper">EDITORIAL COORDINATOR</span><br />
                      Teté Martinho</p>
                      
