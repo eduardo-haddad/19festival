@@ -16,6 +16,7 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="js/19festival.js"></script>
+   
 </head>
 <body>
     <!-- MAPA DO SITE -->
@@ -64,7 +65,7 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
                 </div>
             </div>
            
-            <div class="row" style="clear: both;">
+            <div class="row" style="clear: both;" id="ficha">
 
 
 
@@ -83,19 +84,21 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
                      <p><span class="bold upper">ASSISTENTE DA PROGRAMAÇÃO</span><br />
                      Luiza Brenner, Naiade Margonar</p>
                      
+                     <br /><br />
                      <p><span class="bold upper">CURADORES CONVIDADOS</span><br />
                      Bernardo José de Souza, Bitu Cassundé, João Laia, Júlia Rebouças</p>
                      
                      <p><span class="bold upper">CURADORIA EXPOSIÇÃO PARALELA</span><br />
                      Diego Matos</p>
                      
+                     <br /><br />
                      <p><span class="bold upper">CURADORIA DO SEMINÁRIO </span><br />
                      Sabrina Moura</p>
 
                      <p><span class="bold upper">AÇÃO EDUCATIVA</span><br />
                      Zebra 5</p>
 
-                     <p><span class="bold upper">Coordenação e Curadoria Educativa</span><br />
+                     <p><span class="bold upper">Curadoria Educativa</span><br />
                      Stella Ramos</p>
 
                      <p><span class="bold upper">Coordenação</span><br />
@@ -122,7 +125,11 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
                      Hemanuella Giani dos Reis Serra, Joao Francisco de Jesus Bruno, 
                      Khadyg Leite Fares Cavalheiro, Lucas Cirillo, Nina Ingrid Caputo Paschoal, 
                      Tainá Lacroix, Thais do Amaral Adorno, Vinicius Radaelli Debs, William Victor de Araujo Torrico</p>
+
+                     <p><span class="bold upper">MONITORIA GALPÃO VB</span><br />
+                     Luca Kaufman, Thais Sabbadini</p>
                      
+                     <br /><br />
                      <p><span class="bold upper">JÚRI DE PREMIAÇÃO</span><br />
                      Hoor-Qasimi, N’Goné Fall, Priscila Arantes, Sofia Hernandez Chong Cuy, Till Fellrath/Sam Bardaouil</p>
                      
@@ -143,6 +150,7 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
                      <p><span class="bold upper">TROFÉU</span><br />
                      Efrain Almeida</p>
                      
+                     <br /><br />
                      <p><span class="bold upper">COORDENAÇÃO DE PRODUÇÃO</span><br />
                      Adriano Alves Pinto, Rafael Moretti</p>
                      
@@ -161,10 +169,7 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
                      
                      <p><span class="bold upper">LOGÍSTICA</span><br />
                      Sylvia Monasterios</p>
-                     
-                     <p><span class="bold upper">IDENTIDADE VISUAL E PROJETO GRÁFICO</span><br />
-                     Angela Detanico, Rafael Lain</p>
-                            
+    
                      ',
 
 
@@ -180,20 +185,22 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
                      
                      <p><span class="bold upper">PROGRAMME ASSISTANT</span><br />
                      Luiza Brenner, Naiade Margonar</p>
-                     
+
+                     <br /><br />
                      <p><span class="bold upper">GUEST CURATORS</span><br />
                      Bernardo José de Souza, Bitu Cassundé, João Laia, Júlia Rebouças</p>
                      
                      <p><span class="bold upper">PARALLEL EXHIBITION CURATOR</span><br />
                      Diego Matos</p>
                      
+                     <br /><br />
                      <p><span class="bold upper">SEMINAR CURATOR</span><br />
                      Sabrina Moura</p>
 
                      <p><span class="bold upper">EDUCATIONAL ACTIONS</span><br />
                      Zebra 5</p>
 
-                     <p><span class="bold upper">Educational Coordination and Curation</span><br />
+                     <p><span class="bold upper">Educational Curation</span><br />
                      Stella Ramos</p>
 
                      <p><span class="bold upper">Coordination</span><br />
@@ -220,7 +227,11 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
                      Hemanuella Giani dos Reis Serra, Joao Francisco de Jesus Bruno, 
                      Khadyg Leite Fares Cavalheiro, Lucas Cirillo, Nina Ingrid Caputo Paschoal, 
                      Tainá Lacroix, Thais do Amaral Adorno, Vinicius Radaelli Debs, William Victor de Araujo Torrico</p>
+
+                     <p><span class="bold upper">GALPÃO VB Attendants</span><br />
+                     Luca Kaufman, Thais Sabbadini</p>
                      
+                     <br /><br />
                      <p><span class="bold upper">AWARD JURY</span><br />
                      Hoor-Qasimi, N’Goné Fall, Priscila Arantes, Sofia Hernandez Chong Cuy, Till Fellrath/Sam Bardaouil</p>
                      
@@ -242,6 +253,7 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
                      <p><span class="bold upper">TROPHY</span><br />
                      Efrain Almeida</p>
                      
+                     <br /><br />
                      <p><span class="bold upper">PRODUCTION COORDINATORS</span><br />
                      Adriano Alves Pinto, Rafael Moretti</p>
                      
@@ -261,9 +273,7 @@ ommissioned projects),<br />
                      
                      <p><span class="bold upper">LOGISTICS</span><br />
                      Sylvia Monasterios</p>
-                     
-                     <p><span class="bold upper">VISUAL IDENTITY AND GRAPHIC DESIGN</span><br />
-                     Angela Detanico, Rafael Lain</p>
+
                      ');
 
                     ?>
@@ -275,6 +285,8 @@ ommissioned projects),<br />
                     <?php pten(  
                     //DIREITA                                         
                     '
+                    <p><span class="bold upper">IDENTIDADE VISUAL E PROJETO GRÁFICO</span><br />
+                     Angela Detanico, Rafael Lain</p>
 
                     <p><span class="bold upper">DIREÇÃO DE ARTE E DIAGRAMAÇÃO</span><br />
                      Carla Castilho, Lia Assumpção | Janela Estúdio<br />
@@ -296,6 +308,7 @@ ommissioned projects),<br />
                      <p><span class="bold upper">ASSISTENTE EDITORIAL</span><br />
                      Juliana Caffé</p>
                      
+                     <br /><br />
                      <p><span class="bold upper">COORDENAÇÃO DE ARQUIVO E PESQUISA</span><br />
                      Diego Matos</p>
                      
@@ -316,7 +329,11 @@ ommissioned projects),<br />
                      
                      <p><span class="bold upper">PRODUTOR TÉCNICO</span><br />
                      Anderson Araújo</p>
+
+                     <p><span class="bold upper">PESQUISA PLATAFORMA:VB</span><br />
+                     Isabella Lenzi, Régis Alves, Ruy Luduvice</p>
                      
+                     <br /><br />
                      <p><span class="bold upper">COORDENAÇÃO DE COMUNICAÇÃO</span><br />
                      Ana Paula Vargas</p>
                      
@@ -344,6 +361,7 @@ ommissioned projects),<br />
                      <p><span class="bold upper">ASSESSORIA DE IMPRENSA</span><br />
                      A4 Comunicação</p>
                      
+                     <br /><br />
                      <p><span class="bold upper">PROJETO ARQUITETÔNICO E CENOGRAFIA</span><br />
                      André Vainer Arquitetos | Tiago Wright, Thais Marcussi, Fernanda Jozsef</p>
                      
@@ -359,17 +377,12 @@ ommissioned projects),<br />
                      <p><span class="bold upper">PROJETO DE ESTRUTURA</span><br />
                      Arquimedes Costa Engenharia Estrutural</p>
                      
-                     <p><span class="bold upper">PESQUISA PLATAFORMA:VB</span><br />
-                     Isabella Lenzi, Régis Alves, Ruy Luduvice</p>
-                     
+                     <br /><br />
                      <p><span class="bold upper">COORDENAÇÃO ADMINISTRATIVA</span><br />
                      Jô Lacerda</p>
                      
                      <p><span class="bold upper">ASSISTENTE ADMINISTRATIVA</span><br />
                      Divy Cristina, Marcella G. Mello</p>
-
-                     <p><span class="bold upper">MONITORIA GALPÃO VB</span><br />
-                     Luca Kaufman, Thais Sabbadini</p>
                      
                      <p><span class="bold upper">ASSESSORIA JURÍDICA</span><br />
                      Olivieri Associados</p>
@@ -377,6 +390,9 @@ ommissioned projects),<br />
 
                     /////////////////////                
                     '
+                    <p><span class="bold upper">VISUAL IDENTITY AND GRAPHIC DESIGN</span><br />
+                     Angela Detanico, Rafael Lain</p>
+
                     <p><span class="bold upper">ART DIRECTION AND DESIGN</span><br />
                      Carla Castilho, Lia Assumpção | Janela Estúdio<br />
                      Maria Mello (Design)<br />
@@ -390,13 +406,14 @@ ommissioned projects),<br />
                      
                      <p><span class="bold upper">COPY PROOFREADING</span><br />
                      Regina Stocklen</p>
-                    
+
                     <p><span class="bold upper">EDITORIAL PRODUCER</span><br />
                      Maria Teresa Tavares</p>
                      
                      <p><span class="bold upper">EDITORIAL ASSISTANT</span><br />
                      Juliana Caffé</p>
-                     
+
+                     <br /><br />
                      <p><span class="bold upper">ARCHIVE AND RESEARCH COORDINATOR</span><br />
                      Diego Matos</p>
                      
@@ -417,7 +434,11 @@ ommissioned projects),<br />
                      
                      <p><span class="bold upper">TECHNICAL PRODUCER</span><br />
                      Anderson Araújo</p>
+
+                     <p><span class="bold upper">PLATAFORMA:VB RESEARCHERS</span><br />
+                     Isabella Lenzi, Régis Alves, Ruy Luduvice</p>
                      
+                     <br /><br />
                      <p><span class="bold upper">COMMUNICATIONS COORDINATOR</span><br />
                      Ana Paula Vargas</p>
                      
@@ -445,6 +466,7 @@ ommissioned projects),<br />
                      <p><span class="bold upper">PRESS RELATIONS</span><br />
                      A4 Comunicação</p>
                      
+                     <br /><br />
                      <p><span class="bold upper">ARCHITECTONIC AND SCENOGRAPHIC DESIGN</span><br />
                      André Vainer Arquitetos | Tiago Wright, Thais Marcussi, Fernanda Jozsef</p>
                      
@@ -460,17 +482,12 @@ ommissioned projects),<br />
                      <p><span class="bold upper">STRUCTURAL PROJECT</span><br />
                      Arquimedes Costa Engenharia Estrutural</p>
                      
-                     <p><span class="bold upper">PLATAFORMA:VB RESEARCHERS</span><br />
-                     Isabella Lenzi, Régis Alves, Ruy Luduvice</p>
-                     
+                     <br /><br />                   
                      <p><span class="bold upper">MANAGEMENT COORDINATOR</span><br />
                      Jô Lacerda</p>
                      
                      <p><span class="bold upper">MANAGEMENT ASSISTANTS</span><br />
                      Divy Cristina, Marcella G. Mello</p>
-
-                     <p><span class="bold upper">GALPÃO VB Attendants</span><br />
-                     Luca Kaufman, Thais Sabbadini</p>
                      
                      <p><span class="bold upper">LEGAL ADVISOR</span><br />
                      Olivieri Associados</p>
