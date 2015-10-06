@@ -7,22 +7,28 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <div class="titulo n"><span><?php pten('SEMANA DE ABERTURA | 8 A 10 DE OUTUBRO', 'OPENING WEEK | OCTOBER 8-10'); ?></span></div>
                     
                     
+                    <p class="f"><span class="bold"><?php pten('07/OUT (QUARTA) | 18H00 ÀS 22H00 | SESC POMPEIA | TEATRO', 
+                                                               'OCT/07 (WED) | 6pm-10pm | SESC POMPEIA | THEATER'); ?></span><br />
+                    <?php pten('18h00 - Programa #1', '18h00 - Program #1'); ?><br />
+                    <?php pten('19h30 - Programa #2', '19h30 - Program #2'); ?><br />
+                    <?php pten('21h00 - VOSTOK cineperformance + Programa #3', '21h00 - VOSTOK cineperformance + Program #3'); ?></p>
+
                     <p class="f"><span class="bold"><?php pten('08/OUT (QUINTA) | 14H00 ÀS 17H30 | SESC POMPEIA | TEATRO', 
-                                                               '08/OUT (THU) | 14H00-17H30 | SESC POMPEIA | THEATER'); ?></span><br />
+                                                               'OCT/08 (THU) | 2pm-5:30pm | SESC POMPEIA | THEATER'); ?></span><br />
                     <?php pten('14h00 - Programa #1', '14h00 - Program #1'); ?><br />
                     <?php pten('15h00 - Programa #2', '15h00 - Program #2'); ?><br />
                     <?php pten('16h15 - Programa #3', '16h15 - Program #3'); ?></p>
 
                     <p class="f"><span class="bold"><?php pten('09/OUT (SEXTA) | 14H00 ÀS 19H10 | SESC POMPEIA | TEATRO', 
-                                                               '09/OUT (FRI) | 14H00-19H10 | SESC POMPEIA | THEATER'); ?></span><br />
+                                                               'OCT/09 (FRI) | 2pm-7:10pm | SESC POMPEIA | THEATER'); ?></span><br />
                     <?php pten('14h00 - Programa de Filmes | Gabriel Abrantes', '14h - Film Program | Gabriel Abrantes'); ?><br />
                     <?php pten('15h40 - Programa #3 ', '15h40 - Program #3'); ?><br />
                     <?php pten('16h55 - Programa #2 ', '16h55 - Program #2'); ?><br />
                     <?php pten('18h10 - Programa #1', '18h10 - Program #1'); ?></p>
 
                     <p class="f"><span class="bold"><?php pten('10/OUT (SÁBADO) | 11H00 ÀS 12H40 | SESC POMPEIA | TEATRO', 
-                                                               '10/OUT (SAT) | 11H00-12H40 | SESC POMPEIA | THEATER'); ?></span><br />
-                    <?php pten('11h00 - Programa de Filmes | Gabriel Abrantes', '11h00 - Film Program | Gabriel Abrantes'); ?></p>
+                                                               'OCT/10 (SAT) | 11am-12:40pm | SESC POMPEIA | THEATER'); ?></span><br />
+                    <?php pten('11h00 - Programa de Filmes | Gabriel Abrantes', '11am - Film Program | Gabriel Abrantes'); ?></p>
  
                  </div>
 </div>
@@ -34,8 +40,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     
                     <p class="f"><span class="bold"><?php pten('Programa de Filmes - A', 
                                                                'Film program - A'); ?></span><br />
-                    <?php pten('16h30 - Programa #1 + Programa #2', '16h30 - Program #1 + Program #2'); ?><br />
-                    <?php pten('19h00 - Programa #3 + Programa de Filmes | Gabriel Abrantes<br />', '19h00 - Program #3 + Film Program | Gabriel Abrantes<br />'); ?>
+                    <?php pten('16h30 - Programa #1 + Programa #2', '4:30pm - Program #1 + Program #2'); ?><br />
+                    <?php pten('19h00 - Programa #3 + Programa de Filmes | Gabriel Abrantes<br />', '7pm - Program #3 + Film Program | Gabriel Abrantes<br />'); ?>
                     <?php pten('<span class="bold">Sesc Pompeia | Teatro</span>:
                     15/OUT (quinta), 29/OUT (quinta), 12/NOV (quinta), 26/NOV (quinta) e 02/DEZ (quarta)<br />
                     <span class="bold">Galpão VB</span>: 20/OUT (terça), 03/NOV (terça), 17/NOV (terça) e 01/DEZ (terça)',
@@ -46,8 +52,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     </p>
                     <p class="f"><span class="bold"><?php pten('Programa de Filmes - B', 
                                                                'Film program - B'); ?></span><br />
-                    <?php pten('16h30 - Programa de Filmes | Gabriel Abrantes + Programa #3', '16h30 - Film Program | Gabriel Abrantes + Program #3'); ?><br /> 
-                    <?php pten('19h30 - Programa #2 + Programa #1<br />', '19h30 - Program #2 + Program #1<br />'); ?> 
+                    <?php pten('16h30 - Programa de Filmes | Gabriel Abrantes + Programa #3', '4:30pm - Film Program | Gabriel Abrantes + Program #3'); ?><br /> 
+                    <?php pten('19h30 - Programa #2 + Programa #1<br />', '7:30pm - Program #2 + Program #1<br />'); ?> 
                     <?php pten('<span class="bold">Sesc Pompeia | Teatro</span>:
                     22/OUT (quinta), 05/NOV (quinta), 19/NOV (quinta), 01/DEZ (terça) e 03/DEZ (quinta)<br />
                     <span class="bold">Galpão VB</span>: 13/OUT (terça), 27/OUT (terça), 10/NOV (terça), 24/NOV (terça)',
