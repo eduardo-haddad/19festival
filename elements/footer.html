@@ -4,7 +4,7 @@
 	
 $(document).ready(
 	function(){
-		$urlrodape = $('.links-rodape span a');		
+		$urlrodape = $('.links-rodape span a').not('#youtube');		
 		$urlrodape.each(
 			function(){
 				link = $(this);
@@ -573,6 +573,9 @@ $(document).ready(
 					<span><a>twitter.com/videobrasil</a></span><br />
 					<span><a>instagram.com/videobrasil</a></span><br />
 					<span><a>flickr.com/videobrasil</a></span><br />
+					<span><a 
+					href="https://www.youtube.com/channel/UC-zNq5fU2e5SkY7ClBzGiZw/feed" target="_blank" id="youtube" style="color:inherit">
+					youtube.com/videobrasil</a></span>
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-6" style="font-size: 1.1em">
