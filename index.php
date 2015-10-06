@@ -500,8 +500,7 @@ $(document).ready(
         			<div id="texto2a" class="texto" style="display:none;">
         				<p class="submenu">
                             <a href="expo_convidados.php"><?php pten('Artistas convidados','Guest artists');?></a> | 
-                            <a href="expo_projetos.php"><?php pten('Projetos comissionados','C
-ommissioned projects');?></a> | 
+                            <a href="expo_projetos.php"><?php pten('Projetos comissionados','Commissioned projects');?></a> | 
                             <a href="expo_obras.php"><?php pten('Obras selecionadas','Selected works');?></a> | 
                             <a href="expo_paralela.php"><?php pten('Exposicão paralela','Parallel exhibition');?></a>
                             
