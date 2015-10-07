@@ -69,7 +69,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 </script>
 
 <!-- EVENTO 1 -->
-
+<!--
             <div class="row" ><a id="rodrigo"></a>
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0"> 
@@ -104,7 +104,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             </div>
 
             <div style="margin: 31px 0 16px 0; padding-top: 25px; padding-left: 0; border-top: 1pt solid #8F6B55; border-top-width: 100%;"></div>
-           
+           -->
 
             <!-- /EVENTO 1 -->
 
