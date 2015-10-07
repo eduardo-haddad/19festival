@@ -67,8 +67,7 @@ $titulo = $idioma == 'pt' ? 'Obras selecionadas' : 'Selected works';
                 <div class="col-xs-12">
                     <p class="submenu" style="margin-bottom:21px">
                         <a href="expo_convidados.php"><?php pten('artistas convidados', 'guest artists') ?></a> | 
-                        <a href="expo_projetos.php"><?php pten('projetos comissionados', 'C
-ommissioned projects') ?></a> | 
+                        <a href="expo_projetos.php"><?php pten('projetos comissionados', 'Commissioned projects') ?></a> | 
                         <a href="expo_obras.php"><span style="text-decoration: underline"><?php pten('obras selecionadas', 'Selected works') ?></span></a> | 
                         <a href="expo_paralela.php"><?php pten('exposição paralela', 'Parallel exhibition') ?></a> 
                     </p>      
