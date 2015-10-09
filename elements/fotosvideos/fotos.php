@@ -8,6 +8,25 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 paletaArtistas($('.titulo'));
             
             </script>
+            <style type="text/css">
+               .image { 
+                 position: relative; 
+                 width: 100%; /* for IE 6 */
+                 max-height: 285px;
+                 max-width: 485px;
+              }
+
+              .texto { 
+                 position: absolute; 
+                 bottom: 0px; 
+                 left: 15px; 
+                 width: auto; 
+                 color: white;
+                 background: rgb(0, 0, 0); /* fallback color */
+                 background: rgba(0, 0, 0, 0.7);
+              }
+
+            </style>
 
             <!-- <div class="row" >
                 <div class="col-xs-12 titulo" style="float: left;">
@@ -20,15 +39,27 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             <div class="row" style="clear: both;">
 
               
+                <!-- abertura 19 festival -->
+                <!-- <div class="col-xs-12 col-md-6 h relative" style="float: left;">
+                     <div class="image">
 
-                <div class="col-sm-12 col-md-6 h relative" style="float: left;">
-                     <!-- <img src="img/sobre/apresentacao.png" class="img-responsive" style="max-width: 485px" /> -->
-                </div>
+                       <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
+                        <img src="img/fotos/pp-vocabulario.jpg" alt="" />
+                        <span class="texto">#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng</span>
+                       </a>
+                    </div>
+                </div> -->
 
-                <div class="col-sm-12 col-md-6 h" style="float: right;">
-                     <!-- <img src="img/sobre/apresentacao.png" class="img-responsive" style="max-width: 485px" /> -->
-                </div>
-            </div>
+                <!-- abertura 19 festival -->
+              <!--   <div class="col-xs-12 col-md-6 h relative" style="float: left;">
+                     <div class="image">
+
+                       <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
+                        <img src="img/fotos/abertura-19f.jpg" alt="" />
+                        <span class="texto">Abertura do 19º Festival de Arte Contemporânea<br />Sesc_Videobrasil | Panoramas do Sul</span>
+                       </a>
+                    </div>
+                </div> -->
 
                 
 
