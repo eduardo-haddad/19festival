@@ -518,7 +518,7 @@ ommissioned projects),<br />
 
            <div class="row" >
                 <div class="col-xs-12 titulo" style="float: left;">
-                <p style="margin-bottom:0; margin-top: 15px">
+                <p style="margin-bottom:0; margin-top: 30px">
                    <?php pten('sesc - serviço social do comércio', 'sesc - SOCIAL SERVICE OF COMMERCE');  ?>
                 </p>
                 </div>
