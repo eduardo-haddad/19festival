@@ -64,7 +64,7 @@ $titulo = $idioma == 'pt' ? 'Apresentação' : 'Introduction';
                 <div class="col-sm-12 col-md-6 h relative" style="float: left;">
                      <!-- <img src="img/sobre/apresentacao.png" class="img-responsive" style="max-width: 485px" /> -->
                     <iframe src="https://player.vimeo.com/video/<?php pten('141268445','141268225');?>?color=ffffff&title=0&byline=0&portrait=0" width="485" height="273" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+                    
                     </div>
 
                 <div class="col-sm-12 col-md-6 h" style="float: right;">

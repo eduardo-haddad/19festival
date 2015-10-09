@@ -1,7 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
-$titulo = $idioma == 'pt' ? 'Fotos e Vídeos' : 'Footage and Pictures';
+$titulo = $idioma == 'pt' ? 'Encontros e conversas' : 'Meetings and conversations';
+
 
 ?>
 
@@ -16,79 +17,150 @@ $titulo = $idioma == 'pt' ? 'Fotos e Vídeos' : 'Footage and Pictures';
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="js/19festival.js"></script>
-    <script src="js/galleria/galleria-1.4.2.min.js"></script>
-    <script src="js/galleria/plugins/flickr/galleria.flickr.js"></script>
-    <script src="js/jquery.hoverIntent.js"></script>
-    <style>
-        .galleria {width: 100%; padding-bottom: 56.25%;}
-    </style>
+    <!-- <script src="js/jquery.scrollTo.min.js"></script> -->
 
 
+    
+
+    <script>
+
+    function criaUrlIdioma(hash){
+        $urlidiomapt = '<?php echo strtok($_SERVER["REQUEST_URI"],"?");echo "?idioma=pt" ?>';
+        $urlidiomaen = '<?php echo strtok($_SERVER["REQUEST_URI"],"?");echo "?idioma=en" ?>';
+
+        $('a.urlidiomapt').attr('href', $urlidiomapt + hash); 
+        $('a.urlidiomaen').attr('href', $urlidiomaen + hash);
+    }
+
+
+        $(document).ready(
+            function menuFotos(){
+              
+
+                var hash = window.location.hash.split('#')[1];
+
+                    
+
+
+                $menuFotos = $('a[id^=menu]');
+
+                if (hash) {
+
+                    if(hash.substring(0, 5) == "fotos"){ 
+
+                              criaUrlIdioma('#fotos');
+                               $('#conteudo').load('elements/fotosvideos/fotos.php', function(){
+                                  $menuFotos.eq(0).addClass('ativo'); 
+                                  $('.bc-atual').html('<?php pten('fotos', 'photos');?>');
+                                  $('#container').css('min-height', 'auto');
+                               });
+                               
+                            }else if(hash.substring(0, 6) == 'videos'){ 
+
+                               criaUrlIdioma('#videos');
+                               $('#conteudo').load('elements/fotosvideos/videos.php', function(){
+                                  $menuFotos.eq(1).addClass('ativo'); 
+                                  $('.bc-atual').html('<?php pten('vídeos', 'videos');?>');
+                               });
+                               
+                            } else { 
+
+                              criaUrlIdioma('#fotos');
+                               $('#conteudo').load('elements/fotosvideos/fotos.php', function(){
+                                  $menuFotos.eq(0).addClass('ativo'); 
+                                  $('.bc-atual').html('<?php pten('fotos', 'photos');?>');
+                                  $('#container').css('min-height', 'auto');
+                               });
+                               
+                            }
+
+                } else {
+
+                    
+                    $('#conteudo').load('elements/fotosvideos/fotos.php', function(){
+                                  $menuFotos.eq(0).addClass('ativo');  //ativar primeiro item do menu
+                                  $('.bc-atual').html('<?php pten('fotos', 'photos');?>');
+                    });
+                    
+                }
+
+                $menuFotos.on(
+                 'click', function(){
+                        $menuFotos.removeClass('ativo');
+                        $(this).addClass('ativo'); //ativar item clicado
+
+                        if($(this).hasClass('ativo')){
+                            $id = $(this).attr('id'); //recuperar id do item clicado
+
+                           if($id == 'menu-fotos'){ 
+                                
+                               criaUrlIdioma('#fotos');  
+                               $('#conteudo').load('elements/fotosvideos/fotos.php', function(){
+                                    $('.bc-atual').html('<?php pten('fotos', 'photos');?>');
+                                    $('#container').css('min-height', 'auto');
+                               });
+                               
+                            }else if($id == 'menu-videos'){ 
+                                
+                               criaUrlIdioma('#videos');       
+                               $('#conteudo').load('elements/fotosvideos/videos.php', function(){
+                                    $('.bc-atual').html('<?php pten('vídeos', 'videos');?>');
+                               });
+                               
+                            } 
+                        }
+                }
+                );
+     
+            }
+        );
+    </script>
 </head>
 <body>
     <!-- MAPA DO SITE -->
     <aside id="mapadosite"><?php include "elements/mapa.html"; ?></aside>
     <!-- /MAPA DO SITE -->
 
-    <main class="container" id="container" style="min-height: 500px">
+    <main class="container" id="container" >
 
         <!-- HEADER -->
         <header><?php include "elements/header.html"; ?></header>
         <!-- /HEADER -->
 
-        	<div style="height:36px; clear: both">&nbsp;</div>
+            <div style="height:36px; clear: both">&nbsp;</div>
 
+            
+            <!-- BREADCRUMB -->
             <div class="row">
                 <div class="col-xs-12 breadcrumb">
-                    <span class="underline"><?php pten('fotos e vídeos', 
-                                     'photos and videos');  ?></span>      
+                    <span><a href="index.php#fotosvideos" class="link"><?php pten('fotos e videos', 'photos and videos');?></a></span>      
                 </div>
             </div>
-            
+            <!-- /BREADCRUMB -->
+
             <!-- SUBMENU -->
-             <!-- <div class="row">
+            <div class="row">
                 <div class="col-xs-12">
-                    <p class="submenu" style="margin-bottom: 30px"><a id="">Galeria 1</a> | <a id="">Galeria 2</a> | <a id="">Galeria 3</a></p>      
+                    <p class="submenu">
+                            <a onclick="location.hash='fotos';" id="menu-fotos"><?php pten('fotos', 'photos');?></a> | 
+                            <a onclick="location.hash='videos';" id="menu-videos"><?php pten('vídeos', 'videos');?></a> 
+                    </p>     
                 </div>
-            </div>  -->
-            <!-- /SUBMENU -->
+            </div>
+            <!-- SUBMENU -->
 
-            <!-- GALERIA -->
-            <!-- <div class="galleria"></div>
-             <script>
-                Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.js');
-                Galleria.run('.galleria', {
-                    flickr: 'set:72157639977971153',
-                    flickrOptions: {
-                        sort: 'date-posted-asc',
-                        imageSize: 'big',
-                        thumbSize: 'medium',
-                        description: 'true'
-                    }
-
-                });
-            </script>  -->
-            <!-- /GALERIA -->
-
-            <span class="titulo"><?php pten('Em breve','Coming soon'); ?></span>
-          
-
+            <div id="conteudo"></div>
+            
+            
             
 
-            </div><div id="altura">&nbsp;</div>
+            <div id="altura">&nbsp;</div>
     </main>
 
     <!-- RODAPE -->
     <footer><?php include "elements/footer.html"; ?></footer>
     <!-- /RODAPE -->
-<script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-33383260-2', 'auto');
-      ga('send', 'pageview');
-    </script>
+
 </body>
 </html>
 

@@ -60,7 +60,7 @@ $titulo = $idioma == 'pt' ? 'Ficha técnica' : 'Staff';
             <div class="row" >
                 <div class="col-xs-12 titulo" style="float: left;">
                 <p style="margin-bottom:0">
-                   <?php pten('Ficha técnica', 'Staff');  ?>
+                   <?php pten('equipe 19º festival', '19th festival staff');  ?>
                 </p>
                 </div>
             </div>
@@ -503,6 +503,237 @@ ommissioned projects),<br />
 
             </div>
            
+
+           <div class="row" >
+                <div class="col-xs-12 titulo" style="float: left;">
+                <p style="margin-bottom:0; margin-top: 15px">
+                   <?php pten('sesc - serviço social do comércio', 'sesc - SOCIAL SERVICE OF COMMERCE');  ?>
+                </p>
+                </div>
+            </div>
+           
+            <div class="row" style="clear: both;" id="ficha">
+
+
+
+                <div class="col-xs-12 col-md-6 f">
+                    <?php pten(                                         
+                    //ESQUERDA
+                    '<p><span class="bold upper">PRESIDENTE DO CONSELHO REGIONAL</span><br />
+                     Abram Szajman</p>
+                     
+                     <p><span class="bold upper">DIRETOR DO DEPARTAMENTO REGIONAL</span><br />
+                     Danilo Santos de Miranda</p>
+
+                     <p class="submenu" style="cursor: text"><br />SUPERINTENDÊNCIAS</p>
+                     
+                     <p><span class="bold upper">TÉCNICO SOCIAL</span><br />
+                     Joel Naimayer Padula</p>
+                     
+                     <p><span class="bold upper">COMUNICAÇÃO SOCIAL</span><br />
+                     Ivan Giannini</p>
+                     
+                     
+                     <p><span class="bold upper">ADMINISTRATIVO</span><br />
+                     Luiz Deoclécio Massaro Galina</p>
+                     
+                     <p><span class="bold upper">TÉCNICO E DE PLANEJAMENTO</span><br />
+                     Sérgio José Battistelli</p>
+                     
+                     <p class="submenu" style="cursor: text"><br />GERÊNCIAS</p>
+
+                     <p><span class="bold upper">ARTES VISUAIS E TECNOLOGIA</span><br />
+                     Juliana Braga de Mattos</p>
+
+                     <p><span class="bold upper">ADJUNTA</span><br />
+                     Nilva Luz</p>
+
+                     <p><span class="bold upper">ASSISTENTES</span><br />
+                     Juliana Okuda Campaneli, Melina Izar Marson</p>
+
+                     <p><span class="bold upper">ESTUDOS E DESENVOLVIMENTO</span><br />
+                     Marta Colabone</p>
+
+                     <p><span class="bold upper">ADJUNTO</span><br />
+                     Iã Paulo Ribeiro</p>
+
+                     <p><span class="bold upper">ARTES GRÁFICAS</span><br />
+                     Hélcio Magalhães</p>
+
+                     <p><span class="bold upper">ADJUNTA</span><br />
+                     Karina Musumeci</p>
+
+                     <p><span class="bold upper">ASSISTENTES</span><br />
+                     Rogerio Ianelli, Denis Tchepelentyky</p>
+                     
+    
+                     ',
+
+
+                     /////////////////////             
+                    '<p><span class="bold upper">PRESIDENT OF THE REGIONAL COUNCIL</span><br />
+                     Abram Szajman</p>
+                     
+                     <p><span class="bold upper">DIRECTOR OF THE REGIONAL DEPARTMENT</span><br />
+                     Danilo Santos de Miranda</p>
+
+                     <p class="submenu" style="cursor: text"><br />SUPERINTENDENCIES</p>
+                     
+                     <p><span class="bold upper">TECHNICAL SOCIAL</span><br />
+                     Joel Naimayer Padula</p>
+                     
+                     <p><span class="bold upper">SOCIAL COMMUNICATION</span><br />
+                     Ivan Giannini</p>
+
+                     <p><span class="bold upper">ADMINISTRATION</span><br />
+                     Luiz Deoclécio Massaro Galina</p>
+                     
+                     <p><span class="bold upper">TECHNICAL AND PLANNING</span><br />
+                     Sérgio José Battistelli</p>
+                     
+                     <p class="submenu" style="cursor: text"><br />MANAGEMENTS</p>
+
+                     <p><span class="bold upper">VISUAL ARTS AND TECHNOLOGY</span><br />
+                     Juliana Braga de Mattos</p>
+
+                     <p><span class="bold upper">DEPUTY MANAGER</span><br />
+                     Nilva Luz</p>
+
+                     <p><span class="bold upper">ASSISTANTS</span><br />
+                     Juliana Okuda Campaneli, Melina Izar Marson</p>
+
+                     <p><span class="bold upper">STUDIES AND DEVELOPMENT</span><br />
+                     Marta Colabone</p>
+
+                     <p><span class="bold upper">DEPUTY MANAGER</span><br />
+                     Iã Paulo Ribeiro</p>
+
+                     <p><span class="bold upper">GRAPHIC DESIGN</span><br />
+                     Hélcio Magalhães</p>
+
+                     <p><span class="bold upper">DEPUTY MANAGER</span><br />
+                     Karina Musumeci</p>
+
+                     <p><span class="bold upper">ASSISTANTS</span><br />
+                     Rogerio Ianelli, Denis Tchepelentyky</p>
+
+                     ');
+
+                    ?>
+
+                </div>
+
+                <div class="col-xs-12 col-md-6 f" style="float: right;" id="id-texto">
+
+                    <?php pten(  
+                    //DIREITA                                         
+                    '
+
+                     <p><span class="bold upper">DESENVOLVIMENTO DE PRODUTOS</span><br />
+                     Evelim Moraes</p>
+
+                     <p><span class="bold upper">ADJUNTA</span><br />
+                     Andressa de Gois</p>
+                     
+                     
+                     <p><span class="bold upper">DIFUSÃO E PROMOÇÃO </span><br />
+                     Marcos Ribeiro de Carvalho </p>
+                     
+                     <p><span class="bold upper">ADJUNTO </span><br />
+                     Fernando Fialho</p>
+                     
+                     <p><span class="bold upper">RELAÇÕES COM O PÚBLICO </span><br />
+                     Milton Soares de Souza </p>
+                     
+                     <p><span class="bold upper">ADJUNTO </span><br />
+                     Carlos Cabral</p>
+                     
+                     <p class="submenu" style="cursor: text"><br />SESC POMPEIA</p>
+
+                     <p><span class="bold upper">GERENTE </span><br />
+                     Elisa Maria Americano Saintive </p>
+                     
+                     <p><span class="bold upper">ADJUNTO </span><br />
+                     Sérgio Pinto </p>
+                     
+                     <p><span class="bold upper">PROGRAMAÇÃO </span><br />
+                     Thiago Freire, Cynthia Petnys, Alcimar Frazão, Carolina Barmell, Cibele Camachi, Larissa Meneses</p>
+                     
+                     <p><span class="bold upper">COMUNICAÇÃO </span><br />
+                     Roberta Della Noce, Frederico Zarnauskas, Lara Pessoa, Igor Cruz </p>
+                     
+                     <p><span class="bold upper">INFRAESTRUTURA </span><br />
+                     Marcelo Coscarella, Rafael Della Gatta, Rafael Sena </p>
+                     
+                     <p><span class="bold upper">ALIMENTAÇÃO </span><br />
+                     Raquel Lopes Py </p>
+
+                     <p><span class="bold upper">ATENDIMENTO </span><br />
+                     Cristina Tobias </p>
+
+                     <p><span class="bold upper">ADMINISTRATIVO </span><br />
+                     Paulo Delgado, Sidnei de Souza Cordeiro </p>
+
+                     <p><span class="bold upper">SERVIÇOS </span><br />
+                     Ricardo Herculano, Carlo Alessandro </p>
+                     ',
+
+                    /////////////////////                
+                    '<p><span class="bold upper">PRODUCTS DEVELOPMENT</span><br />
+                     Evelim Moraes</p>
+
+                     <p><span class="bold upper">DEPUTY MANAGER</span><br />
+                     Andressa de Gois</p>
+                     
+                     <p><span class="bold upper">PUBLICITY AND PROMOTION </span><br />
+                     Marcos Ribeiro de Carvalho </p>
+                     
+                     <p><span class="bold upper">DEPUTY MANAGER </span><br />
+                     Fernando Fialho</p>
+                     
+                     <p><span class="bold upper">PUBLIC RELATIONS </span><br />
+                     Milton Soares de Souza </p>
+                     
+                     <p><span class="bold upper">DEPUTY MANAGER </span><br />
+                     Carlos Cabral</p>
+                     
+                     <p class="submenu" style="cursor: text"><br />SESC POMPEIA</p>
+                     
+                     <p><span class="bold upper">MANAGER </span><br />
+                     Elisa Maria Americano Saintive </p>
+                     
+                     <p><span class="bold upper">DEPUTY MANAGER </span><br />
+                     Sérgio Pinto </p>
+                     
+                     <p><span class="bold upper">PROGRAME </span><br />
+                     Thiago Freire, Cynthia Petnys, Alcimar Frazão, Carolina Barmell, Cibele Camachi, Larissa Meneses</p>
+                     
+                     <p><span class="bold upper">COMMUNICATION </span><br />
+                     Roberta Della Noce, Frederico Zarnauskas, Lara Pessoa, Igor Cruz </p>
+                     
+                     <p><span class="bold upper">INFRASTRUCTURE </span><br />
+                     Marcelo Coscarella, Rafael Della Gatta, Rafael Sena </p>
+                     
+                     <p><span class="bold upper">CATERING </span><br />
+                     Raquel Lopes Py </p>
+
+                     <p><span class="bold upper">PUBLIC SERVICES </span><br />
+                     Cristina Tobias </p>
+
+                     <p><span class="bold upper">MANAGEMENT </span><br />
+                     Paulo Delgado, Sidnei de Souza Cordeiro </p>
+
+                     <p><span class="bold upper">SERVICES </span><br />
+                     Ricardo Herculano, Carlo Alessandro </p>
+                     ');
+
+                    ?>
+                    
+                    
+                </div>
+
+
+            </div>
         
 
 
