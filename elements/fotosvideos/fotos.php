@@ -22,11 +22,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
               
 
                 <div class="col-sm-12 col-md-6 h relative" style="float: left;">
-                     <img src="img/sobre/apresentacao.png" class="img-responsive" style="max-width: 485px" />
+                     <!-- <img src="img/sobre/apresentacao.png" class="img-responsive" style="max-width: 485px" /> -->
                 </div>
 
                 <div class="col-sm-12 col-md-6 h" style="float: right;">
-                     <img src="img/sobre/apresentacao.png" class="img-responsive" style="max-width: 485px" />
+                     <!-- <img src="img/sobre/apresentacao.png" class="img-responsive" style="max-width: 485px" /> -->
                 </div>
             </div>
 
