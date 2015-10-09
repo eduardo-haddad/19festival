@@ -358,6 +358,12 @@ ommissioned projects),<br />
                      
                      <p><span class="bold upper">ESTAGIÁRIA</span><br />
                      Mariana Tessitore</p>
+
+                     <p><span class="bold upper">Registro Fotográfico</span><br />
+                     Denise Andrade, Everton Ballardin, Iara Morselli, Tiago Lima</p>
+
+                     <p><span class="bold upper">Registro de Vídeo</span><br />
+                     Mira Filmes</p>
                      
                      <p><span class="bold upper">ASSESSORIA DE IMPRENSA</span><br />
                      A4 Comunicação</p>
@@ -464,6 +470,12 @@ ommissioned projects),<br />
                      
                      <p><span class="bold upper">INTERN</span><br />
                      Mariana Tessitore</p>
+
+                     <p><span class="bold upper">Photographers</span><br />
+                     Denise Andrade, Everton Ballardin, Iara Morselli, Tiago Lima</p>
+
+                     <p><span class="bold upper">Video footage</span><br />
+                     Mira Filmes</p>
                      
                      <p><span class="bold upper">PRESS RELATIONS</span><br />
                      A4 Comunicação</p>
