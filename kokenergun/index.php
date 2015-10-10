@@ -69,6 +69,7 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
                 paletaArtistas($('#obra-sinopse, #obra-titulo, .link-plataforma'));
                 paletaArtistas($('#artista-bio'));
                 paletaArtistas($('#nome-artista'));
+                paletaArtistas($('.artista-premio'));
                 
             }
         );
@@ -96,12 +97,18 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
             </div>
 
             <div class="row" >
-                <div class="col-xs-12 titulo" style="float: left;">
-                <p style="margin-bottom:0" id="nome-artista">
+                <div class="col-xs-12" style="float: left;">
+                <p style="margin-bottom:0" id="nome-artista" class="titulo">
                     <?php echo $nome_artista.' | '.$pais_artista ?>
                 </p>
+                <span class="upper bold artista-premio" style="font-size: 1.1em">
+                <?php pten('Artista contemplado com o <a href="/premios_e_residencias.php#premios" class="link">PRÊMIO DE RESIDÊNCIA CHINA ART FOUNDATION</a> na Red Gate Residency (Pequim, China)', 
+                           'Artist awarded with the <a href="/premios_e_residencias.php#premios" class="link">CHINA ART FOUNDATION residency prize</a> at Red Gate Residency (Beijing, China)'); ?>
+                </span>
+                <div style="margin-bottom: 25px"></div>
                 </div>
             </div>
+
 
             <!-- SOBRE O ARTISTA -->
             <div class="row" style="clear: both;" id="artista">

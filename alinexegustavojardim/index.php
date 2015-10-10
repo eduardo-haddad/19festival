@@ -78,7 +78,7 @@ $nome_artista2 = 'Gustavo Jardim';
                 paletaArtistas($('#obra-sinopse, #obra-titulo, .link-plataforma'));
                 paletaArtistas($('#artista-bio1, #artista-bio2'));
                 paletaArtistas($('#nome-artista'));
-                
+                paletaArtistas($('.artista-premio'));
             }
         );
     </script>
@@ -105,11 +105,17 @@ $nome_artista2 = 'Gustavo Jardim';
             </div>
 
             <div class="row" >
-                <div class="col-xs-12 titulo" style="float: left;">
-                <p style="margin-bottom:0" id="nome-artista">
+                <div class="col-xs-12" style="float: left;">
+                <p style="margin-bottom:0" id="nome-artista" class="titulo">
                     <?php echo $nome_artista ?>
                 </p>
+                <span class="upper bold artista-premio" style="font-size: 1.1em">
+                <?php pten('Artistas contemplados com o <a href="/premios_e_residencias.php#premios" class="link">PRÊMIO DE RESIDÊNCIA RES ARTIS</a> na Kooshk Residency (Teerã, Irã)', 
+                           'Artists awarded with the <a href="/premios_e_residencias.php#premios" class="link">RES ARTIS Residency Prize</a> at Kooshk Residency (Tehran, Iran)'); ?>
+                </span>
+                <div style="margin-bottom: 25px"></div>
                 </div>
+
             </div>
 
             <!-- SOBRE O ARTISTA 1 -->

@@ -57,20 +57,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 </div>
 
 <div class="row" style="clear: both;">   
-                
-                    <div class="col-sm-12 col-md-6" id="premio-aviso">
-                        <div style="display: table-cell; vertical-align: middle;">
-                            <div class="titulo-aviso">  
-                                <?php
-                                ob_start(); titulo('confira a lista de artistas premiados depois de 11 de outubro'); $titulo_pt = ob_get_clean();
-                                ob_start(); titulo('check the list of awarded artists after october 11'); $titulo_en = ob_get_clean();
-                                pten($titulo_pt, $titulo_en); 
-                                ?>
-                            </div>
-                        </div>
-                    </div>       
+     
 
-                <div class="col-sm-12 col-md-6 premio-sobre" style="float: right;" >
+                <div class="col-sm-12 col-md-6 premio-sobre" style="float: right; margin-bottom: 30px" >
                 <p class="premio-sobre">
                     <?php 
                         pten('Os Prêmios de Residência, instituídos desde 1990, contribuem para o desenvolvimento de uma nova cartografia artística e cultural. Os artistas premiados realizam residências de dois meses em instituições parceiras do Programa de Residências Videobrasil ao redor do mundo. Graças à inserção do Videobrasil em uma extensa rede de colaborações, a atuação do programa já se estendeu pelos cinco continentes e, no 19º Festival, desenvolve-se pela América Latina, América do Norte, Europa, Oriente Médio e Ásia, aproximando os eixos Sul-Sul e Sul-Norte.',
@@ -110,6 +99,20 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6" style="float: left ">
+                    <img src="img/premiados/claraianni.jpg" class="img-responsive" style="margin-bottom:
+                15px" />     
+                </div>     
+                <div class="col-sm-12 col-md-6 a" style="float: right;" >         
+                    <p style="display: inline" class="artista-premiado"><span class="upper">
+                        <a href="/claraianni" target="_blank" class="link">Clara Ianni</a></span> | <?php pten('Brasil', 'Brazil');?></p> <br />     
+                    <span class="obra-premiada"><em>Forma Livre</em> | 2013, <?php pten('vídeo', 'video');?><br /></span>
+                    <span class="obra-premiada"><em>Linha</em> | 2013, <?php pten('desenho', 'drawing');?><br /></span>
+                    <div style="margin-bottom: 15px"></div>
+                </div> 
+            </div>
+
+            <div class="row" style="clear: both;">     
+                <div class="col-sm-12 col-md-6" style="float: left ">
                     <img src="img/residencias/air.jpg" class="img-responsive" style="margin-bottom:
                 15px" />     
                 </div>     
@@ -127,6 +130,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             <div style="margin: 31px 0 16px 0; padding-top: 25px; padding-left: 0; border-top: 1pt solid #8F6B55; border-top-width: 100%;"></div>
            
             <!-- RESIDENCIA 2 -->
+            
+
             <div class="row" >
                 <div class="col-xs-12" style="float: left; margin-bottom: 10px">
                     <p style="margin-bottom:0"> 
@@ -139,6 +144,21 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         ?>
                     </p>
                 </div>
+            </div>
+
+            <div class="row" style="clear: both;">     
+                <div class="col-sm-12 col-md-6" style="float: left ">
+                    <img src="img/premiados/paulonazareth.jpg" class="img-responsive" style="margin-bottom:
+                15px" />     
+                </div>     
+                <div class="col-sm-12 col-md-6 a" style="float: right;" >         
+                    <p style="display: inline" class="artista-premiado"><span class="upper">
+                        <a href="/paulonazareth" target="_blank" class="link">Paulo Nazareth</a></span> | <?php pten('Brasil', 'Brazil');?></p> <br />     
+                    <span class="obra-premiada"><em>L’Arbre D’Oublier</em> | 2013, <?php pten('vídeo', 'video');?><br /></span>
+                    <span class="obra-premiada"><em>Cine África</em> | 2012-2013, <?php pten('vídeo', 'video');?><br /></span>
+                    <span class="obra-premiada"><em>Ipê Amarelo</em> | 2012-2013, <?php pten('vídeo', 'video');?><br /></span>
+                    <div style="margin-bottom: 15px"></div>
+                </div> 
             </div>
 
             <div class="row" style="clear: both;">     
@@ -172,6 +192,19 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         ?>
                     </p>
                 </div>
+            </div>
+
+            <div class="row" style="clear: both;">     
+                <div class="col-sm-12 col-md-6" style="float: left ">
+                    <img src="img/premiados/kokenergun.jpg" class="img-responsive" style="margin-bottom:
+                15px" />     
+                </div>     
+                <div class="col-sm-12 col-md-6 a" style="float: right;" >         
+                    <p style="display: inline" class="artista-premiado"><span class="upper">
+                        <a href="/kokenergun" target="_blank" class="link">Koken Ergun</a></span> | <?php pten('Turquia', 'Turkey');?></p> <br />     
+                    <span class="obra-premiada"><em>Bayrak (The Flag)</em> | 2006, <?php pten('videoinstalação', 'video installation');?><br /></span>
+                    <div style="margin-bottom: 15px"></div>
+                </div> 
             </div>
 
             <div class="row" style="clear: both;">     
@@ -225,6 +258,19 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6" style="float: left ">
+                    <img src="img/premiados/lucianamagno.jpg" class="img-responsive" style="margin-bottom:
+                15px" />     
+                </div>     
+                <div class="col-sm-12 col-md-6 a" style="float: right;" >         
+                    <p style="display: inline" class="artista-premiado"><span class="upper">
+                        <a href="/lucianamagno" target="_blank" class="link">Luciana Magno</a></span> | <?php pten('Brasil', 'Brazil');?></p> <br />     
+                    <span class="obra-premiada"><em>Trans Amazônica</em> | 2013, <?php pten('vídeo', 'video');?><br /></span>
+                    <div style="margin-bottom: 15px"></div>
+                </div> 
+            </div>
+
+            <div class="row" style="clear: both;">     
+                <div class="col-sm-12 col-md-6" style="float: left ">
                     <img src="img/residencias/delfina.jpg" class="img-responsive" style="margin-bottom: 15px" />     
                 </div>     
                 <div class="col-sm-12 col-md-6 a" style="float: right;" >         
@@ -246,13 +292,26 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <p style="margin-bottom:0"> 
                         <?php pten( //Titulo prêmio - PT
                                     '<span class="titulo premio-nome">Prêmio de Residência Vila Sul – Goethe-Institut</span><br />
-                                    <span class="premio-local" style="text-transform: uppercase;font-size: 1.1em;">na Residence Vila Sul (Salvador, Brasil)</span>', 
+                                    <span class="premio-local" style="text-transform: uppercase;font-size: 1.1em;">na Residência Vila Sul (Salvador, Brasil)</span>', 
                                     //Titulo prêmio - EN
                                     '<span class="titulo premio-nome">Goethe-Institut Residency Prize</span><br />
                                     <span class="premio-local" style="text-transform: uppercase;font-size: 1.1em;">at Residence Vila Sul (Salvador, Brazil)</span>'); 
                         ?>
                     </p>
                 </div>
+            </div>
+
+            <div class="row" style="clear: both;">     
+                <div class="col-sm-12 col-md-6" style="float: left ">
+                    <img src="img/premiados/roydib.jpg" class="img-responsive" style="margin-bottom:
+                15px" />     
+                </div>     
+                <div class="col-sm-12 col-md-6 a" style="float: right;" >         
+                    <p style="display: inline" class="artista-premiado"><span class="upper">
+                        <a href="/roydib" target="_blank" class="link">Roy Dib</a></span> | <?php pten('Líbano', 'Lebanon');?></p> <br />     
+                    <span class="obra-premiada"><em>A Spectacle of Privacy</em> | 2014, <?php pten('videoinstalação', 'video installation');?><br /></span>
+                    <div style="margin-bottom: 15px"></div>
+                </div> 
             </div>
 
             <div class="row" style="clear: both;">     
@@ -286,6 +345,19 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         ?>
                     </p>
                 </div>
+            </div>
+
+            <div class="row" style="clear: both;">     
+                <div class="col-sm-12 col-md-6" style="float: left ">
+                    <img src="img/premiados/karolinabregula.jpg" class="img-responsive" style="margin-bottom:
+                15px" />     
+                </div>     
+                <div class="col-sm-12 col-md-6 a" style="float: right;" >         
+                    <p style="display: inline" class="artista-premiado"><span class="upper">
+                        <a href="/karolinabregula" target="_blank" class="link">Karolina Bregula</a></span> | <?php pten('Polônia', 'Poland');?></p> <br />     
+                    <span class="obra-premiada"><em>Fire-Followers</em> | 2013, <?php pten('video', 'video');?><br /></span>
+                    <div style="margin-bottom: 15px"></div>
+                </div> 
             </div>
 
             <div class="row" style="clear: both;">     
@@ -340,6 +412,19 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6" style="float: left ">
+                    <img src="img/premiados/alinexegustavojardim.jpg" class="img-responsive" style="margin-bottom:
+                15px" />     
+                </div>     
+                <div class="col-sm-12 col-md-6 a" style="float: right;" >         
+                    <p style="display: inline" class="artista-premiado"><span class="upper">
+                        <a href="/alinexegustavojardim" target="_blank" class="link">Aline X & Gustavo Jardim</a></span> | <?php pten('Brasil', 'Brazil');?></p> <br />     
+                    <span class="obra-premiada"><em>Tocaia</em> | 2014, <?php pten('videoinstalação', 'video installation');?><br /></span>
+                    <div style="margin-bottom: 15px"></div>
+                </div> 
+            </div>
+
+            <div class="row" style="clear: both;">     
+                <div class="col-sm-12 col-md-6" style="float: left ">
                     <img src="img/residencias/kooshk.jpg" class="img-responsive" style="margin-bottom:
                 15px" />     
                 </div>     
@@ -390,6 +475,19 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6" style="float: left ">
+                    <img src="img/premiados/mayawatanabe.jpg" class="img-responsive" style="margin-bottom:
+                15px" />     
+                </div>     
+                <div class="col-sm-12 col-md-6 a" style="float: right;" >         
+                    <p style="display: inline" class="artista-premiado"><span class="upper">
+                        <a href="/mayawatanabe" target="_blank" class="link">Maya Watanabe</a></span> | <?php pten('Peru / Países Baixos', 'Peru / Netherlands');?></p> <br />     
+                    <span class="obra-premiada"><em>Escenarios II</em> | 2014, <?php pten('videoinstalação', 'video installation');?><br /></span>
+                    <div style="margin-bottom: 15px"></div>
+                </div> 
+            </div>
+
+            <div class="row" style="clear: both;">     
+                <div class="col-sm-12 col-md-6" style="float: left ">
                     <img src="img/residencias/kyoto.jpg" class="img-responsive" style="margin-bottom:
                 15px" />     
                 </div>     
@@ -436,6 +534,19 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         ?>
                     </p>
                 </div>
+            </div>
+
+            <div class="row" style="clear: both;">     
+                <div class="col-sm-12 col-md-6" style="float: left ">
+                    <img src="img/premiados/pilarmatadupont.jpg" class="img-responsive" style="margin-bottom:
+                15px" />     
+                </div>     
+                <div class="col-sm-12 col-md-6 a" style="float: right;" >         
+                    <p style="display: inline" class="artista-premiado"><span class="upper">
+                        <a href="/pilarmatadupont" target="_blank" class="link">Pilar Mata Dupont</a></span> | <?php pten('Austrália', 'Australia');?></p> <br />     
+                    <span class="obra-premiada"><em>Purgatorio</em> | 2014, <?php pten('vídeo', 'video');?><br /></span>
+                    <div style="margin-bottom: 15px"></div>
+                </div> 
             </div>
 
             <div class="row" style="clear: both;">     

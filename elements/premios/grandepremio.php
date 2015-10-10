@@ -10,6 +10,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 paletaArtistas($('.premio-sobre p:nth-child(2)'));
                 paletaArtistas($('.premio-sobre p:nth-child(3)'));
                 paletaArtistas($('.premio-sobre p:nth-child(4)'));
+                paletaArtistas($('.premio-sobre p:nth-child(5)'));
+                paletaArtistas($('.artista-premiado, .obra-premiada'));
 
 
                 $('a.link').on(
@@ -64,21 +66,20 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 <div class="row" style="clear: both;">   
     
-        <div class="col-sm-12 col-md-6" id="premio-aviso">
-                        <div style="display: table-cell; vertical-align: middle;">
-                            <div class="titulo-aviso">  
-                                <?php
-                                ob_start(); titulo('confira a lista de artistas premiados depois de 11 de outubro'); $titulo_pt = ob_get_clean();
-                                ob_start(); titulo('check the list of awarded artists after october 11'); $titulo_en = ob_get_clean();
-                                pten($titulo_pt, $titulo_en); 
-                                ?>
-                            </div>
-                        </div>
-                    </div>       
+        <div class="col-sm-12 col-md-6">
+                   <img src="img/premiados/huitao.jpg" />
+        </div>       
 
-    <div class="col-sm-12 col-md-6 premio-sobre" style="float: right;" >         
+    <div class="col-sm-12 col-md-6 premio-sobre" style="float: right;" >  
+
+    <p style="display: inline" class="artista-premiado"><span class="upper">
+    <a href="/huitao" target="_blank" class="link">Hui Tao</a></span> | China</p> <br />     
+    <span class="obra-premiada"><em>Talk about body</em> | 2013, <?php pten('vídeo', 'video');?><br /></span>
+    <div style="margin-bottom: 15px"></div>
+    
     <?php
     //Sobre - PT
+
     pten('<p>O 19º Festival de Arte Contemporânea Sesc_Videobrasil oferece um Grande Prêmio, no valor bruto de R$ 75 mil (setenta e cinco mil reais), a um dos artistas selecionados pelo edital de obras desta edição, escolhido pelo <a class="link" style="cursor: pointer">Júri de Premiação</a>. </p>',
 
     //Sobre - EN

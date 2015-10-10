@@ -21,6 +21,19 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 </div>
             </div>
             
+            <div class="row" style="clear: both;">     
+                <div class="col-sm-12 col-md-6" style="float: left ">
+                    <img src="img/premiados/haroongunn-salie.jpg" class="img-responsive" style="margin-bottom:
+                15px" />     
+                </div>     
+                <div class="col-sm-12 col-md-6 a" style="float: right;" >         
+                    <p style="display: inline" class="artista-premiado"><span class="upper">
+                        <a href="/haroongunn-salie" target="_blank" class="link">Haroon Gunn-Salie</a></span> | <?php pten('África do Sul', 'South Africa');?></p> <br />     
+                    <span class="obra-premiada"><em>Sunday Best</em> | 2014, <?php pten('escultura', 'sculpture');?><br /></span>
+                    <div style="margin-bottom: 15px"></div>
+                </div> 
+            </div>
+
             <div class="row" style="clear: both;">
                 <div class="col-sm-12 col-md-6">
                     <img src="img/residencias/sparte.jpg" class="img-responsive retrato-artista" style="margin-bottom:15px" />
