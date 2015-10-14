@@ -48,7 +48,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                        <a href="https://www.flickr.com/photos/videobrasil/sets/72157659238932979" target="_blank">
                         <img src="img/fotos/12-pp-vocabulario.jpg" alt="" width="485px" height="285px" />
-                        <span class="texto">#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng</span>
+                        <span class="texto"><?php pten(
+                          '#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng',
+                          '#19Festival | Public Programs | Workshop "Vocabulary of an Existing South: The Invention of a World From Inexistent Places" | Ting-Ting Cheng'
+                          );?>
+                          </span>
                        </a>
                     </div>
                 </div>
@@ -59,7 +63,12 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                        <a href="https://www.flickr.com/photos/videobrasil/sets/72157659662324395" target="_blank">
                         <img src="img/fotos/11-abertura-galpao.jpg" alt="" width="485px" height="285px" />
-                        <span class="texto">#19festival I Abertura do Galpão VB e da exposição Panoramas do Sul I Projetos Comissionados</span>
+                        <span class="texto">
+                          <?php pten(
+                          '#19festival | Abertura do Galpão VB e da exposição Panoramas do Sul | Projetos Comissionados',
+                          '#19Festival | Opening of Galpão VB and Southern Panoramas | Commissioned Projects exhibition'
+                          );?>
+                        </span>
                        </a>
                     </div>
                 </div>
@@ -70,7 +79,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                        <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
                         <img src="img/fotos/10-pp-sem1.jpg" alt="" width="485px" height="285px" />
-                        <span class="texto">#19Festival | Programas Públicos | Seminário I Mesa 1: Repensar tradições: arte gesto e contemporaneidade</span>
+                        <span class="texto">
+                        <?php pten(
+                          '#19Festival | Programas Públicos | Seminário | Mesa 1: Repensar tradições: arte gesto e contemporaneidade',
+                          '#19Festival | Public Programs | Panel 1: Rethinking Traditions: Art, Gesture and Contemporaneity'
+                          );?></span>
                        </a>
                     </div>
                 </div>
@@ -81,7 +94,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                        <a href="https://www.flickr.com/photos/videobrasil/sets/72157659659824285" target="_blank">
                         <img src="img/fotos/09-progsfilmes.jpg" alt="" width="485px" height="285px" />
-                        <span class="texto">#19Festival | Abertura do Programa de Filmes | Obras Selecionadas</span>
+                        <span class="texto">
+                        <?php pten(
+                          '#19Festival | Abertura do Programa de Filmes | Obras Selecionadas',
+                          '#19Festival | Opening Film Programs | Selected Works'
+                          );?></span>
                        </a>
                     </div>
                 </div>
@@ -92,7 +109,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                        <a href="https://www.flickr.com/photos/videobrasil/sets/72157659656781331" target="_blank">
                         <img src="img/fotos/08-tilting.jpg" alt="" width="485px" height="285px" />
-                        <span class="texto">#19Festival | Programas Públicos | Encontros e Conversas | Tilting Axis 1.5</span>
+                        <span class="texto">
+                        <?php pten(
+                          '#19Festival | Programas Públicos | Encontros e Conversas | Tilting Axis 1.5',
+                          '#19Festival | Public Programs | Meetings and Conversations | Tilting Axis 1.5'
+                          );?></span>
                        </a>
                     </div>
                 </div>
@@ -103,7 +124,13 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                        <a href="https://www.flickr.com/photos/videobrasil/sets/72157659233653159" target="_blank">
                         <img src="img/fotos/07-abertura-19f.jpg" alt="" width="485px" height="285px" />
-                        <span class="texto">Abertura do 19º Festival de Arte Contemporânea Sesc_Videobrasil I Panoramas do Sul</span>
+                        <span class="texto">
+                          <?php pten(
+                          'Abertura do 19º Festival de Arte Contemporânea Sesc_Videobrasil | Panoramas do Sul',
+                          'Opening of 19th Contemporary Art Festival Sesc_Videobrasil | Southern Panoramas'
+                          );?>
+                        </span>
+
                        </a>
                     </div>
                 </div>
@@ -114,7 +141,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                        <a href="https://www.flickr.com/photos/videobrasil/sets/72157659654292891" target="_blank">
                         <img src="img/fotos/06-vostok.jpg" alt="" width="485px" height="285px" />
-                        <span class="texto">19º Festival I Performances I  "Vostok" I Letícia Ramos</span>
+                        <span class="texto">
+                        <?php pten(
+                          '19º Festival | Performances | "Vostok" | Letícia Ramos',
+                          '19th Festival | Performances | "Vostok" | Letícia Ramos'
+                          );?></span>
                        </a>
                     </div>
                 </div>
@@ -125,7 +156,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                        <a href="https://www.flickr.com/photos/videobrasil/sets/72157659239809498" target="_blank">
                         <img src="img/fotos/05-pp-memoria.jpg" alt="" width="485px" height="285px" />
-                        <span class="texto">19º Festival I Programas Públicos I Oficina: "Memória tecida: Monotipia vista do Mali" I Abdoulaye Konaté</span>
+                        <span class="texto">
+                        <?php pten(
+                          '19º Festival | Programas Públicos | Oficina: "Memória tecida: Monotipia vista do Mali" | Abdoulaye Konaté',
+                          '19th Festival | Public Programs | Workshop: "Woven Memory: Monotype Seen From Mali" | Abdoulaye Konaté'
+                          );?></span>
                        </a>
                     </div>
                 </div>
