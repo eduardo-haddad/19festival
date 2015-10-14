@@ -46,7 +46,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12 col-md-6 h" style="float: left;">
                      <div class="image">
 
-                       <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
+                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157659238932979" target="_blank">
                         <img src="img/fotos/12-pp-vocabulario.jpg" alt="" width="485px" height="285px" />
                         <span class="texto">#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng</span>
                        </a>
@@ -57,9 +57,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12 col-md-6 h" style="float: left;">
                      <div class="image">
 
-                       <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
+                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157659662324395" target="_blank">
                         <img src="img/fotos/11-abertura-galpao.jpg" alt="" width="485px" height="285px" />
-                        <span class="texto">#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng</span>
+                        <span class="texto">#19festival I Abertura do Galpão VB e da exposição Panoramas do Sul I Projetos Comissionados</span>
                        </a>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
                        <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
                         <img src="img/fotos/10-pp-sem1.jpg" alt="" width="485px" height="285px" />
-                        <span class="texto">#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng</span>
+                        <span class="texto">#19Festival | Programas Públicos | Seminário I Mesa 1: Repensar tradições: arte gesto e contemporaneidade</span>
                        </a>
                     </div>
                 </div>
@@ -79,9 +79,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12 col-md-6 h" style="float: left;">
                      <div class="image">
 
-                       <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
+                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157659659824285" target="_blank">
                         <img src="img/fotos/09-progsfilmes.jpg" alt="" width="485px" height="285px" />
-                        <span class="texto">#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng</span>
+                        <span class="texto">#19Festival | Abertura do Programa de Filmes | Obras Selecionadas</span>
                        </a>
                     </div>
                 </div>
@@ -90,9 +90,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12 col-md-6 h" style="float: left;">
                      <div class="image">
 
-                       <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
+                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157659656781331" target="_blank">
                         <img src="img/fotos/08-tilting.jpg" alt="" width="485px" height="285px" />
-                        <span class="texto">#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng</span>
+                        <span class="texto">#19Festival | Programas Públicos | Encontros e Conversas | Tilting Axis 1.5</span>
                        </a>
                     </div>
                 </div>
@@ -101,9 +101,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12 col-md-6 h" style="float: left;">
                      <div class="image">
 
-                       <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
+                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157659233653159" target="_blank">
                         <img src="img/fotos/07-abertura-19f.jpg" alt="" width="485px" height="285px" />
-                        <span class="texto">Abertura do 19º Festival de Arte Contemporânea<br />Sesc_Videobrasil | Panoramas do Sul</span>
+                        <span class="texto">Abertura do 19º Festival de Arte Contemporânea Sesc_Videobrasil I Panoramas do Sul</span>
                        </a>
                     </div>
                 </div>
@@ -112,9 +112,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12 col-md-6 h" style="float: left;">
                      <div class="image">
 
-                       <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
+                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157659654292891" target="_blank">
                         <img src="img/fotos/06-vostok.jpg" alt="" width="485px" height="285px" />
-                        <span class="texto">#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng</span>
+                        <span class="texto">19º Festival I Performances I  "Vostok" I Letícia Ramos</span>
                        </a>
                     </div>
                 </div>
@@ -123,9 +123,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12 col-md-6 h" style="float: left;">
                      <div class="image">
 
-                       <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
+                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157659239809498" target="_blank">
                         <img src="img/fotos/05-pp-memoria.jpg" alt="" width="485px" height="285px" />
-                        <span class="texto">#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng</span>
+                        <span class="texto">19º Festival I Programas Públicos I Oficina: "Memória tecida: Monotipia vista do Mali" I Abdoulaye Konaté</span>
                        </a>
                     </div>
                 </div>
@@ -134,9 +134,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12 col-md-6 h" style="float: left;">
                      <div class="image">
 
-                       <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
+                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157659324156156" target="_blank">
                         <img src="img/fotos/04-galpaovb.jpg" alt="" width="485px" height="285px" />
-                        <span class="texto">#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng</span>
+                        <span class="texto">Galpão VB</span>
                        </a>
                     </div>
                 </div>
