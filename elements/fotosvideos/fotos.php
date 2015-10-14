@@ -42,6 +42,21 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             <div class="row" style="clear: both;">
 
               
+                <!-- 13 -->
+                <div class="col-xs-12 col-md-6 h" style="float: left;">
+                     <div class="image">
+
+                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157659238932979" target="_blank">
+                        <img src="img/fotos/13-repensar-espacos.jpg" alt="" width="485px" height="285px" />
+                        <span class="texto"><?php pten(
+                          '#19Festival | Programas Públicos | Seminário | Mesa 2 | "Repensar espaços: artes, usos e cotidiano"',
+                          '#19Festival | Public Programs | Seminar | Panel 2 | "Rethinking spaces: art, uses and daily life"'
+                          );?>
+                          </span>
+                       </a>
+                    </div>
+                </div>
+
                 <!-- 12 -->
                 <div class="col-xs-12 col-md-6 h" style="float: left;">
                      <div class="image">
@@ -82,7 +97,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         <span class="texto">
                         <?php pten(
                           '#19Festival | Programas Públicos | Seminário | Mesa 1: Repensar tradições: arte gesto e contemporaneidade',
-                          '#19Festival | Public Programs | Panel 1: Rethinking Traditions: Art, Gesture and Contemporaneity'
+                          '#19Festival | Public Programs | Panel 1: Rethinking traditions: art, gesture and contemporaneity'
                           );?></span>
                        </a>
                     </div>
