@@ -134,15 +134,15 @@ ommissioned projects</span><br />
 
             </div>
             
-             <div class="row" >
+            <!--  <div class="row" >
                 <div class="col-xs-12 titulo" style="float: left; margin-top: 37px" >
                        <p>
                        <?php pten('Destaques do clipping', 'Clipping highlights');  ?>
                        </p>
                 </div>
-            </div> 
+            </div>  -->
 
-            <div class="row" style="clear:both">
+            <!-- <div class="row" style="clear:both">
                 <div class="col-xs-12">
 
                     <div class="bloco">
@@ -189,7 +189,7 @@ ommissioned projects</span><br />
                    
                 </div>
 
-            </div> 
+            </div>  -->
 
             <div id="altura">&nbsp;</div>
     </main>

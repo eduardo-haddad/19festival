@@ -11,56 +11,135 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             <style type="text/css">
                .image { 
                  position: relative; 
-                 width: 100%; /* for IE 6 */
+                 /*width: 100%;  for IE 6 */
                  max-height: 285px;
                  max-width: 485px;
+                 margin-bottom: 15px;
               }
 
               .texto { 
                  position: absolute; 
                  bottom: 0px; 
-                 left: 15px; 
-                 width: auto; 
+                 left: 0px; 
+                 width: 485px; 
                  color: white;
+                 min-height: 70px;
                  background: rgb(0, 0, 0); /* fallback color */
                  background: rgba(0, 0, 0, 0.7);
+                 padding: 10px;
               }
 
             </style>
 
-            <!-- <div class="row" >
+            <div class="row" >
                 <div class="col-xs-12 titulo" style="float: left;">
                 <p style="margin-bottom:0">
-                   <?php pten('Videorelease', 'Videorelease');  ?>
+                   <?php pten('álbuns', 'albums');  ?>
                 </p>
                 </div>
-            </div> -->
+            </div>
            
             <div class="row" style="clear: both;">
 
               
-                <!-- abertura 19 festival -->
-                <!-- <div class="col-xs-12 col-md-6 h relative" style="float: left;">
+                <!-- 12 -->
+                <div class="col-xs-12 col-md-6 h" style="float: left;">
                      <div class="image">
 
                        <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
-                        <img src="img/fotos/pp-vocabulario.jpg" alt="" />
+                        <img src="img/fotos/12-pp-vocabulario.jpg" alt="" width="485px" height="285px" />
                         <span class="texto">#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng</span>
                        </a>
                     </div>
-                </div> -->
+                </div>
 
-                <!-- abertura 19 festival -->
-              <!--   <div class="col-xs-12 col-md-6 h relative" style="float: left;">
+                <!-- 11 -->
+                <div class="col-xs-12 col-md-6 h" style="float: left;">
                      <div class="image">
 
                        <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
-                        <img src="img/fotos/abertura-19f.jpg" alt="" />
+                        <img src="img/fotos/11-abertura-galpao.jpg" alt="" width="485px" height="285px" />
+                        <span class="texto">#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng</span>
+                       </a>
+                    </div>
+                </div>
+
+                <!-- 10 -->
+                <div class="col-xs-12 col-md-6 h" style="float: left;">
+                     <div class="image">
+
+                       <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
+                        <img src="img/fotos/10-pp-sem1.jpg" alt="" width="485px" height="285px" />
+                        <span class="texto">#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng</span>
+                       </a>
+                    </div>
+                </div>
+
+                <!-- 09 -->
+                <div class="col-xs-12 col-md-6 h" style="float: left;">
+                     <div class="image">
+
+                       <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
+                        <img src="img/fotos/09-progsfilmes.jpg" alt="" width="485px" height="285px" />
+                        <span class="texto">#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng</span>
+                       </a>
+                    </div>
+                </div>
+
+                <!-- 08 -->
+                <div class="col-xs-12 col-md-6 h" style="float: left;">
+                     <div class="image">
+
+                       <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
+                        <img src="img/fotos/08-tilting.jpg" alt="" width="485px" height="285px" />
+                        <span class="texto">#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng</span>
+                       </a>
+                    </div>
+                </div>
+
+                <!-- 07 -->
+                <div class="col-xs-12 col-md-6 h" style="float: left;">
+                     <div class="image">
+
+                       <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
+                        <img src="img/fotos/07-abertura-19f.jpg" alt="" width="485px" height="285px" />
                         <span class="texto">Abertura do 19º Festival de Arte Contemporânea<br />Sesc_Videobrasil | Panoramas do Sul</span>
                        </a>
                     </div>
-                </div> -->
+                </div>
 
+                <!-- 06 -->
+                <div class="col-xs-12 col-md-6 h" style="float: left;">
+                     <div class="image">
+
+                       <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
+                        <img src="img/fotos/06-vostok.jpg" alt="" width="485px" height="285px" />
+                        <span class="texto">#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng</span>
+                       </a>
+                    </div>
+                </div>
+
+                <!-- 05 -->
+                <div class="col-xs-12 col-md-6 h" style="float: left;">
+                     <div class="image">
+
+                       <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
+                        <img src="img/fotos/05-pp-memoria.jpg" alt="" width="485px" height="285px" />
+                        <span class="texto">#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng</span>
+                       </a>
+                    </div>
+                </div>
+
+                <!-- 04 -->
+                <div class="col-xs-12 col-md-6 h" style="float: left;">
+                     <div class="image">
+
+                       <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
+                        <img src="img/fotos/04-galpaovb.jpg" alt="" width="485px" height="285px" />
+                        <span class="texto">#19Festival | Programas Públicos | Oficina "Vocabulário de um Sul existente: invenção de um mundo a partir de lugares inexistentes" | Ting-Ting Cheng</span>
+                       </a>
+                    </div>
+                </div>
                 
 
 
