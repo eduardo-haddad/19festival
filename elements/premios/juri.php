@@ -91,10 +91,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-sm-12 col-md-6 juri4" style="float: left; margin-bottom: 24px">                   
                 <?php
                     pten('<p style="margin-bottom: 0">
-                    <span class="bold">Till Fellrath</span> (Suíça), é curador e cofundador, com Sam Bardaouil (Líbano), da plataforma curatorial multidisciplinar Art Reoriented.</p>',
+                    <span class="bold">Till Fellrath</span> (Alemanha), é curador e cofundador, com Sam Bardaouil (Líbano), da plataforma curatorial multidisciplinar Art Reoriented.</p>',
 
                     '<p style="margin-bottom: 0">
-                    <span class="bold">Till Fellrath</span> (Switzerland), is a curator and has established, along with fellow curator Sam Bardaouil (Lebanon), the Art Reoriented multidisciplinar curatorial platform.</p>');
+                    <span class="bold">Till Fellrath</span> (Germany), is a curator and has established, along with fellow curator Sam Bardaouil (Lebanon), the Art Reoriented multidisciplinar curatorial platform.</p>');
                     ?>                
                 </div>
             </div>

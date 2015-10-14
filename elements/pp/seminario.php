@@ -184,8 +184,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         '(Quênia) é artista. Agencia objetos e emblemas comuns ao imaginário criado a partir das conturbadas relações históricas entre Europa e África, desvelando clichês subjacentes à concepção de africanidade.',
                         '(Kenya) is an artist. She agencies objects and emblems common to the imagery spawned by the tumultuous historical ties between Europe and Africa, unveiling clichés that underlie the conception of Africanity.'); ?></p> 
                         <p><span class="bold">Till Fellrath </span><?php pten(
-                        '(Suíça) é curador e cofundador, com Sam Bardaouil (Líbano), da plataforma curatorial multidisciplinar Art Reoriented.',
-                        '(Switzerland) is a curator and has established, along with fellow curator Sam Bardaouil (Lebanon), the Art Reoriented multidisciplinar curatorial platform.'); ?></p>
+                        '(Alemanha) é curador e cofundador, com Sam Bardaouil (Líbano), da plataforma curatorial multidisciplinar Art Reoriented.',
+                        '(Germany) is a curator and has established, along with fellow curator Sam Bardaouil (Lebanon), the Art Reoriented multidisciplinar curatorial platform.'); ?></p>
                 </div>     
                 <div class="col-sm-12 col-md-6 pp-encontro a" style="float: right;">         
                 <?php
