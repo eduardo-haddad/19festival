@@ -90,7 +90,15 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
                                   $('.bc-atual').html('<?php pten('Prêmio especial','Special prize');?>');
                                });
                                
-                            } 
+                            } else {
+
+                              criaUrlIdioma('#grandepremio');
+                               $('#pr-conteudo').load('elements/premios/grandepremio.php', function(){
+                                  $menuPR.eq(0).addClass('ativo'); 
+                                  $('.bc-atual').html('<?php pten('grande prêmio', 'grand prize');?>');
+                               });
+
+                            }
 
                 } else {
 

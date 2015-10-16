@@ -64,6 +64,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                });
                                
                             } else {
+                              
                               criaUrlIdioma('#obras');
                                $('#progs-conteudo').load('elements/progsfilmes/obras.php', function(){
                                   $menuFilmes.eq(0).addClass('ativo'); 

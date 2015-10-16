@@ -88,7 +88,8 @@ $titulo = $idioma == 'pt' ? 'Programas Públicos' : 'Public Programs';
                                   $('.bc-atual').html('<?php pten('ações de mediação', 'activation actions');?>');
                                });
                                
-                            } else {
+                            } else { 
+                              
                               criaUrlIdioma('#sobre');
                                $('#pp-conteudo').load('elements/pp/sobre.php', function(){
                                   $menuPP.eq(0).addClass('ativo'); 

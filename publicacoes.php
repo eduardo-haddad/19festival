@@ -47,7 +47,13 @@ $titulo = $idioma == 'pt' ? 'Publicações' : 'Publications';
                                $('.bc-atual').html('outros lançamentos');
                                $('#publicacoes-conteudo').load('elements/publicacoes/outros.php');
                                $menuPublicacoes.eq(1).addClass('ativo'); 
-                            } 
+                            } else {
+                                criaUrlIdioma('#festival');
+                                $('.bc-atual').html('livros do festival');
+                                $('#publicacoes-conteudo').load('elements/publicacoes/festival.php'); 
+                                $menuPublicacoes.eq(0).addClass('ativo'); 
+
+                            }
 
                 } else {
                     criaUrlIdioma('#festival');
