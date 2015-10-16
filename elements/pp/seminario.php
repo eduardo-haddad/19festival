@@ -128,7 +128,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 
                 <span class="bold">Saiba mais</span><br />
                  - <a href="http://site.videobrasil.org.br/news/1906645" class="link" target="_blank">leia o texto de cobertura da mesa</a><br />
-                 - <a href="https://www.flickr.com/photos/videobrasil/sets/72157657317956814" class="link" target="_blank">veja fotos do encontro</a></p>',
+                 - <a href="https://www.flickr.com/photos/videobrasil/sets/72157657317956814" class="link" target="_blank">veja fotos do encontro</a>',
 
                 //Evento 1 - EN
                 '<p>The notion of contemporary art responds to a specific system, underpinned by certain practices, players, and institutions. As the 20th century progressed, with the “dematerialization” of the artwork, new languages began to coexist with art objects of various natures, many of them associated with past traditions. Amid the multiple temporalities shared by the present, what is the meaning of a supposed idea of transcendence? If the contemporary primarily encompasses the present moment, how does one rethink and broaden the categories of art?
@@ -138,7 +138,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 
                 <span class="bold">Learn more:</span><br />
                  - <a href="http://site.videobrasil.org.br/en/news/1906645" class="link" target="_blank">read the panel\'s news coverage</a><br />
-                 - <a href="https://www.flickr.com/photos/videobrasil/sets/72157657317956814" class="link" target="_blank">photo album</p>');  ?> 
+                 - <a href="https://www.flickr.com/photos/videobrasil/sets/72157657317956814" class="link" target="_blank">photo album</a>');  ?> 
                 </div> 
             </div>
 
@@ -193,7 +193,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <p>Retirada de ingressos 1h antes no próprio local. <span class="bold">Vagas limitadas</span>.</p>
                 <span class="bold">Saiba mais</span><br />
                  - <a href="http://site.videobrasil.org.br/news/1906856" class="link" target="_blank">leia o texto de cobertura da mesa</a><br />
-                 - <a href="https://www.flickr.com/photos/videobrasil/albums/72157659854955615" class="link" target="_blank">veja fotos do encontro</a></p>',
+                 - <a href="https://www.flickr.com/photos/videobrasil/albums/72157659854955615" class="link" target="_blank">veja fotos do encontro</a>',
 
                 //Evento 2 - EN
                 '<p>Outside institutional spaces, art seeps into daily life and interferes with how people perceive the world. Artistic creation transcends formatted educational practices to become a powerful tool for production of meaning, knowledge, and critical thinking. What places does art occupy today? What uses does the artwork suggest to us? The meeting will be followed by the launch of the book <em>Southern Panoramas | Readings | Perspectives for other geographies of thought</em>.
@@ -201,7 +201,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <p>Collect your ticket 1h before the activity at Sesc Pompeia.<br /><span class="bold">Seats are limited</span>.</p>
                 <span class="bold">Learn more:</span><br />
                  - <a href="http://site.videobrasil.org.br/en/news/1906856" class="link" target="_blank">read the panel\'s news coverage</a><br />
-                 - <a href="https://www.flickr.com/photos/videobrasil/albums/72157659854955615" class="link" target="_blank">photo album</p>');  ?> 
+                 - <a href="https://www.flickr.com/photos/videobrasil/albums/72157659854955615" class="link" target="_blank">photo album');  ?> 
                 </div> 
             </div>
 

@@ -155,10 +155,18 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <?php
                 //Evento 2 - PT
                 pten('<p>
-                O 19º Festival recebe a plataforma de discussão Tilting Axis, voltada a promover maior proximidade e articulação entre profissionais que trabalham em iniciativas e instituições geridas por artistas na região caribenha, além de construir e redefinir relações históricas com o Norte e estabelecer diálogo com redes fortes que emergem no Sul global. Recém-fundada, em Barbados, a plataforma apresenta suas propostas e metodologia.</p>',
+                O 19º Festival recebe a plataforma de discussão Tilting Axis, voltada a promover maior proximidade e articulação entre profissionais que trabalham em iniciativas e instituições geridas por artistas na região caribenha, além de construir e redefinir relações históricas com o Norte e estabelecer diálogo com redes fortes que emergem no Sul global. Recém-fundada, em Barbados, a plataforma apresenta suas propostas e metodologia.
+                </p>
+                <span class="bold">Saiba mais</span><br />
+                 - <a href="http://site.videobrasil.org.br/news/1906700" class="link" target="_blank">leia o texto de cobertura do encontro</a><br />
+                 - <a href="https://www.flickr.com/photos/videobrasil/albums/72157659656781331" class="link" target="_blank">veja fotos do encontro</a>',
 
                 //Evento 2 - EN
-                '<p>The 19th Festival will feature Tilting Axis, a discussion platform for professionals from artist-managed initiatives and institutions in the Caribbean to promote contact and network, as well as build and redefine their historical ties with the North, and converse with strong up-and-coming networks from the global South. The proposals and methodology of the platform, which was recently established in Barbados, will be outlined.</p>');  ?> 
+                '<p>The 19th Festival will feature Tilting Axis, a discussion platform for professionals from artist-managed initiatives and institutions in the Caribbean to promote contact and network, as well as build and redefine their historical ties with the North, and converse with strong up-and-coming networks from the global South. The proposals and methodology of the platform, which was recently established in Barbados, will be outlined.
+                </p>
+                <span class="bold">Learn more:</span><br />
+                 - <a href="http://site.videobrasil.org.br/news/1906700" class="link" target="_blank">read the event\'s news coverage</a><br />
+                 - <a href="https://www.flickr.com/photos/videobrasil/albums/72157659656781331" class="link" target="_blank">photo album</a>');  ?> 
                 </div> 
             </div>
 
