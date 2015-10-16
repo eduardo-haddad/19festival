@@ -66,7 +66,7 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
                                   $('.bc-atual').html('<?php pten('Prêmios de residência','Residency prizes');?>');
                                });
                                
-                            } else if(hash == 'juri'){ 
+                            } else if(hash.substring(0, 4) == 'juri'){ 
 
                                criaUrlIdioma('#juri');
                                $('#pr-conteudo').load('elements/premios/juri.php', function(){
@@ -74,7 +74,7 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
                                   $('.bc-atual').html('<?php pten('Júri','Jury');?>');
                                });
                                
-                            } else if(hash == 'trofeu'){ 
+                            } else if(hash.substring(0, 6) == 'trofeu'){ 
 
                                criaUrlIdioma('#trofeu');
                                $('#pr-conteudo').load('elements/premios/trofeu.php', function(){
@@ -82,7 +82,7 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
                                   $('.bc-atual').html('<?php pten('Troféu','Trophy');?>');
                                });
                                
-                            } else if(hash == 'especial'){ 
+                            } else if(hash.substring(0, 8) == 'especial'){ 
 
                                criaUrlIdioma('#especial');
                                $('#pr-conteudo').load('elements/premios/premio_especial.php', function(){
