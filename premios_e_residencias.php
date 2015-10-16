@@ -101,7 +101,6 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
                             }
 
                 } else {
-
                     
                     criaUrlIdioma('#grandepremio');
                                $('#pr-conteudo').load('elements/premios/grandepremio.php', function(){
