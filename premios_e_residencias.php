@@ -50,7 +50,7 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
 
                 if (hash) {
 
-                    if(hash == 'grandepremio'){ 
+                    if(hash.substring(0, 12) == 'grandepremio'){ 
 
                               criaUrlIdioma('#grandepremio');
                                $('#pr-conteudo').load('elements/premios/grandepremio.php', function(){
@@ -58,7 +58,7 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
                                   $('.bc-atual').html('<?php pten('grande prêmio', 'grand prize');?>');
                                });
                                
-                            }else if(hash == 'premios'){ 
+                            }else if(hash.substring(0, 7) == 'premios'){ 
 
                                criaUrlIdioma('#premios');
                                $('#pr-conteudo').load('elements/premios/premios_residencia.php', function(){
