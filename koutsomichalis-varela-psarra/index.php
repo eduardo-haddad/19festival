@@ -169,7 +169,8 @@ $nome_artista3 = 'Afroditi Psarra';
             <div class="row" id="obra">
                 <div class="col-sm-12 col-md-6" style="text-align: center;" id="obra-img">
                     <!-- <iframe allowFullScreen allowTransparency="true" class="vzaar-video-player" frameborder="0"  id="vzvd-<?=$id_vzaar?>" mozallowfullscreen name="vzvd-<?=$id_vzaar?>" src="http://view.vzaar.com/<?=$id_vzaar?>/player" title="vzaar video player" type="text/html" webkitAllowFullScreen width="485" height="273" ></iframe> -->
-                    <img src="../img/obras/obra_koutsomichalis-varela-psarra.jpg" class="img-responsive" style="margin-bottom: 15px;" />
+                    <img src="../img/performances/oikonomic_1.jpg" class="img-responsive" style="margin-bottom: 15px;" />
+                    <img src="../img/performances/oikonomic_2.jpg" class="img-responsive" style="margin-bottom: 15px;" />
                 </div>
                 <div class="col-sm-12 col-md-6" id="obra-texto">
                     <div style="margin-bottom: 0" >

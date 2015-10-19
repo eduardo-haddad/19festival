@@ -125,7 +125,8 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
             <div class="row" id="obra">
                 <div class="col-sm-12 col-md-6" style="text-align: center;" id="obra-img">
                     <!-- <iframe allowFullScreen allowTransparency="true" class="vzaar-video-player" frameborder="0"  id="vzvd-<?=$id_vzaar?>" mozallowfullscreen name="vzvd-<?=$id_vzaar?>" src="http://view.vzaar.com/<?=$id_vzaar?>/player" title="vzaar video player" type="text/html" webkitAllowFullScreen width="485" height="273" ></iframe> -->
-                    <img src="../img/obras/obra_<?=strtolower(str_replace(' ', '', $nome_artista));?>.jpg" class="img-responsive" style="margin-bottom: 15px;" />
+                    <img src="../img/performances/fancy_1.jpg" class="img-responsive" style="margin-bottom: 15px;" />
+                    <img src="../img/performances/fancy_2.jpg" class="img-responsive" style="margin-bottom: 15px;" />
                 </div>
                 <div class="col-sm-12 col-md-6" id="obra-texto">
                     <div style="margin-bottom: 0" >
