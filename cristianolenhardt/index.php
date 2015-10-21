@@ -125,9 +125,9 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
             <div class="row" id="obra">
                 <div class="col-sm-12 col-md-6" style="text-align: center;" id="obra-img">
                     <!-- <iframe allowFullScreen allowTransparency="true" class="vzaar-video-player" frameborder="0"  id="vzvd-<?=$id_vzaar?>" mozallowfullscreen name="vzvd-<?=$id_vzaar?>" src="http://view.vzaar.com/<?=$id_vzaar?>/player" title="vzaar video player" type="text/html" webkitAllowFullScreen width="485" height="273" ></iframe> -->
-                    <img src="../img/projetos/lenhardt_1.jpg" class="img-responsive" style="margin-bottom: 15px;" />
+                    <img src="../img/projetos/lenhardt_2.jpg" class="img-responsive" style="margin-bottom: 15px;" />
                 </div>
-                
+
                 <div class="col-sm-12 col-md-6" id="obra-texto">
                     <div style="margin-bottom: 0" >
                         <span id="obra-titulo"><?php echo '<em>'; print_r($obra['titulos'][0]['titulo']); echo '</em> | '; print_r($obra['data_producao']); echo ', '; print_r ($idioma == 'pt' ? $obra['tipo_obra'] : $obra['tipo_obra_en']) ?><br /></span>
