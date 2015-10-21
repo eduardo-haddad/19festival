@@ -102,7 +102,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/pp/seminario-artegesto<?php pten('-pt.png','-en.jpg');?>" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/seminario-mesa1_1.jpg" class="img-responsive" style="margin-bottom: 15px" />    
 
                     <p><span style="text-transform: uppercase"><?php pten('Participantes', 'Participants'); ?></span></p>
                     <p><span class="bold">Abdoulaye Konaté </span><?php pten(
@@ -168,7 +168,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/pp/seminario-repensar<?php pten('-pt.png','-en.jpg');?>" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/seminario-mesa2_1.jpg" class="img-responsive" style="margin-bottom: 15px" />    
 
 
                     <p><span style="text-transform: uppercase"><?php pten('Participantes', 'Participants'); ?></span></p>
