@@ -2,6 +2,7 @@
 
 $id_obra = '1800170';
 $id_artista = '237750';
+$urlplataforma = '#thedisquiet';
 
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
@@ -71,6 +72,8 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
                 paletaArtistas($('#obra-sinopse, #obra-titulo, .link-plataforma'));
                 paletaArtistas($('#artista-bio'));
                 paletaArtistas($('#nome-artista'));
+
+               $('.url-plataforma').attr('href', 'http://plataforma.videobrasil.org.br/<?=$urlplataforma;?>'); 
                 
             }
         );

@@ -5,6 +5,8 @@ $id_obra2 = '1805628';
 $id_obra3 = '1805634';
 $id_artista = '1065544';
 
+$urlplataforma = '#abdoulayekonate';
+
 
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
@@ -84,6 +86,8 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
                 paletaArtistas($('#obra-sinopse, #obra-titulo, .link-plataforma'));
                 paletaArtistas($('#artista-bio'));
                 paletaArtistas($('#nome-artista'));
+
+               $('.url-plataforma').attr('href', 'http://plataforma.videobrasil.org.br/<?=$urlplataforma;?>'); 
                 
             }
         );

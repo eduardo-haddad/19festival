@@ -1,8 +1,7 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
-$titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'C
-ommissioned Projects';
+$titulo = $idioma == 'pt' ? 'Projetos Comissionados' : 'Commissioned Projects';
 
 ?>
 
@@ -21,6 +20,7 @@ ommissioned Projects';
         $(document).ready(
             function(){
                 paletaArtistas($('.sobre-expo p'));
+                paletaArtistas($('.sobre-expo p:nth-child(n+2)'));
 
         
             }
@@ -52,8 +52,7 @@ ommissioned Projects';
         	<div class="row">
         		<div class="col-xs-12 breadcrumb">
                     <span><?php pten('<a href="index.php#exposicoes" class="link">exposições</a> > <span class="underline">projetos comissionados</span>', 
-                                     '<a href="index.php#exposicoes" class="link">exhibitions</a> > <span class="underline">c
-ommissioned projects</span>');  ?></span>      
+                                     '<a href="index.php#exposicoes" class="link">exhibitions</a> > <span class="underline">commissioned projects</span>');  ?></span>      
                 </div>
         	</div>
 
@@ -71,8 +70,7 @@ ommissioned projects</span>');  ?></span>
             <!-- SUBMENU -->
 
             <p class="titulo"><?php pten('panoramas do sul | projetos comissionados', 
-                                         'southern panoramas | c
-ommissioned projects'); ?></p> 
+                                         'southern panoramas | commissioned projects'); ?></p> 
            
             <div class="row" style="clear: both;">
 
@@ -81,8 +79,7 @@ ommissioned projects'); ?></p>
                     <div id="lista">
                         <ol>
                                 <li class="upper"><?php pten('Artistas selecionados pelo<br />edital de projetos comissionados', 
-                                                             'Artists selected from the<br />c
-ommissioned projects call for entries'); ?><br /><br /></li>
+                                                             'Artists selected from the<br />commissioned projects call for entries'); ?><br /><br /></li>
                                 <li><a href="/carlosmonroy">Carlos Monroy | <?php pten('Colômbia', 'Colombia'); ?></a></li>
                                 <li><a href="/cristianolenhardt">Cristiano Lenhardt | <?php pten('Brasil', 'Brazil'); ?></a></li>
                                 <li><a href="/keli-safiamaksud">Keli-Safia Maksud | <?php pten('Quênia', 'Kenya'); ?></a></li>
@@ -95,73 +92,36 @@ ommissioned projects call for entries'); ?><br /><br /></li>
 
                     <?php pten( 
                     ////APRESENTAÇAO PT
-                    '<p>Consolidando seu perfil de experimentação e inovação, o <span class="bold">Festival de Arte Contemporânea Sesc_Videobrasil</span> abriu, pela primeira vez, uma convocatória pública para inscrição de projetos a serem comissionados para apresentação em sua 19ª edição. Foram selecionados os seguintes artistas entre as 446 inscrições de projetos feitas por artistas de 71 países: <span class="bold">Carlos Monroy</span> (Colômbia), <span class="bold">Cristiano Lenhardt</span> (Brasil), <span class="bold">Keli-Safia Maksud</span> (Quênia) e <span class="bold">Ting-Ting Cheng</span> (Taiwan).</p>
-
-                     <p>O desenvolvimento dos projetos dos artistas selecionados foi acompanhado pela comissão responsável pela seleção, formada pelos curadores Bernardo José de Souza (Rio Grande do Sul, Brasil/vive e trabalha no Rio de Janeiro), Bitu Cassundé (Ceará, Brasil/vive e trabalha em Fortaleza), João Laia (Lisboa, Portugal/vive e trabalha em Londres) e Júlia Rebouças (Sergipe, Brasil/vive e trabalha em Belo Horizonte), que trabalham sob a curadoria geral de Solange Farkas. Esta iniciativa efetiva o envolvimento dos curadores para além da seleção, promovendo um diálogo direto e contínuo com os artistas no decorrer de seus processos criativos, em uma relação de tempo estendida.</p>
-                     
-                     <p>O texto curatorial da exposição Panoramas do Sul | Projetos Comissionados será disponibilizado em breve.</p>
-                     
-                     <p><br /><span class="bold">Sobre os projetos selecionados</span><br />
-                     Carlos Monroy participa com <em>Llorando se foi. O museu da lambada</em>. In memoriam de Francisco "Chico" Oliveira, que relaciona dois fenômenos dos anos 1980 no Brasil: a consagração da lambada e sua incidência na construção da identidade nacional, e o início e exponencial crescimento da imigração boliviana em São Paulo. Superquadra-Sací, filme de Cristiano Lenhardt, cria um encontro entre as origens indígenas nacionais e a “cidade-paisagem”, o cenário urbano, com remissões ao modernismo brasileiro. Mitumba, de Keli-Safia Maksud, pesquisa a relação entre a história do sabão na Inglaterra e a dos tecidos africanos nos Países Baixos na era vitoriana. A artista discute a imagem de higiene racial e a identidade africana a partir dos tecidos percebidos mundialmente como autêntica expressão da África. O projeto The Atlas of Places do not exist , de Ting-Ting Cheng, trata-se de uma biblioteca contendo centenas de livros sobre lugares que não existem, questionando as fronteiras e as definições de realidade.
-                     </p>',
+                    '<p>As obras que compõem a exposição são fruto de um edital para comissionamento de projetos de artistas do Sul lançado em 2014 pelo Festival. O novo mecanismo reafirma a vocação do Videobrasil para descobrir e apostar em proposições artísticas relevantes nessas regiões. Realizadas com acompanhamento dos curadores do Festival, as obras de Ting-Ting Cheng (Taiwan), Cristiano Lenhardt (Brasil), Carlos Monroy (Colômbia) e Keli-Safia Maksud (Quênia) inauguram o Galpão VB, espaço de exposições, pesquisa e outras atividades de ativação do Acervo Videobrasil.</p>
+                     ',
 
                     //APRESENTAÇAO EN
-                    '<p>In keeping with its experimental, innovation-oriented profile, for the first time ever the <span class="bold">Contemporary Art Festival Sesc_Videobrasil</span> has issued an open call for projects to be commissioned and featured in its 19th edition. The following artists were selected from among 446 project entries by artists from 71 countries: <span class="bold">Carlos Monroy</span> (Colombia), <span class="bold">Cristiano Lenhardt</span> (Brazil), <span class="bold">Keli-Safia Maksud</span> (Kenya) and <span class="bold">Ting-Ting Cheng</span> (Taiwan).</p>
-
-                     <p>The selected artists work on their projects with oversight from the committee, which is comprised of the curators Bernardo de Souza (Rio Grande do Sul, Brazil/lives and works in Rio de Janeiro), Bitu Cassundé (Ceará, Brazil/lives and works in Fortaleza), João Laia (Lisbon, Portugal/lives and works in London) and Júlia Rebouças (Sergipe, Brazil/lives and works in Belo Horizonte) – working under the guidance of the Festival’s general curator Solange Farkas. This initiative extends the curators’ involvement beyond the actual selection, engaging them in direct, continuous dialogue with the artists in developing their creative processes, in an extended time relationship.</p>
-                     
-                     <p>The curatorial statement for the exhibition Southern Panoramas | Commissioned Projects will soon be available.</p>
-                     
-                     <p><br /><span class="bold">About the selected projects</span><br />
-                     Carlos Monroy will participate with <em>Llorando se foi. O museu da lambada</em>. In memoriam de Francisco "Chico" Oliveira, which connects two phenomena from 1980s Brazil:  the rise of the lambada dance and music style, as well as its effects upon the building of national identity, and the advent and exponential growth of Bolivian immigration to São Paulo. In Superquadra-Sací, a film by the Cristiano Lenhardt, national Indigenous roots converge with the “cityscape,” the urban scenery, with throwbacks to Brazilian modernism. Mitumba, by Keli-Safia Maksud, explores the ties between the history of soap in the United Kingdom and African fabrics in Victorian-era Netherlands. The artist discusses the image of racial hygiene and African identity through textiles viewed globally as an authentic expression of Africa. The Atlas of Places do not exist, a project by Ting-Ting Cheng, is about a library containing hundreds of books on non-existent places, a questioning of borders and definitions of reality.
-                     </p>');
+                    '<p>The artworks in the exhibit are the results of an open call released by the Festival in 2014 for artists from the South to enter projects for commissioning. Through this new initiative, Videobrasil reaffirms its vocation for finding and betting on relevant artistic proposals in these regions. Created with curatorial oversight from the Festival, the artworks by Ting-Ting Cheng (Taiwan), Carlos Monroy (Colombia), Keli-Safia Maksud (Kenya) and Cristiano Lenhardt (Brazil) will inaugurate Galpão VB, a venue for exhibitions, research, and other activities designed to activate the Videobrasil Collection.</p>');
 
                     ?>
                     
-                    <!-- <p class="titulo" style="margin-top:37px"><?php pten('Statement da curadoria', 'Statement'); ?></p>
+                    <p class="titulo" style="margin-top:37px"><?php pten('Statement da curadoria', 'Statement'); ?></p>
 
                     <?php pten( 
                     ////STATEMENT PT
-                    '<p style="display: inline">
-                    Ao longo dos anos, os troféus criados para a mostra Panoramas do Sul também
-                    sofreram transformações. De peças simplesmente destinadas à premiação,
-                    tornaram-se verdadeiros objetos artísticos. No Galpão do Sesc, centro
-                    do eixo histórico do Festival, o público vai poder conhecer os troféus
-                    criados por artistas como Kiko Farkas, Guto Lacaz, Kimi Nii, Tunga,
-                    Carmela Gross, Luiz Zerbini, Raquel Garbelotti, Rosângela Rennó, entre
-                    outros, incluindo o troféu assinado pela artista Erika Verzutti para
-                    esta 18ª edição. Erika foi recentemente selecionada para a mostra
-                    Carnegie International, que reúne artistas de 19 países no Carnegie
-                    Museum, em Pittsburgh, EUA.</p><br />                     
-                    
-                    <p>Em bronze e cera colorida, o troféu do 18º Festival é uma
-                    escultura da artista paulistana Erika Verzutti em forma de romã. “A
-                    fruta foi uma escolha natural quando procurava uma forma de meu
-                    repertório conhecido e que fosse também celebratória”, diz. “É uma
-                    forma preciosa, muito expressiva, meio fisionômica, e associada também
-                    a sorte”</p>',
+                    '<p>A partir de estratégias distintas, os quatro projetos aqui apresentados abordam as tensões existentes entre a produção simbólica de diferentes regiões do mundo. Ao investigar a natureza das múltiplas identidades forjadas no contexto do Sul geopolítico, e como a cultura produzida nessa ampla região é construída, ganha circulação e se legitima, eles sublinham as nuances, lacunas e os desvios de percepção que constituem a pluralidade dos olhares que lançamos sobre o mundo. </p>
+                     <p>Nesse sentido, o colombiano Carlos Monroy toma como objeto de pesquisa o fenômeno da lambada, ritmo que ganha força no Brasil dos anos de 1990. A partir da apropriação brasileira de uma canção boliviana posteriormente plagiada por produtores franceses, a lambada representa um dos maiores sucessos comerciais da indústria fonográfica nacional. Suas repercussões mais recentes surgem em uma série de novas e controversas manifestações culturais hipersexualizadas, como certas modalidades do pagode e do funk carioca, que desconhecem faixas etárias ou estratos sociais, tal sua capilaridade nos meios de comunicação. Na construção da sua pesquisa, Monroy incorpora a questão dos direitos autorais como um elemento estruturante, tornando a apropriação de imagens preexistentes em vídeos da internet seu principal recurso para a elaboração de uma narrativa que mescla ficção e pesquisa documental e apresenta um potente painel da cultura latino-americana na contemporaneidade. </p>
+                     <p>As mesmas tensões entre expressões culturais locais e elementos estrangeiros estão presentes na obra da queniana Keli-Safia Maksud. A artista investiga a disseminação de dois produtos europeus no continente africano: o sabão e os tecidos estampados. Abordando os discursos associados a eles, Keli discute os elementos que formam sua identidade e os reinscreve a partir de uma visada crítica. Sua obra parte de uma trouxa feita com os tradicionais tecidos com padronagens “africanas”, que vão sendo embranquecidos por alvejantes. As narrativas que derivam dessa ação central reelaboram, poética e politicamente, os temas centrais de sua produção. </p>
+                     <p>A interseção entre representação e simbologia é um dos temas que atravessa toda a prática da taiwanesa Ting-Ting Cheng. Seu The Atlas of Places Do Not Exist, uma extensa coleção de livros sobre lugares que não existem, olha para o mundo como um conjunto de territórios imateriais e levanta questões que remetem ao universo do próprio Videobrasil – afinal, o Sul global é também um lugar que não existe, carregado de símbolos aqui colocados em diálogo. Ecoando temas do Festival, a biblioteca criada por Cheng constitui um mapeamento de diversas questões que marcam nosso universo simbólico. </p>
+                     <p>Superquadra-saci, de Cristiano Lenhardt, explora em sentido análogo a existência e a inexistência dos lugares. Nesse vídeo, o artista atravessa diferentes camadas de enfrentamentos ficcionais para construir exercícios de uma política da liberdade e do pensamento utópico. Ao mesclar o cotidiano ao sobrenatural e ao monstruoso, Lenhardt faz de personagens esquecidos moradia e refúgio, como se lembrasse que, atrás de cada coluna modernista, há um “Saci-Pererê” – um “Ser-Índio” – escondido, como uma espécie de assombração. </p>
+                     <p>Entre o universo fantástico e a biblioteca, a indústria cultural e a publicidade, o que temos é um vislumbre da instabilidade que constitui as identidades e os lugares de fora do centro. É essa a paisagem de disputas, às vezes radicais, que vemos, ao lançar o olhar para um panorama do sul. </p>
+                     ',
 
                     //STATEMENT EN
-                    '<p style="display: inline">
-                    Ao longo dos anos, os troféus criados para a mostra Panoramas do Sul também
-                    sofreram transformações. De peças simplesmente destinadas à premiação,
-                    tornaram-se verdadeiros objetos artísticos. No Galpão do Sesc, centro
-                    do eixo histórico do Festival, o público vai poder conhecer os troféus
-                    criados por artistas como Kiko Farkas, Guto Lacaz, Kimi Nii, Tunga,
-                    Carmela Gross, Luiz Zerbini, Raquel Garbelotti, Rosângela Rennó, entre
-                    outros, incluindo o troféu assinado pela artista Erika Verzutti para
-                    esta 18ª edição. Erika foi recentemente selecionada para a mostra
-                    Carnegie International, que reúne artistas de 19 países no Carnegie
-                    Museum, em Pittsburgh, EUA.</p><br />                     
-                    
-                    <p>Em bronze e cera colorida, o troféu do 18º Festival é uma
-                    escultura da artista paulistana Erika Verzutti em forma de romã. “A
-                    fruta foi uma escolha natural quando procurava uma forma de meu
-                    repertório conhecido e que fosse também celebratória”, diz. “É uma
-                    forma preciosa, muito expressiva, meio fisionômica, e associada também
-                    a sorte”</p>');
+                    '<p>The four projects featured here take distinct approaches to dealing with the existing tensions between symbolic production from different parts of the world. Investigating the presence and materiality of identities forged in the context of the geopolitical South and the way culture produced in this vast region —made up of “non-Western” areas—is built, circulated, and legitimized, they underscore the gaps and deviations in perception that have by now become a natural part of our gaze upon the world. </p>
+                     <p>In this sense, the object of research of Colombia’s Carlos Monroy is the 1990s lambada craze. Spawned by the Brazilian appropriation of a Bolivian song that was later plagiarized by French music producers, it was one of the biggest commercial successes of the national music industry. Its more recent repercussions involve a series of other hypersexualized cultural manifestations, such as certain modalities of pagode and funk carioca. In building his research, Monroy incorporates the issue of copyrights as a structuring element, appropriating preexisting footage from Internet videos as his primary tool to weave a narrative that combines fiction and documental research, drawing a compelling portrait of Latin American culture in contemporary times. </p>
+                     <p>The same tensions between local cultural expressions and foreign elements are featured in the work of Keli-Safia Maksud from Kenya. The artist explores the dissemination of two European products in the African continent: soap and print fabrics. Dealing with the discourses these items bring in their wake, Maksud discusses the elements that inform her identity and rearranges them from a critical perspective. Her work features a bundle of traditional textiles with “African” print patterns that are gradually whitened with bleach. The narratives deriving from the central action poetically and politically re-elaborate key topics from her output. </p>
+                     <p>The intersection of representation and symbology is one of the subjects featured throughout the entire practice of Taiwan’s Ting-Ting Cheng. Her The Atlas of Places Do Not Exist, a vast collection of books about inexistent localities, looks out on the world as a group of immaterial territories and raises issues that hark back to Videobrasil’s own universe—after all, the global South is also a place that doesn’t exist, one that’s charged with symbols and representations that are made to converse here. Echoing themes from the Festival, Cheng’s library constitutes a mapping of different issues that mark our symbolic universe. </p>
+                     <p>Cristiano Lenhardt’s Superquadra-saci analogously explores the existence and inexistence of places. In this video, the artist cuts through different layers of fictional confrontations to build exercises that relate to a politics of freedom and utopian thinking. Combining everyday life with the supernatural and the monstrous, Lenhardt makes forgotten characters his dwelling and refuge, as if remembering that behind every modernist column there lurks a “Saci-Pererê”—an “Indian-Being”—hidden like some ghost. </p>
+                     <p>Between the fantastic universe and the library, the culture industry and advertising, what we get is a glimpse of the instability that constitutes off-center identities and places. This landscape of disputes, at times radical, is what we see on directing our gaze to a southern panorama.</p>
+                     ');
 
-                    ?> -->
+                    ?>
                     
                 </div>
 
