@@ -3,6 +3,7 @@
 $id_obra = '1801702';
 $id_artista1 = '482770';
 $id_artista2 = '616368';
+$urlplataforma = '#tocaia';
 
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
@@ -79,6 +80,8 @@ $nome_artista2 = 'Gustavo Jardim';
                 paletaArtistas($('#artista-bio1, #artista-bio2'));
                 paletaArtistas($('#nome-artista'));
                 paletaArtistas($('.artista-premio'));
+
+                $('.url-plataforma').attr('href', 'http://plataforma.videobrasil.org.br/<?=$urlplataforma;?>');
             }
         );
     </script>

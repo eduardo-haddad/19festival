@@ -78,6 +78,8 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
                 paletaArtistas($('#obra-sinopse, #obra-titulo, .link-plataforma'));
                 paletaArtistas($('#artista-bio'));
                 paletaArtistas($('#nome-artista'));
+
+               $('.url-plataforma').attr('href', 'http://plataforma.videobrasil.org.br/<?=$urlplataforma;?>'); 
                 
             }
         );

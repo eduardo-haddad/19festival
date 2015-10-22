@@ -3,6 +3,8 @@
 $id_obra = '1801352';
 $id_artista = '238611';
 
+$urlplataforma = '#thereflectionofpower';
+
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 $pais_artista = $idioma == 'pt' ?  'Romênia / França' : 'Romania / France';
@@ -71,6 +73,8 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
                 paletaArtistas($('#obra-sinopse, #obra-titulo, .link-plataforma'));
                 paletaArtistas($('#artista-bio'));
                 paletaArtistas($('#nome-artista'));
+
+               $('.url-plataforma').attr('href', 'http://plataforma.videobrasil.org.br/<?=$urlplataforma;?>'); 
                 
             }
         );

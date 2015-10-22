@@ -5,6 +5,8 @@ $id_artista1 = '1803038';
 $id_artista2 = '1803034';
 $id_artista3 = '1803035';
 
+$urlplataforma = '#oikonomicthreads';
+
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 //$pais_artista = $idioma == 'pt' ?  'Mali' : 'Mali';
