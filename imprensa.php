@@ -109,9 +109,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                 - <a href="http://www.videobrasil.org.br/press/19festival/19festival_guestartists_artworks.zip" class="link">todas as obras</a> (arquivo zip)<br />
                                 - <a href="https://www.flickr.com/photos/videobrasil/sets/72157656722312673" class="link" target="_blank">destaques</a> (flickr - alta resolução)<br /><br />
                                 <span class="bold">Panoramas do Sul | Obras selecionadas</span><br />
+                                - <a href="http://www.videobrasil.org.br/press/19festival/19festival_vistas/obras-19festival-fotografo_Everton_Ballardin.zip" class="link">vistas da exposição</a> (arquivo zip) - fotógrafo: Everton Ballardin<br />
                                 - <a href="https://www.flickr.com/photos/videobrasil/albums/72157658378379360" class="link" target="_blank">todas as obras</a> (flickr - alta resolução)<br />
                                 - <a href="http://www.videobrasil.org.br/press/19festival/19festival_artworks_selectedartworks.zip" class="link">destaques</a> (arquivo zip)<br /><br />
                                 <span class="bold">Panoramas do Sul | Projetos comissionados</span><br />
+                                - <a href="http://www.videobrasil.org.br/press/19festival/19festival_vistas/projetos-19festival-fotografo_Everton_Ballardin.zip" class="link">vistas da exposição</a> (arquivo zip) - fotógrafo: Everton Ballardin<br />
                                 - <a href="http://www.videobrasil.org.br/press/19festival/19festival_projects_sketches.zip" class="link">esboços</a> (arquivo zip)<br /><br />
                                 <span class="bold">Quem nasce pra aventura não toma outro<br />rumo – obras do Acervo Videobrasil</span><br />
                                 - <a href="https://www.flickr.com/photos/videobrasil/albums/72157659096547555" class="link" target="_blank">destaques</a> (flickr - alta resolução)
@@ -120,10 +122,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                 - <a href="http://www.videobrasil.org.br/press/19festival/19festival_guestartists_artworks.zip" class="link">all works</a> (zip file)<br />
                                 - <a href="https://www.flickr.com/photos/videobrasil/sets/72157656722312673" class="link" target="_blank">highlights</a> (flickr - high resolution)<br /><br />
                                 <span class="bold">Southern Panoramas | Selected works</span><br />
+                                - <a href="http://www.videobrasil.org.br/press/19festival/19festival_vistas/obras-19festival-fotografo_Everton_Ballardin.zip" class="link">exhibition views</a> (zip file) - photos: Everton Ballardin<br />
                                 - <a href="https://www.flickr.com/photos/videobrasil/albums/72157658378379360" class="link" target="_blank">all works</a> (flickr - high resolution)<br />
                                 - <a href="http://www.videobrasil.org.br/press/19festival/19festival_artworks_selectedartworks.zip" class="link">highlights</a> (zip file)<br /><br />
-                                <span class="bold">Southern Panoramas | C
-ommissioned projects</span><br />
+                                <span class="bold">Southern Panoramas | Commissioned projects</span><br />
+                                - <a href="http://www.videobrasil.org.br/press/19festival/19festival_vistas/projetos-19festival-fotografo_Everton_Ballardin.zip" class="link">exhibition views</a> (zip file) - photos: Everton Ballardin<br />
                                 - <a href="http://www.videobrasil.org.br/press/19festival/19festival_projects_sketches.zip" class="link">sketches</a> (zip file)<br /><br />
                                 <span class="bold">Those born for adventure don’t stray from<br />the path – artworks from Videobrasil Collection</span><br />
                                 - <a href="https://www.flickr.com/photos/videobrasil/albums/72157659096547555" class="link" target="_blank">highlights</a> (flickr - high resolution)'); ?>
