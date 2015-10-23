@@ -3,6 +3,8 @@
 $id_obra = '1800083';
 $id_artista = '41322';
 
+$urlplataforma = '#goran';
+
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 $pais_artista = $idioma == 'pt' ?  'Canadá / Sérvia' : 'Canada / Serbia';

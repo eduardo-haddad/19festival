@@ -3,6 +3,8 @@
 $id_obra = '1801718';
 $id_artista = '1270442';
 
+$urlplataforma = '#pendular';
+
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 $pais_artista = $idioma == 'pt' ?  'Brasil' : 'Brazil';

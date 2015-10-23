@@ -4,6 +4,8 @@
 $id_obra = '1801645';
 $id_artista = '1799239';
 
+$urlplataforma = '#gamsutl';
+
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 $pais_artista = $idioma == 'pt' ?  'Rússia' : 'Russia';

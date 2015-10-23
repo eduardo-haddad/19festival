@@ -3,6 +3,8 @@
 $id_obra = '1802368';
 $id_artista = '1794314';
 
+$urlplataforma = '#ytobarrada';
+
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 $pais_artista = $idioma == 'pt' ?  'Marrocos / França' : 'Morocco / France';

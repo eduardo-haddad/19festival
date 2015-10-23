@@ -3,6 +3,8 @@
 $id_obra = '1800361';
 $id_artista = '1799251';
 
+$urlplataforma = '#purgatorio';
+
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 $pais_artista = $idioma == 'pt' ?  'Austrália' : 'Australia';

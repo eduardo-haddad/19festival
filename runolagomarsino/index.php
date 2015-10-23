@@ -3,6 +3,8 @@
 $id_obra = '1801224';
 $id_artista = '1110263';
 
+$urlplataforma = '#followingthelight';
+
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 $pais_artista = $idioma == 'pt' ?  'Suécia / Brasil' : 'Sweden / Brazil';

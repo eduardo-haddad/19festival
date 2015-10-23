@@ -3,6 +3,8 @@
 $id_obra = '1801366';
 $id_artista = '1589119';
 
+$urlplataforma = '#dansedesmasques';
+
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 $pais_artista = $idioma == 'pt' ?  'Mali' : 'Mali';

@@ -3,7 +3,7 @@
 $id_obra = '1801453';
 $id_artista = '78649';
 
-$urlplataforma = '#noneoftheabove';
+$urlplataforma = '#milvezesum';
 
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 

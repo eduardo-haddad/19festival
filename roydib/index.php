@@ -4,6 +4,8 @@ $id_obra1 = '1801241';
 $id_obra2 = '1800129';
 $id_artista = '1589113';
 
+$urlplataforma = '#aspectacleofprivacy';
+
 
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
@@ -172,7 +174,7 @@ $nome_artista = strtr($nome_artista, $troca_acentos);
                                                            'In Mondial 2010, a gay couple leaves Lebanon for Palestine, driving 200 km through territories whose borders do not allow free transit.'); ?></span> -->
                             <!-- LINK PLATAFORMA -->
                             <!-- <div class="link-plataforma"> -->
-                                <?php include('../elements/artistas_plataforma.html'); ?>
+                                <!-- <?php include('../elements/artistas_plataforma.html'); ?> -->
                             <!-- </div> -->
                             <!-- /LINK PLATAFORMA -->
            <!--              </div>

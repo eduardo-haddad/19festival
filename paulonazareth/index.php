@@ -3,6 +3,8 @@
 $id_obra = '1801794';
 $id_artista = '276018';
 
+$urlplataforma = '#milvezesum';
+
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 $pais_artista = $idioma == 'pt' ?  'Brasil' : 'Brazil';

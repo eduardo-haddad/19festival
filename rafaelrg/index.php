@@ -3,6 +3,8 @@
 $id_obra = '1801406';
 $id_artista = '967018';
 
+$urlplataforma = '#ditoescuro';
+
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 $pais_artista = $idioma == 'pt' ?  'Brasil' : 'Brazil';

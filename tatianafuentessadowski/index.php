@@ -3,6 +3,8 @@
 $id_obra = '1800869';
 $id_artista = '1799655';
 
+$urlplataforma = '#lahuella';
+
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 $pais_artista = $idioma == 'pt' ?  'Peru / França' : 'Peru / France';

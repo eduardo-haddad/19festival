@@ -3,6 +3,8 @@
 $id_obra = '1809675';
 $id_artista = '1794310';
 
+$urlplataforma = '#soniagomes';
+
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 $pais_artista = $idioma == 'pt' ?  'Brasil' : 'Brazil';

@@ -3,6 +3,8 @@
 $id_obra = '1801099';
 $id_artista = '945982';
 
+$urlplataforma = '#adefinicaodaarte';
+
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 $pais_artista = $idioma == 'pt' ?  'Brasil' : 'Brazil';

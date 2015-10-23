@@ -3,6 +3,8 @@
 $id_obra = '1800352';
 $id_artista = '1799291';
 
+$urlplataforma = '#ooapreview';
+
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 $pais_artista = $idioma == 'pt' ?  'Lituânia / México' : 'Lithuania / Mexico';

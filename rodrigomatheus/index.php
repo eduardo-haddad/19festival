@@ -3,6 +3,8 @@
 $id_obra = '1809682';
 $id_artista = '847409';
 
+$urlplataforma = '#rodrigomatheus';
+
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 $pais_artista = $idioma == 'pt' ?  'Brasil' : 'Brazil';

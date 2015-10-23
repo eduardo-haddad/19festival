@@ -4,6 +4,8 @@ $id_obra1 = '1801056';
 $id_obra2 = '1801085';
 $id_artista = '1250638';
 
+$urlplataforma = '#bahiaeportugal';
+
 
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 

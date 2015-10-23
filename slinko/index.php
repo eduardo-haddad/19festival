@@ -3,6 +3,8 @@
 $id_obra = '1801435';
 $id_artista = '1799853';
 
+$urlplataforma = '#ghostlookingforitsspirit';
+
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
 $pais_artista = $idioma == 'pt' ?  'Ucrânia / EUA' : 'Ukraine / USA';
