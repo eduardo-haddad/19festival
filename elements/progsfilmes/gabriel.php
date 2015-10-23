@@ -33,7 +33,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
                 <p><span class="bold"><?php pten('<a href="/gabrielabrantes" id="linkartista">Gabriel Abrantes</a> e Benjamin Crotty', '<a href="/gabrielabrantes" id="linkartista">Gabriel Abrantes</a> & Benjamin Crotty'); ?><br />
-                   Visionary Iraq [Iraque Visionário], 2008, 18’17” </span><br />
+                   Visionary Iraq, 2008, 18’17” </span><br />
                    <?php pten('<em>Visionary Iraq</em> fala de um rapaz português que parte, com a irmã adotada angolana, para a Operação Iraqi Freedom. Durante seu vernissage/festa de despedida, a mãe dos jovens percebe que os irmãos estão tendo um relacionamento amoroso secreto. Ao mesmo tempo, é revelado que seu pai lucra com investimentos em infraestrutura no Iraque, deixando-os diante de uma decisão moral.',
                    '<em>Visionary Iraq</em> is about a Portuguese young man and his adopted Angolan sister who join the Iraqi Freedom movement. During their vernissage/farewell party, their mother discovers that they’ve been having a secret love affair. At the same time, it also comes to light that their father turns a tidy profit from investments in Iraqi infrastructure projects, placing the pair in a difficult moral dilemma.'); ?></p>
             </div>
@@ -57,7 +57,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
                 <p><span class="bold"><?php pten('<a href="/gabrielabrantes" id="linkartista">Gabriel Abrantes</a>', '<a href="/gabrielabrantes" id="linkartista">Gabriel Abrantes</a>'); ?><br />
-                   <span style="font-family:Arial; font-weight:bold">Ὀρνιθες</span> [Ornithes – Aves | Birds], 2012, 17’</span><br />
+                   <span style="font-family:Arial; font-weight:bold">Ὀρνιθες</span> [Ornithes – Aves], 2012, 17’</span><br />
                    <?php pten('Uma sátira sobre línguas mortas, totalitarismo e colonização filmada em Jacmel, no Haiti. O filme parte de uma montagem de <em>As Aves</em>, de Aristófanes, na Grécia, de onde dois homens fogem para escapar dos impostos. Em sua busca por uma nova cidade, decidem colonizar e organizar o reino dos pássaros – o céu –, que tinha, até então, sido “livre”. Começam a cobrar impostos dos homens e dos deuses pela passagem no céu, espaço de trânsito entre eles.<br /><span class="bold">*o filme também será exibido fora do programa, no dia 8.10, às 19h, no Galpão VB</span>',
                    'A satire on dead languages, totalitarianism, and colonization shot in Jacmel, Haiti. The film begins with a staging of Aristophanes’ <em>The Birds</em> in Greece, where two men have fled to avoid paying taxes. In their search for a new city, they decide to colonize and organize the kingdom of birds—the sky—which had been “free” until then. They start charging taxes from men and the gods if they want to pass through the sky.<br /><span class="bold">*the film will also be screened on Oct 8, at 7pm, at Galpão VB</span>'); ?></p>
             </div>
@@ -69,7 +69,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
                 <p><span class="bold"><?php pten('<a href="/gabrielabrantes" id="linkartista">Gabriel Abrantes</a> e Daniel Schmidt', '<a href="/gabrielabrantes" id="linkartista">Gabriel Abrantes</a> & Daniel Schmidt'); ?><br />
-                   A History of Mutual Respect [Uma História de Respeito Mútuo],<br />2010, 24’</span><br />
+                   A History of Mutual Respect,<br />2010, 24’</span><br />
                    <?php pten('Filmado entre Brasil, Portugal e Argentina, trata da complexa dinâmica da relação entre Brasil e Portugal, e dos clichês da representação da alteridade. Confrontados com a desilusão da experiência modernista em Brasília, dois jovens americanos partem em uma jornada em busca de “amor puro”, que encontrarão em uma jovem indígena.',
                    'Shot in Brazil, Portugal, and Argentina, the film looks at the complex dynamic of Brazil-Portugal relations and the clichés that pervade representations of alterity. Faced with their disillusionment at the modernist experiment in Brasília, two young Americans decide to go in search of “pure love,” which they will find in a young Indigenous woman.'); ?></p>
             </div>

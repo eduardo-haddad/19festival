@@ -101,7 +101,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
                 <p><span class="bold"><a href="/tatianafuentessadowski" id="linkartista"><?php pten('Tatiana Fuentes Sadowski</a> (Peru/França)', 'Tatiana Fuentes Sadowski</a> (Peru/France)'); ?><br />
-                   La Huella [A Pegada | The Footstep], 2012, 18’ </span><br />
+                   La Huella, 2012, 18’ </span><br />
                    <?php pten('<em>La Huella</em> [A Pegada] apresenta uma coleção de fotografias perturbadoras, associadas numa sucessão onírica que sublinha o aspecto ficcional inerente à memória. Produzidas durante o conflito ocorrido no Peru entre 1980 e 2000, as imagens foram reunidas pela comissão da verdade e reconciliação, que investigou o período de guerra civil no país. A obra analisa as marcas que o período de conflito armado deixou na população peruana; são traços silenciados e, por vezes, invisíveis, mas inapagáveis.',
                    '<em>La Huella</em> (The Footstep) features a collection of disturbing photographs, associated in a dreamlike sequence that underscores the fictional aspect inherent to memory. Produced during the conflict that took place in Peru between 1980 and 2000, the pictures were gathered by the Truth and Reconciliation Commission, which investigated the civil war in the country. The piece explores the marks that the armed conflict left on the Peruvian population: silenced, at times invisible, but indelible traces. '); ?></p>
             </div>
@@ -148,7 +148,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
                 <p><span class="bold"><a href="/viktorijarybakova" id="linkartista"><?php pten('Viktorija Rybakova</a> (Lituânia/México)', 'Viktorija Rybakova</a> (Lithuania/Mexico)'); ?><br />
-                   Oo, a preview [Oo, um trailer], 2013, 3’30” </span><br />
+                   Oo, a preview, 2013, 3’30” </span><br />
                    <?php pten('A voz hipnótica do narrador nos faz mergulhar nas páginas de um livro – aqui, um objeto bidimensional expandido para o universo da linguagem verbal. Ecos da psicanálise promovem uma deriva mental tão afetiva e orgânica quanto controlada, reforçada pela natureza híbrida das imagens. A força onírica que nos arrasta para dentro do livro parece redundar em seu próprio estratagema semântico, devolvendo-nos a própria arquitetura forjada pela linguagem. A obra também pode ser vista no espaço expositivo (Convivência Sesc Pompeia).',
                    'The hypnotic voiceover compels us to dive into the pages of a book – here, a two-dimensional object expanded into the realm of verbal language, which articulates itself visually. Echoes from psychoanalysis cause the mind to wander in a way as affective and organic as it is controlled, and further underscored by the hybrid nature of the images. The dreamlike strength that drags us into the book appears to cycle back into its own semantic stratagem, giving us the very architecture forged by language. The piece can also be seen at the exhibition venue (Sesc Pompeia’s Convivência area).'); ?></p>
             </div>
@@ -172,7 +172,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
                 <p><span class="bold"><a href="/chulayarnnonsiriphol" id="linkartista"><?php pten('Chulayarnnon Siriphol</a> (Tailândia)', 'Chulayarnnon Siriphol</a> (Thailand)'); ?><br />
-                   Myth of Modernity [Mito da modernidade], 2014, 16’</span><br /> 
+                   Myth of Modernity, 2014, 16’</span><br /> 
                    <?php pten('Situado entre o documentário e a ficção, o filme começa investigando o impacto do modernismo na cultura tailandesa, em especial em sua arquitetura, e transforma-se em uma ficção científica em que a população do país é hipnotizada por uma figura piramidal de luz. Siriphol promove uma análise das estruturas de poder que se perpetuam ao longo da história, por meio, inclusive, de uma arquitetura do poder, seja de ordem divina ou terrena.',
                    'Halfway between documentary and fiction, the film begins as an inquiry into the impact of modernism in Thai culture, particularly its architecture, and becomes a sci-fi piece where the country’s population is hypnotized by a pyramid-shaped figure of light. Siriphol offers an interesting insight into the power structures that perpetuate themselves throughout history, including through an architecture of power, from an either divine or earthly order.'); ?></p>
             </div>
@@ -184,7 +184,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
                 <p><span class="bold"><a href="/distruktur" id="linkartista"><?php pten('Distruktur</a> (Brasil/Alemanha)', 'Distruktur</a> (Brazil/Germany)'); ?><br />
-                   In the Traveler's Heart [No coração do viajante], 2013, 19’</span><br />
+                   In the Traveler's Heart, 2013, 19’</span><br />
                    <?php pten('A maior parte da obra do Distruktur constitui-se em filmes em Super-8 e 16 mm, definidos pela dupla de artistas como filmes-performances, num trânsito constante entre os campos do cinema e das artes visuais. <em>In the Traveler’s Heart</em> fala do trajeto de um sujeito solitário, duplo de homem e mulher, que caminha entre a neve e o mar. O barulho de seus passos é interrompido quando o canto do viajante faz ecoar Cuitelinho, música do cancioneiro popular brasileiro que fala de uma saudade cortante como aço de navalha.',
                    'The majority of Distruktur’s output consists of Super 8 and 16 mm films, defined by the artist duo as performance-films, and shifting back and forth constantly between cinema and the visual arts. <em>In the Traveler’s Heart</em> is about the trajectory of a lonely subject, a mixture of man and woman, who walks between the snow and the ocean. The sound of its footsteps is interrupted when he starts singing Cuitelinho, a Brazilian folk song that speaks of a longing that cuts like a steel razor.'); ?></p>
             </div>
@@ -196,7 +196,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             </div>
             <div class="col-sm-12 col-md-6 f" style="float: right;">
                 <p><span class="bold"><a href="/leticiaramos" id="linkartista"><?php pten('Letícia Ramos</a> (Brasil)', 'Letícia Ramos</a> (Brazil)'); ?><br />
-                   VOSTOK_screening [VOSTOK_projeção], 2014, 8’</span><br />
+                   VOSTOK_screening, 2014, 8’</span><br />
                    <?php pten('Perdido abaixo da crosta glacial, um submarino navega pelas profundezas de um lago outrora congelado da Antártica, enquanto uma voz soturna alerta sobre a missão e seu curso. Letícia Ramos recorre ao universo da ficção para desvelar realidades paralelas; ao engendrar seu próprio aparato de pesquisa e laboratório, desafia a ciência por meio do humor e da tecnologia. A série <em>VOSTOK</em>, à qual o vídeo pertence, envolve uma performance.',
                    'Lost beneath the glacial crust, a submarine navigates the depths of a formerly frozen Antarctic lake, as a voice warns of the mission and its course. Letícia Ramos resorts to the world of fiction to unveil parallel realities; by concocting her own research and laboratory apparatus, she defies science through humor and technology. The <em>VOSTOK</em> series, to which the video belongs, includes a performance.'); ?></p>
             </div>
