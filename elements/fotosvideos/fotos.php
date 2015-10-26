@@ -42,6 +42,70 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             <div class="row" style="clear: both;">
 
               
+                <!-- 17 -->
+                <div class="col-xs-12 col-md-6 h" style="float: left;">
+                     <div class="image">
+
+                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157660378134075" target="_blank">
+                        <img src="img/fotos/17-residencias.jpg" alt="" width="485px" height="285px" />
+                        <span class="texto"><?php pten(
+                          '#19Festival | Programas Públicos | Encontro com Rede de Residências',
+                          '#19Festival | Public Programs | Meeting the Residency Network'
+                          );?>
+                          </span>
+                       </a>
+                    </div>
+                </div>
+                <!-- 17 -->
+
+                <!-- 16 -->
+                <div class="col-xs-12 col-md-6 h" style="float: left;">
+                     <div class="image">
+
+                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157659784784730" target="_blank">
+                        <img src="img/fotos/16-projetos.jpg" alt="" width="485px" height="285px" />
+                        <span class="texto"><?php pten(
+                          'Panoramas do Sul | Projetos Comissionados',
+                          'Southern Panoramas | Commissioned Projects'
+                          );?>
+                          </span>
+                       </a>
+                    </div>
+                </div>
+                <!-- 16 -->
+
+                <!-- 15 -->
+                <div class="col-xs-12 col-md-6 h" style="float: left;">
+                     <div class="image">
+
+                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157659784706066" target="_blank">
+                        <img src="img/fotos/15-premiacao.jpg" alt="" width="485px" height="285px" />
+                        <span class="texto"><?php pten(
+                          '#19Festival | Cerimônia de premiação',
+                          '#19Festival | Award cerimony'
+                          );?>
+                          </span>
+                       </a>
+                    </div>
+                </div>
+                <!-- 15 -->
+
+                <!-- 14 -->
+                <div class="col-xs-12 col-md-6 h" style="float: left;">
+                     <div class="image">
+
+                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157659783906706" target="_blank">
+                        <img src="img/fotos/14-abertura_paco.jpg" alt="" width="485px" height="285px" />
+                        <span class="texto"><?php pten(
+                          '#19Festival | Abertura da exposição paralela "Quem nasce pra aventura não toma outro rumo"',
+                          '#19Festival | Opening of parallel exhibition "Those Born For Adventure Don’t Stray From The Path"'
+                          );?>
+                          </span>
+                       </a>
+                    </div>
+                </div>
+                <!-- 14 -->
+
                 <!-- 13 -->
                 <div class="col-xs-12 col-md-6 h" style="float: left;">
                      <div class="image">
@@ -56,6 +120,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                        </a>
                     </div>
                 </div>
+                <!-- 13 -->
 
                 <!-- 12 -->
                 <div class="col-xs-12 col-md-6 h" style="float: left;">
@@ -71,6 +136,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                        </a>
                     </div>
                 </div>
+                <!-- 12 -->
 
                 <!-- 11 -->
                 <div class="col-xs-12 col-md-6 h" style="float: left;">
@@ -87,6 +153,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                        </a>
                     </div>
                 </div>
+                <!-- 11 -->
 
                 <!-- 10 -->
                 <div class="col-xs-12 col-md-6 h" style="float: left;">
@@ -102,6 +169,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                        </a>
                     </div>
                 </div>
+                <!-- 10 -->
 
                 <!-- 09 -->
                 <div class="col-xs-12 col-md-6 h" style="float: left;">

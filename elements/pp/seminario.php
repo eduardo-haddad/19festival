@@ -201,7 +201,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <p>Collect your ticket 1h before the activity at Sesc Pompeia.<br /><span class="bold">Seats are limited</span>.</p>
                 <span class="bold">Learn more:</span><br />
                  - <a href="http://site.videobrasil.org.br/en/news/1906856" class="link" target="_blank">read the panel\'s news coverage</a><br />
-                 - <a href="https://www.flickr.com/photos/videobrasil/albums/72157659854955615" class="link" target="_blank">photo album');  ?> 
+                 - <a href="https://www.flickr.com/photos/videobrasil/albums/72157659854955615" class="link" target="_blank">photo album</a>');  ?> 
                 </div> 
             </div>
 
@@ -229,7 +229,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/pp/seminario-narrativas<?php pten('-pt.png','-en.jpg');?>" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/seminario-mesa3_1.jpg" class="img-responsive" style="margin-bottom: 15px" />    
 
                     
                     <p><span style="text-transform: uppercase"><?php pten('Participantes', 'Participants'); ?></span></p>
@@ -255,19 +255,17 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 pten('<p>Aberta a múltiplas interpretações e percepções, a ficção permite extrapolar a linearidade narrativa em direção a outras lógicas sensoriais. A dimensão ficcional da literatura libera o narrador para outras maneiras de contar histórias e elaborar trajetórias pessoais ou coletivas. A mesa discute a criação que, destituída de prova ou documento, busca cruzamentos de palavras e imagens que permitam escapar de um mundo reduzido ao visível e entrar no campo da imaginação.
                     </p>
                     <p>Retirada de ingressos 1h antes no próprio local. <span class="bold">Vagas limitadas</span>.</p>
-                <!--<p><span class="bold">Saiba mais</span><br />
-                 - relatos<br />
-                 - notícias<br />
-                 - fotos</p>-->',
+                <span class="bold">Saiba mais</span><br />
+                 - <a href="http://site.videobrasil.org.br/news/1922243" class="link" target="_blank">leia o texto de cobertura da mesa</a><br />
+                 - <a href="https://www.flickr.com/photos/videobrasil/" class="link" target="_blank">veja fotos do encontro</a>',
 
                 //Evento 3 - EN
                 '<p>Being open to multiple interpretations and perceptions, fiction enables narrative linearity to be replaced with other sensory logics. The fictional dimension of literature liberates the narrator for other forms of storytelling and to elaborate personal or collective trajectories. The panel discusses creative works which, devoid of any proof or documentation, look for word and image junctures that allow an escape from a world reduced to what is visible and into the realm of imagination.
                     </p>
                     <p>Collect your ticket 1h before the activity at Sesc Pompeia.<br /><span class="bold">Seats are limited</span>.</p>
-                <!--<p><span class="bold">Learn more</span><br />
-                 - statements<br />
-                 - news<br />
-                 - photos</p>-->');  ?> 
+                <span class="bold">Learn more:</span><br />
+                 - <a href="http://site.videobrasil.org.br/en/news/1922243" class="link" target="_blank">read the panel\'s news coverage</a><br />
+                 - <a href="https://www.flickr.com/photos/videobrasil/" class="link" target="_blank">photo album</a>');  ?> 
                 </div> 
             </div>
 

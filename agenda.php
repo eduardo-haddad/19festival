@@ -215,6 +215,11 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-filme">19h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
                     </ol>
                     <ol>
+                    <li>28 de outubro, quarta-feira</li>
+                    <li>15h00 | Galpão VB | Sala de Vídeo | Artistas do 19º Festival no Acervo Videobrasil | Imagem e Autoimagem</li>
+                    <li>18h00 | Galpão VB | Sala de Vídeo | Artistas do 19º Festival no Acervo Videobrasil | Imagem e Autoimagem</li>
+                    </ol>
+                    <ol>
                     <li>29 de outubro, quinta-feira</li>
                     <li class="agenda-seminario">14h00 | Sesc Pompeia, Teatro | Programas Públicos | <a href="pp.php#seminario/mesa4" target="_blank" class="link">Seminário Lugares e Sentidos na Arte: Debates a Partir do Sul | Mesa 4: Repensar o tempo: arte,  silêncios e histórias</a></li>
                     <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #1 + Programa #2</a></li>
@@ -306,8 +311,6 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     </ol>
                     <ol>
                     <li>25 de novembro, quarta-feira</li>
-                    <li class="agenda-publicacao">20h00 | Sesc Pompeia, Teatro | <a href="publicacoes.php#outros/cad11" target="_blank" class="link">Lançamento do Caderno SESC_VIDEOBRASIL 11_Aliança de corpos vulneráveis </a></li>
-                    <li class="agenda-publicacao">20h00 | Sesc Pompeia, Teatro | <a href="pp.php#encontros/cad11" target="_blank" class="link">Mesa de lançamento do Caderno SESC_VIDEOBRASIL 11_Aliança de corpos vulneráveis </a></li>
                     <li class="agenda-publicacao">20h00 | Sesc Pompeia, Teatro | <a href="publicacoes.php#festival/selecionados" target="_blank" class="link">Lançamento do livro Panoramas do Sul | Obras Selecionadas e Projetos Comissionados</a></li>
                     <li class="agenda-performance">21h30 | Sesc Pompeia, Convivência | Performance | <a href="performances.php#fancy" target="_blank" class="link">Fancy em Pyetà segundo ato</a></li>
                     </ol>
@@ -464,6 +467,11 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-filme">07:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
                     </ol>
                     <ol>
+                    <li>October 28, Wednesday</li>
+                    <li>03:00pm | Video Room | 19th Festival Artists in the Videobrasil Collection | Image and Self-Image</li>
+                    <li>06:00pm | Video Room | 19th Festival Artists in the Videobrasil Collection | Image and Self-Image</li>
+                    </ol>
+                    <ol>
                     <li>October 29, Thursday</li>
                     <li class="agenda-seminario">02:00pm | Sesc Pompeia, Teatro | Public Programs | <a href="pp.php#seminario/mesa4" target="_blank" class="link">Seminar Places and meanings of art: debates from the South | Panel 4: Rethinking time: art, silences and histories</a></li>
                     <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #1 + Program #2</a></li>
@@ -555,8 +563,6 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     </ol>
                     <ol>
                     <li>November 25, Wednesday</li>
-                    <li class="agenda-publicacao">08:00pm | Sesc Pompeia, Teatro | <a href="publicacoes.php#outros/cad11" target="_blank" class="link">Launch of Caderno Sesc_Videobrasil 11_ An alliance of vulnerable bodies</a></li>
-                    <li class="agenda-publicacao">08:00pm | Sesc Pompeia, Teatro | <a href="pp.php#encontros/cad11" target="_blank" class="link">Panel of Caderno Sesc_Videobrasil 11_ An alliance of vulnerable bodies</a></li>
                     <li class="agenda-publicacao">08:00pm | Sesc Pompeia, Teatro | Book launch |  <a href="publicacoes.php#festival/selecionados" target="_blank" class="link">Southern Panoramas | Selected Artworks and Commissioned Projects</a></li>
                     <li class="agenda-performance">09:30pm | Sesc Pompeia, Convivência | Performance | <a href="performances.php#fancy" target="_blank" class="link">Fancy em Pyetà segundo ato</a></li>
                     </ol>
