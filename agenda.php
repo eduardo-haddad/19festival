@@ -214,11 +214,11 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Obras Selecionadas Programa #3</a></li>
                     <li class="agenda-filme">19h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
                     </ol>
-                    <ol>
+                    <!-- <ol>
                     <li>28 de outubro, quarta-feira</li>
                     <li>15h00 | Galpão VB | Sala de Vídeo | Artistas do 19º Festival no Acervo Videobrasil | Imagem e Autoimagem</li>
                     <li>18h00 | Galpão VB | Sala de Vídeo | Artistas do 19º Festival no Acervo Videobrasil | Imagem e Autoimagem</li>
-                    </ol>
+                    </ol> -->
                     <ol>
                     <li>29 de outubro, quinta-feira</li>
                     <li class="agenda-seminario">14h00 | Sesc Pompeia, Teatro | Programas Públicos | <a href="pp.php#seminario/mesa4" target="_blank" class="link">Seminário Lugares e Sentidos na Arte: Debates a Partir do Sul | Mesa 4: Repensar o tempo: arte,  silêncios e histórias</a></li>
@@ -467,10 +467,10 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-filme">07:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
                     </ol>
                     <ol>
-                    <li>October 28, Wednesday</li>
+                    <!-- <li>October 28, Wednesday</li>
                     <li>03:00pm | Video Room | 19th Festival Artists in the Videobrasil Collection | Image and Self-Image</li>
                     <li>06:00pm | Video Room | 19th Festival Artists in the Videobrasil Collection | Image and Self-Image</li>
-                    </ol>
+                    </ol> -->
                     <ol>
                     <li>October 29, Thursday</li>
                     <li class="agenda-seminario">02:00pm | Sesc Pompeia, Teatro | Public Programs | <a href="pp.php#seminario/mesa4" target="_blank" class="link">Seminar Places and meanings of art: debates from the South | Panel 4: Rethinking time: art, silences and histories</a></li>
