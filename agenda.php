@@ -312,7 +312,7 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <ol>
                     <li>25 de novembro, quarta-feira</li>
                     <li class="agenda-publicacao">20h00 | Sesc Pompeia, Teatro | <a href="publicacoes.php#festival/selecionados" target="_blank" class="link">Lançamento do livro Panoramas do Sul | Obras Selecionadas e Projetos Comissionados</a></li>
-                    <li class="agenda-performance">21h30 | Sesc Pompeia, Convivência | Performance | <a href="performances.php#fancy" target="_blank" class="link">Fancy em Pyetà segundo ato</a></li>
+                    <li class="agenda-performance">21h30 | Sesc Pompeia, Convivência | Performance | <a href="performances.php#fancy" target="_blank" class="link">Fancy em Pyetà terceiro ato</a></li>
                     </ol>
                     <ol>
                     <li>26 de novembro, quinta-feira</li>
@@ -564,7 +564,7 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <ol>
                     <li>November 25, Wednesday</li>
                     <li class="agenda-publicacao">08:00pm | Sesc Pompeia, Teatro | Book launch |  <a href="publicacoes.php#festival/selecionados" target="_blank" class="link">Southern Panoramas | Selected Artworks and Commissioned Projects</a></li>
-                    <li class="agenda-performance">09:30pm | Sesc Pompeia, Convivência | Performance | <a href="performances.php#fancy" target="_blank" class="link">Fancy em Pyetà segundo ato</a></li>
+                    <li class="agenda-performance">09:30pm | Sesc Pompeia, Convivência | Performance | <a href="performances.php#fancy" target="_blank" class="link">Fancy em Pyetà terceiro ato</a></li>
                     </ol>
                     <ol>
                     <li>November 26, Thursday</li>
