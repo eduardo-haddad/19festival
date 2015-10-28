@@ -110,7 +110,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12 col-md-6 h" style="float: left;">
                      <div class="image">
 
-                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157659238932979" target="_blank">
+                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157659854955615" target="_blank">
                         <img src="img/fotos/13-repensar-espacos.jpg" alt="" width="485px" height="285px" />
                         <span class="texto"><?php pten(
                           '#19Festival | Programas Públicos | Seminário | Mesa 2 | "Repensar espaços: artes, usos e cotidiano"',
@@ -159,7 +159,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12 col-md-6 h" style="float: left;">
                      <div class="image">
 
-                       <a href="https://www.flickr.com/photos/videobrasil/albums/72157659233653159" target="_blank">
+                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157657317956814" target="_blank">
                         <img src="img/fotos/10-pp-sem1.jpg" alt="" width="485px" height="285px" />
                         <span class="texto">
                         <?php pten(

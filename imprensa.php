@@ -137,7 +137,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             </div>
             
-            <!--  <div class="row" >
+             <!-- <div class="row" >
                 <div class="col-xs-12 titulo" style="float: left; margin-top: 37px" >
                        <p>
                        <?php pten('Destaques do clipping', 'Clipping highlights');  ?>
@@ -192,7 +192,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                    
                 </div>
 
-            </div>  -->
+            </div> --> 
 
             <div id="altura">&nbsp;</div>
     </main>
