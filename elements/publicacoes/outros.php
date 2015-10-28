@@ -41,7 +41,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         $(document).ready(
             function(){
 
-                $('input[type="button"]').hide();
+                // $('input[type="button"]').hide();
+
+                $('#pub-outros-1').click(function(){
+                   window.open('http://www.sescsp.org.br/livraria/3278_VIDEOBRASILTRES+DECADAS+DE+VIDEO+ARTE+ENCONTROS+E+TRANSFORMACOES#/content=detalhes-do-produto', '_blank');
+                })
                 
                 paletaArtistas($('.titulo'));
                 paletaArtistas($('.publicacao p:nth-child(1)'));
@@ -93,10 +97,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     ISBN 978-85-7995-180-0<br />
                     width: 18.5cm, height: 23.5cm, spine: 23cm x 2.5cm</p>'); ?>
 
-                    <p><input type="button" value="<?php pten('comprar', 'purchase'); ?>" /></p>
+                    <p><input type="button" id="pub-outros-1" value="<?php pten('comprar', 'purchase'); ?>" /></p>
 
-                    <p><?php pten('Em breve disponível em livrarias, nas unidades do Sesc SP, no Galpão VB | Associação Cultural Videobrasil e pela internet em <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.', 
-                                  'Soon available in bookstores, at Sesc SP units, at Galpão VB | Associação Cultural Videobrasil and online at <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.'); ?>
+                    <p><?php pten('Também disponível em livrarias, nas unidades do Sesc SP e no<br />Galpão VB | Associação Cultural Videobrasil.', 
+                                  'Also available in bookstores, at Sesc SP units, and at <br />Galpão VB | Associação Cultural Videobrasil.'); ?>
                     </p>
 
 
@@ -155,7 +159,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     Portuguese/English<br />
                     </p>'); ?>
 
-                    <p><input type="button" value="<?php pten('comprar', 'purchase'); ?>" /></p>
+                    <!-- <p><input type="button" value="<?php pten('comprar', 'purchase'); ?>" /></p> -->
 
                     <p><?php pten('Em breve disponível em livrarias, nas unidades do Sesc SP, no Galpão VB | Associação Cultural Videobrasil e pela internet em <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.', 
                                   'Soon available in bookstores, at Sesc SP units, at Galpão VB | Associação Cultural Videobrasil and online at <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.'); ?>

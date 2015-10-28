@@ -42,7 +42,15 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
         $(document).ready(
             function(){
 
-                $('input[type="button"]').hide();
+                // $('input[type="button"]').hide();
+
+                $('#pub-fest-1').click(function(){
+                   window.open('http://www.sescsp.org.br/livraria/3447_PANORAMAS+DO+SUL+LEITURAS#/content=detalhes-do-produto', '_blank');
+                })
+
+                $('#pub-fest-2').click(function(){
+                   window.open('http://www.sescsp.org.br/livraria/3446_PANORAMAS+DO+SUL+ARTISTAS+CONVIDADOS#/content=detalhes-do-produto', '_blank');
+                })
 
                 paletaArtistas($('.titulo'));
                 paletaArtistas($('.publicacao p:nth-child(1)'));
@@ -93,10 +101,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     Portuguese/English<br />
                     width: 15.5cm, height: 21cm</p>'); ?>
 
-                    <p><input type="button" value="<?php pten('comprar', 'purchase'); ?>" /></p>
+                    <p><input type="button" id="pub-fest-1" value="<?php pten('comprar', 'purchase'); ?>" /></p>
 
-                    <p><?php pten('Em breve disponível em livrarias, nas unidades do Sesc SP, no Galpão VB | Associação Cultural Videobrasil e pela internet em <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.', 
-                                  'Soon available in bookstores, at Sesc SP units, at Galpão VB | Associação Cultural Videobrasil and online at <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.'); ?>
+                    <p><?php pten('Também disponível em livrarias, nas unidades do Sesc SP e no<br />Galpão VB | Associação Cultural Videobrasil.', 
+                                  'Also available in bookstores, at Sesc SP units, and at<br />Galpão VB | Associação Cultural Videobrasil.'); ?>
                     </p>
 
 
@@ -160,10 +168,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     Portuguese/English<br />
                     width: 24cm, height: 33cm</p>'); ?>
 
-                    <p><input type="button" value="<?php pten('comprar', 'purchase'); ?>" /></p>
+                    <p><input type="button" id="pub-fest-2" value="<?php pten('comprar', 'purchase'); ?>" /></p>
 
-                    <p><?php pten('Em breve disponível em livrarias, nas unidades do Sesc SP, no Galpão VB | Associação Cultural Videobrasil e pela internet em <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.', 
-                                  'Soon available in bookstores, at Sesc SP units, at Galpão VB | Associação Cultural Videobrasil and online at <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.'); ?>
+                    <p><?php pten('Também disponível em livrarias, nas unidades do Sesc SP e no<br />Galpão VB | Associação Cultural Videobrasil.', 
+                                  'Also available in bookstores, at Sesc SP units, and at<br />Galpão VB | Associação Cultural Videobrasil.'); ?>
                     </p>
 
 
@@ -226,7 +234,7 @@ ommissioned PROJECTS</span>'); ?>
                     Portuguese/English<br />
                     width: 18cm, height: 23cm</p>'); ?>
 
-                    <p><input type="button" value="<?php pten('comprar', 'purchase'); ?>" /></p>
+                    <!-- <p><input type="button" value="<?php pten('comprar', 'purchase'); ?>" /></p> -->
 
                     <p><?php pten('Em breve disponível em livrarias, nas unidades do Sesc SP, no Galpão VB | Associação Cultural Videobrasil e pela internet em <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.', 
                                   'Soon available in bookstores, at Sesc SP units, at Galpão VB | Associação Cultural Videobrasil and online at <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.'); ?>
