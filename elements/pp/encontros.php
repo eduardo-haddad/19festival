@@ -314,14 +314,14 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 </div> 
             </div>
 
-            <div style="margin: 31px 0 16px 0; padding-top: 25px; padding-left: 0; border-top: 1pt solid #8F6B55; border-top-width: 100%;"></div>
+            <!-- <div style="margin: 31px 0 16px 0; padding-top: 25px; padding-left: 0; border-top: 1pt solid #8F6B55; border-top-width: 100%;"></div> -->
            
 
             <!-- /EVENTO 5 -->
 
             <!-- EVENTO 6 -->
 
-            <div class="row" ><a id="cad11"></a>
+            <!-- <div class="row" ><a id="cad11"></a>
                 <div class="col-xs-12" style="float: left; margin-bottom: 28px">
                     <p style="margin-bottom:0"> 
                         <a name="leitura"></a><?php pten(
@@ -359,7 +359,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 //Evento 6 - EN
                        '<p>Edited by the Peruvian curator Miguel Angel López, the new edition of the annual contemporary art magazine Caderno Sesc_Videobrasil will look into how feminism and queer activism, among other forms of body-orient- ed critical contestation, are transforming traditional art history discourses. During the launch panel, the editor and the American researcher Julia Bry- an-Wilson will discuss the relationship between art and feminist theory. </p>');  ?> 
                 </div> 
-            </div>           
+            </div>            -->
 
             <!-- /EVENTO 6 -->
             <script>
