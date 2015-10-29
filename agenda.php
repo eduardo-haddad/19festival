@@ -178,9 +178,21 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-filme">19h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
                     </ol>
                     <ol>
+                    <li>14 de outubro, quarta-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Imagem e Autoimagem</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Imagem e Autoimagem</li>
+                    </ol>
+                    <ol>
                     <li>15 de outubro, quinta-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Rita Moreira: Atualidades de Hoje e Ontem</li>
                     <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #1 + Programa #2</a></li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Rita Moreira: Atualidades de Hoje e Ontem</li>
                     <li class="agenda-filme">19h00 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Obras Selecionadas | Programa #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Programa de Filmes | Gabriel Abrantes</a></li>
+                    </ol>
+                    <ol>
+                    <li>16 de outubro, sexta-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Carlos Nader: Corpos e Identidades</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Carlos Nader: Corpos e Identidades</li>
                     </ol>
                     <ol>
                     <li>17 de outubro, sábado</li>
@@ -191,15 +203,32 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
+                    <li>19 de outubro, segunda-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Abraçar a Angústia</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Abraçar a Angústia</li>
+                    </ol>
+                    <ol>
                     <li>20 de outubro, terça-feira</li>
                     <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #1 + Programa #2</a></li>
                     <li class="agenda-filme">19h00 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Obras Selecionadas | Obras Selecionadas Programa #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
                     </ol>
                     <ol>
+                    <li>21 de outubro, quarta-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Imagem e Autoimagem</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Imagem e Autoimagem</li>
+                    </ol>
+                    <ol>
                     <li>22 de outubro, quinta-feira</li>
                     <li class="agenda-seminario">14h00 | Sesc Pompeia, Teatro | Programas Públicos | <a href="pp.php#seminario/mesa3" target="_blank" class="link">Seminário Lugares e Sentidos na Arte: Debates a Partir do Sul | Mesa 3: Repensar narrativas: arte, memória e ficção</a></li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Rita Moreira: Atualidades de Hoje e Ontem</li>
                     <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Obras Selecionadas Programa #3</a></li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Rita Moreira: Atualidades de Hoje e Ontem</li>
                     <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
+                    </ol>
+                    <ol>
+                    <li>23 de outubro, sexta-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Carlos Nader: Corpos e Identidades</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Carlos Nader: Corpos e Identidades</li>
                     </ol>
                     <ol>
                     <li>24 de outubro, sábado</li>
@@ -210,20 +239,32 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
+                    <li>26 de outubro, segunda-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Abraçar a Angústia</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Abraçar a Angústia</li>
+                    </ol>
+                    <ol>
                     <li>27 de outubro, terça-feira</li>
                     <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Obras Selecionadas Programa #3</a></li>
                     <li class="agenda-filme">19h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
                     </ol>
-                    <!-- <ol>
+                    <ol>
                     <li>28 de outubro, quarta-feira</li>
-                    <li>15h00 | Galpão VB | Sala de Vídeo | Artistas do 19º Festival no Acervo Videobrasil | Imagem e Autoimagem</li>
-                    <li>18h00 | Galpão VB | Sala de Vídeo | Artistas do 19º Festival no Acervo Videobrasil | Imagem e Autoimagem</li>
-                    </ol> -->
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Imagem e Autoimagem</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Imagem e Autoimagem</li>
+                    </ol>
                     <ol>
                     <li>29 de outubro, quinta-feira</li>
                     <li class="agenda-seminario">14h00 | Sesc Pompeia, Teatro | Programas Públicos | <a href="pp.php#seminario/mesa4" target="_blank" class="link">Seminário Lugares e Sentidos na Arte: Debates a Partir do Sul | Mesa 4: Repensar o tempo: arte,  silêncios e histórias</a></li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Rita Moreira: Atualidades de Hoje e Ontem</li>
                     <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #1 + Programa #2</a></li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Rita Moreira: Atualidades de Hoje e Ontem</li>
                     <li class="agenda-filme">19h00 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Obras Selecionadas | Obras Selecionadas Programa #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    </ol>
+                    <ol>
+                    <li>30 de outubro, sexta-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Carlos Nader: Corpos e Identidades</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Carlos Nader: Corpos e Identidades</li>
                     </ol>
                     <ol>
                     <li>31 de outubro, sábado</li>
@@ -248,12 +289,21 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <ol>
                     <li>4 de novembro, quarta-feira</li>
                     <li class="agenda-encontro">13h00 | Galpão VB | Programas Públicos | Encontros e Conversas | <a href="pp.php#encontros/portfolios" target="_blank" class="link">Leituras de Portfólios</a></li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Imagem e Autoimagem</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Imagem e Autoimagem</li>
                     </ol>
                     <ol>
                     <li>5 de novembro, quinta-feira</li>
                     <li class="agenda-encontro">13h00 | Galpão VB | Programas Públicos | Encontros e Conversas | <a href="pp.php#encontros/portfolios" target="_blank" class="link">Leituras de Portfólios</a></li>
                     <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Obras Selecionadas Programa #3</a></li>
                     <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Rita Moreira: Atualidades de Hoje e Ontem</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Rita Moreira: Atualidades de Hoje e Ontem</li>
+                    </ol>
+                    <ol>
+                    <li>6 de novembro, sexta-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Carlos Nader: Corpos e Identidades</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Carlos Nader: Corpos e Identidades</li>
                     </ol>
                     <ol>
                     <li>7 de novembro, sábado</li>
@@ -264,14 +314,31 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
+                    <li>9 de novembro, segunda-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Abraçar a Angústia</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Abraçar a Angústia</li>
+                    </ol>
+                    <ol>
                     <li>10 de novembro, terça-feira</li>
                     <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Obras Selecionadas Programa #3</a></li>
                     <li class="agenda-filme">19h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
                     </ol>
                     <ol>
+                    <li>11 de novembro, quarta-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Imagem e Autoimagem</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Imagem e Autoimagem</li>
+                    </ol>
+                    <ol>
                     <li>12 de novembro, quinta-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Rita Moreira: Atualidades de Hoje e Ontem</li>
                     <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #1 + Programa #2</a></li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Rita Moreira: Atualidades de Hoje e Ontem</li>
                     <li class="agenda-filme">19h00 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Obras Selecionadas | Obras Selecionadas Programa #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    </ol>
+                    <ol>
+                    <li>13 de novembro, sexta-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Carlos Nader: Corpos e Identidades</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Carlos Nader: Corpos e Identidades</li>
                     </ol>
                     <ol>
                     <li>14 de novembro, sábado</li>
@@ -283,13 +350,25 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
+                    <li>16 de novembro, segunda-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Abraçar a Angústia</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Abraçar a Angústia</li>
+                    </ol>
+                    <ol>
                     <li>17 de novembro, terça-feira</li>
                     <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #1 + Programa #2</a></li>
                     <li class="agenda-filme">19h00 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Obras Selecionadas | Obras Selecionadas Programa #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
                     </ol>
                     <ol>
+                    <li>18 de novembro, quarta-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Imagem e Autoimagem</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Imagem e Autoimagem</li>
+                    </ol>
+                    <ol>
                     <li>19 de novembro, quinta-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Rita Moreira: Atualidades de Hoje e Ontem</li>                   
                     <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Obras Selecionadas Programa #3</a></li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Rita Moreira: Atualidades de Hoje e Ontem</li>
                     <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
                     </ol>
                     <ol>
@@ -305,19 +384,33 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
                     <ol>
+                    <li>23 de novembro, segunda-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Abraçar a Angústia</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Abraçar a Angústia</li>
+                    </ol>
+                    <ol>
                     <li>24 de novembro, terça-feira</li>
                     <li class="agenda-filme">16h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Obras Selecionadas Programa #3</a></li>
                     <li class="agenda-filme">19h30 | Galpão VB | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
                     </ol>
                     <ol>
                     <li>25 de novembro, quarta-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Imagem e Autoimagem</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Imagem e Autoimagem</li>
                     <li class="agenda-publicacao">20h00 | Sesc Pompeia, Teatro | <a href="publicacoes.php#festival/selecionados" target="_blank" class="link">Lançamento do livro Panoramas do Sul | Obras Selecionadas e Projetos Comissionados</a></li>
                     <li class="agenda-performance">21h30 | Sesc Pompeia, Convivência | Performance | <a href="performances.php#fancy" target="_blank" class="link">Fancy Violence em Pyetà terceiro ato</a></li>
                     </ol>
                     <ol>
                     <li>26 de novembro, quinta-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Rita Moreira: Atualidades de Hoje e Ontem</li>
                     <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #1 + Programa #2</a></li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Rita Moreira: Atualidades de Hoje e Ontem</li>
                     <li class="agenda-filme">19h00 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Obras Selecionadas | Obras Selecionadas Programa #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    </ol>
+                    <ol>
+                    <li>27 de novembro, sexta-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Carlos Nader: Corpos e Identidades</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Carlos Nader: Corpos e Identidades</li>
                     </ol>
                     <ol>
                     <li>28 de novembro, sábado</li>
@@ -326,6 +419,11 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <ol>
                     <li>29 de novembro, domingo</li>
                     <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
+                    </ol>
+                    <ol>
+                    <li>30 de novembro, segunda-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Abraçar a Angústia</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Abraçar a Angústia</li>
                     </ol>
                     <div class="titulo titulo-agenda-g" style="margin-top: 30px"><span>dezembro</span></div>
                     <ol>
@@ -337,13 +435,22 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     </ol>
                     <ol>
                     <li>2 de dezembro, quarta-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Imagem e Autoimagem</li>
                     <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #1 + Programa #2</a></li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Imagem e Autoimagem</li>
                     <li class="agenda-filme">19h00 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Obras Selecionadas | Obras Selecionadas Programa #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
                     </ol>
                     <ol>
                     <li>3 de dezembro, quinta-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Rita Moreira: Atualidades de Hoje e Ontem</li>
                     <li class="agenda-filme">16h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Obras Selecionadas Programa #3</a></li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Rita Moreira: Atualidades de Hoje e Ontem</li>
                     <li class="agenda-filme">19h30 | Sesc Pompeia, Teatro | Programa de Filmes | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Obras Selecionadas | Programa #2 + Programa #1</a></li>
+                    </ol>
+                    <ol>
+                    <li>4 de dezembro, sexta-feira</li>
+                    <li class="agenda-filme">15h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Carlos Nader: Corpos e Identidades</li>
+                    <li class="agenda-filme">18h00 | Galpão VB | Sala de Vídeo | <a href="http://site.videobrasil.org.br/news/1877372" target="_blank" class="link">Artistas do 19º Festival no Acervo Videobrasil</a> | Carlos Nader: Corpos e Identidades</li>
                     </ol>
                     <ol>
                     <li>5 de dezembro, sábado</li>
@@ -430,9 +537,21 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-filme">07:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
                     </ol>
                     <ol>
+                    <li>October 14, Wednesday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Image and self-Image</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Image and self-Image</li>
+                    </ol>
+                    <ol>
                     <li>October 15, Thursday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Rita Moreira: news of today and yesterday</li>
                     <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #1 + Program #2</a></li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Rita Moreira: news of today and yesterday</li>
                     <li class="agenda-filme">07:00pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Selected Works | Program #3</a> + Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 16, Friday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Carlos Nader: bodies and identities</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Carlos Nader: bodies and identities</li>
                     </ol>
                     <ol>
                     <li>October 17, Saturday</li>
@@ -443,15 +562,32 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
                     </ol>
                     <ol>
+                    <li>October 19, Monday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Embrace distress</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Embrace distress</li>
+                    </ol>
+                    <ol>
                     <li>October 20, Tuesday</li>
                     <li class="agenda-filme">4:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #1 + Program #2</a></li>
                     <li class="agenda-filme">7:00pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Selected Works | Program #3 + Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
                     </ol>
+                    </ol>
+                    <li>October 21, Wednesday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Image and self-Image</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Image and self-Image</li>
+                    </ol>
                     <ol>
                     <li>October 22, Thursday</li>
                     <li class="agenda-seminario">02:00pm | Sesc Pompeia, Teatro | Public Programs | <a href="pp.php#seminario/mesa3" target="_blank" class="link">Seminar Places and meanings of art: debates from the South | Panel 3: Rethinking narratives: art, memory and fiction</a></li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Rita Moreira: news of today and yesterday</li>
                     <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + Film Programs | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Selected Works | Program #3</a></li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Rita Moreira: news of today and yesterday</li>
                     <li class="agenda-filme">07:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 23, Friday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Carlos Nader: bodies and identities</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Carlos Nader: bodies and identities</li>
                     </ol>
                     <ol>
                     <li>October 24, Saturday</li>
@@ -462,20 +598,33 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
                     </ol>
                     <ol>
+                    <li>October 26, Monday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Embrace distress</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Embrace distress</li>
+                    </ol>
+                    <ol>
                     <li>October 27, Tuesday</li>
                     <li class="agenda-filme">04:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + Film Programs | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Selected Works | Program #3</a></li>
                     <li class="agenda-filme">07:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
                     </ol>
                     <ol>
-                    <!-- <li>October 28, Wednesday</li>
-                    <li>03:00pm | Video Room | 19th Festival Artists in the Videobrasil Collection | Image and Self-Image</li>
-                    <li>06:00pm | Video Room | 19th Festival Artists in the Videobrasil Collection | Image and Self-Image</li>
-                    </ol> -->
+                    </ol>
+                    <li>October 28, Wednesday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Image and self-Image</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Image and self-Image</li>
+                    </ol>
                     <ol>
                     <li>October 29, Thursday</li>
                     <li class="agenda-seminario">02:00pm | Sesc Pompeia, Teatro | Public Programs | <a href="pp.php#seminario/mesa4" target="_blank" class="link">Seminar Places and meanings of art: debates from the South | Panel 4: Rethinking time: art, silences and histories</a></li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Rita Moreira: news of today and yesterday</li>
                     <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #1 + Program #2</a></li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Rita Moreira: news of today and yesterday</li>
                     <li class="agenda-filme">07:00pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Selected Works | Program #3</a> + Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    </ol>
+                    <ol>
+                    <li>October 30, Friday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Carlos Nader: bodies and identities</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Carlos Nader: bodies and identities</li>
                     </ol>
                     <ol>
                     <li>October 31, Saturday</li>
@@ -493,19 +642,28 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
                     </ol>
                     <ol>
-                    <li>November 3 de novembro, Tuesday</li>
+                    <li>November 3, Tuesday</li>
                     <li class="agenda-filme">04:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #1 + Program #2</a></li>
                     <li class="agenda-filme">07:00pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Selected Works Program #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
                     </ol>
                     <ol>
                     <li>November 4, Wednesday</li>
                     <li class="agenda-encontro">01:00pm | Galpão VB | Public Programs | Meetings and Conversations | <a href="pp.php#encontros/portfolios" target="_blank" class="link">Reading of Portfolios</a></li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Image and self-Image</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Image and self-Image</li>
                     </ol>
                     <ol>
                     <li>November 5, Thursday</li>
                     <li class="agenda-encontro">01:00pm | Galpão VB | Public Programs | Meetings and Conversations | <a href="pp.php#encontros/portfolios" target="_blank" class="link">Reading of Portfolios</a></li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Rita Moreira: news of today and yesterday</li>
                     <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Selected Works Program #3</a></li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Rita Moreira: news of today and yesterday</li>
                     <li class="agenda-filme">07:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 6, Friday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Carlos Nader: bodies and identities</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Carlos Nader: bodies and identities</li>
                     </ol>
                     <ol>
                     <li>November 7, Saturday</li>
@@ -516,14 +674,31 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
                     </ol>
                     <ol>
+                    <li>November 9, Monday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Embrace distress</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Embrace distress</li>
+                    </ol>
+                    <ol>
                     <li>November 10, Tuesday</li>
                     <li class="agenda-filme">4:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Selected Works Program #3</a></li>
                     <li class="agenda-filme">7:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
                     </ol>
                     <ol>
+                    <li>November 11, Wednesday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Image and self-Image</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Image and self-Image</li>
+                    </ol>
+                    <ol>
                     <li>November 12, Thursday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Rita Moreira: news of today and yesterday</li>
                     <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #1 + Program #2</a></li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Rita Moreira: news of today and yesterday</li>
                     <li class="agenda-filme">07:00pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Selected Works | Program #3</a> + Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 13, Friday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Carlos Nader: bodies and identities</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Carlos Nader: bodies and identities</li>
                     </ol>
                     <ol>
                     <li>November 14, Saturday</li>
@@ -535,13 +710,25 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
                     </ol>
                     <ol>
+                    <li>November 16, Monday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Embrace distress</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Embrace distress</li>
+                    </ol>
+                    <ol>
                     <li>November 17, Tuesday</li>
                     <li class="agenda-filme">04:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #1 + Program #2</a></li>
                     <li class="agenda-filme">07:00pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Selected Works Program #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
                     </ol>
                     <ol>
+                    <li>November 18, Wednesday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Image and self-Image</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Image and self-Image</li>
+                    </ol>
+                    <ol>
                     <li>November 19, Thursday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Rita Moreira: news of today and yesterday</li>
                     <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Selected Works Program #3</a></li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Rita Moreira: news of today and yesterday</li>
                     <li class="agenda-filme">07:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
                     </ol>
                     <ol>
@@ -557,19 +744,33 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
                     </ol>
                     <ol>
+                    <li>November 23, Monday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Embrace distress</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Embrace distress</li>
+                    </ol>
+                    <ol>
                     <li>November 24, Tuesday</li>
                     <li class="agenda-filme">04:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Selected Works Program #3</a></li>
                     <li class="agenda-filme">07:30pm | Galpão VB | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
                     </ol>
                     <ol>
                     <li>November 25, Wednesday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Image and self-Image</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Image and self-Image</li>
                     <li class="agenda-publicacao">08:00pm | Sesc Pompeia, Teatro | Book launch |  <a href="publicacoes.php#festival/selecionados" target="_blank" class="link">Southern Panoramas | Selected Artworks and Commissioned Projects</a></li>
                     <li class="agenda-performance">09:30pm | Sesc Pompeia, Convivência | Performance | <a href="performances.php#fancy" target="_blank" class="link">Fancy Violence em Pyetà terceiro ato</a></li>
                     </ol>
                     <ol>
                     <li>November 26, Thursday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Rita Moreira: news of today and yesterday</li>
                     <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #1 + Program #2</a></li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Rita Moreira: news of today and yesterday</li>
                     <li class="agenda-filme">07:00pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Selected Works Program #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 27, Friday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Carlos Nader: bodies and identities</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Carlos Nader: bodies and identities</li>
                     </ol>
                     <ol>
                     <li>November 28, Saturday</li>
@@ -578,6 +779,11 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <ol>
                     <li>November 29, Sunday</li>
                     <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
+                    </ol>
+                    <ol>
+                    <li>November 30, Monday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Embrace distress</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Embrace distress</li>
                     </ol>
                     
                     <div class="titulo titulo-agenda-g" style="margin-top: 30px"><span>december</span></div>
@@ -591,13 +797,22 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     </ol>
                     <ol>
                     <li>December 2, Wednesday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Image and self-Image</li>
                     <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #1 + Program #2</a></li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Image and self-Image</li>
                     <li class="agenda-filme">07:00pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Selected Works Program #3</a> + <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a></li>
                     </ol>
                     <ol>
                     <li>December 3, Thursday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Rita Moreira: news of today and yesterday</li>
                     <li class="agenda-filme">04:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#gabriel" target="_blank" class="link">Gabriel Abrantes</a> + <a href="progsfilmes.php#obras/prog3" target="_blank" class="link">Selected Works Program #3</a></li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Rita Moreira: news of today and yesterday</li>
                     <li class="agenda-filme">07:30pm | Sesc Pompeia, Teatro | Film Programs | <a href="progsfilmes.php#obras/prog1" target="_blank" class="link">Selected Works | Program #2 + Program #1</a></li>
+                    </ol>
+                    <ol>
+                    <li>December 4, Friday</li>
+                    <li class="agenda-filme">03:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Carlos Nader: bodies and identities</li>
+                    <li class="agenda-filme">06:00pm | Galpão VB | Video Room | <a href="http://site.videobrasil.org.br/en/news/1877372" target="_blank" class="link">19th Festival artists on Videobrasil Collection</a> | Carlos Nader: bodies and identities</li>
                     </ol>
                     <ol>
                     <li>December 5, Saturday</li>
