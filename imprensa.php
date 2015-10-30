@@ -137,62 +137,62 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             </div>
             
-             <!-- <div class="row" >
+            <div class="row" >
                 <div class="col-xs-12 titulo" style="float: left; margin-top: 37px" >
                        <p>
                        <?php pten('Destaques do clipping', 'Clipping highlights');  ?>
                        </p>
                 </div>
-            </div>  -->
+            </div> 
 
-            <!-- <div class="row" style="clear:both">
+            <div class="row" style="clear:both">
                 <div class="col-xs-12">
 
                     <div class="bloco">
-                        <img src="img/imprensa/temp_clipping.png" /><br />
-                        <div><span>nome do veículo<br />dd/mm/aaaa</span></div>
+                        <img src="img/imprensa/20151016_Canal_Curta.jpg" /><br />
+                        <div><span>Canal Curta<br />16/10/2015</span></div>
 
                     </div>
                     <div class="bloco">
-                        <img src="img/imprensa/temp_clipping.png" /><br />
-                        <div><span>nome do veículo<br />dd/mm/aaaa</span></div>
+                        <img src="img/imprensa/20151009_O_Estado_de_S._Paulo_Caderno_2_pg_C3.jpg" /><br />
+                        <div><span>O Estado de S. Paulo<br />09/10/2015</span></div>
 
                     </div>
                     <div class="bloco">
-                        <img src="img/imprensa/temp_clipping.png" /><br />
-                        <div><span>nome do veículo<br />dd/mm/aaaa</span></div>
+                        <img src="img/imprensa/20151016_Canal_Curta.jpg" /><br />
+                        <div><span>nome do veículo<br />16/10/2015</span></div>
 
                     </div>
                     <div class="bloco">
-                        <img src="img/imprensa/temp_clipping.png" /><br />
-                        <div><span>nome do veículo<br />dd/mm/aaaa</span></div>
+                        <img src="img/imprensa/20151016_Canal_Curta.jpg" /><br />
+                        <div><span>nome do veículo<br />16/10/2015</span></div>
 
                     </div>
 
                     <div class="bloco">
-                        <img src="img/imprensa/temp_clipping.png" /><br />
-                        <div><span>nome do veículo<br />dd/mm/aaaa</span></div>
+                        <img src="img/imprensa/20151016_Canal_Curta.jpg" /><br />
+                        <div><span>nome do veículo<br />16/10/2015</span></div>
 
                     </div>
                     <div class="bloco">
-                        <img src="img/imprensa/temp_clipping.png" /><br />
-                        <div><span>nome do veículo<br />dd/mm/aaaa</span></div>
+                        <img src="img/imprensa/20151016_Canal_Curta.jpg" /><br />
+                        <div><span>nome do veículo<br />16/10/2015</span></div>
 
                     </div>
                     <div class="bloco">
-                        <img src="img/imprensa/temp_clipping.png" /><br />
-                        <div><span>nome do veículo<br />dd/mm/aaaa</span></div>
+                        <img src="img/imprensa/20151016_Canal_Curta.jpg" /><br />
+                        <div><span>nome do veículo<br />16/10/2015</span></div>
 
                     </div>
                     <div class="bloco">
-                        <img src="img/imprensa/temp_clipping.png" /><br />
-                        <div><span>nome do veículo<br />dd/mm/aaaa</span></div>
+                        <img src="img/imprensa/20151016_Canal_Curta.jpg" /><br />
+                        <div><span>nome do veículo<br />16/10/2015</span></div>
 
                     </div>
                    
                 </div>
 
-            </div> --> 
+            </div> 
 
             <div id="altura">&nbsp;</div>
     </main>
