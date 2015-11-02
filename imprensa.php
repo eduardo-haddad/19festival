@@ -148,47 +148,470 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             <div class="row" style="clear:both">
                 <div class="col-xs-12">
 
+                    <!-- 29 -->
                     <div class="bloco">
-                        <img src="img/imprensa/20151016_Canal_Curta.jpg" /><br />
-                        <div><span>Canal Curta<br />16/10/2015</span></div>
-
+                        <a href="http://videobrasil.org.br/19/imprensa/20151016_Canal_Curta.mp4" 
+                        target="_blank">
+                            <img src="img/imprensa/20151016_Canal_Curta.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151016_Canal_Curta.mp4" 
+                            target="_blank">
+                            <span>Canal Curta<br />
+                            <?php pten('16/10/2015', '2015/OCT/16'); ?></span>
+                            </a>
+                        </div>
                     </div>
+                    <!-- 29 -->
+
+                    <!-- 28 -->
                     <div class="bloco">
-                        <img src="img/imprensa/20151009_O_Estado_de_S._Paulo_Caderno_2_pg_C3.jpg" /><br />
-                        <div><span>O Estado de S. Paulo<br />09/10/2015</span></div>
-
+                        <a href="http://videobrasil.org.br/19/imprensa/20151009_O_Estado_de_S._Paulo_Caderno_2_pg_C3.JPG" 
+                        target="_blank">
+                            <img src="img/imprensa/20151009_O_Estado_de_S._Paulo_Caderno_2_pg_C3.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151009_O_Estado_de_S._Paulo_Caderno_2_pg_C3.JPG" 
+                            target="_blank">
+                            <span>O Estado de S.Paulo<br />
+                            <?php pten('09/10/2015', '2015/OCT/09'); ?></span>
+                            </a>
+                        </div>
                     </div>
+                    <!-- 28 -->
+
+                    <!-- 27 -->
                     <div class="bloco">
-                        <img src="img/imprensa/20151016_Canal_Curta.jpg" /><br />
-                        <div><span>nome do veículo<br />16/10/2015</span></div>
-
+                        <a href="http://videobrasil.org.br/19/imprensa/20151009_Divirta-se_O_Guia_do_Estadao_Exposicoes_pg_76.jpg" 
+                        target="_blank">
+                            <img src="img/imprensa/20151009_Divirta-se_O_Guia_do_Estadao_Exposicoes_pg_76.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151009_Divirta-se_O_Guia_do_Estadao_Exposicoes_pg_76.jpg" 
+                            target="_blank">
+                            <span>Divirta-se - O Guia do Estado<br />
+                            <?php pten('09/10/2015', '2015/OCT/09'); ?></span>
+                            </a>
+                        </div>
                     </div>
+                    <!-- 27 -->
+
+                    <!-- 26 -->
                     <div class="bloco">
-                        <img src="img/imprensa/20151016_Canal_Curta.jpg" /><br />
-                        <div><span>nome do veículo<br />16/10/2015</span></div>
-
+                        <a href="http://videobrasil.org.br/19/imprensa/20151008_O_Globo.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20151008_O_Globo.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151008_O_Globo.png" 
+                            target="_blank">
+                            <span>O Estado de S.Paulo<br />
+                            <?php pten('09/10/2015', '2015/OCT/09'); ?></span>
+                            </a>
+                        </div>
                     </div>
-
+                    <!-- 26 -->
+                    
+                    <!-- 25 -->
                     <div class="bloco">
-                        <img src="img/imprensa/20151016_Canal_Curta.jpg" /><br />
-                        <div><span>nome do veículo<br />16/10/2015</span></div>
-
+                        <a href="http://videobrasil.org.br/19/imprensa/20151008_O_Estado_de_S._Paulo_Sonia_Racy_pg_C2.jpg" 
+                        target="_blank">
+                            <img src="img/imprensa/20151008_O_Estado_de_S._Paulo_Sonia_Racy_pg_C2.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151008_O_Estado_de_S._Paulo_Sonia_Racy_pg_C2.jpg" 
+                            target="_blank">
+                            <span>O Estado de S.Paulo<br />
+                            <?php pten('08/10/2015', '2015/OCT/08'); ?></span>
+                            </a>
+                        </div>
                     </div>
+                    <!-- 25 -->
+
+                    <!-- 24 -->
                     <div class="bloco">
-                        <img src="img/imprensa/20151016_Canal_Curta.jpg" /><br />
-                        <div><span>nome do veículo<br />16/10/2015</span></div>
-
+                        <a href="http://videobrasil.org.br/19/imprensa/20151007_Metropolis.mp4" 
+                        target="_blank">
+                            <img src="img/imprensa/20151007_Metropolis.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151007_Metropolis.mp4" 
+                            target="_blank">
+                            <span>Metropolis<br />
+                            <?php pten('07/10/2015', '2015/OCT/07'); ?></span>
+                            </a>
+                        </div>
                     </div>
+                    <!-- 24 -->
+
+                    <!-- 23 -->
                     <div class="bloco">
-                        <img src="img/imprensa/20151016_Canal_Curta.jpg" /><br />
-                        <div><span>nome do veículo<br />16/10/2015</span></div>
-
+                        <a href="http://videobrasil.org.br/19/imprensa/20151007_Cultura_FM.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20151007_Cultura_FM.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151007_Cultura_FM.png" 
+                            target="_blank">
+                            <span>Cultura FM<br />
+                            <?php pten('07/10/2015', '2015/OCT/07'); ?></span>
+                            </a>
+                        </div>
                     </div>
+                    <!-- 23 -->
+
+                    <!-- 22 -->
                     <div class="bloco">
-                        <img src="img/imprensa/20151016_Canal_Curta.jpg" /><br />
-                        <div><span>nome do veículo<br />16/10/2015</span></div>
-
+                        <a href="http://videobrasil.org.br/19/imprensa/20151006_Brasileiros.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20151006_Brasileiros.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151006_Brasileiros.png" 
+                            target="_blank">
+                            <span>Brasileiros<br />
+                            <?php pten('06/10/2015', '2015/OCT/06'); ?></span>
+                            </a>
+                        </div>
                     </div>
+                    <!-- 22 -->
+
+                    <!-- 21 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20151005_Das_Artes.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20151005_Das_Artes.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151005_Das_Artes.png" 
+                            target="_blank">
+                            <span>Das Artes<br />
+                            <?php pten('05/10/2015', '2015/OCT/05'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 21 -->
+
+                    <!-- 20 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20151005_Catraca_Livre.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20151005_Catraca_Livre.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151005_Catraca_Livre.png" 
+                            target="_blank">
+                            <span>Catraca Livre<br />
+                            <?php pten('05/10/2015', '2015/OCT/05'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 20 -->
+
+                    <!-- 19 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20151004_Folha_de_Sao_Paulo.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20151004_Folha_de_Sao_Paulo.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151004_Folha_de_Sao_Paulo.png" 
+                            target="_blank">
+                            <span>Folha de S.Paulo<br />
+                            <?php pten('04/10/2015', '2015/OCT/04'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 19 -->
+
+                    <!-- 18 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20151002_Divirta-se_O_Guia_do_Estadao_Exposicoes_pg_74.jpg" 
+                        target="_blank">
+                            <img src="img/imprensa/20151002_Divirta-se_O_Guia_do_Estadao_Exposicoes_pg_74.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151002_Divirta-se_O_Guia_do_Estadao_Exposicoes_pg_74.jpg" 
+                            target="_blank">
+                            <span>Divirta-se - O Guia do Estado<br />
+                            <?php pten('02/10/2015', '2015/OCT/02'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 18 -->
+
+                    <!-- 17 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20151001_Revista_Bamboo.pdf" 
+                        target="_blank">
+                            <img src="img/imprensa/20151001_Revista_Bamboo.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151001_Revista_Bamboo.pdf" 
+                            target="_blank">
+                            <span>Revista Bamboo<br />
+                            <?php pten('01/10/2015', '2015/OCT/01'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 17 -->
+
+                    <!-- 16 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/201509_ArteBrasileiros.pdf" 
+                        target="_blank">
+                            <img src="img/imprensa/201509_ArteBrasileiros.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/201509_ArteBrasileiros.pdf" 
+                            target="_blank">
+                            <span>Arte!Brasileiros<br />
+                            <?php pten('09/2015', '2015/SEP'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 16 -->
+
+                    <!-- 15 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20150929_Catraca_Livre.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20150929_Catraca_Livre.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20150929_Catraca_Livre.png" 
+                            target="_blank">
+                            <span>Catraca Livre<br />
+                            <?php pten('29/09/2015', '2015/SEP/29'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 15 -->
+
+                    <!-- 14 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20150924_La_Tempestad.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20150924_La_Tempestad.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20150924_La_Tempestad.png" 
+                            target="_blank">
+                            <span>La Tempestad<br />
+                            <?php pten('24/09/2015', '2015/SEP/24'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 14 -->
+
+                    <!-- 13 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20150921_Arte_Brasileiros.jpg" 
+                        target="_blank">
+                            <img src="img/imprensa/20150921_Arte_Brasileiros.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20150921_Arte_Brasileiros.jpg" 
+                            target="_blank">
+                            <span>Arte!Brasileiros<br />
+                            <?php pten('21/09/2015', '2015/SEP/21'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 13 -->
+
+                    <!-- 12 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20150917_Das_Artes.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20150917_Das_Artes.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20150917_Das_Artes.png" 
+                            target="_blank">
+                            <span>Das Artes<br />
+                            <?php pten('17/09/2015', '2015/SEP/17'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 12 -->
+
+                    <!-- 11 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20150830_Folha_de_Sao_Paulo.jpg" 
+                        target="_blank">
+                            <img src="img/imprensa/20150830_Folha_de_Sao_Paulo.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20150830_Folha_de_Sao_Paulo.jpg" 
+                            target="_blank">
+                            <span>Folha de S.Paulo<br />
+                            <?php pten('30/08/2015', '2015/AUG/30'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 11 -->
+
+                    <!-- 10 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20150830_Folha_de_S._Paulo_Ilustrada_pg_C8.jpg" 
+                        target="_blank">
+                            <img src="img/imprensa/20150830_Folha_de_S._Paulo_Ilustrada_pg_C8.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20150830_Folha_de_S._Paulo_Ilustrada_pg_C8.jpg" 
+                            target="_blank">
+                            <span>Folha de S.Paulo - Ilustrada<br />
+                            <?php pten('30/08/2015', '2015/AUG/30'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 10 -->
+
+                    <!-- 09 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/201507_ArteBrasileiros_PT.pdf" 
+                        target="_blank">
+                            <img src="img/imprensa/201507_ArteBrasileiros_PT.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/201507_ArteBrasileiros_PT.pdf" 
+                            target="_blank">
+                            <span>Arte!Brasileiros (Português)<br />
+                            <?php pten('07/2015', '2015/JUL'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 09 -->
+
+                    <!-- 08 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/201507_ArteBrasileiros_ENG.pdf" 
+                        target="_blank">
+                            <img src="img/imprensa/201507_ArteBrasileiros_ENG.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/201507_ArteBrasileiros_ENG.pdf" 
+                            target="_blank">
+                            <span>Arte!Brasileiros (English)<br />
+                            <?php pten('07/2015', '2015/JUL'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 08 -->
+
+                    <!-- 07 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20150526_Folha_de_Sao_Paulo.pdf" 
+                        target="_blank">
+                            <img src="img/imprensa/20150526_Folha_de_Sao_Paulo.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20150526_Folha_de_Sao_Paulo.pdf" 
+                            target="_blank">
+                            <span>Folha de S.Paulo<br />
+                            <?php pten('26/05/2015', '2015/MAY/26'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 07 -->
+
+                    <!-- 06 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20150508_Select.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20150508_Select.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20150508_Select.png" 
+                            target="_blank">
+                            <span>Select<br />
+                            <?php pten('08/05/2015', '2015/MAY/08'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 06 -->
+
+                    <!-- 05 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20150503_ARC.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20150503_ARC.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20150503_ARC.png" 
+                            target="_blank">
+                            <span>ARC Magazine<br />
+                            <?php pten('03/05/2015', '2015/MAY/03'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 05 -->
+
+                    <!-- 04 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20150502_Folha_de_Sao_Paulo.pdf" 
+                        target="_blank">
+                            <img src="img/imprensa/20150502_Folha_de_Sao_Paulo.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20150502_Folha_de_Sao_Paulo.pdf" 
+                            target="_blank">
+                            <span>Folha de S.Paulo<br />
+                            <?php pten('02/05/2015', '2015/MAY/02'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 04 -->
+
+                    <!-- 03 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20150312_Arc.jpg" 
+                        target="_blank">
+                            <img src="img/imprensa/20150312_Arc.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20150312_Arc.jpg" 
+                            target="_blank">
+                            <span>ARC Magazine<br />
+                            <?php pten('12/03/2015', '2015/MAR/12'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 03 -->
+
+                    <!-- 02 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20150104_Valor.jpg" 
+                        target="_blank">
+                            <img src="img/imprensa/20150104_Valor.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20150104_Valor.jpg" 
+                            target="_blank">
+                            <span>Valor<br />
+                            <?php pten('04/01/2015', '2015/JAN/04'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 02 -->
+
+                    <!-- 01 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20141222_O_Estado_de_Sao_Paulo.jpg" 
+                        target="_blank">
+                            <img src="img/imprensa/20150104_Valor.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20141222_O_Estado_de_Sao_Paulo.jpg" 
+                            target="_blank">
+                            <span>O Estado de S.Paulo<br />
+                            <?php pten('22/12/2014', '2014/DEC/22'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 01 -->
+
                    
                 </div>
 
