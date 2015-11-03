@@ -119,7 +119,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                              <span class="upper bold data-pp" style="font-size: 1.1em">08/out (quinta) | das 11h às 12h30 | sesc pompeia | teatro</span>',
 
                              '<span class="titulo">Tilting Axis 1.5</span><br />
-                             <span class="upper bold data-pp" style="font-size: 1.1em">oct/08 (thu) | 11-12h30 | sesc pompeia | theater</span>'); ?>
+                             <span class="upper bold data-pp" style="font-size: 1.1em">oct/08 (thu) | 11am-12:30pm | sesc pompeia | theater</span>'); ?>
                     </p>
                 </div>
             </div>
