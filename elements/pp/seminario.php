@@ -93,7 +93,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                     <span class="upper bold data-pp" style="font-size: 1.1em">07/out (quarta) | das 11h às 13h30 | sesc pompeia | teatro</span>',
 
                                    '<span class="titulo">panel 1 | RETHINKING TRADITIONS: ART, GESTURE AND CONTEMPORANEITY</span><br />
-                                    <span class="upper bold data-pp" style="font-size: 1.1em">oct/07 (wed) | 11-13h30 | sesc pompeia | theater</span>');?>
+                                    <span class="upper bold data-pp" style="font-size: 1.1em">oct/07 (wed) | 11am-1:30pm | sesc pompeia | theater</span>');?>
 
                     </p>
                 </div>
@@ -158,7 +158,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                     <span class="upper data-pp" style="font-size: 1.1em">*com lançamento do livro <em>Panoramas do Sul | Leituras | Perspectivas para outras geografias do pensamento</em></span>',
 
                                    '<span class="titulo">panel 2 | RETHINKING SPACES: ART, USES AND DAILY LIFE</span><br />
-                                    <span class="upper data-pp bold" style="font-size: 1.1em">oct/10 (sat) | 14-16h30 | sesc pompeia | theater</span><br />
+                                    <span class="upper data-pp bold" style="font-size: 1.1em">oct/10 (sat) | 2pm-4:30pm | sesc pompeia | theater</span><br />
                                     <span class="upper data-pp" style="font-size: 1.1em">*followed by the launch of the book <em>Southern Panoramas | Readings | Perspectives for other geographies of thought</em>.</span>');?>
 
                     </p>
@@ -220,7 +220,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                     <span class="upper data-pp bold" style="font-size: 1.1em">22/out (quinta) | das 14h às 16h | sesc pompeia | teatro</span>',
 
                                    '<span class="titulo">panel 3 | RETHINKING NARRATIVES: ART, MEMORY AND FICTION</span><br />
-                                    <span class="upper data-pp bold" style="font-size: 1.1em">oct/22 (thu) | 14-16h | sesc pompeia | theater</span>');?>
+                                    <span class="upper data-pp bold" style="font-size: 1.1em">oct/22 (thu) | 2pm-4pm | sesc pompeia | theater</span>');?>
 
                     </p>
                 </div>
@@ -284,7 +284,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                     <span class="upper data-pp bold" style="font-size: 1.1em">29/out (quinta) | das 14h às 16h | sesc pompeia | teatro</span>',
 
                                    '<span class="titulo">panel 4 | RETHINKING TIME: ART, SILENCES AND HISTORIES</span><br />
-                                    <span class="upper data-pp bold" style="font-size: 1.1em">oct/29 (thu) | 14-16h | sesc pompeia | theater</span>');?>
+                                    <span class="upper data-pp bold" style="font-size: 1.1em">oct/29 (thu) | 2pm-4pm | sesc pompeia | theater</span>');?>
 
                     </p>
                 </div>

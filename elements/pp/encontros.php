@@ -185,7 +185,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                              <span class="upper bold data-pp" style="font-size: 1.1em">09/out (sexta) | das 17h às 18h30 | galpão vb</span>',
 
                              '<span class="titulo">MEETING WITH RESIDENCY NETWORK PARTNERS</span><br />
-                             <span class="upper bold data-pp" style="font-size: 1.1em">oct/09 (fri) | 17-18h30 | galpão vb</span>'); ?>
+                             <span class="upper bold data-pp" style="font-size: 1.1em">oct/09 (fri) | 5pm-6:30pm | galpão vb</span>'); ?>
                     </p>
                 </div>
             </div>
@@ -231,7 +231,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                              <span class="upper bold data-pp" style="font-size: 1.1em">04/nov (quarta) e 05/nov (quinta) | das 13h às 16h | galpão vb</span>',
 
                              '<span class="titulo">READING OF PORTFOLIOS</span>&nbsp;<span class="highlight upper bold">&nbsp;educational&nbsp;action&nbsp;</span><br />
-                             <span class="upper bold data-pp" style="font-size: 1.1em">nov/04 (wed) and nov/05 (thu) | 13h-16h | galpão vb</span>'); ?>
+                             <span class="upper bold data-pp" style="font-size: 1.1em">nov/04 (wed) and nov/05 (thu) | 1pm-4pm | galpão vb</span>'); ?>
                     </p>
                 </div>
             </div>
@@ -285,7 +285,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                              <span class="upper bold data-pp" style="font-size: 1.1em">14/nov (sáb) e 09/jan (sáb) | 16h | paço das artes</span>',
 
                              '<span class="titulo"><em>those born for adventure don’t stray from the path</em> exhibition tours</span><br />
-                             <span class="upper bold data-pp" style="font-size: 1.1em">nov/14 (sat) and jan/09 (sat) | 16h | paço das artes</span>'); ?>
+                             <span class="upper bold data-pp" style="font-size: 1.1em">nov/14 (sat) and jan/09 (sat) | 4pm | paço das artes</span>'); ?>
                     </p>
                 </div>
             </div>

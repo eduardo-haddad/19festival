@@ -69,7 +69,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                     <span class="upper bold data-pp" style="font-size: 1.1em">de 10/out a 06/dez (sábados, domingos e feriados) | 15h | Sesc Pompeia | Convivência</span>',
 
                                    '<span class="titulo">SHARED VOCABULARY BUILDING</span>&nbsp;<span class="highlight upper bold">&nbsp;educational&nbsp;action&nbsp;</span><br />
-                                    <span class="upper bold data-pp" style="font-size: 1.1em">from Oct/10 to Dec/06 (Saturdays, Sundays and holidays) | 15h | Sesc Pompeia | Convivência</span><br />');?>
+                                    <span class="upper bold data-pp" style="font-size: 1.1em">from Oct/10 to Dec/06 (Saturdays, Sundays and holidays) | 3pm | Sesc Pompeia | Convivência</span><br />');?>
 
                     </p>
                 </div>
@@ -110,7 +110,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                     <span class="upper bold data-pp" style="font-size: 1.1em">de 10/out a 06/dez (sábados, domingos e feriados) | 15h | Sesc Pompeia | Convivência</span>',
 
                                    '<span class="titulo">WORKSHOPS WITH THE EXHIBITIONS’ EDUCATORS</span>&nbsp;<span class="highlight upper bold">&nbsp;educational&nbsp;action&nbsp;</span><br />
-                                    <span class="upper bold data-pp" style="font-size: 1.1em">from Oct/10 to Dec/06 (Saturdays, Sundays and holidays) | 15h | Sesc Pompeia | Convivência</span><br />');?>
+                                    <span class="upper bold data-pp" style="font-size: 1.1em">from Oct/10 to Dec/06 (Saturdays, Sundays and holidays) | 3pm | Sesc Pompeia | Convivência</span><br />');?>
 
                     </p>
                 </div>

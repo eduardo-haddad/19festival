@@ -70,7 +70,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                     <span class="upper bold data-pp" style="font-size: 1.1em">08/out (quinta) e 10/out (sábado) | das 10h30 às 13h | sesc pompeia | Oficinas de Criatividade</span>',
 
                                    '<span class="titulo">WOVEN MEMORY: MONOTYPE SEEN FROM MALI</span>&nbsp;<span class="highlight upper bold">&nbsp;educational&nbsp;action&nbsp;</span><br />
-                                    <span class="upper bold data-pp" style="font-size: 1.1em">oct/08 (thu) and oct/10 (sat)| 10h30-13h | sesc pompeia | Oficinas de Criatividade</span><br />');?>
+                                    <span class="upper bold data-pp" style="font-size: 1.1em">oct/08 (thu) and oct/10 (sat)| 10:30am-1pm | sesc pompeia | Oficinas de Criatividade</span><br />');?>
 
                     </p>
                 </div>
@@ -113,7 +113,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                     <span class="upper bold data-pp" style="font-size: 1.1em">09/out (sexta) | das 11h às 13h30 | Galpão VB</span>',
 
                                    '<span class="titulo">VOCABULARY OF AN EXISTING SOUTH: THE INVENTION OF A WORLD FROM INEXISTENT PLACES</span>&nbsp;<span class="highlight upper bold">&nbsp;educational&nbsp;action&nbsp;</span><br />
-                                    <span class="upper bold data-pp" style="font-size: 1.1em">oct/09 (fri) | 11-13h30 | Galpão VB</span><br />');?>
+                                    <span class="upper bold data-pp" style="font-size: 1.1em">oct/09 (fri) | 11am-1:30pm | Galpão VB</span><br />');?>
 
                     </p>
                 </div>
@@ -156,7 +156,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                                     <span class="upper bold data-pp" style="font-size: 1.1em">05/dez (sábado) | das 10h30 às 13h30 | Galpão VB</span>',
 
                                    '<span class="titulo">LAMBADA AND THE SOCIAL BODY: THE BODY OF MEMORY AND DANCE EXPERIENCE</span>&nbsp;<span class="highlight upper bold">&nbsp;educational&nbsp;action&nbsp;</span><br />
-                                    <span class="upper bold data-pp" style="font-size: 1.1em">dec/05 (sat) | 10h30-13h30 | Galpão VB</span><br />');?>
+                                    <span class="upper bold data-pp" style="font-size: 1.1em">dec/05 (sat) | 10:30am-1:30pm | Galpão VB</span><br />');?>
 
                     </p>
                 </div>
