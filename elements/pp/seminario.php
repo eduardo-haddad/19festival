@@ -257,7 +257,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <p>Retirada de ingressos 1h antes no próprio local. <span class="bold">Vagas limitadas</span>.</p>
                 <span class="bold">Saiba mais</span><br />
                  - <a href="http://site.videobrasil.org.br/news/1922243" class="link" target="_blank">leia o texto de cobertura da mesa</a><br />
-                 - <a href="https://www.flickr.com/photos/videobrasil/" class="link" target="_blank">veja fotos do encontro</a>',
+                 - <a href="https://www.flickr.com/photos/videobrasil/sets/72157660000325580" class="link" target="_blank">veja fotos do encontro</a>',
 
                 //Evento 3 - EN
                 '<p>Being open to multiple interpretations and perceptions, fiction enables narrative linearity to be replaced with other sensory logics. The fictional dimension of literature liberates the narrator for other forms of storytelling and to elaborate personal or collective trajectories. The panel discusses creative works which, devoid of any proof or documentation, look for word and image junctures that allow an escape from a world reduced to what is visible and into the realm of imagination.
@@ -265,7 +265,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <p>Collect your ticket 1h before the activity at Sesc Pompeia.<br /><span class="bold">Seats are limited</span>.</p>
                 <span class="bold">Learn more:</span><br />
                  - <a href="http://site.videobrasil.org.br/en/news/1922243" class="link" target="_blank">read the panel\'s news coverage</a><br />
-                 - <a href="https://www.flickr.com/photos/videobrasil/" class="link" target="_blank">photo album</a>');  ?> 
+                 - <a href="https://www.flickr.com/photos/videobrasil/sets/72157660000325580" class="link" target="_blank">photo album</a>');  ?> 
                 </div> 
             </div>
 
@@ -319,19 +319,17 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 pten('<p>Imersa em contexturas marcadas pelos dilemas da história, a esfera da arte exprime inevitavelmente as relações que formam o tecido social. Seus discursos, silêncios ou denúncias revelam as tensões entre aquilo que desejamos lembrar ou esquecer. O encontro debate práticas de pensadores e artistas que buscam desestabilizar (ou reiterar) as forças políticas limitadoras dos campos da história e da memória.
                     </p>
                     <p>Retirada de ingressos 1h antes no próprio local. <span class="bold">Vagas limitadas</span>.</p>
-                <!--<p><span class="bold">Saiba mais</span><br />
-                 - relatos<br />
-                 - notícias<br />
-                 - fotos</p>-->',
+                <span class="bold">Saiba mais</span><br />
+                 - <a href="http://site.videobrasil.org.br/news/1954777" class="link" target="_blank">leia o texto de cobertura da mesa</a><br />
+                 - <a href="https://www.flickr.com/photos/videobrasil/sets/72157660437943786" class="link" target="_blank">veja fotos do encontro</a>',
 
                 //Evento 4 - EN
                 '<p>Immersed in contexts marked by history’s dilemmas, the art sphere inevitably expresses the relationships that inform the social fabric. Its discourses, silences, or denouncements reveal the tensions between what we wish to remember or to forget. The meeting will discuss the practices of thinkers and artists who look to destabilize (or reiterate) the limiting political forces of history and memory.
                     </p>
                     <p>Collect your ticket 1h before the activity at Sesc Pompeia.<br /><span class="bold">Seats are limited</span>.</p>
-                <!--<p><span class="bold">Learn more</span><br />
-                 - statements<br />
-                 - news<br />
-                 - photos</p>-->');  ?> 
+                <span class="bold">Learn more:</span><br />
+                 - <a href="http://site.videobrasil.org.br/en/news/1954777" class="link" target="_blank">read the panel\'s news coverage</a><br />
+                 - <a href="https://www.flickr.com/photos/videobrasil/sets/72157660437943786" class="link" target="_blank">photo album</a>');  ?> 
                 </div> 
             </div>
 
