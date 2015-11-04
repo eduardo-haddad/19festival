@@ -516,6 +516,7 @@ ommissioned projects),<br />
             </div>
            
 
+           <!-- SESC -->
            <div class="row" >
                 <div class="col-xs-12 titulo" style="float: left;">
                 <p style="margin-bottom:0; margin-top: 30px">
@@ -737,6 +738,218 @@ ommissioned projects),<br />
 
                      <p><span class="bold upper">SERVICES </span><br />
                      Ricardo Herculano, Carlo Alessandro </p>
+                     ');
+
+                    ?>
+                    
+                    
+                </div>
+
+
+            </div>
+
+
+            <!-- VIDEOBRASIL -->
+           <div class="row" >
+                <div class="col-xs-12 titulo" style="float: left;">
+                <p style="margin-bottom:0; margin-top: 30px">
+                   associação cultural videobrasil
+                </p>
+                </div>
+            </div>
+           
+            <div class="row" style="clear: both;" id="ficha">
+
+
+
+                <div class="col-xs-12 col-md-6 f">
+                    <?php pten(                                         
+                    //ESQUERDA
+                    '<p class="submenu" style="cursor: text">direção</p>
+
+                    <p><span class="bold upper">direção geral</span><br />
+                    Solange O. Farkas</p>
+
+                    <p><span class="bold upper">assistente da direção</span><br />
+                    Camila Schmidt Veiga</p>
+
+                    
+
+                    <p class="submenu" style="cursor: text"><br />institucional e programação</p>
+
+                    <p><span class="bold upper">direção de programação</span><br />
+                    Thereza Farkas</p>
+
+                    <p><span class="bold upper">assistente da programação</span><br />
+                    Naiade Margonar</p>
+
+                    
+
+                    <p class="submenu" style="cursor: text"><br />produção</p>
+
+                    <p><span class="bold upper">coordenação</span><br />
+                    Rafael Moretti</p>
+
+                    <p class="submenu" style="cursor: text"><br />arquivo e pesquisa</p>
+
+                    <p><span class="bold upper">coordenação de arquivo e pesquisa</span><br />
+                    Diego Matos</p>
+
+                    <p><span class="bold upper">produção de arquivo e pesquisa</span><br />
+                    Carolina Câmara</p>
+
+                    <p><span class="bold upper">pesquisador</span><br />
+                    Ruy Luduvice</p>
+
+                    <p><span class="bold upper">assistentes de pesquisa</span><br />
+                    Juliana Costa, Régis Alves</p>
+
+                    <p><span class="bold upper">audiovisual</span><br />
+                    Leonardo Zerino, Samuel de Castro</p>
+
+                    
+
+                     
+    
+                     ',
+
+
+                     /////////////////////             
+                    '<p class="submenu" style="cursor: text">direction</p>
+
+                    <p><span class="bold upper">general director and coordinator</span><br />
+                    Solange O. Farkas</p>
+
+                    <p><span class="bold upper">assistant to the director</span><br />
+                    Camila Schmidt Veiga</p>
+
+                    
+
+                    <p class="submenu" style="cursor: text"><br />institutional and programme</p>
+
+                    <p><span class="bold upper">programme director</span><br />
+                    Thereza Farkas</p>
+
+                    <p><span class="bold upper">programme assistant</span><br />
+                    Naiade Margonar</p>
+
+                    
+
+                    <p class="submenu" style="cursor: text"><br />production</p>
+
+                    <p><span class="bold upper">coordinator</span><br />
+                    Rafael Moretti</p>
+
+                    <p class="submenu" style="cursor: text"><br />archive and research</p>
+
+                    <p><span class="bold upper">archive and research coordinator</span><br />
+                    Diego Matos</p>
+
+                    <p><span class="bold upper">archive and research production</span><br />
+                    Carolina Câmara</p>
+
+                    <p><span class="bold upper">RESEARCHER</span><br />
+                    Ruy Luduvice</p>
+
+                    <p><span class="bold upper">research assistants</span><br />
+                    Juliana Costa, Régis Alves</p>
+
+                    <p><span class="bold upper">audiovisual</span><br />
+                    Leonardo Zerino, Samuel de Castro</p>
+
+                     ');
+
+                    ?>
+
+                </div>
+
+                <div class="col-xs-12 col-md-6 f" style="float: right;" id="id-texto">
+
+                    <?php pten(  
+                    //DIREITA                                         
+                    '<p class="submenu" style="cursor: text">editorial</p>
+
+                    <p><span class="bold upper">coordenação editorial</span><br />
+                    Teté Martinho</p>
+
+                    <p><span class="bold upper">produção editorial</span><br />
+                    Maria Teresa Tavares</p>
+
+                    <p><span class="bold upper">assistente de produção editorial</span><br />
+                    Juliana Caffé<br />
+                    
+                    <p class="submenu" style="cursor: text"><br />comunicação</p>
+
+                    <p><span class="bold upper">coordenação de comunicação</span><br />
+                    Ana Paula Vargas</p>
+
+                    <p><span class="bold upper">redação</span><br />
+                    Deborah Moreira</p>
+
+                    <p><span class="bold upper">desenvolvimento web</span><br />
+                    Eduardo Haddad</p>
+
+                    <p><span class="bold upper">mídias sociais</span><br />
+                    Kátia König</p>
+
+                    <p><span class="bold upper">design</span><br />
+                    Lila Botter</p>
+
+                    <p class="submenu" style="cursor: text"><br />administrativo</p>
+
+                    <p><span class="bold upper">coordenação administrativa</span><br />
+                    Jô Lacerda</p>
+
+                    <p><span class="bold upper">assistente administrativa</span><br />
+                    Marcella G. Mello</p>
+
+                    <p class="submenu" style="cursor: text"><br />jurídico</p>
+
+                    <p><span class="bold upper">assessoria jurídica</span><br />
+                    Olivieri Associados</p>
+                     ',
+
+                    /////////////////////                
+                    '<p class="submenu" style="cursor: text">editorial</p>
+
+                    <p><span class="bold upper">editorial coordinator</span><br />
+                    Teté Martinho</p>
+
+                    <p><span class="bold upper">editorial production</span><br />
+                    Maria Teresa Tavares</p>
+
+                    <p><span class="bold upper">editorial production assistant</span><br />
+                    Juliana Caffé<br />
+                    
+                    <p class="submenu" style="cursor: text"><br />communications</p>
+
+                    <p><span class="bold upper">communications coordinator</span><br />
+                    Ana Paula Vargas</p>
+
+                    <p><span class="bold upper">staff writer</span><br />
+                    Deborah Moreira</p>
+
+                    <p><span class="bold upper">web development</span><br />
+                    Eduardo Haddad</p>
+
+                    <p><span class="bold upper">social media</span><br />
+                    Kátia König</p>
+
+                    <p><span class="bold upper">design</span><br />
+                    Lila Botter</p>
+
+                    <p class="submenu" style="cursor: text"><br />management</p>
+
+                    <p><span class="bold upper">management coordinator</span><br />
+                    Jô Lacerda</p>
+
+                    <p><span class="bold upper">management assistant</span><br />
+                    Marcella G. Mello</p>
+
+                    <p class="submenu" style="cursor: text"><br />legal</p>
+
+                    <p><span class="bold upper">legal advisor</span><br />
+                    Olivieri Associados</p>
                      ');
 
                     ?>
