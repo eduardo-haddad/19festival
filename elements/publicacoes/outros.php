@@ -176,8 +176,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <p style="display: inline"><span class="upper">COLABORADORES</span> Fernanda Nogueira, Catherine Lord, Paul Preciado, Aimar Arriola, Las Serigrafistas Queer, CUDS, Julia Bryan-Wilson, Ming Wong</p><br />
                 <p style="display: inline"><span class="upper">PROJETO GRÁFICO E DESIGN</span> Luciana Facchini</p><br />
                 <!-- <p style="text-align: right; font-size: 1.1em" class="bold upper">Saiba+</p><br /> -->
-                <br /><p><span class="bold upper">lançamento</span> | 25/NOV (quarta) | 20h | Sesc Pompeia | Teatro<br />
-                *evento de lançamento inclui a performance <em>Fancy em Pyetà segundo ato</em>, de Rodolpho Parigi e mesa de abertura com Miguel Lopez (curador da publicação), Julia Bryan-Wilson (colaboradora) e Teté Martinho (coordenadora editorial do Videobrasil)</p>',
+                </p>',
 
                 //Publicação 2 - EN
                 '<p>Curated by the Peruvian writer and curator Miguel Angel López, the 11th Caderno Sesc_Videobrasil looks at how feminism, gay activism, post-pornography and other body-based critical reactions are transforming the discourses of art history and the grammar of art itself. The publication features theoretical essays and visual propositions that revisit queer art initiatives or put forth new views of art history in the light of these critical responses. Presented by Angel Lopez during the 31st São Paulo Art Biennial, Giuseppe Campuzano’s Museo Travesti del Perú is featured in printed format on this volume.</p>
@@ -186,7 +185,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <p style="display: inline"><span class="upper">COLLABORATORS</span> Fernanda Nogueira, Catherine Lord, Paul Preciado, Aimar Arriola, Las Serigrafistas Queer, CUDS, Julia Bryan-Wilson, Ming Wong</p><br />
                 <p style="display: inline"><span class="upper">GRAPHIC CONCEPT AND DESIGN</span> Luciana Facchini</p><br />
                 <!-- <p style="text-align: right; font-size: 1.1em" class="bold upper">Learn more</p><br /> -->
-                <br /><p><span class="bold upper">Launch</span> | NOV/25 (wed) | 20h | Sesc Pompeia | Theater<br />*the event includes the performance <em>Fancy em Pyetà segundo ato</em>, by Rodolpho Parigi, and a talk with Miguel Lopez (the publication\'s curator), Julia Bryan-Wilson (collaborator), and Teté Martinho (Videobrasil\'s editorial coordinator)</p>');  ?> 
+                ');  ?> 
                 </div> 
             </div>
 
