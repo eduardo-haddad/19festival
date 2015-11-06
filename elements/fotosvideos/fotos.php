@@ -42,6 +42,22 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             <div class="row" style="clear: both;">
 
               
+                <!-- 20 -->
+                <div class="col-xs-12 col-md-6 h" style="float: left;">
+                     <div class="image">
+
+                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157658566869594" target="_blank">
+                        <img src="img/pp/encontros-portfolios.jpg" alt="" width="485px" height="285px" />
+                        <span class="texto"><?php pten(
+                          '#19Festival | Programas Públicos | Leituras de Portfólios',
+                          '#19Festival | Public Programs | Reading of portfolios'
+                          );?>
+                          </span>
+                       </a>
+                    </div>
+                </div>
+                <!-- 20 -->
+
                 <!-- 19 -->
                 <div class="col-xs-12 col-md-6 h" style="float: left;">
                      <div class="image">
