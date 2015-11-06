@@ -42,6 +42,38 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             <div class="row" style="clear: both;">
 
               
+                <!-- 19 -->
+                <div class="col-xs-12 col-md-6 h" style="float: left;">
+                     <div class="image">
+
+                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157660437943786" target="_blank">
+                        <img src="img/pp/seminario-mesa4_1.jpg" alt="" width="485px" height="285px" />
+                        <span class="texto"><?php pten(
+                          '#19Festival | Programas Públicos | Seminário | Mesa 4 | Repensar o tempo: arte, silêncios e histórias',
+                          '#19Festival | Public Programs | Seminar | Panel 4 | Rethinking time: art, silences and histories'
+                          );?>
+                          </span>
+                       </a>
+                    </div>
+                </div>
+                <!-- 19 -->
+
+                <!-- 18 -->
+                <div class="col-xs-12 col-md-6 h" style="float: left;">
+                     <div class="image">
+
+                       <a href="https://www.flickr.com/photos/videobrasil/sets/72157660000325580" target="_blank">
+                        <img src="img/pp/seminario-mesa3_1.jpg" alt="" width="485px" height="285px" />
+                        <span class="texto"><?php pten(
+                          '#19Festival | Programas Públicos | Seminário | Mesa 3 | Repensar narrativas: arte, memória e ficção',
+                          '#19Festival | Public Programs | Seminar | Panel 3 | Rethinking narratives: art, memory and fiction'
+                          );?>
+                          </span>
+                       </a>
+                    </div>
+                </div>
+                <!-- 18 -->
+
                 <!-- 17 -->
                 <div class="col-xs-12 col-md-6 h" style="float: left;">
                      <div class="image">

@@ -238,7 +238,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 
             <div class="row" style="clear: both;">     
                 <div class="col-sm-12 col-md-6 pp-participantes" style="float: left ">
-                    <img src="img/pp/encontros-portfolios<?php pten('-pt.png','-en.jpg');?>" class="img-responsive" style="margin-bottom: 15px" />    
+                    <img src="img/pp/encontros-portfolios.png" class="img-responsive" style="margin-bottom: 15px" />    
 
 
                     <p><span style="text-transform: uppercase"><?php pten('Participantes', 'Participants'); ?></span></p>
