@@ -8,10 +8,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 paletaArtistas($('.titulo'));
             
             </script>
-            <style type="text/css">
+            <style>
                .image { 
                  position: relative; 
-                 /*width: 100%;  for IE 6 */
                  max-height: 285px;
                  max-width: 485px;
                  margin-bottom: 15px;
@@ -24,7 +23,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                  width: 485px; 
                  color: white;
                  min-height: 70px;
-                 background: rgb(0, 0, 0); /* fallback color */
+                 background: rgb(0, 0, 0); 
                  background: rgba(0, 0, 0, 0.7);
                  padding: 10px;
               }
