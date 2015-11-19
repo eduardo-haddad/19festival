@@ -461,6 +461,10 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li>6 de dezembro, domingo</li>
                     <li class="agenda-oficina">15h00 | Sesc Pompeia, Convivência | Programas Públicos | Oficinas | <a href="pp.php#mediacao" target="_blank" class="link">Oficinas com os educadores das exposições</a></li>
                     </ol>
+                    <ol>
+                    <li>12 de dezembro, sábado</li>
+                    <li class="agenda-encontro">14h30 | Paço das Artes | Visita mediada à exposição paralela Quem Nasce Pra Aventura Não Toma Outro Rumo | programação integrante do evento Paço das Artes 45 anos</li>
+                    </ol>
 
                     <div class="titulo titulo-agenda-g" style="margin-top: 30px"><span>janeiro</span></div>
                     <ol>
@@ -823,7 +827,11 @@ $titulo = $idioma == 'pt' ? 'Agenda' : 'Agenda';
                     <li>December 6, Sunday</li>
                     <li class="agenda-oficina">03:00pm | Sesc Pompeia, Convivência | Public Programs | Workshops | <a href="pp.php#mediacao" target="_blank" class="link">Workshops with the exhibitions’ educators</a></li>
                     </ol>
-                    
+                    <ol>
+                    <li>December 12, Saturday</li>
+                    <li class="agenda-encontro">14h30 | Paço das Artes | Those Born For Adventure Don’t Stray From the Path exhibition tour | part of <em>Paço das Artes 45 years</em> event</li>
+                    </ol>
+
                     <div class="titulo titulo-agenda-g" style="margin-top: 30px"><span>january</span></div>
                     
                     <ol>
