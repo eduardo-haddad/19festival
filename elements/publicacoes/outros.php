@@ -123,7 +123,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <p style="display: inline"><span class="upper">COLLABORATORS</span> Eduardo de Jesus, Gabriel Priolli, Moacir dos Anjos, Paula Alzugaray</p><br />
                 <p style="display: inline"><span class="upper">GRAPHIC CONCEPT AND DESIGN</span> Celso Longo + Daniel Trench</p><br />
                 <!-- <p style="text-align: right; font-size: 1.1em" class="bold upper">Learn more</p><br /> -->
-                <br /><p><span class="bold upper">Launch</span> | OCT/08 (thu) | 19h30 | Galpão VB<br />*on occasion of Galpão VB\'s opening</p>');  ?> 
+                <br /><p><span class="bold upper">Launch</span> | OCT/08 (thu) | 7:30pm | Galpão VB<br />*on occasion of Galpão VB\'s opening</p>');  ?> 
                 </div> 
             </div>
 

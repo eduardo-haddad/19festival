@@ -82,7 +82,7 @@ $titulo = $idioma == 'pt' ? 'Performances' : 'Performances';
                     <span class="bold upper">25/nov</span> | quarta<br />
                     21h30<br />
                     Sesc Pompeia | Convivência<br />
-                    *Em ocasião do lançamento das publicações <em>Caderno Sesc_Videobrasil 11 | Aliança de corpos vulneráveis</em> e <em>Panoramas do Sul | Artistas selecionados – Obras e projetos</em></p>',
+                    *Em ocasião do lançamento da publicação <em>Panoramas do Sul | Artistas selecionados – Obras e projetos</em></p>',
 
                     '<p><span class="bold upper">oct/06</span> | Tuesday<br />
                     21h<br />
@@ -90,7 +90,7 @@ $titulo = $idioma == 'pt' ? 'Performances' : 'Performances';
                     <span class="bold upper">nov/25</span> | Wednesday<br />
                     21h30<br />
                     Sesc Pompeia | Convivência<br />
-                    *Followed by the launch of the publications <em>Caderno Sesc_Videobrasil 11 | An alliance of vulnerable bodies</em> and <em>Southern Panoramas | Selected Works and Commissioned Projects</em></p>'); ?>
+                    *Followed by the launch of the publication <em>Southern Panoramas | Selected Works and Commissioned Projects</em></p>'); ?>
                 </div>     
                 <div class="col-sm-12 col-md-6 performance-texto a" style="float: right;">         
                 <?php
