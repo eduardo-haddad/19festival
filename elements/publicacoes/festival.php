@@ -252,7 +252,7 @@ ommissioned PROJECTS</span>'); ?>
                 <p style="display: inline"><span class="upper">PROJETO GRÁFICO</span> Ângela Detânico e Rafael Lain</p><br />
                 <p style="display: inline"><span class="upper">DESIGN</span> Carla Castilho, Lia Assumpção | Janela Estúdio</p><br />
                 <!-- <p style="text-align: right; font-size: 1.1em" class="bold upper">Saiba+</p><br /> -->
-                <br /><p><span class="bold upper">lançamento</span> | 25/NOV (quarta) | 21h30 | Sesc Pompeia | Teatro<br />*evento de lançamento inclui a performance <em>Fancy em Pyetà segundo ato</em>, de Rodolpho Parigi</p>',
+                <br /><p><span class="bold upper">lançamento</span> | 25/NOV (quarta) | 21h30 | Sesc Pompeia | Teatro<br />*evento de lançamento inclui a performance <a href="performances.php" class="link"><em>Fancy em Pyetà terceiro_ato</em></a>, de Rodolpho Parigi</p>',
                 //Publicação 3 - EN
                 '<p>This publication catalogs the 60 artworks and art projects featured in the Southern Panoramas | Selected Works and Southern Panoramas | Selected Projects exhibitions of the 19th Contemporary Art Festival Sesc_Videobrasil. The items were selected from a pool of roughly 2,000 entries. The show’s curators contribute reviews-summaries of each of the pieces, as well as short essays on the projects, interspersed with pictures and sketches. Includes a special insert containing views of the exhibitions at Sesc Pompeia and Galpão VB.</p>
                 
@@ -261,7 +261,7 @@ ommissioned PROJECTS</span>'); ?>
                 <p style="display: inline"><span class="upper">GRAPHIC CONCEPT</span> Ângela Detânico e Rafael Lain</p><br />
                 <p style="display: inline"><span class="upper">DESIGN</span> Carla Castilho, Lia Assumpção | Janela Estúdio</p><br />
                 <!-- <p style="text-align: right; font-size: 1.1em" class="bold upper">Learn more</p><br /> -->
-                <br /><p><span class="bold upper">Launch</span> | NOV/25 (wed) | 9:30pm | Sesc Pompeia | Theater<br />*the event includes the performance <em>Fancy em Pyetà segundo ato</em>, by Rodolpho Parigi</p>');  ?> 
+                <br /><p><span class="bold upper">Launch</span> | NOV/25 (wed) | 9:30pm | Sesc Pompeia | Theater<br />*the event includes the performance <a href="performances.php" class="link"><em>Fancy em Pyetà terceiro_ato</em></a>, by Rodolpho Parigi</p>');  ?> 
                 </div> 
             </div>
 
