@@ -54,6 +54,74 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     
                     <!-- <iframe src="https://player.vimeo.com/video/<?php pten('141268445','141268225');?>?color=ffffff&title=0&byline=0&portrait=0" width="485" height="273" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
 
+                       
+
+
+                       <!-- 26 -->
+                       <div class="image">
+                         <a rel="shadowbox" href="https://www.youtube.com/embed/3Fpd2qC5qQU" target="_blank">
+                          <img src="img/videos/video26.jpg" class="thumb-video" />
+                          <span class="texto"><?php pten(
+                            'Projetos Comissionados | 19º Festival, 2015',
+                            'Projetos Comissionados | 19º Festival, 2015'
+                            );?>
+                            </span>
+                         </a>
+                      </div>
+                      <!-- 26 -->
+
+                       <!-- 25 -->
+                       <div class="image">
+                         <a rel="shadowbox" href="https://www.youtube.com/embed/9DrBSO2bVug" target="_blank">
+                          <img src="img/videos/video25.jpg" class="thumb-video" />
+                          <span class="texto"><?php pten(
+                            '"Fancy em Pyetà, segundo ato", Rodolpho Parigi | 2015, performance',
+                            '"Fancy em Pyetà, segundo ato", Rodolpho Parigi | 2015, performance'
+                            );?>
+                            </span>
+                         </a>
+                      </div>
+                      <!-- 25 -->
+
+                       <!-- 24 -->
+                       <div class="image">
+                         <a rel="shadowbox" href="https://www.youtube.com/embed/n-HEBkQuA5c" target="_blank">
+                          <img src="img/videos/video24.jpg" class="thumb-video" />
+                          <span class="texto"><?php pten(
+                            '"Vostok", Leticia Ramos | 19º Festival, 2015',
+                            '"Vostok", Leticia Ramos | 19º Festival, 2015'
+                            );?>
+                            </span>
+                         </a>
+                      </div>
+                      <!-- 24 -->
+
+                       <!-- 23 -->
+                       <div class="image">
+                         <a rel="shadowbox" href="https://www.youtube.com/embed/-_hIeFwf_0Y" target="_blank">
+                          <img src="img/videos/video23.jpg" class="thumb-video" />
+                          <span class="texto"><?php pten(
+                            '"Oiko-nomic Threads", Afroditi Psarra, Maria Varela e Marinos Koutsomichalis | 19º Festival, 2015',
+                            '"Oiko-nomic Threads", Afroditi Psarra, Maria Varela e Marinos Koutsomichalis | 19º Festival, 2015' 
+                            );?>
+                            </span>
+                         </a>
+                      </div>
+                      <!-- 23 -->
+
+                       <!-- 22 -->
+                       <div class="image">
+                         <a rel="shadowbox" href="https://www.youtube.com/embed/Ef3epgLnFCY" target="_blank">
+                          <img src="img/videos/video22.jpg" class="thumb-video" />
+                          <span class="texto"><?php pten(
+                            'Expografia | André Vainer e Tiago Wright | 19º Festival, 2015',
+                            'Expografia | André Vainer e Tiago Wright | 19º Festival, 2015'
+                            );?>
+                            </span>
+                         </a>
+                      </div>
+                      <!-- 22 -->
+
                        <!-- 21 -->
                        <div class="image">
                          <a rel="shadowbox" href="https://www.youtube.com/embed/ZoTuoekGmcc" target="_blank">
