@@ -889,7 +889,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     <div class="bloco">
                         <a href="http://videobrasil.org.br/19/imprensa/20141222_O_Estado_de_Sao_Paulo.jpg" 
                         target="_blank">
-                            <img src="img/imprensa/20150104_Valor.jpg" />
+                            <img src="img/imprensa/20141222_O_Estado_de_Sao_Paulo.jpg" />
                         </a><br />
                         <div>
                             <a href="http://videobrasil.org.br/19/imprensa/20141222_O_Estado_de_Sao_Paulo.jpg" 
