@@ -148,6 +148,263 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
             <div class="row" style="clear:both">
                 <div class="col-xs-12">
 
+                    
+                    <!-- 47 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/artafrica/ArtAfrica_7-BOOK_REVIEWS_AA_DEC.pdf" 
+                        target="_blank">
+                            <img src="img/imprensa/artafrica/ArtAfrica_7-BOOK_REVIEWS_AA_DEC.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/artafrica/ArtAfrica_7-BOOK_REVIEWS_AA_DEC.pdf" 
+                            target="_blank">
+                            <span><?php pten('Art Africa (Resenhas de livros)', 'Art Africa (Book reviews)'); ?><br />
+                            <?php pten('01/12/2015', '2015/DEC/01'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 47 -->
+
+                    <!-- 46 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/artafrica/ArtAfrica_6-Entrevista_Sabrina_Moura.pdf" 
+                        target="_blank">
+                            <img src="img/imprensa/artafrica/ArtAfrica_6-Entrevista_Sabrina_Moura.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/artafrica/ArtAfrica_6-Entrevista_Sabrina_Moura.pdf" 
+                            target="_blank">
+                            <span><?php pten('Art Africa (Entrevista com Sabrina Moura)', 'Art Africa (Interview with Sabrina Moura)'); ?><br />
+                            <?php pten('01/12/2015', '2015/DEC/01'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 46 -->
+
+                    <!-- 45 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/artafrica/ArtAfrica_5-Entrevista_Abdoulaye_Konate.pdf" 
+                        target="_blank">
+                            <img src="img/imprensa/artafrica/ArtAfrica_5-Entrevista_Abdoulaye_Konate.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/artafrica/ArtAfrica_5-Entrevista_Abdoulaye_Konate.pdf" 
+                            target="_blank">
+                            <span><?php pten('Art Africa (Entrevista com Abdoulaye Konaté)', 'Art Africa (Interview with Abdoulaye Konaté)'); ?><br />
+                            <?php pten('01/12/2015', '2015/DEC/01'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 45 -->
+
+                    <!-- 44 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/artafrica/ArtAfrica_4-Entrevistas_Keli_Safia_Maksud_e_Joao_Laia.pdf" 
+                        target="_blank">
+                            <img src="img/imprensa/artafrica/ArtAfrica_4-Entrevistas_Keli_Safia_Maksud_e_Joao_Laia.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/artafrica/ArtAfrica_4-Entrevistas_Keli_Safia_Maksud_e_Joao_Laia.pdf" 
+                            target="_blank">
+                            <span><?php pten('Art Africa (Entrevista com Keli Safia Maksud e João Laia)', 'Art Africa (Interview with Keli Safia Maksud & João Laia)'); ?><br />
+                            <?php pten('01/12/2015', '2015/DEC/01'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 44 -->
+
+                    <!-- 43 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/artafrica/ArtAfrica_3-Entrevista_NGone_Fall.pdf" 
+                        target="_blank">
+                            <img src="img/imprensa/artafrica/ArtAfrica_3-Entrevista_NGone_Fall.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/artafrica/ArtAfrica_3-Entrevista_NGone_Fall.pdf" 
+                            target="_blank">
+                            <span><?php pten('Art Africa (Entrevista com  N\'Gone Fall)', 'Art Africa (Interview with N\'Gone Fall)'); ?><br />
+                            <?php pten('01/12/2015', '2015/DEC/01'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 43 -->
+
+                    <!-- 42 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/artafrica/ArtAfrica_2-Entrevista_Solange_Farkas.pdf" 
+                        target="_blank">
+                            <img src="img/imprensa/artafrica/ArtAfrica_2-Entrevista_Solange_Farkas.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/artafrica/ArtAfrica_2-Entrevista_Solange_Farkas.pdf" 
+                            target="_blank">
+                            <span><?php pten('Art Africa (Entrevista com Solange Farkas)', 'Art Africa (Interview with Solange Farkas)'); ?><br />
+                            <?php pten('01/12/2015', '2015/DEC/01'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 42 -->
+
+                    <!-- 41 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/artafrica/ArtAfrica_1-Apresentacao.pdf" 
+                        target="_blank">
+                            <img src="img/imprensa/artafrica/ArtAfrica_1-Apresentacao.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/artafrica/ArtAfrica_1-Apresentacao.pdf" 
+                            target="_blank">
+                            <span><?php pten('Art Africa (Apresentação)', 'Art Africa (Introduction)'); ?><br />
+                            <?php pten('01/12/2015', '2015/DEC/01'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 41 -->
+
+                    <!-- 40 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20151130_Ocula.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20151130_Ocula.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151130_Ocula.png" 
+                            target="_blank">
+                            <span>Ocula<br />
+                            <?php pten('30/11/2015', '2015/NOV/30'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 40 -->
+
+                    <!-- 39 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20151112_Arshake(1).png" 
+                        target="_blank">
+                            <img src="img/imprensa/20151112_Arshake(1).jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151112_Arshake(1).png" 
+                            target="_blank">
+                            <span>Arshake<br />
+                            <?php pten('12/11/2015', '2015/NOV/12'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 39 -->
+
+                    <!-- 38 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20151104_Veja_SP_Expos.jpg" 
+                        target="_blank">
+                            <img src="img/imprensa/20151104_Veja_SP_Expos.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151104_Veja_SP_Expos.jpg" 
+                            target="_blank">
+                            <span>Veja São Paulo<br />
+                            <?php pten('04/11/2015', '2015/NOV/04'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 38 -->
+
+                    <!-- 37 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20151104_Mousse.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20151104_Mousse.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151104_Mousse.png" 
+                            target="_blank">
+                            <span>Mousse<br />
+                            <?php pten('04/11/2015', '2015/NOV/04'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 37 -->
+
+                    <!-- 36 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20151029_Exit_Express.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20151029_Exit_Express.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151029_Exit_Express.png" 
+                            target="_blank">
+                            <span>Exit Express<br />
+                            <?php pten('29/10/2015', '2015/OCT/29'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 36 -->
+
+                    <!-- 35 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20151029_ArteCapital.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20151029_ArteCapital.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151029_ArteCapital.png" 
+                            target="_blank">
+                            <span>Arte Capital<br />
+                            <?php pten('29/10/2015', '2015/OCT/29'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 35 -->
+
+                    <!-- 34 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20151029_ArteCapital_.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20151029_ArteCapital_.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151029_ArteCapital_.png" 
+                            target="_blank">
+                            <span>Arte Capital<br />
+                            <?php pten('29/10/2015', '2015/OCT/29'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 34 -->
+
+                    <!-- 33 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20151028_Terremoto_MX.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20151028_Terremoto_MX.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151028_Terremoto_MX.png" 
+                            target="_blank">
+                            <span>Terremoto MX<br />
+                            <?php pten('28/10/2015', '2015/OCT/28'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 33 -->
+
+                    <!-- 32 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20151021_El Pais.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20151021_El Pais.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151021_El Pais.png" 
+                            target="_blank">
+                            <span>El Pais<br />
+                            <?php pten('21/10/2015', '2015/OCT/21'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 32 -->                    
+
                     <!-- 29 -->
                     <div class="bloco">
                         <a href="http://videobrasil.org.br/19/imprensa/20151016_Canal_Curta.mp4" 
@@ -163,6 +420,22 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         </div>
                     </div>
                     <!-- 29 -->
+
+                    <!-- 31 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20151009_PIPA.png" 
+                        target="_blank">
+                            <img src="img/imprensa/20151009_PIPA.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20151009_PIPA.png" 
+                            target="_blank">
+                            <span>PIPA<br />
+                            <?php pten('09/10/2015', '2015/OCT/09'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 31 -->
 
                     <!-- 28 -->
                     <div class="bloco">
@@ -435,6 +708,22 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                         </div>
                     </div>
                     <!-- 12 -->
+
+                    <!-- 30 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/20150901_Artforum.pdf" 
+                        target="_blank">
+                            <img src="img/imprensa/20150901_Artforum.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/20150901_Artforum.pdf" 
+                            target="_blank">
+                            <span>Canal Curta<br />
+                            <?php pten('01/09/2015', '2015/SEP/01'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 30 -->
 
                     <!-- 11 -->
                     <div class="bloco">
