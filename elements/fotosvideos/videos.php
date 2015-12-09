@@ -57,6 +57,45 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                        
 
 
+                       <!-- 29 -->
+                       <div class="image">
+                         <a rel="shadowbox" href="https://www.youtube.com/embed/6l8F1sljmD4" target="_blank">
+                          <img src="img/videos/video29.jpg" class="thumb-video" />
+                          <span class="texto"><?php pten(
+                            'Premiações | 19º Festival, 2015',
+                            'Premiações | 19º Festival, 2015'
+                            );?>
+                            </span>
+                         </a>
+                      </div>
+                      <!-- 29 -->
+
+                       <!-- 28 -->
+                       <div class="image">
+                         <a rel="shadowbox" href="https://www.youtube.com/embed/nAtqurAbUcs" target="_blank">
+                          <img src="img/videos/video28.jpg" class="thumb-video" />
+                          <span class="texto"><?php pten(
+                            'Repensar tradições: arte, gesto e contemporaneidade | Seminário | 19º Festival, 2015 ',
+                            'Repensar tradições: arte, gesto e contemporaneidade | Seminário | 19º Festival, 2015 '
+                            );?>
+                            </span>
+                         </a>
+                      </div>
+                      <!-- 28 -->
+
+                       <!-- 27 -->
+                       <div class="image">
+                         <a rel="shadowbox" href="https://www.youtube.com/embed/OpMFfBBbD2w" target="_blank">
+                          <img src="img/videos/video27.jpg" class="thumb-video" />
+                          <span class="texto"><?php pten(
+                            '#19Festival Panoramas do Sul | Artistas Convidados , 2015',
+                            '#19Festival Panoramas do Sul | Artistas Convidados , 2015'
+                            );?>
+                            </span>
+                         </a>
+                      </div>
+                      <!-- 27 -->
+
                        <!-- 26 -->
                        <div class="image">
                          <a rel="shadowbox" href="https://www.youtube.com/embed/3Fpd2qC5qQU" target="_blank">
