@@ -52,6 +52,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                    window.open('http://www.sescsp.org.br/livraria/3446_PANORAMAS+DO+SUL+ARTISTAS+CONVIDADOS#/content=detalhes-do-produto', '_blank');
                 })
 
+                $('#pub-fest-3').click(function(){
+                   window.open('http://www.sescsp.org.br/livraria/3659_PANORAMAS+DO+SUL+OBRAS+SELECIONADAS+E+PROJETOS+COMISSIONADOS#/content=detalhes-do-produto', '_blank');
+                })
+
                 paletaArtistas($('.titulo'));
                 paletaArtistas($('.publicacao p:nth-child(1)'));
                 paletaArtistas($('.publicacao p:nth-child(2)'));
@@ -233,10 +237,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                     Portuguese/English<br />
                     width: 18cm, height: 23cm</p>'); ?>
 
-                    <!-- <p><input type="button" value="<?php pten('comprar', 'purchase'); ?>" /></p> -->
+                    <p><input type="button" id="pub-fest-3" value="<?php pten('comprar', 'purchase'); ?>" /></p>
 
-                    <p><?php pten('Em breve disponível em livrarias, nas unidades do Sesc São Paulo, no Galpão VB | Associação Cultural Videobrasil e pela internet em <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.', 
-                                  'Soon available in bookstores, at Sesc São Paulo units, at Galpão VB | Associação Cultural Videobrasil and online at <a href="http://sescsp.org.br/livraria" class="link">www.sescsp.org.br/livraria</a>.'); ?>
+                    <p><?php pten('Também disponível em livrarias, nas unidades do Sesc São Paulo e no<br />Galpão VB | Associação Cultural Videobrasil.', 
+                                  'Also available in bookstores, at Sesc São Paulo units, and at<br />Galpão VB | Associação Cultural Videobrasil.'); ?>
                     </p>
 
 
