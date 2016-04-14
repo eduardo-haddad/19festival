@@ -90,10 +90,10 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
                                   $('.bc-atual').html('<?php pten('Prêmio especial','Special prize');?>');
                                });
                                
-                            } else if(hash.substring(0, 8) == 'mencoes'){ 
+                            } else if(hash.substring(0, 7) == 'mencoes'){ 
 
                                criaUrlIdioma('#mencoes');
-                               $('#pr-conteudo').load('elements/premios/premio_especial.php', function(){
+                               $('#pr-conteudo').load('elements/premios/mencoes.php', function(){
                                   $menuPR.eq(3).addClass('ativo'); 
                                   $('.bc-atual').html('<?php pten('Menções honrosas','Honorable mentions');?>');
                                });
