@@ -588,6 +588,7 @@ $(document).ready(
                             <a href="premios_e_residencias.php#grandepremio"><?php pten('Grande prêmio','Grand prize');?></a> | 
                             <a href="premios_e_residencias.php#premios"><?php pten('Prêmios de residência','Residency prizes');?></a> | 
                             <a href="premios_e_residencias.php#especial"><?php pten('Prêmio especial','Special prize');?></a><br />
+                            <a href="premios_e_residencias.php#mencoes"><?php pten('Menções honrosas','Honorable mentions');?></a> |
                             <a href="premios_e_residencias.php#juri"><?php pten('Júri','Jury');?></a> | 
                             <a href="premios_e_residencias.php#trofeu"><?php pten('Troféu','Trophy');?></a> 
                         </p>
