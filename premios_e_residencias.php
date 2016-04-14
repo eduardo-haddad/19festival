@@ -166,7 +166,7 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
                             } else if($id == 'pr-mencoes'){ 
                                 
                                criaUrlIdioma('#mencoes');
-                               $('#pr-mencoes').load('elements/premios/mencoes.php', function(){
+                               $('#pr-conteudo').load('elements/premios/mencoes.php', function(){
                                     $('.bc-atual').html('<?php pten('Menções honrosas','Honorable mentions');?>');
                                });
                                
