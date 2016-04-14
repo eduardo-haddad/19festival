@@ -70,7 +70,7 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
 
                                criaUrlIdioma('#juri');
                                $('#pr-conteudo').load('elements/premios/juri.php', function(){
-                                  $menuPR.eq(3).addClass('ativo'); 
+                                  $menuPR.eq(4).addClass('ativo'); 
                                   $('.bc-atual').html('<?php pten('Júri','Jury');?>');
                                });
                                
@@ -78,7 +78,7 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
 
                                criaUrlIdioma('#trofeu');
                                $('#pr-conteudo').load('elements/premios/trofeu.php', function(){
-                                  $menuPR.eq(4).addClass('ativo'); 
+                                  $menuPR.eq(5).addClass('ativo'); 
                                   $('.bc-atual').html('<?php pten('Troféu','Trophy');?>');
                                });
                                
@@ -88,6 +88,14 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
                                $('#pr-conteudo').load('elements/premios/premio_especial.php', function(){
                                   $menuPR.eq(2).addClass('ativo'); 
                                   $('.bc-atual').html('<?php pten('Prêmio especial','Special prize');?>');
+                               });
+                               
+                            } else if(hash.substring(0, 8) == 'mencoes'){ 
+
+                               criaUrlIdioma('#mencoes');
+                               $('#pr-conteudo').load('elements/premios/premio_especial.php', function(){
+                                  $menuPR.eq(3).addClass('ativo'); 
+                                  $('.bc-atual').html('<?php pten('Menções honrosas','Honorable mentions');?>');
                                });
                                
                             } else {
@@ -155,7 +163,14 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
                                     $('.bc-atual').html('<?php pten('Troféu','Trophy');?>');
                                });
                                
-                            } else if($id == 'pr-especial'){ 
+                            } else if($id == 'pr-mencoes'){ 
+                                
+                               criaUrlIdioma('#mencoes');
+                               $('#pr-mencoes').load('elements/premios/mencoes.php', function(){
+                                    $('.bc-atual').html('<?php pten('Menções honrosas','Honorable mentions');?>');
+                               });
+                               
+                            }else if($id == 'pr-especial'){ 
                                 
                                criaUrlIdioma('#especial');
                                $('#pr-conteudo').load('elements/premios/premio_especial.php', function(){
@@ -201,6 +216,7 @@ $titulo = $idioma == 'pt' ? 'Prêmios de Residência' : 'Residency Prizes';
                             <a id="pr-grandepremio" href="#grandepremio"><?php pten('Grande prêmio','Grand prize');?></a> | 
                             <a id="pr-premios" href="#premios"><?php pten('Prêmios de residência','Residency prizes');?></a> | 
                             <a id="pr-especial" href="#especial"><?php pten('Prêmio especial','Special prize');?></a> |  
+                            <a id="pr-mencoes" href="#mencoes"><?php pten('Menções honrosas','Honorable mentions');?></a> |
                             <a id="pr-juri" href="#juri"><?php pten('Júri','Jury');?></a> | 
                             <a id="pr-trofeu" href="#trofeu"><?php pten('Troféu','Trophy');?></a> 
                         </p>      
