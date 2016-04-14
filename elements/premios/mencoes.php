@@ -73,7 +73,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 </div>  
 <!-- 1 -->
 
-<div style="margin: 31px 0 16px 0; padding-top: 25px; padding-left: 0; border-top: 1pt solid #8F6B55; border-top-width: 100%;"></div>
+<div style="margin: 45px 0 19px 0; padding-top: 25px; padding-left: 0; border-top: 1pt solid #8F6B55; border-top-width: 100%;"></div>
 
 <!-- 2 -->
 <div class="row" style="clear: both;">   
@@ -94,7 +94,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
 </div>  
 <!-- 2 -->
 
-<div style="margin: 31px 0 16px 0; padding-top: 25px; padding-left: 0; border-top: 1pt solid #8F6B55; border-top-width: 100%;"></div>
+<div style="margin: 45px 0 19px 0; padding-top: 25px; padding-left: 0; border-top: 1pt solid #8F6B55; border-top-width: 100%;"></div>
 
 <!-- 3 -->
 <div class="row" style="clear: both;">   
