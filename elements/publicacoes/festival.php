@@ -129,7 +129,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 //Publicação 1 - EN
                 '<p>This volume features essays and art manifestos that introduce, champion or challenge the notion of a geopolitical South, comprising regions with shared historical, social, and cultural backgrounds. With input from theoreticians and examples of contemporary artistic and cultural practices, it discusses ideas that question Eurocentric representations and narratives. </p>
                 
-                <br /><p style="display: inline"><span class="upper">ORGANIZED BY</span> Sabrina Moura</p><br />
+                <br /><p style="display: inline"><span class="upper">EDITED BY</span> Sabrina Moura</p><br />
                 <p style="display: inline"><span class="upper">COLLABORATORS</span> Milton Santos, José Rabasa, Arjun Appadurai, Jean and John Comaroff, Joaquín Torres García, Organization of African Unity, Artur Barrio, Cildo Meireles, Rasheed Araeen, Rede Conceitualismos do Sul, Moacir dos Anjos, Anthony Gardner, Charles Green, Geeta Kapur, Néstor García Canclini, Achille Mbembe, Sasha Huber, Petri Saariko and Maria Helena Machado, Ana Longoni</p><br />
                 <p style="display: inline"><span class="upper">GRAPHIC CONCEPT</span> Ângela Detânico & Rafael Lain</p><br />
                 <p style="display: inline"><span class="upper">DESIGN</span> Carla Castilho, Lia Assumpção | Janela Estúdio</p><br />
@@ -195,7 +195,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 //Publicação 2 - EN
                 '<p>This publication contains references about the work and thoughts of Abdoulaye Konaté (Mali), Gabriel Abrantes (Portugal), Rodrigo Matheus (Brazil), Sônia Gomes (Brazil) and Yto Barrada (Morocco/France), the artists featured in the Southern Panoramas | Guest Artists exhibition, a part of the program of the 19th Contemporary Art Festival Sesc_Videobrasil. Conversations with the exhibition’s artists and curators outline the lines of inquiry of each of the participants, their underlying ideas, how each relates to the concept of a geopolitical South, and the curatorial themes at play in the show. Pictures from relevant artworks and biographical information shed light on the careers and universes of each of the guest artists. </p>
                 
-                <br /><!-- <p style="display: inline"><span class="upper">ORGANIZED BY</span> Sabrina Moura</p><br />-->
+                <br /><!-- <p style="display: inline"><span class="upper">EDITED BY</span> Sabrina Moura</p><br />-->
                 <p style="display: inline"><span class="upper">COLLABORATORS</span> Solange O. Farkas, Bernardo de Souza, Bitu Cassundé, Julia Rebouças, João Laia</p><br />
                 <p style="display: inline"><span class="upper">GRAPHIC CONCEPT</span> Ângela Detânico e Rafael Lain</p><br />
                 <p style="display: inline"><span class="upper">DESIGN</span> Carla Castilho, Lia Assumpção | Janela Estúdio</p><br />
@@ -259,7 +259,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 //Publicação 3 - EN
                 '<p>This publication catalogs the 60 artworks and art projects featured in the Southern Panoramas | Selected Works and Southern Panoramas | Selected Projects exhibitions of the 19th Contemporary Art Festival Sesc_Videobrasil. The items were selected from a pool of roughly 2,000 entries. The show’s curators contribute reviews-summaries of each of the pieces, as well as short essays on the projects, interspersed with pictures and sketches. Includes a special insert containing views of the exhibitions at Sesc Pompeia and Galpão VB.</p>
                 
-                <br /><!-- <p style="display: inline"><span class="upper">ORGANIZED BY</span> Sabrina Moura</p><br />-->
+                <br /><!-- <p style="display: inline"><span class="upper">EDITED BY</span> Sabrina Moura</p><br />-->
                 <p style="display: inline"><span class="upper">COLLABORATORS</span> Solange O. Farkas, Bernardo de Souza, Bitu Cassundé, Julia Rebouças, João Laia</p><br />
                 <p style="display: inline"><span class="upper">GRAPHIC CONCEPT</span> Ângela Detânico e Rafael Lain</p><br />
                 <p style="display: inline"><span class="upper">DESIGN</span> Carla Castilho, Lia Assumpção | Janela Estúdio</p><br />
