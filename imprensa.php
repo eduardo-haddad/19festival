@@ -1,11 +1,15 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
+$titulo = $idioma == 'pt' ? 'Imprensa' : 'Press';
 ?>
+
+
 
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
+    <title><?= ($idioma == 'pt' ? $titulo . ' - 19º Festival de Arte Contemporânea Sesc_Videobrasil' : $titulo . ' - 19th Contemporary Art Festival Sesc_Videobrasil')  ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
