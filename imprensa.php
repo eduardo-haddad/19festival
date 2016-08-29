@@ -149,6 +149,22 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/elements/config.php");
                 <div class="col-xs-12">
 
                     
+                    <!-- 48 -->
+                    <div class="bloco">
+                        <a href="http://videobrasil.org.br/19/imprensa/201601_ArtForum_ENG.pdf" 
+                        target="_blank">
+                            <img src="img/imprensa/201601_ArtForum_ENG.jpg" />
+                        </a><br />
+                        <div>
+                            <a href="http://videobrasil.org.br/19/imprensa/201601_ArtForum_ENG.pdf" 
+                            target="_blank">
+                            <span><?php pten('Art Forum', 'Art Forum'); ?><br />
+                            <?php pten('01/01/2016', '2016/JAN/01'); ?></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 48 -->
+
                     <!-- 47 -->
                     <div class="bloco">
                         <a href="http://videobrasil.org.br/19/imprensa/artafrica/ArtAfrica_7-BOOK_REVIEWS_AA_DEC.pdf" 
